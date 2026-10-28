@@ -15,7 +15,7 @@ from digest.common import DATA, ROOT, load_prompt, read_json, write_json
 
 log = logging.getLogger(__name__)
 
-SITE = ROOT / "site"
+SITE = ROOT / "docs"  # GitHub Pages serves this folder from the main branch
 SECTION_LABELS = {"tech": "Tech", "politics_india": "India", "politics_world": "World",
                   "markets": "Markets", "sports": "Sports", "fun": "Fun"}
 MOVE_ICONS = {"new": "🆕", "heating": "🔥", "cooling": "🧊"}

@@ -1,9 +1,11 @@
-"""Phase 5: email the edition via Gmail SMTP and rebuild the archive index in site/."""
+"""Phase 5: rebuild the archive index in docs/ (served by GitHub Pages), optionally email the edition via
+Gmail SMTP, and optionally commit + push so the site updates. Runs locally; no CI and no secrets on GitHub."""
 import logging
 import os
 import re
 import smtplib
 import ssl
+import subprocess
 from email.message import EmailMessage
 
 from dotenv import load_dotenv
@@ -12,12 +14,12 @@ from digest.common import DATA, ROOT, read_json
 
 log = logging.getLogger(__name__)
 
-SITE = ROOT / "site"
+SITE = ROOT / "docs"  # GitHub Pages serves this folder from the main branch
 SECRETS = ("SMTP_USER", "SMTP_APP_PASSWORD", "MAIL_TO")
 
 
 def build_index():
-    """site/index.html: every edition, newest first. Weekly files are named weekly-DATE.html."""
+    """docs/index.html: every edition, newest first. Weekly files are named weekly-DATE.html."""
     rows = []
     for p in sorted(SITE.glob("*.html"), key=lambda p: p.stem[-10:], reverse=True):
         if p.name == "index.html":
@@ -77,3 +79,17 @@ def run(cfg, date, weekly=False, no_send=False):
     count = build_index()
     status = "skipped (--no-send)" if no_send else send(subject, path.read_text(encoding="utf-8"))
     return {"path": path, "subject": subject, "editions": count, "email": status}
+
+
+def push(date, weekly=False):
+    """Commit the run's state and pages, then push. Only data/ and docs/ are staged, never anything else."""
+    git = lambda *a: subprocess.run(["git", *a], cwd=ROOT, capture_output=True, text=True)
+    git("add", "data", "docs")
+    if git("diff", "--cached", "--quiet").returncode == 0:
+        return "nothing new to commit"
+    msg = f"{'weekly' if weekly else 'daily'} edition {date}"
+    r = git("commit", "-m", msg, "--", "data", "docs")
+    if r.returncode != 0:
+        return f"commit failed: {r.stderr.strip()[:200]}"
+    r = git("push")
+    return f"pushed '{msg}'" if r.returncode == 0 else f"committed but push failed: {r.stderr.strip()[:200]}"

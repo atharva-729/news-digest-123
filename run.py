@@ -18,6 +18,8 @@ def main():
     p.add_argument("--from", dest="start", choices=PHASES,
                    help="start at this phase, reusing saved data from earlier ones")
     p.add_argument("--no-send", action="store_true", help="dry run: build everything but don't email")
+    p.add_argument("--push", action="store_true",
+                   help="after the run, commit data/ and docs/ and git push (updates the GitHub Pages site)")
     p.add_argument("-v", "--verbose", action="store_true")
     args = p.parse_args()
 
@@ -75,6 +77,9 @@ def main():
     if "deliver" in todo:
         out = deliver.run(cfg, args.date, weekly, args.no_send)
         print(f"[deliver] email {out['email']}; archive has {out['editions']} editions")
+
+    if args.push:
+        print(f"[push] {deliver.push(args.date, weekly)}")
 
 
 if __name__ == "__main__":
