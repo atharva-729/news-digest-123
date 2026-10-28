@@ -47,9 +47,9 @@ Rules:
   - Optional: the Claude API for the final writing step only, behind a config switch. Pro/Gemini subscriptions do *not* give API keys.
 - **State = JSON files in the repo** (`data/threads.json`, `data/items/YYYY-MM-DD.json`, `data/calls.json`). No database.
 - **Jinja2** for the HTML newsletter.
-- **GitHub Actions** cron for scheduling. **GitHub Pages** for the archive. **Email** via Gmail SMTP with an app password.
+- Runs locally (`python run.py daily --push`); no CI, so no secrets on GitHub. **GitHub Pages** serves `docs/` from `main`. **Email** via Gmail SMTP with an app password.
 
-Secrets (`FOUNDRY_TOKEN`, `SMTP_USER`, `SMTP_APP_PASSWORD`, `MAIL_TO`) go in GitHub Actions secrets and a local `.env` (git-ignored).
+Secrets (`FOUNDRY_TOKEN`, `SMTP_USER`, `SMTP_APP_PASSWORD`, `MAIL_TO`) go only in a local `.env` (git-ignored), never on GitHub.
 
 ---
 
@@ -68,9 +68,8 @@ l1l2l3-news-digest/
 │   └── prompts/           # prompts as .md files, not inline strings
 ├── templates/newsletter.html.j2
 ├── data/                  # committed state
-├── site/                  # generated GitHub Pages archive
-├── run.py                 # `python run.py daily` / `python run.py weekly`
-└── .github/workflows/daily.yml
+├── docs/                  # generated archive, served by GitHub Pages
+└── run.py                 # `python run.py daily --push` / `python run.py weekly --push`
 ```
 
 ---
@@ -196,8 +195,8 @@ l1l2l3-news-digest/
 ## Phase 5 — Delivery & schedule
 
 **Do**
-- `deliver.py`: send the HTML via Gmail SMTP (app password). Write the edition to `site/YYYY-MM-DD.html` and update `site/index.html` (a simple list of past editions).
-- GitHub Actions workflow: cron at `30 0 * * *` (06:00 IST), plus `workflow_dispatch` for manual runs. Steps: install → `python run.py daily` → commit `data/` and `site/` back to the repo → deploy `site/` to Pages.
+- `deliver.py`: send the HTML via Gmail SMTP (app password). Write the edition to `docs/YYYY-MM-DD.html` and update `docs/index.html` (a simple list of past editions).
+- ~~GitHub Actions workflow~~ Dropped (2026-10-28): company LLM secrets must not go into GitHub. Instead `python run.py daily --push` runs locally and pushes `data/` + `docs/`; Pages deploys from branch `main`, folder `/docs`.
 - Add a dry-run flag: `python run.py daily --no-send`.
 
 **Don't**
