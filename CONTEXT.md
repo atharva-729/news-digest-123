@@ -41,9 +41,11 @@ the last 5 entries.**
 - Idea credit: @neworderindia, in README and every footer (`credit` in config).
 
 ## Open questions / parked
-- Phase 5: SMTP secrets and GitHub repo deferred by user. Untested: whether Actions runners can
-  reach LLM Foundry, and Pages on a private repo needs a paid plan.
-- Employer-IP / licence: check with manager before making the repo public.
+- Repo: https://github.com/atharva-729/news-digest-123 (public, pushed 2026-10-28). To go live: set
+  Pages source to "GitHub Actions", add secrets FOUNDRY_TOKEN + FOUNDRY_BASE_URL (+ SMTP_USER,
+  SMTP_APP_PASSWORD, MAIL_TO for email). Untested: whether Actions runners can reach the LLM gateway.
+- Email: suggested a separate sender-only Gmail account, since an app password grants full mailbox access.
+- Employer-IP / licence: user chose a public repo; company endpoint kept out of the code for that reason.
 - Thread claims are long and compound; tighten the prompt after Checkpoint 3 if they read generic.
 
 ## Log (last 5)
