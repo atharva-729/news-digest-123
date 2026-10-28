@@ -1,42 +1,52 @@
 # LLM usage
 
-What calls a model, how often, and roughly what it costs. Measured on 2026-10-28 from
-`data/llm_usage.jsonl` (37 calls while building and backfilling 27–28 Oct). Every call appends one line
-there: step, model, input / cached / output / reasoning tokens, seconds, and estimated USD. Summarise any
-time with `python -m digest.usage` (add `--since YYYY-MM-DD` to skip test runs).
+What calls a model, how often, and roughly what it costs. Measured on 2026-10-29 from
+`data/llm_usage.jsonl`. Every call appends one line there: step, model, input / cached / output /
+reasoning tokens, seconds, and estimated USD. Summarise any time with `python -m digest.usage`
+(add `--since YYYY-MM-DD` to skip test runs).
 
-Everything goes through `digest/llm.py` (one OpenAI-compatible endpoint, set in `.env`). Ingest, dedupe,
-validation, status maths, rendering and delivery use no LLM at all.
+Everything goes through `digest/llm.py` (one OpenAI-compatible endpoint, set in `.env`). Ingest, reading
+articles, robots.txt checks, dedupe, validation, status maths, the "Remember?" questions, rendering and
+delivery use no LLM at all.
 
 ## Per daily edition
 
-| Step | What the model does | Model · reasoning | Calls | Tokens in / out per call | ~$ per call |
-|---|---|---|---|---|---|
-| `select` | Picks the day's 25 items (+2 reserves per section) from ~250, ids only, with a reason and funding tags | gpt-5-mini · minimal | 6 (one per section) | ~2.3k / ~0.2k | 0.001 |
-| `threads` | Attaches picks to L2 threads, proposes new threads, merges and the cross-link | gpt-5-mini · low | 1 | ~4.3k / ~3.9k | 0.009 |
-| `connect` | Links today to last week's ~300 headlines: thread backstory and throwbacks | gpt-5-mini · low | 1 | ~18k / ~2.5k | 0.009 |
-| `write` | Punchy headlines, so-whats, TL;DR, the big one, force lines, call, quiz | gpt-5.4-mini · low | 1 | ~8.5k / ~2.1k | unpriced* |
-| `write:retry` | Only if the writer skipped cards: rewrites just those | gpt-5.4-mini · low | 0–1 | ~2k / ~0.6k | unpriced* |
+| Step | What the model does | Model · reasoning | Calls | Tokens in / out per call |
+|---|---|---|---|---|
+| `select` | Picks 25 stories (+2 reserves per section) from ~270, ids only, preferring ones we can read in full | gpt-5-mini · minimal | 6 | ~2.9k / ~0.2k |
+| `threads` | Attaches picks to L2 patterns, proposes new ones, merges and the cross-link | gpt-5-mini · low | 1 | ~4.9k / ~3.7k |
+| `teach` | Writes the stable teaching card (one line, "it's like", why, rule of thumb) for new patterns only | gpt-5.4-mini · low | 0–1 | ~0.8k / ~0.2k |
+| `connect` | Links today to ~300 of last week's headlines: pattern backstory and "last week → today" | gpt-5-mini · low | 1 | ~18k / ~2.9k |
+| `write:cards1` | Explains the tech stories from the article text (headline, explanation, why it matters) | gpt-5.4-mini · low | 1 | ~7.6k / ~1.5k |
+| `write:cards2` | Same for all other sections | gpt-5.4-mini · low | 1 | ~11.5k / ~1.4k |
+| `write:page` | The day in 3 lines, the big picture, force lines, prediction, 2 quiz questions | gpt-5.4-mini · low | 1 | ~4.8k / ~0.7k |
+| `write:retry` | Only if a card was skipped | gpt-5.4-mini · low | 0–1 | small |
 
-**Per day:** about 9 calls, ~45k tokens in and ~10k out. On gpt-5-mini list prices the non-writer steps
-are about **$0.025/day**; the writer adds roughly $0.01–0.02 depending on gpt-5.4-mini's price.
-**Ballpark: $0.04/day, about $1.20/month.** Weekly adds one `weekly` call (~3.3k in / ~0.5k out).
+**Per day:** about 12 calls, ~65k tokens in and ~12k out. The gpt-5-mini steps cost about **$0.026/day**
+at list prices; the gpt-5.4-mini steps (~25k in / ~4k out) add roughly $0.02–0.04 depending on its price.
+**Ballpark: $0.06/day, about $2/month.** Weekly adds one `weekly` call (~3.2k in / ~0.5k out).
 
-\* gpt-5.4-mini isn't in `model.prices` in `config.yaml` yet, so its cost logs as null. Add its price
-there and the log fills in.
+gpt-5.4-mini isn't in `model.prices` in `config.yaml` yet, so its cost logs as null. Add its price there and
+the log fills in.
 
 ## Why these choices
 
-- **Writer on a stronger model.** It's the only step where voice matters. gpt-5-mini kept restating
-  headlines ("Live2.ai raises ₹130 Cr…"); gpt-5.4-mini wrote "Anthropic is pricing apocalypse into its
-  IPO" with the same prompt, and was faster (14 s vs 42 s) with fewer output tokens.
-- **Select at minimal reasoning.** It's ranking, not thinking; 6 calls a day, so it stays cheapest.
-- **Threads and connect at low.** At minimal, the model rarely grouped items into threads.
-- **Connect is the biggest input** (~18k tokens: 300 past headlines). Halving `lookback_max_items` in
-  `config.yaml` halves it.
+- **Explanations read the article.** The writer's input is the biggest it has been (~19k tokens for the
+  cards), because explaining a story needs the story. Text is capped at 700 words per article
+  (`read.max_words`).
+- **Writer on a stronger model.** It's the step people read. gpt-5-mini restated headlines; gpt-5.4-mini
+  explains plainly and is faster.
+- **Teaching cards are written once per pattern**, not daily: cheap, and the same words every day is what
+  makes a pattern memorable.
+- **Select at minimal reasoning** (ranking, 6 calls); **threads and connect at low** (minimal rarely grouped
+  stories into patterns).
+- **Connect is the biggest single input** (~18k: 300 past headlines). Halving `lookback_max_items` halves it.
+- **Guard:** if an answer contains a non-English script the prompt didn't (seen once: a Russian word), the
+  call is retried with an "English only" instruction.
 
 ## Things to decide later
 
-- Personal API key: which provider and model per step. The token counts above carry over to any provider;
-  only the prices change. Only `llm.py` and `config.yaml` need to change.
-- Whether the writer's quality is worth a bigger model, or whether `connect` can drop to minimal.
+- Personal API key: which provider and model per step. Token counts carry over to any provider; only
+  prices change. Only `llm.py` and `config.yaml` need to change.
+- The "explain like I'm…" dial (Kid / Simple / Normal / Expert + a vibe switch) would multiply the
+  `write:cards` output by the number of levels: roughly +$0.03–0.10/day.

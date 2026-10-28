@@ -21,3 +21,6 @@ desktop.ini
 # Local scratch
 *.zip
 *.log
+
+# Article text read for explanations: never published
+/cache/

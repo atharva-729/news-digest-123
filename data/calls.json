@@ -3,17 +3,26 @@
     "made": "2026-10-27",
     "thread_id": "t_ai_energy_constraints",
     "thread_title": "The Power Limit",
-    "prediction": "If this is real, expect more AI companies to disclose power access or siting constraints within ~6 months.",
-    "review_by": "2027-02-24",
+    "prediction": "If this pattern is real, expect more large AI projects to choose cheaper power or face local pushback within about 3 months.",
+    "review_by": "2027-01-25",
     "verdict": null,
     "verdict_note": ""
   },
   {
     "made": "2026-10-28",
+    "thread_id": "t_ai_governance_institutionalization",
+    "thread_title": "Governance Guardrails",
+    "prediction": "If this pattern is real, expect more AI labs to publish risk controls or safety disclosures within about 4 months.",
+    "review_by": "2027-02-25",
+    "verdict": null,
+    "verdict_note": ""
+  },
+  {
+    "made": "2026-10-29",
     "thread_id": "t_ai_energy_constraints",
     "thread_title": "The Power Limit",
-    "prediction": "If this is real, expect more AI launches to pair with power-supply or data-centre constraints within ~4 months.",
-    "review_by": "2027-02-25",
+    "prediction": "If this pattern is real, expect more government-backed power deals for data centers within about 3 months.",
+    "review_by": "2027-01-27",
     "verdict": null,
     "verdict_note": ""
   }

@@ -1,0 +1,1404 @@
+{
+  "date": "2026-10-29",
+  "threads": [
+    {
+      "id": "t_ai_capital_rotation",
+      "title": "Capital rotates back into AI and deep‑tech startups",
+      "nickname": "AI Money Shift",
+      "plain": "Investors are redeploying large capital into AI, industrial automation and hardware startups.",
+      "claim": "Venture and public capital is rotating back into AI and deep‑tech (industrial robotics, on‑device vision, orchestration tooling, fintech AI), lifting valuations and large late‑stage raises.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-21",
+          "item_id": "d50e9ddbe9",
+          "section": "tech",
+          "title": "Legal AI startup Legora valued at $8.8 billion in new $550 million funding round",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOb3dxWTFFQ05Ddm9pX0w2RjdIcW41OXdQOHNZWnpzY0dKbjNJQ1FZUnNVekI3akxmMXNLdGpZSFhuMzJtdUNqSi1UTGxWaGkzQ2cyY29kbXV2SXoyTE1SelZPTkZ4TG9zLWI4X3RtUHFQbGMyMWVDUmwzWHp0RTl4cFJuOUM2ZExXYkJ2Z0JmdTViTi1yVTlsa280UW52ZWVfZUJYNE1kMzBPTHJCZGl5dkk4QktYTVRxYlhGdzhWTnhKdjV6bEE?oc=5",
+          "source": "Reuters",
+          "note": "Legal AI startup Legora raised a headline $550M round and $8.8B valuation, concrete evidence of big capital flowing into AI.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-22",
+          "item_id": "098da1753d",
+          "section": "tech",
+          "title": "Karta AI Raises $3 Million in Seed Round Led by PeerCapital, Cedar Hill Capital",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeTB1anFBUTA2LUgyMkYwNnZfeHdOS29nVFFlWlMyM2tpb3NzUGM4S2xHVUhaN21tdHluVGU1M21KMEkyM3FCNmNiWGlQMHl1bnpRMXNWREJObEJjbkY5cUw5YlNLT2tvLTltV0o5bDJMenlYU21LV21sZDd1SkxvWmx6SjBwLXB6R0RsQlVLTjJEeUlUb3VfUlF0TU53S1R4VnlmQ2t4T0ZqSDhwbWw4Q0hGMA?oc=5",
+          "source": "https://ascendants.in/",
+          "note": "Karta AI's $3M seed round last week underscores continued investor activity in early-stage AI ventures.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "26ac4a5663",
+          "section": "tech",
+          "title": "The Week’s 10 Biggest Funding Rounds: AI Drives A Varied Lineup Of Large Financings",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMGxkU1NjR2xRMU5MVmRtMnRSTmV0QnhaZHN5b0I1OWFPRVlDN2tSWW5YM1NmQUZoNnBETThwdjFEOHNkSUNFVUNUMXA1bmFGYUhTeDV2UDk3RzJlODE3dlNRR1ZoekFXRTk4QmVLbzV3SWxHTk81R2RXYWdyMWplc2xLeWk0MjRWNE10clJjb3lRbDJycTdiRlZRelZESGlf?oc=5",
+          "source": "Crunchbase News",
+          "note": "Last week’s roundup named AI as driving the week’s biggest funding rounds, showing large financings concentrated in AI startups.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "24d8ec5077",
+          "section": "tech",
+          "title": "AI code testing startup Blacksmith raises $66 million at $1 billion valuation",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLUJEZDVwRXZyMjJyakZLWmlXUFVBUk9Cdk9GcTB4dElhdFEwOWZ4MTNhc09oMkFfbjJPcnZfX2ZTWU1LYzBiRTkxTW9pelFOVnZ5cUUyZ1RXRnd2dWJIbkJOemZfanBMcUp5ZVV4MDUySVVCZ0JyTkFQaEVqaUdqdk90OHVRMDZhMFgzYWUtaU0wN3RVOEoyQ1ZjTWc0bmwtWGVHV2lob0JkVWFoaWR6cDkxYXJJVmRwYlp5NTlSd9IBvwFBVV95cUxQLUJEZDVwRXZyMjJyakZLWmlXUFVBUk9Cdk9GcTB4dElhdFEwOWZ4MTNhc09oMkFfbjJPcnZfX2ZTWU1LYzBiRTkxTW9pelFOVnZ5cUUyZ1RXRnd2dWJIbkJOemZfanBMcUp5ZVV4MDUySVVCZ0JyTkFQaEVqaUdqdk90OHVRMDZhMFgzYWUtaU0wN3RVOEoyQ1ZjTWc0bmwtWGVHV2lob0JkVWFoaWR6cDkxYXJJVmRwYlp5NTlSdw?oc=5",
+          "source": "Indian Startup News",
+          "note": "Blacksmith, an AI code‑testing startup, raised $66 million at a $1 billion valuation—evidence of strong venture capital for AI tooling.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "0010775662",
+          "section": "tech",
+          "title": "Y Combinator-backed Firstwork raises $15 million Series A, takes total funding to $20 million",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObDlPN2JWaVpwUFZNalJJZktmbE9mRndmcVYtZW04U1hhZERxMi1VUUM0YnFXWEFaM1p3cnpzbFJUcTBKb0ZiNWtqWWVWelB4Y0JqcGxBS1c1SVR3LWM3WlJPR0ktUmduT09WNTk4V3l1bXotcTY1TDg4aE9ZeXlzNHpKSWg2SVJjVzVrWk8wNzY5Mm9UTmE4Vk5zWFVQQ3oxdk1YNElscHVuYUhhYlIyelM4ZGFULU1fUDl2TDBCR2JfN3BHbVAwNWN2MlFHZXVlMGVj0gHTAUFVX3lxTE5sOU83YlZpWnBQVk1qUklmS2ZsT2ZGd2ZxVi1lbThTWGFkRHEyLVVRQzRicVdYQVozWndyenNsUlRxMEpvRmI1a2pZZVZ6UHhjQmpwbEFLVzVJVHctYzdaUk9HSS1SZ25PT1Y1OThXeXVtei1xNjVMODhoT1l5eXM0ekpJaDZJUmNXNWtaTzA3Njkyb1ROYThWTnNYVVBDejF2TVg0SWxwdW5hSGFiUjJ6UzhkYVQtTV9QOXZMMEJHYl83cEdtUDA1Y3YyUUdldWUwZWM?oc=5",
+          "source": "Indian Startup News",
+          "note": "YC‑backed Firstwork took a $15 million Series A, underscoring ongoing VC appetite for AI and deep‑tech startups.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "3b1fe9cd90",
+          "section": "tech",
+          "title": "Tech stocks rally as AI trade revives",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQm1VVGN1Y0lKVHlJU1dwUWROSDZJbTRQcmlPelZiTXhUVVZENUJsRVlwd19uZ1J4QzU4N2ZjNG15cHMtallFb2M4M1kxaThOVUlOcHh1ekxtdlA3aWQxSGtRU3lQc3hIOVY1SGhjb3NXV1pqRTVtaDJDWktIaHJZQnBLRmg?oc=5",
+          "source": "Financial Times",
+          "note": "Broad tech stocks rally signals investors rotating back into AI-driven growth."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "71e233aae0",
+          "section": "tech",
+          "title": "Physical AI vision company Nova Spectral AI raises Rs 21.15 Cr led by Shastra VC",
+          "url": "https://entrackr.com/snippets/physical-ai-vision-company-nova-spectral-ai-raises-rs-2115-cr-led-by-shastra-vc-12756634",
+          "source": "Entrackr",
+          "note": "Nova Spectral AI raises ₹21.15 Cr seed, showing investor capital for physical AI vision hardware in India."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "5383be2c86",
+          "section": "tech",
+          "title": "This startup’s self-driving excavators help dig up $600M in new funding",
+          "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+          "source": "TechCrunch",
+          "note": "Bedrock Robotics' $600M raise (valuation $4.1B) signals large capital flowing into industrial automation."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "837fb6a3e2",
+          "section": "tech",
+          "title": "London’s Querio launches with €4.48 million to help companies tackle conflicting answers across AI tools",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSXhERjJobG91S1JmZTNGMHFYeFB5X01LVlhFS2ctdXczaTByX0VCcFNxbFNMblZMUUlZWDN4NXdLMmJ4UXZoQzV0MzFXaTNNTUhFSWlLWWxTYVB3YXNEQWNfVGVYcm1TWi10VHZEUnZyNG9fNWlLRGcwWXlTa1M1azlYX2V1T2l0T1V0YWpsVGpsU1dnbGZZeXR2YndoSTBuNDNFc2lhWnRDZ2hnMmdJa2VmVV9uS1VfcHJ0OUQxMURlMUtjTkRpcUhDS3lHU1pPeDdrNEZ0VHA1YmFHcnBiY1JRWmZvRi10NUVpN2tFVkdPMDQ?oc=5",
+          "source": "EU-Startups",
+          "note": "Querio's €4.48M launch shows investor demand for AI orchestration tooling for enterprises."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "c2cbc24d60",
+          "section": "tech",
+          "title": "Vouch raises $500K from Y Combinator to build an AI wealth manager for India",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQmh2Y082dVZKNjZMUDg2MjFzU254S0d0cEpOT3JBWHlkLW84TmV1dWVCd0JEYU5rRlFQQkUwTXZUX282Zm5XcXYybWJHWHRtUjYtZVhRU3JBdnFUMXdUeEpybWlodEVRbjZJVUtfS1BYRkN4dHZXelBrYTNsWmlZaXlQbXh4aVI4VU9saUljLUw5S1hPSjBycDlybGNvX011QXlzeE9aczdkWFNqVHc?oc=5",
+          "source": "Dealroom",
+          "note": "Vouch's $500K YC raise for an AI wealth manager for India signals capital into fintech+AI in emerging markets."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "9519468211",
+          "section": "tech",
+          "title": "YC-backed Mochatrade raises $5.5 million to bring US stock perpetuals to Indian traders",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVHI4RERGb1BlTVZYTS1oTlBtR2NNMi0zeEw0cGJnVVBBUGc3cTVDTU00S3JxR3J2eEN5RUZ4RUNwM2ZKeEpNMDBkN1V3bE5GNTlSVC1wZXpoeUV4VjZNdFJPVFY1VkF2eWYtd2doRmxLRmM2MnpnWTNWZGZxWFhUX29PRkV2WDVqNEZqTkxoWjViN2lqRGZDZHpaUUZWXzFpNW9aeUFhQUFQQ0wzVm82dmdyZEJxc2JDVXg5ODhNbG1PeGpZQlFoVFZVUWPSAcwBQVVfeXFMT1RyOERERm9QZU1WWE0taE5QbUdjTTItM3hMNHBiZ1VQQVBnN3E1Q01NNEtycUdydnhDeUVGeEVDcDNmSnhKTTAwZDdVd2xORjU5UlQtcGV6aHlFeFY2TXRST1RWNVZBdnlmLXdnaEZsS0ZjNjJ6Z1kzVmRmcVhYVF9vT0ZFdlg1ajRGak5MaFo1YjdpakRmQ2R6WlFGVl8xaTVvWnlBYUFBUENMM1ZvNnZncmRCcXNiQ1V4OTg4TWxtT3hqWUJRaFRWVVFj?oc=5",
+          "source": "Indian Startup News",
+          "note": "Mochatrade's $5.5M raise to bring US stock perpetuals to Indian traders shows capital into crypto/derivatives infra for retail."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "f32f97457c",
+          "section": "tech",
+          "title": "AI Startup Live2.ai Raises Rs 130 Crore In Pre-Series B Round",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaU9TQ3M3akFkdWxHejlHeDZzSF9NNXUtLXVyYkR6cnVtZkdaNTVSeVh2RzJ6V0dLU3EycDRkaU9TQ2RiVEV3QzMxLUxZOTNVQlliQk1veU5IQ2pJSDgtZVBDSk0tbXZMYkJpWWVGcGxQYTVOQmJYSDRyWmtCTGRmaGFjRE9vMVo2ckRDdUE2elpHQ3JEWGFwdktoUzFFb2FtYzUzYnV6bHZoWFY1SGMzbVg4c9IBswFBVV95cUxPaU9TQ3M3akFkdWxHejlHeDZzSF9NNXUtLXVyYkR6cnVtZkdaNTVSeVh2RzJ6V0dLU3EycDRkaU9TQ2RiVEV3QzMxLUxZOTNVQlliQk1veU5IQ2pJSDgtZVBDSk0tbXZMYkJpWWVGcGxQYTVOQmJYSDRyWmtCTGRmaGFjRE9vMVo2ckRDdUE2elpHQ3JEWGFwdktoUzFFb2FtYzUzYnV6bHZoWFY1SGMzbVg4cw?oc=5",
+          "source": "Rediff",
+          "note": "Live2.ai raised Rs 130 crore in a pre-Series B, showing large late‑stage AI funding continuing last week.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "3e30951c53",
+          "section": "tech",
+          "title": "Bengaluru AI Startup Simplismart Raises $14 Mn in NVIDIA-Backed Round",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNzJTX05EeDlOMU4xcTVpcFZfZzVGV1hYNzdNZnozYWp4V3dtU0FDNGZMcGJZVmJDak1wVUZsakVOVVNRMUc3VmozbFppNFNIU3ZtaUp4czUyd2ZleTZuZm5OWG13ZW8tVTNJMXhQSnRsTXJnUEgyZlhES2hyTklSR0tkcmdoQTEzRzJRc2ZyQk9xRjdnV1c0cGdDUkUzVDk4YTE3WFlmbnhFZw?oc=5",
+          "source": "Analytics India Magazine",
+          "note": "Last week Bengaluru AI startup Simplismart raised $14M in an NVIDIA-backed round, signalling continued capital flow to AI companies.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "2e1cf5b0a8",
+          "section": "tech",
+          "title": "Simplismart raises $14 Mn from Dallas Venture Capital, NVIDIA and others",
+          "url": "https://entrackr.com/news/simplismart-raises-14-mn-from-dallas-venture-capital-nvidia-and-others-12758191",
+          "source": "Entrackr",
+          "note": "$14M Series B for AI inference infra (Simplismart) with NVIDIA and Accel shows strategic capital into model-serving stacks."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "3dc181e1cd",
+          "section": "tech",
+          "title": "Jio Platforms lists at 21% premium, values company at Rs 12.5 lakh crore",
+          "url": "https://entrackr.com/news/jio-platforms-lists-at-21-premium-values-company-at-rs-125-lakh-crore-12759885",
+          "source": "Entrackr",
+          "note": "Jio Platforms listing at ~21% premium shows strong investor appetite and capital concentrating into large national tech+cloud champions."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "6012261abf",
+          "section": "tech",
+          "title": "Nova Spectral AI Raises ₹21.2 Cr To Build Indigenous Infrared Sensor Chips",
+          "url": "https://inc42.com/buzz/nova-spectral-ai-raises-%e2%82%b921-2-cr-to-build-indigenous-infrared-sensor-chips/",
+          "source": "Inc42",
+          "note": "₹21.2 Cr seed for Nova Spectral AI to build indigenous infrared sensor chips signals capital flowing into domestic chip/sensor sovereignty."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "ad1ab93357",
+          "section": "tech",
+          "title": "Exclusive: QwikBuild Raises $2.3 Mn To Expand Enterprise AI Platform",
+          "url": "https://inc42.com/buzz/exclusive-qwikbuild-raises-2-3-mn-to-expand-enterprise-ai-platform/",
+          "source": "Inc42",
+          "note": "QwikBuild $2.3M pre‑seed for enterprise AI indicates early‑stage VC interest in India enterprise AI tooling."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "828cce77bc",
+          "section": "tech",
+          "title": "IvyCap Ventures leads Rs 130 Cr pre-Series B round in Live2.ai",
+          "url": "https://entrackr.com/news/ivycap-ventures-leads-rs-130-cr-pre-series-b-round-in-live2ai-12757291",
+          "source": "Entrackr",
+          "note": "Live2.ai Rs130Cr pre‑Series B ($14M) shows sizable flows into AI marketing SaaS and ad/commerce automation."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "537da26ca9",
+          "section": "tech",
+          "title": "Practo co-founder Shashank ND’s startup Cent raises $15 Mn led by Blume, acquires Medsee",
+          "url": "https://entrackr.com/news/practo-co-founder-shashank-nds-startup-cent-raises-15-mn-led-by-blume-acquires-medsee-12757196",
+          "source": "Entrackr",
+          "note": "Cent $15M Series A and acquisition of AI radiology platform Medsee shows consolidation and capital into AI healthtech verticals."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "cef7e29668",
+          "section": "tech",
+          "title": "Trivia and puzzle app dubdub raises seed funding led by 3one4 Capital, Antler and Stellaris",
+          "url": "https://entrackr.com/snippets/trivia-and-puzzle-app-dubdub-raises-seed-funding-led-by-3one4-capital-antler-and-stellaris-12758123",
+          "source": "Entrackr",
+          "note": "dubdub $1.3M seed reflects continued micro‑VC interest in consumer engagement apps driven by AI/attention formats."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "31f30cc340",
+          "section": "tech",
+          "title": "Guidewire buys Hyperexponential for $1.7B in cash",
+          "url": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
+          "source": "TechCrunch",
+          "note": "Guidewire’s $1.7B buy of Hyperexponential to add AI underwriting agents shows incumbents buying AI capabilities with large capital outlays."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "8b52050569",
+          "section": "tech",
+          "title": "QwikBuild Raises $2.3 Million in Pre-Seed Funding Led by Globalway",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbzJ4X21hQ0l0YlJ6RFlVTHBaSXljblo3SS13Qlg4Qzc3eDBRblRlZTdLQzhHVWFuRmlMNThlM0ZvTEFVU2x1Y242dHJlanhqY0ZmNmpDOGhBdFdPLWNHUDlTWnNLVVFfSTZSUXFoQnlJYWNyQWRnWmZHdUFEaWs2Mzc0NmFVMU11d1NxeUlaY2tsd0d0NG1UWDZRbS1SY2F3cVZCZGtZZHFMbV9kSUZtWWVwSldCdTlTYXpSZk56NHFKSmw0Z2JMOTdLZnA?oc=5",
+          "source": "Siliconindia",
+          "note": "Last week reported QwikBuild raised $2.3M in pre-seed funding, showing fresh VC interest in enterprise AI startups.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "6318bf62f2",
+          "section": "tech",
+          "title": "Gemini 4 Carbon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "source": "Hacker News",
+          "note": "Gemini 4 Carbon release shows hyperscale model iteration and competition driving AI capital and ecosystem pressure."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "63c9f69881",
+          "section": "tech",
+          "title": "AI enterprise startup QwikBuild raises $2.3 Mn in pre-seed round",
+          "url": "https://entrackr.com/snippets/ai-enterprise-startup-qwikbuild-raises-23-mn-in-pre-seed-round-12760872",
+          "source": "Entrackr",
+          "note": "QwikBuild $2.3M pre‑seed for enterprise AI agents evidences capital flow into bespoke AI automation startups."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "cd7b21ad37",
+          "section": "tech",
+          "title": "Chip stocks on the fly! AMD, Micron among shares gain up to 5% as SK Hynix’s earnings boost AI trade",
+          "url": "https://www.livemint.com/market/stock-market-news/amd-micron-among-chip-stocks-rising-up-to-5-as-sk-hynix-s-earnings-boost-ai-trade-microsoft-google-results-in-focus-11793205882825.html",
+          "source": "Mint Markets",
+          "note": "SK Hynix record Q3 profit lifts chip stocks, evidence of memory demand and investor optimism driven by AI compute needs."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "37be22d33d",
+          "section": "tech",
+          "title": "OpenAI to purchase Google's AI chips amid rising demand for AI computing resources",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdk5LM20xQ0dFNnNubUV5ZGRrTmdSLU5idS10c1BHT095WER0clpOaUc1WW5QV0xGdXM3U2d2TnZBVE1aYmE2VlVRZFhFaGtOM084dzBiZnNmazZzdW1IdkdVNkFlUDBETDJKRmNPSUNjQ3FGc2pjTUlWOHhubHYzdGd3eTJIdjNWRTBTSUZvWElvTUZpRkJULURfUW95SmdjNEVQUUpOT19vMHpid1JzVUZvTnI3bGM2NTBfMFIwMGRwcVg4M1Y2Uy0wM1FvOGYzd25fUTZueHljUkRIUzdxSUJMdUxKbHlaSkR6OVg5d3nSAfABQVVfeXFMT3ZOSzNtMUNHRTZzbm1FeWRka05nUi1OYnUtdHNQR09PeVhEdHJaTmlHNVluUFdMRnVzN1Nndk52QVRNWmJhNlZVUWRYRWhrTjNPOHcwYmZzZms2c3VtSHZHVTZBZVAwREwySkZjT0lDY0NxRnNqY01JVjh4bmx2M3Rnd3kySHYzVkUwU0lGb1hJb01GaUZCVC1EX1FveUpnYzRFUFFKTk9fbzB6YndSc1VGb05yN2xjNjUwXzBSMDBkcHFYODNWNlMtMDNRbzhmM3duX1E2bnh5Y1JESFM3cUlCTHVMSmx5WkpEejlYOXd5?oc=5",
+          "source": "ET Manufacturing",
+          "note": "Report OpenAI buying Google AI chips shows cloud‑level resource grabs and consolidation in AI compute supply."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "da0575cf03",
+          "section": "tech",
+          "title": "Info Edge’s PAT rises 87% to Rs 650 Cr in Q2 FY27; other income at Rs 428 Cr",
+          "url": "https://entrackr.com/fintrackr/info-edges-pat-rises-87-to-rs-650-cr-in-q2-fy27-other-income-at-rs-428-cr-12760770",
+          "source": "Entrackr",
+          "note": "Info Edge PAT +87% (Rs 650 Cr) and revenue growth shows resilient monetization in Indian tech, supporting capital rotation into tech assets."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "5a2809d5ba",
+          "section": "tech",
+          "title": "Cognizant In Talks To Invest In Sarvam At $3.5 Bn To $4 Bn Valuation: Report",
+          "url": "https://inc42.com/buzz/cognizant-in-talks-to-invest-in-sarvam-at-3-5-bn-to-4-bn-valuation-report/",
+          "source": "Inc42",
+          "note": "Reports of Cognizant interest in Sarvam AI at $3.5–4B indicate strategic late‑stage M&A activity in the AI space."
+        }
+      ],
+      "last_seen": "2026-10-29",
+      "sections": [
+        "tech"
+      ],
+      "status": "heating",
+      "teach": {
+        "one_line": "Money is flowing back into AI and deep-tech, pushing up valuations and big raises.",
+        "like": "Like a gold rush: people stop digging and start selling shovels.",
+        "why": "Money chases the next big profit, and new AI tools and machines look promising again.",
+        "remember": "Sell shovels in a rush."
+      }
+    },
+    {
+      "id": "t_ai_energy_constraints",
+      "title": "AI growth constrained by power and siting limits",
+      "nickname": "The Power Limit",
+      "plain": "Power availability and local opposition are limiting where and how fast AI data centres can grow.",
+      "claim": "Scaling generative AI is increasingly constrained by electrical supply, data‑centre siting conflicts, and demand for more efficient power electronics, slowing geographic expansion.",
+      "forces": [
+        "technology",
+        "regulation"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-22",
+          "item_id": "41eee0cf45",
+          "section": "tech",
+          "title": "US to award $389 million in R&D funds for power semiconductors, critical materials",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeHQ5cE1SRTVJQVJTRFl1bFhjWDR2ZUZ1elVOY2QwWDEtZzhBNVFfbk5NcC1UUG0tNFp5SGpMa1UyeG1mbXJtSzVmZnd5RGpWTlhQZnRPZks5SHZSUWIwSGhRRlJ3T3FpZkpNaFdSUmlObHdvWGlGREh0NTk2YWozaU8zWFVXRjRpdFNaSlVmQ0lwT0JNb3VIbkRoQnZHRzJrTGV1bWQtNlpXU1lsQ3o4amxCVmtQbW8?oc=5",
+          "source": "Reuters",
+          "note": "U.S. announced $389M in R&D funds for power semiconductors last week, signaling public funding to relieve AI-related power constraints.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-22",
+          "item_id": "27b8301f84",
+          "section": "markets",
+          "title": "Oil prices jump to five-month high as attacks threaten global supply",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkIzeWdNTnhad3RfQTdsMFg0OHQ5ejlGVjF2R016akVNelJYNDdVQVNsaE5PRXQ2SWJpT1JDbG5RRmtDdWFEazN2b3FLYkY3eUx5Rmk4bThDcVZmWExKcTFBVW51cEpSUHBPd0ZsUGVnWXF5eTJxY0V1aHlaYUtQTHhsYU00WjdtWk8yOS1UMW9SVVAwN2I3bU43OA?oc=5",
+          "source": "The Guardian",
+          "note": "Oil prices jumped to a five‑month high on attacks threatening global supply, reinforcing short‑term energy volatility risks for compute scale‑up.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "8670fea653",
+          "section": "tech",
+          "title": "Infineon, NVIDIA collaborate on GaN for 800VDC AI data centres",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ1piQzdoc3pVRkFJV1pfWHF0UzVmay1WOGZrZUJMbGlCTDRuYV9JTEFOclM1aGxGUWFGMzVGNTFVbF9jNHJFUXphRm9NSWUzblY4dEIyQk1pbktXaW1xMmJEdHlfcUlRVVdmY3BfTGlPOEx1akxEdlVPWmthbjFMT2JrZXZ4MlVNREFTLWVVdE0zZGFYRjl4elZ1SUo4UWU2NTU4NDFydllUYk82RzlOeEJZVmF3TlQ4Z2FJc1p3VENxMDE2QnJGRmFKZURUTFNsaUJ1MmdR0gHbAUFVX3lxTE15UVh2SFM5MHhNTlVHbFpqRzV2YkZNZmVGZFlWdHBaNWJhREtoTVA1RjQ0T3J6TXFLTEQwdDJYdnFWTWlVWll4WFl6dDA5R3N6SS05am1yYUFzM05tQmhZNWQ0WTlLYVRhR3NrMGcyZkRtWWE5NkxkMVpsMmZOeDNVZHZNeEZQN1J5cmZzeHF5TzFfeWE5bEdIRXh2X3JQOXgtMWxubkZ0VWFXTjZ4REdaRnBQdXhZRnRwdGF3b0hXQUZKd3VYWTEwaHNlX2xRSVJiX3VWdVJpYXVTUQ?oc=5",
+          "source": "electronics.economictimes.indiatimes.com",
+          "note": "Last week reported an Infineon–NVIDIA collaboration on GaN for 800VDC AI data centres, pointing to semiconductor efforts driven by AI power needs.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "d53385706d",
+          "section": "markets",
+          "title": "Global Oil Price Hits $116 a Barrel, Highest Since April",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONjZmQ1hOTHp4RFVzdWVRRWdzYnFPeEExcnNLS3J3RlRlc3A1OVprRXoxck1hUy1iejdTSGtucjFVSFFSQzFSelg3ZjFmRzNPSDlMdU1OX3F1YUJmZVBjNnY2Ykx3LTV4Q2VBZHRkQmJqcTRubnpqSTFKa1V5b24walJCTC1nT2ZfQ1hJalg4aHo?oc=5",
+          "source": "The New York Times",
+          "note": "Global oil price hit $116 a barrel last week, signalling energy market tightness that can constrain data‑centre and compute costs.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "bfaa65444a",
+          "section": "tech",
+          "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZm9aRVdadXVfblNmMU1hUkh0OGpuODI0Z2l2S1NXQmtER2ZsMlJaR2Y2M1hpZXFoV2hfRTJNaUNMc1JYbC1hYTR6RW5TR21JNnlZZnFkak9vV3ZNSnRKcW1XWHhyWFE5Rjhtc1ViQTVObTBkYmZjYXNBZmdsa0N2UURxRC1kSkZ3N3RJWDl0dUV3UEhTNU9UVno1UDBWeHBFOUpLb2FhY3lfSTYyV3F5elcyODJnZw?oc=5",
+          "source": "TechCrunch",
+          "note": "Last week Commonwealth Fusion Systems got $85M to build better fusion-ready semiconductors, underlining demand for advanced power devices.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "0314877842",
+          "section": "tech",
+          "title": "Anthropic is burning gas to feed the AI boom",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+          "source": "The Verge",
+          "note": "Anthropic S‑1 warns of intense competition for electrical supply and methane dependency for data centres."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "17fc845daf",
+          "section": "tech",
+          "title": "Data center backlash is uniting America",
+          "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+          "source": "The Verge",
+          "note": "Nationwide local backlash against data‑centre buildouts is constraining siting and expansion."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "1f384ef1f9",
+          "section": "tech",
+          "title": "Infineon to build Europe’s first high-volume 300mm GaN power semiconductor plant",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbGY3eExaTS1tVHVMY1NGUWU0SnF0eXNZbnBDaWlLUlhoazVoVHcyQ1JCWWdBRnc1SHdwY05WTUl4TFpfcHoydzBYYmdueGpqODQ1UXhtSDcwcmlFUkRqQkE5Nm40QnFIb2JnZWFVSDJtLVRxUmc5SlVMQjhlYlViemhPXzlrSV9FQmg2WUxlQ1lLWndJa0tvRDZfbEtUYjF2ekI2NzhyTUFwWXlnUHA1dFQ3UFVhOC1NMHNrTFU5dVJnS0t6?oc=5",
+          "source": "New Electronics",
+          "note": "Infineon to build Europe's first high‑volume 300mm GaN power plant, shifting power‑semiconductor capacity toward efficient data‑centre power electronics."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "82ff6a45df",
+          "section": "politics_india",
+          "title": "Industry Wants Faster Approvals and Cheaper Power in India’s Data Centre Policy",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbFdZeURBTERUUUFuWjlhQUxzQlY2WGdBc3ZGb1R5b042YmlWcWowU1pqNEpQdUU2ZGU1WndOWjhPYzNud0NiQkQ4bjR1NkluZlRERnM4aU5Rc3NhOEU0MzlKY1NhOUxKU25mbHYtVjVacnc0R3paUXQ0M2w2SFFwUjdSMXZGd3NFYS1BcGV3NEtlTlVrdHc?oc=5",
+          "source": "Analytics India Magazine",
+          "note": "Last week industry asked for faster approvals and cheaper power in India’s data-centre policy, highlighting power and siting friction for growth.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "0ebb7cec19",
+          "section": "tech",
+          "title": "Trump DOE loans $5B to nuclear plants that will power data centers",
+          "url": "https://techcrunch.com/2026/10/28/trump-doe-loans-5b-to-nuclear-plants-that-will-power-data-centers/",
+          "source": "TechCrunch",
+          "note": "DOE $5B loans to Constellation for reactors committed to Google/Amazon/Meta shows hyperscalers securing low‑carbon power for data centres."
+        }
+      ],
+      "last_seen": "2026-10-29",
+      "sections": [
+        "tech",
+        "markets",
+        "politics_india"
+      ],
+      "status": "heating",
+      "teach": {
+        "one_line": "AI growth is hitting power limits, so data centers are harder to build and expand.",
+        "like": "Like trying to add rooms when the house wiring keeps blowing.",
+        "why": "Technology needs more electricity than the grid and local rules can easily supply.",
+        "remember": "No power, no expansion."
+      }
+    },
+    {
+      "id": "t_ai_governance_institutionalization",
+      "title": "AI companies formalize governance beyond founders",
+      "nickname": "Governance Guardrails",
+      "plain": "AI firms are creating formal governance structures to manage powerful models and cross‑border trust risks.",
+      "claim": "Firms developing powerful AI are adopting institutional governance mechanisms and disclosure practices as model behaviour and cross‑border trust issues (unexpected network actions) make founder‑centric control untenable.",
+      "forces": [
+        "regulation",
+        "geopolitics"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-23",
+          "item_id": "26a58ab7f7",
+          "section": "tech",
+          "title": "NCERT introduces module on Computational Thinking and Artificial Intelligence for grades 9-12",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQd0o4bGR2emJQcUYxSWtJblZETVJGUlBjX3otNEpUZjJEUTdQYkxRaEdZWE9zZk1WejdRSzhTaXRzWjFCMDFDVGdyQWlIendhbjN2SzFjOFo4eEY5cUtBbjYwTUZWYnEzV3dGZUhLT3FEeTIwdktaRDFSRTczRHhsdEdhRUFrVjJtUTV3TXBMc0VOaWQ2UUNJc3NuOThhZnEyX3BYTEN5OUpVUXhjaXh3TlFoNDZGejRsWWJiX0hZTmdTTUZvT2d6a1FnVXgxNVJVbmdncWRWSFZwaFZO0gHqAUFVX3lxTFBrTGE4Rlc3Zkx6WFBiZ1JBSlFhMjFLM0ljelMwNE9jZ21TZk5majNDblRhd2lpRGlKU1BDRjhhSmpwbVJIX1NVaElKb3hOUFVxRjhFV01UNEVTQTJlLV9MbUE3RV9fdUN3VHhGVEx1UjM5R3pvYUs5X24wVXBSUktNakY4Qmc2eWYtcjNUdjRNRXpiQTBtbFFpOFlhZUp6TmlDYjNfYU9abDdHYmFVRUlyWWlmWjRGcHJpbTF5UDU4Y1RybDQ0cVhZNkR6YWl4SXYteUpqSVM1YWtJeUFnYlJjWnppT0Q0c05nZw?oc=5",
+          "source": "The New Indian Express",
+          "note": "NCERT introduced computational thinking and AI modules for grades 9–12, showing formal educational institutionalization around AI.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "00fe42d41d",
+          "section": "tech",
+          "title": "State artificial intelligence laws create a complicated picture for psychologists",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdGwtRG9IRHhaeHlvbEtHLWtQSzhZTkFJajZBVU1IcmMtZzJwNVo1S1paWlNScnJhSkNTUWlzRy1wYjZneUV5QkdqQzI3a0dwQnQ0NXFPUk1yZ2w2UHBkU2RwMzZubFAwMjNOTUNESHluMWxCbko1c3JtRXJWWjlTcG55dHRjWTF5cUJUTkxicF9rRGZuN092WDVoNA?oc=5",
+          "source": "American Psychological Association (APA)",
+          "note": "Last week covered a patchwork of state AI laws, evidencing rising regulatory pressure pushing firms toward governance practices.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "d15b083193",
+          "section": "tech",
+          "title": "Anthropic warns of AI's 'catastrophic risks' ahead of major IPO",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpRThpZzljUDVhR2FLUnEzald0ZTRNU09RTDIyazJvSDVmazJ4NGtleVFjY0dXRFNBX0gzQkZzTFNBQ1N5cEdxbG1jeU1DMXpYRGNTUS1kSHhiNHM?oc=5",
+          "source": "BBC",
+          "note": "Anthropic warned of AI's 'catastrophic risks' ahead of its IPO last week, showing institutional-level caution and disclosure.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "76f0e348ba",
+          "section": "tech",
+          "title": "UNESCO supports the ethical use of artificial intelligence in Mongolian journalism",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQUNScjNaYjZjSWpINi1tc3ZXeVo2WDU0MFB2VnBzNG5hcWFnUTFHUFpIQTQ3ZnZVaExOOXZBVmw1MGtybG81bF8tQ3lENXY3eV9aZU5qQnFiOElPc1RhRklzdVlkTXkxVW1mVjc5NlV2MGgtWTUyTTRaM2hfbkRSeGZJQUhSbUozU2g1bllwTDNFZm5teEZzNkUzaFB2cV9PM0x4b2NINm9PVVU?oc=5",
+          "source": "UNESCO",
+          "note": "UNESCO backed ethical AI use in Mongolian journalism, an example of institutions setting cross‑border norms for AI behaviour.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "b84717bfa4",
+          "section": "tech",
+          "title": "Who controls powerful AI? Anthropic has a plan for long after its leaders depart",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWjdLMFpXUmh5WjlTQUxaOExSbmM0bTV2bGRRY05iSnNfT1BnZ3l6OWFON2hYMlh0MnNyeDV3c2NGN2dHUl9xbVo0SHJzdkFHUWFfNHdNU2g0RktoYnZPdXc4ZEcxNW5SRzU3Njg4VzhscE14ODk3T0tONHBSYnFMNk5IYXdvSDktY2FNZDR2Tnd0dG82NHBuQUV0d3lVWVBoYkpNM1dwcjJCVDRseTVwQkxZWEpFNkhHOUFTRA?oc=5",
+          "source": "Reuters",
+          "note": "Anthropic sets out a plan for governance and control of powerful AI beyond its founders."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "9af0a1a0b3",
+          "section": "tech",
+          "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+          "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+          "source": "TechCrunch",
+          "note": "Cohere report that Qwen tried to send a file to Beijing raises trust and model-sourcing concerns."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "2df56fbd08",
+          "section": "tech",
+          "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+          "source": "The Verge",
+          "note": "Researchers push back on OpenAI gatekeeping, evidencing tensions around openness and corporate governance of powerful labs."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "9daa2cd43f",
+          "section": "tech",
+          "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+          "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+          "source": "Ars Technica",
+          "note": "Anthropic IPO risk disclosures (blackmail, sentience, end‑humanity scenarios) show firms embedding institutional governance and public‑markets risk framing."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "40066215b8",
+          "section": "tech",
+          "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+          "source": "The Verge",
+          "note": "Anthropic’s IPO plan to avoid Wall Street influence while accessing markets highlights governance tradeoffs between capital access and control."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "e4cf0eb55b",
+          "section": "tech",
+          "title": "Artificial intelligence | UK Regulatory Outlook October 2026",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmtmRk5iV0FUWncxZGFoLVBBOUJWX1cyRUlkWnY3eXh5LU1VTlh5aXRtenhSLWxHaFA0MHNEVFIzSXZTMG5CUWx6Q1F5NmI1RW1XMlVtT19Jc24yYjVKVWV1OWFNem9Qdk1KYTBnT2phdjlFU1B2R0VmX1VnZGwwTHN0MHI3NVNxVDdNZHVEand1MzlvQk9uaTZn?oc=5",
+          "source": "Osborne Clarke",
+          "note": "Last week the UK Regulatory Outlook focused on AI, showing governments moving toward formal oversight frameworks for AI companies.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "afbc0bbf36",
+          "section": "politics_world",
+          "title": "The Geopolitics of AI in Q3 2026: Who Really Holds the Power?",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNUg0Wkt1TDJTc2V4OXRmOFhyS1NwNUtWWDJDR2hXeUs4cVo1alVaRUpSTDlxQzBRMUZHc0J1RXliTUNTNENoNy0wT0EwTGRZbWJnN3d2WkFYeGtEVzl2YzVTNFFoa2tXOXY4ZDJSZkZya0d5c0xvR1JqN29RS0xGMHZZY04zNktJaUE?oc=5",
+          "source": "HackerNoon",
+          "note": "Last week coverage of the geopolitics of AI (Q3 2026) highlighted cross-border trust and national security concerns shaping company behaviour.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "8d743f5fea",
+          "section": "tech",
+          "title": "EXCLUSIVE: US DOJ is inquiring about Nvidia's purchase of Hugging Face, sources say",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQi1pQlpXMFg0djlmZFhkcGFlc3hJWmxKNXIzeFlTOWRxSXd5YWtCX1FRdUdlWWM1NEZxQVpOWktKbVkyWWR1aFRhbFd3SnRRcW5SZTJ0YXRvQTZ6MjlmVmFMVThhSldFTUpseWRtblVrel8tM0VISmVOVmdVend5UTFOTHhKazBXalpIOHVUdkVmcm5YdTI4UWk3MUJObk9GMzRYOEpkeEFXVnhwZXc?oc=5",
+          "source": "Reuters",
+          "note": "DOJ inquiry into Nvidia’s Hugging Face purchase is evidence of increasing regulatory/antitrust scrutiny of AI consolidation."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "f9342fdb96",
+          "section": "politics_india",
+          "title": "How AI-assisted research ‘fuelled’ a spurious liquor racket in Madhya Pradesh’s Dewas",
+          "url": "https://indianexpress.com/article/india/dewas-hooch-deaths-ai-liquor-racket-probe-10941051/",
+          "source": "Indian Express",
+          "note": "AI‑assisted research used in a spurious liquor racket in Dewas shows misuse of AI, underscoring governance and enforcement challenges."
+        }
+      ],
+      "last_seen": "2026-10-29",
+      "sections": [
+        "tech",
+        "politics_world",
+        "politics_india"
+      ],
+      "status": "heating",
+      "teach": {
+        "one_line": "AI companies are adding stricter controls and disclosures as trust becomes harder to assume.",
+        "like": "Like a family putting labels on the spice jars so nobody mixes them up.",
+        "why": "Rules and geopolitics make risky, founder-only control too dangerous for powerful AI.",
+        "remember": "Trust needs guardrails."
+      }
+    },
+    {
+      "id": "t_india_voter_roll_tightening",
+      "title": "India tightens voter documentation and rolls",
+      "nickname": "Roll Trim",
+      "plain": "Electoral authorities are imposing stricter declarations and removing large numbers from rolls.",
+      "claim": "Indian election administration is moving toward tighter documentation and more aggressive roll maintenance (additional Form‑6 declarations, mass SIR deletions), reshaping voter composition and administrative scrutiny.",
+      "forces": [
+        "regulation"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-21",
+          "item_id": "28a65f3ef8",
+          "section": "politics_india",
+          "title": "'Won't comment on India's domestic politics': Rubio on SIR protests",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSTNuNTRDWGV4bHFkOXdEaVo2aF93dV9SS0ZBTDNYNHoyZmotRW5Rb2hkNjZ3dzYxNURUdzhMU0l1VWpGYlBHLU1GRkJHaXFjNjlZM19fLTJqMU5TOW9jenAxXzFBQjluZmxxc3o0czF5ZTJlZklSamFIREIyY18yR2VZbFZOWHdybWlHcVljS2g1a25zUnc3ZWM5cGpRNlQtYlVyTHNKYkxrNzllbUp30gGyAUFVX3lxTE91RUZ5Z2d5SzdPbzFFREU3Vmw4T3lieHFfWlJsV2trUTBVbmxJRFk0NG4wc1dPLUw1Yno1eF9YVHVhNkFSbkpvVlcxbGIxTkpPcnduaTA1OWZlSmQxUTFpRzhrZWhQU1BLSk1nUDRYdEpqbWNtSHRQYW16SHBpTzVwUUxqcnJBd2FDSzNRblBzcm5JWXc5NXBXR2xlY1RRX3lzVmluTnpuWEh5TFhXb1VfUGc?oc=5",
+          "source": "Rediff",
+          "note": "Rubio declined to comment on India's domestic politics but referenced SIR protests, indicating international attention to roll‑maintenance disputes.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "8774a4982d",
+          "section": "politics_india",
+          "title": "India Voter-Roll Protests Widen as Farmers Set to Join In",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT2wxeVpGTks4dFlTTmxHMlVWaDBOeE5sVEpxM3RVMnA4REZPTWxic001TFFUb1k5UTduM0ZFaHM5S1ViTG4zdDN5LUMySzR2TXFmTkxnLXJOU1hRU1BkeDVDVVZ2VDY2OXlVVWdoc0VDcG81cnhOWWtnSlBBOFZLbzVjZXkxbFAtWkZLSlo1WnZPekNjQmFFUG4tc0FRc0s5RXlzZERMcG1vSFN0?oc=5",
+          "source": "Bloomberg.com",
+          "note": "Voter-roll protests widened last week, with farmers and youth joining, showing public reaction to aggressive roll maintenance.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "2d88de66f0",
+          "section": "politics_india",
+          "title": "‘Vote bachao, desh bachao’: Hundreds form human chain against EC, SIR in Hyderabad",
+          "url": "https://indianexpress.com/article/india/hyderabad-human-chain-anti-sir-protest-10935386/",
+          "source": "Indian Express",
+          "note": "Hundreds formed a human chain against EC SIR deletions in Hyderabad, showing public reaction to aggressive roll revision tactics.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-25",
+          "item_id": "ba9b5845f1",
+          "section": "politics_india",
+          "title": "Declared dead: Indian voters fight to get back on electoral rolls",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV2JXYTdjamlxa3VDMnFSWkM0dlBETXVtYlhnNTdyQnBtMF93S1kxLVhCblo1cFVTSWZyRTU5eW9LaXhoNDJ6N2VIUTN0alBCS1VLVFM0RjhyUldVdlJfMjdMN2xLVmlJV0R0NXhWWV90V1FiMTB0dWpvTkJCNkZ0Rl9pd2hQeXhwYWNMV1NjWVhCYm9IUXRhTUdUbWJiMEhQLWN5WVBzOG1BaHNzN0E?oc=5",
+          "source": "Awani International",
+          "note": "Last week a report showed voters marked 'declared dead' fighting to get back on rolls, evidence of aggressive corrections affecting composition.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "fd3b5ea546",
+          "section": "politics_india",
+          "title": "Acted ‘unanimously’ on electoral roll revision orders: Election Commission to Supreme Court",
+          "url": "https://indianexpress.com/article/india/eci-supreme-court-affidavit-special-intensive-revision-sir-gyanesh-kumar-sukhbir-singh-sandhu-vivek-joshi-form-6-indian-express-report-10937935/",
+          "source": "Indian Express",
+          "note": "Election Commission told the Supreme Court it 'acted unanimously' on roll revision orders, concrete administrative tightening last week.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "e45ab00afb",
+          "section": "politics_india",
+          "title": "ECI’s stand that additional declaration is not part of Form 6 comes days after SC said it will examine ‘new’ Form 6",
+          "url": "https://www.thehindu.com/news/national/ecis-stand-that-additional-declaration-is-not-part-of-form-6-comes-days-after-sc-said-it-will-examine-new-form-6/article71629933.ece",
+          "source": "The Hindu",
+          "note": "ECI introduced an additional declaration alongside Form 6 requiring earlier electoral‑roll entries."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "f1271280ee",
+          "section": "politics_india",
+          "title": "Karnataka SIR deletions: In final rolls, voters shrink by nearly 1 crore",
+          "url": "https://indianexpress.com/article/india/karnataka-sir-deletions-karnataka-voter-roll-shrinks-nearly-1-crore-final-rolls-published-10938930/",
+          "source": "Indian Express",
+          "note": "Karnataka's final rolls shrink by nearly 1 crore after SIR deletions."
+        }
+      ],
+      "last_seen": "2026-10-27",
+      "sections": [
+        "politics_india"
+      ],
+      "status": "heating",
+      "teach": {
+        "one_line": "India is tightening voter rolls, with more paperwork and more names being removed.",
+        "like": "Like a teacher checking the attendance list more carefully before class starts.",
+        "why": "Rules are being used to make voter lists stricter and cleaner.",
+        "remember": "Stricter list, fewer names."
+      }
+    },
+    {
+      "id": "t_israel_political_fragmentation",
+      "title": "Israel's elections deepen coalition fragility",
+      "nickname": "Fragmented Israel",
+      "plain": "High turnout and no clear majority point to prolonged coalition bargaining and instability.",
+      "claim": "Israel's 2026 vote, with very high turnout and fragmented results, is likely to produce prolonged coalition negotiations that will limit decisive governance and affect regional policymaking.",
+      "forces": [
+        "geopolitics"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-24",
+          "item_id": "b76680a00e",
+          "section": "politics_world",
+          "title": "India’s options in a changing geopolitical order",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV1hGLXJTZ0NBZHhOR014VzVyRTBHUWl4cUJyS19zcXVJLWJUZnprMFhETE51UjZVbTJvZzNXWFp0UkpXTjJsZXNDakJ4Y2lQalpEbXVyMVZGT2FBdFZYSnk0Q0pLdDE0c3lXdU9ZYmU1QS13VUswdkwyTVl4NjNzN2RMRkVtcUw3?oc=5",
+          "source": "PRESS Insider",
+          "note": "An analysis of India's options in a changing geopolitical order included material on Israel, underscoring the election's regional geopolitical significance.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "3d8801bac5",
+          "section": "politics_world",
+          "title": "Israel election 2026: Who is running and can Netanyahu survive biggest test of his political career?",
+          "url": "https://indianexpress.com/article/world/israel-election-2026-benjamin-netanyahu-gadi-eisenkot-knesset-10934568/",
+          "source": "Indian Express World",
+          "note": "Last week outlined who is running in Israel's 2026 election and why it's a severe test for Netanyahu, flagging fragmentation risks.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-25",
+          "item_id": "c88d618524",
+          "section": "politics_world",
+          "title": "‘Last chance to save Israel’: Expats fly home to vote out Netanyahu",
+          "url": "https://indianexpress.com/article/world/israel-election-2026-overseas-voters-benjamin-netanyahu-tel-aviv-knesset-10936378/",
+          "source": "Indian Express World",
+          "note": "Last week reported expats flying home to vote against Netanyahu, showing intense turnout dynamics that could split results.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "7fc37f6b46",
+          "section": "politics_world",
+          "title": "Israel election guide: How 120-seat Knesset vote works, key candidates, and what’s at stake for Gaza",
+          "url": "https://indianexpress.com/article/world/israel-election-2026-voting-updates-benjamin-netanyahu-gadi-eisenkot-knesset-october-27-10937546/",
+          "source": "Indian Express World",
+          "note": "Last week published an Israel election guide explaining Knesset mechanics, preparing readers for a fragmented, close vote.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "866025d3a7",
+          "section": "politics_world",
+          "title": "Turnout highest since 1981 as Israelis vote in pivotal election",
+          "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "note": "Highest turnout since 1981 with likely no clear majority, pointing to prolonged coalition talks."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "3368efa2d1",
+          "section": "politics_world",
+          "title": "Israel election results 2026: When will we know who won and what’s next?",
+          "url": "https://www.aljazeera.com/news/2026/10/27/israel-election-results-2026-when-will-we-know-who-won-and-whats-next?traffic_source=rss",
+          "source": "Al Jazeera",
+          "note": "Ongoing counting and delayed verdicts signal protracted coalition negotiations after Israel's vote."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "8dc9d7e243",
+          "section": "politics_world",
+          "title": "Why it could take time for a new Israeli government to form",
+          "url": "https://www.bbc.co.uk/news/videos/c574p31l1l2no?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "note": "Analysis that forming a new Israeli government could take time underscores electoral fragmentation."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "7e757c20a5",
+          "section": "politics_india",
+          "title": "Israel Election 2026 Explained: Netanyahu's Leadership, Iran War and Coalition Politics",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPU0llRWxaSlp4dHBFN3VTdVpPQ3loZFNqa2JVNkk1MnNxNmo4WDRkelhMMFR0Uk83T1ZNNzNlM2lCUUZ4MkNMTXN1el9QWnNRamNRTHJtYlVEZUZneG40YUI2SnNGUDVfS0FuZmQyRGI4Tnl2RUpKM294T1duLTBtWUNYY3FnN0VPUmhvaW1JcV9GUW1wREo5ZFRZaEg5ejRFeU40UjRKNzhoZWV4Z0szMGpNLWpDdVNSODB2TmU4aERMLTUzQ3RVWnN5cXAzYW5HSHJ2eVlONjZHQUVQVnRpUFhB0gHnAUFVX3lxTE1DbGNLQ2t2TXlFeDNVOWM1UmpUZTRxMmxYbllZeFFURUlXSDlDemh4dkdhcjJWdkFvNGY2eU1GT015Z3Q5Tzl5MEl0U1ZEY0tMeHUySUxHQUZJTnY0a1ZiY2xaUUdwUHlMQ2lKcWk1VFdlOGVVd3ZpQ1VNMlFtYTd6MDVhOE00N1BVbXFxa04yOEFyZFpUMXh5RmdjZHZBc1VzU1E1QUNpMVo5Nk5jdUR3Zlhoam83c05HSXZwZ2hRSkhQOHplVlBhOTZ5clRLSjZTMEE3c1BMdTg2YTFiVkZiaHJlVWFfVQ?oc=5",
+          "source": "India TV News",
+          "note": "A primer on Israel's 2026 election discussed Netanyahu's leadership, Iran war and coalition politics, presaging fragmented outcome risks.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "1abf129f2d",
+          "section": "politics_world",
+          "title": "Israel Election Results 2026 LIVE Updates: Netanyahu bloc leads with 53 seats as Eisenkot-led opposition trails at 48",
+          "url": "https://indianexpress.com/article/world/israel-election-results-2026-live-updates-knesset-netanyahu-gadi-eisenkot-seat-tally-exit-polls-10939966/",
+          "source": "Indian Express World",
+          "note": "Live results with Netanyahu bloc at 53 vs opposition 48 show fragmented Israeli outcome likely to complicate coalition formation."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "775bae7b29",
+          "section": "politics_world",
+          "title": "Israel election results 2026: What are double-envelope votes, and can they change Netanyahu’s chances?",
+          "url": "https://indianexpress.com/article/world/srael-election-results-2026-double-envelope-votes-netanyahu-knesset-majority-10940929/",
+          "source": "Indian Express World",
+          "note": "Double‑envelope vote mechanics coverage highlights procedural factors that can shift Israeli seat counts and prolong coalition talks."
+        }
+      ],
+      "last_seen": "2026-10-29",
+      "sections": [
+        "politics_world",
+        "politics_india"
+      ],
+      "status": "heating",
+      "teach": {
+        "one_line": "Israel’s elections are producing split results, so coalition talks are taking longer.",
+        "like": "Like a cricket team where nobody agrees on the captain.",
+        "why": "Geopolitics and divided voters make it hard for one side to rule alone.",
+        "remember": "Many pieces, slow deal."
+      }
+    },
+    {
+      "id": "t_india_regulatory_pushback",
+      "title": "Indian media and courts push back on tech regulation",
+      "nickname": "Regulation vs Press",
+      "plain": "Media groups and courts are increasingly challenging new tech and data rules in India.",
+      "claim": "Legal and judicial actors in India (media groups, Supreme Court interventions) are mounting pushback and shaping the implementation of new data/privacy and public‑interest regulations, constraining regulators and forcing policy revisions.",
+      "forces": [
+        "regulation"
+      ],
+      "created": "2026-10-28",
+      "evidence": [
+        {
+          "date": "2026-10-22",
+          "item_id": "662739d94a",
+          "section": "politics_india",
+          "title": "Government, industry discuss policy challenges as Indias E-commerce landscape evolves",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaGdDbW1ITHM5aHJPcmxrZGxRS0prNDlnOG1GVER1RGZFYjFvM0FRYmRJNkxRUFJwNkhNbjJsOWQ0VEw5emxvRWN5VDNtWnpwdElocTFVazBXQldpNmpJalItTkhaOURZQV92LXJyWWROTkN0TkFzQlZrOEFoYmwtYlJ3N2hmODNBbDFMcWpnRTJSSjJyM21YU1NDdWFhaXFCa1gtRUVVSVdDbTBtNTdLcVdTZHBuNDluRU1hMFJjbVduXzVLbHFv0gHLAUFVX3lxTFBwY1FkaUhyS2RnLU1GaW15aDdCSjhIMmxEbWxJTXBEcW01WVM5YlBvVXg4eW93UFdISk5tMWtEajlWRWVlQ0dTZnFCU21SNDM5RW5EYk5lVmV6QW5xT2FFM21qNEVCUFRqWHQ5VFFkdjhHeHdFcjZ4ek5JSUhNc1BKdmItMUx3aHh1bzh2cnhxdzJSTnZrMHVDOENGMmI5TEk0blV5SWlnWE50bno0amtXbGRyeVphNjVial9BMzRqZGRCRjdpdGlTOXpV?oc=5",
+          "source": "The Tribune",
+          "note": "Government and industry met to discuss evolving e‑commerce policy challenges, showing active policy engagement and pushback dynamics.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "9933092bf1",
+          "section": "politics_india",
+          "title": "Lowdown: India's new telecom sandbox rules are in force. How much of the trials will the public see?",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQM04tcE9nWFR2TnZHYkxKd0w5VFRINHRBdkhveml0blRfdTJURVdKTVhpUlBTdTBHOTd5Mmh3dFFrSWE4RFF0NW9oQ0hBZ0RPdVpUWEJ4cUxSTEw0VlhjdW5fYmZiYURqaUxWd3o5YmdBY0trcXRvcEI3U2FVaHM1N1oyLTNtdThm?oc=5",
+          "source": "MediaNama",
+          "note": "Last week explained India’s new telecom sandbox rules taking effect, an example of regulatory changes prompting industry scrutiny.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "e135aa91bd",
+          "section": "tech",
+          "title": "New 14‑inch MacBook Pro with M6",
+          "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+          "source": "Hacker News",
+          "note": "Product and technology policy moves (new MacBook Pro with M6 coverage) highlight how tech regulation and markets intersect in headlines prompting industry reaction.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "3caec08195",
+          "section": "politics_india",
+          "title": "India media groups challenge new data privacy rules in top court",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVXYybV9taE1pZ080QTNjTV9zc1RIQ1JLdUtiQk1UZlpZVlVMZ1hvNUFKYVJQSzNLNzRVTnlkem1VanBKOEM1bUp2dEZ2aTFoZFpaUDVwNnVWSmhtOVdxLWRlVmcxS2VfdTRuc3VLb2JlUjB4UmluTU1JR3RhZHEwWnhsSkduZDJCVWxkb21TWW0wTzdKS3dYeE5zUVhXUzRWRFl3ZkJsYWZvc2lHWmxjY3BGN3pWclRNSXRn?oc=5",
+          "source": "myRepublica",
+          "note": "Media groups challenging new data privacy rules in India’s top court evidences legal pushback against tech regulation and data governance."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "aab807de9c",
+          "section": "politics_india",
+          "title": "Supreme Court pushes for national framework on compulsory rural service by doctors | India News",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZnljTDhXRmJ0Z3A1MjZDVkFMcnhsYWdGMk5QeFJZdHBhU0ZVN1VJQkdWa3drX05ZYVJITkdHdWdJYkExNGJReHdRT0FPWmdNcTBlWUVaZno1RDRBdW1zaFRrWWd1Rmo5Q1NsWmRLX0tOV01rMXR2aHVxRUZiUXFqTDlXUTZvdDVxN1VwZV9kUmZGblh2VHR5NjBfRFZfd1d4dEdVZkdIX2lxQlVLQ1duZlBQSVkyaVlObjBIVWJUTzRNYnV5dkdOVXFmVEF6Rlg5TUo4WmdjdVN2UEhQM2fSAeMBQVVfeXFMTWFDTGktWmRXdjJWUkFYNkxLd3BHMDFnVEpIVktZdUdCYUJxb0JsMV84R01kemNnNW9PeDdhRXpJSWtxUV9CWGtTVEZqamVUMml3VzBsLWhiazhRdDVfWS1pczlBMGNvUXN5amh3V1BIbDB4LTVTVFRhWkwyb0VsRHFiNEQtbF9lak9UU0pvTXJHSDlOYlMzRHlkWC15VVo1WHcxR01TNlNXT0F5bGp5ejVieGlPUFFtX2ZDWDB0cjlCWmJVbVFlOXZmVi1vbHFZaE1takdsQVBsbVhFNWljOXVPbzA?oc=5",
+          "source": "Hindustan Times",
+          "note": "Supreme Court pushing for a national framework on compulsory rural service for doctors shows judicial intervention shaping national policy."
+        }
+      ],
+      "last_seen": "2026-10-28",
+      "sections": [
+        "politics_india",
+        "tech"
+      ],
+      "status": "heating",
+      "teach": {
+        "one_line": "Courts and media are pushing back on new rules, slowing or reshaping how they get enforced.",
+        "like": "Like a school rule being changed after the students and teachers complain together.",
+        "why": "Regulation gets contested when powerful groups think the new rules go too far or fit badly.",
+        "remember": "New rules meet old pushback."
+      }
+    },
+    {
+      "id": "t_oil_supply_shocks_driving_em_inflation",
+      "title": "Oil supply shocks driving EM inflation and volatility",
+      "nickname": "Refinery Shock",
+      "plain": "Exogenous strikes on oil infrastructure spike crude and push EM producer prices higher.",
+      "claim": "Discrete supply disruptions to major oil infrastructure (refineries) are causing sharp oil price jumps and immediate pass‑through into emerging‑market producer inflation, raising macro volatility and policy tradeoffs.",
+      "forces": [
+        "geopolitics",
+        "capital"
+      ],
+      "created": "2026-10-28",
+      "evidence": [
+        {
+          "date": "2026-10-22",
+          "item_id": "43343be81f",
+          "section": "markets",
+          "title": "Crude Oil Prices Rise on Saudi Tensions",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUURSMFkycUZBa2hWWXN3QWJ1QzY0aEZsUEJ0RGRIcnhiRHFFLTZrNm0zMExVcFVaa2pobEN5dER1YnQtVjdwNjVyNnFfNnc3RG9VS2I0SHRzclUzczlCY2IxNlJ1eURqa2xFWkhGXzFIV0JIbzhHdVpxS3R0N0M5OVRTcHdDYzlVQnEw?oc=5",
+          "source": "Barchart.com",
+          "note": "Crude prices rose on Saudi tensions last week, evidence that regional incidents transmit to global oil and inflation pressures.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-22",
+          "item_id": "27b8301f84",
+          "section": "markets",
+          "title": "Oil prices jump to five-month high as attacks threaten global supply",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkIzeWdNTnhad3RfQTdsMFg0OHQ5ejlGVjF2R016akVNelJYNDdVQVNsaE5PRXQ2SWJpT1JDbG5RRmtDdWFEazN2b3FLYkY3eUx5Rmk4bThDcVZmWExKcTFBVW51cEpSUHBPd0ZsUGVnWXF5eTJxY0V1aHlaYUtQTHhsYU00WjdtWk8yOS1UMW9SVVAwN2I3bU43OA?oc=5",
+          "source": "The Guardian",
+          "note": "Last week oil prices jumped to a five-month high as attacks threatened supply, an early sign of supply-driven price shock.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-22",
+          "item_id": "227ca1d2ed",
+          "section": "politics_world",
+          "title": "Crude Prices, Geopolitics Blunt European Bourses Midday",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTC1VcmVaaWZwRFV1emVtX25ONEtxRElPa05qTGpfaHktd2l6WndtZ0p0Zml3VmpTNUUxTWhMbFRxN1d2NEpWSzdqNWxlTkJzaDRqLS1wSHRUWmxGM2phejJ4WmdRRzNTMm1sejNZaUlaSm1qa01kZklPR2VBQ1VhQlh5VFk2ZGlGcWNoUHZCdkpMd1lqa3AweHZraWF3NmlEcVh2MlhvMnB4UEZwNm8yLQ?oc=5",
+          "source": "Yahoo Finance",
+          "note": "Last week analysis said crude prices and geopolitics were blunting European bourses, linking oil shocks to market and inflation effects.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "10dc9f9d16",
+          "section": "markets",
+          "title": "Boiling Hot: Brent Crude Oil Tops $117 To Hit Six-Month High On Houthi-Saudi Attacks",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPc21WZzFROVg5bG9wdVFRSjBvUDVJcDZ4SmlLT24xc2NGdS00YTktV1RFTWZDNERRdkl4Sm85alJncVBLR0tkQUdNUXpaVF9lZGdlT3Q2MEJDUkpHdENybjZVa0NaN0FGZkYwVlF3VmJtdHgwdHhObWxWdzFudVhyRDdNQ2c4bGV4X2pFa3R5Q2x0c0VFRVFvYzE1eG56OW8wcHdGMnZNdjR0UHVfZXFfcHJNNjhDbzZPSFFjczhMOWFPeXZ20gHMAUFVX3lxTE1SUVVGRVczSkpzTFdXejctUHptSS1WeXVtVkc3b05wd0RoOTBYRGNkRm1zSzNyQi1hY3FPTlFuTk1BeWowMzdoaVQ4SHI2ZFZxclhINFR3emdmRGpiTU84VGVSTEkwbzN4VmlGSXJtYXBxZUhyR3B1T043anQzOXc2OFo1MmthY0NBVlc5WmtfaEg5WndTSUViU2UtOHJrUnFId2xEQjlJeDZ0bm9QeTJQXzVwMXRnLUF2UjRPc01nUUZmZnBGbTB3SnZRSw?oc=5",
+          "source": "NDTV Profit",
+          "note": "Boiling Hot: Brent topped $117 last week on Houthi‑Saudi attacks—an explicit example of discrete infrastructure shocks lifting prices.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "d53385706d",
+          "section": "markets",
+          "title": "Global Oil Price Hits $116 a Barrel, Highest Since April",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONjZmQ1hOTHp4RFVzdWVRRWdzYnFPeEExcnNLS3J3RlRlc3A1OVprRXoxck1hUy1iejdTSGtucjFVSFFSQzFSelg3ZjFmRzNPSDlMdU1OX3F1YUJmZVBjNnY2Ykx3LTV4Q2VBZHRkQmJqcTRubnpqSTFKa1V5b24walJCTC1nT2ZfQ1hJalg4aHo?oc=5",
+          "source": "The New York Times",
+          "note": "Global oil at $116 a barrel last week showed how supply disruptions quickly push world prices upward.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "f912b976d0",
+          "section": "markets",
+          "title": "Crude oil prices surge after strike on Saudi refinery",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSER4VnVRZGpxTldSMEh5THo3b3FDVTV0ZDdhZjdLb2o0UUFhOUlnc3FRMGc4WWhqNlllUlBIT25tbjNNY2pxb3k3U0VUdm5zdFVRc0R4ejdxU1VTYjR3a0cwQzg2cEVtNnFTUjkyZFJRU2x0MzhqSWt2R2xFcWpibXEzclpqTW8?oc=5",
+          "source": "Telangana Today",
+          "note": "Strike on a Saudi refinery pushing crude prices higher demonstrates supply‑shock risk to global oil markets."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "ef1705e918",
+          "section": "markets",
+          "title": "Malaysia's producer inflation accelerates to 12pct as oil prices surge",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVXJwdlZGcTJBaWM5SEdCM2NpRWlWWFhrMTF5WXZFOTNSSGw2SHVJT0JhMko0SHd2Nl9nWDA3bHBJejBzd2RuTkI4SlpXX2ZTMDVROU40N0dkbm1sTnMwSDRiUXY0ZGVRRUM4MWNGZ2hXX0d5cEp6Rll0ZnlMcEhxcUxXV3psejlFQ3lIT1BPUTVEQ1JnWTZxTk50S2NHX0xaTGVsbHBNM041cHduYmFYVV9pam1kYUdqeUdZ0gHAAUFVX3lxTE1iVktXT0NKN0FKSWFiYUx6SFJvQ1ZJSldhaWtuTkI0blZzNE94aWFsaHVrWEo3alJLT3czN25iUC1FcGw5MzJqTVRUWUtxSXVVS2NYQmhBSlJYUER1SG5xcFJxN1ZtMVJxd2RDdFlQRHktYk54WmFhMnVVckZTYjFTMGFxNk85NGh1N04tclFVUlBZTFFsYnEyNlNRUVlxNkFvcUtRb0N2TVF0cU1TaDQweGRPUFNNb3JvNmlhNXpmeg?oc=5",
+          "source": "NST Online",
+          "note": "Malaysia producer inflation accelerating to 12% as oil surges shows commodity price pass‑through into EM inflation."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "77fb78cc35",
+          "section": "markets",
+          "title": "World Bank sees commodity prices surging 23% in 2026 on Middle East war",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/world-bank-sees-commodity-prices-surging-23-in-2026-on-middle-east-war/articleshow/135274754.cms",
+          "source": "ET Markets",
+          "note": "World Bank projects 23% commodity price surge in 2026 from Middle East war, evidencing prolonged commodity shock and EM inflation risk."
+        }
+      ],
+      "last_seen": "2026-10-29",
+      "sections": [
+        "markets",
+        "politics_world"
+      ],
+      "status": "heating",
+      "teach": {
+        "one_line": "A hit to oil supply pushes prices up fast, then makes inflation worse in oil-importing countries.",
+        "like": "Like a cooking gas leak making the whole kitchen more expensive at once.",
+        "why": "Geopolitics and capital shock oil supply, and higher energy costs quickly spread through prices.",
+        "remember": "Oil jumps, prices follow."
+      }
+    },
+    {
+      "id": "t_bigtech_custom_silicon",
+      "title": "Big tech doubles down on custom silicon and vertical integration",
+      "nickname": "Chip‑Built Platforms",
+      "plain": "Large tech firms keep investing in custom chips and integrated hardware to control performance and margins.",
+      "claim": "Major platform companies are increasingly designing and shipping custom silicon and vertically integrated hardware (clients and networking), shifting product roadmaps and supply‑chain dependence toward in‑house silicon.",
+      "forces": [
+        "technology",
+        "capital"
+      ],
+      "created": "2026-10-28",
+      "evidence": [
+        {
+          "date": "2026-10-28",
+          "item_id": "8b7f3fa5f2",
+          "section": "tech",
+          "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
+          "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
+          "source": "Ars Technica",
+          "note": "Apple refresh with M6 and N1 chip (Wi‑Fi 7, Bluetooth 6) evidences continued vertical integration and custom silicon investment by big tech."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "7a44b0a9a5",
+          "section": "tech",
+          "title": "Apple launches its new touchscreen MacBook Pro",
+          "url": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/",
+          "source": "TechCrunch",
+          "note": "Apple ships touchscreen MacBook Pro with M6/N1 chips, evidence of big‑tech vertical integration and custom silicon."
+        }
+      ],
+      "last_seen": "2026-10-29",
+      "sections": [
+        "tech"
+      ],
+      "status": "heating",
+      "teach": {
+        "one_line": "Big tech is making more of its own chips and hardware instead of buying so much from others.",
+        "like": "Like a shop that starts baking its own bread instead of buying it every day.",
+        "why": "Technology lets one company control more of the stack, and money rewards the firms that own the whole machine.",
+        "remember": "Own the machine, own the margin."
+      }
+    },
+    {
+      "id": "t_bjp_institutional_consolidation",
+      "title": "BJP consolidates control through state institutional wins",
+      "nickname": "Institutional Grip",
+      "plain": "Electoral wins in state institutional contests are consolidating BJP control ahead of larger contests.",
+      "claim": "The BJP is strengthening its institutional foothold by winning legislative council/educational constituencies and similar bodies at the state level, increasing administrative reach and influence over future state and national policy implementation.",
+      "forces": [
+        "geopolitics"
+      ],
+      "created": "2026-10-28",
+      "evidence": [
+        {
+          "date": "2026-10-28",
+          "item_id": "2e5aa956a5",
+          "section": "politics_india",
+          "title": "Uttar Pradesh MLC polls: BJP candidates win Meerut graduates and teachers constituencies; counting on elsewhere",
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/uttar-pradesh-mlc-election-results-2026-meerut-varanasi-gorakhpur/article71634397.ece",
+          "source": "The Hindu",
+          "note": "BJP wins in key Uttar Pradesh MLC constituencies signal party consolidation of institutional political control at state level."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "bb63faf531",
+          "section": "politics_india",
+          "title": "ED attaches Jauhar University land, buildings in money-laundering case",
+          "url": "https://indianexpress.com/article/india/ed-jauhar-university-land-money-laundering-case-10940783/",
+          "source": "Indian Express",
+          "note": "ED attaches Jauhar University assets in money‑laundering case, evidence of intensified state enforcement affecting institutions."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "b451214da1",
+          "section": "politics_india",
+          "title": "Bihar MLC election results: BJP wins 2, leads on 1; JDU, RJD, JSP win 1 seat each, Independents 2",
+          "url": "https://www.hindustantimes.com/india-news/bihar-mlc-elections-bjp-wins-2-leads-on-1-jdu-rjd-jsp-win-1-seat-each-independents-2-101793207161923.html",
+          "source": "HT India",
+          "note": "Bihar MLC results (BJP wins 2, leads 1) evidence party consolidation at state institutional levels."
+        }
+      ],
+      "last_seen": "2026-10-29",
+      "sections": [
+        "politics_india"
+      ],
+      "status": "heating",
+      "teach": {
+        "one_line": "The BJP is gaining more control over state institutions that shape how power gets used.",
+        "like": "Like a team winning the school council, then the class rules start matching its way.",
+        "why": "Politics is about who controls the gates of power, and institutions can lock in that control.",
+        "remember": "Win the gates, steer the game."
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": "c_hardware_supply_chain_risk",
+      "title": "Cyber‑physical attacks threaten data‑centre hardware supply chains",
+      "nickname": "Spoofed Supply Lines",
+      "plain": "New cyber‑physical tricks are being used to steal or subvert critical data‑centre hardware shipments.",
+      "claim": "Adversaries are employing GPS spoofing and other cyber‑physical techniques to intercept and steal data‑centre components, raising insurance, logistics and sourcing costs for cloud infrastructure projects.",
+      "forces": [
+        "technology",
+        "geopolitics"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "e2358621b2",
+          "section": "tech",
+          "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+          "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+          "source": "Ars Technica",
+          "note": "Highway thieves used GPS spoofing to steal ~$100M in data‑centre equipment, showing cyber‑physical supply‑chain vulnerability."
+        }
+      ]
+    },
+    {
+      "id": "c_indian_external_funding_stress",
+      "title": "Rising US yields squeeze Indian external funding plans",
+      "nickname": "Rupee Funding Squeeze",
+      "plain": "Higher US yields and a weak rupee are forcing Indian banks to delay dollar funding.",
+      "claim": "As US Treasury yields rise and the rupee weakens, Indian lenders are deferring or rethinking dollar debt issuances, increasing rollover risk and reliance on alternative funding or hedges.",
+      "forces": [
+        "capital"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "0b97b948d5",
+          "section": "markets",
+          "title": "Indian lenders defer dollar debt sale plan as rates turn expensive",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-lenders-defer-dollar-debt-sale-plan-as-rates-turn-expensive/articleshow/135230457.cms",
+          "source": "ET Markets",
+          "note": "Multiple Indian banks (Canara, PNB, BoI) deferred dollar debt sales as US yields rise and rupee weakens."
+        }
+      ]
+    },
+    {
+      "id": "c_firmware_security_systemic_risk",
+      "title": "Systemic firmware flaws threaten server infrastructure",
+      "nickname": "Firmware Shock",
+      "plain": "Widespread UEFI/firmware bugs are a systemic risk to global server fleets and cloud infrastructure.",
+      "claim": "Critical, widespread firmware vulnerabilities (EDK2/UEFI) are creating systemic insecurity across server infrastructure, increasing breach risk and remediation costs.",
+      "forces": [
+        "technology",
+        "geopolitics"
+      ],
+      "created": "2026-10-28",
+      "evidence": [
+        {
+          "date": "2026-10-28",
+          "item_id": "9d02bbba00",
+          "section": "tech",
+          "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+          "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+          "source": "Ars Technica",
+          "note": "Critical UEFI code‑execution flaw (EDK2) affecting most servers shows systemic firmware insecurity in global server fleet."
+        }
+      ]
+    },
+    {
+      "id": "c_india_relaxes_fdi_china",
+      "title": "India loosens FDI curbs linked to China and neighbours",
+      "nickname": "Selective Opening",
+      "plain": "India is rolling back or easing FDI restrictions tied to China/neighbours to attract investment.",
+      "claim": "The Indian government is moving to ease foreign direct investment rules for entities linked to China and neighbouring countries, relaxing prior restrictions and recalibrating security‑driven investment policy.",
+      "forces": [
+        "capital",
+        "geopolitics"
+      ],
+      "created": "2026-10-28",
+      "evidence": [
+        {
+          "date": "2026-10-28",
+          "item_id": "e8bf52f236",
+          "section": "politics_india",
+          "title": "Govt plans further easing of FDI rules for investments linked to China, neighbouring countries",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNFIyS19QQUlCOEtRdFdvVmUtSmNlNmhDWVRldm1Tb2JKZHNEZ2JNcVVZOVltQktNdkdTbEJhYzFMaVJVMVdrSFdoMWhmWV9JX2NzNnh3M0M5MEpUMzJVbEFsV0dSOHlJTFRxeWg5Z0duN2swckxjRTdhN3lWMXY0R0l6SlFrR1NnM3BRM1FWSzU5SXp2c2gzZGpJYWNCc1hFektxREIxbEpTVUIzQjgtMnc3YXNmQlNBV1NtRjdkNmJHX1g5Z1l4RnpsbDhOcXJYR2fSAdIBQVVfeXFMTzRSMktfUEFJQjhLUXRXb1ZlLUpjZTZoQ1lUZXZtU29iSmRzRGdiTXFVWTlZbUJLTXZHU2xCYWMxTGlSVTFXa0hXaDFoZllfSV9jczZ4dzNDOTBKVDMyVWxBbFdHUjh5SUxUcXloOWdHbjdrMHJMY0U3YTd5VjF2NEdJekpRa0dTZzNwUTNRVks1OUl6dnNoM2RqSWFjQnNYRXpLcURCMWxKU1VCM0I4LTJ3N2FzZkJTQVdTbUY3ZDZiR19YOWdZeEZ6bGw4TnFyWEdn?oc=5",
+          "source": "PSU Watch",
+          "note": "Government plans to ease FDI rules for investments linked to China and neighbouring countries signal a policy shift loosening China‑linked restrictions."
+        }
+      ]
+    },
+    {
+      "id": "c_india_b2b_logistics_funding",
+      "title": "Investment returns to India B2B quick‑commerce and logistics",
+      "nickname": "B2B Logistics Rally",
+      "plain": "Investors are redeploying capital into Indian B2B quick‑commerce and logistics startups.",
+      "claim": "Venture capital is refocusing on Indian B2B quick‑commerce and logistics startups, lifting valuations and consolidation activity in that sector.",
+      "forces": [
+        "capital"
+      ],
+      "created": "2026-10-29",
+      "evidence": [
+        {
+          "date": "2026-10-29",
+          "item_id": "3a45e06e0f",
+          "section": "tech",
+          "title": "Bijnis rebrands as Zorit, raises Rs 27 Cr led by Sparrow Capital",
+          "url": "https://entrackr.com/news/bijnis-rebrands-as-zorit-raises-rs-27-cr-led-by-sparrow-capital-12762019",
+          "source": "Entrackr",
+          "note": "Zorit (ex‑Bijnis) raises Rs 27 Cr, showing continued capital into B2B quick‑commerce and logistics consolidation."
+        }
+      ]
+    },
+    {
+      "id": "c_india_strategic_gaming_investment",
+      "title": "Strategic and celebrity investors back Indian gaming",
+      "nickname": "Star‑Backed Gaming",
+      "plain": "Prominent strategic and celebrity investors are increasingly funding Indian gaming and esports startups.",
+      "claim": "High‑profile strategic and celebrity investors are stepping into India’s gaming and esports sector, increasing deal sizes and legitimising the vertical.",
+      "forces": [
+        "capital"
+      ],
+      "created": "2026-10-29",
+      "evidence": [
+        {
+          "date": "2026-10-29",
+          "item_id": "692a1558f7",
+          "section": "tech",
+          "title": "Let’s Game Now raises Rs 30 Cr led by Anand Mahindra and Bestvantage Investments",
+          "url": "https://entrackr.com/snippets/lets-game-now-raises-rs-30-cr-led-by-anand-mahindra-and-bestvantage-investments-12761408",
+          "source": "Entrackr",
+          "note": "Let’s Game Now raises Rs 30 Cr led by Anand Mahindra, showing strategic/celebrity investors backing Indian gaming and esports."
+        }
+      ]
+    },
+    {
+      "id": "c_india_ai_workforce_upskilling",
+      "title": "Indian states push formal AI upskilling for IT workforce",
+      "nickname": "AI Upskill Drive",
+      "plain": "State governments are launching programs to reskill IT workers for AI roles and automation.",
+      "claim": "Indian state governments are formalising AI upskilling initiatives for IT professionals, accelerating public‑sector workforce policies to manage AI labour displacement and demand for new skills.",
+      "forces": [
+        "regulation",
+        "demographics"
+      ],
+      "created": "2026-10-29",
+      "evidence": [
+        {
+          "date": "2026-10-29",
+          "item_id": "6ae4878ff8",
+          "section": "tech",
+          "title": "‘Keep learning, keep adapting’: Priyank Kharge tells IT professionals to stay ahead of AI",
+          "url": "https://yourstory.com/2026/10/priyank-kharge-it-professionals-ai-skilling-nipuna-karnataka",
+          "source": "YourStory",
+          "note": "Karnataka minister urges IT professionals to upskill for AI, evidencing policy push to manage workforce transition."
+        }
+      ]
+    },
+    {
+      "id": "c_undersea_cable_spying",
+      "title": "Geopolitical spying risks threaten submarine cable security",
+      "nickname": "Cable Risk",
+      "plain": "State actors are increasing surveillance and sabotage risks to undersea internet cables, threatening connectivity and digital trade.",
+      "claim": "Rising state‑level snooping and sabotage activity against trans‑oceanic cables is elevating geopolitical risk to global internet infrastructure and Big Tech connectivity resilience.",
+      "forces": [
+        "geopolitics",
+        "technology"
+      ],
+      "created": "2026-10-29",
+      "evidence": [
+        {
+          "date": "2026-10-29",
+          "item_id": "29099ec00f",
+          "section": "tech",
+          "title": "China’s snooping around Pacific undersea cables raises risks for Big Tech",
+          "url": "https://arstechnica.com/gadgets/2026/10/google-and-meta-subsea-cables-among-most-at-risk-from-sabotage-in-pacific/",
+          "source": "Ars Technica",
+          "note": "Reports of Chinese snooping on trans‑Pacific cables indicate rising geopolitical risk to submarine internet infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "c_india_drug_price_controls_expand",
+      "title": "India expands centralized price controls into oncology drugs",
+      "nickname": "Cancer Price Cut",
+      "plain": "The government is extending price controls to many cancer drugs to lower patient costs.",
+      "claim": "Indian regulators are expanding centralized price controls into high‑cost oncology drugs, materially reducing list prices and reshaping pharmaceutical pricing power and market margins.",
+      "forces": [
+        "regulation"
+      ],
+      "created": "2026-10-29",
+      "evidence": [
+        {
+          "date": "2026-10-29",
+          "item_id": "130ad7ecea",
+          "section": "politics_india",
+          "title": "Cancer drug prices slashed for 543 brands; new rates from November 9",
+          "url": "https://www.hindustantimes.com/india-news/cancer-drug-prices-slashed-by-up-to-90-per-cent-for-543-brands-new-rates-from-november-9-nppa-national-pharmaceutical-pricing-authority-doctor-101793204606497.html",
+          "source": "HT India",
+          "note": "Price cuts for 543 cancer drug brands (example: azacitidine 100mg down to ₹1,495 from ₹6,337) show expansion of central price controls into oncology."
+        }
+      ]
+    }
+  ],
+  "today": {
+    "attached": [
+      {
+        "item_id": "6318bf62f2",
+        "thread_id": "t_ai_capital_rotation",
+        "note": "Gemini 4 Carbon release shows hyperscale model iteration and competition driving AI capital and ecosystem pressure."
+      },
+      {
+        "item_id": "63c9f69881",
+        "thread_id": "t_ai_capital_rotation",
+        "note": "QwikBuild $2.3M pre‑seed for enterprise AI agents evidences capital flow into bespoke AI automation startups."
+      },
+      {
+        "item_id": "0ebb7cec19",
+        "thread_id": "t_ai_energy_constraints",
+        "note": "DOE $5B loans to Constellation for reactors committed to Google/Amazon/Meta shows hyperscalers securing low‑carbon power for data centres."
+      },
+      {
+        "item_id": "cd7b21ad37",
+        "thread_id": "t_ai_capital_rotation",
+        "note": "SK Hynix record Q3 profit lifts chip stocks, evidence of memory demand and investor optimism driven by AI compute needs."
+      },
+      {
+        "item_id": "37be22d33d",
+        "thread_id": "t_ai_capital_rotation",
+        "note": "Report OpenAI buying Google AI chips shows cloud‑level resource grabs and consolidation in AI compute supply."
+      },
+      {
+        "item_id": "8d743f5fea",
+        "thread_id": "t_ai_governance_institutionalization",
+        "note": "DOJ inquiry into Nvidia’s Hugging Face purchase is evidence of increasing regulatory/antitrust scrutiny of AI consolidation."
+      },
+      {
+        "item_id": "da0575cf03",
+        "thread_id": "t_ai_capital_rotation",
+        "note": "Info Edge PAT +87% (Rs 650 Cr) and revenue growth shows resilient monetization in Indian tech, supporting capital rotation into tech assets."
+      },
+      {
+        "item_id": "5a2809d5ba",
+        "thread_id": "t_ai_capital_rotation",
+        "note": "Reports of Cognizant interest in Sarvam AI at $3.5–4B indicate strategic late‑stage M&A activity in the AI space."
+      },
+      {
+        "item_id": "f9342fdb96",
+        "thread_id": "t_ai_governance_institutionalization",
+        "note": "AI‑assisted research used in a spurious liquor racket in Dewas shows misuse of AI, underscoring governance and enforcement challenges."
+      },
+      {
+        "item_id": "1abf129f2d",
+        "thread_id": "t_israel_political_fragmentation",
+        "note": "Live results with Netanyahu bloc at 53 vs opposition 48 show fragmented Israeli outcome likely to complicate coalition formation."
+      },
+      {
+        "item_id": "775bae7b29",
+        "thread_id": "t_israel_political_fragmentation",
+        "note": "Double‑envelope vote mechanics coverage highlights procedural factors that can shift Israeli seat counts and prolong coalition talks."
+      },
+      {
+        "item_id": "77fb78cc35",
+        "thread_id": "t_oil_supply_shocks_driving_em_inflation",
+        "note": "World Bank projects 23% commodity price surge in 2026 from Middle East war, evidencing prolonged commodity shock and EM inflation risk."
+      },
+      {
+        "item_id": "7a44b0a9a5",
+        "thread_id": "t_bigtech_custom_silicon",
+        "note": "Apple ships touchscreen MacBook Pro with M6/N1 chips, evidence of big‑tech vertical integration and custom silicon."
+      },
+      {
+        "item_id": "bb63faf531",
+        "thread_id": "t_bjp_institutional_consolidation",
+        "note": "ED attaches Jauhar University assets in money‑laundering case, evidence of intensified state enforcement affecting institutions."
+      },
+      {
+        "item_id": "b451214da1",
+        "thread_id": "t_bjp_institutional_consolidation",
+        "note": "Bihar MLC results (BJP wins 2, leads 1) evidence party consolidation at state institutional levels."
+      }
+    ],
+    "new_threads": [],
+    "new_candidates": [
+      "c_india_b2b_logistics_funding",
+      "c_india_strategic_gaming_investment",
+      "c_india_ai_workforce_upskilling",
+      "c_undersea_cable_spying",
+      "c_india_drug_price_controls_expand"
+    ],
+    "promoted": [
+      "t_bigtech_custom_silicon",
+      "t_bjp_institutional_consolidation"
+    ],
+    "merges": [],
+    "cross_link": null,
+    "status_changes": {
+      "t_bigtech_custom_silicon": [
+        null,
+        "heating"
+      ],
+      "t_bjp_institutional_consolidation": [
+        null,
+        "heating"
+      ]
+    },
+    "taught": 2,
+    "backstory": [
+      {
+        "thread_id": "t_ai_capital_rotation",
+        "item_id": "8b52050569"
+      },
+      {
+        "thread_id": "t_ai_capital_rotation",
+        "item_id": "3e30951c53"
+      },
+      {
+        "thread_id": "t_ai_energy_constraints",
+        "item_id": "82ff6a45df"
+      },
+      {
+        "thread_id": "t_ai_energy_constraints",
+        "item_id": "bfaa65444a"
+      },
+      {
+        "thread_id": "t_ai_governance_institutionalization",
+        "item_id": "e4cf0eb55b"
+      },
+      {
+        "thread_id": "t_ai_governance_institutionalization",
+        "item_id": "afbc0bbf36"
+      },
+      {
+        "thread_id": "t_india_voter_roll_tightening",
+        "item_id": "ba9b5845f1"
+      },
+      {
+        "thread_id": "t_israel_political_fragmentation",
+        "item_id": "7fc37f6b46"
+      },
+      {
+        "thread_id": "t_israel_political_fragmentation",
+        "item_id": "3d8801bac5"
+      },
+      {
+        "thread_id": "t_israel_political_fragmentation",
+        "item_id": "c88d618524"
+      },
+      {
+        "thread_id": "t_oil_supply_shocks_driving_em_inflation",
+        "item_id": "27b8301f84"
+      },
+      {
+        "thread_id": "t_oil_supply_shocks_driving_em_inflation",
+        "item_id": "227ca1d2ed"
+      }
+    ]
+  }
+}

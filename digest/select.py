@@ -57,8 +57,8 @@ def schema_for(section):
 def build_prompt(cfg, section, n, candidates):
     rules_file = PROMPTS / f"select_{section}.md"
     lines = "\n".join(
-        json.dumps({"id": c["id"], "source": c["source"], "title": c["title"], "summary": c["summary"][:250]},
-                   ensure_ascii=False)
+        json.dumps({"id": c["id"], "source": c["source"], "title": c["title"], "summary": c["summary"][:250],
+                    "full_story": c.get("readable", True)}, ensure_ascii=False)
         for c in candidates
     )
     return (load_prompt("select")

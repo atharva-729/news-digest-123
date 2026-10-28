@@ -2,11 +2,12 @@
 import argparse
 import logging
 import sys
+from collections import Counter
 
-from digest import connect, deliver, ingest, select, threads, weekly as weekly_edition, write
+from digest import articles, connect, deliver, ingest, select, threads, weekly as weekly_edition, write
 from digest.common import load_config, today_ist
 
-PHASES = ["ingest", "select", "threads", "connect", "write", "deliver"]
+PHASES = ["ingest", "select", "read", "threads", "connect", "write", "deliver"]
 WEEKLY_PHASES = ["write", "deliver"]  # the weekly is built from saved thread state; no new headlines
 
 
@@ -59,6 +60,15 @@ def main():
         f = out["funding"]
         print(f"  funding items: {f['total']} (India {f['india']}, world {f['world']}, country unknown {f['unknown']})")
 
+    if "read" in todo:
+        meta = articles.run(cfg, args.date)
+        via = Counter(m["via"] for m in meta.values())
+        limited = [m["reason"] or "short" for m in meta.values() if m["limited"]]
+        print(f"[read] {len(meta)} stories: {via.get('page', 0)} from the article page, {via.get('feed', 0)} from the feed, "
+              f"{len(limited)} limited")
+        for reason, n in Counter(limited).items():
+            print(f"  limited ({reason}): {n}")
+
     if "threads" in todo:
         out = threads.run(cfg, args.date)
         t = out["today"]
@@ -66,6 +76,7 @@ def main():
         print(f"[threads] {len(active)} active threads, {len(out['candidates'])} candidates")
         print(f"  attached {len(t['attached'])}, new {len(t['new_threads'])}, promoted {len(t['promoted'])}, "
               f"new candidates {len(t['new_candidates'])}, merges {len(t['merges'])}")
+        print(f"  teaching cards written: {t.get('taught', 0)}")
         print(f"  cross-link: {'yes' if t['cross_link'] else 'none'}")
 
     if "connect" in todo:
@@ -74,7 +85,8 @@ def main():
 
     if "write" in todo and not weekly:
         out = write.run(cfg, args.date)
-        print(f"[write] {out['takes']}/{out['items']} cards, {out['moves']} thread moves, ~{out['minutes']} min read")
+        print(f"[write] {out['takes']}/{out['items']} cards ({out['limited']} limited), {out['moves']} pattern moves, "
+              f"{out['remember']} remember questions, ~{out['minutes']} min read")
         print(f"  call: {out['call']['prediction'] if out['call'] else 'none'}")
         print(f"  {out['path']}")
 

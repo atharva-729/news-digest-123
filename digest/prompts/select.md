@@ -14,11 +14,14 @@ How to choose:
 - Prefer concrete, specific, new information (numbers, decisions, launches, deals) over vague
   commentary or previews.
 - Don't pick two items about the same story.
+- **Prefer items with `full_story: true`.** For those we can read the whole article and explain it properly;
+  for the others we only have the headline. Pick a `full_story: false` item only when it is clearly more
+  important than every full-story alternative (or when no full-story item covers that news).
 - Skip items that clearly belong to a different section, and items that look like ads, job posts,
   event listings or press-release spam.
 {{section_rules}}
 Return **ids only** (exactly as given), each with a one-line reason saying what larger pattern the item is
 evidence of. Never output titles or URLs.
 
-Candidates (JSON lines: id, source, title, summary):
+Candidates (JSON lines: id, source, title, summary, full_story):
 {{candidates}}

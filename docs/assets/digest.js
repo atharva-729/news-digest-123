@@ -151,8 +151,7 @@
   }
 
   /* ---------- quiz ---------- */
-  var quiz = $(".quiz");
-  if (quiz) {
+  $$(".quiz").forEach(function (quiz) {
     var score = 0, answered = 0, total = +quiz.dataset.total;
     $$(".q", quiz).forEach(function (q) {
       var right = +q.dataset.answer;
@@ -168,13 +167,13 @@
           $(".score-n", quiz).textContent = score;
           if (++answered === total) {
             var done = $(".quiz-done", quiz);
-            done.textContent = score === total ? "Perfect. You actually get it. 🧠" : score === 0 ? "0/" + total + ". Read the patterns tab, then come back. 😅" : score + "/" + total + ". Not bad. The patterns tab has the rest. 👀";
+            done.textContent = score === total ? "All right. It's sticking. 🧠" : "Got " + score + "/" + total + ". Wrong answers still help you remember; the explanations above are the bit to keep.";
             done.hidden = false;
           }
         });
       });
     });
-  }
+  });
 
   /* ---------- reading progress ---------- */
   var bar = $(".progress span");
