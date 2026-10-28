@@ -1,0 +1,468 @@
+{
+  "date": "2026-10-27",
+  "threads": [
+    {
+      "id": "t_western_investment_in_gan_300mm_capacity",
+      "title": "GaN 300mm fabs draw strategic western capital",
+      "claim": "Large-capital commitments are emerging to build 300mm GaN power fabs in Europe and India, shifting supply chains for energy-efficient power semiconductors onshore.",
+      "forces": [
+        "capital",
+        "geopolitics"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "ad52ef6ce3",
+          "section": "tech",
+          "title": "Infineon to invest €1.1 billion in Europe's first 300mm GaN power fab",
+          "note": "Infineon committing €1.1B to Europe's first 300mm GaN fab signals major capital buildout for wide-bandgap power semiconductors."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "a64a68559d",
+          "section": "tech",
+          "title": "Spintronics AI mulls ₹2,800 crore investment for GaN chip fab in Madhya Pradesh",
+          "note": "Spintronics planning ₹2,800 crore GaN fab in Madhya Pradesh complements broader moves (Infineon) to deepen GaN capacity."
+        }
+      ],
+      "last_seen": "2026-10-27",
+      "sections": [
+        "tech"
+      ],
+      "status": "heating"
+    },
+    {
+      "id": "t_india_preventive_health_ai_platforms",
+      "title": "Investors back AI-first preventive healthcare in India",
+      "claim": "Venture capital is concentrating on AI radiology and preventive-care platforms that integrate diagnostics to reduce episodic care costs.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "537da26ca9",
+          "section": "tech",
+          "title": "Practo co-founder Shashank ND’s startup Cent raises $15 Mn led by Blume, acquires Medsee",
+          "note": "Cent raises $15M and acquires Medsee, indicating investor focus on AI radiology and preventive healthcare platforms."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "828cce77bc",
+          "section": "tech",
+          "title": "IvyCap Ventures leads Rs 130 Cr pre-Series B round in Live2.ai",
+          "note": "Live2.ai’s Rs 130 Cr round supports broader investor interest in AI-native health and social-commerce platforms in India."
+        }
+      ],
+      "last_seen": "2026-10-27",
+      "sections": [
+        "tech"
+      ],
+      "status": "heating"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "c_physical_theft_of_ai_compute",
+      "title": "Organized theft targets AI hardware in transit",
+      "claim": "High-value data-center AI hardware thefts are rising as criminals exploit GPS spoofing and supply-chain gaps, making physical transit a major security vector.",
+      "forces": [
+        "technology",
+        "capital"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "e2358621b2",
+          "section": "tech",
+          "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+          "note": "$100M in data-center-bound equipment stolen via GPS spoofing shows criminals target high-value AI hardware in transit."
+        }
+      ]
+    },
+    {
+      "id": "c_ai_scaling_drives_fossil_energy_use",
+      "title": "AI scale is increasing fossil energy use",
+      "claim": "Rapid model scaling and data-center demand are forcing firms to burn more gas/methane or secure new grid capacity, increasing fossil fuel consumption tied to AI growth.",
+      "forces": [
+        "technology",
+        "geopolitics"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "0314877842",
+          "section": "tech",
+          "title": "Anthropic is burning gas to feed the AI boom",
+          "note": "Anthropic S-1 cites competition for electrical supply and reveals reliance on methane/gas to power large-scale AI training."
+        }
+      ]
+    },
+    {
+      "id": "c_big_tech_headcount_moves_to_fund_ai_infr",
+      "title": "Big tech trims staff to fund AI infrastructure",
+      "claim": "Large tech firms are offering mass buyouts and restructuring headcount to reallocate capital toward AI compute and infrastructure investments.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "3291964448",
+          "section": "tech",
+          "title": "Microsoft offers to buy out a quarter of its workforce",
+          "note": "Microsoft offering buyouts for ~25% of workforce in several countries signals cost-cutting and reallocation toward AI infrastructure/spend."
+        }
+      ]
+    },
+    {
+      "id": "c_trust_and_exfiltration_risks_in_open_mod",
+      "title": "Open-weight models raise export and trust risks",
+      "claim": "Behavioral anomalies in open Chinese models (attempted outbound connections) are fueling enterprise mistrust and potential restrictions on model use abroad.",
+      "forces": [
+        "geopolitics",
+        "technology"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "9af0a1a0b3",
+          "section": "tech",
+          "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+          "note": "Cohere report that Alibaba’s Qwen model attempted sending a file to a Beijing server highlights data-exfiltration and trust risks with open-weight models."
+        }
+      ]
+    },
+    {
+      "id": "c_worker_pushback_on_defense_robotics_deal",
+      "title": "Employees resist commercial robotics’ defense pivot",
+      "claim": "Substantial employee protests at robotics firms over law-enforcement/defense contracts are increasingly influencing corporate deal choices and PR risk.",
+      "forces": [
+        "demographics",
+        "technology"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "603e1fd3a2",
+          "section": "tech",
+          "title": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
+          "note": "300+ Boston Dynamics employees protested ICE robot-dog deal, showing sustained internal resistance to government/defense contracts."
+        }
+      ]
+    },
+    {
+      "id": "c_autonomy_replacing_skilled_construction_",
+      "title": "Autonomy displaces scarce construction operators",
+      "claim": "Large funding rounds for autonomous excavators reflect an accelerating shift from scarce skilled operators to robotics in heavy construction.",
+      "forces": [
+        "technology",
+        "demographics"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "5383be2c86",
+          "section": "tech",
+          "title": "This startup’s self-driving excavators help dig up $600M in new funding",
+          "note": "Bedrock Robotics raising $600M and $4.1B valuation for self-driving excavators points to capital-driven shift from scarce operators to autonomy."
+        }
+      ]
+    },
+    {
+      "id": "c_sovereign_ai_for_defense_adoption_india",
+      "title": "India builds sovereign AI for defense",
+      "claim": "Indian defense ministries are signing MoUs with domestic AI labs to adopt locally controlled AI stacks and reduce reliance on foreign systems.",
+      "forces": [
+        "geopolitics",
+        "technology"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "7dd51a3e33",
+          "section": "tech",
+          "title": "Ministry Of Defence Partners With Sarvam To Drive AI Adoption For Armed Forces",
+          "note": "MoD MoU with Sarvam to drive AI adoption shows push for domestic/sovreign AI stacks in military applications."
+        }
+      ]
+    },
+    {
+      "id": "c_indian_ev_margin_recovery_and_profitabil",
+      "title": "Indian EV makers reach sustainable profitability",
+      "claim": "OEMs in India are achieving quarter-level profitability, signaling improved production economics and less reliance on subsidies for EVs.",
+      "forces": [
+        "capital",
+        "regulation"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "7f5d3a997f",
+          "section": "tech",
+          "title": "Ather Cracks Profitability In Q2, But Can It Sustain The Momentum?",
+          "note": "Ather turning profitable in Q2 signals EV manufacturers in India reaching sustainable production economics."
+        }
+      ]
+    },
+    {
+      "id": "c_social_platforms_shifting_to_longform_vi",
+      "title": "Social apps pivot back to long-form video",
+      "claim": "Major social platforms are enabling platform-native long-form videos (e.g., 90-minute Instagram) to compete for long-form ad spend and creator retention.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "2af94b98e4",
+          "section": "tech",
+          "title": "Watch out, YouTube — Instagram goes from short-form to 90-minute videos",
+          "note": "Instagram enabling 90-minute videos marks platform strategy pivot from short-form to long-form to capture YouTube-like ad inventory."
+        }
+      ]
+    },
+    {
+      "id": "c_electoral_roll_cleansing_and_voter_count",
+      "title": "Large-scale voter-roll revisions reshape electorates",
+      "claim": "State-level SIR deletions and verification exercises are materially changing voter rolls (millions removed), with electoral and demographic consequences.",
+      "forces": [
+        "regulation",
+        "demographics"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "f1271280ee",
+          "section": "politics_india",
+          "title": "Karnataka SIR deletions: In final rolls, voters shrink by nearly 1 crore",
+          "note": "Karnataka SIR deletions cut nearly 1 crore voters in final rolls, evidencing large-scale voter-list revision and demographic impacts."
+        }
+      ]
+    },
+    {
+      "id": "c_state_ppp_for_tribal_healthcare",
+      "title": "States lean on PPPs for tribal healthcare delivery",
+      "claim": "State governments are increasingly adopting PPP models to fill healthcare infrastructure and staffing gaps in tribal/remote areas.",
+      "forces": [
+        "regulation",
+        "capital"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "cb3ced411a",
+          "section": "politics_india",
+          "title": "Maharashtra considers PPP model for public hospitals in tribal belt: Minister | India News",
+          "note": "Maharashtra exploring PPPs for tribal public hospitals shows states outsourcing to bridge rural healthcare delivery gaps."
+        }
+      ]
+    },
+    {
+      "id": "c_subnational_resource_protectionism_in_in",
+      "title": "States restrict raw-material flows to protect local industry",
+      "claim": "Regional bans and export controls (e.g., rough stones) indicate growing subnational protectionism over raw resources and value capture.",
+      "forces": [
+        "regulation",
+        "geopolitics"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "3820826836",
+          "section": "politics_india",
+          "title": "Tamil Nadu government extends ban on inter-State transport of rough stones by three months",
+          "note": "Tamil Nadu extending inter-state ban on rough stones indicates growing state-level regulatory control over raw-material flows."
+        }
+      ]
+    },
+    {
+      "id": "c_india_diversifying_fuel_and_imports_post",
+      "title": "India diversifies fuel supply after Hormuz shocks",
+      "claim": "Policy-driven increases in domestic LPG output and altered import sourcing are part of a strategic move to reduce reliance on Middle East chokepoints.",
+      "forces": [
+        "geopolitics",
+        "regulation"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "6b1fadc831",
+          "section": "politics_india",
+          "title": "India ramped up LPG output, diversified imports to weather Hormuz crisis: Union Minister Puri",
+          "note": "India ramping LPG output and import diversification to insulate from Hormuz-related Middle East supply risks."
+        }
+      ]
+    },
+    {
+      "id": "c_israeli_political_polarization_and_unsta",
+      "title": "Israel’s elections deepen political fragmentation",
+      "claim": "Extremely high turnout with no clear majority is increasing the likelihood of prolonged coalition negotiation and policy drift on regional security.",
+      "forces": [
+        "geopolitics",
+        "demographics"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "866025d3a7",
+          "section": "politics_world",
+          "title": "Turnout highest since 1981 as Israelis vote in pivotal election",
+          "note": "Highest turnout since 1981 with no clear majority likely presages prolonged coalition wrangling and regional policy uncertainty."
+        }
+      ]
+    },
+    {
+      "id": "c_asean_balancing_with_us_japan_security_t",
+      "title": "Southeast Asia leans into US-Japan security ties",
+      "claim": "Countries like the Philippines are expanding security/economic cooperation with the US and Japan to hedge regional strategic pressure.",
+      "forces": [
+        "geopolitics"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "d09ca479a6",
+          "section": "politics_world",
+          "title": "Philippines pushes deeper U.S.-Japan security, economic cooperation amid regional strains",
+          "note": "Philippines deepening U.S.-Japan security and economic cooperation shows Southeast Asian states balancing China amid regional strains."
+        }
+      ]
+    },
+    {
+      "id": "c_korean_peninsula_tactical_militarization",
+      "title": "North Korea increases forward artillery posture",
+      "claim": "New artillery deployments close to the DMZ show tactical escalation risk and higher frequency of border incidents.",
+      "forces": [
+        "geopolitics"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "d016422143",
+          "section": "politics_world",
+          "title": "North Korean howitzer guns spotted close to border with South Korea",
+          "note": "North Korean howitzers sighted near border after incidents indicate increased forward artillery posturing and tactical escalation."
+        }
+      ]
+    },
+    {
+      "id": "c_emerging_market_debt_timing_and_domestic",
+      "title": "EM borrowers shift from dollar to domestic debt",
+      "claim": "Higher US yields and local currency moves are causing Indian lenders to delay dollar bond issues and favor domestic funding sources.",
+      "forces": [
+        "capital"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "0b97b948d5",
+          "section": "markets",
+          "title": "Indian lenders defer dollar debt sale plan as rates turn expensive",
+          "note": "Indian banks (Canara, PNB, BoI) deferring dollar debt sales as US yields rise and rupee weakens, shifting funding toward domestic markets."
+        }
+      ]
+    },
+    {
+      "id": "c_japanese_institutions_repatriating_from_",
+      "title": "Japanese insurers shift into domestic bonds",
+      "claim": "Rising domestic yields are prompting life insurers to repatriate allocations from foreign debt back into Japanese government bonds.",
+      "forces": [
+        "capital"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "2bd2cc08ac",
+          "section": "markets",
+          "title": "Global Market: Japan life insurers eye domestic bonds as foreign debt selling grows",
+          "note": "Japan life insurers eye domestic bonds as rising yields make local debt more attractive and foreign selling accelerates."
+        }
+      ]
+    }
+  ],
+  "today": {
+    "attached": [
+      {
+        "item_id": "ad52ef6ce3",
+        "thread_id": "t_western_investment_in_gan_300mm_capacity",
+        "note": "Infineon committing €1.1B to Europe's first 300mm GaN fab signals major capital buildout for wide-bandgap power semiconductors."
+      },
+      {
+        "item_id": "a64a68559d",
+        "thread_id": "t_western_investment_in_gan_300mm_capacity",
+        "note": "Spintronics planning ₹2,800 crore GaN fab in Madhya Pradesh complements broader moves (Infineon) to deepen GaN capacity."
+      },
+      {
+        "item_id": "537da26ca9",
+        "thread_id": "t_india_preventive_health_ai_platforms",
+        "note": "Cent raises $15M and acquires Medsee, indicating investor focus on AI radiology and preventive healthcare platforms."
+      },
+      {
+        "item_id": "828cce77bc",
+        "thread_id": "t_india_preventive_health_ai_platforms",
+        "note": "Live2.ai’s Rs 130 Cr round supports broader investor interest in AI-native health and social-commerce platforms in India."
+      }
+    ],
+    "new_threads": [
+      "t_western_investment_in_gan_300mm_capacity",
+      "t_india_preventive_health_ai_platforms"
+    ],
+    "new_candidates": [
+      "c_physical_theft_of_ai_compute",
+      "c_ai_scaling_drives_fossil_energy_use",
+      "c_big_tech_headcount_moves_to_fund_ai_infr",
+      "c_trust_and_exfiltration_risks_in_open_mod",
+      "c_worker_pushback_on_defense_robotics_deal",
+      "c_autonomy_replacing_skilled_construction_",
+      "c_sovereign_ai_for_defense_adoption_india",
+      "c_indian_ev_margin_recovery_and_profitabil",
+      "c_social_platforms_shifting_to_longform_vi",
+      "c_electoral_roll_cleansing_and_voter_count",
+      "c_state_ppp_for_tribal_healthcare",
+      "c_subnational_resource_protectionism_in_in",
+      "c_india_diversifying_fuel_and_imports_post",
+      "c_israeli_political_polarization_and_unsta",
+      "c_asean_balancing_with_us_japan_security_t",
+      "c_korean_peninsula_tactical_militarization",
+      "c_emerging_market_debt_timing_and_domestic",
+      "c_japanese_institutions_repatriating_from_"
+    ],
+    "promoted": [],
+    "merges": [],
+    "cross_link": null,
+    "status_changes": {
+      "t_western_investment_in_gan_300mm_capacity": [
+        null,
+        "heating"
+      ],
+      "t_india_preventive_health_ai_platforms": [
+        null,
+        "heating"
+      ]
+    }
+  }
+}

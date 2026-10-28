@@ -1,0 +1,64 @@
+{#- Weekly edition: threads only. Inline styles only, as in the daily. -#}
+{%- set ink = "#1f2328" -%}{%- set muted = "#6a737d" -%}{%- set accent = "#b5452b" -%}{%- set rule = "#e6e1d8" -%}
+{%- set icons = {"heating": "🔥", "cooling": "🧊", "active": "▶️", "dormant": "💤", "new": "🆕"} -%}
+{%- set verdicts = {"right": "✅ Right", "wrong": "❌ Wrong", "too_early": "⏳ Too early"} -%}
+{%- macro tags(forces) -%}
+{%- for f in forces %}<span style="display:inline-block;font-size:11px;color:{{ muted }};border:1px solid {{ rule }};border-radius:10px;padding:0 7px;margin-left:4px;">{{ f }}</span>{% endfor -%}
+{%- endmacro -%}
+{%- macro h2(text) -%}
+<h2 style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:{{ accent }};margin:28px 0 10px;border-bottom:1px solid {{ rule }};padding-bottom:4px;">{{ text }}</h2>
+{%- endmacro -%}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L1·L2·L3 weekly · {{ headline }}</title>
+</head>
+<body style="margin:0;padding:0;background:#f6f3ee;">
+<div style="max-width:640px;margin:0 auto;padding:24px 16px;background:#fffdf9;color:{{ ink }};font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.55;">
+
+  <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:{{ muted }};">Week of {{ start }} to {{ end }}</div>
+  <h1 style="font-size:26px;margin:4px 0 2px;">L1 · L2 · L3 weekly</h1>
+  <div style="font-style:italic;color:{{ muted }};margin-bottom:8px;">{{ headline }}</div>
+
+  {{ h2("This week") }}
+  <p style="margin:0;font-size:17px;">{{ intro }}</p>
+
+  {% if moved %}
+  {{ h2("How the threads moved") }}
+  {% for r in moved %}
+  <p style="margin:0 0 12px;">{{ icons.get(r.to, "") }} <strong>{{ r.thread.title }}</strong>{{ tags(r.thread.forces) }}<br>
+    <span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:{{ muted }};">{{ r.from }} → {{ r.to }} · {{ r.evidence_this_week }} new piece{{ "" if r.evidence_this_week == 1 else "s" }} of evidence ({{ r.total }} total)</span><br>
+    {{ r.line }}</p>
+  {% endfor %}
+  {% endif %}
+
+  {% if born or died %}
+  {{ h2("Born and gone quiet") }}
+  {% for t in born %}<p style="margin:0 0 6px;">🆕 <strong>{{ t.title }}</strong> <span style="color:{{ muted }};">{{ t.claim }}</span></p>{% endfor %}
+  {% for t in died %}<p style="margin:0 0 6px;">💤 <strong>{{ t.title }}</strong> <span style="color:{{ muted }};">no new evidence lately{% if t.merged_into %}; merged into another thread{% endif %}. It can wake up.</span></p>{% endfor %}
+  {% endif %}
+
+  {{ h2("Calls review") }}
+  {% if calls %}
+  {% for c in calls %}
+  <p style="margin:0 0 4px;">{{ verdicts[c.shown_verdict] }}: <em>{{ c.prediction }}</em></p>
+  <p style="margin:0 0 12px;font-size:15px;color:{{ muted }};">Made {{ c.made }} on “{{ c.thread_title }}”. {{ c.note }}
+    {% for e in c.evidence %}<br>· {{ e.title }} ({{ e.date }}){% endfor %}</p>
+  {% endfor %}
+  {% else %}
+  <p style="margin:0;color:{{ muted }};">No calls due this week. {{ open_calls }} still open.</p>
+  {% endif %}
+
+  {% if watch %}
+  {{ h2("Watch next week") }}
+  <p style="margin:0;">👀 {{ watch }}</p>
+  {% endif %}
+
+  <div style="margin-top:32px;padding-top:12px;border-top:1px solid {{ rule }};font-family:Arial,Helvetica,sans-serif;font-size:12px;color:{{ muted }};">
+    The L1/L2/L3 framework is from <a href="{{ credit.url }}" style="color:{{ muted }};">{{ credit.name }}</a>; this digest is one implementation of their idea.
+  </div>
+</div>
+</body>
+</html>

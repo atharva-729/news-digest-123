@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-28",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "2e1cf5b0a8",
+        "reason": "Evidence that AI infrastructure startups are attracting strategic capital (NVIDIA, Accel) betting on on-premises/edge inference demand.",
+        "funding": {
+          "company": "Simplismart",
+          "amount": "$14 Mn",
+          "sector": "AI inference infrastructure",
+          "country": "India"
+        }
+      },
+      {
+        "id": "73bc5e9ebc",
+        "reason": "Signals venture money flowing into AI-driven marketing SaaS in India as firms scale pre-Series B.",
+        "funding": {
+          "company": "Live2.ai",
+          "amount": "₹130 Cr",
+          "sector": "AI marketing SaaS",
+          "country": "India"
+        }
+      },
+      {
+        "id": "ad1ab93357",
+        "reason": "Shows early-stage investor appetite for enterprise AI startups in India, including international backers.",
+        "funding": {
+          "company": "QwikBuild",
+          "amount": "$2.3 Mn",
+          "sector": "enterprise AI",
+          "country": "India"
+        }
+      },
+      {
+        "id": "f9687053c0",
+        "reason": "Example of healthtech startups using Series A capital to build AI and clinical R&D capabilities—trend of AI-enabled healthcare plays.",
+        "funding": {
+          "company": "Cent",
+          "amount": "$15M",
+          "sector": "health tech",
+          "country": ""
+        }
+      },
+      {
+        "id": "6012261abf",
+        "reason": "Evidence India is funding indigenous chip and sensor efforts—capital chasing hardware sovereignty and edge sensing.",
+        "funding": {
+          "company": "Nova Spectral AI",
+          "amount": "₹21.2 Cr",
+          "sector": "infrared sensor chips",
+          "country": "India"
+        }
+      },
+      {
+        "id": "0299fe89e8",
+        "reason": "Micro Seed rounds for child-care tech show continued investor interest in niche consumer services startups in India.",
+        "funding": {
+          "company": "Maasi",
+          "amount": "Rs 6 Cr",
+          "sector": "child-care",
+          "country": "India"
+        }
+      },
+      {
+        "id": "cef7e29668",
+        "reason": "Small consumer-app seed rounds co-led by institutional VCs indicate continued early-stage funding momentum for mobile-first engagement products.",
+        "funding": {
+          "company": "dubdub",
+          "amount": "$1.3 million",
+          "sector": "consumer app/gaming",
+          "country": ""
+        }
+      },
+      {
+        "id": "7f0f448478",
+        "reason": "Jio’s blockbuster IPO debut is evidence of massive capital concentration into Indian digital infrastructure and platform plays."
+      },
+      {
+        "id": "3dc181e1cd",
+        "reason": "Jio listing at a 21% premium underscores investor appetite for integrated telecom-to-digital conglomerates shaping India’s tech ecosystem."
+      },
+      {
+        "id": "8b7f3fa5f2",
+        "reason": "Apple’s M6 refresh across Macs signals continued vertical control over silicon and the industry shift toward custom chips with new wireless standards."
+      },
+      {
+        "id": "9d02bbba00",
+        "reason": "A critical UEFI firmware code-execution flaw affecting most servers is evidence of systemic hardware-software security risks as compute scales."
+      },
+      {
+        "id": "3ecd70f4bf",
+        "reason": "Google certifying Registered App Stores outside the US shows a strategic move to ease third-party Android distribution and respond to antitrust and regional policy pressures."
+      },
+      {
+        "id": "3d6743e529",
+        "reason": "FT reporting that AI advances threaten encryption is evidence of an accelerating security arms race as AI impacts cryptography and national security."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "50fa4e5e73",
+        "reason": "Evidence of growing political attack on big business and a broader trend of opposition framing corporate-government ties as a political issue ahead of elections."
+      },
+      {
+        "id": "cfa6968b6a",
+        "reason": "Reinforces the pattern of opposition leaders publicly accusing the government of undermining major firms, signaling escalation in political-economic contestation."
+      },
+      {
+        "id": "65644407bd",
+        "reason": "Concrete example of the Congress rebuilding grassroots organisation, indicating a sustained strategy to strengthen local party infrastructure ahead of future polls."
+      },
+      {
+        "id": "2e5aa956a5",
+        "reason": "Results in key UP legislative council seats show BJP consolidating institutional power in the state, part of a broader trend of the party strengthening regional legislative control."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "d4d3a1208f",
+        "reason": "Record-high Arab turnout and seat gains are evidence of a shifting Israeli political landscape and growing political mobilization among Palestinian citizens—altering coalition math and power balances."
+      },
+      {
+        "id": "2498ec0432",
+        "reason": "The Kherson-area ceasefire extension is evidence of localized, negotiated pauses shaping battlefield dynamics in the Russia–Ukraine war—signaling pragmatic de-escalation patterns and new mediation openings."
+      },
+      {
+        "id": "c6bfdc29f7",
+        "reason": "Egypt’s court fining a journalist and ordering an independent outlet closed is evidence of continued state-led press repression and legal tools being used to curb civil society and dissent."
+      }
+    ],
+    "markets": [
+      {
+        "id": "ef1705e918",
+        "reason": "Rising producer inflation in Malaysia to 12% as oil surges is concrete evidence that energy-driven commodity inflation is feeding regional price pressures — a macro shock that can force central banks to tighten or delay easing across Asia."
+      },
+      {
+        "id": "aee0a35ea1",
+        "reason": "Traders saying the RBI is likely to intervene to support the rupee as oil pressures the currency is specific evidence that a commodity-driven external shock is shifting capital flows and forcing emerging‑market central bank intervention."
+      }
+    ],
+    "sports": [
+      {
+        "id": "bfbff74eb2",
+        "reason": "A major cup upset—League Two Fleetwood eliminating Premier League Arsenal—signals the enduring unpredictability of knockout competitions and the competitive depth (and financial/fixture strains) shaping English football beyond the top clubs."
+      }
+    ],
+    "fun": [
+      {
+        "id": "3eb9e99c48",
+        "reason": "A striking, large-scale animal gathering (2.8 million eels) is concrete evidence of shifting capabilities in deep‑sea observation and reveals ecological patterns previously hidden by limited ocean monitoring."
+      },
+      {
+        "id": "a211bcef86",
+        "reason": "Finding an 11‑foot shiny object suspected to be rocket debris is tangible evidence of growing space‑traffic and re‑entry risks as commercial launches proliferate."
+      }
+    ]
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 7,
+    "india": 5,
+    "world": 0,
+    "unknown": 2
+  }
+}

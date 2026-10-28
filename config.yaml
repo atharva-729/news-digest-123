@@ -1,0 +1,101 @@
+# L1-L2-L3 News Digest config. Everything tunable lives here, nothing is hardcoded.
+
+edition_size: 25          # total L1 items shown in a daily edition
+
+# Share of L1 items shown per section (must sum to 1.0). Order = order in the newsletter.
+section_mix:
+  tech: 0.50
+  politics_india: 0.15
+  politics_world: 0.10
+  markets: 0.10
+  sports: 0.05
+  fun: 0.10
+
+# What each section covers; given to the selection prompt.
+section_descriptions:
+  tech: "AI, hardware/semiconductors, big-tech company moves, tech-related finance (earnings, tech stocks), startups and funding in India and worldwide, manufacturing"
+  politics_india: "Indian politics and policy"
+  politics_world: "international politics and geopolitics"
+  markets: "oil and commodities, non-tech stocks, central banks (RBI, Fed, BoJ, ECB), macro policy"
+  sports: "global sports highlights"
+  fun: "trivia or something genuinely fun from the period"
+
+model:
+  # Any OpenAI-compatible chat-completions endpoint. Its base URL comes from FOUNDRY_BASE_URL (.env / secrets),
+  # so it isn't published. gpt-5-mini with minimal reasoning: cheap and good enough for picking and tagging.
+  project: l1l2l3          # appended to the token as "Bearer <token>:<project>"
+  name: gpt-5-mini
+  fallbacks: [gpt-5.4-nano, gpt-4.1-mini]
+  params: {reasoning_effort: minimal}   # GPT-5 models ignore temperature
+  max_retries: 4          # per model, with exponential backoff
+
+writing:
+  params: {reasoning_effort: low}   # the quiz answers and the call need a little thought
+
+# Shown in every newsletter footer.
+credit: {name: "@neworderindia", url: "https://www.instagram.com/neworderindia/"}
+
+ingest:
+  daily_window_hours: 24
+  weekly_window_days: 7
+  dedupe_title_similarity: 85   # rapidfuzz token_set_ratio threshold
+  max_items_per_feed: 8         # newest N per feed after the time filter (keeps a run at ~100-300 items)
+  timeout_seconds: 20
+
+threads:
+  forces: [technology, capital, geopolitics, regulation, demographics]   # fixed L3 list
+  dormant_after_days: 10
+  max_active_threads: 15
+  min_evidence_for_new_thread: 2
+  params: {reasoning_effort: low}   # minimal reasoning rarely grouped items into threads
+
+# Feeds per section. `gn:` entries are Google News RSS searches (query string only);
+# they are expanded with hl/gl/ceid from google_news below. `when:1d` keeps them fresh.
+google_news:
+  hl: en-IN
+  gl: IN
+  ceid: "IN:en"
+
+feeds:
+  tech:
+    - {name: TechCrunch, url: "https://techcrunch.com/feed/"}
+    - {name: The Verge, url: "https://www.theverge.com/rss/index.xml"}
+    - {name: Ars Technica, url: "https://feeds.arstechnica.com/arstechnica/index"}
+    - {name: Hacker News, url: "https://hnrss.org/frontpage"}
+    - {name: Inc42, url: "https://inc42.com/feed/"}
+    - {name: Entrackr, url: "https://entrackr.com/rss"}
+    - {name: YourStory, url: "https://yourstory.com/feed"}
+    - {name: GN AI, gn: "artificial intelligence when:1d"}
+    - {name: GN semiconductors, gn: "semiconductors when:1d"}
+    - {name: GN startup funding, gn: "startup raises funding when:1d"}
+    - {name: GN India startup funding, gn: "\"raises\" funding India startup when:1d"}
+    - {name: GN India manufacturing, gn: "India manufacturing PLI when:1d"}
+    - {name: GN semiconductor fab India, gn: "semiconductor fab India when:1d"}
+  politics_india:
+    - {name: The Hindu, url: "https://www.thehindu.com/news/national/feeder/default.rss"}
+    - {name: Indian Express, url: "https://indianexpress.com/section/india/feed/"}
+    - {name: GN India politics, gn: "India politics when:1d"}
+    - {name: GN India policy, gn: "India government policy when:1d"}
+  politics_world:
+    - {name: BBC World, url: "https://feeds.bbci.co.uk/news/world/rss.xml"}
+    - {name: Al Jazeera, url: "https://www.aljazeera.com/xml/rss/all.xml"}
+    - {name: GN world, gn: "geopolitics when:1d"}
+  markets:
+    - {name: Mint Markets, url: "https://www.livemint.com/rss/markets"}
+    - {name: ET Markets, url: "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms"}
+    - {name: GN RBI, gn: "RBI when:1d"}
+    - {name: GN Fed, gn: "Federal Reserve when:1d"}
+    - {name: GN crude oil, gn: "crude oil prices when:1d"}
+    - {name: GN Sensex Nifty, gn: "Sensex Nifty when:1d"}
+    - {name: GN central banks, gn: "Bank of Japan OR ECB rates when:1d"}
+  sports:
+    - {name: BBC Sport, url: "https://feeds.bbci.co.uk/sport/rss.xml"}
+    - {name: ESPN, url: "https://www.espn.com/espn/rss/news"}
+    - {name: GN sports, gn: "sports when:1d"}
+  fun:
+    - {name: UPI Odd News, url: "https://rss.upi.com/news/odd_news.rss"}
+    - {name: Smithsonian Smart News, url: "https://www.smithsonianmag.com/rss/smart-news/"}
+    - {name: ScienceAlert, url: "https://www.sciencealert.com/feed"}
+    - {name: Atlas Obscura, url: "https://www.atlasobscura.com/feeds/latest"}
+    - {name: Mental Floss, url: "https://www.mentalfloss.com/rss.xml"}
+    # Google News "odd news"/"bizarre" searches were dropped: mostly politics and gossip mislabelled as odd.

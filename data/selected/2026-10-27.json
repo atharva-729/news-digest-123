@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-27",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "e2358621b2",
+        "reason": "High-tech physical cargo theft targeting data center hardware highlights the extreme economic value and supply chain exposure of AI compute equipment."
+      },
+      {
+        "id": "0314877842",
+        "reason": "Frontier AI lab filings reveal how exponential model scaling is colliding with power availability, forcing reliance on fossil energy and straining regional grids."
+      },
+      {
+        "id": "3291964448",
+        "reason": "Sweeping buyout programs indicate big tech's ongoing restructuring to suppress headcount costs and shift capital budgets toward AI infrastructure."
+      },
+      {
+        "id": "9af0a1a0b3",
+        "reason": "Suspected data exfiltration in Chinese open-weight models deepens geopolitical distrust and national security friction in global enterprise AI adoption."
+      },
+      {
+        "id": "603e1fd3a2",
+        "reason": "Internal workforce protests over government contracts reflect persistent cultural and ethical headwinds facing commercial robotics firms expanding into defense."
+      },
+      {
+        "id": "ad52ef6ce3",
+        "reason": "Major capital investments in 300mm GaN fabrication show Europe scaling domestic wide-bandgap chip manufacturing for energy-efficient power electronics."
+      },
+      {
+        "id": "a64a68559d",
+        "reason": "State-level GaN chip plant proposals reflect India's policy push to broaden its semiconductor base from packaging into advanced compound semiconductor fabrication."
+      },
+      {
+        "id": "5383be2c86",
+        "reason": "Heavy industrial robotics is attracting massive growth capital as persistent operator shortages force the construction sector toward autonomy.",
+        "funding": {
+          "company": "Bedrock Robotics",
+          "amount": "$600M",
+          "sector": "autonomous excavators",
+          "country": ""
+        }
+      },
+      {
+        "id": "537da26ca9",
+        "reason": "Healthtech venture funding is coalescing around platforms integrating AI radiology and diagnostics to move healthcare delivery from episodic to preventive care.",
+        "funding": {
+          "company": "Cent",
+          "amount": "$15 million",
+          "sector": "preventive healthcare",
+          "country": ""
+        }
+      },
+      {
+        "id": "828cce77bc",
+        "reason": "Investors continue funding AI-native social intelligence platforms designed to monetize fragmented social channels and automated commerce.",
+        "funding": {
+          "company": "Live2.ai",
+          "amount": "Rs 130 crore",
+          "sector": "AI-based social intelligence and commerce activation",
+          "country": ""
+        }
+      },
+      {
+        "id": "7dd51a3e33",
+        "reason": "State defense MoUs with homegrown AI labs demonstrate the push toward sovereign AI stacks and domestic integration across military systems."
+      },
+      {
+        "id": "7f5d3a997f",
+        "reason": "Quarterly net profitability in electric mobility indicates maturing production economics and margin recovery in India's subsidized EV sector."
+      },
+      {
+        "id": "2af94b98e4",
+        "reason": "Social platforms expanding into feature-length video marks a strategic pivot away from short-form monoculture to contest YouTube's dominance in long-form advertising."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "f1271280ee",
+        "reason": "Evidence of large-scale state voter roll revisions and the significant demographic footprint of intensive electoral list verification."
+      },
+      {
+        "id": "cb3ced411a",
+        "reason": "Evidence of state governments turning to public-private partnership models to address severe healthcare delivery shortfalls in remote tribal regions."
+      },
+      {
+        "id": "3820826836",
+        "reason": "Evidence of subnational resource protectionism and state-level regulatory control over raw mineral exports."
+      },
+      {
+        "id": "6b1fadc831",
+        "reason": "Evidence of strategic state intervention to diversify fuel supply chains and insulate the domestic economy from Middle Eastern geopolitical volatility."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "866025d3a7",
+        "reason": "Record voter turnout underscores severe political polarization with direct implications for regional security alignments in the Middle East."
+      },
+      {
+        "id": "d09ca479a6",
+        "reason": "Southeast Asian nations are actively strengthening multilateral defense alliances with Western partners to balance major power competition in the Indo-Pacific."
+      },
+      {
+        "id": "d016422143",
+        "reason": "Forward artillery positioning near the border demonstrates worsening tactical friction and militarization on the Korean Peninsula."
+      }
+    ],
+    "markets": [
+      {
+        "id": "0b97b948d5",
+        "reason": "Rising US yields and currency volatility are pricing emerging market banks out of dollar debt markets, forcing a shift to domestic funding."
+      },
+      {
+        "id": "2bd2cc08ac",
+        "reason": "Rising domestic bond yields are prompting Japanese institutional investors to repatriate capital from foreign debt markets."
+      }
+    ],
+    "sports": [
+      {
+        "id": "054633ea0e",
+        "reason": "Harry Kane winning football's premier individual award reflects the continued dominance and global prestige of top-tier European club football."
+      }
+    ],
+    "fun": [
+      {
+        "id": "33e851f663",
+        "reason": "Evidence that sleep regulation mechanisms like sleep rebound extend much further back in evolutionary history to invertebrates than previously proven."
+      },
+      {
+        "id": "1b7711bdb3",
+        "reason": "Evidence that prehistoric amphibian evolutionary adaptations were far more ecologically diverse than long-held scientific assumptions suggested."
+      }
+    ]
+  },
+  "moved_to_tech": [
+    "ee7ef6650d",
+    "7c3f5a50e4",
+    "a969760389",
+    "35fb3172ca"
+  ],
+  "funding": {
+    "total": 3,
+    "india": 0,
+    "world": 0,
+    "unknown": 3
+  }
+}
