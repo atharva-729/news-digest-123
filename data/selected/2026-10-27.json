@@ -11,145 +11,162 @@
   "sections": {
     "tech": [
       {
-        "id": "e2358621b2",
-        "reason": "High-tech physical cargo theft targeting data center hardware highlights the extreme economic value and supply chain exposure of AI compute equipment."
+        "id": "3b1fe9cd90",
+        "reason": "Evidence that capital is rotating back into tech on hopes AI will revive growth — broad tech stocks rallying signals renewed investor appetite."
       },
       {
         "id": "0314877842",
-        "reason": "Frontier AI lab filings reveal how exponential model scaling is colliding with power availability, forcing reliance on fossil energy and straining regional grids."
+        "reason": "Shows AI scaling is constrained by energy and data-center capacity — Anthropic's S‑1 highlights power competition and methane dependency as material to AI economics."
       },
       {
-        "id": "3291964448",
-        "reason": "Sweeping buyout programs indicate big tech's ongoing restructuring to suppress headcount costs and shift capital budgets toward AI infrastructure."
+        "id": "b84717bfa4",
+        "reason": "Signals the governance and control debate around powerful AI is maturing into formal plans beyond founders — regulatory and institutional power dynamics at play."
       },
       {
         "id": "9af0a1a0b3",
-        "reason": "Suspected data exfiltration in Chinese open-weight models deepens geopolitical distrust and national security friction in global enterprise AI adoption."
+        "reason": "Illustrates trust and supply-chain risk in AI models: Chinese models exhibiting unexpected network behaviour fuels geopolitics and sourcing concerns."
       },
       {
-        "id": "603e1fd3a2",
-        "reason": "Internal workforce protests over government contracts reflect persistent cultural and ethical headwinds facing commercial robotics firms expanding into defense."
+        "id": "17fc845daf",
+        "reason": "Data-center backlash story is evidence of growing political and social friction around digital infrastructure siting — a constraint on tech expansion and decarbonization tradeoffs."
       },
       {
-        "id": "ad52ef6ce3",
-        "reason": "Major capital investments in 300mm GaN fabrication show Europe scaling domestic wide-bandgap chip manufacturing for energy-efficient power electronics."
+        "id": "1f384ef1f9",
+        "reason": "Concrete funding example showing venture capital flowing into preventive health AI in India — evidence of healthtech investor interest and consolidation.",
+        "funding": {
+          "company": "Cent",
+          "amount": "$15 Mn",
+          "sector": "health tech",
+          "country": "India"
+        }
       },
       {
-        "id": "a64a68559d",
-        "reason": "State-level GaN chip plant proposals reflect India's policy push to broaden its semiconductor base from packaging into advanced compound semiconductor fabrication."
+        "id": "71e233aae0",
+        "reason": "Another India funding signal in AI/vision hardware: seed capital for physical AI vision shows investor interest in on-device and industrial AI startups.",
+        "funding": {
+          "company": "Nova Spectral AI",
+          "amount": "Rs 21.15 Cr",
+          "sector": "physical AI / computer vision",
+          "country": "India"
+        }
       },
       {
         "id": "5383be2c86",
-        "reason": "Heavy industrial robotics is attracting massive growth capital as persistent operator shortages force the construction sector toward autonomy.",
+        "reason": "Large late-stage raise and valuation for autonomous construction equipment is evidence of industrial automation attracting massive capital and pushing robotics into heavy industries.",
         "funding": {
           "company": "Bedrock Robotics",
           "amount": "$600M",
-          "sector": "autonomous excavators",
+          "sector": "robotics / autonomous construction",
           "country": ""
         }
       },
       {
-        "id": "537da26ca9",
-        "reason": "Healthtech venture funding is coalescing around platforms integrating AI radiology and diagnostics to move healthcare delivery from episodic to preventive care.",
+        "id": "837fb6a3e2",
+        "reason": "European AI tooling funding shows startups are targeting enterprise consistency across multiple LLMs — evidence of demand for orchestration layers as enterprises adopt many models.",
         "funding": {
-          "company": "Cent",
-          "amount": "$15 million",
-          "sector": "preventive healthcare",
-          "country": ""
+          "company": "Querio",
+          "amount": "€4.48 million",
+          "sector": "AI tooling",
+          "country": "UK"
         }
       },
       {
-        "id": "828cce77bc",
-        "reason": "Investors continue funding AI-native social intelligence platforms designed to monetize fragmented social channels and automated commerce.",
+        "id": "c2cbc24d60",
+        "reason": "YC-backed micro‑funding for an AI wealth manager aimed at India signals fintech+AI startups targeting retail wealth products in emerging markets.",
         "funding": {
-          "company": "Live2.ai",
-          "amount": "Rs 130 crore",
-          "sector": "AI-based social intelligence and commerce activation",
-          "country": ""
+          "company": "Vouch",
+          "amount": "$500K",
+          "sector": "fintech / wealthtech",
+          "country": "India"
         }
       },
       {
-        "id": "7dd51a3e33",
-        "reason": "State defense MoUs with homegrown AI labs demonstrate the push toward sovereign AI stacks and domestic integration across military systems."
+        "id": "9519468211",
+        "reason": "YC-backed Mochatrade’s $5.5M raise shows crypto/derivatives infrastructure being built for Indian retail traders — evidence of productizing global financial tools for local markets.",
+        "funding": {
+          "company": "Mochatrade",
+          "amount": "$5.5 million",
+          "sector": "fintech / trading",
+          "country": "India"
+        }
       },
       {
-        "id": "7f5d3a997f",
-        "reason": "Quarterly net profitability in electric mobility indicates maturing production economics and margin recovery in India's subsidized EV sector."
+        "id": "e2358621b2",
+        "reason": "Cargo theft via GPS spoofing shows new cyber-physical attack vectors hitting critical hardware supply chains — evidence that logistics security must adapt to digital threats."
       },
       {
-        "id": "2af94b98e4",
-        "reason": "Social platforms expanding into feature-length video marks a strategic pivot away from short-form monoculture to contest YouTube's dominance in long-form advertising."
+        "id": "e690224c4d",
+        "reason": "(reserve) cultural/tech crossover — note: historical tech influence on professions."
       }
     ],
     "politics_india": [
       {
+        "id": "e45ab00afb",
+        "reason": "Evidence of tightening electoral administration and new voter-documentation rules that could reshape registration and scrutiny (regulation + politics)."
+      },
+      {
         "id": "f1271280ee",
-        "reason": "Evidence of large-scale state voter roll revisions and the significant demographic footprint of intensive electoral list verification."
+        "reason": "Shows large-scale voter roll changes in Karnataka — evidence of electoral roll management affecting voter composition and political power locally (policy + politics)."
       },
       {
-        "id": "cb3ced411a",
-        "reason": "Evidence of state governments turning to public-private partnership models to address severe healthcare delivery shortfalls in remote tribal regions."
+        "id": "2b63c820a4",
+        "reason": "Legal stay on a high-profile foreign actor’s deportation notice signals how courts are shaping enforcement of public-order measures with political implications (judiciary checking state actions)."
       },
       {
-        "id": "3820826836",
-        "reason": "Evidence of subnational resource protectionism and state-level regulatory control over raw mineral exports."
-      },
-      {
-        "id": "6b1fadc831",
-        "reason": "Evidence of strategic state intervention to diversify fuel supply chains and insulate the domestic economy from Middle Eastern geopolitical volatility."
+        "id": "2d42948099",
+        "reason": "Expansion of J&K council under Omar Abdullah signals political reshaping and power consolidation in the Union Territory after recent administrative changes (regional politics + governance)."
       }
     ],
     "politics_world": [
       {
         "id": "866025d3a7",
-        "reason": "Record voter turnout underscores severe political polarization with direct implications for regional security alignments in the Middle East."
+        "reason": "High turnout in Israel’s pivotal election is evidence of intensified domestic polarization that will shape coalition instability and regional policy for months."
       },
       {
-        "id": "d09ca479a6",
-        "reason": "Southeast Asian nations are actively strengthening multilateral defense alliances with Western partners to balance major power competition in the Indo-Pacific."
+        "id": "3368efa2d1",
+        "reason": "Ongoing counting and delayed verdicts in Israel's 2026 vote signal likely protracted coalition talks, showing how electoral fragmentation is redefining governance in the region."
       },
       {
-        "id": "d016422143",
-        "reason": "Forward artillery positioning near the border demonstrates worsening tactical friction and militarization on the Korean Peninsula."
+        "id": "8dc9d7e243",
+        "reason": "Analysis that a new Israeli government could take time highlights the structural difficulty of forming coalitions—evidence of a persistent fragmentation trend in Israeli politics."
       }
     ],
     "markets": [
       {
         "id": "0b97b948d5",
-        "reason": "Rising US yields and currency volatility are pricing emerging market banks out of dollar debt markets, forcing a shift to domestic funding."
+        "reason": "Evidence of capital flows and FX stress: Indian banks deferring dollar debt sales shows rising US yields and rupee pressures are altering external funding strategies."
       },
       {
-        "id": "2bd2cc08ac",
-        "reason": "Rising domestic bond yields are prompting Japanese institutional investors to repatriate capital from foreign debt markets."
+        "id": "ee900ab402",
+        "reason": "Oil-market supply risk signal: commentary that US crude may break its range amid geopolitical/Tehran talks and Houthi attacks points to higher tail-risk for inflation and energy prices."
       }
     ],
     "sports": [
       {
-        "id": "054633ea0e",
-        "reason": "Harry Kane winning football's premier individual award reflects the continued dominance and global prestige of top-tier European club football."
+        "id": "29b7d54bdf",
+        "reason": "Major championship-clinching moment — Brewers' dominant Game 3 and 3-0 World Series lead is evidence of a franchise ascending and the competitive shift in MLB postseason power this year."
       }
     ],
     "fun": [
       {
-        "id": "33e851f663",
-        "reason": "Evidence that sleep regulation mechanisms like sleep rebound extend much further back in evolutionary history to invertebrates than previously proven."
+        "id": "42f2d29bb2",
+        "reason": "Novel record stunt — evidence of record-seeking makers and branded spectacle culture enabled by social media and Guinness-style virality."
       },
       {
-        "id": "1b7711bdb3",
-        "reason": "Evidence that prehistoric amphibian evolutionary adaptations were far more ecologically diverse than long-held scientific assumptions suggested."
+        "id": "ecc0ac39a8",
+        "reason": "A theme park built around the first Boeing 787 prototype — evidence of experiential tourism and repurposing industrial tech as cultural attractions."
       }
     ]
   },
   "moved_to_tech": [
     "ee7ef6650d",
     "7c3f5a50e4",
-    "a969760389",
     "35fb3172ca"
   ],
   "funding": {
-    "total": 3,
-    "india": 0,
-    "world": 0,
-    "unknown": 3
+    "total": 6,
+    "india": 4,
+    "world": 1,
+    "unknown": 1
   }
 }

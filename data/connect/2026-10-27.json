@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-27",
+  "backstory": [
+    {
+      "thread_id": "t_ai_capital_rotation",
+      "item_id": "26ac4a5663"
+    },
+    {
+      "thread_id": "t_ai_capital_rotation",
+      "item_id": "d50e9ddbe9"
+    },
+    {
+      "thread_id": "t_ai_capital_rotation",
+      "item_id": "098da1753d"
+    },
+    {
+      "thread_id": "t_ai_energy_constraints",
+      "item_id": "8670fea653"
+    },
+    {
+      "thread_id": "t_ai_energy_constraints",
+      "item_id": "41eee0cf45"
+    },
+    {
+      "thread_id": "t_ai_governance_institutionalization",
+      "item_id": "d15b083193"
+    },
+    {
+      "thread_id": "t_ai_governance_institutionalization",
+      "item_id": "00fe42d41d"
+    },
+    {
+      "thread_id": "t_india_voter_roll_tightening",
+      "item_id": "fd3b5ea546"
+    },
+    {
+      "thread_id": "t_india_voter_roll_tightening",
+      "item_id": "8774a4982d"
+    }
+  ],
+  "throwbacks": [
+    {
+      "item_id": "3b1fe9cd90",
+      "kind": "sequel",
+      "line": "Tech stocks rally today continues the fragile AI market rebound Wall Street warned could be tested by earnings and Fed.",
+      "past": {
+        "id": "b40df6e71c",
+        "date": "2026-10-25",
+        "title": "Wall St Week Ahead Earnings flood, Fed meeting will test rickety AI market rally",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR3FjeUJFd2Z6ZFBxOEFlLUx4anZlN1BqeFkxQ1pFcTdXTENYc0tMdW9RbjJ1Vk91Y2tmSXVoRDFCTmZoQ2cxN3BaSlFfTXplZUNZTFIzVmR3OTVmUVYzWnBXVkxRNXAtOEpBSUpIVjlBMnJ6cVViYnFSSHZoaC1CbkR5TnBzZndWNEo5aFlkWTVKY0hSYzRuOTlzUjYwcGlrcFJKQXhlbmFOMHNWLTRiRHZaM21fWEF1SDl1Mg?oc=5",
+        "source": "Reuters",
+        "section": "markets"
+      }
+    },
+    {
+      "item_id": "0314877842",
+      "kind": "sequel",
+      "line": "Anthropic’s S‑1 disclosure that it burns gas concretely follows its prior warning about AI’s catastrophic risks before IPO.",
+      "past": {
+        "id": "d15b083193",
+        "date": "2026-10-26",
+        "title": "Anthropic warns of AI's 'catastrophic risks' ahead of major IPO",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpRThpZzljUDVhR2FLUnEzald0ZTRNU09RTDIyazJvSDVmazJ4NGtleVFjY0dXRFNBX0gzQkZzTFNBQ1N5cEdxbG1jeU1DMXpYRGNTUS1kSHhiNHM?oc=5",
+        "source": "BBC",
+        "section": "tech"
+      }
+    },
+    {
+      "item_id": "17fc845daf",
+      "kind": "same_pattern",
+      "line": "Local backlash to data‑centre builds mirrors the industry push for GaN and other power tech to feed AI growth.",
+      "past": {
+        "id": "8670fea653",
+        "date": "2026-10-23",
+        "title": "Infineon, NVIDIA collaborate on GaN for 800VDC AI data centres",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ1piQzdoc3pVRkFJV1pfWHF0UzVmay1WOGZrZUJMbGlCTDRuYV9JTEFOclM1aGxGUWFGMzVGNTFVbF9jNHJFUXphRm9NSWUzblY4dEIyQk1pbktXaW1xMmJEdHlfcUlRVVdmY3BfTGlPOEx1akxEdlVPWmthbjFMT2JrZXZ4MlVNREFTLWVVdE0zZGFYRjl4elZ1SUo4UWU2NTU4NDFydllUYk82RzlOeEJZVmF3TlQ4Z2FJc1p3VENxMDE2QnJGRmFKZURUTFNsaUJ1MmdR0gHbAUFVX3lxTE15UVh2SFM5MHhNTlVHbFpqRzV2YkZNZmVGZFlWdHBaNWJhREtoTVA1RjQ0T3J6TXFLTEQwdDJYdnFWTWlVWll4WFl6dDA5R3N6SS05am1yYUFzM05tQmhZNWQ0WTlLYVRhR3NrMGcyZkRtWWE5NkxkMVpsMmZOeDNVZHZNeEZQN1J5cmZzeHF5TzFfeWE5bEdIRXh2X3JQOXgtMWxubkZ0VWFXTjZ4REdaRnBQdXhZRnRwdGF3b0hXQUZKd3VYWTEwaHNlX2xRSVJiX3VWdVJpYXVTUQ?oc=5",
+        "source": "electronics.economictimes.indiatimes.com",
+        "section": "tech"
+      }
+    },
+    {
+      "item_id": "1f384ef1f9",
+      "kind": "cause",
+      "line": "Infineon’s new high‑volume GaN plant is the industrial follow‑through to last week’s $389M U.S. R&D push for power semiconductors.",
+      "past": {
+        "id": "41eee0cf45",
+        "date": "2026-10-22",
+        "title": "US to award $389 million in R&D funds for power semiconductors, critical materials",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeHQ5cE1SRTVJQVJTRFl1bFhjWDR2ZUZ1elVOY2QwWDEtZzhBNVFfbk5NcC1UUG0tNFp5SGpMa1UyeG1mbXJtSzVmZnd5RGpWTlhQZnRPZks5SHZSUWIwSGhRRlJ3T3FpZkpNaFdSUmlObHdvWGlGREh0NTk2YWozaU8zWFVXRjRpdFNaSlVmQ0lwT0JNb3VIbkRoQnZHRzJrTGV1bWQtNlpXU1lsQ3o4amxCVmtQbW8?oc=5",
+        "source": "Reuters",
+        "section": "tech"
+      }
+    },
+    {
+      "item_id": "9af0a1a0b3",
+      "kind": "same_pattern",
+      "line": "An AI model’s attempt to phone home to Beijing echoes last week’s Chinese proposal for new AI export controls — trust and tech controls collide.",
+      "past": {
+        "id": "6c0cc7da96",
+        "date": "2026-10-26",
+        "title": "China proposes new export controls on artificial intelligence, biopharma, and photovoltaic technologies",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQUluM3JRMHRybHBfX0VRX2dPMTRaVEpldTJSMVo5RURBQkYyMzVZOFhTaDU2NmE2dEdEZmNsSzdLWmhQTHd0VnE3c1NEa3pfMTIyRnRCY0xIMk0zaVhNT3hzVkF0SWxqNzg0eklBTEFVZDE2NmhhVzhpemxndC1vN3V5Y1V2blFLM0t6c2h1bXRobUhPM1VDMWlxb0VTT0dBUnJrVWg3eTFGUTNRTlJRM0M4eWdrY2EtOVF3VWU3YkdrdUU?oc=5",
+        "source": "White & Case LLP",
+        "section": "tech"
+      }
+    }
+  ]
+}

@@ -1,36 +1,72 @@
 {
   "date": "2026-10-28",
-  "subject": "L1·L2·L3 weekly 2026-10-28: Capital and tech recycle into India; GaN buildout heats up",
+  "subject": "L1·L2·L3 weekly 28 Oct: AI money surged; power and rules bit",
+  "lead": "AI money surged; power and rules bit",
+  "tldr": [
+    {
+      "text": "AI funding kept fattening up, with big rounds and bigger valuations.",
+      "highlight": "big rounds and bigger valuations"
+    },
+    {
+      "text": "Power limits got louder: data centres, supply shocks, and GaN got airtime.",
+      "highlight": "Power limits got louder"
+    },
+    {
+      "text": "India’s rulebook got sharper, while election and oil threads stayed messy.",
+      "highlight": "rulebook got sharper"
+    }
+  ],
   "writer": {
-    "headline": "Capital and tech recycle into India; GaN buildout heats up",
-    "intro": "Biggest shift: domestic Indian listings are concentrating capital and recycling it into startups, especially AI and hardware plays. Western and Indian commitments to 300mm GaN fabs show heavy industrial capital flowing into semiconductor sovereignty. Investors are also backing AI-first preventive-health platforms in India. Energy-driven inflation and Israeli turnout trends rounded out the week's geopolitical pressures.",
+    "headline": "AI money surged; power and rules bit",
+    "tldr": [
+      {
+        "text": "AI funding kept fattening up, with big rounds and bigger valuations.",
+        "highlight": "big rounds and bigger valuations"
+      },
+      {
+        "text": "Power limits got louder: data centres, supply shocks, and GaN got airtime.",
+        "highlight": "Power limits got louder"
+      },
+      {
+        "text": "India’s rulebook got sharper, while election and oil threads stayed messy.",
+        "highlight": "rulebook got sharper"
+      }
+    ],
+    "intro": {
+      "text": "Biggest shift: AI Money Shift went from newborn to heating fast, with capital chasing tooling, robotics, and infra. Around it, The Power Limit got more real, while Governance Guardrails and Regulation vs Press showed the rules are now part of the story.",
+      "highlight": "AI Money Shift went from newborn to heating fast"
+    },
     "threads": [
       {
-        "thread_id": "t_india_capital_recycling_after_ipos",
-        "line": "Jio’s 21% IPO debut and a high listing valuation concentrated domestic capital, and that liquidity coincided with multiple early- and growth-stage raises into AI, hardware and consumer startups (examples include a $14M Series B with NVIDIA and Accel, Nova Spectral AI’s ₹21.2 Cr seed, and several pre-seed rounds)."
+        "thread_id": "t_ai_capital_rotation",
+        "line": "AI Money Shift heated up as capital kept piling into AI tooling, robotics, vision hardware, and late-stage infra, with valuations still doing gymnastics."
       },
       {
-        "thread_id": "t_india_preventive_health_ai_platforms",
-        "line": "Investors put fresh capital into AI-native preventive-health and radiology platforms, led by Cent’s $15M raise plus an acquisition and Live2.ai’s ₹130 Cr round supporting AI-enabled preventive and marketing-health plays."
+        "thread_id": "t_ai_governance_institutionalization",
+        "line": "Governance Guardrails warmed further: AI is moving from founder vibes to institutional controls, disclosures, and trust drama."
       },
       {
-        "thread_id": "t_western_investment_in_gan_300mm_capacity",
-        "line": "Large-capital plans for 300mm GaN capacity advanced, with Infineon committing €1.1B to Europe’s first 300mm GaN fab and Spintronics planning a ₹2,800 crore fab in Madhya Pradesh."
+        "thread_id": "t_ai_energy_constraints",
+        "line": "The Power Limit got hotter as AI’s thirst for electricity ran into supply, siting, and power-electronics constraints."
       },
       {
-        "thread_id": "t_israeli_political_polarization_and_unsta",
-        "line": "Extremely high turnout—highest since 1981—and no clear majority increased signs of political fragmentation, with ~80% Arab turnout and record seat gains changing coalition math."
+        "thread_id": "t_israel_political_fragmentation",
+        "line": "Fragmented Israel stayed heating because high turnout and a likely no-majority result point to long coalition wrangling."
       },
       {
-        "thread_id": "t_energy_shock_drives_em_market_pressures",
-        "line": "Oil-driven inflation showed up in producer prices—Malaysia PPI at 12%—and market chatter expects RBI intervention to support the rupee as oil pressures currency and capital flows."
+        "thread_id": "t_oil_supply_shocks_driving_em_inflation",
+        "line": "Refinery Shock intensified as oil spikes from supply disruptions kept feeding straight into inflation pressure."
       },
       {
-        "thread_id": "t_political_attacks_on_big_business",
-        "line": "Public political attacks on large corporations intensified, exemplified by Rahul Gandhi’s claim that Tata is being 'criminally destroyed', signalling elevated political pressure on major firms."
+        "thread_id": "t_india_regulatory_pushback",
+        "line": "Regulation vs Press heated up as courts, media groups, and policy talks pushed back on new rules and shaped how they land."
+      },
+      {
+        "thread_id": "t_india_voter_roll_tightening",
+        "line": "Roll Trim stayed hot as the Election Commission kept tightening documentation and trimming rolls, triggering visible pushback."
       }
     ],
     "calls": [],
-    "watch": "Watch whether Jio-era liquidity turns into larger, later-stage funds or M&A next week; also track any formal project approvals or financing for the 300mm GaN fabs, which would push the semiconductor thread from interest to industry buildout."
+    "watch": "Watch whether AI capital keeps clustering into a few mega-winners, and whether power constraints turn into real deployment delays. Also watch if India’s regulatory pushback hardens into actual rule changes, not just courtroom noise."
   }
 }

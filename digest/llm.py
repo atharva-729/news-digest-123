@@ -5,13 +5,9 @@ import os
 import time
 
 import httpx
-import truststore
 from dotenv import load_dotenv
 
-from digest.common import load_config
-
-# Python 3.13+ rejects the corporate TLS-inspection CA unless we use the OS trust store.
-truststore.inject_into_ssl()
+from digest.common import DATA, load_config, today_ist
 
 log = logging.getLogger(__name__)
 
@@ -24,10 +20,28 @@ def _env(name):
     return value
 
 
-def _call(messages, **extra):
-    """Try the configured model, then each fallback, with exponential backoff on each."""
+def _log_usage(tag, model, usage, seconds):
+    """Append one line per call to data/llm_usage.jsonl: what called the model, tokens, and estimated cost."""
+    usage = usage or {}
+    cached = (usage.get("prompt_tokens_details") or {}).get("cached_tokens", 0)
+    prompt, completion = usage.get("prompt_tokens", 0), usage.get("completion_tokens", 0)
+    price = (load_config()["model"].get("prices") or {}).get(model)
+    usd = None
+    if price:
+        usd = round(((prompt - cached) * price["input"] + cached * price["cached_input"]
+                     + completion * price["output"]) / 1e6, 6)
+    row = {"ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "run_date": today_ist(), "tag": tag, "model": model,
+           "prompt_tokens": prompt, "cached_tokens": cached, "completion_tokens": completion,
+           "reasoning_tokens": (usage.get("completion_tokens_details") or {}).get("reasoning_tokens", 0),
+           "seconds": round(seconds, 1), "usd": usd}
+    with open(DATA / "llm_usage.jsonl", "a", encoding="utf-8") as f:
+        f.write(json.dumps(row) + "\n")
+
+
+def _call(messages, tag="untagged", model=None, **extra):
+    """Try `model` (if a step overrides it), then the configured model and each fallback, with backoff on each."""
     cfg = load_config()["model"]
-    models = [cfg["name"], *cfg.get("fallbacks", [])]
+    models = list(dict.fromkeys(m for m in [model, cfg["name"], *cfg.get("fallbacks", [])] if m))
     base_url = _env("FOUNDRY_BASE_URL").rstrip("/")
     headers = {"Authorization": f"Bearer {_env('FOUNDRY_TOKEN')}:{cfg.get('project', 'l1l2l3')}"}
     last_err = None
@@ -36,13 +50,15 @@ def _call(messages, **extra):
         for attempt in range(cfg.get("max_retries", 4)):
             try:
                 # Without a timeout an overloaded model can hang a request indefinitely and stall the cron run.
+                t0 = time.time()
                 r = httpx.post(f"{base_url}/chat/completions", json=body, headers=headers, timeout=180)
                 r.raise_for_status()
                 data = r.json()
                 choice = data["choices"][0]
                 if not choice["message"].get("content"):
                     raise ValueError(f"empty response (finish reason: {choice.get('finish_reason')})")
-                log.info("%s usage: %s", model, data.get("usage"))
+                log.info("%s [%s] usage: %s", model, tag, data.get("usage"))
+                _log_usage(tag, model, data.get("usage"), time.time() - t0)
                 return choice["message"]["content"]
             except Exception as e:  # 429/5xx from the API, empty or truncated output
                 last_err = e
@@ -69,11 +85,12 @@ def _strict(schema):
     return schema
 
 
-def generate_json(prompt, schema, **params):
-    """Return a dict that matches `schema` (a JSON Schema dict). `params` override config, e.g. reasoning_effort."""
+def generate_json(prompt, schema, tag="untagged", **params):
+    """Return a dict that matches `schema` (a JSON Schema dict). `tag` names the caller in the usage log;
+    `params` override config, e.g. reasoning_effort."""
     fmt = {"type": "json_schema", "json_schema": {"name": "result", "schema": _strict(schema), "strict": True}}
-    return json.loads(_call([{"role": "user", "content": prompt}], response_format=fmt, **params))
+    return json.loads(_call([{"role": "user", "content": prompt}], tag=tag, response_format=fmt, **params))
 
 
-def generate_text(prompt, **params):
-    return _call([{"role": "user", "content": prompt}], **params)
+def generate_text(prompt, tag="untagged", **params):
+    return _call([{"role": "user", "content": prompt}], tag=tag, **params)

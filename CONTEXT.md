@@ -5,55 +5,52 @@ current state. **Keep it under ~80 lines: rewrite sections in place, don't appen
 the last 5 entries.**
 
 ## Where we are
-- **Built:** Phases 0–6 (ingest, select, threads, write, deliver, weekly). Runs locally only.
-- **Checkpoints not yet passed:** 3 (needs 3–5 real mornings, then read `data/threads.json` for thread
-  quality), 4 (open editions in a real email), 5 (needs secrets + a GitHub repo), 6 (needs a week).
-- **Next:** run `python run.py daily --push` every morning; review threads after ~5 days.
+- **Built:** Phases 0–6 plus a redesign (2026-10-28): the edition is now a web page for short attention
+  spans, with tabs Feed (punchy L1 cards) / What it means (L1, L2, L3 + map + connections) / Play (call,
+  quiz). Runs locally only; `--push` publishes to GitHub Pages.
+- **Checkpoints not yet passed:** 3 (3–5 real mornings, then judge `data/threads.json`), 6 (needs a week).
+- **Next:** run `python run.py daily --push` every morning; review threads and LLM spend after ~5 days.
 
 ## How to run
-- `python run.py daily` = ingest → select → threads → write → deliver. `python run.py weekly` = write → deliver.
-- `--from X` / `--until X` pick a phase range, reusing saved data. `--no-send` skips email. `-v` logs.
-- Output: `data/items/`, `data/selected/`, `data/threads/DATE.json` (snapshot per day; `threads.json` =
-  latest), `data/written/`, `data/weekly/`, `data/calls.json`, `docs/DATE.html`, `docs/weekly-DATE.html`,
-  `docs/index.html`. `--push` commits data/ + docs/ and pushes, which updates GitHub Pages.
+- `python run.py daily` = ingest (+7-day lookback) → select → threads → connect → write → deliver.
+  `python run.py weekly` = write → deliver. `--from/--until X` reuse saved data. `--no-send`, `-v`, `--push`.
+- Output: `data/items/`, `data/context/` (last week), `data/selected/`, `data/threads/DATE.json`
+  (snapshot per day; `threads.json` = latest), `data/connect/`, `data/written/`, `data/calls.json`,
+  `data/llm_usage.jsonl`, `docs/*.html` + `docs/assets/` (copied from `templates/static/`).
+- `python -m digest.usage` summarises LLM calls; LLM_USAGE.md explains each one and the cost.
 - Always run via `run.py` from the repo root (`digest/select.py` would shadow the stdlib `select`).
 
 ## Decisions made (and why)
-- LLM: an OpenAI-compatible gateway; `FOUNDRY_TOKEN` and `FOUNDRY_BASE_URL` live only in the local
-  `.env`, never in the repo (it's public). `gpt-5-mini`, fallbacks `gpt-5.4-nano`, `gpt-4.1-mini`. Strict JSON schemas (`llm._strict`
-  closes every object), because non-strict let the model drop required fields. Select runs at
-  `minimal` reasoning; threads and writing at `low` (minimal rarely grouped items into threads).
-  A full daily is ~8 calls, roughly $0.03. Foundry seems to cache identical requests.
-- Work laptop (corporate proxy): all feeds open except ESPN and Atlas Obscura (category block). Gmail SMTP 465
-  is reachable. `llm.py` injects `truststore` for the TLS-inspection CA.
-- Threads: state is a snapshot per day built on the latest earlier one, so reruns are idempotent and
-  days can be back-filled in order. Code enforces: fixed forces, real item ids, ≥2 items or it stays a
-  candidate (candidates lapse after `dormant_after_days`), status from evidence counts (this week vs
-  last), never delete (merged → `merged_into`, over-cap → `parked_on`; both wake on new evidence).
-  Cross-link must share a force and differ in sections; it's often dropped while threads are few.
-- Select skips stories already picked in the previous 3 editions (title similarity ≥ 85).
-- Calls: one per daily, review in 30–120 days. Weekly verdicts count only items dated after the call;
-  no surviving evidence means "too early".
-- Fun section items are shown in the Fun block (not in the section list), so the mix still holds.
-- Funding country: model infers from clear signals; code backstops rupee amounts → India.
+- LLM: OpenAI-compatible gateway; `FOUNDRY_TOKEN` / `FOUNDRY_BASE_URL` only in local `.env` (repo is
+  public). gpt-5-mini for select (minimal), threads and connect (low); **writer on gpt-5.4-mini** (low)
+  because gpt-5-mini kept restating headlines. Strict JSON schemas. ~9 calls/day, ~$0.04/day.
+- Design: solid colours only (no gradients), thick borders, hard shadows, yellow highlighter marks chosen
+  by the model but verified in code (must be an exact substring). Light/dark via tokens + toggle.
+  Archivo + Space Mono from Google Fonts. Takes are AI-written; real headline kept as "Boring version" link.
+- Connections: `connect` reads ~300 balanced headlines from the previous 7 days (Google News `when:7d`
+  plus our saved days, capped per feed per day), adds up to 3 backstory clues per thread (dated when
+  published) and 3–6 today↔last-week throwbacks. All ids checked.
+- Select returns 2 ranked reserves per section; code drops same-story pairs (fuzzy title ≥ 70, or a
+  shared amount/percentage plus a shared name), and skips stories picked in the previous 3 editions.
+- Writer skips cards sometimes in a long answer: a `write:retry` call fills just those. Quiz options are
+  shuffled in code so answers don't all sit in slot A.
+- Threads: per-day snapshots (idempotent reruns); code enforces fixed forces, real ids, ≥2 items, status
+  from evidence counts, never delete. New threads get a `nickname` and a plain-English line.
+- truststore is injected in `common.py` (every module), so feeds work without importing `llm.py`.
+- Work laptop proxy: all feeds open except ESPN and Atlas Obscura.
 - Idea credit: @neworderindia, in README and every footer (`credit` in config).
 
 ## Open questions / parked
-- Repo: https://github.com/atharva-729/news-digest-123 (public). Static site: Pages deploys from
-  branch `main`, folder `/docs`. User decision: no GitHub Actions, because company secrets (the LLM
-  token) must not go into GitHub. Every run happens on the work laptop.
-- Email optional: only if SMTP_* are in local .env; suggested a separate sender-only Gmail account.
-- Employer-IP / licence: user chose a public repo; company endpoint kept out of the code for that reason.
-- Thread claims are long and compound; tighten the prompt after Checkpoint 3 if they read generic.
+- Repo: https://github.com/atharva-729/news-digest-123 (public). Pages from `main` `/docs`. No Actions:
+  company secrets must not go to GitHub.
+- LLM spend/provider to be discussed (user may buy a personal API key); see LLM_USAGE.md.
+  gpt-5.4-mini's price isn't in `model.prices` yet, so its cost logs as null.
+- Funding is often all-India (Google News is India-edition); consider a world funding feed.
+- Email optional (teaser linking to the page); suggested a separate sender-only Gmail.
 
 ## Log (last 5)
-- 2026-10-27: Built Phases 0–2. First run: 257 items, 25 picks, on budget. Fixed Entrackr URL,
-  the fun feeds, the sports prompt (prefer results over policy) and funding-country inference.
-- 2026-10-28: Switched LLM to LLM Foundry gpt-5-mini; probed feeds on work laptop (only ESPN, Atlas
-  Obscura blocked). Run 2: 249 items, 25 picks, 26 s.
-- 2026-10-28: Built Phases 3–6 + workflow. Back-filled threads for 10-27/10-28: 7 active threads,
-  2 calls, daily ~6 min read, weekly renders. Fixed call-judging leak and cross-day repeat picks.
-- 2026-10-28 10:56 IST: full rerun of 10-28 (not a new day). 242 items, 6 active threads, first
-  valid cross-link. Funding was all-India (0 world), so the India/world rule wasn't met.
-- 2026-10-28: Pushed to GitHub (public). Endpoint moved to .env. Dropped Actions; site now in docs/
-  for branch-based Pages, `run.py --push` publishes.
+- 2026-10-28: Built Phases 3–6 + workflow. Fixed call-judging leak and cross-day repeat picks.
+- 2026-10-28 10:56 IST: full rerun of 10-28 (not a new day); first valid cross-link.
+- 2026-10-28: Pushed to GitHub (public). Endpoint moved to .env. Dropped Actions; site in docs/.
+- 2026-10-28: Redesign: punchy cards, 3 tabs, L1/L2/L3 map, last-week connections, light/dark, quiz,
+  LLM usage logging. Writer moved to gpt-5.4-mini. Regenerated 27–28 Oct and the weekly.
