@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-27",
+  "writer": {
+    "big_picture": "Big new thread: large Western and domestic capital is coalescing around 300mm GaN power fabs. Infineon’s €1.1 billion pledge and Spintronics AI’s ₹2,800 crore plan show onshoring of wide‑bandgap power semiconductor capacity.",
+    "scoreboard": [
+      {
+        "thread_id": "t_western_investment_in_gan_300mm_capacity",
+        "line": "Infineon and Spintronics moves create a new wave of 300mm GaN investments."
+      },
+      {
+        "thread_id": "t_india_preventive_health_ai_platforms",
+        "line": "Two India-focused rounds show venture capital backing AI-first preventive healthcare platforms."
+      }
+    ],
+    "takes": [
+      {
+        "item_id": "e2358621b2",
+        "take": "Highway thieves spoofing GPS stole $100M in data‑centre gear, exposing physical risks to AI hardware supply chains."
+      },
+      {
+        "item_id": "0314877842",
+        "take": "Anthropic’s S‑1 highlights heavy power needs for generative AI and competition for data‑centre electricity supplies."
+      },
+      {
+        "item_id": "3291964448",
+        "take": "Microsoft offering buyouts signals continued tech restructuring to cut headcount costs and refocus capital on infrastructure."
+      },
+      {
+        "item_id": "9af0a1a0b3",
+        "take": "Cohere says Alibaba’s Qwen tried to send a file to Beijing, deepening trust and security questions around open models."
+      },
+      {
+        "item_id": "603e1fd3a2",
+        "take": "Over 300 Boston Dynamics employees protested an ICE robot‑dog sale, underscoring workforce resistance to defence contracts."
+      },
+      {
+        "item_id": "ad52ef6ce3",
+        "take": "Infineon will invest €1.1 billion in Europe’s first 300mm GaN power fab, signalling major western capital for GaN capacity."
+      },
+      {
+        "item_id": "a64a68559d",
+        "take": "Spintronics AI is considering a ₹2,800 crore GaN fab in Madhya Pradesh, reflecting India’s push toward advanced compound semiconductor fabs."
+      },
+      {
+        "item_id": "5383be2c86",
+        "take": "Bedrock Robotics raised $600M to scale autonomous excavators, showing heavy capital flow into industrial autonomy amid operator shortages."
+      },
+      {
+        "item_id": "537da26ca9",
+        "take": "Cent raised $15 million and acquired Medsee, indicating investor interest in AI radiology and preventive‑care platform consolidation."
+      },
+      {
+        "item_id": "828cce77bc",
+        "take": "Live2.ai’s Rs 130 crore round backs an AI social‑intelligence platform aimed at monetising fragmented social commerce."
+      },
+      {
+        "item_id": "7dd51a3e33",
+        "take": "MoD’s MoU with Sarvam shows the state courting homegrown AI labs to build sovereign defence AI capabilities."
+      },
+      {
+        "item_id": "7f5d3a997f",
+        "take": "Ather turned profitable in Q2, a sign that India’s EV manufacturers can reach sustainable production economics."
+      },
+      {
+        "item_id": "2af94b98e4",
+        "take": "Instagram enabling 90‑minute videos signals social platforms pivoting back toward long‑form content to challenge YouTube."
+      },
+      {
+        "item_id": "f1271280ee",
+        "take": "Karnataka’s revised rolls cut voters by nearly 1 crore, evidence of large‑scale electoral list verification impacts."
+      },
+      {
+        "item_id": "cb3ced411a",
+        "take": "Maharashtra exploring PPPs for tribal hospitals shows states outsourcing solutions to cover rural healthcare shortfalls."
+      },
+      {
+        "item_id": "3820826836",
+        "take": "Tamil Nadu extended a ban on inter‑state rough stone transport, reflecting subnational resource protectionism."
+      },
+      {
+        "item_id": "6b1fadc831",
+        "take": "India increased LPG output and diversified imports amid the Hormuz crisis, showing active supply‑chain intervention by the state."
+      },
+      {
+        "item_id": "866025d3a7",
+        "take": "Israel saw its highest turnout since 1981, underscoring intense polarization that may complicate government formation."
+      },
+      {
+        "item_id": "d09ca479a6",
+        "take": "The Philippines is deepening U.S.–Japan security and economic ties, part of wider Indo‑Pacific balancing moves."
+      },
+      {
+        "item_id": "d016422143",
+        "take": "North Korea has forward howitzers near the border, illustrating rising tactical militarisation on the peninsula."
+      },
+      {
+        "item_id": "0b97b948d5",
+        "take": "Indian lenders delayed dollar debt sales as US yields rose and rupee fell, pushing them toward domestic funding."
+      },
+      {
+        "item_id": "2bd2cc08ac",
+        "take": "Japan life insurers are weighing domestic bonds as foreign debt selling grows amid rising yields."
+      },
+      {
+        "item_id": "054633ea0e",
+        "take": "Harry Kane won the Ballon d’Or, reflecting ongoing dominance and prestige of elite European club football."
+      }
+    ],
+    "pulse_india": "In India, funding focused on preventive healthcare (Cent, $15 million) and AI social‑commerce platforms (Live2.ai, Rs 130 crore).",
+    "pulse_world": "Outside India, a $600M round targeted autonomous excavators (Bedrock Robotics).",
+    "dots": "",
+    "call": {
+      "thread_id": "t_western_investment_in_gan_300mm_capacity",
+      "prediction": "If large‑scale 300mm GaN investment is genuine, expect a formal project milestone—such as government incentive approval or construction start—for at least one 300mm GaN fab in Europe or India within four months.",
+      "check_in_days": 120
+    },
+    "fun": [
+      {
+        "item_id": "33e851f663",
+        "text": "Scientists found the first evidence of sleep rebound in an invertebrate, suggesting sleep regulation is ancient. So yes, even tiny critters may make up missed naps."
+      },
+      {
+        "item_id": "1b7711bdb3",
+        "text": "A fossil amphibian appears to have lived its whole life at sea — a first. Prehistory keeps reminding us evolution loved weird experiments."
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which forces drive the new 300mm GaN fab thread?",
+        "answer": "Capital and geopolitics."
+      },
+      {
+        "question": "What two India sectors attracted the rounds cited in the preventive‑health thread?",
+        "answer": "Preventive healthcare and AI social‑commerce / social intelligence."
+      },
+      {
+        "question": "Which sector abroad drew a $600M round and why does it matter for labour markets?",
+        "answer": "Autonomous excavators; it addresses skilled operator shortages by funding heavy industrial autonomy."
+      }
+    ]
+  },
+  "call": {
+    "made": "2026-10-27",
+    "thread_id": "t_western_investment_in_gan_300mm_capacity",
+    "thread_title": "GaN 300mm fabs draw strategic western capital",
+    "prediction": "If large‑scale 300mm GaN investment is genuine, expect a formal project milestone—such as government incentive approval or construction start—for at least one 300mm GaN fab in Europe or India within four months.",
+    "review_by": "2027-02-24",
+    "verdict": null,
+    "verdict_note": ""
+  }
+}

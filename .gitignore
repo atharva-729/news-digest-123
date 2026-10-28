@@ -1,0 +1,23 @@
+# Secrets: never commit. Actions reads them from repository secrets.
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editors, OS, local tooling
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local scratch
+*.zip
+*.log

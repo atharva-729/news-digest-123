@@ -1,0 +1,91 @@
+{#- Daily edition. Inline styles only: email clients drop <style> blocks. Links come from item data, never the model. -#}
+{%- set ink = "#1f2328" -%}{%- set muted = "#6a737d" -%}{%- set accent = "#b5452b" -%}{%- set rule = "#e6e1d8" -%}
+{%- macro tags(forces) -%}
+{%- for f in forces %}<span style="display:inline-block;font-size:11px;color:{{ muted }};border:1px solid {{ rule }};border-radius:10px;padding:0 7px;margin-left:4px;">{{ f }}</span>{% endfor -%}
+{%- endmacro -%}
+{%- macro h2(text) -%}
+<h2 style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:{{ accent }};margin:28px 0 10px;border-bottom:1px solid {{ rule }};padding-bottom:4px;">{{ text }}</h2>
+{%- endmacro -%}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L1·L2·L3 · {{ date }}</title>
+</head>
+<body style="margin:0;padding:0;background:#f6f3ee;">
+<div style="max-width:640px;margin:0 auto;padding:24px 16px;background:#fffdf9;color:{{ ink }};font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.55;">
+
+  <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:{{ muted }};">{{ pretty_date }}{% if minutes %} · ~{{ minutes }} min read{% endif %}</div>
+  <h1 style="font-size:26px;margin:4px 0 2px;">L1 · L2 · L3</h1>
+  <div style="font-style:italic;color:{{ muted }};margin-bottom:8px;">Headlines tell you what happened. This tells you what it's evidence of.</div>
+
+  {{ h2("The big picture") }}
+  <p style="margin:0;font-size:17px;">{{ big_picture }}</p>
+
+  {% if scoreboard %}
+  {{ h2("Thread scoreboard") }}
+  {% for s in scoreboard %}
+  <p style="margin:0 0 8px;">{{ s.icon }} <strong>{{ s.thread.title }}</strong>{{ tags(s.thread.forces) }}<br>
+    <span style="color:{{ muted }};font-size:15px;">{{ s.line }}</span></p>
+  {% endfor %}
+  {% endif %}
+
+  {% for section in sections %}
+  {{ h2(section.label) }}
+  {% for it in section["items"] %}
+  <p style="margin:0 0 12px;">
+    <a href="{{ it.url }}" style="color:{{ ink }};font-weight:bold;text-decoration:none;border-bottom:1px solid {{ rule }};">{{ it.title }}</a>
+    <span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:{{ muted }};"> · {{ it.source }}</span><br>
+    {% if it.take %}{{ it.take }}{% endif %}
+    {% if it.funding %}<br><span style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:{{ muted }};">💰 {{ [it.funding.company, it.funding.amount, it.funding.sector, it.funding.country or "country n/a"] | select | join(" · ") }}</span>{% endif %}
+    {% if it.thread %}<br><span style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:{{ accent }};">→ evidence of: {{ it.thread.title }}</span>{% endif %}
+  </p>
+  {% endfor %}
+  {% if section.label == "Tech" and (pulse.india or pulse.world) %}
+  <div style="background:#f3efe7;border-radius:6px;padding:10px 14px;margin:6px 0 4px;">
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;color:{{ muted }};margin-bottom:4px;">STARTUP PULSE · INDIA VS WORLD</div>
+    {% if pulse.india %}<p style="margin:0 0 6px;">🇮🇳 {{ pulse.india }}</p>{% endif %}
+    {% if pulse.world %}<p style="margin:0;">🌍 {{ pulse.world }}</p>{% endif %}
+  </div>
+  {% endif %}
+  {% endfor %}
+
+  {% if dots %}
+  {{ h2("Connecting the dots") }}
+  <p style="margin:0 0 6px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:{{ muted }};"><strong>{{ dots.a.title }}</strong> ⟷ <strong>{{ dots.b.title }}</strong> · shared force: {{ dots.force }}</p>
+  <p style="margin:0;">{{ dots.text }}</p>
+  {% endif %}
+
+  {% if call %}
+  {{ h2("Making a call") }}
+  <p style="margin:0;">🎯 {{ call.prediction }}</p>
+  <p style="margin:4px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:{{ muted }};">Thread: {{ call.thread_title }} · we'll check by {{ call.review_by }}</p>
+  {% endif %}
+
+  {% if fun %}
+  {{ h2("Fun") }}
+  {% for it in fun %}
+  <p style="margin:0 0 12px;">
+    <a href="{{ it.url }}" style="color:{{ ink }};font-weight:bold;text-decoration:none;border-bottom:1px solid {{ rule }};">{{ it.title }}</a>
+    <span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:{{ muted }};"> · {{ it.source }}</span><br>
+    {{ it.fun or it.take or "" }}
+  </p>
+  {% endfor %}
+  {% endif %}
+
+  {% if quiz %}
+  {{ h2("Quiz") }}
+  {% for q in quiz %}
+  <p style="margin:0 0 4px;"><strong>{{ loop.index }}.</strong> {{ q.question }}</p>
+  <details style="margin:0 0 12px;font-size:15px;color:{{ muted }};"><summary style="cursor:pointer;">Answer</summary>{{ q.answer }}</details>
+  {% endfor %}
+  {% endif %}
+
+  <div style="margin-top:32px;padding-top:12px;border-top:1px solid {{ rule }};font-family:Arial,Helvetica,sans-serif;font-size:12px;color:{{ muted }};">
+    The L1/L2/L3 framework is from <a href="{{ credit.url }}" style="color:{{ muted }};">{{ credit.name }}</a>; this digest is one implementation of their idea.<br>
+    Sources today: {{ sources | join(", ") }}. Headlines and links belong to their publishers.
+  </div>
+</div>
+</body>
+</html>
