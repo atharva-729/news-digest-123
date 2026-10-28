@@ -106,7 +106,10 @@ l1l2l3-news-digest/
 - Save to `data/items/YYYY-MM-DD.json`.
 
 **Don't**
-- Don't scrape full article text or bypass paywalls. Title + RSS summary + link is all we store.
+- Don't bypass paywalls or bot checks. Ingest stores title + RSS summary + link. (Changed 2026-10-29: after selection,
+  the 25 picks are *read* (feed text, or the article page where robots.txt allows us and AI assistants that fetch
+  for a user) so they can be explained simply. That text stays in the git-ignored `cache/`, is never published,
+  and only our own explanation plus a link appears on the site.)
 - Don't use the LLM here. Ingestion must be deterministic and cheap.
 - Don't fail the whole run if one feed is down; log and continue.
 
@@ -224,7 +227,7 @@ l1l2l3-news-digest/
 
 - Don't over-engineer: no DB, no queue, no frontend framework, no agents framework.
 - Don't let the model emit URLs, invent trivia, or invent forces.
-- Don't store or republish full article text.
+- Don't store or republish full article text (it's read into `cache/` for explanations only, never committed).
 - Don't make the repo public until the employer-IP question is cleared (see below).
 
 ## Later (only if it becomes a team/client project)

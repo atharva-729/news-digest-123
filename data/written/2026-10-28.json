@@ -1,303 +1,343 @@
 {
   "date": "2026-10-28",
-  "subject": "L1·L2·L3 28 Oct: AI money keeps flooding in: Simplismart, Jio, Live2.ai, Cent all cash up.",
-  "lead": "AI money keeps flooding in: Simplismart, Jio, Live2.ai, Cent all cash up.",
+  "subject": "L1·L2·L3 28 Oct: Oil prices jumped after a strike on a Saudi refinery, and Malaysia’s producer inflation rose.",
+  "lead": "Oil prices jumped after a strike on a Saudi refinery, and Malaysia’s producer inflation rose.",
   "tldr": [
     {
-      "text": "AI money keeps flooding in: Simplismart, Jio, Live2.ai, Cent all cash up.",
-      "highlight": "AI money keeps flooding in"
+      "text": "Oil prices jumped after a strike on a Saudi refinery, and Malaysia’s producer inflation rose.",
+      "highlight": ""
     },
     {
-      "text": "Oil shock again: Saudi refinery hit lifts crude, nudges Malaysia inflation higher.",
-      "highlight": "Saudi refinery hit"
+      "text": "AI startups and AI buyers kept drawing money, from fresh rounds to a $1.7 billion deal.",
+      "highlight": "AI startups"
     },
     {
-      "text": "India’s courts push back; media groups fight privacy rules, doctors’ service plans.",
-      "highlight": "privacy rules"
+      "text": "India’s courts and media are challenging new rules, slowing how they may be enforced.",
+      "highlight": ""
     }
   ],
   "hero": {
-    "text": "AI Money Shift is the day’s big beast: capital is back, and it’s not just chasing chatbots. From inference infra to chips, healthtech and a monster Jio debut, money wants the plumbing, not the demo.",
-    "highlight": "AI Money Shift"
+    "text": "The biggest pattern today is AI Money Shift. Money is still flowing back into AI and deep-tech, which are companies building advanced software and hardware. Today’s pushes came from fresh startup rounds, a big stock listing, and a large cash acquisition.",
+    "highlight": "Money is still flowing back into AI and deep-tech"
   },
-  "writer": {
+  "cards": {
+    "2e1cf5b0a8": {
+      "emoji": "🤖",
+      "headline": "Simplismart raises $14 million from investors led by Dallas Venture Capital",
+      "explain": "Simplismart, an AI infrastructure startup, raised $14 million in a Series B funding round. Dallas Venture Capital led the round, with NVIDIA, Accel, Shastra VC and Micromax also joining. The company helps businesses deploy and run AI models, and helps cloud providers turn GPU capacity into AI services.",
+      "why": {
+        "text": "More money is flowing into AI tools that help companies run models cheaply and fast.",
+        "highlight": "money is flowing into AI"
+      }
+    },
+    "2df56fbd08": {
+      "emoji": "🧪",
+      "headline": "Researchers say OpenAI is keeping its latest breakthroughs too tightly controlled",
+      "explain": "OpenAI announced new results in mathematics, computer science and physics. It also said it is changing how it shares findings. But researchers who spoke to The Verge said they are growing tired of the company’s behavior.",
+      "why": {
+        "text": "AI labs are facing more pressure to share results clearly and build trust.",
+        "highlight": "share results clearly"
+      }
+    },
+    "9daa2cd43f": {
+      "emoji": "⚠️",
+      "headline": "Anthropic warns its AI could blackmail people and end humanity",
+      "explain": "Anthropic’s IPO filing includes seven major AI risks, according to Ars Technica. An IPO is a company’s first sale of shares to the public. The filing says the company is flagging serious dangers in its own AI systems.",
+      "why": {
+        "text": "AI companies are putting their risks in public view before listing.",
+        "highlight": "putting their risks"
+      }
+    },
+    "40066215b8": {
+      "emoji": "🏛️",
+      "headline": "Anthropic plans a public listing while saying it will stay focused on safe AI",
+      "explain": "Anthropic wants money from public investors through an IPO. An IPO is when a company sells shares to the public for the first time. The company says it still wants to build AI safely and for humanity’s benefit.",
+      "why": {
+        "text": "Public investors may push AI companies harder, even when they promise safety first.",
+        "highlight": "push AI companies harder"
+      }
+    },
+    "3dc181e1cd": {
+      "emoji": "📈",
+      "headline": "Jio Platforms lists on the stock market at a 21% premium",
+      "explain": "Jio Platforms debuted on the National Stock Exchange at Rs 1,358 a share, about 21% above its issue price. An IPO is when a company sells shares to the public for the first time. The company owns Reliance’s telecom and digital businesses, including mobile service, broadband and digital services.",
+      "why": {
+        "text": "A strong listing shows heavy investor demand for a huge telecom and digital business.",
+        "highlight": "strong listing shows heavy investor demand"
+      }
+    },
+    "6012261abf": {
+      "emoji": "🔬",
+      "headline": "Nova Spectral AI raises ₹21.2 crore to build infrared sensor chips",
+      "explain": "Bengaluru-based Nova Spectral AI raised ₹21.2 crore in a seed round led by Shastra VC. A seed round is early investor money for a new company. The startup is building infrared sensor chips.",
+      "why": {
+        "text": "Deep-tech hardware startups are still getting fresh investor money.",
+        "highlight": "still getting fresh investor money"
+      }
+    },
+    "ad1ab93357": {
+      "emoji": "🤖",
+      "headline": "QwikBuild raises $2.3 million to expand its enterprise AI platform",
+      "explain": "Bengaluru-based QwikBuild raised $2.3 million in a pre-seed round led by a Japanese investor. A pre-seed round is very early money for a startup. The company says it is building an enterprise AI platform for businesses.",
+      "why": {
+        "text": "Early-stage AI startups are still attracting overseas backers.",
+        "highlight": "attracting overseas backers"
+      }
+    },
+    "828cce77bc": {
+      "emoji": "📣",
+      "headline": "Live2.ai raises Rs 130 crore to grow its AI marketing platform",
+      "explain": "Live2.ai raised Rs 130 crore in a pre-Series B round led by IvyCap Ventures. The company’s platform helps brands watch online conversations, manage social media work, check influencer content, and turn content into shopping experiences. A pre-Series B round is growth-stage investor money before a later funding round.",
+      "why": {
+        "text": "Brands are paying for AI tools that help them track and manage marketing.",
+        "highlight": ""
+      }
+    },
+    "537da26ca9": {
+      "emoji": "🏥",
+      "headline": "Cent raises $15 million and buys Medsee to expand early disease checks",
+      "explain": "Cent raised $15 million in a Series A round led by Blume Ventures and South Park Commons. It also bought Medsee, an AI radiology platform. Cent uses scans, tests and AI to help spot disease early.",
+      "why": {
+        "text": "Health startups are using AI to find illness before it gets worse.",
+        "highlight": "using AI to find illness"
+      }
+    },
+    "cef7e29668": {
+      "emoji": "🎮",
+      "headline": "dubdub raises seed funding for its trivia and puzzle app",
+      "explain": "dubdub raised $1.3 million in seed funding from 3one4 Capital, Antler and Stellaris Venture Partners. The app uses swipe-based trivia, puzzles and mini games. It says AI helps personalize challenges for each user.",
+      "why": {
+        "text": "Consumer apps are using AI to make short games feel more personal.",
+        "highlight": "make short games feel more personal"
+      }
+    },
+    "31f30cc340": {
+      "emoji": "🤝",
+      "headline": "Guidewire buys Hyperexponential for $1.7 billion in cash",
+      "explain": "Guidewire is buying Hyperexponential for $1.7 billion in cash. Guidewire is a company that makes software for insurance firms. The deal is meant to help bring AI agents alongside people who underwrite, analyze and price insurance decisions.",
+      "why": {
+        "text": "Big software companies are paying heavily for AI tools they can plug into work.",
+        "highlight": "paying heavily for AI tools"
+      }
+    },
+    "9d02bbba00": {
+      "emoji": "💻",
+      "headline": "A critical firmware flaw lets attackers run code on many servers",
+      "explain": "A serious flaw was found in UEFI firmware, the low-level software that starts a computer. EDK2 is one UEFI software project. The flaw can let attackers run code very early when servers boot up.",
+      "why": {
+        "text": "A boot-up flaw can give attackers deep control before defenses start.",
+        "highlight": "deep control before defenses start"
+      }
+    },
+    "8b7f3fa5f2": {
+      "emoji": "🍏",
+      "headline": "Apple updates the iMac and entry MacBook Pro with the M6 chip",
+      "explain": "Apple refreshed its iMac and entry-level MacBook Pro models. It also added the N1 chip, which brings Wi-Fi 7 and Bluetooth 6. Wi-Fi 7 and Bluetooth 6 are newer wireless connection standards.",
+      "why": {
+        "text": "New chips can make Apple’s computers faster and more connected.",
+        "highlight": "make Apple’s computers faster"
+      }
+    },
+    "e8bf52f236": {
+      "emoji": "🏛️",
+      "headline": "India plans to relax investment rules for China-linked companies",
+      "explain": "The government is planning to ease foreign direct investment, or FDI (money from foreign companies buying into Indian firms), rules for investments linked to China and nearby countries. The article does not give more details.",
+      "why": {
+        "text": "It could make it easier for some foreign money to enter India.",
+        "highlight": "easier for some foreign money"
+      }
+    },
+    "3caec08195": {
+      "emoji": "📰",
+      "headline": "India media groups challenge new privacy rules in court",
+      "explain": "Media groups in India have gone to the top court over new data privacy rules. Data privacy rules are laws about how personal information can be collected, used, and stored. The case could decide how these rules affect news work.",
+      "why": {
+        "text": "It shows courts and media can slow down new rules.",
+        "highlight": "courts and media can slow down"
+      }
+    },
+    "aab807de9c": {
+      "emoji": "⚖️",
+      "headline": "Supreme Court calls for a national rule on rural doctor service",
+      "explain": "India’s Supreme Court wants a national framework, or a single set of rules, for compulsory rural service by doctors. The article does not give more detail on the proposal.",
+      "why": {
+        "text": "A national rule could make doctor service requirements more uniform.",
+        "highlight": "make doctor service requirements more uniform"
+      }
+    },
+    "2e5aa956a5": {
+      "emoji": "🗳️",
+      "headline": "BJP candidates win two Uttar Pradesh council polls as counting continues",
+      "explain": "The BJP has won the Meerut graduates and teachers seats in the Uttar Pradesh MLC polls, which are elections for the state’s legislative council. Counting is still going on in Lucknow, Varanasi, Agra, Meerut, Jhansi, Bareilly, and Gorakhpur.",
+      "why": {
+        "text": "The result can show how parties are doing in local elections.",
+        "highlight": "show how parties are doing"
+      }
+    },
+    "2498ec0432": {
+      "emoji": "☮️",
+      "headline": "Ceasefire continues across Ukraine's Kherson region",
+      "explain": "Officials say the ceasefire in Kherson region has been extended. A ceasefire is a temporary stop in fighting. They say it was first meant for stranded residents of Oleshky, and both Russia and Ukraine report no breaches.",
+      "why": {
+        "text": "A quiet stretch can help protect trapped civilians.",
+        "highlight": "protect trapped civilians"
+      }
+    },
+    "d4d3a1208f": {
+      "emoji": "🗳️",
+      "headline": "Arab parties are set to win more seats in Israel election",
+      "explain": "Polls show Arab parties on track to win a record number of seats in Israel’s election. Early signs also show turnout among Palestinian citizens of Israel is around 80 percent. Turnout means how many eligible voters actually vote.",
+      "why": {
+        "text": "High turnout can change who has power in parliament.",
+        "highlight": "change who has power"
+      }
+    },
+    "925ef920e0": {
+      "emoji": "🌍",
+      "headline": "Syria and Jordan reopen border after deadly air strikes",
+      "explain": "The Syria-Jordan border has reopened while a probe into deadly air strikes continues. Foreign ministers have formed a security committee to share intelligence, which means important safety information, and follow up on the strikes’ impact.",
+      "why": {
+        "text": "Border ties and security talks can shift after violence.",
+        "highlight": "Border ties and security talks"
+      }
+    },
+    "f912b976d0": {
+      "emoji": "🛢️",
+      "headline": "Crude oil prices jump after strike on Saudi refinery",
+      "explain": "Oil prices rose after a strike hit a Saudi refinery, which is a place where crude oil is processed into usable fuel. The article gives no further details.",
+      "why": {
+        "text": "Supply shocks can quickly raise costs far beyond oil markets.",
+        "highlight": "Supply shocks can quickly raise costs"
+      }
+    },
+    "ef1705e918": {
+      "emoji": "📈",
+      "headline": "Malaysia's producer inflation rises as oil prices jump",
+      "explain": "Malaysia’s producer inflation has sped up to 12pct, according to the headline, as oil prices surged. Producer inflation means the prices businesses pay for things they buy to make products.",
+      "why": {
+        "text": "Higher oil prices can raise business costs and spread through the economy.",
+        "highlight": "Higher oil prices can raise business costs"
+      }
+    },
+    "bfbff74eb2": {
+      "emoji": "⚽",
+      "headline": "Fleetwood knock Arsenal out of the Carabao Cup on penalties",
+      "explain": "Fleetwood drew 1-1 with Arsenal and won 5-3 on penalties. Penalties are extra shots used to break a tie after the match. The headline says Arsenal were the Premier League champions and Fleetwood are a League Two side.",
+      "why": {
+        "text": "A much smaller club beating a giant is a major cup upset.",
+        "highlight": "a major cup upset"
+      }
+    },
+    "3eb9e99c48": {
+      "emoji": "🐟",
+      "headline": "Millions of eels gather around a deep-sea mountain off Australia",
+      "explain": "Scientists studied basketwork eels near Patience Seamount south of Tasmania and estimated as many as 2.8 million gathered there. They think the fish are likely meeting to reproduce, which means make babies. The mountain is small, but it draws a huge seasonal swarm.",
+      "why": {
+        "text": "It shows how little we still know about deep-sea life.",
+        "highlight": "little we still know about deep-sea life"
+      }
+    },
+    "a211bcef86": {
+      "emoji": "🚀",
+      "headline": "Mysterious metal object found in Minnesota may be rocket debris",
+      "explain": "A farmer found an 11-foot-wide bowl-shaped metal object in a Minnesota cornfield, and federal officials secured it. Experts think it may be debris from a Chinese rocket, though that has not been confirmed. Debris means broken pieces left over from something.",
+      "why": {
+        "text": "Space junk can land far from launch sites and surprise people on Earth.",
+        "highlight": "Space junk can land far from launch sites"
+      }
+    }
+  },
+  "page": {
     "tldr": [
       {
-        "text": "AI money keeps flooding in: Simplismart, Jio, Live2.ai, Cent all cash up.",
-        "highlight": "AI money keeps flooding in"
+        "text": "Oil prices jumped after a strike on a Saudi refinery, and Malaysia’s producer inflation rose.",
+        "highlight": "strike on Saudi refinery"
       },
       {
-        "text": "Oil shock again: Saudi refinery hit lifts crude, nudges Malaysia inflation higher.",
-        "highlight": "Saudi refinery hit"
+        "text": "AI startups and AI buyers kept drawing money, from fresh rounds to a $1.7 billion deal.",
+        "highlight": "AI startups"
       },
       {
-        "text": "India’s courts push back; media groups fight privacy rules, doctors’ service plans.",
-        "highlight": "privacy rules"
+        "text": "India’s courts and media are challenging new rules, slowing how they may be enforced.",
+        "highlight": "challenge new privacy rules"
       }
     ],
     "hero": {
-      "text": "AI Money Shift is the day’s big beast: capital is back, and it’s not just chasing chatbots. From inference infra to chips, healthtech and a monster Jio debut, money wants the plumbing, not the demo.",
-      "highlight": "AI Money Shift"
+      "text": "The biggest pattern today is AI Money Shift. Money is still flowing back into AI and deep-tech, which are companies building advanced software and hardware. Today’s pushes came from fresh startup rounds, a big stock listing, and a large cash acquisition.",
+      "highlight": "Money is still flowing back into AI and deep-tech"
     },
-    "cards": [
-      {
-        "item_id": "2e1cf5b0a8",
-        "emoji": "🧠",
-        "punchy": "Nvidia bet on the boring AI plumbing",
-        "so_what": "Money is chasing the plumbing of AI now, not just shiny chatbots.",
-        "highlight": "the plumbing of AI"
-      },
-      {
-        "item_id": "2df56fbd08",
-        "emoji": "🧱",
-        "punchy": "OpenAI’s researchers are done with the velvet rope",
-        "so_what": "AI labs are learning secrecy has a trust tax.",
-        "highlight": "trust tax"
-      },
-      {
-        "item_id": "9daa2cd43f",
-        "emoji": "📄",
-        "punchy": "Anthropic’s IPO reads like a sci-fi hazard warning",
-        "so_what": "Public markets now need a crash course in AI doom clauses.",
-        "highlight": "AI doom clauses"
-      },
-      {
-        "item_id": "40066215b8",
-        "emoji": "🪤",
-        "punchy": "Anthropic wants Wall Street’s money, not its fingerprints",
-        "so_what": "IPO money and founder control are getting harder to keep apart.",
-        "highlight": "founder control"
-      },
-      {
-        "item_id": "3dc181e1cd",
-        "emoji": "🚀",
-        "punchy": "Jio just turned listing day into a ₹12.5 lakh crore flex",
-        "so_what": "Big national tech bets still vacuum up capital when the market likes the story.",
-        "highlight": "vacuum up capital"
-      },
-      {
-        "item_id": "6012261abf",
-        "emoji": "🔬",
-        "punchy": "India’s chip-sovereignty bet gets ₹21.2 Cr more oxygen",
-        "so_what": "Domestic hardware bets are getting funded before they’re fashionable.",
-        "highlight": "Domestic hardware bets"
-      },
-      {
-        "item_id": "ad1ab93357",
-        "emoji": "⚙️",
-        "punchy": "Enterprise AI in Bengaluru still gets cheques",
-        "so_what": "Indian VC is still paying for B2B AI tools that can ship fast.",
-        "highlight": "B2B AI tools"
-      },
-      {
-        "item_id": "828cce77bc",
-        "emoji": "📣",
-        "punchy": "Live2.ai gets paid for AI-powered ad hustle",
-        "so_what": "AI marketing tools are finding real money, not just real buzz.",
-        "highlight": "real money"
-      },
-      {
-        "item_id": "537da26ca9",
-        "emoji": "🩺",
-        "punchy": "Cent is buying AI healthtech, not just raising for it",
-        "so_what": "Healthcare startups want the stack, the data, and the diagnostics.",
-        "highlight": "the stack, the data"
-      },
-      {
-        "item_id": "cef7e29668",
-        "emoji": "🎮",
-        "punchy": "Trivia apps still attract seed money in the scroll war",
-        "so_what": "Attention-economy bets are alive when the feed gets more addictive.",
-        "highlight": "Attention-economy bets"
-      },
-      {
-        "item_id": "31f30cc340",
-        "emoji": "🤖",
-        "punchy": "Guidewire spent $1.7B to buy itself an AI upgrade",
-        "so_what": "Strategic buyers are paying up for AI that automates dull enterprise work.",
-        "highlight": "paying up for AI"
-      },
-      {
-        "item_id": "9d02bbba00",
-        "emoji": "🚨",
-        "punchy": "Most servers now have a firmware-sized problem",
-        "so_what": "Infrastructure security still breaks at the lowest layer.",
-        "highlight": "lowest layer"
-      },
-      {
-        "item_id": "8b7f3fa5f2",
-        "emoji": "🍏",
-        "punchy": "Apple’s M6 keeps the silicon stack in-house",
-        "so_what": "Big tech still wins by owning the chips, the radios, and the margins.",
-        "highlight": "owning the chips"
-      },
-      {
-        "item_id": "e8bf52f236",
-        "emoji": "🧭",
-        "punchy": "India may loosen FDI rules for China-linked bets",
-        "so_what": "Capital rules are bending to geopolitics, not just economics.",
-        "highlight": "geopolitics, not just economics"
-      },
-      {
-        "item_id": "3caec08195",
-        "emoji": "⚖️",
-        "punchy": "Media groups drag privacy rules into court",
-        "so_what": "Regulators are meeting a harder legal wall than they expected.",
-        "highlight": "harder legal wall"
-      },
-      {
-        "item_id": "aab807de9c",
-        "emoji": "🏥",
-        "punchy": "Supreme Court wants a national rural-service rulebook",
-        "so_what": "Courts are stepping into workforce policy when states stall.",
-        "highlight": "workforce policy"
-      },
-      {
-        "item_id": "2e5aa956a5",
-        "emoji": "🗳️",
-        "punchy": "BJP keeps its grip on key UP graduate seats",
-        "so_what": "Institutional elections keep showing the same political machine advantage.",
-        "highlight": "political machine advantage"
-      },
-      {
-        "item_id": "2498ec0432",
-        "emoji": "🕊️",
-        "punchy": "Kherson gets another ceasefire stretch",
-        "so_what": "The war keeps producing small, local pauses instead of a clean break.",
-        "highlight": "small, local pauses"
-      },
-      {
-        "item_id": "d4d3a1208f",
-        "emoji": "🧩",
-        "punchy": "Arab parties surge in Israel’s election math",
-        "so_what": "High turnout is reshaping coalition arithmetic, not just headlines.",
-        "highlight": "coalition arithmetic"
-      },
-      {
-        "item_id": "925ef920e0",
-        "emoji": "🛂",
-        "punchy": "Syria-Jordan border reopens after the strikes",
-        "so_what": "Regional security is turning into coordination, not just retaliation.",
-        "highlight": "coordination, not just retaliation"
-      },
-      {
-        "item_id": "f912b976d0",
-        "emoji": "⛽",
-        "punchy": "A Saudi refinery hit sends crude higher again",
-        "so_what": "Oil still jumps first, then everyone else pays later.",
-        "highlight": "everyone else pays later"
-      },
-      {
-        "item_id": "ef1705e918",
-        "emoji": "📈",
-        "punchy": "Oil’s bounce is already leaking into Malaysia’s prices",
-        "so_what": "Commodity shocks are crawling from barrels into inflation fast.",
-        "highlight": "Commodity shocks are crawling"
-      },
-      {
-        "item_id": "bfbff74eb2",
-        "emoji": "😵",
-        "punchy": "League Two just humbled Arsenal again",
-        "so_what": "Cup football still loves a giant-killing, no matter the payroll gap.",
-        "highlight": "giant-killing, no matter"
-      },
-      {
-        "item_id": "3eb9e99c48",
-        "emoji": "🐍",
-        "punchy": "2.8 million eels showed up for the deep-sea meetup",
-        "so_what": "The ocean still hides scale we only notice when it swarms.",
-        "highlight": "hides scale we only notice"
-      },
-      {
-        "item_id": "a211bcef86",
-        "emoji": "🛰️",
-        "punchy": "A Minnesota cornfield may have caught space junk",
-        "so_what": "More launches mean more debris can come back to Earth.",
-        "highlight": "more debris can come back"
-      }
-    ],
     "scoreboard": [
       {
         "thread_id": "t_india_regulatory_pushback",
-        "line": "Courts and media groups are pushing back on new rules."
+        "line": "Courts and media challenged privacy rules, while the Supreme Court sought a national doctor-service rule."
       },
       {
         "thread_id": "t_oil_supply_shocks_driving_em_inflation",
-        "line": "A Saudi refinery hit pushed oil and inflation fears higher."
+        "line": "A strike on a Saudi refinery pushed oil up, and Malaysia’s producer inflation rose."
       },
       {
         "thread_id": "t_ai_capital_rotation",
-        "line": "VC and public markets kept piling into AI, chips, and healthtech."
+        "line": "Simplismart, Nova Spectral AI, QwikBuild, Live2.ai, Cent, and dubdub all raised money; Guidewire bought Hyperexponential."
       },
       {
         "thread_id": "t_ai_governance_institutionalization",
-        "line": "AI labs are turning risk talk into public disclosure and control plans."
+        "line": "OpenAI faced control concerns, Anthropic warned about risks, and it still planned a listing."
       }
     ],
     "forces": [
       {
-        "force": "capital",
-        "line": "Capital chased AI, deep-tech, and higher oil prices, while M&A stayed hungry."
-      },
-      {
-        "force": "technology",
-        "line": "AI infra, chips, enterprise tools, and firmware security all moved today."
+        "force": "regulation",
+        "line": "Rules met pushback in India, and AI firms faced more pressure to explain themselves."
       },
       {
         "force": "geopolitics",
-        "line": "Oil shocks, border reopening, and China-linked FDI rules all bent the day."
+        "line": "Oil supply trouble and AI trust concerns both tied back to cross-border pressure."
       },
       {
-        "force": "regulation",
-        "line": "Courts, privacy fights, and AI risk disclosure kept regulators in the room."
+        "force": "capital",
+        "line": "Money chased AI and deep-tech, while oil shocks raised inflation fears."
+      },
+      {
+        "force": "technology",
+        "line": "AI tools, chips, health checks, and automation stayed hot with investors."
       }
     ],
-    "pulse_india": "India money went to AI inference, infrared sensor chips, enterprise AI, AI marketing SaaS, preventive health, and consumer apps.",
-    "pulse_world": "",
-    "dots": "Oil shocks can lift inflation and risk premia, which can push capital toward automation and AI productivity plays instead of cyclical bets.",
+    "pulse_india": "In India, money went to AI software, AI marketing, sensor chips, preventive health, and a consumer game app.",
+    "pulse_world": "Elsewhere, money went to AI infrastructure and a big software company buying AI tools.",
+    "dots": "Oil shocks can make investors less willing to take cyclical risk. That can leave more money chasing AI and deep-tech instead, which fits today’s funding news.",
     "call": {
-      "thread_id": "t_ai_energy_constraints",
-      "prediction": "If this is real, expect more AI launches to pair with power-supply or data-centre constraints within ~4 months.",
+      "thread_id": "t_ai_governance_institutionalization",
+      "prediction": "If this pattern is real, expect more AI labs to publish risk controls or safety disclosures within about 4 months.",
       "check_in_days": 120
     },
     "quiz": [
       {
-        "question": "Which thread did the Jio listing and Simplismart round most clearly feed?",
+        "question": "Why does the Guidewire deal matter today?",
         "options": [
-          "AI Money Shift",
-          "Refinery Shock",
-          "Governance Guardrails"
+          "It shows big companies are paying for AI tools they can use in work.",
+          "It shows courts are stopping new privacy rules.",
+          "It shows oil prices are falling after the refinery strike."
         ],
         "answer_index": 0,
-        "why": "Both are capital flowing into AI/deep-tech bets."
+        "why": "It is a large cash deal for an AI tool maker."
       },
       {
-        "question": "Which force links the Saudi refinery hit and the Malaysia inflation story?",
+        "question": "What does the pattern 'Refinery Shock' mean?",
         "options": [
-          "regulation",
-          "geopolitics",
-          "capital"
+          "Courts are pushing back on new laws.",
+          "A hit to oil supply pushes prices up fast.",
+          "AI companies are adding more safety rules."
         ],
         "answer_index": 1,
-        "why": "The supply shock starts with geopolitical disruption."
-      },
-      {
-        "question": "What last-week pattern did the Guidewire deal extend?",
-        "options": [
-          "Regulatory pushback in India",
-          "Oil shocks driving inflation",
-          "Enterprise AI value surge"
-        ],
-        "answer_index": 2,
-        "why": "The throwback explicitly ties it to Blacksmith and enterprise AI valuations."
+        "why": "The input says oil supply shocks raise prices and inflation."
       }
     ]
   },
   "call": {
     "made": "2026-10-28",
-    "thread_id": "t_ai_energy_constraints",
-    "thread_title": "The Power Limit",
-    "prediction": "If this is real, expect more AI launches to pair with power-supply or data-centre constraints within ~4 months.",
+    "thread_id": "t_ai_governance_institutionalization",
+    "thread_title": "Governance Guardrails",
+    "prediction": "If this pattern is real, expect more AI labs to publish risk controls or safety disclosures within about 4 months.",
     "review_by": "2027-02-25",
     "verdict": null,
     "verdict_note": ""

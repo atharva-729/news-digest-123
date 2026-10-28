@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "threads": [
     {
       "id": "t_ai_capital_rotation",
@@ -128,6 +128,16 @@
           "added_on": "2026-10-28"
         },
         {
+          "date": "2026-10-27",
+          "item_id": "3e30951c53",
+          "section": "tech",
+          "title": "Bengaluru AI Startup Simplismart Raises $14 Mn in NVIDIA-Backed Round",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNzJTX05EeDlOMU4xcTVpcFZfZzVGV1hYNzdNZnozYWp4V3dtU0FDNGZMcGJZVmJDak1wVUZsakVOVVNRMUc3VmozbFppNFNIU3ZtaUp4czUyd2ZleTZuZm5OWG13ZW8tVTNJMXhQSnRsTXJnUEgyZlhES2hyTklSR0tkcmdoQTEzRzJRc2ZyQk9xRjdnV1c0cGdDUkUzVDk4YTE3WFlmbnhFZw?oc=5",
+          "source": "Analytics India Magazine",
+          "note": "Last week Bengaluru AI startup Simplismart raised $14M in an NVIDIA-backed round, signalling continued capital flow to AI companies.",
+          "added_on": "2026-10-29"
+        },
+        {
           "date": "2026-10-28",
           "item_id": "2e1cf5b0a8",
           "section": "tech",
@@ -198,13 +208,83 @@
           "url": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
           "source": "TechCrunch",
           "note": "Guidewire’s $1.7B buy of Hyperexponential to add AI underwriting agents shows incumbents buying AI capabilities with large capital outlays."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "8b52050569",
+          "section": "tech",
+          "title": "QwikBuild Raises $2.3 Million in Pre-Seed Funding Led by Globalway",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbzJ4X21hQ0l0YlJ6RFlVTHBaSXljblo3SS13Qlg4Qzc3eDBRblRlZTdLQzhHVWFuRmlMNThlM0ZvTEFVU2x1Y242dHJlanhqY0ZmNmpDOGhBdFdPLWNHUDlTWnNLVVFfSTZSUXFoQnlJYWNyQWRnWmZHdUFEaWs2Mzc0NmFVMU11d1NxeUlaY2tsd0d0NG1UWDZRbS1SY2F3cVZCZGtZZHFMbV9kSUZtWWVwSldCdTlTYXpSZk56NHFKSmw0Z2JMOTdLZnA?oc=5",
+          "source": "Siliconindia",
+          "note": "Last week reported QwikBuild raised $2.3M in pre-seed funding, showing fresh VC interest in enterprise AI startups.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "6318bf62f2",
+          "section": "tech",
+          "title": "Gemini 4 Carbon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "source": "Hacker News",
+          "note": "Gemini 4 Carbon release shows hyperscale model iteration and competition driving AI capital and ecosystem pressure."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "63c9f69881",
+          "section": "tech",
+          "title": "AI enterprise startup QwikBuild raises $2.3 Mn in pre-seed round",
+          "url": "https://entrackr.com/snippets/ai-enterprise-startup-qwikbuild-raises-23-mn-in-pre-seed-round-12760872",
+          "source": "Entrackr",
+          "note": "QwikBuild $2.3M pre‑seed for enterprise AI agents evidences capital flow into bespoke AI automation startups."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "cd7b21ad37",
+          "section": "tech",
+          "title": "Chip stocks on the fly! AMD, Micron among shares gain up to 5% as SK Hynix’s earnings boost AI trade",
+          "url": "https://www.livemint.com/market/stock-market-news/amd-micron-among-chip-stocks-rising-up-to-5-as-sk-hynix-s-earnings-boost-ai-trade-microsoft-google-results-in-focus-11793205882825.html",
+          "source": "Mint Markets",
+          "note": "SK Hynix record Q3 profit lifts chip stocks, evidence of memory demand and investor optimism driven by AI compute needs."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "37be22d33d",
+          "section": "tech",
+          "title": "OpenAI to purchase Google's AI chips amid rising demand for AI computing resources",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdk5LM20xQ0dFNnNubUV5ZGRrTmdSLU5idS10c1BHT095WER0clpOaUc1WW5QV0xGdXM3U2d2TnZBVE1aYmE2VlVRZFhFaGtOM084dzBiZnNmazZzdW1IdkdVNkFlUDBETDJKRmNPSUNjQ3FGc2pjTUlWOHhubHYzdGd3eTJIdjNWRTBTSUZvWElvTUZpRkJULURfUW95SmdjNEVQUUpOT19vMHpid1JzVUZvTnI3bGM2NTBfMFIwMGRwcVg4M1Y2Uy0wM1FvOGYzd25fUTZueHljUkRIUzdxSUJMdUxKbHlaSkR6OVg5d3nSAfABQVVfeXFMT3ZOSzNtMUNHRTZzbm1FeWRka05nUi1OYnUtdHNQR09PeVhEdHJaTmlHNVluUFdMRnVzN1Nndk52QVRNWmJhNlZVUWRYRWhrTjNPOHcwYmZzZms2c3VtSHZHVTZBZVAwREwySkZjT0lDY0NxRnNqY01JVjh4bmx2M3Rnd3kySHYzVkUwU0lGb1hJb01GaUZCVC1EX1FveUpnYzRFUFFKTk9fbzB6YndSc1VGb05yN2xjNjUwXzBSMDBkcHFYODNWNlMtMDNRbzhmM3duX1E2bnh5Y1JESFM3cUlCTHVMSmx5WkpEejlYOXd5?oc=5",
+          "source": "ET Manufacturing",
+          "note": "Report OpenAI buying Google AI chips shows cloud‑level resource grabs and consolidation in AI compute supply."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "da0575cf03",
+          "section": "tech",
+          "title": "Info Edge’s PAT rises 87% to Rs 650 Cr in Q2 FY27; other income at Rs 428 Cr",
+          "url": "https://entrackr.com/fintrackr/info-edges-pat-rises-87-to-rs-650-cr-in-q2-fy27-other-income-at-rs-428-cr-12760770",
+          "source": "Entrackr",
+          "note": "Info Edge PAT +87% (Rs 650 Cr) and revenue growth shows resilient monetization in Indian tech, supporting capital rotation into tech assets."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "5a2809d5ba",
+          "section": "tech",
+          "title": "Cognizant In Talks To Invest In Sarvam At $3.5 Bn To $4 Bn Valuation: Report",
+          "url": "https://inc42.com/buzz/cognizant-in-talks-to-invest-in-sarvam-at-3-5-bn-to-4-bn-valuation-report/",
+          "source": "Inc42",
+          "note": "Reports of Cognizant interest in Sarvam AI at $3.5–4B indicate strategic late‑stage M&A activity in the AI space."
         }
       ],
-      "last_seen": "2026-10-28",
+      "last_seen": "2026-10-29",
       "sections": [
         "tech"
       ],
-      "status": "heating"
+      "status": "heating",
+      "teach": {
+        "one_line": "Money is flowing back into AI and deep-tech, pushing up valuations and big raises.",
+        "like": "Like a gold rush: people stop digging and start selling shovels.",
+        "why": "Money chases the next big profit, and new AI tools and machines look promising again.",
+        "remember": "Sell shovels in a rush."
+      }
     },
     {
       "id": "t_ai_energy_constraints",
@@ -259,6 +339,16 @@
           "added_on": "2026-10-28"
         },
         {
+          "date": "2026-10-23",
+          "item_id": "bfaa65444a",
+          "section": "tech",
+          "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZm9aRVdadXVfblNmMU1hUkh0OGpuODI0Z2l2S1NXQmtER2ZsMlJaR2Y2M1hpZXFoV2hfRTJNaUNMc1JYbC1hYTR6RW5TR21JNnlZZnFkak9vV3ZNSnRKcW1XWHhyWFE5Rjhtc1ViQTVObTBkYmZjYXNBZmdsa0N2UURxRC1kSkZ3N3RJWDl0dUV3UEhTNU9UVno1UDBWeHBFOUpLb2FhY3lfSTYyV3F5elcyODJnZw?oc=5",
+          "source": "TechCrunch",
+          "note": "Last week Commonwealth Fusion Systems got $85M to build better fusion-ready semiconductors, underlining demand for advanced power devices.",
+          "added_on": "2026-10-29"
+        },
+        {
           "date": "2026-10-27",
           "item_id": "0314877842",
           "section": "tech",
@@ -284,14 +374,40 @@
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbGY3eExaTS1tVHVMY1NGUWU0SnF0eXNZbnBDaWlLUlhoazVoVHcyQ1JCWWdBRnc1SHdwY05WTUl4TFpfcHoydzBYYmdueGpqODQ1UXhtSDcwcmlFUkRqQkE5Nm40QnFIb2JnZWFVSDJtLVRxUmc5SlVMQjhlYlViemhPXzlrSV9FQmg2WUxlQ1lLWndJa0tvRDZfbEtUYjF2ekI2NzhyTUFwWXlnUHA1dFQ3UFVhOC1NMHNrTFU5dVJnS0t6?oc=5",
           "source": "New Electronics",
           "note": "Infineon to build Europe's first high‑volume 300mm GaN power plant, shifting power‑semiconductor capacity toward efficient data‑centre power electronics."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "82ff6a45df",
+          "section": "politics_india",
+          "title": "Industry Wants Faster Approvals and Cheaper Power in India’s Data Centre Policy",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbFdZeURBTERUUUFuWjlhQUxzQlY2WGdBc3ZGb1R5b042YmlWcWowU1pqNEpQdUU2ZGU1WndOWjhPYzNud0NiQkQ4bjR1NkluZlRERnM4aU5Rc3NhOEU0MzlKY1NhOUxKU25mbHYtVjVacnc0R3paUXQ0M2w2SFFwUjdSMXZGd3NFYS1BcGV3NEtlTlVrdHc?oc=5",
+          "source": "Analytics India Magazine",
+          "note": "Last week industry asked for faster approvals and cheaper power in India’s data-centre policy, highlighting power and siting friction for growth.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "0ebb7cec19",
+          "section": "tech",
+          "title": "Trump DOE loans $5B to nuclear plants that will power data centers",
+          "url": "https://techcrunch.com/2026/10/28/trump-doe-loans-5b-to-nuclear-plants-that-will-power-data-centers/",
+          "source": "TechCrunch",
+          "note": "DOE $5B loans to Constellation for reactors committed to Google/Amazon/Meta shows hyperscalers securing low‑carbon power for data centres."
         }
       ],
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-29",
       "sections": [
         "tech",
-        "markets"
+        "markets",
+        "politics_india"
       ],
-      "status": "heating"
+      "status": "heating",
+      "teach": {
+        "one_line": "AI growth is hitting power limits, so data centers are harder to build and expand.",
+        "like": "Like trying to add rooms when the house wiring keeps blowing.",
+        "why": "Technology needs more electricity than the grid and local rules can easily supply.",
+        "remember": "No power, no expansion."
+      }
     },
     {
       "id": "t_ai_governance_institutionalization",
@@ -389,13 +505,59 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
           "source": "The Verge",
           "note": "Anthropic’s IPO plan to avoid Wall Street influence while accessing markets highlights governance tradeoffs between capital access and control."
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "e4cf0eb55b",
+          "section": "tech",
+          "title": "Artificial intelligence | UK Regulatory Outlook October 2026",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmtmRk5iV0FUWncxZGFoLVBBOUJWX1cyRUlkWnY3eXh5LU1VTlh5aXRtenhSLWxHaFA0MHNEVFIzSXZTMG5CUWx6Q1F5NmI1RW1XMlVtT19Jc24yYjVKVWV1OWFNem9Qdk1KYTBnT2phdjlFU1B2R0VmX1VnZGwwTHN0MHI3NVNxVDdNZHVEand1MzlvQk9uaTZn?oc=5",
+          "source": "Osborne Clarke",
+          "note": "Last week the UK Regulatory Outlook focused on AI, showing governments moving toward formal oversight frameworks for AI companies.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "afbc0bbf36",
+          "section": "politics_world",
+          "title": "The Geopolitics of AI in Q3 2026: Who Really Holds the Power?",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNUg0Wkt1TDJTc2V4OXRmOFhyS1NwNUtWWDJDR2hXeUs4cVo1alVaRUpSTDlxQzBRMUZHc0J1RXliTUNTNENoNy0wT0EwTGRZbWJnN3d2WkFYeGtEVzl2YzVTNFFoa2tXOXY4ZDJSZkZya0d5c0xvR1JqN29RS0xGMHZZY04zNktJaUE?oc=5",
+          "source": "HackerNoon",
+          "note": "Last week coverage of the geopolitics of AI (Q3 2026) highlighted cross-border trust and national security concerns shaping company behaviour.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "8d743f5fea",
+          "section": "tech",
+          "title": "EXCLUSIVE: US DOJ is inquiring about Nvidia's purchase of Hugging Face, sources say",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQi1pQlpXMFg0djlmZFhkcGFlc3hJWmxKNXIzeFlTOWRxSXd5YWtCX1FRdUdlWWM1NEZxQVpOWktKbVkyWWR1aFRhbFd3SnRRcW5SZTJ0YXRvQTZ6MjlmVmFMVThhSldFTUpseWRtblVrel8tM0VISmVOVmdVend5UTFOTHhKazBXalpIOHVUdkVmcm5YdTI4UWk3MUJObk9GMzRYOEpkeEFXVnhwZXc?oc=5",
+          "source": "Reuters",
+          "note": "DOJ inquiry into Nvidia’s Hugging Face purchase is evidence of increasing regulatory/antitrust scrutiny of AI consolidation."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "f9342fdb96",
+          "section": "politics_india",
+          "title": "How AI-assisted research ‘fuelled’ a spurious liquor racket in Madhya Pradesh’s Dewas",
+          "url": "https://indianexpress.com/article/india/dewas-hooch-deaths-ai-liquor-racket-probe-10941051/",
+          "source": "Indian Express",
+          "note": "AI‑assisted research used in a spurious liquor racket in Dewas shows misuse of AI, underscoring governance and enforcement challenges."
         }
       ],
-      "last_seen": "2026-10-28",
+      "last_seen": "2026-10-29",
       "sections": [
-        "tech"
+        "tech",
+        "politics_world",
+        "politics_india"
       ],
-      "status": "heating"
+      "status": "heating",
+      "teach": {
+        "one_line": "AI companies are adding stricter controls and disclosures as trust becomes harder to assume.",
+        "like": "Like a family putting labels on the spice jars so nobody mixes them up.",
+        "why": "Rules and geopolitics make risky, founder-only control too dangerous for powerful AI.",
+        "remember": "Trust needs guardrails."
+      }
     },
     {
       "id": "t_india_voter_roll_tightening",
@@ -439,6 +601,16 @@
           "added_on": "2026-10-28"
         },
         {
+          "date": "2026-10-25",
+          "item_id": "ba9b5845f1",
+          "section": "politics_india",
+          "title": "Declared dead: Indian voters fight to get back on electoral rolls",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV2JXYTdjamlxa3VDMnFSWkM0dlBETXVtYlhnNTdyQnBtMF93S1kxLVhCblo1cFVTSWZyRTU5eW9LaXhoNDJ6N2VIUTN0alBCS1VLVFM0RjhyUldVdlJfMjdMN2xLVmlJV0R0NXhWWV90V1FiMTB0dWpvTkJCNkZ0Rl9pd2hQeXhwYWNMV1NjWVhCYm9IUXRhTUdUbWJiMEhQLWN5WVBzOG1BaHNzN0E?oc=5",
+          "source": "Awani International",
+          "note": "Last week a report showed voters marked 'declared dead' fighting to get back on rolls, evidence of aggressive corrections affecting composition.",
+          "added_on": "2026-10-29"
+        },
+        {
           "date": "2026-10-26",
           "item_id": "fd3b5ea546",
           "section": "politics_india",
@@ -471,7 +643,13 @@
       "sections": [
         "politics_india"
       ],
-      "status": "heating"
+      "status": "heating",
+      "teach": {
+        "one_line": "India is tightening voter rolls, with more paperwork and more names being removed.",
+        "like": "Like a teacher checking the attendance list more carefully before class starts.",
+        "why": "Rules are being used to make voter lists stricter and cleaner.",
+        "remember": "Stricter list, fewer names."
+      }
     },
     {
       "id": "t_israel_political_fragmentation",
@@ -493,6 +671,36 @@
           "source": "PRESS Insider",
           "note": "An analysis of India's options in a changing geopolitical order included material on Israel, underscoring the election's regional geopolitical significance.",
           "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "3d8801bac5",
+          "section": "politics_world",
+          "title": "Israel election 2026: Who is running and can Netanyahu survive biggest test of his political career?",
+          "url": "https://indianexpress.com/article/world/israel-election-2026-benjamin-netanyahu-gadi-eisenkot-knesset-10934568/",
+          "source": "Indian Express World",
+          "note": "Last week outlined who is running in Israel's 2026 election and why it's a severe test for Netanyahu, flagging fragmentation risks.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-25",
+          "item_id": "c88d618524",
+          "section": "politics_world",
+          "title": "‘Last chance to save Israel’: Expats fly home to vote out Netanyahu",
+          "url": "https://indianexpress.com/article/world/israel-election-2026-overseas-voters-benjamin-netanyahu-tel-aviv-knesset-10936378/",
+          "source": "Indian Express World",
+          "note": "Last week reported expats flying home to vote against Netanyahu, showing intense turnout dynamics that could split results.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "7fc37f6b46",
+          "section": "politics_world",
+          "title": "Israel election guide: How 120-seat Knesset vote works, key candidates, and what’s at stake for Gaza",
+          "url": "https://indianexpress.com/article/world/israel-election-2026-voting-updates-benjamin-netanyahu-gadi-eisenkot-knesset-october-27-10937546/",
+          "source": "Indian Express World",
+          "note": "Last week published an Israel election guide explaining Knesset mechanics, preparing readers for a fragmented, close vote.",
+          "added_on": "2026-10-29"
         },
         {
           "date": "2026-10-27",
@@ -530,14 +738,38 @@
           "source": "India TV News",
           "note": "A primer on Israel's 2026 election discussed Netanyahu's leadership, Iran war and coalition politics, presaging fragmented outcome risks.",
           "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "1abf129f2d",
+          "section": "politics_world",
+          "title": "Israel Election Results 2026 LIVE Updates: Netanyahu bloc leads with 53 seats as Eisenkot-led opposition trails at 48",
+          "url": "https://indianexpress.com/article/world/israel-election-results-2026-live-updates-knesset-netanyahu-gadi-eisenkot-seat-tally-exit-polls-10939966/",
+          "source": "Indian Express World",
+          "note": "Live results with Netanyahu bloc at 53 vs opposition 48 show fragmented Israeli outcome likely to complicate coalition formation."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "775bae7b29",
+          "section": "politics_world",
+          "title": "Israel election results 2026: What are double-envelope votes, and can they change Netanyahu’s chances?",
+          "url": "https://indianexpress.com/article/world/srael-election-results-2026-double-envelope-votes-netanyahu-knesset-majority-10940929/",
+          "source": "Indian Express World",
+          "note": "Double‑envelope vote mechanics coverage highlights procedural factors that can shift Israeli seat counts and prolong coalition talks."
         }
       ],
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-29",
       "sections": [
         "politics_world",
         "politics_india"
       ],
-      "status": "heating"
+      "status": "heating",
+      "teach": {
+        "one_line": "Israel’s elections are producing split results, so coalition talks are taking longer.",
+        "like": "Like a cricket team where nobody agrees on the captain.",
+        "why": "Geopolitics and divided voters make it hard for one side to rule alone.",
+        "remember": "Many pieces, slow deal."
+      }
     },
     {
       "id": "t_india_regulatory_pushback",
@@ -604,7 +836,13 @@
         "politics_india",
         "tech"
       ],
-      "status": "heating"
+      "status": "heating",
+      "teach": {
+        "one_line": "Courts and media are pushing back on new rules, slowing or reshaping how they get enforced.",
+        "like": "Like a school rule being changed after the students and teachers complain together.",
+        "why": "Regulation gets contested when powerful groups think the new rules go too far or fit badly.",
+        "remember": "New rules meet old pushback."
+      }
     },
     {
       "id": "t_oil_supply_shocks_driving_em_inflation",
@@ -627,6 +865,26 @@
           "source": "Barchart.com",
           "note": "Crude prices rose on Saudi tensions last week, evidence that regional incidents transmit to global oil and inflation pressures.",
           "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-22",
+          "item_id": "27b8301f84",
+          "section": "markets",
+          "title": "Oil prices jump to five-month high as attacks threaten global supply",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkIzeWdNTnhad3RfQTdsMFg0OHQ5ejlGVjF2R016akVNelJYNDdVQVNsaE5PRXQ2SWJpT1JDbG5RRmtDdWFEazN2b3FLYkY3eUx5Rmk4bThDcVZmWExKcTFBVW51cEpSUHBPd0ZsUGVnWXF5eTJxY0V1aHlaYUtQTHhsYU00WjdtWk8yOS1UMW9SVVAwN2I3bU43OA?oc=5",
+          "source": "The Guardian",
+          "note": "Last week oil prices jumped to a five-month high as attacks threatened supply, an early sign of supply-driven price shock.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-22",
+          "item_id": "227ca1d2ed",
+          "section": "politics_world",
+          "title": "Crude Prices, Geopolitics Blunt European Bourses Midday",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTC1VcmVaaWZwRFV1emVtX25ONEtxRElPa05qTGpfaHktd2l6WndtZ0p0Zml3VmpTNUUxTWhMbFRxN1d2NEpWSzdqNWxlTkJzaDRqLS1wSHRUWmxGM2phejJ4WmdRRzNTMm1sejNZaUlaSm1qa01kZklPR2VBQ1VhQlh5VFk2ZGlGcWNoUHZCdkpMd1lqa3AweHZraWF3NmlEcVh2MlhvMnB4UEZwNm8yLQ?oc=5",
+          "source": "Yahoo Finance",
+          "note": "Last week analysis said crude prices and geopolitics were blunting European bourses, linking oil shocks to market and inflation effects.",
+          "added_on": "2026-10-29"
         },
         {
           "date": "2026-10-23",
@@ -665,13 +923,123 @@
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVXJwdlZGcTJBaWM5SEdCM2NpRWlWWFhrMTF5WXZFOTNSSGw2SHVJT0JhMko0SHd2Nl9nWDA3bHBJejBzd2RuTkI4SlpXX2ZTMDVROU40N0dkbm1sTnMwSDRiUXY0ZGVRRUM4MWNGZ2hXX0d5cEp6Rll0ZnlMcEhxcUxXV3psejlFQ3lIT1BPUTVEQ1JnWTZxTk50S2NHX0xaTGVsbHBNM041cHduYmFYVV9pam1kYUdqeUdZ0gHAAUFVX3lxTE1iVktXT0NKN0FKSWFiYUx6SFJvQ1ZJSldhaWtuTkI0blZzNE94aWFsaHVrWEo3alJLT3czN25iUC1FcGw5MzJqTVRUWUtxSXVVS2NYQmhBSlJYUER1SG5xcFJxN1ZtMVJxd2RDdFlQRHktYk54WmFhMnVVckZTYjFTMGFxNk85NGh1N04tclFVUlBZTFFsYnEyNlNRUVlxNkFvcUtRb0N2TVF0cU1TaDQweGRPUFNNb3JvNmlhNXpmeg?oc=5",
           "source": "NST Online",
           "note": "Malaysia producer inflation accelerating to 12% as oil surges shows commodity price pass‑through into EM inflation."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "77fb78cc35",
+          "section": "markets",
+          "title": "World Bank sees commodity prices surging 23% in 2026 on Middle East war",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/world-bank-sees-commodity-prices-surging-23-in-2026-on-middle-east-war/articleshow/135274754.cms",
+          "source": "ET Markets",
+          "note": "World Bank projects 23% commodity price surge in 2026 from Middle East war, evidencing prolonged commodity shock and EM inflation risk."
         }
       ],
-      "last_seen": "2026-10-28",
+      "last_seen": "2026-10-29",
       "sections": [
-        "markets"
+        "markets",
+        "politics_world"
       ],
-      "status": "heating"
+      "status": "heating",
+      "teach": {
+        "one_line": "A hit to oil supply pushes prices up fast, then makes inflation worse in oil-importing countries.",
+        "like": "Like a cooking gas leak making the whole kitchen more expensive at once.",
+        "why": "Geopolitics and capital shock oil supply, and higher energy costs quickly spread through prices.",
+        "remember": "Oil jumps, prices follow."
+      }
+    },
+    {
+      "id": "t_bigtech_custom_silicon",
+      "title": "Big tech doubles down on custom silicon and vertical integration",
+      "nickname": "Chip‑Built Platforms",
+      "plain": "Large tech firms keep investing in custom chips and integrated hardware to control performance and margins.",
+      "claim": "Major platform companies are increasingly designing and shipping custom silicon and vertically integrated hardware (clients and networking), shifting product roadmaps and supply‑chain dependence toward in‑house silicon.",
+      "forces": [
+        "technology",
+        "capital"
+      ],
+      "created": "2026-10-28",
+      "evidence": [
+        {
+          "date": "2026-10-28",
+          "item_id": "8b7f3fa5f2",
+          "section": "tech",
+          "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
+          "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
+          "source": "Ars Technica",
+          "note": "Apple refresh with M6 and N1 chip (Wi‑Fi 7, Bluetooth 6) evidences continued vertical integration and custom silicon investment by big tech."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "7a44b0a9a5",
+          "section": "tech",
+          "title": "Apple launches its new touchscreen MacBook Pro",
+          "url": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/",
+          "source": "TechCrunch",
+          "note": "Apple ships touchscreen MacBook Pro with M6/N1 chips, evidence of big‑tech vertical integration and custom silicon."
+        }
+      ],
+      "last_seen": "2026-10-29",
+      "sections": [
+        "tech"
+      ],
+      "status": "heating",
+      "teach": {
+        "one_line": "Big tech is making more of its own chips and hardware instead of buying so much from others.",
+        "like": "Like a shop that starts baking its own bread instead of buying it every day.",
+        "why": "Technology lets one company control more of the stack, and money rewards the firms that own the whole machine.",
+        "remember": "Own the machine, own the margin."
+      }
+    },
+    {
+      "id": "t_bjp_institutional_consolidation",
+      "title": "BJP consolidates control through state institutional wins",
+      "nickname": "Institutional Grip",
+      "plain": "Electoral wins in state institutional contests are consolidating BJP control ahead of larger contests.",
+      "claim": "The BJP is strengthening its institutional foothold by winning legislative council/educational constituencies and similar bodies at the state level, increasing administrative reach and influence over future state and national policy implementation.",
+      "forces": [
+        "geopolitics"
+      ],
+      "created": "2026-10-28",
+      "evidence": [
+        {
+          "date": "2026-10-28",
+          "item_id": "2e5aa956a5",
+          "section": "politics_india",
+          "title": "Uttar Pradesh MLC polls: BJP candidates win Meerut graduates and teachers constituencies; counting on elsewhere",
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/uttar-pradesh-mlc-election-results-2026-meerut-varanasi-gorakhpur/article71634397.ece",
+          "source": "The Hindu",
+          "note": "BJP wins in key Uttar Pradesh MLC constituencies signal party consolidation of institutional political control at state level."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "bb63faf531",
+          "section": "politics_india",
+          "title": "ED attaches Jauhar University land, buildings in money-laundering case",
+          "url": "https://indianexpress.com/article/india/ed-jauhar-university-land-money-laundering-case-10940783/",
+          "source": "Indian Express",
+          "note": "ED attaches Jauhar University assets in money‑laundering case, evidence of intensified state enforcement affecting institutions."
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "b451214da1",
+          "section": "politics_india",
+          "title": "Bihar MLC election results: BJP wins 2, leads on 1; JDU, RJD, JSP win 1 seat each, Independents 2",
+          "url": "https://www.hindustantimes.com/india-news/bihar-mlc-elections-bjp-wins-2-leads-on-1-jdu-rjd-jsp-win-1-seat-each-independents-2-101793207161923.html",
+          "source": "HT India",
+          "note": "Bihar MLC results (BJP wins 2, leads 1) evidence party consolidation at state institutional levels."
+        }
+      ],
+      "last_seen": "2026-10-29",
+      "sections": [
+        "politics_india"
+      ],
+      "status": "heating",
+      "teach": {
+        "one_line": "The BJP is gaining more control over state institutions that shape how power gets used.",
+        "like": "Like a team winning the school council, then the class rules start matching its way.",
+        "why": "Politics is about who controls the gates of power, and institutions can lock in that control.",
+        "remember": "Win the gates, steer the game."
+      }
     }
   ],
   "candidates": [
@@ -744,29 +1112,6 @@
       ]
     },
     {
-      "id": "c_bigtech_custom_silicon",
-      "title": "Big tech doubles down on custom silicon and vertical integration",
-      "nickname": "Chip‑Built Platforms",
-      "plain": "Large tech firms keep investing in custom chips and integrated hardware to control performance and margins.",
-      "claim": "Major platform companies are increasingly designing and shipping custom silicon and vertically integrated hardware (clients and networking), shifting product roadmaps and supply‑chain dependence toward in‑house silicon.",
-      "forces": [
-        "technology",
-        "capital"
-      ],
-      "created": "2026-10-28",
-      "evidence": [
-        {
-          "date": "2026-10-28",
-          "item_id": "8b7f3fa5f2",
-          "section": "tech",
-          "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
-          "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
-          "source": "Ars Technica",
-          "note": "Apple refresh with M6 and N1 chip (Wi‑Fi 7, Bluetooth 6) evidences continued vertical integration and custom silicon investment by big tech."
-        }
-      ]
-    },
-    {
       "id": "c_india_relaxes_fdi_china",
       "title": "India loosens FDI curbs linked to China and neighbours",
       "nickname": "Selective Opening",
@@ -790,24 +1135,114 @@
       ]
     },
     {
-      "id": "c_bjp_institutional_consolidation",
-      "title": "BJP consolidates control through state institutional wins",
-      "nickname": "Institutional Grip",
-      "plain": "Electoral wins in state institutional contests are consolidating BJP control ahead of larger contests.",
-      "claim": "The BJP is strengthening its institutional foothold by winning legislative council/educational constituencies and similar bodies at the state level, increasing administrative reach and influence over future state and national policy implementation.",
+      "id": "c_india_b2b_logistics_funding",
+      "title": "Investment returns to India B2B quick‑commerce and logistics",
+      "nickname": "B2B Logistics Rally",
+      "plain": "Investors are redeploying capital into Indian B2B quick‑commerce and logistics startups.",
+      "claim": "Venture capital is refocusing on Indian B2B quick‑commerce and logistics startups, lifting valuations and consolidation activity in that sector.",
       "forces": [
-        "geopolitics"
+        "capital"
       ],
-      "created": "2026-10-28",
+      "created": "2026-10-29",
       "evidence": [
         {
-          "date": "2026-10-28",
-          "item_id": "2e5aa956a5",
+          "date": "2026-10-29",
+          "item_id": "3a45e06e0f",
+          "section": "tech",
+          "title": "Bijnis rebrands as Zorit, raises Rs 27 Cr led by Sparrow Capital",
+          "url": "https://entrackr.com/news/bijnis-rebrands-as-zorit-raises-rs-27-cr-led-by-sparrow-capital-12762019",
+          "source": "Entrackr",
+          "note": "Zorit (ex‑Bijnis) raises Rs 27 Cr, showing continued capital into B2B quick‑commerce and logistics consolidation."
+        }
+      ]
+    },
+    {
+      "id": "c_india_strategic_gaming_investment",
+      "title": "Strategic and celebrity investors back Indian gaming",
+      "nickname": "Star‑Backed Gaming",
+      "plain": "Prominent strategic and celebrity investors are increasingly funding Indian gaming and esports startups.",
+      "claim": "High‑profile strategic and celebrity investors are stepping into India’s gaming and esports sector, increasing deal sizes and legitimising the vertical.",
+      "forces": [
+        "capital"
+      ],
+      "created": "2026-10-29",
+      "evidence": [
+        {
+          "date": "2026-10-29",
+          "item_id": "692a1558f7",
+          "section": "tech",
+          "title": "Let’s Game Now raises Rs 30 Cr led by Anand Mahindra and Bestvantage Investments",
+          "url": "https://entrackr.com/snippets/lets-game-now-raises-rs-30-cr-led-by-anand-mahindra-and-bestvantage-investments-12761408",
+          "source": "Entrackr",
+          "note": "Let’s Game Now raises Rs 30 Cr led by Anand Mahindra, showing strategic/celebrity investors backing Indian gaming and esports."
+        }
+      ]
+    },
+    {
+      "id": "c_india_ai_workforce_upskilling",
+      "title": "Indian states push formal AI upskilling for IT workforce",
+      "nickname": "AI Upskill Drive",
+      "plain": "State governments are launching programs to reskill IT workers for AI roles and automation.",
+      "claim": "Indian state governments are formalising AI upskilling initiatives for IT professionals, accelerating public‑sector workforce policies to manage AI labour displacement and demand for new skills.",
+      "forces": [
+        "regulation",
+        "demographics"
+      ],
+      "created": "2026-10-29",
+      "evidence": [
+        {
+          "date": "2026-10-29",
+          "item_id": "6ae4878ff8",
+          "section": "tech",
+          "title": "‘Keep learning, keep adapting’: Priyank Kharge tells IT professionals to stay ahead of AI",
+          "url": "https://yourstory.com/2026/10/priyank-kharge-it-professionals-ai-skilling-nipuna-karnataka",
+          "source": "YourStory",
+          "note": "Karnataka minister urges IT professionals to upskill for AI, evidencing policy push to manage workforce transition."
+        }
+      ]
+    },
+    {
+      "id": "c_undersea_cable_spying",
+      "title": "Geopolitical spying risks threaten submarine cable security",
+      "nickname": "Cable Risk",
+      "plain": "State actors are increasing surveillance and sabotage risks to undersea internet cables, threatening connectivity and digital trade.",
+      "claim": "Rising state‑level snooping and sabotage activity against trans‑oceanic cables is elevating geopolitical risk to global internet infrastructure and Big Tech connectivity resilience.",
+      "forces": [
+        "geopolitics",
+        "technology"
+      ],
+      "created": "2026-10-29",
+      "evidence": [
+        {
+          "date": "2026-10-29",
+          "item_id": "29099ec00f",
+          "section": "tech",
+          "title": "China’s snooping around Pacific undersea cables raises risks for Big Tech",
+          "url": "https://arstechnica.com/gadgets/2026/10/google-and-meta-subsea-cables-among-most-at-risk-from-sabotage-in-pacific/",
+          "source": "Ars Technica",
+          "note": "Reports of Chinese snooping on trans‑Pacific cables indicate rising geopolitical risk to submarine internet infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "c_india_drug_price_controls_expand",
+      "title": "India expands centralized price controls into oncology drugs",
+      "nickname": "Cancer Price Cut",
+      "plain": "The government is extending price controls to many cancer drugs to lower patient costs.",
+      "claim": "Indian regulators are expanding centralized price controls into high‑cost oncology drugs, materially reducing list prices and reshaping pharmaceutical pricing power and market margins.",
+      "forces": [
+        "regulation"
+      ],
+      "created": "2026-10-29",
+      "evidence": [
+        {
+          "date": "2026-10-29",
+          "item_id": "130ad7ecea",
           "section": "politics_india",
-          "title": "Uttar Pradesh MLC polls: BJP candidates win Meerut graduates and teachers constituencies; counting on elsewhere",
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/uttar-pradesh-mlc-election-results-2026-meerut-varanasi-gorakhpur/article71634397.ece",
-          "source": "The Hindu",
-          "note": "BJP wins in key Uttar Pradesh MLC constituencies signal party consolidation of institutional political control at state level."
+          "title": "Cancer drug prices slashed for 543 brands; new rates from November 9",
+          "url": "https://www.hindustantimes.com/india-news/cancer-drug-prices-slashed-by-up-to-90-per-cent-for-543-brands-new-rates-from-november-9-nppa-national-pharmaceutical-pricing-authority-doctor-101793204606497.html",
+          "source": "HT India",
+          "note": "Price cuts for 543 cancer drug brands (example: azacitidine 100mg down to ₹1,495 from ₹6,337) show expansion of central price controls into oncology."
         }
       ]
     }

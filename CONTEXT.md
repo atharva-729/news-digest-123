@@ -5,52 +5,50 @@ current state. **Keep it under ~80 lines: rewrite sections in place, don't appen
 the last 5 entries.**
 
 ## Where we are
-- **Built:** Phases 0–6 plus a redesign (2026-10-28): the edition is now a web page for short attention
-  spans, with tabs Feed (punchy L1 cards) / What it means (L1, L2, L3 + map + connections) / Play (call,
-  quiz). Runs locally only; `--push` publishes to GitHub Pages.
+- **Built:** Phases 0–6, then (2026-10-29) "explain like I'm 10": every story is read and explained in
+  plain words; L2 patterns have stable teaching cards; spaced "Remember?" questions. Tabs: News /
+  What it means / Play. Runs locally only; `--push` publishes to GitHub Pages.
 - **Checkpoints not yet passed:** 3 (3–5 real mornings, then judge `data/threads.json`), 6 (needs a week).
-- **Next:** run `python run.py daily --push` every morning; review threads and LLM spend after ~5 days.
+- **Next:** run `python run.py daily --push` every morning. User wants feedback on readability first.
 
 ## How to run
-- `python run.py daily` = ingest (+7-day lookback) → select → threads → connect → write → deliver.
-  `python run.py weekly` = write → deliver. `--from/--until X` reuse saved data. `--no-send`, `-v`, `--push`.
-- Output: `data/items/`, `data/context/` (last week), `data/selected/`, `data/threads/DATE.json`
-  (snapshot per day; `threads.json` = latest), `data/connect/`, `data/written/`, `data/calls.json`,
-  `data/llm_usage.jsonl`, `docs/*.html` + `docs/assets/` (copied from `templates/static/`).
-- `python -m digest.usage` summarises LLM calls; LLM_USAGE.md explains each one and the cost.
+- `python run.py daily` = ingest (+7-day lookback) → select → read → threads (+teach) → connect →
+  write → deliver. `python run.py weekly` = write → deliver. `--from/--until X`, `--no-send`, `-v`, `--push`.
+- Output: `data/items/`, `data/context/`, `data/selected/`, `data/read/` (metadata only),
+  `data/threads/DATE.json`, `data/connect/`, `data/written/`, `data/calls.json`, `data/memory.json`
+  (review schedule), `data/llm_usage.jsonl`, `docs/*.html` + `docs/assets/`. Article text: `cache/` (git-ignored).
+- `python -m digest.usage` summarises LLM calls; LLM_USAGE.md explains each one (~12 calls, ~$0.06/day).
 - Always run via `run.py` from the repo root (`digest/select.py` would shadow the stdlib `select`).
 
 ## Decisions made (and why)
 - LLM: OpenAI-compatible gateway; `FOUNDRY_TOKEN` / `FOUNDRY_BASE_URL` only in local `.env` (repo is
-  public). gpt-5-mini for select (minimal), threads and connect (low); **writer on gpt-5.4-mini** (low)
-  because gpt-5-mini kept restating headlines. Strict JSON schemas. ~9 calls/day, ~$0.04/day.
-- Design: solid colours only (no gradients), thick borders, hard shadows, yellow highlighter marks chosen
-  by the model but verified in code (must be an exact substring). Light/dark via tokens + toggle.
-  Archivo + Space Mono from Google Fonts. Takes are AI-written; real headline kept as "Boring version" link.
-- Connections: `connect` reads ~300 balanced headlines from the previous 7 days (Google News `when:7d`
-  plus our saved days, capped per feed per day), adds up to 3 backstory clues per thread (dated when
-  published) and 3–6 today↔last-week throwbacks. All ids checked.
-- Select returns 2 ranked reserves per section; code drops same-story pairs (fuzzy title ≥ 70, or a
-  shared amount/percentage plus a shared name), and skips stories picked in the previous 3 editions.
-- Writer skips cards sometimes in a long answer: a `write:retry` call fills just those. Quiz options are
-  shuffled in code so answers don't all sit in slot A.
-- Threads: per-day snapshots (idempotent reruns); code enforces fixed forces, real ids, ≥2 items, status
-  from evidence counts, never delete. New threads get a `nickname` and a plain-English line.
-- truststore is injected in `common.py` (every module), so feeds work without importing `llm.py`.
-- Work laptop proxy: all feeds open except ESPN and Atlas Obscura.
-- Idea credit: @neworderindia, in README and every footer (`credit` in config).
+  public). gpt-5-mini for select/threads/connect; gpt-5.4-mini for teach + writing. Strict JSON schemas.
+  Replies with stray non-English script are retried with an "English only" note.
+- Reading (`digest/articles.py`): feed text first; article page only if robots.txt allows our agent, "*"
+  **and** ChatGPT-User / Claude-User / Perplexity-User (we are a user-triggered AI reader). Honest UA; no
+  bot-check workarounds. Blocked: TechCrunch, The Verge, The Hindu, BBC, Al Jazeera, Reuters. Pages that
+  refuse our UA (Ars, Inc42) fall back to their long feed text. Google News links are never decoded.
+- Select prefers `full_story` items (user chose: prefer publisher feeds, else tag "Limited info").
+  Limited = under 25 words of text. Added HT India/World/Sports and Indian Express World feeds.
+- Writing: plain headlines (who did what), 2–4 sentence explanation incl. what a company does and jargon
+  in plain words, one "why it matters" line with at most one highlight. Facts only from the article.
+- L2 pedagogy: teaching card per pattern (one line, "it's like", why/L3, rule of thumb), written once and
+  reused; "Remember?" questions built in code from those cards at 1/3/7/14/30-day gaps. L3 meanings
+  are fixed text in config (`forces_explained`).
+- Design: calm, 16px body, 20px headlines, no dropdowns, no rotated stickers, solid colours, light/dark.
+- Earlier decisions still hold: per-day thread snapshots, same-story dedupe with reserves, quiz answers
+  shuffled, truststore in `common.py`, credit to @neworderindia in every footer.
 
 ## Open questions / parked
-- Repo: https://github.com/atharva-729/news-digest-123 (public). Pages from `main` `/docs`. No Actions:
-  company secrets must not go to GitHub.
-- LLM spend/provider to be discussed (user may buy a personal API key); see LLM_USAGE.md.
-  gpt-5.4-mini's price isn't in `model.prices` yet, so its cost logs as null.
-- Funding is often all-India (Google News is India-edition); consider a world funding feed.
-- Email optional (teaser linking to the page); suggested a separate sender-only Gmail.
+- "Explain like I'm…" dial: user's idea, assessed as workable (difficulty slider + vibe switch); not built.
+- A weak teaching card sticks until regenerated (e.g. "Governance Guardrails" spice-jar comparison);
+  consider a manual "re-teach" option.
+- Funding is often all-India; consider a world funding feed. gpt-5.4-mini price not in config yet.
+- Repo https://github.com/atharva-729/news-digest-123 is public; Pages from `main` `/docs`; no Actions.
 
 ## Log (last 5)
-- 2026-10-28: Built Phases 3–6 + workflow. Fixed call-judging leak and cross-day repeat picks.
-- 2026-10-28 10:56 IST: full rerun of 10-28 (not a new day); first valid cross-link.
 - 2026-10-28: Pushed to GitHub (public). Endpoint moved to .env. Dropped Actions; site in docs/.
-- 2026-10-28: Redesign: punchy cards, 3 tabs, L1/L2/L3 map, last-week connections, light/dark, quiz,
-  LLM usage logging. Writer moved to gpt-5.4-mini. Regenerated 27–28 Oct and the weekly.
+- 2026-10-28: Redesign v1: punchy cards, 3 tabs, L1/L2/L3 map, last-week connections, LLM usage logging.
+- 2026-10-29: User found v1 confusing. Feasibility check: ~70% of stories readable in full.
+- 2026-10-29: Built v2: read phase (robots-aware), plain explanations, teaching cards, Remember?,
+  calmer design. Today: 23/25 stories explained from full text, 3 limited. Rebuilt 27–28 Oct + weekly.

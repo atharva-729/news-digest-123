@@ -102,7 +102,13 @@
       "sections": [
         "tech"
       ],
-      "status": "heating"
+      "status": "heating",
+      "teach": {
+        "one_line": "Money is flowing back into AI and deep-tech, pushing up valuations and big raises.",
+        "like": "Like a gold rush: people stop digging and start selling shovels.",
+        "why": "Money chases the next big profit, and new AI tools and machines look promising again.",
+        "remember": "Sell shovels in a rush."
+      }
     },
     {
       "id": "t_ai_energy_constraints",
@@ -168,7 +174,13 @@
       "sections": [
         "tech"
       ],
-      "status": "heating"
+      "status": "heating",
+      "teach": {
+        "one_line": "AI growth is hitting power limits, so data centers are harder to build and expand.",
+        "like": "Like trying to add rooms when the house wiring keeps blowing.",
+        "why": "Technology needs more electricity than the grid and local rules can easily supply.",
+        "remember": "No power, no expansion."
+      }
     },
     {
       "id": "t_ai_governance_institutionalization",
@@ -225,7 +237,13 @@
       "sections": [
         "tech"
       ],
-      "status": "heating"
+      "status": "heating",
+      "teach": {
+        "one_line": "AI companies are adding stricter controls and disclosures as trust becomes harder to assume.",
+        "like": "Like a family putting labels on the spice jars so nobody mixes them up.",
+        "why": "Rules and geopolitics make risky, founder-only control too dangerous for powerful AI.",
+        "remember": "Trust needs guardrails."
+      }
     },
     {
       "id": "t_india_voter_roll_tightening",
@@ -281,7 +299,13 @@
       "sections": [
         "politics_india"
       ],
-      "status": "heating"
+      "status": "heating",
+      "teach": {
+        "one_line": "India is tightening voter rolls, with more paperwork and more names being removed.",
+        "like": "Like a teacher checking the attendance list more carefully before class starts.",
+        "why": "Rules are being used to make voter lists stricter and cleaner.",
+        "remember": "Stricter list, fewer names."
+      }
     },
     {
       "id": "t_israel_political_fragmentation",
@@ -326,7 +350,13 @@
       "sections": [
         "politics_world"
       ],
-      "status": "heating"
+      "status": "heating",
+      "teach": {
+        "one_line": "Israel’s elections are producing split results, so coalition talks are taking longer.",
+        "like": "Like a cricket team where nobody agrees on the captain.",
+        "why": "Geopolitics and divided voters make it hard for one side to rule alone.",
+        "remember": "Many pieces, slow deal."
+      }
     }
   ],
   "candidates": [
@@ -500,6 +530,7 @@
         "heating"
       ]
     },
+    "taught": 5,
     "backstory": [
       {
         "thread_id": "t_ai_capital_rotation",

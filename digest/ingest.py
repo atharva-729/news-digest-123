@@ -13,6 +13,7 @@ import feedparser
 import httpx
 from rapidfuzz import fuzz
 
+from digest import articles
 from digest.common import DATA, IST, read_json, write_json
 
 log = logging.getLogger(__name__)
@@ -74,8 +75,12 @@ def normalise(section, feed, entry):
         if title.endswith(f" - {source}"):
             title = title[: -len(source) - 3]
     summary = clean_text(entry.get("summary", ""))
+    # The fullest text the feed offers (some carry the whole article in <content>). Kept out of the
+    # committed data: ingest moves it to the git-ignored cache for the read phase.
+    full = max([clean_text(entry.get("summary", ""), 30000)]
+               + [clean_text(c.get("value", ""), 30000) for c in entry.get("content", [])], key=len)
     if summary.startswith(title) or fuzz.partial_ratio(summary.lower(), title.lower()) > 90:
-        summary = ""  # Google News "summaries" just repeat the headline
+        summary = full = ""  # Google News "summaries" just repeat the headline
     return {
         "id": item_id(link),
         "section": section,
@@ -86,6 +91,7 @@ def normalise(section, feed, entry):
         "published_at": datetime.fromtimestamp(calendar.timegm(when), timezone.utc).isoformat(),
         "via_google_news": is_gn,
         "also_covered_by": [],
+        "_text": full,
     }
 
 
@@ -143,6 +149,15 @@ def run(cfg, date, weekly=False):
     raw, feed_stats = collect(cfg, weekly, now - window, now + timedelta(hours=1), icfg["max_items_per_feed"])
 
     items = dedupe(raw, icfg["dedupe_title_similarity"])
+    texts = {it["id"]: it.pop("_text", "") for it in items}
+    # Check each publisher's rules once (in parallel), then mark which items we can explain properly.
+    by_host = {urlsplit(it["url"]).netloc: it["url"] for it in items if not it["via_google_news"]}
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        list(pool.map(articles.allowed, by_host.values()))
+    for it in items:
+        it["feed_words"] = articles.words(texts[it["id"]])
+        it["readable"] = articles.readable(it, it["feed_words"])
+    articles.save_feed_text(date, {i: t for i, t in texts.items() if articles.words(t) >= 40})
     counts = Counter(it["section"] for it in items)
     out = {
         "date": date,
@@ -170,6 +185,8 @@ def run_lookback(cfg, date, today_ids):
     end = datetime.fromisoformat(date).replace(tzinfo=IST) - timedelta(hours=6)  # editions run ~06:00 IST
     start = end - timedelta(days=days)
     raw, _ = collect(cfg, True, start, end, icfg.get("lookback_items_per_feed_day", 4), per_day=True)
+    for it in raw:
+        it.pop("_text", None)  # last week's items are titles only
     for n in range(1, days + 1):
         d = (datetime.fromisoformat(date) - timedelta(days=n)).date().isoformat()
         raw += (read_json(DATA / "items" / f"{d}.json") or {}).get("items", [])

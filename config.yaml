@@ -41,7 +41,23 @@ writing:
   params: {reasoning_effort: low}   # the quiz answers and the call need a little thought
 
 connect:
-  params: {reasoning_effort: low}   # finds today<->last-week links and thread backstory
+  params: {reasoning_effort: low}
+
+# Reading the picks (digest/articles.py). Pages are read only where robots.txt allows us and AI assistants
+# that fetch for a user; text stays in the git-ignored cache/ and only feeds the explanations.
+read:
+  enough_words: 250          # feed text this long is enough; otherwise try the article page
+  max_words: 700             # per article, sent to the writer
+  limited_below_words: 25    # under this (about a headline's worth), the card says "limited info"
+  timeout_seconds: 15
+
+# L3 in plain words. Fixed on purpose: the same sentence every day is easier to remember.
+forces_explained:
+  technology: "New tools and inventions that change what people and companies can do."
+  capital: "Money looking for its next profit, and who gets it."
+  geopolitics: "Countries competing for power, safety and resources."
+  regulation: "Governments and courts setting or changing the rules."
+  demographics: "Who people are (age, numbers, where they live, how they vote) and how that's shifting."   # finds today<->last-week links and thread backstory
 
 # Shown in every newsletter footer.
 credit: {name: "@neworderindia", url: "https://www.instagram.com/neworderindia/"}
@@ -89,11 +105,14 @@ feeds:
   politics_india:
     - {name: The Hindu, url: "https://www.thehindu.com/news/national/feeder/default.rss"}
     - {name: Indian Express, url: "https://indianexpress.com/section/india/feed/"}
+    - {name: HT India, url: "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml"}
     - {name: GN India politics, gn: "India politics when:1d"}
     - {name: GN India policy, gn: "India government policy when:1d"}
   politics_world:
     - {name: BBC World, url: "https://feeds.bbci.co.uk/news/world/rss.xml"}
     - {name: Al Jazeera, url: "https://www.aljazeera.com/xml/rss/all.xml"}
+    - {name: HT World, url: "https://www.hindustantimes.com/feeds/rss/world-news/rssfeed.xml"}
+    - {name: Indian Express World, url: "https://indianexpress.com/section/world/feed/"}
     - {name: GN world, gn: "geopolitics when:1d"}
   markets:
     - {name: Mint Markets, url: "https://www.livemint.com/rss/markets"}
@@ -106,6 +125,7 @@ feeds:
   sports:
     - {name: BBC Sport, url: "https://feeds.bbci.co.uk/sport/rss.xml"}
     - {name: ESPN, url: "https://www.espn.com/espn/rss/news"}
+    - {name: HT Sports, url: "https://www.hindustantimes.com/feeds/rss/sports/rssfeed.xml"}
     - {name: GN sports, gn: "sports when:1d"}
   fun:
     - {name: UPI Odd News, url: "https://rss.upi.com/news/odd_news.rss"}

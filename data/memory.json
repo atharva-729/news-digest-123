@@ -1,0 +1,51 @@
+{
+  "threads": {
+    "t_ai_capital_rotation": {
+      "next": "2026-10-31",
+      "step": 1
+    },
+    "t_ai_energy_constraints": {
+      "next": "2026-10-31",
+      "step": 1
+    },
+    "t_ai_governance_institutionalization": {
+      "next": "2026-11-01",
+      "step": 1
+    },
+    "t_india_voter_roll_tightening": {
+      "next": "2026-11-01",
+      "step": 1
+    },
+    "t_israel_political_fragmentation": {
+      "next": "2026-10-28",
+      "step": 0
+    },
+    "t_india_regulatory_pushback": {
+      "next": "2026-10-29",
+      "step": 0
+    },
+    "t_oil_supply_shocks_driving_em_inflation": {
+      "next": "2026-10-29",
+      "step": 0
+    },
+    "t_bigtech_custom_silicon": {
+      "next": "2026-10-29",
+      "step": 0
+    },
+    "t_bjp_institutional_consolidation": {
+      "next": "2026-10-29",
+      "step": 0
+    }
+  },
+  "days": {
+    "2026-10-27": [],
+    "2026-10-28": [
+      "t_ai_capital_rotation",
+      "t_ai_energy_constraints"
+    ],
+    "2026-10-29": [
+      "t_ai_governance_institutionalization",
+      "t_india_voter_roll_tightening"
+    ]
+  }
+}

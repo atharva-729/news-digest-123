@@ -1,72 +1,72 @@
 {
   "date": "2026-10-28",
-  "subject": "L1·L2·L3 weekly 28 Oct: AI money surged; power and rules bit",
-  "lead": "AI money surged; power and rules bit",
+  "subject": "L1·L2·L3 weekly 28 Oct: AI Money, Guardrails, and Power Limits",
+  "lead": "AI Money, Guardrails, and Power Limits",
   "tldr": [
     {
-      "text": "AI funding kept fattening up, with big rounds and bigger valuations.",
-      "highlight": "big rounds and bigger valuations"
+      "text": "AI funding stayed hot, while bigger firms bought more AI tools.",
+      "highlight": "AI funding stayed hot"
     },
     {
-      "text": "Power limits got louder: data centres, supply shocks, and GaN got airtime.",
-      "highlight": "Power limits got louder"
+      "text": "Governments and courts tightened AI and voter-roll rules.",
+      "highlight": "tightened AI and voter-roll rules"
     },
     {
-      "text": "India’s rulebook got sharper, while election and oil threads stayed messy.",
-      "highlight": "rulebook got sharper"
+      "text": "Power limits and oil shocks kept pressure on costs.",
+      "highlight": "Power limits"
     }
   ],
   "writer": {
-    "headline": "AI money surged; power and rules bit",
+    "headline": "AI Money, Guardrails, and Power Limits",
     "tldr": [
       {
-        "text": "AI funding kept fattening up, with big rounds and bigger valuations.",
-        "highlight": "big rounds and bigger valuations"
+        "text": "AI funding stayed hot, while bigger firms bought more AI tools.",
+        "highlight": "AI funding stayed hot"
       },
       {
-        "text": "Power limits got louder: data centres, supply shocks, and GaN got airtime.",
-        "highlight": "Power limits got louder"
+        "text": "Governments and courts tightened AI and voter-roll rules.",
+        "highlight": "tightened AI and voter-roll rules"
       },
       {
-        "text": "India’s rulebook got sharper, while election and oil threads stayed messy.",
-        "highlight": "rulebook got sharper"
+        "text": "Power limits and oil shocks kept pressure on costs.",
+        "highlight": "Power limits"
       }
     ],
     "intro": {
-      "text": "Biggest shift: AI Money Shift went from newborn to heating fast, with capital chasing tooling, robotics, and infra. Around it, The Power Limit got more real, while Governance Guardrails and Regulation vs Press showed the rules are now part of the story.",
-      "highlight": "AI Money Shift went from newborn to heating fast"
+      "text": "The biggest shift was in AI Money Shift: money kept rushing into AI, from startups to big acquisitions. Governance Guardrails and The Power Limit also heated up, as trust, rules, and electricity became harder to ignore.",
+      "highlight": "money kept rushing into AI"
     },
     "threads": [
       {
         "thread_id": "t_ai_capital_rotation",
-        "line": "AI Money Shift heated up as capital kept piling into AI tooling, robotics, vision hardware, and late-stage infra, with valuations still doing gymnastics."
+        "line": "AI Money Shift heated up because investors kept backing AI startups and big buyers kept spending on AI capabilities."
       },
       {
         "thread_id": "t_ai_governance_institutionalization",
-        "line": "Governance Guardrails warmed further: AI is moving from founder vibes to institutional controls, disclosures, and trust drama."
+        "line": "Governance Guardrails heated up as AI labs and institutions added stricter controls, disclosures, and policy framing."
       },
       {
         "thread_id": "t_ai_energy_constraints",
-        "line": "The Power Limit got hotter as AI’s thirst for electricity ran into supply, siting, and power-electronics constraints."
+        "line": "The Power Limit heated up because AI needs more electricity, while supply and siting pressures made expansion harder."
       },
       {
         "thread_id": "t_israel_political_fragmentation",
-        "line": "Fragmented Israel stayed heating because high turnout and a likely no-majority result point to long coalition wrangling."
+        "line": "Fragmented Israel stayed hot as the vote looked split, which points to longer coalition talks."
       },
       {
         "thread_id": "t_oil_supply_shocks_driving_em_inflation",
-        "line": "Refinery Shock intensified as oil spikes from supply disruptions kept feeding straight into inflation pressure."
+        "line": "Refinery Shock heated up because fresh oil supply scares kept pushing prices up and feeding inflation worries."
       },
       {
         "thread_id": "t_india_regulatory_pushback",
-        "line": "Regulation vs Press heated up as courts, media groups, and policy talks pushed back on new rules and shaped how they land."
+        "line": "Regulation vs Press heated up as courts, media, and industry pushed back on new rules."
       },
       {
         "thread_id": "t_india_voter_roll_tightening",
-        "line": "Roll Trim stayed hot as the Election Commission kept tightening documentation and trimming rolls, triggering visible pushback."
+        "line": "Roll Trim heated up because voter-roll deletions and new paperwork drew wider public resistance."
       }
     ],
     "calls": [],
-    "watch": "Watch whether AI capital keeps clustering into a few mega-winners, and whether power constraints turn into real deployment delays. Also watch if India’s regulatory pushback hardens into actual rule changes, not just courtroom noise."
+    "watch": "Watch whether AI spending keeps broadening beyond startups into infrastructure and regulated industries. Also watch whether power and oil costs start slowing that expansion, and whether India’s rule changes trigger more legal pushback."
   }
 }

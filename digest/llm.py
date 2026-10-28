@@ -2,6 +2,7 @@
 import json
 import logging
 import os
+import re
 import time
 
 import httpx
@@ -10,6 +11,10 @@ from dotenv import load_dotenv
 from digest.common import DATA, load_config, today_ist
 
 log = logging.getLogger(__name__)
+
+# Scripts that should never appear in our English output unless the prompt had them (Cyrillic, CJK, Hangul).
+STRAY_SCRIPT = re.compile(r"[Ѐ-ӿ぀-ヿ一-鿿가-힯]+")
+ENGLISH_ONLY = "Write only in English. Your previous answer slipped in a word from another language."
 
 
 def _env(name):
@@ -45,6 +50,7 @@ def _call(messages, tag="untagged", model=None, **extra):
     base_url = _env("FOUNDRY_BASE_URL").rstrip("/")
     headers = {"Authorization": f"Bearer {_env('FOUNDRY_TOKEN')}:{cfg.get('project', 'l1l2l3')}"}
     last_err = None
+    prompt_has_stray = bool(STRAY_SCRIPT.search(" ".join(m["content"] for m in messages)))
     for model in models:
         body = {"model": model, "messages": messages, **cfg.get("params", {}), **extra}
         for attempt in range(cfg.get("max_retries", 4)):
@@ -59,8 +65,14 @@ def _call(messages, tag="untagged", model=None, **extra):
                     raise ValueError(f"empty response (finish reason: {choice.get('finish_reason')})")
                 log.info("%s [%s] usage: %s", model, tag, data.get("usage"))
                 _log_usage(tag, model, data.get("usage"), time.time() - t0)
-                return choice["message"]["content"]
-            except Exception as e:  # 429/5xx from the API, empty or truncated output
+                content = choice["message"]["content"]
+                if not prompt_has_stray and STRAY_SCRIPT.search(content):
+                    # Seen once: a Russian word in an English answer. Ask again with an explicit instruction,
+                    # which also changes the request so the gateway can't hand back a cached copy.
+                    body = {**body, "messages": messages + [{"role": "system", "content": ENGLISH_ONLY}]}
+                    raise ValueError(f"answer contains non-English script: {STRAY_SCRIPT.search(content).group(0)!r}")
+                return content
+            except Exception as e:  # 429/5xx from the API, empty or truncated output, stray script
                 last_err = e
                 status = getattr(getattr(e, "response", None), "status_code", None)
                 if status in (400, 401, 403, 404):

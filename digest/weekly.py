@@ -6,7 +6,7 @@ from datetime import date as Date, timedelta
 
 from digest import llm
 from digest.common import DATA, load_prompt, read_json, write_json
-from digest.write import SITE, checked, hl_text, name, render, short_date, thread_view
+from digest.write import SITE, checked, hl_text, name, one_line, render, short_date, thread_view
 
 log = logging.getLogger(__name__)
 
@@ -72,7 +72,7 @@ def run(cfg, date):
     due = [(n, c) for n, c in enumerate(calls) if c["review_by"] <= date and not c["verdict"]]
     items = week_items(days)
     data = {
-        "moved": [{"id": r["thread"]["id"], "nickname": name(r["thread"]), "claim": r["thread"]["claim"],
+        "moved": [{"id": r["thread"]["id"], "nickname": name(r["thread"]), "idea": one_line(r["thread"]),
                    "forces": r["thread"]["forces"], "status_last_week": r["from"], "status_now": r["to"],
                    "born_this_week": r["born"], "went_dormant": r["died"], "evidence_this_week": r["notes"]}
                   for r in rows],

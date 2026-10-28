@@ -282,6 +282,37 @@ def check_link(link, threads, key_to_id, forces):
     return {"thread_a": a["id"], "thread_b": b["id"], "force": force, "sentence": link["sentence"].strip()}
 
 
+TEACH_SCHEMA = {
+    "type": "object",
+    "properties": {"threads": {"type": "array", "items": {"type": "object", "properties": {
+        "thread_id": {"type": "string"}, "one_line": {"type": "string"}, "like": {"type": "string"},
+        "why": {"type": "string"}, "remember": {"type": "string"}}}}},
+}
+
+
+def teach(cfg, threads):
+    """Write the stable teaching card (one line, comparison, why, rule of thumb) for threads that lack one.
+    Written once per thread and reused every day: repetition of the same words is what makes it stick."""
+    todo = [t for t in threads if t["status"] != "dormant" and not t.get("merged_into") and not t.get("teach")]
+    if not todo:
+        return 0
+    rows = "\n".join(json.dumps({"id": t["id"], "name": t.get("nickname") or t["title"], "claim": t["claim"],
+                                 "forces": t["forces"], "evidence": [e["note"] for e in t["evidence"][-5:]]},
+                                ensure_ascii=False) for t in todo)
+    out = llm.generate_json(load_prompt("teach").replace("{{threads}}", rows), TEACH_SCHEMA, tag="teach",
+                            model=cfg.get("writing", {}).get("model"), **cfg.get("writing", {}).get("params", {}))
+    by_id = {t["id"]: t for t in todo}
+    for x in out["threads"]:
+        t = by_id.get(x["thread_id"])
+        fields = {k: x[k].strip() for k in ("one_line", "like", "why", "remember")}
+        if t and all(fields.values()):
+            t["teach"] = fields
+    missing = [t["id"] for t in todo if not t.get("teach")]
+    if missing:
+        log.warning("no teaching card for %s", missing)
+    return len(todo) - len(missing)
+
+
 def run(cfg, date):
     items = selected_items(date)
     state = previous_state(date)
@@ -291,6 +322,7 @@ def run(cfg, date):
     result = llm.generate_json(prompt, SCHEMA, tag="threads", **cfg["threads"].get("params", {}))
     snap = copy.deepcopy(state)
     today = apply(cfg, date, items, snap, result)
+    today["taught"] = teach(cfg, snap["threads"])
     out = {"date": date, "threads": snap["threads"], "candidates": snap["candidates"], "today": today}
     write_json(SNAPSHOTS / f"{date}.json", out)
     latest = sorted(SNAPSHOTS.glob("*.json"))[-1]

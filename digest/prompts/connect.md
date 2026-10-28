@@ -13,7 +13,8 @@ Today is {{date}}. You get today's headlines, the threads we track, and last wee
    week's**. Good links are a sequel (the same story moved on), a reversal (something undid or contradicted
    it), a cause and its effect, or the same pattern turning up in a different place or sector. Cross-section
    links (a tech item and a markets item) are the best ones. `kind` is one of: sequel, reversal, cause,
-   same_pattern. `line` is one punchy sentence (≤ 22 words) a reader with no patience gets instantly.
+   same_pattern. `line` is one plain sentence (≤ 22 words) a 10-year-old would understand: what happened
+   last week, and how today's story follows from it. No jargon, no metaphors, no analyst words ("amid", "tale", "broader").
    Never link two reports of the same event on the same day; prefer links that teach something.
 
 Use ids exactly as given. Never invent facts beyond the titles and summaries. Never output URLs.

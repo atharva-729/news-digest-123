@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-29",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "6318bf62f2",
+        "reason": "A major model release (Gemini 4 Carbon) — evidence of rapid AI model iteration and competition among big labs driving compute and ecosystem pressure."
+      },
+      {
+        "id": "7a44b0a9a5",
+        "reason": "Apple shipping a touchscreen MacBook Pro at premium price — evidence of incumbents leaning into hardware differentiation and higher-margin device upgrades."
+      },
+      {
+        "id": "3a45e06e0f",
+        "reason": "Rebrand and Rs 27 Cr raise by B2B quick‑commerce Zorit — evidence of continued investor interest in India’s B2B commerce logistics and consolidation of quick‑commerce players.",
+        "funding": {
+          "company": "Zorit (formerly Bijnis)",
+          "amount": "Rs 27 Cr",
+          "sector": "B2B quick commerce",
+          "country": "India"
+        }
+      },
+      {
+        "id": "63c9f69881",
+        "reason": "QwikBuild raises $2.3M pre‑seed for enterprise AI agents — evidence money is flowing into bespoke enterprise AI automation and agent startups.",
+        "funding": {
+          "company": "QwikBuild",
+          "amount": "$2.3 Mn",
+          "sector": "enterprise AI / AI agents",
+          "country": ""
+        }
+      },
+      {
+        "id": "692a1558f7",
+        "reason": "Let’s Game Now raises Rs 30 Cr led by Anand Mahindra — evidence of prominent strategic/celebrity investors backing gaming and esports in India.",
+        "funding": {
+          "company": "Let’s Game Now",
+          "amount": "Rs 30 Cr",
+          "sector": "gaming / esports",
+          "country": "India"
+        }
+      },
+      {
+        "id": "6ae4878ff8",
+        "reason": "Priyank Kharge urging IT pros to upskill for AI — evidence of policy and workforce initiatives trying to manage AI-driven skills shifts in the tech workforce."
+      },
+      {
+        "id": "29099ec00f",
+        "reason": "China snooping on Pacific undersea cables — evidence of geopolitically driven risks to global internet infrastructure and Big Tech supply‑chain resilience concerns."
+      },
+      {
+        "id": "0ebb7cec19",
+        "reason": "$5B DOE loans to nuclear plants powering data centers (Constellation/Big Tech) — evidence of the energy and infrastructure push to secure low‑carbon, high‑reliability power for hyperscale AI compute."
+      },
+      {
+        "id": "cd7b21ad37",
+        "reason": "SK hynix Q3 profit lifts chip stocks — evidence that memory demand for AI is cyclically boosting semiconductor markets and investor sentiment."
+      },
+      {
+        "id": "37be22d33d",
+        "reason": "Report of OpenAI buying Google AI chips — if true, evidence of intense competition for AI compute and cloud‑level resource grabs (consolidation of hardware supply)."
+      },
+      {
+        "id": "8d743f5fea",
+        "reason": "DOJ inquiry into Nvidia’s Hugging Face purchase — evidence of increasing antitrust and national-security scrutiny over consolidation in AI tooling and model distribution."
+      },
+      {
+        "id": "da0575cf03",
+        "reason": "Info Edge PAT +87% to Rs 650 Cr and revenue growth — evidence of resilient monetization in Indian classifieds/jobs platforms despite macro uncertainty."
+      },
+      {
+        "id": "5a2809d5ba",
+        "reason": "Sarvam AI reportedly raising at $3.5–4B with Cognizant interest — evidence of strategic M&A and late‑stage funding in Indic/large‑language AI leaders attracting global acquirers/partners."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "130ad7ecea",
+        "reason": "Evidence of centralised price control extending into high-cost drugs — a regulatory push to make cancer treatment more affordable and reshape pharmaceutical pricing power."
+      },
+      {
+        "id": "bb63faf531",
+        "reason": "Part of a pattern of intensified legal and enforcement action against educational trusts and institutions — signals state capacity to seize assets in major money‑laundering probes."
+      },
+      {
+        "id": "f9342fdb96",
+        "reason": "Shows how AI tools are already being used to scale and sophisticate local crime/evasion schemes — a technology-driven risk reshaping regulation and enforcement in consumer markets."
+      },
+      {
+        "id": "b451214da1",
+        "reason": "Concrete electoral results that reflect shifting regional political balances in Bihar and the durability of coalition dynamics — evidence of evolving state-level power maps ahead of larger contests."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "1abf129f2d",
+        "reason": "Evidence of a durable political fragmentation in Israel that may force unusual coalitions or repeated elections, shaping regional stability (full story available)."
+      },
+      {
+        "id": "775bae7b29",
+        "reason": "Concrete detail on double-envelope vote mechanics that could change Israeli seat counts—evidence of electoral technicalities determining political outcomes (full story available)."
+      },
+      {
+        "id": "b45fed4ab7",
+        "reason": "Flávio Bolsonaro’s move to the US after his defeat and Trump’s support signals cross-border political networks and the US’s role as refuge for defeated populists, affecting regional politics (full story available)."
+      }
+    ],
+    "markets": [
+      {
+        "id": "ffb43d61bc",
+        "reason": "Evidence that central banks (Fed) are pausing — a macro inflection point that shapes global rates, capital flows and risk pricing."
+      },
+      {
+        "id": "77fb78cc35",
+        "reason": "World Bank projection of a 23% jump in commodity prices — signals a sustained commodity-driven inflation/shock from Middle East war affecting global macro and trade."
+      }
+    ],
+    "sports": [
+      {
+        "id": "09f2489496",
+        "reason": "Evidence of geopolitics intersecting with global football commerce and broadcasting: China suspending La Liga coverage over Real Madrid/Mbappe comments shows how political sensitivities can disrupt rights and revenues."
+      }
+    ],
+    "fun": [
+      {
+        "id": "2a56ab9187",
+        "reason": "Quirky animal-escape story that signals growing human–wildlife interface and challenges of urban zoo management."
+      },
+      {
+        "id": "efe3a07dc6",
+        "reason": "Delightful record of obsessive collecting that illustrates niche digital preservation and long-tail fandom in software history."
+      }
+    ]
+  },
+  "moved_to_tech": [
+    "cd7b21ad37",
+    "cf47b464fc",
+    "63297afcf8",
+    "f2bcf33f90"
+  ],
+  "funding": {
+    "total": 3,
+    "india": 2,
+    "world": 0,
+    "unknown": 1
+  }
+}

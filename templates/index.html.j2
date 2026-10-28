@@ -3,15 +3,11 @@
 {% block body_class %}archive-page{% endblock %}
 {% block content %}
 <div class="wrap">
-  <div class="masthead">
-    <div class="mast-date"><span class="dow">Archive</span><span class="dt">{{ editions|length }} editions</span></div>
-    <h1 class="mast-title">News for people<br><mark>with no attention span.</mark></h1>
-    <div class="stickers">
-      <span class="sticker sk-a">L1 · what happened</span>
-      <span class="sticker sk-b">L2 · the pattern</span>
-      <span class="sticker sk-d">L3 · the force</span>
-    </div>
-  </div>
+  <header class="masthead">
+    <p class="mast-date">Archive · {{ editions|length }} editions</p>
+    <h1 class="mast-title">The news, <mark>explained simply.</mark></h1>
+    <p class="muted">L1 is what happened. L2 is the pattern it's a clue for. L3 is the force behind it.</p>
+  </header>
   <div class="archive">
     {% for e in editions %}
     <a class="tile{{ ' is-latest' if loop.first }}{{ ' is-weekly' if e.weekly }}" href="{{ e.file }}">

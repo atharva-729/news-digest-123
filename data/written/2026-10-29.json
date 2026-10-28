@@ -1,0 +1,357 @@
+{
+  "date": "2026-10-29",
+  "subject": "L1·L2·L3 29 Oct: Google, OpenAI, and others show AI money is still flowing fast.",
+  "lead": "Google, OpenAI, and others show AI money is still flowing fast.",
+  "tldr": [
+    {
+      "text": "Google, OpenAI, and others show AI money is still flowing fast.",
+      "highlight": "AI money is still flowing fast"
+    },
+    {
+      "text": "Apple’s new touchscreen MacBook Pro shows big tech is changing its own hardware.",
+      "highlight": "touchscreen MacBook Pro"
+    },
+    {
+      "text": "Israel’s election is still split, so coalition talks may stay messy.",
+      "highlight": "still split"
+    }
+  ],
+  "hero": {
+    "text": "AI Money Shift is the biggest pattern today. Google, QwikBuild, SK Hynix, OpenAI, Info Edge, and Cognizant all point to money moving back into AI and deep-tech. The same pattern also shows up in the power problem around data centers.",
+    "highlight": "AI Money Shift"
+  },
+  "cards": {
+    "6318bf62f2": {
+      "emoji": "🤖",
+      "headline": "Google says Gemini 4 Carbon is its strongest AI model yet",
+      "explain": "Google says Gemini 4 Carbon is its next frontier model and its strongest one yet. It ranks #1 on an updated Artificial Analysis Intelligence Index and scores well on cybersecurity tests for finding, checking, and fixing software flaws. The company says it is first sharing it with trusted cyber defenders before wider release.",
+      "why": {
+        "text": "Big companies are still pouring effort into advanced AI for coding and security work.",
+        "highlight": "Big companies are still pouring"
+      }
+    },
+    "7a44b0a9a5": {
+      "emoji": "💻",
+      "headline": "Apple launches a touchscreen MacBook Pro starting at $2,899",
+      "explain": "Apple has launched a new MacBook Pro with a touchscreen. The laptop starts at $2,899. A laptop is a portable computer you can use for work, school, and entertainment.",
+      "why": {
+        "text": "Apple is adding new hardware features to keep its computers attractive to buyers.",
+        "highlight": "Apple is adding new hardware"
+      }
+    },
+    "3a45e06e0f": {
+      "emoji": "📦",
+      "headline": "Zorit raises Rs 27 crore to grow its retailer delivery business",
+      "explain": "Zorit, formerly Bijnis, raised nearly Rs 27 crore in a round led by Sparrow Capital. The company helps offline retailers order stock from local dark stores, which are small warehouses, with deliveries in as little as 60 minutes. It says it runs 12 dark stores across 12 cities.",
+      "why": {
+        "text": "Retail delivery startups are still getting money as shops look for faster stock replenishment.",
+        "highlight": "Retail delivery startups are still getting money"
+      }
+    },
+    "63c9f69881": {
+      "emoji": "🧠",
+      "headline": "QwikBuild raises $2.3 million to build business AI tools",
+      "explain": "QwikBuild raised $2.3 million in pre-seed funding, which is a startup’s first early money round. It builds custom software and AI agents, meaning software helpers that can do work tasks for businesses. The company also formed a joint venture with Globalway Inc. to expand in Japan.",
+      "why": {
+        "text": "Investors want tools that help companies replace slow manual work with AI software.",
+        "highlight": "Investors want tools that help"
+      }
+    },
+    "692a1558f7": {
+      "emoji": "🎮",
+      "headline": "Let’s Game Now raises Rs 30 crore for its gaming league",
+      "explain": "Let’s Game Now raised Rs 30 crore in a round co-led by Anand Mahindra and Bestvantage Investments. The company runs esports and gaming tournaments, online and offline, and offers live broadcasting. It says the money will help grow the Indian Super Gaming League.",
+      "why": {
+        "text": "Gaming platforms are still drawing funding as esports tries to grow in India.",
+        "highlight": "Gaming platforms are still drawing funding"
+      }
+    },
+    "6ae4878ff8": {
+      "emoji": "📚",
+      "headline": "Karnataka minister urges IT workers to keep learning as AI changes jobs",
+      "explain": "Karnataka IT Minister Priyank Kharge said IT professionals must keep learning as AI changes jobs and skill needs. He spoke at the opening of a new office in Bengaluru. He also pointed to Nipuna Karnataka, a state skilling program that ties training to hiring needs.",
+      "why": {
+        "text": "Workers will need fresh skills to stay useful as AI changes what companies want.",
+        "highlight": "Workers will need fresh skills"
+      }
+    },
+    "29099ec00f": {
+      "emoji": "🌊",
+      "headline": "Report says Pacific undersea cables face growing sabotage risks",
+      "explain": "A new report says undersea cable projects owned by US companies like Google and Meta face high risk in the Pacific. Undersea cables are the internet’s underwater backbone. The report says some damage is accidental, but analysts also worry about possible sabotage.",
+      "why": {
+        "text": "Internet links under the sea are becoming a bigger security worry for big tech.",
+        "highlight": "Internet links under the sea"
+      }
+    },
+    "0ebb7cec19": {
+      "emoji": "⚡",
+      "headline": "US government loans $5 billion to nuclear plants for data centers",
+      "explain": "Constellation Energy will get $5 billion in government loans to modernize nuclear reactors. Nuclear reactors make electricity. Most of the new power is already committed to Google, Amazon, and Meta, whose data centers need huge amounts of electricity.",
+      "why": {
+        "text": "AI data centers need so much power that governments are funding new energy supply.",
+        "highlight": "AI data centers need so much power"
+      }
+    },
+    "cd7b21ad37": {
+      "emoji": "📈",
+      "headline": "Chip stocks rise as SK Hynix posts huge profit growth",
+      "explain": "Chip company SK Hynix reported third-quarter operating profit up 632% year on year. Its strong results lifted shares of chip firms like Micron and AMD, and also pushed other AI-linked stocks higher. Investors are watching whether big AI spending will keep paying off.",
+      "why": {
+        "text": "Strong chip sales are keeping investors excited about AI hardware demand.",
+        "highlight": "Strong chip sales are keeping"
+      }
+    },
+    "37be22d33d": {
+      "emoji": "🧠",
+      "headline": "OpenAI is reported to buy Google AI chips",
+      "explain": "OpenAI is reported to be buying Google’s AI chips. AI chips are special computer chips made to run AI work faster. The report says demand for AI computing resources is rising.",
+      "why": {
+        "text": "Demand for AI chips is still rising fast, and that keeps the hardware race hot.",
+        "highlight": "Demand for AI chips is still rising"
+      }
+    },
+    "8d743f5fea": {
+      "emoji": "🏛️",
+      "headline": "US Justice Department is reportedly asking about Nvidia’s Hugging Face deal",
+      "explain": "The US Justice Department is reportedly asking questions about Nvidia’s purchase of Hugging Face. The Justice Department is the US government office that enforces laws. The report does not give more details about the inquiry.",
+      "why": {
+        "text": "Big AI deals are facing more government scrutiny before they can move ahead.",
+        "highlight": "Big AI deals are facing more government scrutiny"
+      }
+    },
+    "da0575cf03": {
+      "emoji": "💹",
+      "headline": "Info Edge posts 87% jump in quarterly profit",
+      "explain": "Info Edge, which owns Naukri, reported a 87.1% rise in consolidated net profit to Rs 650 crore in Q2 FY27. Revenue from operations rose to Rs 904 crore, and other income of Rs 428 crore helped lift profits. The company also approved a Rs 150 crore investment in its subsidiary Redstart Labs.",
+      "why": {
+        "text": "Profit growth and investment income are helping internet companies keep cash for new bets.",
+        "highlight": "Profit growth and investment income"
+      }
+    },
+    "5a2809d5ba": {
+      "emoji": "🧠",
+      "headline": "Cognizant is in talks to invest in Sarvam at up to $4 billion",
+      "explain": "Sarvam AI is reportedly in talks to raise around $300 million from Cognizant, an IT services company listed on Nasdaq. The startup makes AI models and tools for businesses and government agencies. If the deal happens, it could value Sarvam at $3.5 billion to $4 billion.",
+      "why": {
+        "text": "Large IT services firms are buying into AI startups to stay relevant in a changing market.",
+        "highlight": "Large IT services firms are buying"
+      }
+    },
+    "130ad7ecea": {
+      "emoji": "💊",
+      "headline": "India cuts prices of 543 cancer drug brands",
+      "explain": "The National Pharmaceutical Pricing Authority has revised maximum retail prices for 543 anti-cancer medicine brands. The new rates start on November 9. Some prices fall by up to 90%. The goal is to make cancer treatment cheaper and reduce the burden on patients.",
+      "why": {
+        "text": "Cancer patients may find treatment more affordable if these lower prices hold in shops and hospitals.",
+        "highlight": "more affordable"
+      }
+    },
+    "bb63faf531": {
+      "emoji": "⚖️",
+      "headline": "ED attaches Jauhar University land and buildings in money-laundering case",
+      "explain": "The Enforcement Directorate attached land and buildings of Mohammad Ali Jauhar University in Rampur, Uttar Pradesh. It says the assets are worth about Rs 1,170 crore at current market value. The case involves the university trust, founder Mohammad Azam Khan, and claims that land, funds, and contracts were misused.",
+      "why": {
+        "text": "The move puts more pressure on a powerful local network and could change how public money and property are used.",
+        "highlight": "public money and property"
+      }
+    },
+    "f9342fdb96": {
+      "emoji": "🕵️",
+      "headline": "Police say AI research helped build illegal liquor racket in Dewas",
+      "explain": "Police say a 26-year-old man used AI tools to learn how to make liquor at home. They allege he then found suppliers online, bought chemicals from Indore, and sold the drink in reused bottles mixed with real stock. Investigators are checking whether it was linked to 13 suspected hooch deaths in Chandana and Binjana villages.",
+      "why": {
+        "text": "People now see how easily online tools can help illegal trade grow faster.",
+        "highlight": "illegal trade"
+      }
+    },
+    "b451214da1": {
+      "emoji": "🗳️",
+      "headline": "BJP wins two Bihar Council seats and leads in one more",
+      "explain": "In Bihar Legislative Council polls for eight seats, the BJP won two seats and led in one more. JD(U), RJD, Jan Suraaj Party, and Independents also won seats. Counting at the Darbhanga graduate constituency saw tension, and five people were detained after a dispute.",
+      "why": {
+        "text": "The results show how Bihar’s local power balance is shifting between parties and Independents.",
+        "highlight": "power balance"
+      }
+    },
+    "1abf129f2d": {
+      "emoji": "🇮🇱",
+      "headline": "Netanyahu bloc leads Israel vote but still lacks a majority",
+      "explain": "With most ballot boxes counted, exit and partial results show Benjamin Netanyahu’s bloc ahead, but still short of the 61 seats needed to govern. Gadi Eisenkot’s bloc is trailing, and Arab-led parties have gained seats. Official counting is still under way, so the numbers can change.",
+      "why": {
+        "text": "Coalition talks may be long and messy because no side has enough seats alone.",
+        "highlight": "long and messy"
+      }
+    },
+    "775bae7b29": {
+      "emoji": "🗳️",
+      "headline": "Israel’s special ballots could still change the final seat count",
+      "explain": "Israel still has hundreds of thousands of double-envelope votes left to count. These are special ballots from people like soldiers, prisoners, hospital patients, and others who could not vote at their usual polling place. Officials must verify them before adding them to the national tally.",
+      "why": {
+        "text": "Those extra votes could still reshape the race for a governing majority.",
+        "highlight": "reshape the race"
+      }
+    },
+    "b45fed4ab7": {
+      "emoji": "🌎",
+      "headline": "Flávio Bolsonaro reaches the US after losing Brazil election",
+      "explain": "Brazilian senator Flávio Bolsonaro arrived in Miami after refusing to concede defeat to President Luiz Inácio Lula da Silva. Brazil’s Supreme Court had ordered him to surrender his passports because of a money-laundering probe and flight risk concerns. US President Donald Trump said he approved of Bolsonaro’s entry.",
+      "why": {
+        "text": "The move could deepen tension between Brazil and the United States.",
+        "highlight": "deepen tension"
+      }
+    },
+    "ffb43d61bc": {
+      "emoji": "📈",
+      "headline": "US Fed keeps rates steady as inflation stays stubborn",
+      "explain": "The Federal Reserve kept interest rates unchanged, even though two officials wanted a hike. Inflation is still above the Fed’s 2% target, and investors are watching for signs of more rate increases. The central bank is also weighing higher energy costs, tariffs, and strong AI spending.",
+      "why": {
+        "text": "Borrowing costs may stay high longer if inflation refuses to cool down.",
+        "highlight": "stay high longer"
+      }
+    },
+    "77fb78cc35": {
+      "emoji": "🛢️",
+      "headline": "World Bank warns commodity prices may jump in 2026",
+      "explain": "The World Bank says commodity prices could rise sharply in 2026 because of war and supply shocks. It expects energy prices to jump, while food and metals may also get more expensive. The report says higher prices could hurt inflation, food security, and growth.",
+      "why": {
+        "text": "Families and businesses may pay more for fuel, food, and raw materials.",
+        "highlight": "pay more"
+      }
+    },
+    "09f2489496": {
+      "emoji": "⚽",
+      "headline": "Real Madrid apologises after Mbappé’s Mao joke angers China",
+      "explain": "Real Madrid apologized after China rejected its first defence of Kylian Mbappé’s remarks about Mao Zedong. The row has already led to suspended La Liga broadcasts in China and lost sponsorships for Mbappé. Mbappé said his comment was ill-judged and hurt people in China.",
+      "why": {
+        "text": "Football clubs can lose money fast when a player offends a huge market.",
+        "highlight": "lose money fast"
+      }
+    },
+    "2a56ab9187": {
+      "emoji": "🐹",
+      "headline": "Zoo camera spots capybara months after escape",
+      "explain": "A British zoo says a capybara named Samba has been photographed months after escaping. Staff are using cameras and a feeding area to keep her nearby and bring her back safely. The zoo says they want to avoid stressing her.",
+      "why": {
+        "text": "The search is taking time because the zoo wants a safe return, not a scare.",
+        "highlight": "safe return"
+      }
+    },
+    "efe3a07dc6": {
+      "emoji": "📊",
+      "headline": "Spreadsheet collector tops 1,000 software items",
+      "explain": "Ariel Fischman, who holds a Guinness World Record, says his spreadsheet software collection now has more than 1,000 items. He started collecting after studying the history of electronic accounting. He says spreadsheets changed how people work with numbers and data.",
+      "why": {
+        "text": "A niche hobby has turned into a record-sized archive of everyday office tools.",
+        "highlight": "record-sized archive"
+      }
+    }
+  },
+  "page": {
+    "tldr": [
+      {
+        "text": "Google, OpenAI, and others show AI money is still flowing fast.",
+        "highlight": "AI money is still flowing fast"
+      },
+      {
+        "text": "Apple’s new touchscreen MacBook Pro shows big tech is changing its own hardware.",
+        "highlight": "touchscreen MacBook Pro"
+      },
+      {
+        "text": "Israel’s election is still split, so coalition talks may stay messy.",
+        "highlight": "still split"
+      }
+    ],
+    "hero": {
+      "text": "AI Money Shift is the biggest pattern today. Google, QwikBuild, SK Hynix, OpenAI, Info Edge, and Cognizant all point to money moving back into AI and deep-tech. The same pattern also shows up in the power problem around data centers.",
+      "highlight": "AI Money Shift"
+    },
+    "scoreboard": [
+      {
+        "thread_id": "t_bigtech_custom_silicon",
+        "line": "Apple’s touchscreen MacBook Pro pushed big tech further into custom hardware."
+      },
+      {
+        "thread_id": "t_bjp_institutional_consolidation",
+        "line": "ED action and Bihar seat gains both point to tighter BJP institutional control."
+      },
+      {
+        "thread_id": "t_ai_capital_rotation",
+        "line": "Google, QwikBuild, SK Hynix, OpenAI, Info Edge, and Cognizant all fed the AI funding rush."
+      },
+      {
+        "thread_id": "t_ai_energy_constraints",
+        "line": "US loans for nuclear plants showed how hard it is to power AI data centers."
+      },
+      {
+        "thread_id": "t_ai_governance_institutionalization",
+        "line": "US Justice Department questions and the Dewas liquor case showed tighter AI oversight."
+      },
+      {
+        "thread_id": "t_israel_political_fragmentation",
+        "line": "Netanyahu’s bloc leads, but special ballots could still change the seat count."
+      },
+      {
+        "thread_id": "t_oil_supply_shocks_driving_em_inflation",
+        "line": "World Bank warnings kept the oil-and-prices shock story hot."
+      }
+    ],
+    "forces": [
+      {
+        "force": "capital",
+        "line": "Money kept chasing AI, hardware, and oil-price risk today."
+      },
+      {
+        "force": "technology",
+        "line": "AI models, chips, hardware, and power needs all moved the tech story forward."
+      },
+      {
+        "force": "regulation",
+        "line": "Governments pushed harder on AI controls and energy supply."
+      },
+      {
+        "force": "geopolitics",
+        "line": "Election splits, institutional pressure, and supply risks all showed power struggles."
+      }
+    ],
+    "pulse_india": "Indian funding went to B2B quick commerce, a retailer delivery business, and gaming/esports.",
+    "pulse_world": "Outside India, investors funded enterprise AI and AI agents, software that helps companies automate work.",
+    "dots": "",
+    "call": {
+      "thread_id": "t_ai_energy_constraints",
+      "prediction": "If this pattern is real, expect more government-backed power deals for data centers within about 3 months.",
+      "check_in_days": 90
+    },
+    "quiz": [
+      {
+        "question": "Why does Apple’s touchscreen MacBook Pro matter today?",
+        "options": [
+          "It shows big tech is changing its own hardware.",
+          "It means all laptops will use the same chips soon.",
+          "It proves computer sales have stopped."
+        ],
+        "answer_index": 0,
+        "why": "It fits the Chip-Built Platforms pattern."
+      },
+      {
+        "question": "What is the main idea behind AI Money Shift?",
+        "options": [
+          "People are spending less on software companies.",
+          "Money is moving back into AI and deep-tech.",
+          "Governments are banning all AI tools."
+        ],
+        "answer_index": 1,
+        "why": "The stories show funding, profits, and deals flowing into AI."
+      }
+    ]
+  },
+  "call": {
+    "made": "2026-10-29",
+    "thread_id": "t_ai_energy_constraints",
+    "thread_title": "The Power Limit",
+    "prediction": "If this pattern is real, expect more government-backed power deals for data centers within about 3 months.",
+    "review_by": "2027-01-27",
+    "verdict": null,
+    "verdict_note": ""
+  }
+}
