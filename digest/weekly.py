@@ -6,7 +6,7 @@ from datetime import date as Date, timedelta
 
 from digest import llm
 from digest.common import DATA, load_prompt, read_json, write_json
-from digest.write import SITE, env
+from digest.write import SITE, checked, hl_text, name, render, short_date, thread_view
 
 log = logging.getLogger(__name__)
 
@@ -14,7 +14,8 @@ SCHEMA = {
     "type": "object",
     "properties": {
         "headline": {"type": "string"},
-        "intro": {"type": "string"},
+        "tldr": {"type": "array", "items": hl_text},
+        "intro": hl_text,
         "threads": {"type": "array", "items": {"type": "object", "properties": {
             "thread_id": {"type": "string"}, "line": {"type": "string"}}}},
         "calls": {"type": "array", "items": {"type": "object", "properties": {
@@ -43,7 +44,8 @@ def week_items(days):
         for picks in sel["sections"].values():
             for p in picks:
                 it = by_id[p["id"]]
-                out[p["id"]] = {"id": p["id"], "date": d, "title": it["title"], "summary": it["summary"][:200]}
+                out[p["id"]] = {"id": p["id"], "date": d, "title": it["title"], "summary": it["summary"][:200],
+                                "url": it["url"], "source": it["source"]}
     return out
 
 
@@ -62,26 +64,25 @@ def run(cfg, date):
         born = days[0] <= t["created"] <= date
         died = t["status"] == "dormant" and was.get(t["id"], "dormant") != "dormant"
         if ev or born or died or was.get(t["id"]) != t["status"]:
-            rows.append({"thread": t, "evidence_this_week": len(ev), "total": len(t["evidence"]),
-                         "from": was.get(t["id"], "new"), "to": t["status"], "born": born, "died": died,
-                         "notes": [e["note"] for e in ev]})
-    rows.sort(key=lambda r: (-r["evidence_this_week"], r["thread"]["title"]))
+            rows.append({"thread": t, "week": len(ev), "from": was.get(t["id"], "new"), "to": t["status"],
+                         "born": born, "died": died, "notes": [e["note"] for e in ev]})
+    rows.sort(key=lambda r: (-r["week"], name(r["thread"])))
 
     calls = read_json(DATA / "calls.json", [])
     due = [(n, c) for n, c in enumerate(calls) if c["review_by"] <= date and not c["verdict"]]
     items = week_items(days)
     data = {
-        "moved": [{"id": r["thread"]["id"], "title": r["thread"]["title"], "claim": r["thread"]["claim"],
+        "moved": [{"id": r["thread"]["id"], "nickname": name(r["thread"]), "claim": r["thread"]["claim"],
                    "forces": r["thread"]["forces"], "status_last_week": r["from"], "status_now": r["to"],
-                   "born_this_week": r["born"], "went_dormant": r["died"],
-                   "evidence_this_week": r["notes"]} for r in rows],
+                   "born_this_week": r["born"], "went_dormant": r["died"], "evidence_this_week": r["notes"]}
+                  for r in rows],
         "calls_due": [{"index": n, "made": c["made"], "thread": c["thread_title"], "prediction": c["prediction"]}
                       for n, c in due],
-        "week_items": list(items.values()) if due else [],
+        "week_items": [{k: v for k, v in it.items() if k not in ("url", "source")} for it in items.values()] if due else [],
     }
     prompt = (load_prompt("weekly").replace("{{style}}", load_prompt("style")).replace("{{start}}", days[0])
               .replace("{{end}}", date).replace("{{input}}", json.dumps(data, ensure_ascii=False, indent=1)))
-    out = llm.generate_json(prompt, SCHEMA, **cfg.get("writing", {}).get("params", {}))
+    out = llm.generate_json(prompt, SCHEMA, tag="weekly", model=cfg.get("writing", {}).get("model"), **cfg.get("writing", {}).get("params", {}))
 
     lines = {x["thread_id"]: x["line"].strip() for x in out["threads"]}
     reviewed = []
@@ -98,18 +99,25 @@ def run(cfg, date):
         reviewed.append({**c, "shown_verdict": verdict, "note": v["note"].strip(), "evidence": evidence})
     write_json(DATA / "calls.json", calls)
 
+    moved = []
+    for r in rows:
+        if r["died"]:
+            continue
+        view = thread_view(r["thread"], date, "new" if r["born"] else None, lines.get(r["thread"]["id"], ""))
+        moved.append({**view, "week": r["week"], "from": r["from"], "to": r["to"]})
     ctx = {
-        "start": days[0], "end": date, "headline": out["headline"].strip(), "intro": out["intro"].strip(),
-        "moved": [{**r, "line": lines.get(r["thread"]["id"], "")} for r in rows if not r["died"]],
+        "start": short_date(days[0]), "end": short_date(date), "headline": out["headline"].strip(),
+        "tldr": [checked(x) for x in out["tldr"][:3]], "intro": checked(out["intro"]),
+        "moved": moved,
         "born": [r["thread"] for r in rows if r["born"]],
         "died": [r["thread"] for r in rows if r["died"]],
         "calls": reviewed, "watch": out["watch"].strip(), "credit": cfg["credit"],
         "open_calls": sum(not c["verdict"] for c in calls),
     }
-    html = env().get_template("weekly.html.j2").render(**ctx)
-    SITE.mkdir(exist_ok=True)
-    (SITE / f"weekly-{date}.html").write_text(html, encoding="utf-8")
-    subject = f"L1·L2·L3 weekly {date}: {ctx['headline']}"
-    write_json(DATA / "weekly" / f"{date}.json", {"date": date, "subject": subject, "writer": out})
-    return {"path": SITE / f"weekly-{date}.html", "moved": len(ctx["moved"]), "born": len(ctx["born"]),
-            "died": len(ctx["died"]), "calls_reviewed": len(reviewed), "subject": subject}
+    path = SITE / f"weekly-{date}.html"
+    render("weekly.html.j2", path, **ctx)
+    subject = f"L1·L2·L3 weekly {short_date(date)}: {ctx['headline']}"
+    write_json(DATA / "weekly" / f"{date}.json",
+               {"date": date, "subject": subject, "lead": ctx["headline"], "tldr": ctx["tldr"], "writer": out})
+    return {"path": path, "moved": len(moved), "born": len(ctx["born"]), "died": len(ctx["died"]),
+            "calls_reviewed": len(reviewed), "subject": subject}

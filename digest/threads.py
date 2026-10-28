@@ -40,6 +40,8 @@ SCHEMA = {
                 "properties": {
                     "key": {"type": "string"},
                     "title": {"type": "string"},
+                    "nickname": {"type": "string"},
+                    "plain": {"type": "string"},
                     "claim": {"type": "string"},
                     "forces": {"type": "array", "items": {"type": "string"}},
                 },
@@ -153,7 +155,8 @@ def build_prompt(cfg, date, items, threads, candidates):
 
 
 def evidence(date, item, note):
-    return {"date": date, "item_id": item["id"], "section": item["section"], "title": item["title"], "note": note}
+    return {"date": date, "item_id": item["id"], "section": item["section"], "title": item["title"],
+            "url": item["url"], "source": item["source"], "note": note}
 
 
 def apply(cfg, date, items, state, result):
@@ -196,7 +199,9 @@ def apply(cfg, date, items, state, result):
         if not d["items"]:
             continue
         ev = [evidence(date, items[i], note) for i, note in d["items"]]
-        base = {"title": d["title"].strip(), "claim": d["claim"].strip(), "forces": d["forces"], "created": date, "evidence": ev}
+        base = {"title": d["title"].strip(), "nickname": d["nickname"].strip() or d["title"].strip(),
+                "plain": d["plain"].strip(), "claim": d["claim"].strip(), "forces": d["forces"], "created": date,
+                "evidence": ev}
         if len(ev) >= min_ev:
             tid = unique_id("t_" + slug(key), threads)
             threads[tid] = {"id": tid, **base, "last_seen": date}
@@ -283,7 +288,7 @@ def run(cfg, date):
     for t in state["threads"]:  # refresh status for today before showing them to the model
         t["status"] = compute_status(t, date, cfg["threads"]["dormant_after_days"])
     prompt = build_prompt(cfg, date, items, state["threads"], state["candidates"])
-    result = llm.generate_json(prompt, SCHEMA, **cfg["threads"].get("params", {}))
+    result = llm.generate_json(prompt, SCHEMA, tag="threads", **cfg["threads"].get("params", {}))
     snap = copy.deepcopy(state)
     today = apply(cfg, date, items, snap, result)
     out = {"date": date, "threads": snap["threads"], "candidates": snap["candidates"], "today": today}

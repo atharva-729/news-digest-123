@@ -4,7 +4,8 @@ geopolitics, regulation, demographics).
 
 Today you are choosing items for the **{{section}}** section: {{section_description}}.
 
-Pick exactly **{{n}}** items from the candidates below (fewer only if there are not enough usable ones).
+Pick exactly **{{n}}** items from the candidates below (fewer only if there are not enough usable ones),
+**ranked best first**. The last two are reserves, used only if an earlier pick turns out to duplicate another.
 
 How to choose:
 - Prefer items that are **evidence of something larger**: a trend, a shift in money, power, policy or

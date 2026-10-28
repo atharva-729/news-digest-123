@@ -9,9 +9,13 @@ individual headlines; mention a specific fact only when it is the reason a threa
 
 The week is {{start}} to {{end}}. From the JSON input below, write:
 
-- `headline`: 4–10 words naming the week's biggest thread movement (used as the email subject).
-- `intro`: 3–4 sentences on what changed this week across the threads. Lead with the biggest shift.
-  Name threads in plain words, not by id.
+Fields with a `highlight`: copy the 2–6 most important words **exactly as they appear** in that field's
+`text`; the page paints them like a highlighter. Empty string if nothing deserves it.
+
+- `headline`: 4–10 punchy words naming the week's biggest thread movement (page title and email subject).
+- `tldr`: exactly 3 lines, the week in 10 seconds, each ≤ 14 words, biggest first. With `highlight`.
+- `intro`: 2–3 sentences (≤ 50 words) on what changed this week across the threads. Lead with the biggest
+  shift. Name threads by nickname, not id. With `highlight`.
 - `threads`: one entry per thread in `moved` (same ids). `line` is one sentence on how it moved this week
   and what drove it, using its `evidence_this_week` notes.
 - `calls`: one entry per call in `calls_due` (same `index`). Judge each prediction **only** against

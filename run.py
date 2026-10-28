@@ -3,10 +3,10 @@ import argparse
 import logging
 import sys
 
-from digest import deliver, ingest, select, threads, weekly as weekly_edition, write
+from digest import connect, deliver, ingest, select, threads, weekly as weekly_edition, write
 from digest.common import load_config, today_ist
 
-PHASES = ["ingest", "select", "threads", "write", "deliver"]
+PHASES = ["ingest", "select", "threads", "connect", "write", "deliver"]
 WEEKLY_PHASES = ["write", "deliver"]  # the weekly is built from saved thread state; no new headlines
 
 
@@ -68,9 +68,13 @@ def main():
               f"new candidates {len(t['new_candidates'])}, merges {len(t['merges'])}")
         print(f"  cross-link: {'yes' if t['cross_link'] else 'none'}")
 
+    if "connect" in todo:
+        out = connect.run(cfg, args.date)
+        print(f"[connect] {len(out['throwbacks'])} throwbacks to last week, {len(out['backstory'])} backstory clues added")
+
     if "write" in todo and not weekly:
         out = write.run(cfg, args.date)
-        print(f"[write] {out['takes']}/{out['items']} takes, {out['moves']} thread moves, ~{out['minutes']} min read")
+        print(f"[write] {out['takes']}/{out['items']} cards, {out['moves']} thread moves, ~{out['minutes']} min read")
         print(f"  call: {out['call']['prediction'] if out['call'] else 'none'}")
         print(f"  {out['path']}")
 

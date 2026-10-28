@@ -69,16 +69,42 @@ def build_prompt(cfg, section, n, candidates):
             .replace("{{candidates}}", lines))
 
 
+RESERVES = 2  # extra ranked picks, so dropping a same-story duplicate doesn't leave the section short
+COMMON_NAMES = {"India", "Indian", "The", "New", "How", "Why", "What", "After", "Amid", "Over", "Says", "With", "From",
+                "For", "And", "Its", "Into", "Will", "First", "World", "Global", "Market", "Markets", "Stock", "Stocks",
+                "Startup", "Startups", "Funding", "Raises", "Series", "Crore", "Billion", "Million", "Govt", "Government"}
+
+
+def key_terms(title):
+    """Amounts and percentages, and capitalised names: the parts two reports of one story share."""
+    nums = set(re.findall(r"\d[\d.,]*\s?(?:%|cr\b|crore|lakh|bn|billion|mn|million|m\b|k\b)", title.lower()))
+    names = set(re.findall(r"\b[A-Z][A-Za-z]{2,}\b", title)) - COMMON_NAMES
+    return nums, names
+
+
+def same_story(a, b):
+    if fuzz.token_set_ratio(a.lower(), b.lower()) >= 70:
+        return True
+    (na, wa), (nb, wb) = key_terms(a), key_terms(b)
+    return bool(na & nb) and bool(wa & wb)
+
+
 def select_section(cfg, section, n, candidates):
     """One LLM call; returns (validated picks, raw model output)."""
     if not candidates or n == 0:
         return [], {}
-    result = llm.generate_json(build_prompt(cfg, section, n, candidates), schema_for(section))
+    result = llm.generate_json(build_prompt(cfg, section, n + RESERVES, candidates), schema_for(section),
+                               tag=f"select:{section}")
     valid = {c["id"] for c in candidates}
+    titles = {c["id"]: c["title"] for c in candidates}
     picks, seen = [], set()
     for p in result.get("picks", []):
         if p["id"] not in valid or p["id"] in seen:
             log.warning("%s: dropping id the model returned that is not a candidate (or repeated): %s", section, p["id"])
+            continue
+        dup = next((q for q in picks if same_story(titles[q["id"]], titles[p["id"]])), None)
+        if dup:
+            log.info("%s: dropping same-story pick %r (dup of %r)", section, titles[p["id"]], titles[dup["id"]])
             continue
         seen.add(p["id"])
         pick = {"id": p["id"], "reason": p["reason"].strip()}

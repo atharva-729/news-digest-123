@@ -28,18 +28,33 @@ model:
   fallbacks: [gpt-5.4-nano, gpt-4.1-mini]
   params: {reasoning_effort: minimal}   # GPT-5 models ignore temperature
   max_retries: 4          # per model, with exponential backoff
+  # USD per million tokens, for the cost column in data/llm_usage.jsonl. List prices, checked 2026-10-28
+  # from memory of OpenAI's pricing page; verify before relying on them. Unknown models log usd: null.
+  prices:
+    gpt-5-mini:   {input: 0.25, cached_input: 0.025, output: 2.00}
+    gpt-5-nano:   {input: 0.05, cached_input: 0.005, output: 0.40}
+    gpt-4.1-mini: {input: 0.40, cached_input: 0.10,  output: 1.60}
 
 writing:
+  # The one step where voice matters; everything else stays on the cheap default model.
+  model: gpt-5.4-mini
   params: {reasoning_effort: low}   # the quiz answers and the call need a little thought
+
+connect:
+  params: {reasoning_effort: low}   # finds today<->last-week links and thread backstory
 
 # Shown in every newsletter footer.
 credit: {name: "@neworderindia", url: "https://www.instagram.com/neworderindia/"}
+site_url: https://atharva-729.github.io/news-digest-123/   # GitHub Pages; email teasers link here
 
 ingest:
   daily_window_hours: 24
   weekly_window_days: 7
   dedupe_title_similarity: 85   # rapidfuzz token_set_ratio threshold
   max_items_per_feed: 8         # newest N per feed after the time filter (keeps a run at ~100-300 items)
+  lookback_days: 7              # "last week" context for connections (data/context/DATE.json)
+  lookback_items_per_feed_day: 4   # per feed per day, so the week is evenly covered
+  lookback_max_items: 300       # titles only go to the model, so 300 is ~8k tokens
   timeout_seconds: 20
 
 threads:

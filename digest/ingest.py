@@ -13,7 +13,7 @@ import feedparser
 import httpx
 from rapidfuzz import fuzz
 
-from digest.common import DATA, write_json
+from digest.common import DATA, IST, read_json, write_json
 
 log = logging.getLogger(__name__)
 
@@ -107,11 +107,9 @@ def dedupe(items, threshold):
     return kept
 
 
-def run(cfg, date, weekly=False):
-    icfg = cfg["ingest"]
-    window = timedelta(days=icfg["weekly_window_days"]) if weekly else timedelta(hours=icfg["daily_window_hours"])
-    cutoff = datetime.now(timezone.utc) - window
-
+def collect(cfg, weekly, start, end, per_feed, per_day=False):
+    """Fetch every feed and keep items published in [start, end), newest `per_feed` per feed (per feed and
+    day if `per_day`, so a week-long window isn't all from the latest day). Never raises."""
     jobs = [(section, feed) for section, feeds in cfg["feeds"].items() for feed in feeds]
     with ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(lambda j: fetch_feed(*j, cfg, weekly), jobs))
@@ -120,23 +118,73 @@ def run(cfg, date, weekly=False):
     for section, feed, entries, err in results:
         if err:
             log.warning("feed failed: %s (%s): %s", feed["name"], section, err)
-        fresh = [n for e in entries if (n := normalise(section, feed, e)) and n["published_at"] >= cutoff.isoformat()]
+        fresh = [n for e in entries
+                 if (n := normalise(section, feed, e)) and start.isoformat() <= n["published_at"] < end.isoformat()]
         fresh.sort(key=lambda n: n["published_at"], reverse=True)
-        fresh = fresh[: icfg["max_items_per_feed"]]
+        if per_day:
+            seen, kept = Counter(), []
+            for n in fresh:
+                seen[n["published_at"][:10]] += 1
+                if seen[n["published_at"][:10]] <= per_feed:
+                    kept.append(n)
+            fresh = kept
+        else:
+            fresh = fresh[:per_feed]
         feed_stats.append({"section": section, "feed": feed["name"], "entries": len(entries),
                            "fresh": len(fresh), "error": err})
         raw.extend(fresh)
+    return raw, feed_stats
+
+
+def run(cfg, date, weekly=False):
+    icfg = cfg["ingest"]
+    window = timedelta(days=icfg["weekly_window_days"]) if weekly else timedelta(hours=icfg["daily_window_hours"])
+    now = datetime.now(timezone.utc)
+    raw, feed_stats = collect(cfg, weekly, now - window, now + timedelta(hours=1), icfg["max_items_per_feed"])
 
     items = dedupe(raw, icfg["dedupe_title_similarity"])
     counts = Counter(it["section"] for it in items)
     out = {
         "date": date,
         "mode": "weekly" if weekly else "daily",
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": now.isoformat(),
         "counts": {s: counts.get(s, 0) for s in cfg["section_mix"]},
         "raw_count": len(raw),
         "feeds": feed_stats,
         "items": items,
     }
     write_json(DATA / "items" / f"{date}.json", out)
+    if not weekly:
+        run_lookback(cfg, date, {it["id"] for it in items})
     return out
+
+
+def run_lookback(cfg, date, today_ids):
+    """Last week's headlines, so today's news can be connected to what came before.
+
+    Two sources: a 7-day fetch (Google News searches honour when:7d; publisher feeds give what they still
+    carry) and our own saved items from earlier days, which are exact. Saved to data/context/DATE.json.
+    """
+    icfg = cfg["ingest"]
+    days = icfg.get("lookback_days", 7)
+    end = datetime.fromisoformat(date).replace(tzinfo=IST) - timedelta(hours=6)  # editions run ~06:00 IST
+    start = end - timedelta(days=days)
+    raw, _ = collect(cfg, True, start, end, icfg.get("lookback_items_per_feed_day", 4), per_day=True)
+    for n in range(1, days + 1):
+        d = (datetime.fromisoformat(date) - timedelta(days=n)).date().isoformat()
+        raw += (read_json(DATA / "items" / f"{d}.json") or {}).get("items", [])
+    items = [it for it in dedupe(raw, icfg["dedupe_title_similarity"])
+             if it["id"] not in today_ids and it["published_at"] < end.isoformat()]
+    # Take from each day in turn (newest first within a day) so one busy day can't crowd out the week.
+    by_day = {}
+    for it in sorted(items, key=lambda it: it["published_at"], reverse=True):
+        by_day.setdefault(datetime.fromisoformat(it["published_at"]).astimezone(IST).date(), []).append(it)
+    cap, items = icfg.get("lookback_max_items", 300), []
+    while len(items) < cap and any(by_day.values()):
+        for day in sorted(by_day, reverse=True):
+            if by_day[day] and len(items) < cap:
+                items.append(by_day[day].pop(0))
+    items.sort(key=lambda it: it["published_at"], reverse=True)
+    write_json(DATA / "context" / f"{date}.json", {"date": date, "from": start.isoformat(), "items": items})
+    log.info("lookback: %d items from the previous %d days", len(items), days)
+    return items

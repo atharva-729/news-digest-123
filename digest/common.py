@@ -3,7 +3,12 @@ import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+import truststore
 import yaml
+
+# Python 3.13+ rejects a corporate TLS-inspection CA unless we use the OS trust store. Every module imports
+# this one, so every network call (feeds, LLM, SMTP) gets it.
+truststore.inject_into_ssl()
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"

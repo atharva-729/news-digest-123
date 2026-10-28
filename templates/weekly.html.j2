@@ -1,64 +1,93 @@
-{#- Weekly edition: threads only. Inline styles only, as in the daily. -#}
-{%- set ink = "#1f2328" -%}{%- set muted = "#6a737d" -%}{%- set accent = "#b5452b" -%}{%- set rule = "#e6e1d8" -%}
-{%- set icons = {"heating": "🔥", "cooling": "🧊", "active": "▶️", "dormant": "💤", "new": "🆕"} -%}
-{%- set verdicts = {"right": "✅ Right", "wrong": "❌ Wrong", "too_early": "⏳ Too early"} -%}
-{%- macro tags(forces) -%}
-{%- for f in forces %}<span style="display:inline-block;font-size:11px;color:{{ muted }};border:1px solid {{ rule }};border-radius:10px;padding:0 7px;margin-left:4px;">{{ f }}</span>{% endfor -%}
-{%- endmacro -%}
-{%- macro h2(text) -%}
-<h2 style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:{{ accent }};margin:28px 0 10px;border-bottom:1px solid {{ rule }};padding-bottom:4px;">{{ text }}</h2>
-{%- endmacro -%}
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>L1·L2·L3 weekly · {{ headline }}</title>
-</head>
-<body style="margin:0;padding:0;background:#f6f3ee;">
-<div style="max-width:640px;margin:0 auto;padding:24px 16px;background:#fffdf9;color:{{ ink }};font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.55;">
+{% extends "base.html.j2" %}
+{% block title %}L1·L2·L3 weekly · {{ headline }}{% endblock %}
+{% block description %}{{ headline }}{% endblock %}
+{% block body_class %}weekly{% endblock %}
+{% block nav %}<span class="tabs"><span class="tab" aria-selected="true">📆 The week</span></span>{% endblock %}
 
-  <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:{{ muted }};">Week of {{ start }} to {{ end }}</div>
-  <h1 style="font-size:26px;margin:4px 0 2px;">L1 · L2 · L3 weekly</h1>
-  <div style="font-style:italic;color:{{ muted }};margin-bottom:8px;">{{ headline }}</div>
+{% block content %}
+<div class="wrap">
+  <div class="masthead">
+    <div class="mast-date"><span class="dow">Weekly</span><span class="dt">{{ start }} → {{ end }}</span></div>
+    <h1 class="mast-title">{{ headline }}</h1>
+    <div class="stickers">
+      <span class="sticker sk-a">{{ moved|length }} patterns moved</span>
+      <span class="sticker sk-c">{{ born|length }} born</span>
+      <span class="sticker sk-d">{{ died|length }} went quiet</span>
+      <span class="sticker sk-b">{{ calls|length }} calls checked</span>
+    </div>
+  </div>
 
-  {{ h2("This week") }}
-  <p style="margin:0;font-size:17px;">{{ intro }}</p>
+  {% if tldr %}
+  <div class="tldr">
+    <div class="label">The week in 10 seconds</div>
+    <ol>{% for x in tldr %}<li><span class="num">{{ loop.index }}</span><p>{{ x|hl }}</p></li>{% endfor %}</ol>
+  </div>
+  {% endif %}
+
+  <div class="hero">
+    <span class="sticker sk-hero">What changed</span>
+    <p class="hero-text">{{ intro|hl }}</p>
+  </div>
 
   {% if moved %}
-  {{ h2("How the threads moved") }}
-  {% for r in moved %}
-  <p style="margin:0 0 12px;">{{ icons.get(r.to, "") }} <strong>{{ r.thread.title }}</strong>{{ tags(r.thread.forces) }}<br>
-    <span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:{{ muted }};">{{ r.from }} → {{ r.to }} · {{ r.evidence_this_week }} new piece{{ "" if r.evidence_this_week == 1 else "s" }} of evidence ({{ r.total }} total)</span><br>
-    {{ r.line }}</p>
-  {% endfor %}
+  <div class="level">
+    <div class="level-h"><span class="big-l l-2">L2</span><div><h2>How the patterns moved</h2><p>Each bar is a day; taller means more evidence that day.</p></div></div>
+    <div class="threads">
+      {% for t in moved %}
+      <article class="thread st-{{ t.status }}" id="{{ t.id }}">
+        <div class="thread-top">
+          <span class="stamp st-{{ t.status }}">{{ {"new": "🆕 Born", "heating": "🔥 Heating", "cooling": "🧊 Cooling", "active": "▶ Steady", "dormant": "💤 Asleep"}[t.status] }}</span>
+          <span class="thread-meta">since {{ t.since }} · {{ t.total }} clues</span>
+        </div>
+        <h3 class="thread-name">{{ t.name }}</h3>
+        <p class="thread-plain">{{ t.plain or t.title }}</p>
+        <div class="week-stats">
+          <span class="week-stat">+{{ t.week }} this week</span>
+          <span class="week-stat">{{ t["from"] }} → {{ t.to }}</span>
+          {% for f in t.forces %}<span class="fchip f-{{ f }}">{{ FORCE_ICONS.get(f, "•") }} {{ f }}</span>{% endfor %}
+        </div>
+        {% if t.line %}<p class="thread-line">{{ t.line }}</p>{% endif %}
+        <div class="timeline" role="img" aria-label="Evidence per day over the last 14 days">
+          {% for d in t.timeline %}<i class="tl-d{{ ' on' if d.n }}{{ ' now' if loop.last }}" style="--n: {{ [d.n, 4]|min }}" title="{{ d.date|short_date }}: {{ d.n }}"></i>{% endfor %}
+        </div>
+        <div class="tl-axis"><span>14 days ago</span><span>today</span></div>
+        <details class="claim"><summary>The exact claim</summary><p>{{ t.claim }}</p></details>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
   {% endif %}
 
   {% if born or died %}
-  {{ h2("Born and gone quiet") }}
-  {% for t in born %}<p style="margin:0 0 6px;">🆕 <strong>{{ t.title }}</strong> <span style="color:{{ muted }};">{{ t.claim }}</span></p>{% endfor %}
-  {% for t in died %}<p style="margin:0 0 6px;">💤 <strong>{{ t.title }}</strong> <span style="color:{{ muted }};">no new evidence lately{% if t.merged_into %}; merged into another thread{% endif %}. It can wake up.</span></p>{% endfor %}
+  <div class="level">
+    <div class="level-h"><span class="big-l l-x">±</span><div><h2>Born and gone quiet</h2><p>Quiet threads stay on file. They can wake up.</p></div></div>
+    <div class="born-dead">
+      <div class="bd"><h3>🆕 Born</h3>{% if born %}<ul>{% for t in born %}<li><strong>{{ t.nickname or t.title }}</strong>: {{ t.plain or t.claim }}</li>{% endfor %}</ul>{% else %}<p class="quiet">Nothing new.</p>{% endif %}</div>
+      <div class="bd"><h3>💤 Went quiet</h3>{% if died %}<ul>{% for t in died %}<li><strong>{{ t.nickname or t.title }}</strong>{% if t.merged_into %} (merged){% endif %}</li>{% endfor %}</ul>{% else %}<p class="quiet">Everything's still alive.</p>{% endif %}</div>
+    </div>
+  </div>
   {% endif %}
 
-  {{ h2("Calls review") }}
-  {% if calls %}
-  {% for c in calls %}
-  <p style="margin:0 0 4px;">{{ verdicts[c.shown_verdict] }}: <em>{{ c.prediction }}</em></p>
-  <p style="margin:0 0 12px;font-size:15px;color:{{ muted }};">Made {{ c.made }} on “{{ c.thread_title }}”. {{ c.note }}
-    {% for e in c.evidence %}<br>· {{ e.title }} ({{ e.date }}){% endfor %}</p>
-  {% endfor %}
-  {% else %}
-  <p style="margin:0;color:{{ muted }};">No calls due this week. {{ open_calls }} still open.</p>
-  {% endif %}
+  <div class="level calls">
+    <div class="level-h"><span class="big-l l-3">🎯</span><div><h2>Calls review</h2><p>Predictions we made, checked against news that came after them.</p></div></div>
+    {% if calls %}
+    <ul>
+      {% for c in calls %}
+      <li><span class="verdict v-{{ c.shown_verdict }}">{{ {"right": "✅ Right", "wrong": "❌ Wrong", "too_early": "⏳ Too early"}[c.shown_verdict] }}</span>
+        <span class="calls-text">{{ c.prediction }}</span>
+        <span class="calls-meta">made {{ c.made|short_date }} on {{ c.thread_title }}. {{ c.note }}</span>
+        {% for e in c.evidence %}<span class="calls-meta">· <a href="{{ e.url }}">{{ e.title }}</a> ({{ e.date|short_date }})</span>{% endfor %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}<p class="quiet">No calls due this week. {{ open_calls }} still open.</p>{% endif %}
+  </div>
 
   {% if watch %}
-  {{ h2("Watch next week") }}
-  <p style="margin:0;">👀 {{ watch }}</p>
-  {% endif %}
-
-  <div style="margin-top:32px;padding-top:12px;border-top:1px solid {{ rule }};font-family:Arial,Helvetica,sans-serif;font-size:12px;color:{{ muted }};">
-    The L1/L2/L3 framework is from <a href="{{ credit.url }}" style="color:{{ muted }};">{{ credit.name }}</a>; this digest is one implementation of their idea.
+  <div class="call">
+    <span class="sticker sk-call">👀 Watch next week</span>
+    <p class="call-text">{{ watch }}</p>
   </div>
+  {% endif %}
 </div>
-</body>
-</html>
+{% endblock %}

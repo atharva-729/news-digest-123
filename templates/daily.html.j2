@@ -1,0 +1,315 @@
+{% extends "base.html.j2" %}
+{% block title %}L1·L2·L3 · {{ pretty_date }}{% endblock %}
+{% block description %}{{ tldr[0].text if tldr else "Today's news, minus the boring bits." }}{% endblock %}
+{% block body_class %}daily{% endblock %}
+
+{% macro status_stamp(status) -%}
+<span class="stamp st-{{ status }}">{{ {"new": "🆕 New", "heating": "🔥 Heating", "cooling": "🧊 Cooling", "active": "▶ Steady", "dormant": "💤 Asleep"}[status] }}</span>
+{%- endmacro %}
+
+{% macro force_chip(f) -%}
+<span class="fchip f-{{ f }}">{{ FORCE_ICONS.get(f, "•") }} {{ f }}</span>
+{%- endmacro %}
+
+{% macro card(c) -%}
+<article class="card s-{{ c.section }}" data-section="{{ c.section }}" id="i-{{ c.id }}">
+  <div class="card-top">
+    <span class="tag">{{ SECTIONS[c.section][1] }} {{ SECTIONS[c.section][0] }}</span>
+    <span class="card-emoji" aria-hidden="true">{{ c.emoji }}</span>
+  </div>
+  <h3 class="punchy">{{ c.punchy }}</h3>
+  {% if c.so_what %}<p class="so-what">{{ c.so_what|hl }}</p>{% endif %}
+  {% if c.funding %}
+  <div class="fund"><span class="fund-k">💰 Raised</span>
+    {% for v in [c.funding.company, c.funding.amount, c.funding.sector, c.funding.country] if v %}<span class="fund-v">{{ v }}</span>{% endfor %}
+  </div>
+  {% endif %}
+  {% if c.throwback %}
+  <div class="throwback-mini">
+    <span class="kind k-{{ c.throwback.kind }}">↩ {{ KIND_LABELS[c.throwback.kind] }}</span>
+    <p><strong>{{ c.throwback.line }}</strong> <span class="then">Then, {{ c.throwback.past.date|short_date }}: <a href="{{ c.throwback.past.url }}">{{ c.throwback.past.title }}</a></span></p>
+  </div>
+  {% endif %}
+  <div class="card-foot">
+    {% if c.thread %}<button class="thread-chip st-{{ c.thread.status }}" type="button" data-goto="{{ c.thread.id }}">🧵 {{ c.thread.name }} <span aria-hidden="true">→</span></button>{% else %}<span class="one-off">one-off · no pattern yet</span>{% endif %}
+    <a class="boring" href="{{ c.url }}">Boring version · {{ c.source }} ↗</a>
+  </div>
+</article>
+{%- endmacro %}
+
+{% block nav %}
+<nav class="tabs" role="tablist" aria-label="Edition views">
+  <button class="tab" role="tab" type="button" data-tab="feed" aria-selected="true">⚡ Feed</button>
+  <button class="tab" role="tab" type="button" data-tab="means" aria-selected="false">🧠 What it means</button>
+  <button class="tab" role="tab" type="button" data-tab="play" aria-selected="false">🎯 Play</button>
+</nav>
+{% endblock %}
+
+{% block content %}
+{# ============================== FEED (L1) ============================== #}
+<section class="panel" data-panel="feed">
+  <div class="wrap">
+    <div class="masthead">
+      <div class="mast-date"><span class="dow">{{ day }}</span><span class="dt">{{ pretty_date }}</span></div>
+      <h1 class="mast-title">Today's news,<br><mark>minus the boring bits.</mark></h1>
+      <div class="stickers">
+        <span class="sticker sk-a">⏱ {{ minutes }} min. Or 10 sec, below.</span>
+        <span class="sticker sk-b">{{ stats.stories }} stories</span>
+        <span class="sticker sk-c">{{ stats.today_threads }} patterns moving</span>
+        {% if throwbacks %}<span class="sticker sk-d">{{ throwbacks|length }} links to last week</span>{% endif %}
+      </div>
+    </div>
+
+    <div class="tldr">
+      <div class="label">The day in 10 seconds</div>
+      <ol>
+        {% for x in tldr %}<li><span class="num">{{ loop.index }}</span><p>{{ x|hl }}</p></li>{% endfor %}
+      </ol>
+    </div>
+
+    <div class="feed-grid">
+      <div class="feed-main">
+        <div class="hero">
+          <span class="sticker sk-hero">The big one</span>
+          <p class="hero-text">{{ hero|hl }}</p>
+          <button class="hero-cta" type="button" data-tab-link="means">See what it means →</button>
+        </div>
+
+        <nav class="filters" aria-label="Filter by section">
+          <button class="filter is-on" type="button" data-filter="all">All</button>
+          {% for s in sections %}<button class="filter s-{{ s.key }}" type="button" data-filter="{{ s.key }}">{{ s.emoji }} {{ s.label }} <b>{{ s["items"]|length }}</b></button>{% endfor %}
+        </nav>
+
+        {% for s in sections %}
+        <div class="sec-block" data-section="{{ s.key }}">
+          <h2 class="sec-banner s-{{ s.key }}"><span>{{ s.emoji }} {{ s.label }}</span><span class="sec-count">{{ s["items"]|length }}</span></h2>
+          {% for c in s["items"] %}{{ card(c) }}{% endfor %}
+          {% if s.key == "tech" and (pulse.india or pulse.world) %}
+          <div class="pulse">
+            <div class="label">Startup pulse · who's getting the money</div>
+            <div class="pulse-grid">
+              {% if pulse.india %}<div class="pulse-side p-in"><span class="pulse-k">🇮🇳 India</span><p>{{ pulse.india }}</p></div>{% endif %}
+              {% if pulse.world %}<div class="pulse-side p-w"><span class="pulse-k">🌍 Everyone else</span><p>{{ pulse.world }}</p></div>{% endif %}
+            </div>
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+
+      <aside class="feed-side">
+        <div class="side-box movers-box">
+          <div class="label">Patterns on the move <span class="swipe">swipe →</span></div>
+          <div class="movers">
+          {% for m in moves %}
+          <button class="mover" type="button" data-goto="{{ m.thread.id }}">
+            {{ status_stamp(m.kind) }}
+            <span class="mover-name">{{ m.thread.name }}</span>
+            {% if m.line %}<span class="mover-line">{{ m.line }}</span>{% endif %}
+          </button>
+          {% else %}<p class="quiet">Nothing moved today. Suspicious.</p>{% endfor %}
+          </div>
+        </div>
+        <div class="side-box side-forces">
+          <div class="label">The forces today</div>
+          {% for f in forces %}
+          <button class="force-bar f-{{ f.key }}{{ ' is-quiet' if not f.today }}" type="button" data-force-link="{{ f.key }}">
+            <span class="fb-name">{{ f.icon }} {{ f.label }}</span>
+            <span class="fb-track"><span class="fb-fill" style="width: {{ [f.today * 12, 100]|min }}%"></span></span>
+            <span class="fb-n">{{ f.today }}</span>
+          </button>
+          {% endfor %}
+        </div>
+        {% if call %}
+        <button class="side-box side-call" type="button" data-tab-link="play">
+          <span class="label">Today's call 🎯</span>
+          <span class="side-call-text">{{ call.prediction }}</span>
+          <span class="side-call-cta">Take the quiz →</span>
+        </button>
+        {% endif %}
+      </aside>
+    </div>
+  </div>
+</section>
+
+{# ============================== WHAT IT MEANS (L1 / L2 / L3) ============================== #}
+<section class="panel" data-panel="means" hidden>
+  <div class="wrap">
+    <div class="ladder">
+      <div class="rung r1"><span class="rung-l">L1</span><span class="rung-t">What happened</span><span class="rung-s">one headline, one day</span></div>
+      <span class="rung-arrow" aria-hidden="true">→</span>
+      <div class="rung r2"><span class="rung-l">L2</span><span class="rung-t">The pattern</span><span class="rung-s">many headlines, weeks</span></div>
+      <span class="rung-arrow" aria-hidden="true">→</span>
+      <div class="rung r3"><span class="rung-l">L3</span><span class="rung-t">The force</span><span class="rung-s">the deep driver, forever</span></div>
+    </div>
+
+    {% if map_items %}
+    <div class="map-wrap">
+      <div class="map-head"><h2 class="block-title">The map</h2><p>Hover anything to trace how today's headlines feed the patterns, and the patterns feed the forces.</p></div>
+      <div class="map">
+        <svg class="map-lines" aria-hidden="true"></svg>
+        <div class="map-col" data-col="1">
+          <div class="map-h">L1 · Headlines</div>
+          {% for x in map_items %}<div class="node n1 s-{{ x.card.section }}" data-id="i-{{ x.card.id }}" data-to="t-{{ x.thread.id }}">{{ x.card.emoji }} {{ x.card.punchy }}</div>{% endfor %}
+        </div>
+        <div class="map-col" data-col="2">
+          <div class="map-h">L2 · Patterns</div>
+          {% for t in map_threads %}<div class="node n2 st-{{ t.status }}" data-id="t-{{ t.id }}" data-to="{% for f in t.forces %}f-{{ f }} {% endfor %}">{{ t.name }}</div>{% endfor %}
+        </div>
+        <div class="map-col" data-col="3">
+          <div class="map-h">L3 · Forces</div>
+          {% for f in forces %}<div class="node n3 f-{{ f.key }}{{ ' is-quiet' if not f.today }}" data-id="f-{{ f.key }}">{{ f.icon }} {{ f.label }}</div>{% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    {# ---- L1 ---- #}
+    <div class="level">
+      <div class="level-h"><span class="big-l l-1">L1</span><div><h2>What happened</h2><p>Today's headlines, and the pattern each one is evidence of.</p></div></div>
+      <ul class="l1-list">
+        {% for x in l1_linked %}
+        <li class="l1-row s-{{ x.card.section }}">
+          <span class="l1-tag">{{ SECTIONS[x.card.section][1] }}</span>
+          <a class="l1-head" href="#i-{{ x.card.id }}" data-tab-link="feed" data-scroll="i-{{ x.card.id }}">{{ x.card.punchy }}</a>
+          <span class="l1-arrow" aria-hidden="true">→</span>
+          <button class="thread-chip" type="button" data-goto="{{ x.thread.id }}">🧵 {{ x.thread.nickname or x.thread.title }}</button>
+        </li>
+        {% endfor %}
+      </ul>
+      {% if l1_oneoffs %}
+      <details class="oneoffs">
+        <summary>{{ l1_oneoffs|length }} one-offs that don't feed a pattern (yet)</summary>
+        <ul class="l1-list">
+          {% for c in l1_oneoffs %}<li class="l1-row s-{{ c.section }}"><span class="l1-tag">{{ SECTIONS[c.section][1] }}</span><a class="l1-head" href="#i-{{ c.id }}" data-tab-link="feed" data-scroll="i-{{ c.id }}">{{ c.punchy }}</a></li>{% endfor %}
+        </ul>
+      </details>
+      {% endif %}
+    </div>
+
+    {# ---- L2 ---- #}
+    <div class="level">
+      <div class="level-h"><span class="big-l l-2">L2</span><div><h2>The patterns</h2><p>Threads we've been tracking. Each bar is a day; taller means more evidence that day.</p></div></div>
+      <div class="force-filter" role="group" aria-label="Filter patterns by force">
+        <button class="ff is-on" type="button" data-ff="all">All forces</button>
+        {% for f in forces if f.threads %}<button class="ff f-{{ f.key }}" type="button" data-ff="{{ f.key }}">{{ f.icon }} {{ f.label }}</button>{% endfor %}
+      </div>
+      <div class="threads">
+        {% for t in l2 %}
+        <article class="thread st-{{ t.status }}" id="{{ t.id }}" data-forces="{{ t.forces|join(' ') }}">
+          <div class="thread-top">{{ status_stamp(t.status) }}<span class="thread-meta">since {{ t.since }} · {{ t.total }} clue{{ "" if t.total == 1 else "s" }}{% if t.today %} · <b>+{{ t.today }} today</b>{% endif %}</span></div>
+          <h3 class="thread-name">{{ t.name }}</h3>
+          <p class="thread-plain">{{ t.plain or t.title }}</p>
+          {% if t.line %}<p class="thread-line">Today: {{ t.line }}</p>{% endif %}
+          <div class="forces-row">{% for f in t.forces %}{{ force_chip(f) }}{% endfor %}</div>
+          <div class="timeline" role="img" aria-label="Evidence per day over the last 14 days">
+            {% for d in t.timeline %}<i class="tl-d{{ ' on' if d.n }}{{ ' now' if loop.last }}" style="--n: {{ [d.n, 4]|min }}" title="{{ d.date|short_date }}: {{ d.n }}"></i>{% endfor %}
+          </div>
+          <div class="tl-axis"><span>14 days ago</span><span>today</span></div>
+          <details class="claim"><summary>The exact claim (so we can check it)</summary><p>{{ t.claim }}</p></details>
+          <ol class="evidence">
+            {% for e in t.evidence %}
+            <li class="{{ 'is-today' if e.is_today }}">
+              <span class="ev-date">{{ "Today" if e.is_today else e.date|short_date }}{% if e.is_backstory %} · backstory{% endif %}</span>
+              {% if e.url %}<a href="{{ e.url }}">{{ e.title }}</a>{% else %}<span>{{ e.title }}</span>{% endif %}
+              <span class="ev-note">{{ e.note }}</span>
+            </li>
+            {% endfor %}
+          </ol>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+
+    {# ---- L3 ---- #}
+    <div class="level">
+      <div class="level-h"><span class="big-l l-3">L3</span><div><h2>The forces</h2><p>Five deep drivers. Everything above is one of these, wearing a costume.</p></div></div>
+      <div class="forces">
+        {% for f in forces %}
+        <button class="force f-{{ f.key }}{{ ' is-quiet' if not f.today }}" type="button" data-force-link="{{ f.key }}">
+          <span class="force-icon" aria-hidden="true">{{ f.icon }}</span>
+          <span class="force-name">{{ f.label }}</span>
+          <span class="force-line">{{ f.line or "Quiet today." }}</span>
+          <span class="force-meter"><b>{{ f.threads }}</b> pattern{{ "" if f.threads == 1 else "s" }} · <b>{{ f.today }}</b> clue{{ "" if f.today == 1 else "s" }} today</span>
+        </button>
+        {% endfor %}
+      </div>
+    </div>
+
+    {# ---- Connections ---- #}
+    {% if dots or throwbacks %}
+    <div class="level">
+      <div class="level-h"><span class="big-l l-x">⟷</span><div><h2>Connecting the dots</h2><p>Where today's news meets other patterns, and last week's news.</p></div></div>
+      {% if dots %}
+      <div class="dots">
+        <button class="dots-node" type="button" data-goto="{{ dots.a.id }}">{{ dots.a.name }}</button>
+        <span class="dots-via f-{{ dots.force }}">{{ FORCE_ICONS.get(dots.force, "") }} {{ dots.force }}</span>
+        <button class="dots-node" type="button" data-goto="{{ dots.b.id }}">{{ dots.b.name }}</button>
+        <p class="dots-text">{{ dots.text }}</p>
+      </div>
+      {% endif %}
+      {% if throwbacks %}
+      <h3 class="sub-title">↩ Throwbacks: last week → today</h3>
+      <div class="throwbacks">
+        {% for x in throwbacks %}
+        <article class="tb">
+          <span class="kind k-{{ x.kind }}">{{ KIND_LABELS[x.kind] }}</span>
+          <p class="tb-line">{{ x.line }}</p>
+          <div class="tb-pair">
+            <div class="tb-then s-{{ x.past.section }}"><span class="tb-k">Then · {{ x.past.date|short_date }}</span><a href="{{ x.past.url }}">{{ x.past.title }}</a><span class="tb-src">{{ x.past.source }}</span></div>
+            <span class="tb-arrow" aria-hidden="true">→</span>
+            <div class="tb-now s-{{ x.now.section }}"><span class="tb-k">Now · today</span><a href="#i-{{ x.now.id }}" data-tab-link="feed" data-scroll="i-{{ x.now.id }}">{{ x.now.emoji }} {{ x.now.punchy }}</a><span class="tb-src">{{ x.now.source }}</span></div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+{# ============================== PLAY ============================== #}
+<section class="panel" data-panel="play" hidden>
+  <div class="wrap wrap-narrow">
+    {% if call %}
+    <div class="call">
+      <span class="sticker sk-call">🎯 Today's call</span>
+      <p class="call-text">{{ call.prediction }}</p>
+      <p class="call-meta">Bet on: <button class="thread-chip" type="button" data-goto="{{ call.thread_id }}">🧵 {{ call.thread_title }}</button> · we check on <b>{{ call.review_by|short_date }}</b></p>
+    </div>
+    {% endif %}
+
+    {% if quiz %}
+    <div class="quiz" data-total="{{ quiz|length }}">
+      <div class="quiz-head"><h2 class="block-title">Big-brain quiz</h2><span class="score">Score <b class="score-n">0</b>/{{ quiz|length }}</span></div>
+      {% for q in quiz %}
+      <div class="q" data-answer="{{ q.answer_index }}">
+        <p class="q-text"><span class="q-n">{{ loop.index }}</span>{{ q.question }}</p>
+        <div class="opts">
+          {% for o in q.options %}<button class="opt" type="button" data-i="{{ loop.index0 }}"><span class="opt-l">{{ "ABC"[loop.index0] }}</span>{{ o }}</button>{% endfor %}
+        </div>
+        <p class="why" hidden>{{ q.why }}</p>
+      </div>
+      {% endfor %}
+      <p class="quiz-done" hidden></p>
+    </div>
+    {% endif %}
+
+    {% if past_calls %}
+    <div class="calls">
+      <h2 class="block-title">Calls on the record</h2>
+      <ul>
+        {% for c in past_calls %}
+        <li><span class="verdict v-{{ c.verdict or 'open' }}">{{ {"right": "✅ Right", "wrong": "❌ Wrong", "too_early": "⏳ Too early"}.get(c.verdict, "⏳ Open") }}</span>
+          <span class="calls-text">{{ c.prediction }}</span>
+          <span class="calls-meta">made {{ c.made|short_date }} · check {{ c.review_by|short_date }}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}
+
+{% block footer_extra %}<p class="footer-small">Sources today: {{ sources|join(", ") }}.</p>{% endblock %}

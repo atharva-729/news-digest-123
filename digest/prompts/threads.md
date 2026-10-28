@@ -22,7 +22,10 @@ Your job:
    - Invalid: "AI is growing", "Geopolitical tensions persist", "Startups are raising money".
    - Valid: "Hyperscaler capex is shifting from GPUs to power and cooling", "Indian VCs are moving money from
      consumer apps to deep-tech hardware", "Oil above $100 is pushing Asian importers toward Russian crude".
-   - The title is a punchy 4–10 word version of the claim.
+   - The title is a clear 4–10 word version of the claim.
+   - `nickname` is a catchy 2–4 word handle a reader remembers, like a news-show segment name
+     ("The Power Crunch", "Rupee Startup Rush", "Chip Nationalism"). No emoji.
+   - `plain` says the pattern in plain English, ≤ 15 words, as you'd text it to a friend.
    - `forces` must come from the fixed list. Usually 1–2.
    - Prefer threads that **cross sections** (e.g. a tech item and a markets item feeding one pattern).
    - Before creating a thread, check that no existing thread or candidate already covers it; attach instead.
