@@ -31,7 +31,7 @@
       {% for t in moved %}
       <article class="thread st-{{ t.status }}" id="{{ t.id }}">
         <div class="thread-top">
-          <span class="chip st-{{ t.status }}">{{ {"new": "🆕 New", "heating": "🔥 Heating up", "cooling": "🧊 Cooling", "active": "▶ Steady", "dormant": "💤 Quiet"}[t.status] }}</span>
+          <span class="chip st-{{ t.status }}">{{ {"new": "🆕 New", "building": "🧱 Building", "heating": "🔥 Heating up", "cooling": "🧊 Cooling", "active": "▶ Steady", "dormant": "💤 Quiet"}[t.status] }}</span>
           <span class="muted small">+{{ t.week }} this week · {{ t.total }} since {{ t.since }}</span>
         </div>
         <h3 class="thread-name">{{ t.name }}</h3>
@@ -49,6 +49,13 @@
       </article>
       {% endfor %}
     </div>
+  </section>
+  {% endif %}
+
+  {% if restructured %}
+  <section class="level">
+    <div class="level-h"><span class="big-l l-x">⇄</span><div><h2 class="h2">Merged and split</h2><p class="muted">Patterns we combined because they said the same thing, or divided because they'd grown too broad.</p></div></div>
+    <ul class="clues">{% for r in restructured %}<li>{{ r }}</li>{% endfor %}</ul>
   </section>
   {% endif %}
 

@@ -1,72 +1,55 @@
 {
   "date": "2026-10-28",
-  "subject": "L1·L2·L3 weekly 28 Oct: AI money meets power, governance, and siting",
-  "lead": "AI money meets power, governance, and siting",
+  "subject": "L1·L2·L3 weekly 28 Oct: India’s voter-roll rules got tighter",
+  "lead": "India’s voter-roll rules got tighter",
   "tldr": [
     {
-      "text": "Heavy-AI Cash kept heating as capital moved into chips and hardware.",
-      "highlight": "capital moved into chips and hardware"
+      "text": "India’s voter-roll tightening became clearer, with new declaration requirements and bigger deletions.",
+      "highlight": "new declaration requirements"
     },
     {
-      "text": "AI Governance Board grew as firms formalized risk controls and trust checks.",
-      "highlight": "formalized risk controls"
+      "text": "Karnataka’s final rolls shrank by nearly 1 crore after SIR deletions.",
+      "highlight": "nearly 1 crore"
     },
     {
-      "text": "Power & Siting Crunch sharpened as data-centre locations and electricity tightened.",
-      "highlight": "data-centre locations and electricity"
+      "text": "A Supreme Court fight is now over how strict registration can be.",
+      "highlight": "Supreme Court fight"
     }
   ],
   "writer": {
-    "headline": "AI money meets power, governance, and siting",
+    "headline": "India’s voter-roll rules got tighter",
     "tldr": [
       {
-        "text": "Heavy-AI Cash kept heating as capital moved into chips and hardware.",
-        "highlight": "capital moved into chips and hardware"
+        "text": "India’s voter-roll tightening became clearer, with new declaration requirements and bigger deletions.",
+        "highlight": "new declaration requirements"
       },
       {
-        "text": "AI Governance Board grew as firms formalized risk controls and trust checks.",
-        "highlight": "formalized risk controls"
+        "text": "Karnataka’s final rolls shrank by nearly 1 crore after SIR deletions.",
+        "highlight": "nearly 1 crore"
       },
       {
-        "text": "Power & Siting Crunch sharpened as data-centre locations and electricity tightened.",
-        "highlight": "data-centre locations and electricity"
+        "text": "A Supreme Court fight is now over how strict registration can be.",
+        "highlight": "Supreme Court fight"
       }
     ],
     "intro": {
-      "text": "The biggest move was Heavy-AI Cash: money kept flowing into power semis, custom silicon, and physical AI hardware. AI Governance Board also heated up as firms wrote down risk and governance limits, while Power & Siting Crunch sharpened around electricity and data-centre locations.",
-      "highlight": "Heavy-AI Cash"
+      "text": "The biggest move was in India voter-roll tightening: the state’s registration process got more document-heavy, while deletions kept pulling rolls down. The Supreme Court is now part of the fight over SIR and Form 6.",
+      "highlight": "more document-heavy"
     },
     "threads": [
       {
-        "thread_id": "t_industrial_hardware_capital",
-        "line": "Heavy-AI Cash heated up as funding and industrial capex kept shifting toward power semiconductors, custom silicon, and physical AI hardware, from GaN plants to autonomous excavators and sensor chips."
-      },
-      {
-        "thread_id": "t_ai_trust_and_governance",
-        "line": "AI Governance Board heated up as Anthropic formalized extreme-risk language in its S-1 and long-term governance plan, while other labs and researchers argued over trust, sourcing, and openness."
-      },
-      {
-        "thread_id": "t_ai_trade_capital_rotation",
-        "line": "AI Trade stayed hot as capital rotated back toward tech and AI-linked assets, with broad tech gains and fresh funding for AI-finance and trading products."
-      },
-      {
-        "thread_id": "t_india_voter_rolls_and_documentation",
-        "line": "Roll Tightening advanced as the Election Commission added a declaration to Form 6 and Karnataka’s final rolls showed a sharp drop after SIR deletions."
-      },
-      {
-        "thread_id": "t_oil_supply_shocks_mid_east",
-        "line": "Refinery Shock heated up as Middle East attacks and Saudi tensions pushed crude higher and fed through to producer inflation in Malaysia."
-      },
-      {
-        "thread_id": "t_israel_election_fragmentation",
-        "line": "Slow Math moved as turnout stayed high, exit polls delayed the verdict, and Arab-party gains pointed to a more fragmented coalition picture."
-      },
-      {
-        "thread_id": "t_ai_power_siting_limits",
-        "line": "Power & Siting Crunch heated up as Anthropic said competition for electricity and data-centre sites is intense, while community backlash and cargo theft added more friction."
+        "thread_id": "t_india_voter_rolls_tightening",
+        "line": "India’s voter-roll tightening advanced this week as the ECI added an extra declaration to Form 6, Karnataka’s final rolls shrank by nearly 1 crore after SIR deletions, and the Supreme Court became the venue for the dispute."
       }
     ],
-    "calls": [],
-    "watch": "Watch whether the Heavy-AI Cash and Power & Siting Crunch threads keep converging: more chip fabs, power gear, and data-centre buildouts would confirm that AI expansion is increasingly limited by physical infrastructure. Also watch whether AI Governance Board turns into stricter filing language or real operational constraints."
+    "calls": [
+      {
+        "index": 0,
+        "verdict": "too_early",
+        "note": "No post-2026-10-27 official election commission or court filing in the week items clearly announced a new tighter voter-registration requirement.",
+        "item_ids": []
+      }
+    ],
+    "watch": "Watch whether the Election Commission or courts turn the extra Form 6 declaration into a formal, durable rule. Also watch for fresh state-by-state roll revisions that show whether deletions are still spreading."
   }
 }

@@ -2,55 +2,32 @@
   "date": "2026-10-27",
   "backstory": [
     {
-      "thread_id": "t_industrial_hardware_capital",
-      "item_id": "799476db76"
-    },
-    {
-      "thread_id": "t_industrial_hardware_capital",
-      "item_id": "8670fea653"
-    },
-    {
-      "thread_id": "t_industrial_hardware_capital",
-      "item_id": "41eee0cf45"
-    },
-    {
-      "thread_id": "t_ai_trust_and_governance",
-      "item_id": "d15b083193"
-    },
-    {
-      "thread_id": "t_ai_trust_and_governance",
-      "item_id": "df32860d7c"
-    },
-    {
-      "thread_id": "t_india_voter_rolls_and_documentation",
+      "thread_id": "t_india_voter_rolls_tightening",
       "item_id": "fd3b5ea546"
     },
     {
-      "thread_id": "t_india_voter_rolls_and_documentation",
+      "thread_id": "t_india_voter_rolls_tightening",
       "item_id": "8774a4982d"
-    },
-    {
-      "thread_id": "t_india_voter_rolls_and_documentation",
-      "item_id": "d8d733e042"
-    },
-    {
-      "thread_id": "t_ai_trade_capital_rotation",
-      "item_id": "26ac4a5663"
-    },
-    {
-      "thread_id": "t_ai_trade_capital_rotation",
-      "item_id": "9d019b1da0"
-    },
-    {
-      "thread_id": "t_ai_trade_capital_rotation",
-      "item_id": "e3dda7cf3a"
     }
   ],
   "throwbacks": [
     {
+      "item_id": "e45ab00afb",
+      "kind": "same_pattern",
+      "line": "Last week the Election Commission told the Supreme Court it 'acted unanimously' on roll revision orders; today ECI says extra declaration isn't part of Form 6.",
+      "past": {
+        "id": "fd3b5ea546",
+        "date": "2026-10-26",
+        "title": "Acted ‘unanimously’ on electoral roll revision orders: Election Commission to Supreme Court",
+        "url": "https://indianexpress.com/article/india/eci-supreme-court-affidavit-special-intensive-revision-sir-gyanesh-kumar-sukhbir-singh-sandhu-vivek-joshi-form-6-indian-express-report-10937935/",
+        "source": "Indian Express",
+        "section": "politics_india"
+      }
+    },
+    {
       "item_id": "0314877842",
       "kind": "sequel",
-      "line": "Last week Anthropic warned of AI's 'catastrophic risks'; today its S-1 shows it's burning gas to feed the AI boom.",
+      "line": "Last week Anthropic warned of AI's 'catastrophic risks' ahead of its IPO; today its S-1 shows heavy gas use to power generative AI.",
       "past": {
         "id": "d15b083193",
         "date": "2026-10-26",
@@ -61,55 +38,16 @@
       }
     },
     {
-      "item_id": "1f384ef1f9",
-      "kind": "sequel",
-      "line": "Last week Infineon and NVIDIA announced GaN work for 800VDC AI data centres; today Infineon plans a high-volume 300mm GaN plant in Europe.",
-      "past": {
-        "id": "8670fea653",
-        "date": "2026-10-23",
-        "title": "Infineon, NVIDIA collaborate on GaN for 800VDC AI data centres",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ1piQzdoc3pVRkFJV1pfWHF0UzVmay1WOGZrZUJMbGlCTDRuYV9JTEFOclM1aGxGUWFGMzVGNTFVbF9jNHJFUXphRm9NSWUzblY4dEIyQk1pbktXaW1xMmJEdHlfcUlRVVdmY3BfTGlPOEx1akxEdlVPWmthbjFMT2JrZXZ4MlVNREFTLWVVdE0zZGFYRjl4elZ1SUo4UWU2NTU4NDFydllUYk82RzlOeEJZVmF3TlQ4Z2FJc1p3VENxMDE2QnJGRmFKZURUTFNsaUJ1MmdR0gHbAUFVX3lxTE15UVh2SFM5MHhNTlVHbFpqRzV2YkZNZmVGZFlWdHBaNWJhREtoTVA1RjQ0T3J6TXFLTEQwdDJYdnFWTWlVWll4WFl6dDA5R3N6SS05am1yYUFzM05tQmhZNWQ0WTlLYVRhR3NrMGcyZkRtWWE5NkxkMVpsMmZOeDNVZHZNeEZQN1J5cmZzeHF5TzFfeWE5bEdIRXh2X3JQOXgtMWxubkZ0VWFXTjZ4REdaRnBQdXhZRnRwdGF3b0hXQUZKd3VYWTEwaHNlX2xRSVJiX3VWdVJpYXVTUQ?oc=5",
-        "source": "electronics.economictimes.indiatimes.com",
-        "section": "tech"
-      }
-    },
-    {
       "item_id": "3b1fe9cd90",
-      "kind": "cause",
-      "line": "Last week the biggest funding rounds were driven by AI; today tech stocks rally as the AI trade revives.",
+      "kind": "sequel",
+      "line": "Last week analysts warned a rickety AI market rally faced Fed and earnings tests; today tech stocks rallied as the AI trade revived.",
       "past": {
-        "id": "26ac4a5663",
-        "date": "2026-10-24",
-        "title": "The Week’s 10 Biggest Funding Rounds: AI Drives A Varied Lineup Of Large Financings",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMGxkU1NjR2xRMU5MVmRtMnRSTmV0QnhaZHN5b0I1OWFPRVlDN2tSWW5YM1NmQUZoNnBETThwdjFEOHNkSUNFVUNUMXA1bmFGYUhTeDV2UDk3RzJlODE3dlNRR1ZoekFXRTk4QmVLbzV3SWxHTk81R2RXYWdyMWplc2xLeWk0MjRWNE10clJjb3lRbDJycTdiRlZRelZESGlf?oc=5",
-        "source": "Crunchbase News",
-        "section": "tech"
-      }
-    },
-    {
-      "item_id": "e2358621b2",
-      "kind": "same_pattern",
-      "line": "Last week BIRC flagged rising shipping costs and geopolitical risks; today thieves spoof GPS to steal $100M in data-centre equipment.",
-      "past": {
-        "id": "9d730abfae",
-        "date": "2026-10-23",
-        "title": "BIRC 2026 Highlights Rising Shipping Costs, Geopolitical Risks and Marine Insurance Priorities for Rice Exporters",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQdmMtN2RiOEl3bjc1T3ZuU0tGM0h5MzhGc2RWcVFPY0hRcDVXVUhQXzNzXzIzQUNSYlp5Rk9TYk9rd1dNZUZramRPYU11akFRTFUxZ0ZpanNEM1BJRWFLVk9LMlNCWElPc0V3Wk1zOEpnLXVrRTJfZmxuR2ZtUzE3SkdrTUozSUxUTlpYRHlaM2dXNEFTWmFmUnFpVXl2eFZzLXNLQ2JyczhlZnJ5SWxIM1haQWNzSWhqaXFpcjMtQWlrbFFnVTgwc3BuWDNBV2FfT3ZCcnFXOGd5dlJGX2pwSkJ5WjZta0hndnhjX3hRMWVEMlE?oc=5",
-        "source": "AgroSpectrum India",
-        "section": "politics_world"
-      }
-    },
-    {
-      "item_id": "c2cbc24d60",
-      "kind": "cause",
-      "line": "Last week Indian startup funding fell 22% with AI taking half; today Vouch raises $500K to build an AI wealth manager for India.",
-      "past": {
-        "id": "474856ebed",
+        "id": "b40df6e71c",
         "date": "2026-10-25",
-        "title": "Indian Startup Funding Falls 22% to ₹1,747 Crore as AI Takes Half",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vNUU3czh5eUlEbUhtOEF4ZWliR1VBeW9jeElxbVQ4Q25ZZzhTRnJfVnE1TFpfZ0dhUDBGZHVrWjE1S1ZOcll3WDdDcFlYbWFNM2pudzkxc3l5TXBNQkdOSlFDaWQ?oc=5",
-        "source": "The420.in",
-        "section": "tech"
+        "title": "Wall St Week Ahead Earnings flood, Fed meeting will test rickety AI market rally",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR3FjeUJFd2Z6ZFBxOEFlLUx4anZlN1BqeFkxQ1pFcTdXTENYc0tMdW9RbjJ1Vk91Y2tmSXVoRDFCTmZoQ2cxN3BaSlFfTXplZUNZTFIzVmR3OTVmUVYzWnBXVkxRNXAtOEpBSUpIVjlBMnJ6cVViYnFSSHZoaC1CbkR5TnBzZndWNEo5aFlkWTVKY0hSYzRuOTlzUjYwcGlrcFJKQXhlbmFOMHNWLTRiRHZaM21fWEF1SDl1Mg?oc=5",
+        "source": "Reuters",
+        "section": "markets"
       }
     }
   ]

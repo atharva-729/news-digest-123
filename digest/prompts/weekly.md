@@ -18,12 +18,12 @@ Fields with a `highlight`: copy the 2–6 most important words **exactly as they
   shift. Name threads by nickname, not id. With `highlight`.
 - `threads`: one entry per thread in `moved` (same ids). `line` is one sentence on how it moved this week
   and what drove it, using its `evidence_this_week` notes.
-- `calls`: one entry per call in `calls_due` (same `index`). Judge each prediction **only** against
-  `week_items` dated **after** the call's `made` date (earlier items are what inspired the call, so they
-  can't confirm it). A re-report of news that predates the call, or a plan that is only being considered,
-  does not confirm anything. `right` if an item clearly confirms it, `wrong` if an item clearly contradicts it, otherwise
-  `too_early`. `note` is one sentence explaining the verdict. `item_ids` are the week_items ids you relied on
-  (empty for `too_early`).
+- `calls`: one entry per call in `calls_due` (same `index`). Judge each against its `measure` and
+  `threshold`, using **only** `week_items` dated **after** the call's `made` date (earlier items inspired it).
+  A re-report of news that predates the call, or a plan only being considered, doesn't count.
+  `right` if items clearly show the threshold was met; `wrong` only if `window_closed` is true and the threshold
+  clearly wasn't met; otherwise `too_early`. `note` is one sentence explaining the verdict. `item_ids` are the
+  week_items ids you relied on (empty for `too_early`).
 - `watch`: 1–2 sentences on what to watch next week, tied to a heating or newly born thread.
 
 Never output URLs. Never invent facts.

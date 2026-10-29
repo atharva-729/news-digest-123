@@ -1,0 +1,45 @@
+== 2026-10-27
+attach rate     15/25 = 0.60
+active threads  6  (status: heating 6)
+thread                             status    clues events today
+Heavy‑AI Cash                      heating       6      3     3
+AI Trade                           heating       6      3     3
+Roll Tightening                    heating       5      2     2
+AI Governance Board                heating       4      2     2
+Slow Math                          heating       3      3     3
+Power & Siting Crunch              heating       2      2     2
+look-alike pairs (claim similarity, shared force): 2
+   51  Power & Siting Crunch  <>  Heavy‑AI Cash
+   50  Heavy‑AI Cash  <>  AI Trade
+
+== 2026-10-28
+attach rate     9/25 = 0.36
+active threads  7  (status: heating 7)
+thread                             status    clues events today
+Heavy‑AI Cash                      heating      12      6     3
+AI Governance Board                heating       8      5     3
+AI Trade                           heating       8      3     0
+Roll Tightening                    heating       6      2     0
+Slow Math                          heating       5      4     1
+Refinery Shock                     heating       5      2     2
+Power & Siting Crunch              heating       4      2     0
+look-alike pairs (claim similarity, shared force): 2
+   51  Power & Siting Crunch  <>  Heavy‑AI Cash
+   50  Heavy‑AI Cash  <>  AI Trade
+
+== 2026-10-29
+attach rate     14/25 = 0.56
+active threads  7  (status: heating 7)
+thread                             status    clues events today
+Heavy‑AI Cash                      heating      17      9     3
+AI Trade                           heating      14      8     5
+AI Governance Board                heating      11      6     1
+Slow Math                          heating      10      6     2
+Power & Siting Crunch              heating       7      4     2
+Roll Tightening                    heating       7      2     0
+Refinery Shock                     heating       7      3     1
+look-alike pairs (claim similarity, shared force): 2
+   51  Power & Siting Crunch  <>  Heavy‑AI Cash
+   50  Heavy‑AI Cash  <>  AI Trade
+
+predictions per thread: Power & Siting Crunch 2, AI Governance Board 1

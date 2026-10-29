@@ -15,6 +15,8 @@ def main():
     path = DATA / "llm_usage.jsonl"
     rows = [json.loads(line) for line in open(path, encoding="utf-8")] if path.exists() else []
     rows = [r for r in rows if r["ts"][:10] >= args.since]
+    notes = [r for r in rows if r.get("kind") == "note"]
+    rows = [r for r in rows if r.get("kind") != "note"]
     if not rows:
         print("no calls logged")
         return
@@ -32,6 +34,10 @@ def main():
               f"{med(rs, 'reasoning_tokens'):>9.0f} {med(rs, 'seconds'):>5.0f} {per:>8} {total:>8}")
     tin, tout = sum(r["prompt_tokens"] for r in rows), sum(r["completion_tokens"] for r in rows)
     print(f"\nall calls: {tin:,} tokens in, {tout:,} out. Unpriced models show n/a (add them to model.prices in config).")
+    verify = [n for n in notes if n["tag"] == "threads:verify"]
+    if verify:
+        checked, dropped = sum(n["checked"] for n in verify), sum(n["dropped"] for n in verify)
+        print(f"threads:verify dropped {dropped}/{checked} proposed attachments ({dropped / max(1, checked):.0%}) over {len(verify)} runs")
 
 
 if __name__ == "__main__":

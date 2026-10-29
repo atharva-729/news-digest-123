@@ -30,6 +30,7 @@
   --heating: #FF5A3C;
   --cooling: #7FE7FF;
   --new: #FFE500;
+  --building: #C9B6FF;
   --active: #E7E0CF;
   --dormant: #C4C4C4;
 
@@ -56,7 +57,7 @@
 .f-technology { --c: var(--technology); } .f-capital { --c: var(--capital); } .f-geopolitics { --c: var(--geopolitics); }
 .f-regulation { --c: var(--regulation); } .f-demographics { --c: var(--demographics); }
 .st-heating { --st: var(--heating); } .st-cooling { --st: var(--cooling); } .st-new { --st: var(--new); }
-.st-active { --st: var(--active); } .st-dormant { --st: var(--dormant); }
+.st-active { --st: var(--active); } .st-dormant { --st: var(--dormant); } .st-building { --st: var(--building); }
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; scroll-padding-top: 120px; }
@@ -156,6 +157,11 @@ p { margin: 0 0 10px; }
 .hero-text { font-size: 18px; font-weight: 600; line-height: 1.5; margin: 0 0 12px; }
 .hero-cta { background: var(--bg); color: var(--ink); border: 0; border-radius: 999px; padding: 6px 14px; font-weight: 700; font-size: 14px; }
 .hero-cta:hover { background: var(--mark); color: var(--mark-ink); }
+
+/* ---------------- developing stories ---------------- */
+.developing { order: 0; background: var(--surface); border: 2px solid var(--line); border-radius: var(--r); padding: 14px 16px 6px; margin-bottom: 22px; }
+.dev { margin-bottom: 10px; }
+.dev-title { font-weight: 800; margin: 0 0 4px; }
 
 /* ---------------- filters + section headers ---------------- */
 .filters { display: flex; gap: 6px; overflow-x: auto; padding: 2px 2px 12px; margin: 0 -2px 6px; scrollbar-width: thin; }

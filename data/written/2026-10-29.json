@@ -1,366 +1,367 @@
 {
   "date": "2026-10-29",
-  "subject": "L1·L2·L3 29 Oct: Google said Gemini 4 Carbon tops its cybersecurity and coding benchmarks.",
-  "lead": "Google said Gemini 4 Carbon tops its cybersecurity and coding benchmarks.",
+  "subject": "L1·L2·L3 29 Oct: World Bank says commodity prices may jump as Middle East war disrupts energy and shipping.",
+  "lead": "World Bank says commodity prices may jump as Middle East war disrupts energy and shipping.",
   "tldr": [
     {
-      "text": "Google said Gemini 4 Carbon tops its cybersecurity and coding benchmarks.",
-      "highlight": "tops its cybersecurity and coding"
+      "text": "World Bank says commodity prices may jump as Middle East war disrupts energy and shipping.",
+      "highlight": "commodity prices may jump"
     },
     {
-      "text": "Apple launched a touchscreen MacBook Pro starting at $2,899.",
-      "highlight": "touchscreen MacBook Pro"
+      "text": "India cut prices on 543 anti-cancer medicine brands, with new caps starting November 9.",
+      "highlight": "543 anti-cancer medicine brands"
     },
     {
-      "text": "India cut prices on 543 anti-cancer drug brands.",
-      "highlight": "543 anti-cancer drug brands"
+      "text": "Israel’s election count still leaves no majority, and special ballots could change the seat split.",
+      "highlight": "no majority"
     }
   ],
   "hero": {
-    "text": "AI Trade is heating up: investors and companies are putting more money into AI-linked startups, chips, and related deals. Today that showed up in QwikBuild’s funding, Let’s Game Now’s funding, Info Edge’s profit report, and Cognizant’s talks to back Sarvam AI.",
-    "highlight": "AI Trade is heating up"
+    "text": "Middle East oil shocks is the pattern today: regional conflict is still moving energy prices and wider commodity markets. The World Bank story pushed it most clearly, by linking war-related disruption to a jump in prices.",
+    "highlight": "Middle East oil shocks"
   },
   "cards": {
     "6318bf62f2": {
-      "emoji": "🛡️",
-      "headline": "Google says Gemini 4 Carbon tops its cybersecurity and coding benchmarks",
-      "explain": "Google announced Gemini 4 Carbon, its next frontier model, and said it ranks No. 1 on the updated Artificial Analysis Intelligence Index. The company says it performs strongly on coding and cybersecurity tasks, including finding vulnerabilities, exploiting them, and patching them. It will first go to selected cyber defenders before wider release.",
+      "emoji": "🤖",
+      "headline": "Google announces Gemini 4 Carbon, its new frontier AI model",
+      "explain": "Google says Gemini 4 Carbon is its strongest model yet, with top results on cybersecurity and long-horizon tasks. It ranked first on Artificial Analysis’s updated v5.0 index and scored well on benchmarks for finding vulnerabilities, exploiting them, and patching them. Google will first give it to a limited group of cyber defenders before wider release.",
       "why": {
-        "text": "Cyber defenders get early access before Google opens the model more widely.",
-        "highlight": "early access"
+        "text": "Cybersecurity teams and developers will see the model first, before Google opens access to businesses and consumers.",
+        "highlight": ""
       }
     },
     "7a44b0a9a5": {
       "emoji": "💻",
-      "headline": "Apple launches a touchscreen MacBook Pro starting at $2,899",
-      "explain": "Apple introduced a new touchscreen MacBook Pro with a starting price of $2,899. The headline only gives the product and price, not the broader lineup details or availability.",
+      "headline": "Apple launches touchscreen MacBook Pro at $2,899",
+      "explain": "Apple’s new MacBook Pro now includes a touchscreen, and the starting price is $2,899. The company did not give more details here beyond the launch and price.",
       "why": {
-        "text": "Buyers now have a pricier MacBook Pro option with a touchscreen.",
-        "highlight": ""
+        "text": "Buyers now have a higher-priced MacBook Pro option with a touchscreen.",
+        "highlight": "higher-priced MacBook Pro option"
       }
     },
     "3a45e06e0f": {
-      "emoji": "🚚",
-      "headline": "Bijnis rebrands as Zorit and raises Rs 27 crore",
-      "explain": "Zorit, formerly Bijnis, raised nearly Rs 27 crore in a round led by Sparrow Capital, with Info Edge, WaterBridge, Better Capital and others joining. The B2B quick commerce startup helps offline retailers source inventory from dark stores, which are local warehouses for fast delivery, and says it now runs 12 dark stores in 12 cities.",
+      "emoji": "📦",
+      "headline": "Zorit raises Rs 27 crore for its retailer-focused quick commerce model",
+      "explain": "Zorit, formerly Bijnis, raised nearly Rs 27 crore in a round led by Sparrow Capital, with Info Edge, WaterBridge, Better Capital, angels and employees also joining. The Bengaluru-based startup helps offline retailers source stock from locally held dark stores, meaning nearby warehouses, with delivery in as little as 60 minutes. It says it now runs 12 dark stores in 12 cities and has annualised sales of Rs 120 crore.",
       "why": {
-        "text": "The company gets fresh capital to expand its retailer network and quick-delivery supply chain.",
-        "highlight": "fresh capital"
+        "text": "Fresh capital will help Zorit expand its quick commerce infrastructure and product range for offline retailers.",
+        "highlight": "expand its quick commerce infrastructure"
       }
     },
     "63c9f69881": {
-      "emoji": "🤖",
-      "headline": "Enterprise AI startup QwikBuild raises $2.3 million",
-      "explain": "QwikBuild raised $2.3 million in pre-seed funding from Globalway Inc., Blume Ventures, Marsshot and DeVC, plus angel investors. The Bengaluru startup builds bespoke software and AI agents for business operations, and it also announced a joint venture with Globalway to expand into Japan.",
+      "emoji": "🧠",
+      "headline": "QwikBuild raises $2.3 million to build enterprise AI software",
+      "explain": "QwikBuild raised $2.3 million in pre-seed funding from Globalway, Blume Ventures, Marsshot and DeVC, plus angel investors including Groww founder Lalit Keshre and Cure.fit founder Ankit Nagori. The Bengaluru startup builds bespoke software and AI agents for business operations, and says it can turn manual work into production-ready applications in days. It also announced a joint venture with Globalway to expand into Japan.",
       "why": {
-        "text": "The company gets runway to sell its enterprise AI tools in Japan and beyond.",
-        "highlight": ""
+        "text": "The startup is using the new funding and Japan tie-up to push its enterprise AI products into more markets.",
+        "highlight": "new funding and Japan tie-up"
       }
     },
     "692a1558f7": {
       "emoji": "🎮",
-      "headline": "Let’s Game Now raises Rs 30 crore for its esports league",
-      "explain": "Let’s Game Now, a gaming and esports company, raised Rs 30 crore co-led by Anand Mahindra and Bestvantage Investments, with a UAE family office also participating. The money will help develop the Indian Super Gaming League. The company runs tournaments, live broadcasts and offline events, and says it reaches more than 50 million people.",
+      "headline": "Let’s Game Now raises Rs 30 crore to expand Indian Super Gaming League",
+      "explain": "Let’s Game Now, an esports and gaming tournament platform, raised Rs 30 crore in a round co-led by Anand Mahindra and Bestvantage Investments, with a UAE family office also participating. The company runs online tournaments, large offline events and live broadcasts across South and Southeast Asia. It says the money will accelerate development of the Indian Super Gaming League.",
       "why": {
-        "text": "Funding should help the company build out the Indian Super Gaming League.",
-        "highlight": "Indian Super Gaming League"
+        "text": "The funding backs a larger push to build out the Indian Super Gaming League.",
+        "highlight": "build out the Indian Super Gaming League"
       }
     },
     "6ae4878ff8": {
       "emoji": "🏢",
       "headline": "Karnataka minister Priyank Kharge urges IT workers to keep learning",
-      "explain": "At an office inauguration in Bengaluru, Karnataka IT Minister Priyank Kharge said AI is changing job requirements and that IT professionals must keep upgrading their skills. He also pointed to Nipuna Karnataka, the state’s industry-led skilling programme, and said government support is linked to employability outcomes.",
+      "explain": "Karnataka IT Minister Priyank Kharge said AI is changing jobs fast and urged IT professionals to keep upgrading their skills. He spoke at the opening of RSM US Integrated Services India Private Limited’s new office in Bengaluru and pointed to Karnataka’s talent pool as a draw for global capability centres, which handle specialised operations for multinational firms. He also highlighted the state’s Nipuna Karnataka skilling programme, which links training support to employment outcomes.",
       "why": {
-        "text": "Workers and employers in Karnataka face more pressure to match training with changing AI-era jobs.",
-        "highlight": "changing AI-era jobs"
+        "text": "Workers in Karnataka’s tech sector will face more pressure to retrain as AI changes what employers want.",
+        "highlight": "pressure to retrain as AI changes"
       }
     },
     "29099ec00f": {
       "emoji": "🌊",
-      "headline": "Report says Chinese activity raises risks for Pacific undersea cables",
-      "explain": "A new report says US-owned subsea cable projects, including those tied to Google and Meta, face higher risk from deep-sea sabotage in the Pacific. It cites Chinese research ships that appear to be surveying undersea cables and says cable damage is usually accidental, though analysts are worried about deliberate tampering.",
+      "headline": "Report says Pacific undersea cables face higher sabotage risks",
+      "explain": "A new report says subsea cable projects owned by US companies such as Google and Meta face major risk from deep-sea sabotage in the Pacific. It also points to Chinese research ships spending a lot of time surveying undersea cables and to Chinese commercial ships being investigated for cable cuts in Europe and Asia. The report comes from the US-China Economic and Security Review Commission, an independent panel that advises Congress.",
       "why": {
-        "text": "Internet backbone cables in the Pacific face more scrutiny from governments and operators.",
-        "highlight": "more scrutiny"
+        "text": "Internet backbone infrastructure owned by Big Tech faces greater scrutiny and security risk.",
+        "highlight": "greater scrutiny and security risk"
       }
     },
     "0ebb7cec19": {
-      "emoji": "⚡",
-      "headline": "DOE gives Constellation Energy $5 billion to modernize nuclear reactors",
-      "explain": "Constellation Energy will get $5 billion in government loans to modernize nuclear reactors. Most of the added power is already contracted to Google, Amazon and Meta, which need electricity for their data centers.",
+      "emoji": "⚛️",
+      "headline": "US DOE gives Constellation Energy $5 billion for nuclear upgrades",
+      "explain": "Constellation Energy will receive $5 billion in government loans to modernize nuclear reactors. Most of the added power is already spoken for by Google, Amazon and Meta, which need electricity for their data centers.",
       "why": {
-        "text": "Big tech’s data centers get new power supply from upgraded reactors.",
-        "highlight": "new power supply"
+        "text": "Big tech’s data centers already have buyers lined up for much of the new capacity.",
+        "highlight": "buyers lined up for much of the new capacity"
       }
     },
     "cd7b21ad37": {
       "emoji": "📈",
-      "headline": "SK Hynix earnings lift chip stocks tied to the AI boom",
-      "explain": "SK Hynix reported third-quarter operating profit up 632% year on year, driven by demand for advanced semiconductors, and its US-listed shares jumped. The rally spread to Micron, AMD, Arm and Marvell as investors looked ahead to earnings from Microsoft and Alphabet and to more evidence on AI spending.",
+      "headline": "Chip stocks rise after SK Hynix posts record profit on AI demand",
+      "explain": "Asian chip shares rose after SK Hynix reported third-quarter operating profit up 632% year on year, driven by demand for advanced semiconductors used in AI systems. The rally lifted US-listed Micron, AMD, Arm and Marvell, and boosted SK Hynix shares in South Korea. Investors are now watching earnings from Microsoft, Alphabet, Amazon, Apple and Intel for signs on AI spending.",
       "why": {
-        "text": "Chip investors are watching whether AI demand can justify continued heavy spending.",
-        "highlight": "AI demand can justify"
+        "text": "Investors are still betting on AI hardware demand, while waiting for more earnings to test that view.",
+        "highlight": "AI hardware demand"
       }
     },
     "37be22d33d": {
       "emoji": "🧩",
-      "headline": "OpenAI is reportedly buying Google AI chips",
-      "explain": "No article text was provided, but the headline says OpenAI is buying Google’s AI chips as demand for computing resources rises. Google’s chips are its in-house AI processors, used to run large models.",
+      "headline": "OpenAI will buy Google AI chips, report says",
+      "explain": "The headline says OpenAI plans to purchase Google’s AI chips. No further details were provided in the item.",
       "why": {
-        "text": "The move points to intense demand for AI hardware.",
-        "highlight": "intense demand"
+        "text": "OpenAI is turning to a rival chip supplier as demand for AI computing resources keeps rising.",
+        "highlight": "demand for AI computing resources"
       }
     },
     "8d743f5fea": {
       "emoji": "⚖️",
-      "headline": "US DOJ is reportedly questioning Nvidia’s Hugging Face deal",
-      "explain": "No article text was provided, but the headline says the US Department of Justice is asking questions about Nvidia’s purchase of Hugging Face. Hugging Face is a major platform for hosting and sharing AI models and tools.",
+      "headline": "US DOJ is asking about Nvidia’s planned purchase of Hugging Face, sources say",
+      "explain": "According to the headline, the US Justice Department is inquiring about Nvidia’s purchase of Hugging Face. No further details were included in the item.",
       "why": {
-        "text": "The inquiry could affect a deal involving a key AI software platform.",
-        "highlight": "affect a deal"
+        "text": "Regulators are looking into a possible Nvidia deal for the AI platform Hugging Face.",
+        "highlight": "possible Nvidia deal"
       }
     },
     "da0575cf03": {
-      "emoji": "📊",
-      "headline": "Info Edge reports 87% rise in quarterly profit",
-      "explain": "Info Edge, the parent of Naukri, reported consolidated net profit of Rs 650 crore in Q2 FY27, up 87.1% from a year earlier. Revenue rose 12.2% to Rs 904 crore, helped by Rs 428 crore of other income. The board also declared an interim dividend of Rs 3 per share and approved a fresh Rs 150 crore investment in Redstart Labs.",
+      "emoji": "💼",
+      "headline": "Info Edge reports 87% profit jump and approves Rs 150 crore investment",
+      "explain": "Info Edge, which owns Naukri, reported consolidated net profit of Rs 650 crore in Q2 FY27, up 87.1% year on year. Revenue from operations rose 12.2% to Rs 904 crore, helped by Rs 428 crore of other income, while the recruitment business remained the biggest contributor. The board also approved an interim dividend of Rs 3 a share and a fresh Rs 150 crore investment in Redstart Labs.",
       "why": {
-        "text": "Shareholders get a dividend, while Info Edge is putting more cash into Redstart Labs.",
-        "highlight": "more cash"
+        "text": "Higher investment income and steady recruitment revenue lifted profits and let the company announce a dividend.",
+        "highlight": "lifted profits and let the company announce"
       }
     },
     "5a2809d5ba": {
       "emoji": "🤝",
-      "headline": "Cognizant is in talks to invest in Sarvam AI",
-      "explain": "Sarvam AI is reportedly in talks with Cognizant for a funding round that could value it at $3.5 billion to $4 billion. The Bengaluru startup builds AI models, infrastructure and enterprise apps for Indian-language and data-security use cases, and it already counts banks, insurers and CRED among its customers.",
+      "headline": "Cognizant is in talks to invest in AI unicorn Sarvam, report says",
+      "explain": "Sarvam AI is reportedly talking to Cognizant about a funding round that could value it at $3.5 billion to $4 billion. The Bengaluru startup makes foundation models, computing infrastructure and enterprise apps, especially for Indian languages and local data-security needs. It already has customers including LIC, SBI Life, IDFC First Bank, Tata Capital and CRED, and recently signed an MoU with the defence ministry’s integrated staff office.",
       "why": {
-        "text": "A deal would bring another major IT services company onto Sarvam’s cap table.",
+        "text": "A Cognizant investment would put another major IT services company on Sarvam’s cap table.",
         "highlight": "another major IT services company"
       }
     },
     "130ad7ecea": {
       "emoji": "💊",
-      "headline": "India cuts prices on 543 anti-cancer drug brands",
-      "explain": "The National Pharmaceutical Pricing Authority has revised maximum retail prices for 543 brands of anti-cancer medicines, with new rates effective November 9. Some cuts are steep: Dr Reddy’s Azacytin drops from ₹6,337 to ₹1,495.04, and RPG Life Sciences’ Anarzole falls from ₹695.76 to ₹73 for 10 tablets. The list covers different strengths and pack sizes.",
+      "headline": "India cuts prices on 543 anti-cancer medicine brands",
+      "explain": "The National Pharmaceutical Pricing Authority has revised maximum retail prices for 543 brands of anti-cancer medicines, with new rates from November 9. Some cuts are steep: RPG Life Sciences’ Anarzole drops from ₹695.76 to ₹73 for 10 tablets, and Dr Reddy’s Azacytin falls from ₹6,337 to ₹1,495.04. The list covers different strengths and pack sizes and will be updated as manufacturers file more data.",
       "why": {
-        "text": "Cancer treatment should become cheaper for patients, while drug makers face capped trade margins on 137 non-scheduled anti-cancer medicines.",
-        "highlight": "drug makers face capped trade margins"
+        "text": "Drugmakers must sell these brands within the new price caps from November 9.",
+        "highlight": "new price caps"
       }
     },
     "bb63faf531": {
       "emoji": "⚖️",
-      "headline": "ED attaches Jauhar University assets in money-laundering case",
-      "explain": "The Enforcement Directorate attached land and buildings of Mohammad Ali Jauhar University in Rampur worth Rs 426.46 crore, saying the current market value is about Rs 1,170 crore. The case targets the Maulana Mohammad Ali Jauhar Trust, its founder Mohammad Azam Khan, the jailed Samajwadi Party leader and former Uttar Pradesh minister, and others. The agency says land, public funds and contractor money were diverted to the university.",
+      "headline": "ED attaches Jauhar University land and buildings in Rampur",
+      "explain": "The Enforcement Directorate attached Jauhar University land and buildings in Rampur, Uttar Pradesh, worth ₹426.46 crore on paper and about ₹1,170 crore at current market value. It says the money-laundering case involves the Maulana Mohammad Ali Jauhar Trust, founder Mohammad Azam Khan, and others. The agency alleges farmers’ land was taken, public funds were diverted, and government contract money was routed back as donations.",
       "why": {
-        "text": "The ED’s attachment covers land and buildings worth Rs 426.46 crore.",
-        "highlight": "covers land and buildings"
+        "text": "The attached land and buildings are part of the ED’s money-laundering case.",
+        "highlight": "money-laundering case"
       }
     },
     "f9342fdb96": {
       "emoji": "🍶",
-      "headline": "AI searches allegedly helped build a spurious liquor racket in Dewas",
-      "explain": "Police in Madhya Pradesh’s Dewas district say 26-year-old Ajay Rathore used AI tools and internet searches to learn how to make liquor, then bought chemicals from Indore and sold the mixture in discarded bottles. Investigators are checking whether the liquor is linked to 13 suspected hooch deaths in Chandana and Binjana villages since September 27. Eleven people have been arrested so far.",
+      "headline": "Police say AI searches helped build a spurious liquor racket in Dewas",
+      "explain": "Police in Madhya Pradesh’s Dewas district say 26-year-old Ajay Rathore used AI tools to look up how to make liquor at home, then used the internet to find suppliers and buy chemicals from Indore. Investigators say the liquor was poured into discarded bottles, mixed with genuine stock, and sold in rural areas. They are checking whether it was linked to 13 suspected hooch deaths in Chandana and Binjana villages.",
       "why": {
-        "text": "Forensic tests will determine whether the liquor was contaminated and linked to the deaths.",
-        "highlight": "contaminated and linked"
+        "text": "Forensic tests and the broader probe will show whether the liquor caused the suspected deaths and who else was involved.",
+        "highlight": "Forensic tests"
       }
     },
     "b451214da1": {
       "emoji": "🗳️",
-      "headline": "BJP wins two Bihar council seats and leads in one more",
-      "explain": "In Bihar’s eight-seat Legislative Council elections, the BJP won Tirhut Teachers’ and Kosi Graduates’ seats and was leading in Darbhanga Graduates’ when the report was filed. JD(U) kept the Patna Graduates’ seat, while RJD, Jan Suraaj, and Independents also won seats. Counting at Darbhanga saw tension after a dispute between NDA and RJD agents; five people were detained.",
+      "headline": "BJP wins two Bihar Council seats and leads in one more",
+      "explain": "In Bihar’s eight-seat Legislative Council election, the BJP won Tirhut Teachers’ and Kosi Graduates’ seats and was leading in Darbhanga Graduates’ as counting continued. JD(U) kept Patna Graduates’ but lost three other seats it contested, while RJD, JSP and Independents won one seat each. Counting in Darbhanga turned tense after a dispute between NDA and RJD agents, and five people were detained.",
       "why": {
-        "text": "The final Darbhanga Graduates’ result was still pending when the report was filed.",
-        "highlight": "result was still pending"
+        "text": "The results change who controls the Bihar Legislative Council seats being contested and show gains and losses for the main state parties.",
+        "highlight": "change who controls"
       }
     },
     "1abf129f2d": {
-      "emoji": "🗳️",
-      "headline": "Netanyahu bloc leads in Israel vote but falls short of majority",
-      "explain": "With 85.6% of ballot boxes counted, partial results showed the pro-Netanyahu bloc on 53 seats and Gadi Eisenkot’s bloc on 48 in the 120-seat Knesset. Arab-led parties were on 19 seats, and turnout reached 77.7%, the highest in more than two decades. Exit polls and official counting still leave neither bloc near the 61 seats needed to govern.",
+      "emoji": "🇮🇱",
+      "headline": "Netanyahu bloc leads in Israel election count but no majority yet",
+      "explain": "With 85.6% of ballot boxes counted, the pro-Netanyahu bloc was ahead on 53 seats and Gadi Eisenkot’s bloc had 48 in Israel’s 120-seat Knesset. Arab-led parties were at 19 seats, and official counting was still under way. Netanyahu said the election had been “stolen” by Arab-led parties and called for a police and Shin Bet probe into alleged voter fraud.",
       "why": {
-        "text": "Coalition talks could last for weeks because no bloc has a clear path to 61 seats.",
-        "highlight": "no bloc has a clear path"
+        "text": "Coalition talks could run for weeks because neither bloc has reached the 61 seats needed to govern.",
+        "highlight": "neither bloc has"
       }
     },
     "775bae7b29": {
       "emoji": "🗳️",
-      "headline": "Israel’s special ballots could still change the final seat count",
-      "explain": "Israel still has hundreds of thousands of double-envelope votes to count after regular ballots left Benjamin Netanyahu’s bloc short of a majority. These are special ballots for soldiers, reservists, displaced residents and others who could not vote at their home polling station. The Central Elections Committee must verify voters did not vote twice before adding them to the tally.",
+      "headline": "Israel’s special ballots could still change the seat count",
+      "explain": "Israel’s double-envelope votes are special ballots cast by eligible voters who cannot vote at their regular polling stations, such as soldiers, reservists and hospital patients. Around 600,000 to 650,000 or more of these ballots were still waiting to be counted, according to reports cited in the piece. The Central Elections Committee must verify that each voter did not already vote elsewhere before adding them to the tally.",
       "why": {
-        "text": "Those votes may move the final Knesset arithmetic and affect who gets the first shot at building a government.",
-        "highlight": "affect who gets the first shot"
+        "text": "Those ballots could shift the final seat split and affect which leader gets the first chance to form a government.",
+        "highlight": "shift the final seat split"
       }
     },
     "b45fed4ab7": {
-      "emoji": "🌎",
-      "headline": "Flávio Bolsonaro arrives in the US after losing Brazil election",
-      "explain": "Brazilian senator Flávio Bolsonaro arrived in Miami with his family after refusing to concede defeat to President Luiz Inácio Lula da Silva. Brazil’s Supreme Court had ordered him to surrender his passports within 24 hours, citing risk of flight in a money-laundering probe. The US State Department said it would grant visas, and Donald Trump said he approved of their entry.",
+      "emoji": "✈️",
+      "headline": "Flávio Bolsonaro reaches Miami after Brazil court order",
+      "explain": "Brazilian Senator Flávio Bolsonaro arrived in Miami after refusing to concede to President Luiz Inácio Lula da Silva. Brazil’s Supreme Court had ordered him to surrender his passports within 24 hours, citing a money-laundering probe and the risk he could flee. A senior US State Department official said the US would grant visas to him and his family.",
       "why": {
-        "text": "The move could deepen tensions between Brazil and the United States as the legal fight around Bolsonaro continues.",
-        "highlight": "deepen tensions between Brazil and the United States"
+        "text": "Brazil's Supreme Court had ordered him to surrender his passports within 24 hours.",
+        "highlight": "within 24 hours"
       }
     },
     "ffb43d61bc": {
       "emoji": "📈",
       "headline": "Fed holds rates steady as inflation stays sticky",
-      "explain": "The Federal Open Market Committee left interest rates unchanged, with Lisa D. Cook and Beth M. Hammack dissenting in favor of a quarter-point hike. Markets had already priced in a pause, but investors are now watching for how many more hikes the Fed may deliver. The article says stubborn inflation, higher energy costs, tariffs and AI-driven demand are keeping price pressures elevated.",
+      "explain": "The Federal Open Market Committee kept US interest rates unchanged, in line with market expectations, though two officials voted for a 25-basis-point increase. Traders had priced in a pause, and investors are now focused on how many more hikes the Fed may deliver. The article says inflation remains well above the central bank’s 2% target, with energy costs, tariffs and AI-related demand adding pressure.",
       "why": {
-        "text": "Traders now look to the next inflation data for clues on whether the Fed resumes tightening.",
-        "highlight": "next inflation data for clues"
+        "text": "Markets now look to the next inflation readings for clues on whether the Fed will raise rates again.",
+        "highlight": "raise rates again"
       }
     },
     "77fb78cc35": {
       "emoji": "🛢️",
-      "headline": "World Bank says war could push commodity prices up 23%",
-      "explain": "The World Bank expects commodity prices to rise 23% in 2026 if Middle East conflict worsens and Russian oil infrastructure keeps taking damage. It projects energy prices to jump 32%, oil supply to fall 5.2% this year, and Brent to average $92 a barrel. Food and metals are also expected to rise, with metals up 25% and precious metals up 40%.",
+      "headline": "World Bank sees commodity prices jump on Middle East war",
+      "explain": "The World Bank says global commodity prices could surge 23% in 2026, with energy prices projected to rise 32% and Brent averaging $92 a barrel. It warns that more conflict in the Middle East, plus damage to Russian oil infrastructure, could push prices even higher. The report also sees food prices rising more than 10% this year and metals rising 25% in 2026.",
       "why": {
-        "text": "Higher energy and metals costs could feed inflation, food insecurity and slower growth worldwide.",
-        "highlight": "feed inflation, food insecurity and slower growth"
+        "text": "Higher commodity prices could keep inflation elevated and squeeze growth across importing economies.",
+        "highlight": "keep inflation elevated"
       }
     },
     "09f2489496": {
       "emoji": "⚽",
-      "headline": "Real Madrid apologises to China after Mbappé Mao remarks",
-      "explain": "Real Madrid issued a formal apology after China’s state broadcaster rejected its defense of Kylian Mbappé over remarks comparing someone in a joke to Mao Zedong. China Media Group said the comments crossed a line, and La Liga broadcasts were suspended in China. Mbappé also apologized, but Chinese companies ended sponsorship deals and his social media accounts were restricted.",
+      "headline": "Real Madrid apologises after China rejects Mbappé defence",
+      "explain": "Real Madrid apologised after China’s state broadcaster rejected its initial defence of Kylian Mbappé’s remarks about Mao Zedong. China Media Group said it did not accept Real Madrid’s explanation that the comments were unintentional, and La Liga broadcasts in China have been suspended. Mbappé also apologised, but Chinese sponsors including Dongpeng, Mengniu and Shanghai Milkground Food Tech ended partnerships.",
       "why": {
-        "text": "Real Madrid and La Liga face commercial damage in China, one of football’s biggest overseas markets.",
-        "highlight": "commercial damage in China"
+        "text": "The dispute has disrupted La Liga’s broadcast and sponsorship ties in a major overseas market.",
+        "highlight": "broadcast and sponsorship ties"
       }
     },
     "2a56ab9187": {
       "emoji": "🦫",
-      "headline": "Zoo camera spots capybara seven months after escape",
-      "explain": "Marwell Zoo in Winchester says a capybara named Samba, missing since March, was photographed by wildlife cameras this month. Zoo staff say they know the area where she is but are moving carefully to avoid stressing her and driving her away. They have added more cameras and set out food to keep her nearby.",
+      "headline": "Zoo spots escaped capybara seven months after it got loose",
+      "explain": "Marwell Zoo in Winchester, England, says wildlife cameras have photographed Samba, a capybara that escaped in March. Staff have set up more cameras and a feeding area, and they say recovering her is being handled carefully to avoid stressing her. Samba escaped with another capybara, Tango, who was found quickly nearby.",
       "why": {
-        "text": "The search is still active, but the zoo is trying to recover Samba without forcing her into flight.",
-        "highlight": "recover Samba without forcing her into flight"
+        "text": "The search now focuses on keeping Samba in one area long enough for a safe recovery.",
+        "highlight": "safe recovery"
       }
     },
     "efe3a07dc6": {
       "emoji": "📊",
-      "headline": "Guinness record holder now owns more than 1,000 spreadsheet programs",
-      "explain": "Ariel Fischman, a financial advisor and Guinness World Record holder, says his physical collection of spreadsheet software now tops 1,000 items. He first set the record in 2018 with 506 unique copies. Fischman traces his obsession to writing about electronic accounting and says the spreadsheet changed how people work with data.",
+      "headline": "Spreadsheet collector passes 1,000 software items",
+      "explain": "Ariel Fischman, who holds a Guinness World Record for the largest collection of physical spreadsheet software, says he now has more than 1,000 items. He first set the record in 2018 with 506 copies. Fischman, a financial advisor, says he got into collecting after writing about the history of electronic accounting software like VisiCalc, the 1978 program that helped define the spreadsheet format.",
       "why": {
-        "text": "His collection shows how a niche software format became a major part of modern work.",
-        "highlight": ""
+        "text": "His collection shows how a niche piece of software history can become a serious archive.",
+        "highlight": "a serious archive"
       }
     }
   },
   "factcheck": [
     {
+      "item_id": "130ad7ecea",
+      "note": "Rewrote why to remove unsupported inference"
+    },
+    {
       "item_id": "bb63faf531",
-      "note": "Replaced unsupported consequence"
+      "note": "Replaced speculative consequence with factual stake"
     },
     {
-      "item_id": "f9342fdb96",
-      "note": "Removed speculation"
-    },
-    {
-      "item_id": "b451214da1",
-      "note": "Removed interpretation from why"
+      "item_id": "b45fed4ab7",
+      "note": "Removed unsupported prediction from why"
     }
   ],
   "page": {
     "tldr": [
       {
-        "text": "Google said Gemini 4 Carbon tops its cybersecurity and coding benchmarks.",
-        "highlight": "tops its cybersecurity and coding"
+        "text": "World Bank says commodity prices may jump as Middle East war disrupts energy and shipping.",
+        "highlight": "commodity prices may jump"
       },
       {
-        "text": "Apple launched a touchscreen MacBook Pro starting at $2,899.",
-        "highlight": "touchscreen MacBook Pro"
+        "text": "India cut prices on 543 anti-cancer medicine brands, with new caps starting November 9.",
+        "highlight": "543 anti-cancer medicine brands"
       },
       {
-        "text": "India cut prices on 543 anti-cancer drug brands.",
-        "highlight": "543 anti-cancer drug brands"
+        "text": "Israel’s election count still leaves no majority, and special ballots could change the seat split.",
+        "highlight": "no majority"
       }
     ],
     "hero": {
-      "text": "AI Trade is heating up: investors and companies are putting more money into AI-linked startups, chips, and related deals. Today that showed up in QwikBuild’s funding, Let’s Game Now’s funding, Info Edge’s profit report, and Cognizant’s talks to back Sarvam AI.",
-      "highlight": "AI Trade is heating up"
+      "text": "Middle East oil shocks is the pattern today: regional conflict is still moving energy prices and wider commodity markets. The World Bank story pushed it most clearly, by linking war-related disruption to a jump in prices.",
+      "highlight": "Middle East oil shocks"
     },
     "scoreboard": [
       {
-        "thread_id": "t_ai_power_siting_limits",
-        "line": "Google and the DOE story both point to AI running into power and site limits."
-      },
-      {
-        "thread_id": "t_industrial_hardware_capital",
-        "line": "Apple, SK Hynix, and OpenAI buying Google chips kept hardware spending in focus."
-      },
-      {
-        "thread_id": "t_ai_trust_and_governance",
-        "line": "The DOJ reportedly questioned Nvidia’s Hugging Face deal."
-      },
-      {
-        "thread_id": "t_israel_election_fragmentation",
-        "line": "Netanyahu’s bloc led but still lacked a majority, and special ballots could change seats."
-      },
-      {
-        "thread_id": "t_ai_trade_capital_rotation",
-        "line": "QwikBuild, Let’s Game Now, Info Edge, and Sarvam AI all drew fresh capital attention."
-      },
-      {
         "thread_id": "t_oil_supply_shocks_mid_east",
-        "line": "The World Bank warned war could lift commodity prices and worsen inflation."
+        "line": "World Bank warned Middle East war could lift commodity prices sharply."
       }
     ],
     "forces": [
       {
-        "force": "capital",
-        "line": "Capital kept flowing into AI startups, chips, and hardware, while commodity shock fears stayed elevated."
-      },
-      {
         "force": "geopolitics",
-        "line": "Israel’s vote stayed fragmented, and war risk kept commodity markets on edge."
+        "line": "Conflict in the Middle East pushed the oil-shock pattern forward."
       },
       {
-        "force": "regulation",
-        "line": "US officials questioned a Nvidia deal, and AI power use stayed constrained by rules and infrastructure."
-      },
-      {
-        "force": "technology",
-        "line": "New AI models, chips, and reactor upgrades kept pushing demand for compute and power."
+        "force": "capital",
+        "line": "Commodity markets and price expectations transmitted the shock globally."
       }
     ],
-    "pulse_india": "India funding went to B2B quick commerce, which sells to businesses, and esports gaming.",
-    "pulse_world": "Outside India, funding went to enterprise AI, meaning software tools for companies and AI agents.",
-    "dots": "Chip profits and chip-buying interest are pulling money into AI hardware, while war-driven commodity risk pushes investors toward those growth areas.",
+    "pulse_india": "B2B quick commerce, enterprise AI software, and gaming or esports startups got funding in India.",
+    "pulse_world": "Enterprise AI got funding outside India, with QwikBuild raising $2.3 million.",
+    "dots": "",
     "call": {
-      "thread_id": "t_ai_power_siting_limits",
-      "prediction": "If this pattern is real, expect another large power-supply deal for AI data centers within about 90 days.",
-      "check_in_days": 90
+      "thread_id": "t_oil_supply_shocks_mid_east",
+      "prediction": "World Bank will keep warning that Middle East conflict lifts commodity prices through the next two months.",
+      "measure": "World Bank commodity price outlook mentioning Middle East war disruption",
+      "threshold": "at least 1 new World Bank commodity-price outlook citing Middle East war disruption",
+      "window_days": 60,
+      "could_fail_because": "Prices may stabilize if conflict eases or shipping routes stay open.",
+      "confidence": 63
     },
     "quiz": [
       {
-        "question": "Why does Google’s Gemini 4 Carbon story matter in today’s digest?",
+        "type": "evidence",
+        "thread_id": "t_oil_supply_shocks_mid_east",
+        "item_ids": [],
+        "question": "Which of today's stories is evidence for Middle East oil shocks?",
         "options": [
-          "It shows AI model competition is still driving benchmark races.",
-          "It shows election coalitions are becoming easier to form.",
-          "It shows consumer laptop prices are falling fast."
+          "World Bank sees commodity prices jump on Middle East war",
+          "BJP wins two Bihar Council seats and leads in one more",
+          "India cuts prices on 543 anti-cancer medicine brands"
         ],
         "answer_index": 0,
-        "why": "The story is about benchmark leadership in a competitive AI model race."
+        "why": "It ties the Middle East war to higher commodity prices."
       },
       {
-        "question": "What does “enterprise AI” mean in QwikBuild’s funding story?",
+        "type": "weaken",
+        "thread_id": "t_oil_supply_shocks_mid_east",
+        "item_ids": [],
+        "question": "Which headline would weaken Middle East oil shocks?",
         "options": [
-          "Video games built for fans",
-          "AI tools sold to companies",
-          "AI chips sold to consumers"
+          "Global refiners warn of tighter supply after refinery damage",
+          "Oil prices fall after a ceasefire restores shipping routes",
+          "World Bank sees commodity prices jump on Middle East war"
         ],
         "answer_index": 1,
-        "why": "The input says QwikBuild sells enterprise AI tools, including in Japan."
+        "why": "A ceasefire and restored shipping would cut against the shock pattern."
+      },
+      {
+        "type": "why",
+        "thread_id": "",
+        "item_ids": [
+          "77fb78cc35"
+        ],
+        "question": "Why does this story matter?",
+        "options": [
+          "It shows inflation has already peaked and can now fall quickly.",
+          "It shows oil companies are expanding drilling in the Middle East.",
+          "It shows regional conflict can push up commodity prices and stress importers."
+        ],
+        "answer_index": 2,
+        "why": "The report links war-related disruption to higher commodity prices and inflation risk."
       }
     ]
   },
   "call": {
     "made": "2026-10-29",
-    "thread_id": "t_ai_power_siting_limits",
-    "thread_title": "Power & Siting Crunch",
-    "prediction": "If this pattern is real, expect another large power-supply deal for AI data centers within about 90 days.",
-    "review_by": "2027-01-27",
+    "thread_id": "t_oil_supply_shocks_mid_east",
+    "thread_title": "Middle East oil shocks",
+    "prediction": "World Bank will keep warning that Middle East conflict lifts commodity prices through the next two months.",
+    "measure": "World Bank commodity price outlook mentioning Middle East war disruption",
+    "threshold": "at least 1 new World Bank commodity-price outlook citing Middle East war disruption",
+    "could_fail_because": "Prices may stabilize if conflict eases or shipping routes stay open.",
+    "confidence": 63,
+    "review_by": "2026-12-28",
     "verdict": null,
     "verdict_note": ""
   }

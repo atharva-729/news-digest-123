@@ -1,28 +1,27 @@
 [
   {
     "made": "2026-10-27",
-    "thread_id": "t_ai_power_siting_limits",
-    "thread_title": "Power & Siting Crunch",
-    "prediction": "If this pattern is real, expect more AI projects to cite power or site delays within about 90 days.",
-    "review_by": "2027-01-25",
-    "verdict": null,
-    "verdict_note": ""
-  },
-  {
-    "made": "2026-10-28",
-    "thread_id": "t_ai_trust_and_governance",
-    "thread_title": "AI Governance Board",
-    "prediction": "If this pattern is real, expect more AI companies to publish formal risk disclosures or governance structures within about 3 months.",
-    "review_by": "2027-01-26",
+    "thread_id": "t_india_voter_rolls_tightening",
+    "thread_title": "India voter‑roll tightening",
+    "prediction": "India will see at least one more official move that makes voter registration harder or more document-heavy.",
+    "measure": "official election commission or court filing announcing a tighter voter-registration requirement",
+    "threshold": "at least 1 new rule or declaration requirement",
+    "could_fail_because": "The commission may stop at current changes, or courts may reverse them before another rule appears.",
+    "confidence": 62,
+    "review_by": "2026-12-26",
     "verdict": null,
     "verdict_note": ""
   },
   {
     "made": "2026-10-29",
-    "thread_id": "t_ai_power_siting_limits",
-    "thread_title": "Power & Siting Crunch",
-    "prediction": "If this pattern is real, expect another large power-supply deal for AI data centers within about 90 days.",
-    "review_by": "2027-01-27",
+    "thread_id": "t_oil_supply_shocks_mid_east",
+    "thread_title": "Middle East oil shocks",
+    "prediction": "World Bank will keep warning that Middle East conflict lifts commodity prices through the next two months.",
+    "measure": "World Bank commodity price outlook mentioning Middle East war disruption",
+    "threshold": "at least 1 new World Bank commodity-price outlook citing Middle East war disruption",
+    "could_fail_because": "Prices may stabilize if conflict eases or shipping routes stay open.",
+    "confidence": 63,
+    "review_by": "2026-12-28",
     "verdict": null,
     "verdict_note": ""
   }

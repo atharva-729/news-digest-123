@@ -69,15 +69,18 @@ def run(cfg, date):
     rows.sort(key=lambda r: (-r["week"], name(r["thread"])))
 
     calls = read_json(DATA / "calls.json", [])
-    due = [(n, c) for n, c in enumerate(calls) if c["review_by"] <= date and not c["verdict"]]
+    # Every open prediction made before today is checked: it can be "right" early if its threshold is met,
+    # but only "wrong" once its window has closed. Otherwise it stays "too early".
+    due = [(n, c) for n, c in enumerate(calls) if not c["verdict"] and c["made"] < date]
     items = week_items(days)
     data = {
         "moved": [{"id": r["thread"]["id"], "nickname": name(r["thread"]), "idea": one_line(r["thread"]),
                    "forces": r["thread"]["forces"], "status_last_week": r["from"], "status_now": r["to"],
                    "born_this_week": r["born"], "went_dormant": r["died"], "evidence_this_week": r["notes"]}
                   for r in rows],
-        "calls_due": [{"index": n, "made": c["made"], "thread": c["thread_title"], "prediction": c["prediction"]}
-                      for n, c in due],
+        "calls_due": [{"index": n, "made": c["made"], "thread": c["thread_title"], "prediction": c["prediction"],
+                       "measure": c.get("measure", ""), "threshold": c.get("threshold", ""), "window_ends": c["review_by"],
+                       "window_closed": c["review_by"] <= date} for n, c in due],
         "week_items": [{k: v for k, v in it.items() if k not in ("url", "source")} for it in items.values()] if due else [],
     }
     prompt = (load_prompt("weekly").replace("{{style}}", load_prompt("style")).replace("{{start}}", days[0])
@@ -93,7 +96,11 @@ def run(cfg, date):
         c = calls[v["index"]]
         # Only news that arrived after the call can settle it; the items that inspired it don't count.
         evidence = [items[i] for i in v["item_ids"] if i in items and items[i]["date"] > c["made"]]
-        verdict = v["verdict"] if evidence else "too_early"
+        verdict = v["verdict"]
+        if verdict == "right" and not evidence:
+            verdict = "too_early"  # no evidence, no verdict
+        if verdict == "wrong" and c["review_by"] > date:
+            verdict = "too_early"  # can't be wrong before its window closes
         if verdict != "too_early":
             c["verdict"], c["verdict_note"], c["verdict_date"] = verdict, v["note"].strip(), date
         reviewed.append({**c, "shown_verdict": verdict, "note": v["note"].strip(), "evidence": evidence})
@@ -103,9 +110,22 @@ def run(cfg, date):
     for r in rows:
         if r["died"]:
             continue
-        view = thread_view(r["thread"], date, "new" if r["born"] else None, lines.get(r["thread"]["id"], ""))
+        view = thread_view(r["thread"], date, lines.get(r["thread"]["id"], ""))
         moved.append({**view, "week": r["week"], "from": r["from"], "to": r["to"]})
+    # Merges and splits this week are shown, never silent.
+    all_threads = {t["id"]: t for t in now["threads"]}
+    nm = lambda tid: name(all_threads[tid]) if tid in all_threads else tid
+    restructured = []
+    for d in days:
+        snap = read_json(DATA / "threads" / f"{d}.json")
+        if not snap:
+            continue
+        for m in snap["today"].get("merges", []):
+            restructured.append(f"{short_date(d)}: “{nm(m['absorb'])}” merged into “{nm(m['keep'])}”")
+        for s in snap["today"].get("splits", []):
+            restructured.append(f"{short_date(d)}: “{nm(s['from'])}” split into " + " and ".join(f"“{nm(i)}”" for i in s["into"]))
     ctx = {
+        "restructured": restructured,
         "start": short_date(days[0]), "end": short_date(date), "headline": out["headline"].strip(),
         "tldr": [checked(x) for x in out["tldr"][:3]], "intro": checked(out["intro"]),
         "moved": moved,
