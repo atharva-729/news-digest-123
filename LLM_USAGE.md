@@ -20,11 +20,12 @@ delivery use no LLM at all.
 | `write:cards1` | Explains the tech stories from the article text (headline, explanation, why it matters) | gpt-5.4-mini · low | 1 | ~7.6k / ~1.5k |
 | `write:cards2` | Same for all other sections | gpt-5.4-mini · low | 1 | ~11.5k / ~1.4k |
 | `write:page` | The day in 3 lines, the big picture, force lines, prediction, 2 quiz questions | gpt-5.4-mini · low | 1 | ~4.8k / ~0.7k |
+| `write:factcheck` | Checks the ~7 politics/world cards against their articles; removes interpretation and speculation, adds attribution | gpt-5.4-mini · low | 1 | ~8k / ~1.6k |
 | `write:retry` | Only if a card was skipped | gpt-5.4-mini · low | 0–1 | small |
 
-**Per day:** about 12 calls, ~65k tokens in and ~12k out. The gpt-5-mini steps cost about **$0.026/day**
-at list prices; the gpt-5.4-mini steps (~25k in / ~4k out) add roughly $0.02–0.04 depending on its price.
-**Ballpark: $0.06/day, about $2/month.** Weekly adds one `weekly` call (~3.2k in / ~0.5k out).
+**Per day:** about 13 calls, ~73k tokens in and ~14k out. The gpt-5-mini steps cost about **$0.026/day**
+at list prices; the gpt-5.4-mini steps (~33k in / ~6k out) add roughly $0.03–0.05 depending on its price.
+**Ballpark: $0.07/day, about $2/month.** Weekly adds one `weekly` call (~3.2k in / ~0.5k out).
 
 gpt-5.4-mini isn't in `model.prices` in `config.yaml` yet, so its cost logs as null. Add its price there and
 the log fills in.
@@ -41,6 +42,8 @@ the log fills in.
 - **Select at minimal reasoning** (ranking, 6 calls); **threads and connect at low** (minimal rarely grouped
   stories into patterns).
 - **Connect is the biggest single input** (~18k: 300 past headlines). Halving `lookback_max_items` halves it.
+- **Fact-check for politics** (2026-10-29): prompt rules alone let interpretation through ("exposes dissent",
+  "could strain ties"); a second pass against the article fixed 3–5 of 7 cards a day in testing.
 - **Guard:** if an answer contains a non-English script the prompt didn't (seen once: a Russian word), the
   call is retried with an "English only" instruction.
 

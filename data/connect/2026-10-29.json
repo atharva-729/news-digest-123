@@ -2,111 +2,81 @@
   "date": "2026-10-29",
   "backstory": [
     {
-      "thread_id": "t_ai_capital_rotation",
-      "item_id": "8b52050569"
-    },
-    {
-      "thread_id": "t_ai_capital_rotation",
-      "item_id": "3e30951c53"
-    },
-    {
-      "thread_id": "t_ai_energy_constraints",
+      "thread_id": "t_ai_power_siting_limits",
       "item_id": "82ff6a45df"
     },
     {
-      "thread_id": "t_ai_energy_constraints",
-      "item_id": "bfaa65444a"
+      "thread_id": "t_industrial_hardware_capital",
+      "item_id": "8b16dabd7f"
     },
     {
-      "thread_id": "t_ai_governance_institutionalization",
+      "thread_id": "t_industrial_hardware_capital",
+      "item_id": "3375d01916"
+    },
+    {
+      "thread_id": "t_ai_trust_and_governance",
       "item_id": "e4cf0eb55b"
     },
     {
-      "thread_id": "t_ai_governance_institutionalization",
+      "thread_id": "t_ai_trust_and_governance",
       "item_id": "afbc0bbf36"
     },
     {
-      "thread_id": "t_india_voter_roll_tightening",
+      "thread_id": "t_india_voter_rolls_and_documentation",
       "item_id": "ba9b5845f1"
     },
     {
-      "thread_id": "t_israel_political_fragmentation",
+      "thread_id": "t_israel_election_fragmentation",
       "item_id": "7fc37f6b46"
     },
     {
-      "thread_id": "t_israel_political_fragmentation",
+      "thread_id": "t_israel_election_fragmentation",
       "item_id": "3d8801bac5"
     },
     {
-      "thread_id": "t_israel_political_fragmentation",
+      "thread_id": "t_israel_election_fragmentation",
       "item_id": "c88d618524"
     },
     {
-      "thread_id": "t_oil_supply_shocks_driving_em_inflation",
-      "item_id": "27b8301f84"
+      "thread_id": "t_ai_trade_capital_rotation",
+      "item_id": "ce925cab7b"
     },
     {
-      "thread_id": "t_oil_supply_shocks_driving_em_inflation",
-      "item_id": "227ca1d2ed"
+      "thread_id": "t_oil_supply_shocks_mid_east",
+      "item_id": "27b8301f84"
     }
   ],
   "throwbacks": [
     {
       "item_id": "0ebb7cec19",
-      "kind": "same_pattern",
-      "line": "Last week the US funded $389M for power semiconductors; today DOE loans $5B to nuclear plants that will power data centres.",
+      "kind": "cause",
+      "line": "Last week industry asked for faster approvals and cheaper power; today DOE loans $5B to reactors supplying major data centers.",
       "past": {
-        "id": "41eee0cf45",
-        "date": "2026-10-22",
-        "title": "US to award $389 million in R&D funds for power semiconductors, critical materials",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeHQ5cE1SRTVJQVJTRFl1bFhjWDR2ZUZ1elVOY2QwWDEtZzhBNVFfbk5NcC1UUG0tNFp5SGpMa1UyeG1mbXJtSzVmZnd5RGpWTlhQZnRPZks5SHZSUWIwSGhRRlJ3T3FpZkpNaFdSUmlObHdvWGlGREh0NTk2YWozaU8zWFVXRjRpdFNaSlVmQ0lwT0JNb3VIbkRoQnZHRzJrTGV1bWQtNlpXU1lsQ3o4amxCVmtQbW8?oc=5",
-        "source": "Reuters",
-        "section": "tech"
+        "id": "82ff6a45df",
+        "date": "2026-10-28",
+        "title": "Industry Wants Faster Approvals and Cheaper Power in India’s Data Centre Policy",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbFdZeURBTERUUUFuWjlhQUxzQlY2WGdBc3ZGb1R5b042YmlWcWowU1pqNEpQdUU2ZGU1WndOWjhPYzNud0NiQkQ4bjR1NkluZlRERnM4aU5Rc3NhOEU0MzlKY1NhOUxKU25mbHYtVjVacnc0R3paUXQ0M2w2SFFwUjdSMXZGd3NFYS1BcGV3NEtlTlVrdHc?oc=5",
+        "source": "Analytics India Magazine",
+        "section": "politics_india"
       }
     },
     {
       "item_id": "37be22d33d",
-      "kind": "same_pattern",
-      "line": "Last week an Indian AI startup got NVIDIA-backed funding; today OpenAI is buying Google's AI chips, both showing rising chip demand.",
+      "kind": "cause",
+      "line": "Commonwealth Fusion Systems raised $85M for advanced semiconductors last week; today OpenAI buying Google AI chips reflects intense hardware demand.",
       "past": {
-        "id": "3e30951c53",
-        "date": "2026-10-27",
-        "title": "Bengaluru AI Startup Simplismart Raises $14 Mn in NVIDIA-Backed Round",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNzJTX05EeDlOMU4xcTVpcFZfZzVGV1hYNzdNZnozYWp4V3dtU0FDNGZMcGJZVmJDak1wVUZsakVOVVNRMUc3VmozbFppNFNIU3ZtaUp4czUyd2ZleTZuZm5OWG13ZW8tVTNJMXhQSnRsTXJnUEgyZlhES2hyTklSR0tkcmdoQTEzRzJRc2ZyQk9xRjdnV1c0cGdDUkUzVDk4YTE3WFlmbnhFZw?oc=5",
-        "source": "Analytics India Magazine",
+        "id": "bfaa65444a",
+        "date": "2026-10-23",
+        "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZm9aRVdadXVfblNmMU1hUkh0OGpuODI0Z2l2S1NXQmtER2ZsMlJaR2Y2M1hpZXFoV2hfRTJNaUNMc1JYbC1hYTR6RW5TR21JNnlZZnFkak9vV3ZNSnRKcW1XWHhyWFE5Rjhtc1ViQTVObTBkYmZjYXNBZmdsa0N2UURxRC1kSkZ3N3RJWDl0dUV3UEhTNU9UVno1UDBWeHBFOUpLb2FhY3lfSTYyV3F5elcyODJnZw?oc=5",
+        "source": "TechCrunch",
         "section": "tech"
-      }
-    },
-    {
-      "item_id": "8d743f5fea",
-      "kind": "same_pattern",
-      "line": "Last week Anthropic planned steps to avoid Wall Street pressure; today the US DOJ is probing Nvidia's Hugging Face deal, showing rising oversight.",
-      "past": {
-        "id": "40066215b8",
-        "date": "2026-10-27",
-        "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
-        "source": "The Verge",
-        "section": "tech"
-      }
-    },
-    {
-      "item_id": "1abf129f2d",
-      "kind": "sequel",
-      "line": "Last week explained how Israel's Knesset vote works; today results show the Netanyahu bloc leading, moving the election story forward.",
-      "past": {
-        "id": "7fc37f6b46",
-        "date": "2026-10-26",
-        "title": "Israel election guide: How 120-seat Knesset vote works, key candidates, and what’s at stake for Gaza",
-        "url": "https://indianexpress.com/article/world/israel-election-2026-voting-updates-benjamin-netanyahu-gadi-eisenkot-knesset-october-27-10937546/",
-        "source": "Indian Express World",
-        "section": "politics_world"
       }
     },
     {
       "item_id": "da0575cf03",
       "kind": "sequel",
-      "line": "Last week Info Edge announced a CEO change; today the company reported profit up 87%, continuing the management and performance story.",
+      "line": "Last week reported Info Edge CEO Hitesh Oberoi stepping down; today Info Edge reported PAT rising 87% in Q2 FY27.",
       "past": {
         "id": "51164e979a",
         "date": "2026-10-28",

@@ -25,10 +25,16 @@ Your job:
    - The title is a clear 4–10 word version of the claim.
    - `nickname` is a catchy 2–4 word handle a reader remembers, like a news-show segment name
      ("The Power Crunch", "Rupee Startup Rush", "Chip Nationalism"). No emoji.
-   - `plain` says the pattern in plain English, ≤ 15 words, as you'd text it to a friend.
+   - `plain` says the pattern in plain English, ≤ 15 words.
    - `forces` must come from the fixed list. Usually 1–2.
    - Prefer threads that **cross sections** (e.g. a tech item and a markets item feeding one pattern).
    - Before creating a thread, check that no existing thread or candidate already covers it; attach instead.
+   - **Political threads (parties, elections, governments, courts, protests) must be strictly factual.** The
+     claim describes only what the evidence shows: results, votes, rulings, laws, official actions, who said
+     what. No motives, strategy or judgement ("tightening grip", "consolidating control", "power grab",
+     "crackdown", "polarisation") unless the sources themselves report it. Nicknames are neutral descriptions
+     ("BJP's council poll wins", not "Institutional Grip"). Test: would supporters and critics both accept the
+     claim as a fair summary of the evidence? A few election wins are evidence of election wins, nothing more.
 
 3. **Merges.** There are {{active_count}} active threads; the cap is {{max_active}}. {{merge_instruction}}
    A merge folds `absorb` into `keep`; both must be existing thread ids. Only merge true overlaps.

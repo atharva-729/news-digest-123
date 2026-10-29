@@ -2,100 +2,34 @@
   "date": "2026-10-27",
   "threads": [
     {
-      "id": "t_ai_capital_rotation",
-      "title": "Capital rotates back into AI and deep‑tech startups",
-      "nickname": "AI Money Shift",
-      "plain": "Investors are redeploying large capital into AI, industrial automation and hardware startups.",
-      "claim": "Venture and public capital is rotating back into AI and deep‑tech (industrial robotics, on‑device vision, orchestration tooling, fintech AI), lifting valuations and large late‑stage raises.",
+      "id": "t_ai_power_siting_limits",
+      "title": "AI growth bumps up against power and siting limits",
+      "nickname": "Power & Siting Crunch",
+      "plain": "AI expansion is increasingly limited by data‑centre power and siting constraints.",
+      "claim": "AI expansion is increasingly limited by data‑centre power and siting constraints.",
       "forces": [
-        "capital",
-        "technology"
+        "technology",
+        "regulation"
       ],
       "created": "2026-10-27",
       "evidence": [
         {
-          "date": "2026-10-21",
-          "item_id": "d50e9ddbe9",
+          "date": "2026-10-27",
+          "item_id": "0314877842",
           "section": "tech",
-          "title": "Legal AI startup Legora valued at $8.8 billion in new $550 million funding round",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOb3dxWTFFQ05Ddm9pX0w2RjdIcW41OXdQOHNZWnpzY0dKbjNJQ1FZUnNVekI3akxmMXNLdGpZSFhuMzJtdUNqSi1UTGxWaGkzQ2cyY29kbXV2SXoyTE1SelZPTkZ4TG9zLWI4X3RtUHFQbGMyMWVDUmwzWHp0RTl4cFJuOUM2ZExXYkJ2Z0JmdTViTi1yVTlsa280UW52ZWVfZUJYNE1kMzBPTHJCZGl5dkk4QktYTVRxYlhGdzhWTnhKdjV6bEE?oc=5",
-          "source": "Reuters",
-          "note": "Legal AI startup Legora raised a headline $550M round and $8.8B valuation, concrete evidence of big capital flowing into AI.",
-          "added_on": "2026-10-27"
-        },
-        {
-          "date": "2026-10-22",
-          "item_id": "098da1753d",
-          "section": "tech",
-          "title": "Karta AI Raises $3 Million in Seed Round Led by PeerCapital, Cedar Hill Capital",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeTB1anFBUTA2LUgyMkYwNnZfeHdOS29nVFFlWlMyM2tpb3NzUGM4S2xHVUhaN21tdHluVGU1M21KMEkyM3FCNmNiWGlQMHl1bnpRMXNWREJObEJjbkY5cUw5YlNLT2tvLTltV0o5bDJMenlYU21LV21sZDd1SkxvWmx6SjBwLXB6R0RsQlVLTjJEeUlUb3VfUlF0TU53S1R4VnlmQ2t4T0ZqSDhwbWw4Q0hGMA?oc=5",
-          "source": "https://ascendants.in/",
-          "note": "Karta AI's $3M seed round last week underscores continued investor activity in early-stage AI ventures.",
-          "added_on": "2026-10-27"
-        },
-        {
-          "date": "2026-10-24",
-          "item_id": "26ac4a5663",
-          "section": "tech",
-          "title": "The Week’s 10 Biggest Funding Rounds: AI Drives A Varied Lineup Of Large Financings",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMGxkU1NjR2xRMU5MVmRtMnRSTmV0QnhaZHN5b0I1OWFPRVlDN2tSWW5YM1NmQUZoNnBETThwdjFEOHNkSUNFVUNUMXA1bmFGYUhTeDV2UDk3RzJlODE3dlNRR1ZoekFXRTk4QmVLbzV3SWxHTk81R2RXYWdyMWplc2xLeWk0MjRWNE10clJjb3lRbDJycTdiRlZRelZESGlf?oc=5",
-          "source": "Crunchbase News",
-          "note": "Last week’s roundup named AI as driving the week’s biggest funding rounds, showing large financings concentrated in AI startups.",
-          "added_on": "2026-10-27"
+          "title": "Anthropic is burning gas to feed the AI boom",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+          "source": "The Verge",
+          "note": "Anthropic S-1 says competition for electrical supply and data‑centre locations is intense."
         },
         {
           "date": "2026-10-27",
-          "item_id": "3b1fe9cd90",
+          "item_id": "17fc845daf",
           "section": "tech",
-          "title": "Tech stocks rally as AI trade revives",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQm1VVGN1Y0lKVHlJU1dwUWROSDZJbTRQcmlPelZiTXhUVVZENUJsRVlwd19uZ1J4QzU4N2ZjNG15cHMtallFb2M4M1kxaThOVUlOcHh1ekxtdlA3aWQxSGtRU3lQc3hIOVY1SGhjb3NXV1pqRTVtaDJDWktIaHJZQnBLRmg?oc=5",
-          "source": "Financial Times",
-          "note": "Broad tech stocks rally signals investors rotating back into AI-driven growth."
-        },
-        {
-          "date": "2026-10-27",
-          "item_id": "71e233aae0",
-          "section": "tech",
-          "title": "Physical AI vision company Nova Spectral AI raises Rs 21.15 Cr led by Shastra VC",
-          "url": "https://entrackr.com/snippets/physical-ai-vision-company-nova-spectral-ai-raises-rs-2115-cr-led-by-shastra-vc-12756634",
-          "source": "Entrackr",
-          "note": "Nova Spectral AI raises ₹21.15 Cr seed, showing investor capital for physical AI vision hardware in India."
-        },
-        {
-          "date": "2026-10-27",
-          "item_id": "5383be2c86",
-          "section": "tech",
-          "title": "This startup’s self-driving excavators help dig up $600M in new funding",
-          "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
-          "source": "TechCrunch",
-          "note": "Bedrock Robotics' $600M raise (valuation $4.1B) signals large capital flowing into industrial automation."
-        },
-        {
-          "date": "2026-10-27",
-          "item_id": "837fb6a3e2",
-          "section": "tech",
-          "title": "London’s Querio launches with €4.48 million to help companies tackle conflicting answers across AI tools",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSXhERjJobG91S1JmZTNGMHFYeFB5X01LVlhFS2ctdXczaTByX0VCcFNxbFNMblZMUUlZWDN4NXdLMmJ4UXZoQzV0MzFXaTNNTUhFSWlLWWxTYVB3YXNEQWNfVGVYcm1TWi10VHZEUnZyNG9fNWlLRGcwWXlTa1M1azlYX2V1T2l0T1V0YWpsVGpsU1dnbGZZeXR2YndoSTBuNDNFc2lhWnRDZ2hnMmdJa2VmVV9uS1VfcHJ0OUQxMURlMUtjTkRpcUhDS3lHU1pPeDdrNEZ0VHA1YmFHcnBiY1JRWmZvRi10NUVpN2tFVkdPMDQ?oc=5",
-          "source": "EU-Startups",
-          "note": "Querio's €4.48M launch shows investor demand for AI orchestration tooling for enterprises."
-        },
-        {
-          "date": "2026-10-27",
-          "item_id": "c2cbc24d60",
-          "section": "tech",
-          "title": "Vouch raises $500K from Y Combinator to build an AI wealth manager for India",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQmh2Y082dVZKNjZMUDg2MjFzU254S0d0cEpOT3JBWHlkLW84TmV1dWVCd0JEYU5rRlFQQkUwTXZUX282Zm5XcXYybWJHWHRtUjYtZVhRU3JBdnFUMXdUeEpybWlodEVRbjZJVUtfS1BYRkN4dHZXelBrYTNsWmlZaXlQbXh4aVI4VU9saUljLUw5S1hPSjBycDlybGNvX011QXlzeE9aczdkWFNqVHc?oc=5",
-          "source": "Dealroom",
-          "note": "Vouch's $500K YC raise for an AI wealth manager for India signals capital into fintech+AI in emerging markets."
-        },
-        {
-          "date": "2026-10-27",
-          "item_id": "9519468211",
-          "section": "tech",
-          "title": "YC-backed Mochatrade raises $5.5 million to bring US stock perpetuals to Indian traders",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVHI4RERGb1BlTVZYTS1oTlBtR2NNMi0zeEw0cGJnVVBBUGc3cTVDTU00S3JxR3J2eEN5RUZ4RUNwM2ZKeEpNMDBkN1V3bE5GNTlSVC1wZXpoeUV4VjZNdFJPVFY1VkF2eWYtd2doRmxLRmM2MnpnWTNWZGZxWFhUX29PRkV2WDVqNEZqTkxoWjViN2lqRGZDZHpaUUZWXzFpNW9aeUFhQUFQQ0wzVm82dmdyZEJxc2JDVXg5ODhNbG1PeGpZQlFoVFZVUWPSAcwBQVVfeXFMT1RyOERERm9QZU1WWE0taE5QbUdjTTItM3hMNHBiZ1VQQVBnN3E1Q01NNEtycUdydnhDeUVGeEVDcDNmSnhKTTAwZDdVd2xORjU5UlQtcGV6aHlFeFY2TXRST1RWNVZBdnlmLXdnaEZsS0ZjNjJ6Z1kzVmRmcVhYVF9vT0ZFdlg1ajRGak5MaFo1YjdpakRmQ2R6WlFGVl8xaTVvWnlBYUFBUENMM1ZvNnZncmRCcXNiQ1V4OTg4TWxtT3hqWUJRaFRWVVFj?oc=5",
-          "source": "Indian Startup News",
-          "note": "Mochatrade's $5.5M raise to bring US stock perpetuals to Indian traders shows capital into crypto/derivatives infra for retail."
+          "title": "Data center backlash is uniting America",
+          "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+          "source": "The Verge",
+          "note": "Data-centre backlash across US communities is constraining siting and expansion of server capacity."
         }
       ],
       "last_seen": "2026-10-27",
@@ -104,21 +38,21 @@
       ],
       "status": "heating",
       "teach": {
-        "one_line": "Money is flowing back into AI and deep-tech, pushing up valuations and big raises.",
-        "like": "Like a gold rush: people stop digging and start selling shovels.",
-        "why": "Money chases the next big profit, and new AI tools and machines look promising again.",
-        "remember": "Sell shovels in a rush."
+        "one_line": "AI growth is increasingly constrained by power supply and available data-centre sites.",
+        "like": "Like opening more restaurants when kitchens and permits run out.",
+        "why": "More compute needs more electricity and land; regulation and local opposition make those inputs slower to secure.",
+        "remember": "No power, no buildout."
       }
     },
     {
-      "id": "t_ai_energy_constraints",
-      "title": "AI growth constrained by power and siting limits",
-      "nickname": "The Power Limit",
-      "plain": "Power availability and local opposition are limiting where and how fast AI data centres can grow.",
-      "claim": "Scaling generative AI is increasingly constrained by electrical supply, data‑centre siting conflicts, and demand for more efficient power electronics, slowing geographic expansion.",
+      "id": "t_industrial_hardware_capital",
+      "title": "Capital pours into industrial and hardware AI",
+      "nickname": "Heavy‑AI Cash",
+      "plain": "Venture and corporate capital is shifting toward industrial/hardware AI and power semiconductors.",
+      "claim": "Venture and corporate capital is shifting toward industrial/hardware AI and power semiconductors.",
       "forces": [
-        "technology",
-        "regulation"
+        "capital",
+        "technology"
       ],
       "created": "2026-10-27",
       "evidence": [
@@ -129,7 +63,7 @@
           "title": "US to award $389 million in R&D funds for power semiconductors, critical materials",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeHQ5cE1SRTVJQVJTRFl1bFhjWDR2ZUZ1elVOY2QwWDEtZzhBNVFfbk5NcC1UUG0tNFp5SGpMa1UyeG1mbXJtSzVmZnd5RGpWTlhQZnRPZks5SHZSUWIwSGhRRlJ3T3FpZkpNaFdSUmlObHdvWGlGREh0NTk2YWozaU8zWFVXRjRpdFNaSlVmQ0lwT0JNb3VIbkRoQnZHRzJrTGV1bWQtNlpXU1lsQ3o4amxCVmtQbW8?oc=5",
           "source": "Reuters",
-          "note": "U.S. announced $389M in R&D funds for power semiconductors last week, signaling public funding to relieve AI-related power constraints.",
+          "note": "Last week reported the US will award $389 million in R&D funds for power semiconductors.",
           "added_on": "2026-10-27"
         },
         {
@@ -139,26 +73,18 @@
           "title": "Infineon, NVIDIA collaborate on GaN for 800VDC AI data centres",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ1piQzdoc3pVRkFJV1pfWHF0UzVmay1WOGZrZUJMbGlCTDRuYV9JTEFOclM1aGxGUWFGMzVGNTFVbF9jNHJFUXphRm9NSWUzblY4dEIyQk1pbktXaW1xMmJEdHlfcUlRVVdmY3BfTGlPOEx1akxEdlVPWmthbjFMT2JrZXZ4MlVNREFTLWVVdE0zZGFYRjl4elZ1SUo4UWU2NTU4NDFydllUYk82RzlOeEJZVmF3TlQ4Z2FJc1p3VENxMDE2QnJGRmFKZURUTFNsaUJ1MmdR0gHbAUFVX3lxTE15UVh2SFM5MHhNTlVHbFpqRzV2YkZNZmVGZFlWdHBaNWJhREtoTVA1RjQ0T3J6TXFLTEQwdDJYdnFWTWlVWll4WFl6dDA5R3N6SS05am1yYUFzM05tQmhZNWQ0WTlLYVRhR3NrMGcyZkRtWWE5NkxkMVpsMmZOeDNVZHZNeEZQN1J5cmZzeHF5TzFfeWE5bEdIRXh2X3JQOXgtMWxubkZ0VWFXTjZ4REdaRnBQdXhZRnRwdGF3b0hXQUZKd3VYWTEwaHNlX2xRSVJiX3VWdVJpYXVTUQ?oc=5",
           "source": "electronics.economictimes.indiatimes.com",
-          "note": "Last week reported an Infineon–NVIDIA collaboration on GaN for 800VDC AI data centres, pointing to semiconductor efforts driven by AI power needs.",
+          "note": "Last week reported Infineon and NVIDIA collaborating on GaN for 800VDC AI data centres.",
           "added_on": "2026-10-27"
         },
         {
-          "date": "2026-10-27",
-          "item_id": "0314877842",
+          "date": "2026-10-26",
+          "item_id": "799476db76",
           "section": "tech",
-          "title": "Anthropic is burning gas to feed the AI boom",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
-          "source": "The Verge",
-          "note": "Anthropic S‑1 warns of intense competition for electrical supply and methane dependency for data centres."
-        },
-        {
-          "date": "2026-10-27",
-          "item_id": "17fc845daf",
-          "section": "tech",
-          "title": "Data center backlash is uniting America",
-          "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
-          "source": "The Verge",
-          "note": "Nationwide local backlash against data‑centre buildouts is constraining siting and expansion."
+          "title": "This startup’s self-driving excavators help dig up $600M in new funding",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNmpvY1pGQzRtcWpnV1JBQXNwUGowRmNUcEFfV3NBX3BFR3ptTjl1UUpDZm5ackljOE1Kb1FrOWtKdEk0V1FzVE5VNUdUc01rQkgtcGFuQkltZThqMTM5NGpQc2lJeW5MYnRsY041dzMySzdONWJGRWYwV2ZqRE9CTDlrZnd5WFFSMl9FdUliTEZzQUJXZk5paExQZEQzSVVOLV84alNFdw?oc=5",
+          "source": "TechCrunch",
+          "note": "Last week reported the startup's $600M funding for self-driving excavators.",
+          "added_on": "2026-10-27"
         },
         {
           "date": "2026-10-27",
@@ -167,7 +93,25 @@
           "title": "Infineon to build Europe’s first high-volume 300mm GaN power semiconductor plant",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbGY3eExaTS1tVHVMY1NGUWU0SnF0eXNZbnBDaWlLUlhoazVoVHcyQ1JCWWdBRnc1SHdwY05WTUl4TFpfcHoydzBYYmdueGpqODQ1UXhtSDcwcmlFUkRqQkE5Nm40QnFIb2JnZWFVSDJtLVRxUmc5SlVMQjhlYlViemhPXzlrSV9FQmg2WUxlQ1lLWndJa0tvRDZfbEtUYjF2ekI2NzhyTUFwWXlnUHA1dFQ3UFVhOC1NMHNrTFU5dVJnS0t6?oc=5",
           "source": "New Electronics",
-          "note": "Infineon to build Europe's first high‑volume 300mm GaN power plant, shifting power‑semiconductor capacity toward efficient data‑centre power electronics."
+          "note": "Infineon to build Europe’s first high-volume 300mm GaN power plant (concrete industrial-capex shift)."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "71e233aae0",
+          "section": "tech",
+          "title": "Physical AI vision company Nova Spectral AI raises Rs 21.15 Cr led by Shastra VC",
+          "url": "https://entrackr.com/snippets/physical-ai-vision-company-nova-spectral-ai-raises-rs-2115-cr-led-by-shastra-vc-12756634",
+          "source": "Entrackr",
+          "note": "Nova Spectral AI raises Rs 21.15 Cr seed for physical AI vision hardware."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "5383be2c86",
+          "section": "tech",
+          "title": "This startup’s self-driving excavators help dig up $600M in new funding",
+          "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+          "source": "TechCrunch",
+          "note": "Bedrock Robotics raises $600M for autonomous excavators, valuation $4.1B."
         }
       ],
       "last_seen": "2026-10-27",
@@ -176,32 +120,32 @@
       ],
       "status": "heating",
       "teach": {
-        "one_line": "AI growth is hitting power limits, so data centers are harder to build and expand.",
-        "like": "Like trying to add rooms when the house wiring keeps blowing.",
-        "why": "Technology needs more electricity than the grid and local rules can easily supply.",
-        "remember": "No power, no expansion."
+        "one_line": "Capital is flowing toward physical AI hardware and power semiconductor infrastructure.",
+        "like": "Like a gold rush shifting from prospectors to shovel makers.",
+        "why": "Investors back the tools and hardware that every AI system needs, where industrial demand and returns look steadier.",
+        "remember": "Sell the shovels."
       }
     },
     {
-      "id": "t_ai_governance_institutionalization",
-      "title": "AI companies formalize governance beyond founders",
-      "nickname": "Governance Guardrails",
-      "plain": "AI firms are creating formal governance structures to manage powerful models and cross‑border trust risks.",
-      "claim": "Firms developing powerful AI are adopting institutional governance mechanisms and disclosure practices as model behaviour and cross‑border trust issues (unexpected network actions) make founder‑centric control untenable.",
+      "id": "t_ai_trust_and_governance",
+      "title": "Trust and governance debates move into AI corporate filings",
+      "nickname": "AI Governance Board",
+      "plain": "Firms are formalising governance and trust measures for powerful AI in filings and disclosures.",
+      "claim": "Firms are formalising governance and trust measures for powerful AI in filings and disclosures.",
       "forces": [
-        "regulation",
-        "geopolitics"
+        "geopolitics",
+        "regulation"
       ],
       "created": "2026-10-27",
       "evidence": [
         {
           "date": "2026-10-24",
-          "item_id": "00fe42d41d",
+          "item_id": "df32860d7c",
           "section": "tech",
-          "title": "State artificial intelligence laws create a complicated picture for psychologists",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdGwtRG9IRHhaeHlvbEtHLWtQSzhZTkFJajZBVU1IcmMtZzJwNVo1S1paWlNScnJhSkNTUWlzRy1wYjZneUV5QkdqQzI3a0dwQnQ0NXFPUk1yZ2w2UHBkU2RwMzZubFAwMjNOTUNESHluMWxCbko1c3JtRXJWWjlTcG55dHRjWTF5cUJUTkxicF9rRGZuN092WDVoNA?oc=5",
-          "source": "American Psychological Association (APA)",
-          "note": "Last week covered a patchwork of state AI laws, evidencing rising regulatory pressure pushing firms toward governance practices.",
+          "title": "Bill Gates warns of 20 years of turmoil from artificial intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ3ZBTjZncDZraHU2LWZjajJpNVpDSXo1RC1TS1FLMGVGMm04OUV0V2J0NENGbVNxOFl5UFRpcWFjTVNST2RIMmVZRko4WVdTaDFRLUk2elZSTkhrYjlkeEdSMjR4OEFjYjAxcFptaU94T0JaZ25TbTktSGJuN2J5Zjc1YXhSbmtCb3BTbEp6R1ppUU5iZ3VCU0RhQ0RERnpJa28zWEpOUVZ4UEE?oc=5",
+          "source": "Anadolu Ajansı",
+          "note": "Last week reported Bill Gates warning of 20 years of turmoil from artificial intelligence.",
           "added_on": "2026-10-27"
         },
         {
@@ -211,7 +155,7 @@
           "title": "Anthropic warns of AI's 'catastrophic risks' ahead of major IPO",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpRThpZzljUDVhR2FLUnEzald0ZTRNU09RTDIyazJvSDVmazJ4NGtleVFjY0dXRFNBX0gzQkZzTFNBQ1N5cEdxbG1jeU1DMXpYRGNTUS1kSHhiNHM?oc=5",
           "source": "BBC",
-          "note": "Anthropic warned of AI's 'catastrophic risks' ahead of its IPO last week, showing institutional-level caution and disclosure.",
+          "note": "Last week reported Anthropic warned of AI's 'catastrophic risks' ahead of a major IPO.",
           "added_on": "2026-10-27"
         },
         {
@@ -221,7 +165,7 @@
           "title": "Who controls powerful AI? Anthropic has a plan for long after its leaders depart",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWjdLMFpXUmh5WjlTQUxaOExSbmM0bTV2bGRRY05iSnNfT1BnZ3l6OWFON2hYMlh0MnNyeDV3c2NGN2dHUl9xbVo0SHJzdkFHUWFfNHdNU2g0RktoYnZPdXc4ZEcxNW5SRzU3Njg4VzhscE14ODk3T0tONHBSYnFMNk5IYXdvSDktY2FNZDR2Tnd0dG82NHBuQUV0d3lVWVBoYkpNM1dwcjJCVDRseTVwQkxZWEpFNkhHOUFTRA?oc=5",
           "source": "Reuters",
-          "note": "Anthropic sets out a plan for governance and control of powerful AI beyond its founders."
+          "note": "Anthropic has a plan for long-term governance of powerful AI beyond founders."
         },
         {
           "date": "2026-10-27",
@@ -230,7 +174,7 @@
           "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
           "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
           "source": "TechCrunch",
-          "note": "Cohere report that Qwen tried to send a file to Beijing raises trust and model-sourcing concerns."
+          "note": "Cohere reports Qwen model attempted to send a file to a Beijing server, raising trust/sourcing concerns."
         }
       ],
       "last_seen": "2026-10-27",
@@ -239,20 +183,21 @@
       ],
       "status": "heating",
       "teach": {
-        "one_line": "AI companies are adding stricter controls and disclosures as trust becomes harder to assume.",
-        "like": "Like a family putting labels on the spice jars so nobody mixes them up.",
-        "why": "Rules and geopolitics make risky, founder-only control too dangerous for powerful AI.",
-        "remember": "Trust needs guardrails."
+        "one_line": "AI firms are adding formal governance and trust controls around powerful models.",
+        "like": "Like installing locks and audit logs before handing out master keys.",
+        "why": "Regulation and cross-border trust concerns push companies to document oversight, sourcing, and decision-making for high-stakes AI.",
+        "remember": "Trust needs paperwork."
       }
     },
     {
-      "id": "t_india_voter_roll_tightening",
-      "title": "India tightens voter documentation and rolls",
-      "nickname": "Roll Trim",
-      "plain": "Electoral authorities are imposing stricter declarations and removing large numbers from rolls.",
-      "claim": "Indian election administration is moving toward tighter documentation and more aggressive roll maintenance (additional Form‑6 declarations, mass SIR deletions), reshaping voter composition and administrative scrutiny.",
+      "id": "t_india_voter_rolls_and_documentation",
+      "title": "India tightens voter rolls and adds documentation requirements",
+      "nickname": "Roll Tightening",
+      "plain": "Election authorities are adding documentation and deleting large numbers from rolls.",
+      "claim": "India's election authorities are introducing additional declaration requirements and removing nearly 1 crore voters in Karnataka's final rolls.",
       "forces": [
-        "regulation"
+        "regulation",
+        "demographics"
       ],
       "created": "2026-10-27",
       "evidence": [
@@ -263,7 +208,17 @@
           "title": "India Voter-Roll Protests Widen as Farmers Set to Join In",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT2wxeVpGTks4dFlTTmxHMlVWaDBOeE5sVEpxM3RVMnA4REZPTWxic001TFFUb1k5UTduM0ZFaHM5S1ViTG4zdDN5LUMySzR2TXFmTkxnLXJOU1hRU1BkeDVDVVZ2VDY2OXlVVWdoc0VDcG81cnhOWWtnSlBBOFZLbzVjZXkxbFAtWkZLSlo1WnZPekNjQmFFUG4tc0FRc0s5RXlzZERMcG1vSFN0?oc=5",
           "source": "Bloomberg.com",
-          "note": "Voter-roll protests widened last week, with farmers and youth joining, showing public reaction to aggressive roll maintenance.",
+          "note": "Last week reported India voter-roll protests widening as farmers prepared to join.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "d8d733e042",
+          "section": "politics_india",
+          "title": "A UP seat won by under 7,000 votes has 10,470 suspect voter entries",
+          "url": "https://indianexpress.com/article/india/uttar-pradesh-sir-pilibhit-voter-list-irregularities-probe-10932914/",
+          "source": "Indian Express",
+          "note": "Last week reported a UP seat with under 7,000 votes had 10,470 suspect voter entries.",
           "added_on": "2026-10-27"
         },
         {
@@ -273,7 +228,7 @@
           "title": "Acted ‘unanimously’ on electoral roll revision orders: Election Commission to Supreme Court",
           "url": "https://indianexpress.com/article/india/eci-supreme-court-affidavit-special-intensive-revision-sir-gyanesh-kumar-sukhbir-singh-sandhu-vivek-joshi-form-6-indian-express-report-10937935/",
           "source": "Indian Express",
-          "note": "Election Commission told the Supreme Court it 'acted unanimously' on roll revision orders, concrete administrative tightening last week.",
+          "note": "Last week reported the Election Commission told the Supreme Court it 'acted unanimously' on electoral roll revision orders.",
           "added_on": "2026-10-27"
         },
         {
@@ -283,7 +238,7 @@
           "title": "ECI’s stand that additional declaration is not part of Form 6 comes days after SC said it will examine ‘new’ Form 6",
           "url": "https://www.thehindu.com/news/national/ecis-stand-that-additional-declaration-is-not-part-of-form-6-comes-days-after-sc-said-it-will-examine-new-form-6/article71629933.ece",
           "source": "The Hindu",
-          "note": "ECI introduced an additional declaration alongside Form 6 requiring earlier electoral‑roll entries."
+          "note": "ECI introduced an additional declaration alongside Form 6 requiring earlier roll details."
         },
         {
           "date": "2026-10-27",
@@ -292,7 +247,7 @@
           "title": "Karnataka SIR deletions: In final rolls, voters shrink by nearly 1 crore",
           "url": "https://indianexpress.com/article/india/karnataka-sir-deletions-karnataka-voter-roll-shrinks-nearly-1-crore-final-rolls-published-10938930/",
           "source": "Indian Express",
-          "note": "Karnataka's final rolls shrink by nearly 1 crore after SIR deletions."
+          "note": "Karnataka final rolls show voters shrink by nearly 1 crore after SIR deletions."
         }
       ],
       "last_seen": "2026-10-27",
@@ -301,18 +256,18 @@
       ],
       "status": "heating",
       "teach": {
-        "one_line": "India is tightening voter rolls, with more paperwork and more names being removed.",
-        "like": "Like a teacher checking the attendance list more carefully before class starts.",
-        "why": "Rules are being used to make voter lists stricter and cleaner.",
-        "remember": "Stricter list, fewer names."
+        "one_line": "India's election rolls are getting stricter documentation requirements and more deletions.",
+        "like": "Like a guest list checked against extra ID at the door.",
+        "why": "Election administration and identity rules are tightening eligibility verification, which changes who stays on the rolls.",
+        "remember": "Extra proof, fewer names."
       }
     },
     {
-      "id": "t_israel_political_fragmentation",
-      "title": "Israel's elections deepen coalition fragility",
-      "nickname": "Fragmented Israel",
-      "plain": "High turnout and no clear majority point to prolonged coalition bargaining and instability.",
-      "claim": "Israel's 2026 vote, with very high turnout and fragmented results, is likely to produce prolonged coalition negotiations that will limit decisive governance and affect regional policymaking.",
+      "id": "t_israel_election_fragmentation",
+      "title": "High turnout yields fragmented Israeli vote and slow coalition math",
+      "nickname": "Slow Math",
+      "plain": "Record turnout produced a fragmented result that will likely delay government formation.",
+      "claim": "Israel's high turnout (highest since 1981) produced a fragmented vote that will likely require protracted coalition negotiations.",
       "forces": [
         "geopolitics"
       ],
@@ -325,7 +280,7 @@
           "title": "Turnout highest since 1981 as Israelis vote in pivotal election",
           "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
-          "note": "Highest turnout since 1981 with likely no clear majority, pointing to prolonged coalition talks."
+          "note": "Israel saw its highest turnout since 1981 in a pivotal election."
         },
         {
           "date": "2026-10-27",
@@ -334,7 +289,7 @@
           "title": "Israel election results 2026: When will we know who won and what’s next?",
           "url": "https://www.aljazeera.com/news/2026/10/27/israel-election-results-2026-when-will-we-know-who-won-and-whats-next?traffic_source=rss",
           "source": "Al Jazeera",
-          "note": "Ongoing counting and delayed verdicts signal protracted coalition negotiations after Israel's vote."
+          "note": "Counting/exit polls delay final verdict, implying protracted coalition talks."
         },
         {
           "date": "2026-10-27",
@@ -343,7 +298,7 @@
           "title": "Why it could take time for a new Israeli government to form",
           "url": "https://www.bbc.co.uk/news/videos/c574p31l1l2no?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
-          "note": "Analysis that forming a new Israeli government could take time underscores electoral fragmentation."
+          "note": "Analysis warns forming a new Israeli government could take substantial time."
         }
       ],
       "last_seen": "2026-10-27",
@@ -352,20 +307,125 @@
       ],
       "status": "heating",
       "teach": {
-        "one_line": "Israel’s elections are producing split results, so coalition talks are taking longer.",
-        "like": "Like a cricket team where nobody agrees on the captain.",
-        "why": "Geopolitics and divided voters make it hard for one side to rule alone.",
-        "remember": "Many pieces, slow deal."
+        "one_line": "High turnout is producing fragmented Israeli election results that prolong coalition talks.",
+        "like": "Like a crowded classroom where no group has a majority of votes.",
+        "why": "Israel's proportional system turns turnout into more dispersed seats, so forming a government often requires extended bargaining.",
+        "remember": "More votes, more bargaining."
+      }
+    },
+    {
+      "id": "t_ai_trade_capital_rotation",
+      "title": "Investor money rotating back into AI and tech",
+      "nickname": "AI Trade",
+      "plain": "Capital is rotating into tech stocks and startup rounds on renewed AI growth expectations.",
+      "claim": "Investors are rotating capital back into tech equities and AI startups, shown by broad rallies and recent funding rounds.",
+      "forces": [
+        "capital"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-24",
+          "item_id": "26ac4a5663",
+          "section": "tech",
+          "title": "The Week’s 10 Biggest Funding Rounds: AI Drives A Varied Lineup Of Large Financings",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMGxkU1NjR2xRMU5MVmRtMnRSTmV0QnhaZHN5b0I1OWFPRVlDN2tSWW5YM1NmQUZoNnBETThwdjFEOHNkSUNFVUNUMXA1bmFGYUhTeDV2UDk3RzJlODE3dlNRR1ZoekFXRTk4QmVLbzV3SWxHTk81R2RXYWdyMWplc2xLeWk0MjRWNE10clJjb3lRbDJycTdiRlZRelZESGlf?oc=5",
+          "source": "Crunchbase News",
+          "note": "Last week reported the week's biggest funding rounds were driven by AI.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-25",
+          "item_id": "e3dda7cf3a",
+          "section": "markets",
+          "title": "FPIs withdraw Rs 48,056 crore from equities in Oct so far amid elevated crude oil prices",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdDZDNmJhb1JmSmdsekFLYVRrb3VEeHF0V29ZUHFQLXV2Q2JpdWczREVZa1VndG9hcjA4ZzNXM3A3ejRqOXphLW93MmtpTTFNN1dvZ3RMMXh3a0JMWGJ3YXU5WVo4eS1KS1hhWVNjMGRyUWJSNk1xSV9tTkt5VnVKZUMyelM2UEdnZ3RyNDZOcE1XT1ZsbUI5N3ljOTdCWGl5Q0d1TzJvYmZoNWFSdXlyWkpVTWdsTXRvanRPa084T1ROcnZKczczYnlhdmNyRkk1dUpTQ1FTdEZNX1RqZGxHN1VVdXNjVUNI0gHuAUFVX3lxTFBpVXFwdEk3QTNFckwtT19GVGFBNDFTWFBZNklxRzZyRUJNWm5oZExuT3RGNlNfMXY1Z1NJRDZxN1lLNEdtZTF5YUhMQUpJaENRdjJTc0lqeGtSazhfemExVm1KTEF2MlpyanJEcXJXWFA1X2VEX2Z5eWhQQ09MNTl4LUNXV19GNk9QQUo3dGFmNlpBNzc4MkRMRXBoejJjdzR0YkQ1VWQ0ak1iaDlyTmpGa2tJcWN3ck5NYmhuZ1NRZHFrdXlBYXRLeU1mdlF2UU85SFdPSFIxMUNaczdWbUJONjVCc2lGd21QMkFQUEE?oc=5",
+          "source": "Moneycontrol.com",
+          "note": "Last week reported FPIs withdrew Rs 48,056 crore from equities in October so far.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "9d019b1da0",
+          "section": "tech",
+          "title": "AI startups raise $198.7M for marketing, commerce and CPG operations",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeGloUFBWbnY3MzZ6WUNPTUpKWDh4c0NQbUg1X3Z0dnNwQlZqMWxrTl8wNVRxbGtZUHFWaG1HNjk0RUZXRHowNnZtTHhlTy0wWUEtc3N4SlJVdFZfUUVtUzNHRUZaWDBOeFdESEdEUmx2OWQ2UTRXRk9JdlB1eU5pSkxTMkpILW5BZ3RmMTdFUkk3QW52d1paeHVHaTFQa0x6OGg0?oc=5",
+          "source": "FoodNavigator.com",
+          "note": "Last week reported AI startups raised $198.7M for marketing, commerce and CPG operations.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "3b1fe9cd90",
+          "section": "tech",
+          "title": "Tech stocks rally as AI trade revives",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQm1VVGN1Y0lKVHlJU1dwUWROSDZJbTRQcmlPelZiTXhUVVZENUJsRVlwd19uZ1J4QzU4N2ZjNG15cHMtallFb2M4M1kxaThOVUlOcHh1ekxtdlA3aWQxSGtRU3lQc3hIOVY1SGhjb3NXV1pqRTVtaDJDWktIaHJZQnBLRmg?oc=5",
+          "source": "Financial Times",
+          "note": "Broad tech stocks rallying as investors rotate into AI-driven growth hopes."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "c2cbc24d60",
+          "section": "tech",
+          "title": "Vouch raises $500K from Y Combinator to build an AI wealth manager for India",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQmh2Y082dVZKNjZMUDg2MjFzU254S0d0cEpOT3JBWHlkLW84TmV1dWVCd0JEYU5rRlFQQkUwTXZUX282Zm5XcXYybWJHWHRtUjYtZVhRU3JBdnFUMXdUeEpybWlodEVRbjZJVUtfS1BYRkN4dHZXelBrYTNsWmlZaXlQbXh4aVI4VU9saUljLUw5S1hPSjBycDlybGNvX011QXlzeE9aczdkWFNqVHc?oc=5",
+          "source": "Dealroom",
+          "note": "Vouch raises $500K from YC to build AI wealth manager for India (AI fintech micro‑funding evidence)."
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "9519468211",
+          "section": "tech",
+          "title": "YC-backed Mochatrade raises $5.5 million to bring US stock perpetuals to Indian traders",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVHI4RERGb1BlTVZYTS1oTlBtR2NNMi0zeEw0cGJnVVBBUGc3cTVDTU00S3JxR3J2eEN5RUZ4RUNwM2ZKeEpNMDBkN1V3bE5GNTlSVC1wZXpoeUV4VjZNdFJPVFY1VkF2eWYtd2doRmxLRmM2MnpnWTNWZGZxWFhUX29PRkV2WDVqNEZqTkxoWjViN2lqRGZDZHpaUUZWXzFpNW9aeUFhQUFQQ0wzVm82dmdyZEJxc2JDVXg5ODhNbG1PeGpZQlFoVFZVUWPSAcwBQVVfeXFMT1RyOERERm9QZU1WWE0taE5QbUdjTTItM3hMNHBiZ1VQQVBnN3E1Q01NNEtycUdydnhDeUVGeEVDcDNmSnhKTTAwZDdVd2xORjU5UlQtcGV6aHlFeFY2TXRST1RWNVZBdnlmLXdnaEZsS0ZjNjJ6Z1kzVmRmcVhYVF9vT0ZFdlg1ajRGak5MaFo1YjdpakRmQ2R6WlFGVl8xaTVvWnlBYUFBUENMM1ZvNnZncmRCcXNiQ1V4OTg4TWxtT3hqWUJRaFRWVVFj?oc=5",
+          "source": "Indian Startup News",
+          "note": "Mochatrade raises $5.5M to bring US perpetuals to Indian traders — capital flowing into fintech products."
+        }
+      ],
+      "last_seen": "2026-10-27",
+      "sections": [
+        "tech",
+        "markets"
+      ],
+      "status": "heating",
+      "teach": {
+        "one_line": "Investors are rotating back into tech and AI-linked assets and startups.",
+        "like": "Like money moving to the busiest table after the room spots the next hot hand.",
+        "why": "Capital follows growth stories and recent gains, and AI continues to attract funding across public and private markets.",
+        "remember": "Follow the growth story."
       }
     }
   ],
   "candidates": [
     {
-      "id": "c_hardware_supply_chain_risk",
-      "title": "Cyber‑physical attacks threaten data‑centre hardware supply chains",
-      "nickname": "Spoofed Supply Lines",
-      "plain": "New cyber‑physical tricks are being used to steal or subvert critical data‑centre hardware shipments.",
-      "claim": "Adversaries are employing GPS spoofing and other cyber‑physical techniques to intercept and steal data‑centre components, raising insurance, logistics and sourcing costs for cloud infrastructure projects.",
+      "id": "c_ai_model_orchestration_demand",
+      "title": "Demand grows for AI model orchestration and consistency",
+      "nickname": "One‑Answer Stack",
+      "plain": "Enterprises seek tools to reconcile inconsistent answers across multiple AI models.",
+      "claim": "Enterprises are adopting startups and tools to reconcile inconsistent answers across multiple AI models.",
+      "forces": [
+        "technology",
+        "capital"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "837fb6a3e2",
+          "section": "tech",
+          "title": "London’s Querio launches with €4.48 million to help companies tackle conflicting answers across AI tools",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSXhERjJobG91S1JmZTNGMHFYeFB5X01LVlhFS2ctdXczaTByX0VCcFNxbFNMblZMUUlZWDN4NXdLMmJ4UXZoQzV0MzFXaTNNTUhFSWlLWWxTYVB3YXNEQWNfVGVYcm1TWi10VHZEUnZyNG9fNWlLRGcwWXlTa1M1azlYX2V1T2l0T1V0YWpsVGpsU1dnbGZZeXR2YndoSTBuNDNFc2lhWnRDZ2hnMmdJa2VmVV9uS1VfcHJ0OUQxMURlMUtjTkRpcUhDS3lHU1pPeDdrNEZ0VHA1YmFHcnBiY1JRWmZvRi10NUVpN2tFVkdPMDQ?oc=5",
+          "source": "EU-Startups",
+          "note": "European startup Querio raises €4.48M to address inconsistent answers across AI tools."
+        }
+      ]
+    },
+    {
+      "id": "c_cyber_physical_supply_chain_attacks",
+      "title": "Cyber‑physical attacks hit data‑centre hardware supply chains",
+      "nickname": "GPS Heist",
+      "plain": "Attackers increasingly use digital spoofing to steal critical data‑centre hardware in transit.",
+      "claim": "Attackers are using GPS spoofing and digital methods to steal critical data‑centre hardware in transit.",
       "forces": [
         "technology",
         "geopolitics"
@@ -379,16 +439,16 @@
           "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
           "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
           "source": "Ars Technica",
-          "note": "Highway thieves used GPS spoofing to steal ~$100M in data‑centre equipment, showing cyber‑physical supply‑chain vulnerability."
+          "note": "Highway thieves used GPS spoofing to steal $100M in data‑centre equipment."
         }
       ]
     },
     {
-      "id": "c_indian_external_funding_stress",
-      "title": "Rising US yields squeeze Indian external funding plans",
-      "nickname": "Rupee Funding Squeeze",
-      "plain": "Higher US yields and a weak rupee are forcing Indian banks to delay dollar funding.",
-      "claim": "As US Treasury yields rise and the rupee weakens, Indian lenders are deferring or rethinking dollar debt issuances, increasing rollover risk and reliance on alternative funding or hedges.",
+      "id": "c_indian_banks_fx_and_debt_timing",
+      "title": "Rising US yields push Indian banks to delay dollar debt",
+      "nickname": "Dollar Delay",
+      "plain": "Indian lenders are deferring dollar debt issuances as US yields rise and the rupee weakens.",
+      "claim": "Indian banks are delaying dollar debt sales because of rising US Treasury yields and rupee pressures.",
       "forces": [
         "capital"
       ],
@@ -401,7 +461,7 @@
           "title": "Indian lenders defer dollar debt sale plan as rates turn expensive",
           "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-lenders-defer-dollar-debt-sale-plan-as-rates-turn-expensive/articleshow/135230457.cms",
           "source": "ET Markets",
-          "note": "Multiple Indian banks (Canara, PNB, BoI) deferred dollar debt sales as US yields rise and rupee weakens."
+          "note": "Multiple Indian lenders deferred dollar debt sales as US yields rose and rupee weakened."
         }
       ]
     }
@@ -409,164 +469,168 @@
   "today": {
     "attached": [
       {
-        "item_id": "3b1fe9cd90",
-        "thread_id": "t_ai_capital_rotation",
-        "note": "Broad tech stocks rally signals investors rotating back into AI-driven growth."
-      },
-      {
-        "item_id": "71e233aae0",
-        "thread_id": "t_ai_capital_rotation",
-        "note": "Nova Spectral AI raises ₹21.15 Cr seed, showing investor capital for physical AI vision hardware in India."
-      },
-      {
-        "item_id": "5383be2c86",
-        "thread_id": "t_ai_capital_rotation",
-        "note": "Bedrock Robotics' $600M raise (valuation $4.1B) signals large capital flowing into industrial automation."
-      },
-      {
-        "item_id": "837fb6a3e2",
-        "thread_id": "t_ai_capital_rotation",
-        "note": "Querio's €4.48M launch shows investor demand for AI orchestration tooling for enterprises."
-      },
-      {
-        "item_id": "c2cbc24d60",
-        "thread_id": "t_ai_capital_rotation",
-        "note": "Vouch's $500K YC raise for an AI wealth manager for India signals capital into fintech+AI in emerging markets."
-      },
-      {
-        "item_id": "9519468211",
-        "thread_id": "t_ai_capital_rotation",
-        "note": "Mochatrade's $5.5M raise to bring US stock perpetuals to Indian traders shows capital into crypto/derivatives infra for retail."
-      },
-      {
         "item_id": "0314877842",
-        "thread_id": "t_ai_energy_constraints",
-        "note": "Anthropic S‑1 warns of intense competition for electrical supply and methane dependency for data centres."
+        "thread_id": "t_ai_power_siting_limits",
+        "note": "Anthropic S-1 says competition for electrical supply and data‑centre locations is intense."
       },
       {
         "item_id": "17fc845daf",
-        "thread_id": "t_ai_energy_constraints",
-        "note": "Nationwide local backlash against data‑centre buildouts is constraining siting and expansion."
+        "thread_id": "t_ai_power_siting_limits",
+        "note": "Data-centre backlash across US communities is constraining siting and expansion of server capacity."
       },
       {
         "item_id": "1f384ef1f9",
-        "thread_id": "t_ai_energy_constraints",
-        "note": "Infineon to build Europe's first high‑volume 300mm GaN power plant, shifting power‑semiconductor capacity toward efficient data‑centre power electronics."
+        "thread_id": "t_industrial_hardware_capital",
+        "note": "Infineon to build Europe’s first high-volume 300mm GaN power plant (concrete industrial-capex shift)."
+      },
+      {
+        "item_id": "71e233aae0",
+        "thread_id": "t_industrial_hardware_capital",
+        "note": "Nova Spectral AI raises Rs 21.15 Cr seed for physical AI vision hardware."
+      },
+      {
+        "item_id": "5383be2c86",
+        "thread_id": "t_industrial_hardware_capital",
+        "note": "Bedrock Robotics raises $600M for autonomous excavators, valuation $4.1B."
       },
       {
         "item_id": "b84717bfa4",
-        "thread_id": "t_ai_governance_institutionalization",
-        "note": "Anthropic sets out a plan for governance and control of powerful AI beyond its founders."
+        "thread_id": "t_ai_trust_and_governance",
+        "note": "Anthropic has a plan for long-term governance of powerful AI beyond founders."
       },
       {
         "item_id": "9af0a1a0b3",
-        "thread_id": "t_ai_governance_institutionalization",
-        "note": "Cohere report that Qwen tried to send a file to Beijing raises trust and model-sourcing concerns."
+        "thread_id": "t_ai_trust_and_governance",
+        "note": "Cohere reports Qwen model attempted to send a file to a Beijing server, raising trust/sourcing concerns."
       },
       {
         "item_id": "e45ab00afb",
-        "thread_id": "t_india_voter_roll_tightening",
-        "note": "ECI introduced an additional declaration alongside Form 6 requiring earlier electoral‑roll entries."
+        "thread_id": "t_india_voter_rolls_and_documentation",
+        "note": "ECI introduced an additional declaration alongside Form 6 requiring earlier roll details."
       },
       {
         "item_id": "f1271280ee",
-        "thread_id": "t_india_voter_roll_tightening",
-        "note": "Karnataka's final rolls shrink by nearly 1 crore after SIR deletions."
+        "thread_id": "t_india_voter_rolls_and_documentation",
+        "note": "Karnataka final rolls show voters shrink by nearly 1 crore after SIR deletions."
       },
       {
         "item_id": "866025d3a7",
-        "thread_id": "t_israel_political_fragmentation",
-        "note": "Highest turnout since 1981 with likely no clear majority, pointing to prolonged coalition talks."
+        "thread_id": "t_israel_election_fragmentation",
+        "note": "Israel saw its highest turnout since 1981 in a pivotal election."
       },
       {
         "item_id": "3368efa2d1",
-        "thread_id": "t_israel_political_fragmentation",
-        "note": "Ongoing counting and delayed verdicts signal protracted coalition negotiations after Israel's vote."
+        "thread_id": "t_israel_election_fragmentation",
+        "note": "Counting/exit polls delay final verdict, implying protracted coalition talks."
       },
       {
         "item_id": "8dc9d7e243",
-        "thread_id": "t_israel_political_fragmentation",
-        "note": "Analysis that forming a new Israeli government could take time underscores electoral fragmentation."
+        "thread_id": "t_israel_election_fragmentation",
+        "note": "Analysis warns forming a new Israeli government could take substantial time."
+      },
+      {
+        "item_id": "3b1fe9cd90",
+        "thread_id": "t_ai_trade_capital_rotation",
+        "note": "Broad tech stocks rallying as investors rotate into AI-driven growth hopes."
+      },
+      {
+        "item_id": "c2cbc24d60",
+        "thread_id": "t_ai_trade_capital_rotation",
+        "note": "Vouch raises $500K from YC to build AI wealth manager for India (AI fintech micro‑funding evidence)."
+      },
+      {
+        "item_id": "9519468211",
+        "thread_id": "t_ai_trade_capital_rotation",
+        "note": "Mochatrade raises $5.5M to bring US perpetuals to Indian traders — capital flowing into fintech products."
       }
     ],
     "new_threads": [
-      "t_ai_capital_rotation",
-      "t_ai_energy_constraints",
-      "t_ai_governance_institutionalization",
-      "t_india_voter_roll_tightening",
-      "t_israel_political_fragmentation"
+      "t_ai_power_siting_limits",
+      "t_industrial_hardware_capital",
+      "t_ai_trust_and_governance",
+      "t_india_voter_rolls_and_documentation",
+      "t_israel_election_fragmentation",
+      "t_ai_trade_capital_rotation"
     ],
     "new_candidates": [
-      "c_hardware_supply_chain_risk",
-      "c_indian_external_funding_stress"
+      "c_ai_model_orchestration_demand",
+      "c_cyber_physical_supply_chain_attacks",
+      "c_indian_banks_fx_and_debt_timing"
     ],
     "promoted": [],
     "merges": [],
-    "cross_link": {
-      "thread_a": "t_ai_energy_constraints",
-      "thread_b": "t_india_voter_roll_tightening",
-      "force": "regulation",
-      "sentence": "Local political energy around infrastructure siting and tougher electoral administration both reflect a broader upward shift in regulatory assertiveness — authorities and communities are exerting more local control over national‑scale projects and civic processes, which raises implementation costs for big tech builds and for centrally administered voter programs."
-    },
+    "cross_link": null,
     "status_changes": {
-      "t_ai_capital_rotation": [
+      "t_ai_power_siting_limits": [
         null,
         "heating"
       ],
-      "t_ai_energy_constraints": [
+      "t_industrial_hardware_capital": [
         null,
         "heating"
       ],
-      "t_ai_governance_institutionalization": [
+      "t_ai_trust_and_governance": [
         null,
         "heating"
       ],
-      "t_india_voter_roll_tightening": [
+      "t_india_voter_rolls_and_documentation": [
         null,
         "heating"
       ],
-      "t_israel_political_fragmentation": [
+      "t_israel_election_fragmentation": [
+        null,
+        "heating"
+      ],
+      "t_ai_trade_capital_rotation": [
         null,
         "heating"
       ]
     },
-    "taught": 5,
+    "taught": 6,
     "backstory": [
       {
-        "thread_id": "t_ai_capital_rotation",
-        "item_id": "26ac4a5663"
+        "thread_id": "t_industrial_hardware_capital",
+        "item_id": "799476db76"
       },
       {
-        "thread_id": "t_ai_capital_rotation",
-        "item_id": "d50e9ddbe9"
-      },
-      {
-        "thread_id": "t_ai_capital_rotation",
-        "item_id": "098da1753d"
-      },
-      {
-        "thread_id": "t_ai_energy_constraints",
+        "thread_id": "t_industrial_hardware_capital",
         "item_id": "8670fea653"
       },
       {
-        "thread_id": "t_ai_energy_constraints",
+        "thread_id": "t_industrial_hardware_capital",
         "item_id": "41eee0cf45"
       },
       {
-        "thread_id": "t_ai_governance_institutionalization",
+        "thread_id": "t_ai_trust_and_governance",
         "item_id": "d15b083193"
       },
       {
-        "thread_id": "t_ai_governance_institutionalization",
-        "item_id": "00fe42d41d"
+        "thread_id": "t_ai_trust_and_governance",
+        "item_id": "df32860d7c"
       },
       {
-        "thread_id": "t_india_voter_roll_tightening",
+        "thread_id": "t_india_voter_rolls_and_documentation",
         "item_id": "fd3b5ea546"
       },
       {
-        "thread_id": "t_india_voter_roll_tightening",
+        "thread_id": "t_india_voter_rolls_and_documentation",
         "item_id": "8774a4982d"
+      },
+      {
+        "thread_id": "t_india_voter_rolls_and_documentation",
+        "item_id": "d8d733e042"
+      },
+      {
+        "thread_id": "t_ai_trade_capital_rotation",
+        "item_id": "26ac4a5663"
+      },
+      {
+        "thread_id": "t_ai_trade_capital_rotation",
+        "item_id": "9d019b1da0"
+      },
+      {
+        "thread_id": "t_ai_trade_capital_rotation",
+        "item_id": "e3dda7cf3a"
       }
     ]
   }

@@ -11,7 +11,8 @@ Today is {{date}}. Write these fields from the JSON input below. Everything must
 that field's `text`. Empty string if nothing deserves it.
 
 - `tldr`: exactly 3 lines: the three things worth knowing today, biggest first. Each a full, plain sentence,
-  ≤ 16 words, about a different story or pattern. With `highlight`.
+  ≤ 16 words, about a different story or pattern. Say the news itself; don't use pattern names here.
+  With `highlight`.
 - `hero`: "The big picture": 2–3 plain sentences (≤ 55 words) on the biggest pattern movement today: what
   the pattern is (use its `one_line` idea), and which of today's stories pushed it. Use the pattern's name.
   With `highlight`.

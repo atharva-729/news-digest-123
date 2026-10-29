@@ -9,13 +9,19 @@ Today is {{date}}. You get today's headlines, the threads we track, and last wee
    that earlier item showed (cite its concrete fact). Only use real support, not topic overlap. It is fine
    to return nothing for a thread.
 
-2. `throwbacks`: pick the 3–6 most interesting links between **one of today's headlines** and **one of last
+2. `throwbacks`: pick up to 5 of the most interesting links (zero is fine if none are real) between **one of today's headlines** and **one of last
    week's**. Good links are a sequel (the same story moved on), a reversal (something undid or contradicted
    it), a cause and its effect, or the same pattern turning up in a different place or sector. Cross-section
    links (a tech item and a markets item) are the best ones. `kind` is one of: sequel, reversal, cause,
-   same_pattern. `line` is one plain sentence (≤ 22 words) a 10-year-old would understand: what happened
-   last week, and how today's story follows from it. No jargon, no metaphors, no analyst words ("amid", "tale", "broader").
-   Never link two reports of the same event on the same day; prefer links that teach something.
+   same_pattern (use same_pattern only when last week's item is also one of your `backstory` picks for the thread
+   today's item feeds). `line` is one plain sentence (≤ 22 words): what happened last week, and how today's story
+   follows from it. No metaphors, no analyst words ("amid", "tale", "broader").
+   Never link two reports of the same event on the same day; prefer links that teach something. A link must
+   name a specific shared cause, actor, money flow or consequence: two stories merely both being about AI,
+   the same company, or the same country is not a link. Fewer, real links beat five weak ones.
+
+For politics (parties, elections, governments, courts, protests), notes and lines state only what the titles
+report, attributed where it's someone's claim; no motives, strategy or judgement.
 
 Use ids exactly as given. Never invent facts beyond the titles and summaries. Never output URLs.
 

@@ -5,8 +5,8 @@ current state. **Keep it under ~80 lines: rewrite sections in place, don't appen
 the last 5 entries.**
 
 ## Where we are
-- **Built:** Phases 0–6, then (2026-10-29) "explain like I'm 10": every story is read and explained in
-  plain words; L2 patterns have stable teaching cards; spaced "Remember?" questions. Tabs: News /
+- **Built:** Phases 0–6, then (2026-10-29) explained editions: every story is read and explained for a
+  well-read college student; L2 patterns have stable teaching cards; spaced "Remember?" questions. Tabs: News /
   What it means / Play. Runs locally only; `--push` publishes to GitHub Pages.
 - **Checkpoints not yet passed:** 3 (3–5 real mornings, then judge `data/threads.json`), 6 (needs a week).
 - **Next:** run `python run.py daily --push` every morning. User wants feedback on readability first.
@@ -30,8 +30,15 @@ the last 5 entries.**
   refuse our UA (Ars, Inc42) fall back to their long feed text. Google News links are never decoded.
 - Select prefers `full_story` items (user chose: prefer publisher feeds, else tag "Limited info").
   Limited = under 25 words of text. Added HT India/World/Sports and Indian Express World feeds.
-- Writing: plain headlines (who did what), 2–4 sentence explanation incl. what a company does and jargon
-  in plain words, one "why it matters" line with at most one highlight. Facts only from the article.
+- Writing level (user, 2026-10-29): sharp college student. Don't explain general knowledge (laptops,
+  elections); do explain specifics (what a startup sells, who a lesser-known person is, niche terms).
+  Plain headline, 2–4 sentences ≤ 65 words, one "why it matters". Facts only from the article.
+- Politics: facts and attribution only, no motives/strategy/loaded words, in every prompt (cards, threads,
+  teach, connect). Enforced by `write:factcheck` on politics/world cards against the article. Limited
+  stories (headline only) get no model explanation at all; the card says why and links the original.
+- "Last week" links: `same_pattern` only kept if the past story is evidence of the same thread (code check).
+- Start page (`docs/index.html`) explains L1/L2/L3 with examples and credits @neworderindia; each edition
+  has a "New here?" strip with the credit.
 - L2 pedagogy: teaching card per pattern (one line, "it's like", why/L3, rule of thumb), written once and
   reused; "Remember?" questions built in code from those cards at 1/3/7/14/30-day gaps. L3 meanings
   are fixed text in config (`forces_explained`).
@@ -52,3 +59,5 @@ the last 5 entries.**
 - 2026-10-29: User found v1 confusing. Feasibility check: ~70% of stories readable in full.
 - 2026-10-29: Built v2: read phase (robots-aware), plain explanations, teaching cards, Remember?,
   calmer design. Today: 23/25 stories explained from full text, 3 limited. Rebuilt 27–28 Oct + weekly.
+- 2026-10-29: User feedback: too simple, politics biased ("Institutional Grip"). Raised level, added
+  neutrality rules + politics fact-check, landing page with credit. Rebuilt all three days' patterns.

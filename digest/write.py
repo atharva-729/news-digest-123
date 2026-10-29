@@ -177,6 +177,34 @@ def all_cards(cfg, rows, tech_ids):
     return cards
 
 
+FACTCHECK_SCHEMA = {"type": "object", "properties": {"cards": {"type": "array", "items": {"type": "object", "properties": {
+    "item_id": {"type": "string"}, "headline": {"type": "string"}, "explain": {"type": "string"},
+    "why": {"type": "string"}, "highlight": {"type": "string"}, "changed": {"type": "boolean"},
+    "note": {"type": "string"}}}}}}
+
+
+def factcheck(cfg, cards, rows, ids):
+    """Second pass for politics and world cards: drop anything the article doesn't say (motives, predictions,
+    'what it signals'), and attribute claims. Prompt rules alone let interpretation slip through."""
+    todo = [i for i in ids if i in cards]
+    if not todo:
+        return []
+    payload = [{"item_id": i, "article": rows[i]["article"], "headline": cards[i]["headline"],
+                "explain": cards[i]["explain"], "why": cards[i]["why"]["text"]} for i in todo]
+    wcfg = cfg.get("writing", {})
+    out = llm.generate_json(load_prompt("factcheck").replace("{{input}}", json.dumps(payload, ensure_ascii=False, indent=1)),
+                            FACTCHECK_SCHEMA, tag="write:factcheck", model=wcfg.get("model"), **wcfg.get("params", {}))
+    changes = []
+    for c in out["cards"]:
+        if c["item_id"] in todo and c["changed"] and c["headline"].strip() and c["explain"].strip() and c["why"].strip():
+            cards[c["item_id"]].update(headline=c["headline"].strip(), explain=c["explain"].strip(),
+                                       why=checked({"text": c["why"], "highlight": c["highlight"]}))
+            changes.append({"item_id": c["item_id"], "note": c["note"].strip()})
+    for ch in changes:
+        log.info("fact-check changed %s: %s", ch["item_id"], ch["note"])
+    return changes
+
+
 # ---------------------------------------------------------------- remember (spaced retrieval)
 
 def remember(date, threads):
@@ -308,6 +336,8 @@ def run(cfg, date):
 
     rows = card_rows(sel, items, snap, conn, texts, meta)
     cards = all_cards(cfg, rows, {p["id"] for p in sel["sections"].get("tech", [])})
+    political = [p["id"] for s in ("politics_india", "politics_world") for p in sel["sections"].get(s, [])]
+    checked_changes = factcheck(cfg, cards, rows, political)
 
     wcfg = cfg.get("writing", {})
     data = edition_input(date, sel, cards, rows, snap, conn, moves)
@@ -386,6 +416,7 @@ def run(cfg, date):
     subj = f"L1·L2·L3 {short_date(date)}: {lead}"
     write_json(DATA / "written" / f"{date}.json",
                {"date": date, "subject": subj, "lead": lead, "tldr": ctx["tldr"], "hero": ctx["hero"],
-                "cards": cards, "page": out, "call": call})
+                "cards": cards, "factcheck": checked_changes, "page": out, "call": call})
     return {"path": path, "minutes": ctx["minutes"], "takes": len(cards), "items": len(rows), "moves": len(moves),
-            "call": call, "subject": subj, "limited": ctx["stats"]["limited"], "remember": len(ctx["remember"])}
+            "call": call, "subject": subj, "limited": ctx["stats"]["limited"], "remember": len(ctx["remember"]),
+            "factchecked": len(political), "factcheck_changes": len(checked_changes)}

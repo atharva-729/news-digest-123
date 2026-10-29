@@ -2,92 +2,76 @@
   "date": "2026-10-28",
   "backstory": [
     {
-      "thread_id": "t_ai_capital_rotation",
+      "thread_id": "t_ai_power_siting_limits",
+      "item_id": "e2358621b2"
+    },
+    {
+      "thread_id": "t_ai_power_siting_limits",
+      "item_id": "27497ce345"
+    },
+    {
+      "thread_id": "t_industrial_hardware_capital",
+      "item_id": "b51bad1ca2"
+    },
+    {
+      "thread_id": "t_industrial_hardware_capital",
       "item_id": "f32f97457c"
     },
     {
-      "thread_id": "t_ai_capital_rotation",
-      "item_id": "24d8ec5077"
+      "thread_id": "t_industrial_hardware_capital",
+      "item_id": "bfaa65444a"
     },
     {
-      "thread_id": "t_ai_capital_rotation",
-      "item_id": "0010775662"
+      "thread_id": "t_ai_trust_and_governance",
+      "item_id": "8a93bec2dc"
     },
     {
-      "thread_id": "t_ai_energy_constraints",
-      "item_id": "d53385706d"
-    },
-    {
-      "thread_id": "t_ai_energy_constraints",
-      "item_id": "27b8301f84"
-    },
-    {
-      "thread_id": "t_ai_governance_institutionalization",
-      "item_id": "76f0e348ba"
-    },
-    {
-      "thread_id": "t_ai_governance_institutionalization",
-      "item_id": "26a58ab7f7"
-    },
-    {
-      "thread_id": "t_india_voter_roll_tightening",
+      "thread_id": "t_india_voter_rolls_and_documentation",
       "item_id": "2d88de66f0"
     },
     {
-      "thread_id": "t_india_voter_roll_tightening",
-      "item_id": "28a65f3ef8"
-    },
-    {
-      "thread_id": "t_israel_political_fragmentation",
+      "thread_id": "t_israel_election_fragmentation",
       "item_id": "7e757c20a5"
     },
     {
-      "thread_id": "t_israel_political_fragmentation",
-      "item_id": "b76680a00e"
+      "thread_id": "t_ai_trade_capital_rotation",
+      "item_id": "b40df6e71c"
     },
     {
-      "thread_id": "t_india_regulatory_pushback",
-      "item_id": "9933092bf1"
+      "thread_id": "t_ai_trade_capital_rotation",
+      "item_id": "b1fb97205c"
     },
     {
-      "thread_id": "t_india_regulatory_pushback",
-      "item_id": "662739d94a"
-    },
-    {
-      "thread_id": "t_india_regulatory_pushback",
-      "item_id": "e135aa91bd"
-    },
-    {
-      "thread_id": "t_oil_supply_shocks_driving_em_inflation",
+      "thread_id": "t_oil_supply_shocks_mid_east",
       "item_id": "10dc9f9d16"
     },
     {
-      "thread_id": "t_oil_supply_shocks_driving_em_inflation",
+      "thread_id": "t_oil_supply_shocks_mid_east",
       "item_id": "d53385706d"
     },
     {
-      "thread_id": "t_oil_supply_shocks_driving_em_inflation",
+      "thread_id": "t_oil_supply_shocks_mid_east",
       "item_id": "43343be81f"
     }
   ],
   "throwbacks": [
     {
-      "item_id": "31f30cc340",
+      "item_id": "2e1cf5b0a8",
       "kind": "same_pattern",
-      "line": "Enterprise AI value surge shows in both fast VC rounds and strategic M&A — Blacksmith's $66M and Guidewire's $1.7B buyout.",
+      "line": "Last week noted an underappreciated Nvidia‑backed AI company growing revenue 123%; today Simplismart raised $14M with NVIDIA participating.",
       "past": {
-        "id": "24d8ec5077",
-        "date": "2026-10-24",
-        "title": "AI code testing startup Blacksmith raises $66 million at $1 billion valuation",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLUJEZDVwRXZyMjJyakZLWmlXUFVBUk9Cdk9GcTB4dElhdFEwOWZ4MTNhc09oMkFfbjJPcnZfX2ZTWU1LYzBiRTkxTW9pelFOVnZ5cUUyZ1RXRnd2dWJIbkJOemZfanBMcUp5ZVV4MDUySVVCZ0JyTkFQaEVqaUdqdk90OHVRMDZhMFgzYWUtaU0wN3RVOEoyQ1ZjTWc0bmwtWGVHV2lob0JkVWFoaWR6cDkxYXJJVmRwYlp5NTlSd9IBvwFBVV95cUxQLUJEZDVwRXZyMjJyakZLWmlXUFVBUk9Cdk9GcTB4dElhdFEwOWZ4MTNhc09oMkFfbjJPcnZfX2ZTWU1LYzBiRTkxTW9pelFOVnZ5cUUyZ1RXRnd2dWJIbkJOemZfanBMcUp5ZVV4MDUySVVCZ0JyTkFQaEVqaUdqdk90OHVRMDZhMFgzYWUtaU0wN3RVOEoyQ1ZjTWc0bmwtWGVHV2lob0JkVWFoaWR6cDkxYXJJVmRwYlp5NTlSdw?oc=5",
-        "source": "Indian Startup News",
+        "id": "3250bd6b16",
+        "date": "2026-10-23",
+        "title": "Not Intel. Not CoreWeave. This Underappreciated Nvidia-Backed Company Is Growing Artificial Intelligence (AI) Revenue by 123%. Here's Why It's a Buy Today for $8.",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcG9BQ0x2T2hkMERBYUQ5dm5NcE9aUEFFY2VEd2hZQnZONVlJSHJNYWQ1alZpdDNxMHlwa2ZScjUtNXZZOEJCYTRYdEZNRExTTkE1Q2V4ZHdCejVfLWRpTHJsRkptdlhLV1pOOG9VOVZkaVlSY29lckVVWVBGMmVtZHFibzNqZUVTcThXZm0yd1VKX2cwLVNsemVWZ0Y3X2U0MUVIV0Jrbw?oc=5",
+        "source": "Yahoo Finance",
         "section": "tech"
       }
     },
     {
       "item_id": "9daa2cd43f",
       "kind": "sequel",
-      "line": "Anthropic's IPO filing expands on last week's risk warnings, turning internal governance talk into public market disclosure.",
+      "line": "Last week Anthropic warned of 'catastrophic risks' ahead of its IPO; today its filing lists risks including blackmail and sentience.",
       "past": {
         "id": "d15b083193",
         "date": "2026-10-26",
@@ -100,7 +84,7 @@
     {
       "item_id": "f912b976d0",
       "kind": "same_pattern",
-      "line": "Another strike drives oil spikes again — today's Saudi refinery hit repeats last week's attack‑to‑price pattern.",
+      "line": "Last week reported Brent hit six‑month highs after Houthi‑Saudi attacks; today a strike on a Saudi refinery again sent crude higher.",
       "past": {
         "id": "10dc9f9d16",
         "date": "2026-10-23",
@@ -111,28 +95,28 @@
       }
     },
     {
-      "item_id": "3caec08195",
+      "item_id": "6012261abf",
       "kind": "same_pattern",
-      "line": "Regulatory friction keeps surfacing: telecom sandbox rules rolled out last week, now media groups challenge privacy rules in court.",
+      "line": "Last week the US announced $389M for power‑semiconductor R&D; today Nova Spectral raised ₹21.2 Cr to build indigenous infrared sensor chips.",
       "past": {
-        "id": "9933092bf1",
-        "date": "2026-10-23",
-        "title": "Lowdown: India's new telecom sandbox rules are in force. How much of the trials will the public see?",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQM04tcE9nWFR2TnZHYkxKd0w5VFRINHRBdkhveml0blRfdTJURVdKTVhpUlBTdTBHOTd5Mmh3dFFrSWE4RFF0NW9oQ0hBZ0RPdVpUWEJ4cUxSTEw0VlhjdW5fYmZiYURqaUxWd3o5YmdBY0trcXRvcEI3U2FVaHM1N1oyLTNtdThm?oc=5",
-        "source": "MediaNama",
-        "section": "politics_india"
+        "id": "41eee0cf45",
+        "date": "2026-10-22",
+        "title": "US to award $389 million in R&D funds for power semiconductors, critical materials",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeHQ5cE1SRTVJQVJTRFl1bFhjWDR2ZUZ1elVOY2QwWDEtZzhBNVFfbk5NcC1UUG0tNFp5SGpMa1UyeG1mbXJtSzVmZnd5RGpWTlhQZnRPZks5SHZSUWIwSGhRRlJ3T3FpZkpNaFdSUmlObHdvWGlGREh0NTk2YWozaU8zWFVXRjRpdFNaSlVmQ0lwT0JNb3VIbkRoQnZHRzJrTGV1bWQtNlpXU1lsQ3o4amxCVmtQbW8?oc=5",
+        "source": "Reuters",
+        "section": "tech"
       }
     },
     {
-      "item_id": "2e1cf5b0a8",
-      "kind": "cause",
-      "line": "Big VC rounds keep warming investor appetite — YC‑backed deals last week help explain fresh $14M funding for AI inference startup.",
+      "item_id": "8b7f3fa5f2",
+      "kind": "same_pattern",
+      "line": "Last week reported a new 14‑inch MacBook Pro with M6; today Apple refreshed the iMac and entry MacBook Pro with the M6 chip.",
       "past": {
-        "id": "0010775662",
-        "date": "2026-10-24",
-        "title": "Y Combinator-backed Firstwork raises $15 million Series A, takes total funding to $20 million",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObDlPN2JWaVpwUFZNalJJZktmbE9mRndmcVYtZW04U1hhZERxMi1VUUM0YnFXWEFaM1p3cnpzbFJUcTBKb0ZiNWtqWWVWelB4Y0JqcGxBS1c1SVR3LWM3WlJPR0ktUmduT09WNTk4V3l1bXotcTY1TDg4aE9ZeXlzNHpKSWg2SVJjVzVrWk8wNzY5Mm9UTmE4Vk5zWFVQQ3oxdk1YNElscHVuYUhhYlIyelM4ZGFULU1fUDl2TDBCR2JfN3BHbVAwNWN2MlFHZXVlMGVj0gHTAUFVX3lxTE5sOU83YlZpWnBQVk1qUklmS2ZsT2ZGd2ZxVi1lbThTWGFkRHEyLVVRQzRicVdYQVozWndyenNsUlRxMEpvRmI1a2pZZVZ6UHhjQmpwbEFLVzVJVHctYzdaUk9HSS1SZ25PT1Y1OThXeXVtei1xNjVMODhoT1l5eXM0ekpJaDZJUmNXNWtaTzA3Njkyb1ROYThWTnNYVVBDejF2TVg0SWxwdW5hSGFiUjJ6UzhkYVQtTV9QOXZMMEJHYl83cEdtUDA1Y3YyUUdldWUwZWM?oc=5",
-        "source": "Indian Startup News",
+        "id": "e135aa91bd",
+        "date": "2026-10-27",
+        "title": "New 14‑inch MacBook Pro with M6",
+        "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+        "source": "Hacker News",
         "section": "tech"
       }
     }

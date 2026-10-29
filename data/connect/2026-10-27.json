@@ -2,60 +2,55 @@
   "date": "2026-10-27",
   "backstory": [
     {
-      "thread_id": "t_ai_capital_rotation",
-      "item_id": "26ac4a5663"
+      "thread_id": "t_industrial_hardware_capital",
+      "item_id": "799476db76"
     },
     {
-      "thread_id": "t_ai_capital_rotation",
-      "item_id": "d50e9ddbe9"
-    },
-    {
-      "thread_id": "t_ai_capital_rotation",
-      "item_id": "098da1753d"
-    },
-    {
-      "thread_id": "t_ai_energy_constraints",
+      "thread_id": "t_industrial_hardware_capital",
       "item_id": "8670fea653"
     },
     {
-      "thread_id": "t_ai_energy_constraints",
+      "thread_id": "t_industrial_hardware_capital",
       "item_id": "41eee0cf45"
     },
     {
-      "thread_id": "t_ai_governance_institutionalization",
+      "thread_id": "t_ai_trust_and_governance",
       "item_id": "d15b083193"
     },
     {
-      "thread_id": "t_ai_governance_institutionalization",
-      "item_id": "00fe42d41d"
+      "thread_id": "t_ai_trust_and_governance",
+      "item_id": "df32860d7c"
     },
     {
-      "thread_id": "t_india_voter_roll_tightening",
+      "thread_id": "t_india_voter_rolls_and_documentation",
       "item_id": "fd3b5ea546"
     },
     {
-      "thread_id": "t_india_voter_roll_tightening",
+      "thread_id": "t_india_voter_rolls_and_documentation",
       "item_id": "8774a4982d"
+    },
+    {
+      "thread_id": "t_india_voter_rolls_and_documentation",
+      "item_id": "d8d733e042"
+    },
+    {
+      "thread_id": "t_ai_trade_capital_rotation",
+      "item_id": "26ac4a5663"
+    },
+    {
+      "thread_id": "t_ai_trade_capital_rotation",
+      "item_id": "9d019b1da0"
+    },
+    {
+      "thread_id": "t_ai_trade_capital_rotation",
+      "item_id": "e3dda7cf3a"
     }
   ],
   "throwbacks": [
     {
-      "item_id": "3b1fe9cd90",
-      "kind": "sequel",
-      "line": "Tech stocks rally today continues the fragile AI market rebound Wall Street warned could be tested by earnings and Fed.",
-      "past": {
-        "id": "b40df6e71c",
-        "date": "2026-10-25",
-        "title": "Wall St Week Ahead Earnings flood, Fed meeting will test rickety AI market rally",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR3FjeUJFd2Z6ZFBxOEFlLUx4anZlN1BqeFkxQ1pFcTdXTENYc0tMdW9RbjJ1Vk91Y2tmSXVoRDFCTmZoQ2cxN3BaSlFfTXplZUNZTFIzVmR3OTVmUVYzWnBXVkxRNXAtOEpBSUpIVjlBMnJ6cVViYnFSSHZoaC1CbkR5TnBzZndWNEo5aFlkWTVKY0hSYzRuOTlzUjYwcGlrcFJKQXhlbmFOMHNWLTRiRHZaM21fWEF1SDl1Mg?oc=5",
-        "source": "Reuters",
-        "section": "markets"
-      }
-    },
-    {
       "item_id": "0314877842",
       "kind": "sequel",
-      "line": "Anthropic’s S‑1 disclosure that it burns gas concretely follows its prior warning about AI’s catastrophic risks before IPO.",
+      "line": "Last week Anthropic warned of AI's 'catastrophic risks'; today its S-1 shows it's burning gas to feed the AI boom.",
       "past": {
         "id": "d15b083193",
         "date": "2026-10-26",
@@ -66,9 +61,9 @@
       }
     },
     {
-      "item_id": "17fc845daf",
-      "kind": "same_pattern",
-      "line": "Local backlash to data‑centre builds mirrors the industry push for GaN and other power tech to feed AI growth.",
+      "item_id": "1f384ef1f9",
+      "kind": "sequel",
+      "line": "Last week Infineon and NVIDIA announced GaN work for 800VDC AI data centres; today Infineon plans a high-volume 300mm GaN plant in Europe.",
       "past": {
         "id": "8670fea653",
         "date": "2026-10-23",
@@ -79,28 +74,41 @@
       }
     },
     {
-      "item_id": "1f384ef1f9",
+      "item_id": "3b1fe9cd90",
       "kind": "cause",
-      "line": "Infineon’s new high‑volume GaN plant is the industrial follow‑through to last week’s $389M U.S. R&D push for power semiconductors.",
+      "line": "Last week the biggest funding rounds were driven by AI; today tech stocks rally as the AI trade revives.",
       "past": {
-        "id": "41eee0cf45",
-        "date": "2026-10-22",
-        "title": "US to award $389 million in R&D funds for power semiconductors, critical materials",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeHQ5cE1SRTVJQVJTRFl1bFhjWDR2ZUZ1elVOY2QwWDEtZzhBNVFfbk5NcC1UUG0tNFp5SGpMa1UyeG1mbXJtSzVmZnd5RGpWTlhQZnRPZks5SHZSUWIwSGhRRlJ3T3FpZkpNaFdSUmlObHdvWGlGREh0NTk2YWozaU8zWFVXRjRpdFNaSlVmQ0lwT0JNb3VIbkRoQnZHRzJrTGV1bWQtNlpXU1lsQ3o4amxCVmtQbW8?oc=5",
-        "source": "Reuters",
+        "id": "26ac4a5663",
+        "date": "2026-10-24",
+        "title": "The Week’s 10 Biggest Funding Rounds: AI Drives A Varied Lineup Of Large Financings",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMGxkU1NjR2xRMU5MVmRtMnRSTmV0QnhaZHN5b0I1OWFPRVlDN2tSWW5YM1NmQUZoNnBETThwdjFEOHNkSUNFVUNUMXA1bmFGYUhTeDV2UDk3RzJlODE3dlNRR1ZoekFXRTk4QmVLbzV3SWxHTk81R2RXYWdyMWplc2xLeWk0MjRWNE10clJjb3lRbDJycTdiRlZRelZESGlf?oc=5",
+        "source": "Crunchbase News",
         "section": "tech"
       }
     },
     {
-      "item_id": "9af0a1a0b3",
+      "item_id": "e2358621b2",
       "kind": "same_pattern",
-      "line": "An AI model’s attempt to phone home to Beijing echoes last week’s Chinese proposal for new AI export controls — trust and tech controls collide.",
+      "line": "Last week BIRC flagged rising shipping costs and geopolitical risks; today thieves spoof GPS to steal $100M in data-centre equipment.",
       "past": {
-        "id": "6c0cc7da96",
-        "date": "2026-10-26",
-        "title": "China proposes new export controls on artificial intelligence, biopharma, and photovoltaic technologies",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQUluM3JRMHRybHBfX0VRX2dPMTRaVEpldTJSMVo5RURBQkYyMzVZOFhTaDU2NmE2dEdEZmNsSzdLWmhQTHd0VnE3c1NEa3pfMTIyRnRCY0xIMk0zaVhNT3hzVkF0SWxqNzg0eklBTEFVZDE2NmhhVzhpemxndC1vN3V5Y1V2blFLM0t6c2h1bXRobUhPM1VDMWlxb0VTT0dBUnJrVWg3eTFGUTNRTlJRM0M4eWdrY2EtOVF3VWU3YkdrdUU?oc=5",
-        "source": "White & Case LLP",
+        "id": "9d730abfae",
+        "date": "2026-10-23",
+        "title": "BIRC 2026 Highlights Rising Shipping Costs, Geopolitical Risks and Marine Insurance Priorities for Rice Exporters",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQdmMtN2RiOEl3bjc1T3ZuU0tGM0h5MzhGc2RWcVFPY0hRcDVXVUhQXzNzXzIzQUNSYlp5Rk9TYk9rd1dNZUZramRPYU11akFRTFUxZ0ZpanNEM1BJRWFLVk9LMlNCWElPc0V3Wk1zOEpnLXVrRTJfZmxuR2ZtUzE3SkdrTUozSUxUTlpYRHlaM2dXNEFTWmFmUnFpVXl2eFZzLXNLQ2JyczhlZnJ5SWxIM1haQWNzSWhqaXFpcjMtQWlrbFFnVTgwc3BuWDNBV2FfT3ZCcnFXOGd5dlJGX2pwSkJ5WjZta0hndnhjX3hRMWVEMlE?oc=5",
+        "source": "AgroSpectrum India",
+        "section": "politics_world"
+      }
+    },
+    {
+      "item_id": "c2cbc24d60",
+      "kind": "cause",
+      "line": "Last week Indian startup funding fell 22% with AI taking half; today Vouch raises $500K to build an AI wealth manager for India.",
+      "past": {
+        "id": "474856ebed",
+        "date": "2026-10-25",
+        "title": "Indian Startup Funding Falls 22% to ₹1,747 Crore as AI Takes Half",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vNUU3czh5eUlEbUhtOEF4ZWliR1VBeW9jeElxbVQ4Q25ZZzhTRnJfVnE1TFpfZ0dhUDBGZHVrWjE1S1ZOcll3WDdDcFlYbWFNM2pudzkxc3l5TXBNQkdOSlFDaWQ?oc=5",
+        "source": "The420.in",
         "section": "tech"
       }
     }
