@@ -11,7 +11,7 @@ the last 5 entries.**
 - **History backfilled** 6–26 Oct (`digest/backfill.py`: Google News day windows + paged Inc42/TechCrunch/
   Entrackr feeds; select + threads only, no edition pages). Now 11 active patterns with 2–5 events each
   (chip capital, IPO route, embodied AI, Nvidia detour, rate turn, roll checks…), real status mix.
-- **Not pushed:** user shows the team next day, then makes the repo private. User pushes.
+- **Pushed** 2026-10-29 (913e34f); Pages serves it. User shows the team next day, then makes the repo private.
 - **Still open:** attach rate 0.00–0.20/day (target 0.4–0.6): the verify pass and the model stay cautious.
   29 Oct has 0 links (proposals were plans/rumours or went to new candidates).
 - **Next:** run `python run.py daily` each morning.
@@ -54,7 +54,6 @@ the last 5 entries.**
 - Repo is public; user may make it private (Pages on a private repo needs a paid plan).
 
 ## Log (last 5)
-- 2026-10-29: Built v2: read phase (robots-aware), plain explanations, teaching cards, Remember?.
 - 2026-10-29: Raised level to college student; politics neutrality + fact-check; start page with credit.
 - 2026-10-30: fixes.md Phases 1–6: quality report, events, verify, merges/splits, statuses, developing
   stories, falsifiable calls, checked quiz. Several calibration rounds on claim rules and models.
@@ -62,3 +61,4 @@ the last 5 entries.**
   catch-alls or look-alikes, attach rate 0.00–0.08. Committed locally, not pushed.
 - 2026-10-30: Switched every step to gpt-5.4-mini; backfilled 21 days of history; rebuilt 27–29 Oct.
   11 patterns, statuses meaningful. Spent $3.74. Threads/verify prompts: "an instance counts" rule.
+- 2026-10-29: Pushed both commits to origin/main so GitHub Pages shows the rebuilt site for the demo.
