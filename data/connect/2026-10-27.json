@@ -2,32 +2,75 @@
   "date": "2026-10-27",
   "backstory": [
     {
-      "thread_id": "t_india_voter_rolls_tightening",
+      "thread_id": "t_india_rate_hike_tightening",
+      "item_id": "c700a2baf9"
+    },
+    {
+      "thread_id": "t_india_rate_hike_tightening",
+      "item_id": "d688d81f26"
+    },
+    {
+      "thread_id": "t_india_rate_hike_tightening",
+      "item_id": "8428786a69"
+    },
+    {
+      "thread_id": "t_india_semiconductor_capital_boom",
+      "item_id": "452a9514a1"
+    },
+    {
+      "thread_id": "t_india_semiconductor_capital_boom",
+      "item_id": "fb9d0071eb"
+    },
+    {
+      "thread_id": "t_india_semiconductor_capital_boom",
+      "item_id": "3f860f2dcb"
+    },
+    {
+      "thread_id": "t_indian_hardware_ipo",
+      "item_id": "386c83896b"
+    },
+    {
+      "thread_id": "t_indian_hardware_ipo",
+      "item_id": "9ed94bfa5b"
+    },
+    {
+      "thread_id": "t_ai_assistant_device_spread",
+      "item_id": "9d019b1da0"
+    },
+    {
+      "thread_id": "t_ai_compute_capital_surge",
+      "item_id": "d15b083193"
+    },
+    {
+      "thread_id": "t_ai_compute_capital_surge",
+      "item_id": "26ac4a5663"
+    },
+    {
+      "thread_id": "t_state_bank_divestment",
+      "item_id": "62da2f55ff"
+    },
+    {
+      "thread_id": "t_state_bank_divestment",
+      "item_id": "4fd153f4d4"
+    },
+    {
+      "thread_id": "t_india_voter_roll_checks",
       "item_id": "fd3b5ea546"
     },
     {
-      "thread_id": "t_india_voter_rolls_tightening",
+      "thread_id": "t_india_voter_roll_checks",
       "item_id": "8774a4982d"
+    },
+    {
+      "thread_id": "t_india_voter_roll_checks",
+      "item_id": "d8d733e042"
     }
   ],
   "throwbacks": [
     {
-      "item_id": "e45ab00afb",
-      "kind": "same_pattern",
-      "line": "Last week the Election Commission told the Supreme Court it 'acted unanimously' on roll revision orders; today ECI says extra declaration isn't part of Form 6.",
-      "past": {
-        "id": "fd3b5ea546",
-        "date": "2026-10-26",
-        "title": "Acted ‘unanimously’ on electoral roll revision orders: Election Commission to Supreme Court",
-        "url": "https://indianexpress.com/article/india/eci-supreme-court-affidavit-special-intensive-revision-sir-gyanesh-kumar-sukhbir-singh-sandhu-vivek-joshi-form-6-indian-express-report-10937935/",
-        "source": "Indian Express",
-        "section": "politics_india"
-      }
-    },
-    {
       "item_id": "0314877842",
       "kind": "sequel",
-      "line": "Last week Anthropic warned of AI's 'catastrophic risks' ahead of its IPO; today its S-1 shows heavy gas use to power generative AI.",
+      "line": "Last week Anthropic warned of catastrophic AI risks; today its S-1 says the boom needs more electricity and gas.",
       "past": {
         "id": "d15b083193",
         "date": "2026-10-26",
@@ -38,16 +81,42 @@
       }
     },
     {
-      "item_id": "3b1fe9cd90",
+      "item_id": "5383be2c86",
       "kind": "sequel",
-      "line": "Last week analysts warned a rickety AI market rally faced Fed and earnings tests; today tech stocks rallied as the AI trade revived.",
+      "line": "Last week self-driving excavators raised $600 million; today Bedrock says the shortage of skilled operators is driving more demand.",
       "past": {
-        "id": "b40df6e71c",
-        "date": "2026-10-25",
-        "title": "Wall St Week Ahead Earnings flood, Fed meeting will test rickety AI market rally",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR3FjeUJFd2Z6ZFBxOEFlLUx4anZlN1BqeFkxQ1pFcTdXTENYc0tMdW9RbjJ1Vk91Y2tmSXVoRDFCTmZoQ2cxN3BaSlFfTXplZUNZTFIzVmR3OTVmUVYzWnBXVkxRNXAtOEpBSUpIVjlBMnJ6cVViYnFSSHZoaC1CbkR5TnBzZndWNEo5aFlkWTVKY0hSYzRuOTlzUjYwcGlrcFJKQXhlbmFOMHNWLTRiRHZaM21fWEF1SDl1Mg?oc=5",
-        "source": "Reuters",
+        "id": "799476db76",
+        "date": "2026-10-26",
+        "title": "This startup’s self-driving excavators help dig up $600M in new funding",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNmpvY1pGQzRtcWpnV1JBQXNwUGowRmNUcEFfV3NBX3BFR3ptTjl1UUpDZm5ackljOE1Kb1FrOWtKdEk0V1FzVE5VNUdUc01rQkgtcGFuQkltZThqMTM5NGpQc2lJeW5MYnRsY041dzMySzdONWJGRWYwV2ZqRE9CTDlrZnd5WFFSMl9FdUliTEZzQUJXZk5paExQZEQzSVVOLV84alNFdw?oc=5",
+        "source": "TechCrunch",
+        "section": "tech"
+      }
+    },
+    {
+      "item_id": "0b97b948d5",
+      "kind": "cause",
+      "line": "Last week Sitharaman said RBI wanted to prevent sudden rupee swings; today banks are delaying dollar debt sales as rates rise.",
+      "past": {
+        "id": "7520bfff99",
+        "date": "2026-10-26",
+        "title": "FM Nirmala Sitharaman says RBI aims to prevent sudden fluctuations in rupee value",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMGthWW92QkpOcTBCWjBIbUxhLVgxS1FMUkpuOVNCbTMzeTQtOHRNUHRMZVVnbm4xZDFtNU91OFBUb0xUQWRfM1BLc081TTB2RHJzUEZWUEExNUhzUEpmN1lSUFk2WjluX1o0OW13N3lQQV9DaHdsUEhZQmdHZ0F4X1JQczdwQUJHWnFydEFubDJJRXhoS3F4b0IxLUFUYUNLZEZGMENySHRBaTQ?oc=5",
+        "source": "News On AIR",
         "section": "markets"
+      }
+    },
+    {
+      "item_id": "e45ab00afb",
+      "kind": "sequel",
+      "line": "Last week the Election Commission said it acted unanimously on roll-revision orders; today it is defending the new Form 6 declaration.",
+      "past": {
+        "id": "fd3b5ea546",
+        "date": "2026-10-26",
+        "title": "Acted ‘unanimously’ on electoral roll revision orders: Election Commission to Supreme Court",
+        "url": "https://indianexpress.com/article/india/eci-supreme-court-affidavit-special-intensive-revision-sir-gyanesh-kumar-sukhbir-singh-sandhu-vivek-joshi-form-6-indian-express-report-10937935/",
+        "source": "Indian Express",
+        "section": "politics_india"
       }
     }
   ]

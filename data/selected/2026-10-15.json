@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-15",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "cc0a05134f",
+        "reason": "A mega Indian fintech IPO plus strong profit momentum is evidence that public markets are again rewarding scaled digital platforms in India."
+      },
+      {
+        "id": "a41ddea82f",
+        "reason": "The anchor book for Tonbo Imaging’s IPO shows capital still backing defense-tech hardware ahead of listing, not just software narratives.",
+        "funding": {
+          "company": "Tonbo Imaging",
+          "amount": "₹255 Cr",
+          "sector": "defense tech",
+          "country": "India"
+        }
+      },
+      {
+        "id": "7d9f1912c6",
+        "reason": "Enterprise AI agents are still attracting seed money, evidence that companies are funding workflow automation rather than generic model plays.",
+        "funding": {
+          "company": "Shamrock AI",
+          "amount": "$5 Mn",
+          "sector": "enterprise AI",
+          "country": "India"
+        }
+      },
+      {
+        "id": "8e2e8688e5",
+        "reason": "This round shows AI is moving deeper into back-office healthcare ops, where buyers will pay for automation that reduces administrative burden.",
+        "funding": {
+          "company": "Confido Health",
+          "amount": "$12.5 Mn",
+          "sector": "health tech",
+          "country": "US"
+        }
+      },
+      {
+        "id": "6c90c8c3cb",
+        "reason": "Industrial AIoT retrofits show manufacturing digitization is spreading from greenfield factories to legacy equipment already in use."
+      },
+      {
+        "id": "a66d92fb45",
+        "reason": "A major Indian IT services company launching an industrial AI platform is evidence that manufacturing AI is becoming a product category, not a consulting slide."
+      },
+      {
+        "id": "7f74d52e19",
+        "reason": "A 10 GWh battery factory for data centers shows AI infrastructure is driving adjacent industrial buildout in power and storage."
+      },
+      {
+        "id": "a9574c01e9",
+        "reason": "Engineering schools adapting to AI is a sign the skills pipeline is being reshaped by automation across technical fields."
+      },
+      {
+        "id": "eac87eb48e",
+        "reason": "G7 cyber-defense exercises around AI highlight the geopolitics of model misuse and the push for coordinated state response."
+      },
+      {
+        "id": "1588e88d18",
+        "reason": "US Treasury’s push to rename AI as 'super intelligence' suggests governments are still struggling to frame and regulate the technology’s strategic risks."
+      },
+      {
+        "id": "c2f510e41c",
+        "reason": "Semiconductor-cycle skepticism matters because chip demand is still the core input to the AI and hardware investment boom."
+      },
+      {
+        "id": "7e88cc3a29",
+        "reason": "Supply-chain resilience for US semiconductors is evidence that chip policy has shifted from efficiency to strategic security."
+      },
+      {
+        "id": "8f0095b593",
+        "reason": "Semiconductor diplomacy in Europe shows chips are now a geopolitical bargaining chip, not just an industrial commodity."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "6fc1fc8c10",
+        "reason": "Concrete electoral-administration change: searchable voter rolls point to a wider push for transparency and easier scrutiny of the voter list."
+      },
+      {
+        "id": "60d54a0e80",
+        "reason": "Shows the significance of voter-roll revision by comparing it with past SIR exercises, suggesting a structural change in how the electorate is being managed."
+      },
+      {
+        "id": "58701b530e",
+        "reason": "A broader federalism story: the case for stronger state finance commissions reflects the long-running struggle over decentralisation and fiscal power."
+      },
+      {
+        "id": "73269bfe13",
+        "reason": "Evidence of the state using multilingual AI infrastructure in governance, part of the wider digitisation of public administration in sensitive regions."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "ff9f64937c",
+        "reason": "Evidence of great-power competition moving into Central Asia’s energy and critical-minerals corridors, where trade and security policy are converging."
+      },
+      {
+        "id": "5a007d9d4c",
+        "reason": "A concrete sign that the frozen Russian-assets dispute is still shaping Europe–U.S. policy over Ukraine and the use of sovereign assets as leverage."
+      },
+      {
+        "id": "3b61c16874",
+        "reason": "Shows how the Middle East war is feeding into longer-lasting changes in global trade flows, not just immediate shipping disruption."
+      }
+    ],
+    "markets": [
+      {
+        "id": "0b65a6440a",
+        "reason": "Evidence that the RBI is spending down war chest to defend the rupee, a sign of sustained pressure on India’s currency regime."
+      },
+      {
+        "id": "5691971884",
+        "reason": "RBI clarifications on FX curbs show the central bank is actively reshaping market plumbing, not just reacting to daily moves."
+      }
+    ],
+    "sports": [
+      {
+        "id": "140f25db3a",
+        "reason": "Major evidence of the continuing stadium-arms race: clubs and cities are committing huge capital to new venues over the next cycle."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 3,
+    "india": 2,
+    "world": 1,
+    "unknown": 0
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-16",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "d83510c7e5",
+        "reason": "Signals the scale mismatch between AI infrastructure spending and near-term revenue, a core marker of the capital cycle behind the AI boom."
+      },
+      {
+        "id": "84f6e8993c",
+        "reason": "Shows AI demand pulling through into physical infrastructure, with data centers becoming strategic assets for frontier model deployment."
+      },
+      {
+        "id": "e925c3137a",
+        "reason": "Evidence that frontier AI companies are being pushed toward outside scrutiny and transparency as risk management becomes part of the industry model."
+      },
+      {
+        "id": "87fb1a2e83",
+        "reason": "A concrete policy warning that autonomous AI agents are already interacting with live enterprise systems, accelerating the move from hype to security risk."
+      },
+      {
+        "id": "2abe9fc747",
+        "reason": "Captures the geopolitics of AI: Europe is trying to build sovereign capability while still trailing the US and China."
+      },
+      {
+        "id": "aedb436f32",
+        "reason": "China’s export curbs on tech including AI show that model access and advanced hardware are becoming instruments of national security policy."
+      },
+      {
+        "id": "d2e01d5dd9",
+        "reason": "Highlights the intensifying competition to build frontier AI, with DeepMind talent spinning out a major rival to OpenAI."
+      },
+      {
+        "id": "d66aa7fb2f",
+        "reason": "Shows Indian capital increasingly backing domestic AI firms, a sign that local investors see AI as a strategic category, not just a foreign import."
+      },
+      {
+        "id": "b29bba0846",
+        "reason": "A sizable Indian robotics round points to capital flowing into automation for the built environment, where labor shortages and productivity pressure are colliding.",
+        "funding": {
+          "company": "Origin",
+          "amount": "$20 Mn",
+          "sector": "robotics",
+          "country": "India"
+        }
+      },
+      {
+        "id": "fe15a69477",
+        "reason": "Defense-tech demand and IPO appetite are being reinforced by geopolitical conflict, pulling advanced imaging and sensing companies into public markets."
+      },
+      {
+        "id": "13c301058a",
+        "reason": "Flipkart’s revenue scale and narrowing losses underscore the continued normalization of India’s large-scale tech commerce players toward profitability."
+      },
+      {
+        "id": "a01958d25a",
+        "reason": "Shopify’s India checkout push is evidence that global commerce infrastructure is still fighting for distribution inside India’s digital market."
+      },
+      {
+        "id": "24d475ac99",
+        "reason": "SEBI’s IPO rule overhaul is a signal that regulators are reshaping the financing path for India’s startup and SME ecosystem."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "3b517ec3c1",
+        "reason": "A concrete administrative change to census staffing rules, evidence of the state preparing for a long-delayed enumeration and the governance/data machinery behind it."
+      },
+      {
+        "id": "2e9045beed",
+        "reason": "A specific tax tweak on fuel exports shows the government actively managing energy revenues and inflation pressures through fiscal levers."
+      },
+      {
+        "id": "6b727c71e3",
+        "reason": "Jagan Reddy’s possible pivot toward the INDIA bloc signals shifting coalition calculations and regional realignment in national opposition politics."
+      },
+      {
+        "id": "a98eec3408",
+        "reason": "A regional party leader’s careful INDIA debut is evidence of opposition coalition-building beyond the old Delhi-centric party map."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "d70a2e9b76",
+        "reason": "Evidence of China expanding its military logistics footprint in Southeast Asia, a concrete sign of shifting regional power projection."
+      },
+      {
+        "id": "1fed2539f7",
+        "reason": "Shows a NATO-frontline state tightening controls near Russia, evidence of the border hardening and security spillovers from the war."
+      },
+      {
+        "id": "a7264c4a44",
+        "reason": "Illustrates how energy security is reshaping policy choices as India diversifies oil supply chains under geopolitical pressure."
+      }
+    ],
+    "markets": [
+      {
+        "id": "de2e232558",
+        "reason": "Evidence of a sustained FX-defense campaign: reserves are falling for a fifth straight week as the RBI spends to cushion the rupee."
+      },
+      {
+        "id": "4e2d969476",
+        "reason": "Shows the RBI is using tighter monetary conditions, not just spot intervention, to defend the currency—an important policy shift with macro spillovers."
+      }
+    ],
+    "sports": [
+      {
+        "id": "3b8c4c1696",
+        "reason": "A landmark women’s sports contract is evidence of the growing capital flowing into women’s leagues and the widening market for elite female athletes."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 1,
+    "india": 1,
+    "world": 0,
+    "unknown": 0
+  }
+}

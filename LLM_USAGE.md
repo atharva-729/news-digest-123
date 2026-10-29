@@ -13,11 +13,11 @@ delivery use no LLM at all.
 
 | Step | What the model does | Model · reasoning | Calls | Tokens in / out per call |
 |---|---|---|---|---|
-| `select` | Picks 25 stories (+2 reserves per section) from ~270, ids only, preferring ones we can read in full | gpt-5-mini · minimal | 6 | ~2.9k / ~0.2k |
-| `threads` | Event key per story, direct-only links to patterns/candidates, new patterns, look-alike merges, splits, cross-link | gpt-5-mini · **medium** | 1 | ~6k / ~9k (≈7k reasoning) |
-| `threads:verify` | Keep/drop check on every proposed link ("is this story direct evidence for the claim?"); drops ~40% | gpt-5-mini · low | 1 | ~3k / ~1.3k |
+| `select` | Picks 25 stories (+2 reserves per section) from ~270, ids only, preferring ones we can read in full | gpt-5.4-mini · none | 6 | ~2.9k / ~0.2k |
+| `threads` | Event key per story, direct-only links to patterns/candidates, new patterns, look-alike merges, splits, cross-link | gpt-5.4-mini · **medium** | 1 | ~15k / ~15–23k (mostly reasoning; grows with candidates) |
+| `threads:verify` | Keep/drop check on every proposed link ("is this story direct evidence for the claim?"); drops ~40% | gpt-5.4-mini · low | 1 | ~3k / ~1.3k |
 | `teach` | Writes the stable teaching card (one line, "it's like", why, rule of thumb) for new patterns only | gpt-5.4-mini · low | 0–1 | ~0.8k / ~0.2k |
-| `connect` | Links today to ~300 of last week's headlines: pattern backstory and "last week → today" | gpt-5-mini · low | 1 | ~18k / ~2.9k |
+| `connect` | Links today to ~300 of last week's headlines: pattern backstory and "last week → today" | gpt-5.4-mini · low | 1 | ~18k / ~2.9k |
 | `write:cards1` | Explains the tech stories from the article text (headline, explanation, why it matters) | gpt-5.4-mini · low | 1 | ~7.6k / ~1.5k |
 | `write:cards2` | Same for all other sections | gpt-5.4-mini · low | 1 | ~11.5k / ~1.4k |
 | `write:page` | The day in 3 lines, the big picture, force lines, prediction, 2 quiz questions | gpt-5.4-mini · low | 1 | ~4.8k / ~0.7k |
@@ -25,12 +25,14 @@ delivery use no LLM at all.
 | `write:call` | Only if the day's prediction fails the code checks: one retry with the reasons | gpt-5.4-mini · low | 0–1 | ~0.8k / ~0.3k |
 | `write:retry` | Only if a card was skipped | gpt-5.4-mini · low | 0–1 | small |
 
-**Per day:** about 14 calls, ~76k tokens in and ~20k out. The gpt-5-mini steps cost about **$0.045/day**
-at list prices; the gpt-5.4-mini steps (~33k in / ~6k out) add roughly $0.03–0.05 depending on its price.
-**Ballpark: $0.09/day, about $2.70/month.** Weekly adds one `weekly` call (~3.2k in / ~0.5k out).
+**Per day (all gpt-5.4-mini since 2026-10-30, $0.75 in / $4.50 out per million; output price assumed):** about
+14 calls, ~90k tokens in and ~30k out. **Ballpark: $0.20/day, about $6/month.** The `threads` call is ~$0.09 of
+that; setting `threads.params` to low would roughly halve it.
 
-gpt-5.4-mini isn't in `model.prices` in `config.yaml` yet, so its cost logs as null. Add its price there and
-the log fills in.
+**Backfill (2026-10-30):** `python -m digest.backfill --from 2026-10-06 --until 2026-10-26` (select + threads
+per day, no editions) plus rebuilding 27–29 Oct cost **$3.74** over 213 calls. Weekly adds one `weekly` call (~3.2k in / ~0.5k out).
+
+Prices live in `model.prices` in `config.yaml`; gpt-5.4-mini's input price is confirmed, output is an assumption.
 
 ## Why these choices
 

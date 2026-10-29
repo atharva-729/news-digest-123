@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-11",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "72ed6c546c",
+        "reason": "TSMC’s record-profit streak shows how AI demand is still the main engine of semiconductor earnings and capex."
+      },
+      {
+        "id": "35d6a2baf2",
+        "reason": "Tech earnings are becoming a market-wide positioning issue, showing how concentrated investor bets on megacap tech shape hedge-fund performance."
+      },
+      {
+        "id": "5a92e93542",
+        "reason": "A huge AI infrastructure fund in South Korea is evidence that capital is chasing the AI buildout beyond the US and into chips and robotics.",
+        "funding": {
+          "company": "a16z",
+          "amount": "$1.1 billion",
+          "sector": "AI infrastructure",
+          "country": "South Korea"
+        }
+      },
+      {
+        "id": "7e93f4e163",
+        "reason": "Tessolve’s $75 million raise is another sign of money flowing into semiconductor services and the India chip ecosystem, not just fab announcements.",
+        "funding": {
+          "company": "Tessolve Semiconductor",
+          "amount": "$75 Million",
+          "sector": "semiconductor services",
+          "country": "India"
+        }
+      },
+      {
+        "id": "f90dcf5425",
+        "reason": "Autobia’s Series A shows venture capital is still funding Middle East industrial software and supply-chain startups despite a tougher market.",
+        "funding": {
+          "company": "Autobia",
+          "amount": "USD 12M",
+          "sector": "auto parts",
+          "country": "Saudi Arabia"
+        }
+      },
+      {
+        "id": "98fa585465",
+        "reason": "Small health-tech rounds like Alo Hakeem’s show capital is still available for regional digital-health startups, especially in underserved markets.",
+        "funding": {
+          "company": "Alo Hakeem",
+          "amount": "USD 165K",
+          "sector": "health tech",
+          "country": "Syria"
+        }
+      },
+      {
+        "id": "f4d23e63f6",
+        "reason": "A 19-year-old raising $10 million for an AI startup is evidence of continued venture appetite for consumer AI and founder-led hype cycles.",
+        "funding": {
+          "company": "AI startup",
+          "amount": "$10 mn",
+          "sector": "AI",
+          "country": "India"
+        }
+      },
+      {
+        "id": "ac1984a6a9",
+        "reason": "Apple licensing tech from an AI podcast startup signals big tech’s willingness to buy, hire, or partner rather than build every AI feature in-house."
+      },
+      {
+        "id": "2c9728d331",
+        "reason": "Nadella calling for an AI ‘emergency brake’ is evidence the industry’s safety-and-governance debate is moving from fringe criticism into boardroom language."
+      },
+      {
+        "id": "d12500edcc",
+        "reason": "Self-driving trucks clearing a roadblock shows autonomy is advancing through regulation and operational constraints, not just model improvements."
+      },
+      {
+        "id": "76d624de4d",
+        "reason": "Rising M&A and investment in India’s semiconductor space point to a broader industrial policy push and supply-chain localization trend."
+      },
+      {
+        "id": "2981af0104",
+        "reason": "Dixon’s framing that electronics manufacturing is more than assembly reflects India’s push to move up the hardware value chain."
+      },
+      {
+        "id": "291d475394",
+        "reason": "Indonesia positioning Bali as an AI and semiconductor hub shows governments are competing to attract strategic tech manufacturing and talent."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "57a02133cb",
+        "reason": "Evidence of a major political flashpoint around voter-roll deletions and the deeper pattern of electoral administration becoming a battleground over legitimacy and enfranchisement."
+      },
+      {
+        "id": "1ad4ecbcb1",
+        "reason": "Shows the state’s escalating coercive response to protest, a sign of hardening governance and the politics of suppression around electoral and civic dissent."
+      },
+      {
+        "id": "4d9fb24373",
+        "reason": "Mass detentions in Delhi indicate a broader shift toward security-first crowd control and the centrality of protest policing in Indian politics."
+      },
+      {
+        "id": "cabd329307",
+        "reason": "Tracks the next phase of youth-led protest politics, pointing to wider unrest driven by institutional trust and representation grievances."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "2fc18e3881",
+        "reason": "Evidence that AI is becoming a central battleground in great-power competition, reshaping US-China rivalry beyond any single policy fight."
+      },
+      {
+        "id": "e6c919c38e",
+        "reason": "Shows the war-risk spillover from Russia’s conflict into European corporate security, signaling a broader militarization of commercial targets."
+      },
+      {
+        "id": "84ef62e79b",
+        "reason": "Points to Africa’s push to reshape global governance, part of a wider shift in the demands of the Global South on international institutions."
+      }
+    ],
+    "markets": [
+      {
+        "id": "f149b63690",
+        "reason": "Direct evidence of RBI defending the currency with reserves, showing the larger pattern of central banks intervening to manage FX stress."
+      },
+      {
+        "id": "34c86568be",
+        "reason": "Bond traders waiting on CPI and Fed guidance is a clean signal of how inflation data still drives the Fed rate path and global rates pricing."
+      }
+    ],
+    "sports": [
+      {
+        "id": "85f3c53d40",
+        "reason": "A major marathon results item signals the global endurance-racing calendar and the continuing prominence of mass-participation road races."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [
+    "35d6a2baf2",
+    "3b0868e73c"
+  ],
+  "funding": {
+    "total": 5,
+    "india": 2,
+    "world": 3,
+    "unknown": 0
+  }
+}

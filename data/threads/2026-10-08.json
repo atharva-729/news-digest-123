@@ -1,0 +1,979 @@
+{
+  "date": "2026-10-08",
+  "threads": [
+    {
+      "id": "t_ai_core_mega_rounds",
+      "title": "Core AI startups keep drawing mega-rounds",
+      "nickname": "Core AI",
+      "plain": "Big investors are writing huge checks for core AI companies.",
+      "claim": "Core AI startups are drawing unusually large funding rounds.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-07",
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "item_id": "43f8aab039",
+          "section": "tech",
+          "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+          "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+          "source": "TechCrunch",
+          "note": "This story shows core AI startups are drawing unusually large funding rounds because Lambda is raising up to $4 billion ahead of a planned IPO.",
+          "mechanism": "This story shows core AI startups are drawing unusually large funding rounds because Lambda is raising up to $4 billion ahead of a planned IPO.",
+          "event": "lambda-ai-megaround"
+        },
+        {
+          "date": "2026-10-07",
+          "item_id": "cd42fa9100",
+          "section": "tech",
+          "title": "Maker of Open-Source AI Assistant Hermes Secures $90 Million",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNHZsZXZCVlE0NzNuRkdubF9nSnF4dDFxRjNJbTRURXhVWTZkbzlVbmxKc1AtM3RpLXI0TnozYUFSUDBELVdjU3pXaFR2dGVObFlnQlRoaS1ENWxNLThCM2tSbGJuYXhBZ1dCU0cxRmhJVjl0MzhwaDNnZC1lQzNDaWdabTMyUjMyZG9tRDJ2RTFDbzRkUW5kUnk1Wmk0bTZPMklaRGhjeEYydWFO?oc=5",
+          "source": "WSJ",
+          "note": "This story shows core AI startups are drawing unusually large funding rounds because Hermes secured $90 million for an open-source AI assistant.",
+          "mechanism": "This story shows core AI startups are drawing unusually large funding rounds because Hermes secured $90 million for an open-source AI assistant.",
+          "event": "hermes-open-source-ai-round"
+        },
+        {
+          "date": "2026-10-08",
+          "item_id": "92be971aec",
+          "section": "tech",
+          "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+          "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+          "source": "TechCrunch",
+          "note": "This story shows core AI startups are drawing unusually large funding rounds because Nous Research hit a $1.5 billion valuation and raised a $90 million Series B.",
+          "mechanism": "This story shows core AI startups are drawing unusually large funding rounds because Nous Research hit a $1.5 billion valuation and raised a $90 million Series B.",
+          "event": "hermes-open-source-ai-round"
+        }
+      ],
+      "last_seen": "2026-10-08",
+      "sections": [
+        "tech"
+      ],
+      "distinct_events": 2,
+      "status": "new",
+      "teach": {
+        "one_line": "Core AI startups are attracting unusually large funding rounds.",
+        "like": "Like a gold rush: the biggest checks go to the people digging closest to the vein.",
+        "why": "Capital is chasing frontier AI, where technical gains and platform control can still create outsized returns.",
+        "remember": "Frontier AI gets the jumbo checks."
+      }
+    },
+    {
+      "id": "t_india_rate_hike_tightening",
+      "title": "India returns to rate hikes",
+      "nickname": "Rate turn",
+      "plain": "India's central bank is tightening again.",
+      "claim": "India's central bank is tightening monetary policy after a long pause.",
+      "forces": [
+        "capital"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "bb99f5fee7",
+          "section": "markets",
+          "title": "VIEW India raises policy rate by 25 bps in first hike in nearly four years",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbGVjbmZkLVFzUzNOSUZNeHRsaXRiazdETFQ4MmQwVGZfTHZsVXVrRlFzQW01U0YwanJVNzFjX1hiVHB0cjRMblpfOVlDYmpkVTBMWkNUbm5VdGhXZGZCWkY3VjdnR1FWS1lzVjlJZ1FCcGxzSDhEWWJrcHpvQWEwNTdMdVprYjIwbW1oQUw0MFVXbHl6T1VEWjNvM21tNW9EMVc2WHNBTEtZX0E2V0VvbUY5ZU5ZZkU?oc=5",
+          "source": "Reuters",
+          "note": "This story shows India's central bank is tightening monetary policy after a long pause because it raised the policy rate by 25 bps.",
+          "mechanism": "This story shows India's central bank is tightening monetary policy after a long pause because it raised the policy rate by 25 bps.",
+          "event": "india-rbi-rate-hike"
+        },
+        {
+          "date": "2026-10-07",
+          "item_id": "84768df0fc",
+          "section": "markets",
+          "title": "RBI hikes repo rate by 25 bps to 5.5%, first increase since February 2023",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUU95QTJ3MHV6bURnTUlic1FZS3FaNmh4cS1DektrNVZSVEFCZ2dvbFdjN3d6YlZRWjhaaFBad2N2NzdGbERPLWVhYmlFT0JSRDNsODkxWnpqUXRUZGRvSGhna2puSzdJYXROSlpDc2JnV0pwRTJodjlBRnJDdlpnUW1mRV9pOWdYNEJLYlVibmVZOXR5SUpj0gGkAUFVX3lxTFBvTEVhb1F3ZzFEQkpCNEdxQy1Mem5WYkVLS0FGUF80VWZUdkgtSm5DTEZURDhMc0lVQm1ESVp5YV96ejZnVkkyQ3JoUG1jU29SSXJWR2Y1MDdseTdfUEJWTVdldlBCb2JBZXliMVV3WkJ4QXRDbmJHekxKV25JYjN6VU1HOXdNbkM0QzY5enNPTlBsNmVrbUJ0MnE0NWplS1FLN1Ax?oc=5",
+          "source": "Daily Pioneer",
+          "note": "This story shows India's central bank is tightening monetary policy after a long pause because it raised the repo rate by 25 bps to 5.5%.",
+          "mechanism": "This story shows India's central bank is tightening monetary policy after a long pause because it raised the repo rate by 25 bps to 5.5%.",
+          "event": "india-rbi-rate-hike"
+        },
+        {
+          "date": "2026-10-08",
+          "item_id": "522645ad7c",
+          "section": "markets",
+          "title": "RBI to conduct Rs 1.5 lakh crore 10-day VRRR auction to absorb excess surplus liquidity",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNl8tZDl5YlIyOGM1SWtPVGZHQnN0SzNfSkg3RDlibVRwNVJZb2lGaWl6NkFSLTZaNzlIVHIzeE44SUVFMzlURzBfbi1XM2JPZzBucU96VnVzbFlRQ29jZ2ZXemxkdi02cWFodTZYN3UyU1VLWWE1akF4ZVpkYkhSTUhIWnJRRDJkazRVU2dzaXk1V3VCTkVKc0pvZTdjckg0TmxBY1NoeE1naGVVWGhHNWpRbHJWOTZaR1FNSXRhQTR3ZGZ5bzRPUmdlckZPVFlidnZqVlFnWGtfdVRtRnBBZFpOZUXSAeoBQVVfeXFMTV9ORERSdjI3cFlVUVE4Q1ZmQ2RqN1VVdXp1S0NxOUNZMy1IUTE0RVhKeHd4Q28xem85QWY2TlhNV1dJUzdSSEJ6T1FNaVRKZTBvMXFmZDhGbkM1Z3ZSZ2NuZ2QtaEp1cmFmX2NYZ3RtSG10YzJCY25Lck9iYzhrR2psOWdhMWlZT3gzVnMwN0FVTmlXaWhJSEw2eURZTnFlSjM3Z29tSE0xQ1NOWk5CaEdaaHpGSGxpcXhWb1JUSWR4eXp0WkJaamdjc25DOFFDeHprYkt4OXZibUY3cGhRR2hKbzFtUXYzSmxB?oc=5",
+          "source": "Moneycontrol.com",
+          "note": "This story shows India's central bank is tightening monetary policy because it will conduct a Rs 1.5 lakh crore 10-day VRRR auction to absorb surplus liquidity.",
+          "mechanism": "This story shows India's central bank is tightening monetary policy because it will conduct a Rs 1.5 lakh crore 10-day VRRR auction to absorb surplus liquidity.",
+          "event": "india-vrrr-liquidity-absorption"
+        }
+      ],
+      "last_seen": "2026-10-08",
+      "sections": [
+        "markets"
+      ],
+      "distinct_events": 2,
+      "status": "new",
+      "teach": {
+        "one_line": "India’s central bank is tightening monetary policy after a long pause.",
+        "like": "Like turning a faucet down after the sink starts overflowing.",
+        "why": "Capital conditions changed: the central bank is pulling liquidity in and raising rates to make borrowing less easy.",
+        "remember": "After pause, tighter money."
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": "c_consumer_hardware_manufacturing",
+      "title": "Consumer hardware startups scale manufacturing",
+      "nickname": "Hardware scale-up",
+      "plain": "Consumer hardware startups are raising money to expand factories.",
+      "claim": "Consumer hardware startups are raising more capital to scale manufacturing, not just demand generation.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "e5f487e9bb",
+          "section": "tech",
+          "title": "Beyond Appliances Raises ₹110 Cr To Expand Product Portfolio, Boost Manufacturing",
+          "url": "https://inc42.com/buzz/beyond-appliances-raises-%e2%82%b9110-cr-to-expand-product-portfolio-boost-manufacturing/",
+          "source": "Inc42",
+          "note": "This story shows consumer hardware startups are raising more capital to scale manufacturing because Beyond Appliances raised ₹110 Cr to expand its product portfolio and boost manufacturing.",
+          "mechanism": "This story shows consumer hardware startups are raising more capital to scale manufacturing because Beyond Appliances raised ₹110 Cr to expand its product portfolio and boost manufacturing.",
+          "event": "beyond-appliances-series-b"
+        }
+      ]
+    },
+    {
+      "id": "c_ai_chip_valuation_bids",
+      "title": "AI chip startups command higher valuations",
+      "nickname": "Chip mania",
+      "plain": "AI chip startups are getting bid up.",
+      "claim": "Investors are bidding up AI chip startups to much higher valuations.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "264a175055",
+          "section": "tech",
+          "title": "Etched fields funding offers at $40B+ valuation, sources say",
+          "url": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
+          "source": "TechCrunch",
+          "note": "This story shows investors are bidding up AI chip startups to much higher valuations because Etched is getting funding offers at $40B+ valuation.",
+          "mechanism": "This story shows investors are bidding up AI chip startups to much higher valuations because Etched is getting funding offers at $40B+ valuation.",
+          "event": "etched-ai-valuation-bids"
+        }
+      ]
+    },
+    {
+      "id": "c_ai_agent_oversight",
+      "title": "AI agents face broader oversight",
+      "nickname": "Agent oversight",
+      "plain": "Autonomous AI agents are drawing scrutiny.",
+      "claim": "Platform owners and nonprofits are scrutinizing autonomous AI agents for misuse and governance gaps.",
+      "forces": [
+        "technology",
+        "regulation"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "c0424634a6",
+          "section": "tech",
+          "title": "OpenAI’s ‘Rogue’ AI Agents Hit Wikimedia, Raise Fresh Oversight Concerns",
+          "url": "https://inc42.com/buzz/openais-rogue-ai-agents-hit-wikimedia-raise-fresh-oversight-concerns/",
+          "source": "Inc42",
+          "note": "This story shows autonomous AI agents are drawing scrutiny because Wikimedia found OpenAI agents behaving in a way that raised oversight concerns.",
+          "mechanism": "This story shows autonomous AI agents are drawing scrutiny because Wikimedia found OpenAI agents behaving in a way that raised oversight concerns.",
+          "event": "openai-wikimedia-agent-scrutiny"
+        },
+        {
+          "date": "2026-10-07",
+          "item_id": "b42348fc48",
+          "section": "tech",
+          "title": "OpenAI Agents Go Rogue, FYDY Eyes $12 Mn & More",
+          "url": "https://inc42.com/buzz/openai-agents-go-rogue-fydy-eyes-12-mn-more/",
+          "source": "Inc42",
+          "note": "This story shows autonomous AI agents are drawing misuse and governance scrutiny because Wikimedia says OpenAI agents behaved in a way that raised oversight concerns.",
+          "mechanism": "This story shows autonomous AI agents are drawing misuse and governance scrutiny because Wikimedia says OpenAI agents behaved in a way that raised oversight concerns.",
+          "event": "openai-wikimedia-agent-scrutiny"
+        }
+      ]
+    },
+    {
+      "id": "c_eu_ai_watermarking",
+      "title": "EU rules force AI watermarking",
+      "nickname": "Watermarking",
+      "plain": "AI tools are adding watermarks for EU compliance.",
+      "claim": "AI companies are changing text outputs to comply with EU AI rules.",
+      "forces": [
+        "regulation",
+        "technology"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "8dc6e37ab1",
+          "section": "tech",
+          "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+          "source": "TechCrunch",
+          "note": "This story shows EU regulation is forcing AI product changes because OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act.",
+          "mechanism": "This story shows EU regulation is forcing AI product changes because OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act.",
+          "event": "openai-chatgpt-watermarking-eu"
+        }
+      ]
+    },
+    {
+      "id": "c_consumer_ai_group_chat",
+      "title": "Consumer AI moves into group chats",
+      "nickname": "Group AI",
+      "plain": "Consumer AI is entering shared chats.",
+      "claim": "Consumer AI tools are moving into group-chat collaboration instead of solo use.",
+      "forces": [
+        "technology"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "68c547b79e",
+          "section": "tech",
+          "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+          "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+          "source": "TechCrunch",
+          "note": "This story shows consumer AI is moving into group-chat collaboration because Instinct is launching shared chats that let friends use its agent together.",
+          "mechanism": "This story shows consumer AI is moving into group-chat collaboration because Instinct is launching shared chats that let friends use its agent together.",
+          "event": "instinct-group-chat-ai"
+        }
+      ]
+    },
+    {
+      "id": "c_agentic_ai_funding_resilience",
+      "title": "Agentic AI keeps attracting capital",
+      "nickname": "Agent money",
+      "plain": "Investors are still funding agentic AI.",
+      "claim": "Investors are still backing agentic AI startups despite public skepticism.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "f50de17f21",
+          "section": "tech",
+          "title": "After Factory’s public spat with Khosla, Menlo proudly invests",
+          "url": "https://techcrunch.com/2026/10/05/after-factorys-public-spat-with-khosla-menlo-proudly-invests/",
+          "source": "TechCrunch",
+          "note": "This story shows investors are still backing agentic AI startups despite skepticism because Menlo invested in Factory after a public investor spat.",
+          "mechanism": "This story shows investors are still backing agentic AI startups despite skepticism because Menlo invested in Factory after a public investor spat.",
+          "event": "factory-menlo-investment"
+        }
+      ]
+    },
+    {
+      "id": "c_indian_hardware_ipo",
+      "title": "Indian hardware startups eye IPOs",
+      "nickname": "IPO route",
+      "plain": "Hardware startups are heading to public markets.",
+      "claim": "Indian hardware-linked startups are moving toward public listings.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "ba64d559f6",
+          "section": "tech",
+          "title": "Dronetech Startup AITMC Files UDRHP For A Fresh Issue IPO",
+          "url": "https://inc42.com/buzz/dronetech-startup-aitmc-files-udrhp-for-a-fresh-issue-ipo/",
+          "source": "Inc42",
+          "note": "This story shows Indian hardware-linked startups are moving toward public listings because AITMC Ventures filed its IPO papers with SEBI.",
+          "mechanism": "This story shows Indian hardware-linked startups are moving toward public listings because AITMC Ventures filed its IPO papers with SEBI.",
+          "event": "aitmc-ipo-filing"
+        }
+      ]
+    },
+    {
+      "id": "c_fusion_capital",
+      "title": "Fusion startups keep raising capital",
+      "nickname": "Fusion bets",
+      "plain": "Fusion projects are still attracting big checks.",
+      "claim": "Investors are still funding long-horizon fusion projects.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "06ea274336",
+          "section": "tech",
+          "title": "Type One Energy raised $200M to build a fusion power plant by 2034",
+          "url": "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/",
+          "source": "TechCrunch",
+          "note": "This story shows investors are still funding long-horizon fusion projects because Type One Energy raised $200M for a future power plant.",
+          "mechanism": "This story shows investors are still funding long-horizon fusion projects because Type One Energy raised $200M for a future power plant.",
+          "event": "type-one-energy-fusion-raise"
+        }
+      ]
+    },
+    {
+      "id": "c_india_opposition_ec_protests",
+      "title": "Opposition protests election commission",
+      "nickname": "EC protest",
+      "plain": "Opposition leaders are protesting election authorities.",
+      "claim": "Indian opposition leaders are publicly protesting the election commission's leadership.",
+      "forces": [
+        "regulation"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "ad5d18ea74",
+          "section": "politics_india",
+          "title": "Delhi Police Detain Rahul, Priyanka Gandhi During INDIA Bloc Protest Seeking CECs Resignation",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUnNtYmd2UU5WMEhfNFFSYnR6WlFhR3F3RURSdVJXVjAyUV9VZ1FlaDdjdElJTndRQWVIVzRSX2RDVHhiU1RLZ0d3ZUVuUjVXVFdEek9sLXVDRXdhaFhTUUg1Z3ZXNXhGbG1sTWhLQTNudTBidmtGcUlWMXU2VnhMM3JCYl95ZkFsWHBPSVRGcVl1dkpPaE5BNmp1YmFYaWg2S0lOb0dPbXg3RlhfcElZLW1VUklxdjNhcHg1R3lXQndCNDdX0gHEAUFVX3lxTE5Sc21iZ3ZRTlYwSF80UVJidHpaUWFHcXdFRFJ1UldWMDJRX1VnUWVoN2N0SUlOd1FBZUhXNFJfZENUeGJTVEtnR3dlRW5SNVdUV0R6T2wtdUNFd2FoWFNRSDVndlc1eEZsbWxNaEtBM251MGJ2a0ZxSVYxdTZWeEwzckJiX3lmQWxYcE9JVEZxWXV2Sk9oTkE2anViYVhpaDZLSU5vR09teDdGWF9wSVktbVVSSXF2M2FweDVHeVdCd0I0N1c?oc=5",
+          "source": "TheWire.in",
+          "note": "This story shows Indian opposition leaders are publicly protesting the election commission's leadership because Rahul and Priyanka Gandhi were detained during an INDIA bloc protest seeking the CEC's resignation.",
+          "mechanism": "This story shows Indian opposition leaders are publicly protesting the election commission's leadership because Rahul and Priyanka Gandhi were detained during an INDIA bloc protest seeking the CEC's resignation.",
+          "event": "delhi-protest-cec-resignation"
+        }
+      ]
+    },
+    {
+      "id": "c_india_logistics_planning_centralization",
+      "title": "India centralizes logistics planning",
+      "nickname": "Logistics authority",
+      "plain": "India is centralizing multimodal logistics planning.",
+      "claim": "India is creating a central authority to streamline multimodal transport and logistics planning.",
+      "forces": [
+        "regulation",
+        "technology"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "859b1b2894",
+          "section": "politics_india",
+          "title": "Cabinet approves Integrated Transport & Logistics Authority to streamline multimodal planning",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNMHNSLUlubVVYcnFzMEZzYmhmWUZFbEhHYVVrY2RycF9KRGNXbnltTmVCQXhyMTVpeS1famEwQjRwTXdkdFdtOWJPRlBWUlM0dE9MVlB6akpnZmRYU2NULVJsdWxvTnBFdF9ENXE5RmY4TGQtV3J4Y2hua2NMUl9sc3hJVFhlRUt1Vl90UjhKZk1lVVR2SDRiZHNDT1lzOXFjY3h6LVJTZXJPLTVQZXhfVVA2YnY5OGQ4c3duQWxiVDRDeWNIVklBVHBlVUtwTWZBSTA2SkFYNWVaTTllaTN3MmxoQWN3bE9NMkFEZUZPTWnSAfQBQVVfeXFMUFFqekszSkF1LTNKR0xBaEFyeWJSMTBOUndFeGZOMkZpejl2U0tZOUJCeW0yZHZWejNYS1JHYklfZlJxbGJSNW96NjJnYTNvVkVyODQ2TEFMbVF6bWo2Nno3aE1zdUc3T2owWHFSNlZHVUdKMWh5S0JJRWw0cHdSZlE4Wi1jOW03VGg3TnU5cnVXUk1PSnRSLWFIY0ZRdVRxNjlqUHEycmJERHM1cHlKR1ZHX0RVcWFPYU1OU0Fqbk55QURlLUFDSGJYZ1ZJMXFvZ3l2TW1ob05wYlliNFRNQ3ZGSWJrZmV2MW8zUHowbGY5X1lucA?oc=5",
+          "source": "ET Infra",
+          "note": "This story shows India is centralizing multimodal logistics planning because the cabinet approved an Integrated Transport & Logistics Authority.",
+          "mechanism": "This story shows India is centralizing multimodal logistics planning because the cabinet approved an Integrated Transport & Logistics Authority.",
+          "event": "india-logistics-authority"
+        }
+      ]
+    },
+    {
+      "id": "c_tamil_nadu_language_policy_dispute",
+      "title": "Tamil Nadu disputes Hindi policy",
+      "nickname": "Language row",
+      "plain": "Tamil Nadu is disputing Hindi use.",
+      "claim": "Tamil Nadu politicians are continuing disputes over Hindi use and three-language policy.",
+      "forces": [
+        "regulation",
+        "demographics"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "70a6c4dbbe",
+          "section": "politics_india",
+          "title": "DMK flags Hindi on medicine covers, claims 3-language policy in Tamil Nadu",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUUNpZGNveVFHc01zV3FRRlZGNnBkbHBrdWRrOGNEZDdXWXBGSlhTVU9UVzdQZDJSUW52aUlqQ2ZWTk9idEFGeEdSdF9sajlfZmoxUUQwQ013WmNjMjYtWHloanMxMmxlVTZSSmduR0xkUVRsd3dUV1BYa1ljb2tGZHFHeXd6VmFkbENlaWFKdFBKYUJoSURkSWJfRTZidVdSTlpOZmFFQnZrUHIyQ05ialZ3eEQ4cDFjcXREWEpMNkxOenZwM0lVbDhocHp5d0RZYmd3TWZJc2_SAd4BQVVfeXFMTVZyN2JKVkR4Q1BzRlFHb2NMSV94bEpEeDV2bDh5Rm9PejFDeUxuVnBDUTRXVW1RUnk0Z0xBenE3ZTJ4THdBUVVaQzNRcENDbXBPVFJNVEhwN0xIdFpBYmtXSG02RkJmNG5oSzcycFF6Zk1GZjRoOUx2UTZXZVppYVRoclh5MVhPN0dJaHRtaFZQeXRTTjVnWHZvLVZEUGdVa3ZJTXQ2UXJJcnZOOUtWcGZBWnp1VjJCbGJROG0xZzBzTnhDamQ2eFQ4RnJxUlF6LURZc1NMMWhfWXBuS1Zn?oc=5",
+          "source": "India Today",
+          "note": "This story shows Tamil Nadu politicians are continuing disputes over Hindi use and three-language policy because DMK raised objections to Hindi on medicine covers.",
+          "mechanism": "This story shows Tamil Nadu politicians are continuing disputes over Hindi use and three-language policy because DMK raised objections to Hindi on medicine covers.",
+          "event": "dmk-hindi-medicine-covers"
+        }
+      ]
+    },
+    {
+      "id": "c_central_bank_gold_buying",
+      "title": "Central banks keep buying gold",
+      "nickname": "Gold reserve",
+      "plain": "Central banks are adding gold reserves.",
+      "claim": "Central banks are continuing to buy gold as geopolitical risk reshapes reserves.",
+      "forces": [
+        "geopolitics",
+        "capital"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "717cd43551",
+          "section": "politics_world",
+          "title": "Central Banks Keep Buying Gold as Geopolitics Reshape Reserve Allocation",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcnFLejN1VmdSR215VUZXbEpYemRzak9kWHduQzVJOHJQektZTXB6WDd5NzVXS0x5ZWR1TVR6djBfQXN5VDR6bkF5Q0JNYlZUdmJocEpnM0VYU2FrcHJlYlh1RjNMUjJMWFI3dmo0NE9ZMk5XQXBYQVQxcXpKUk9LWW9BbGh0QkdEYXNsZzF3UlB1Y2R1SXVrNGVGREJLZkNid3Z3NUJIUU0?oc=5",
+          "source": "NAI500",
+          "note": "This story shows central banks are continuing to buy gold as geopolitical risk reshapes reserves because the article says they keep buying gold.",
+          "mechanism": "This story shows central banks are continuing to buy gold as geopolitical risk reshapes reserves because the article says they keep buying gold.",
+          "event": "central-bank-gold-buying"
+        }
+      ]
+    },
+    {
+      "id": "c_turkey_azerbaijan_alliance_strain",
+      "title": "Turkey-Azerbaijan ties show strain",
+      "nickname": "Caucasus cracks",
+      "plain": "Turkey-Azerbaijan ties are under strain.",
+      "claim": "Signs of strain are appearing in the Turkey-Azerbaijan relationship.",
+      "forces": [
+        "geopolitics"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "f23215e86a",
+          "section": "politics_world",
+          "title": "Cracks Form in the Turkey-Azerbaijan Foundation",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPenFDZm51eHdrZHY3MEFXQ1EwOFRTZWtyOW5VbDVmWEVWSnNpOVBLREl0ODZyNVhmcjlzV2lhLTBIcTZzM0t3UkFkSXhnSHFadkttRTJTZThzc253STNJbmYzZzBoV0FWRUk5Vm9pX0paN0lVellyazlVUTE3emJSejJtX3BpcGs?oc=5",
+          "source": "Geopolitical Futures",
+          "note": "This story shows signs of strain in the Turkey-Azerbaijan relationship because cracks are forming in the foundation between them.",
+          "mechanism": "This story shows signs of strain in the Turkey-Azerbaijan relationship because cracks are forming in the foundation between them.",
+          "event": "turkey-azerbaijan-foundation-cracks"
+        }
+      ]
+    },
+    {
+      "id": "c_singapore_geopolitical_de_risking",
+      "title": "Geopolitical de-risking sends flows to Singapore",
+      "nickname": "Singapore flows",
+      "plain": "De-risking is pushing capital to Singapore.",
+      "claim": "Firms are routing capital and operations toward Singapore because of geopolitical de-risking.",
+      "forces": [
+        "geopolitics",
+        "capital"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "d6c26ea002",
+          "section": "politics_world",
+          "title": "Citi targets globally ambitious firms as geopolitical de-risking drives Singapore flows",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaU4tRW1FOHRlRXV5TkZpSlk4RGV5a3BsMWV2RDFGc2tjZVVVVmItaUNad3pWUnU0UUlwSnpTbVAxQlFBZmk5Y0xJeHRzSWhGaXJHcUNpLXJRZUhNZ3k1cjJRejVCTEJrUXU0blRWOTdqbXR2ZnRvTWZsZjZGZUhkLTdSbDE2eTl4bGp0b3BFLVdPZnlFUXFhZkQ3VHNZZWhUSDRnS1h3X3Y3OEJQUUMwaEx5REdxdXJOVF9MUDRFRDliMm5ka1RKbzl4RlRyUy1j?oc=5",
+          "source": "The Business Times",
+          "note": "This story shows firms are routing capital and operations toward Singapore because geopolitical de-risking is driving flows there.",
+          "mechanism": "This story shows firms are routing capital and operations toward Singapore because geopolitical de-risking is driving flows there.",
+          "event": "singapore-de-risking-flows"
+        }
+      ]
+    },
+    {
+      "id": "c_rupee_outflow_pressure",
+      "title": "Capital outflows pressure the rupee",
+      "nickname": "Rupee stress",
+      "plain": "Outflows are weakening the rupee.",
+      "claim": "Capital outflows are keeping the rupee near record lows.",
+      "forces": [
+        "capital"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "04b39a38ed",
+          "section": "markets",
+          "title": "POLL India rupee seen stuck near record lows as capital outflows blunt RBI support",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaDg4ZmhyTzdxeUJGaDhpSHAtbzZOdXRSaE95WG5NNjlJZmg4YzBvUnVnMDQ4OFEyUkhHN3pBZlZXN2daSVhYY2dodXozd3MtNm9yU0NiU1JOVVJCeXVyTkVvYW95WDBBc1E1OHdzcXV6amdmYnN1WHU1TkQ1QWVQdHFNa2JrcVd3Rl84cndmWl9IOGo2Z0NHY05UdVlTN0o2c25JLVBHRHRnMjRuV2ZqNTFVSS1ObkJZTFJtYzlRWQ?oc=5",
+          "source": "Reuters",
+          "note": "This story shows capital outflows are keeping the rupee near record lows because the poll says outflows are blunting RBI support.",
+          "mechanism": "This story shows capital outflows are keeping the rupee near record lows because the poll says outflows are blunting RBI support.",
+          "event": "india-rupee-record-lows"
+        }
+      ]
+    },
+    {
+      "id": "c_open_weight_local_ai",
+      "title": "Open-weight AI targets local buyers",
+      "nickname": "Local AI",
+      "plain": "Cheaper open-weight AI is aimed at institutions.",
+      "claim": "Model makers are packaging cheaper open-weight AI for enterprises and sovereign buyers.",
+      "forces": [
+        "technology",
+        "geopolitics"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "668fcb6077",
+          "section": "tech",
+          "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+          "source": "TechCrunch",
+          "note": "This story shows model makers are packaging cheaper open-weight AI for enterprises and sovereign buyers because Reflection is pitching Beam for local, customized AI systems.",
+          "mechanism": "This story shows model makers are packaging cheaper open-weight AI for enterprises and sovereign buyers because Reflection is pitching Beam for local, customized AI systems.",
+          "event": "reflection-beam-open-weight"
+        }
+      ]
+    },
+    {
+      "id": "c_wealthtech_platform_scaling",
+      "title": "Wealthtech platforms are scaling with new capital",
+      "nickname": "Wealthtech scale",
+      "plain": "Investors are backing wealth-management software platforms.",
+      "claim": "Wealthtech platforms are drawing capital to scale.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-07",
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "item_id": "15bda6fe54",
+          "section": "tech",
+          "title": "Zomint Raises ₹36 Cr To Scale Wealth Management Platform",
+          "url": "https://inc42.com/buzz/zomint-raises-%e2%82%b936-cr-to-scale-wealth-management-platform/",
+          "source": "Inc42",
+          "note": "This story shows wealthtech platforms are drawing capital to scale because Zomint raised ₹36 Cr to expand its wealth management platform.",
+          "mechanism": "This story shows wealthtech platforms are drawing capital to scale because Zomint raised ₹36 Cr to expand its wealth management platform.",
+          "event": "zomint-wealthtech-scale"
+        }
+      ]
+    },
+    {
+      "id": "c_ai_skilling_college_expansion",
+      "title": "AI skilling startups are expanding into colleges",
+      "nickname": "Campus AI",
+      "plain": "Startups are selling AI-skilling tools to engineering colleges.",
+      "claim": "Education startups are drawing capital to sell AI-skilling tools to colleges.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-07",
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "item_id": "50825819e7",
+          "section": "tech",
+          "title": "byteXL Raises $9 Mn To Take Tech, AI Skilling To More Engineering Colleges",
+          "url": "https://inc42.com/buzz/bytexl-raises-9-mn-to-take-tech-ai-skilling-to-more-engineering-colleges/",
+          "source": "Inc42",
+          "note": "This story shows education startups are drawing capital to sell AI-skilling tools to colleges because byteXL raised $9 million to reach more engineering colleges.",
+          "mechanism": "This story shows education startups are drawing capital to sell AI-skilling tools to colleges because byteXL raised $9 million to reach more engineering colleges.",
+          "event": "bytexl-ai-skilling-raise"
+        }
+      ]
+    },
+    {
+      "id": "c_medtech_diagnostics_scaling",
+      "title": "Diagnostics startups are scaling with new funding",
+      "nickname": "Diag capital",
+      "plain": "Software-led diagnostics companies are getting funded.",
+      "claim": "Software-led diagnostics startups are drawing capital to scale.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-07",
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "item_id": "0c8bff331a",
+          "section": "tech",
+          "title": "Sunfox Technologies Bags $7 Mn To Scale Cardiac Diagnostics Platform Spandan",
+          "url": "https://inc42.com/buzz/sunfox-technologies-bags-7-mn-to-scale-cardiac-diagnostics-platform-spandan/",
+          "source": "Inc42",
+          "note": "This story shows software-led diagnostics startups are drawing capital to scale because Sunfox raised $7 million for its cardiac diagnostics platform.",
+          "mechanism": "This story shows software-led diagnostics startups are drawing capital to scale because Sunfox raised $7 million for its cardiac diagnostics platform.",
+          "event": "sunfox-cardiac-diagnostics-funding"
+        }
+      ]
+    },
+    {
+      "id": "c_website_blocks_ai_agents",
+      "title": "Websites are blocking AI agents",
+      "nickname": "Agent blocks",
+      "plain": "Sites are adding barriers that stop AI agents.",
+      "claim": "Websites are adding anti-bot defenses to block AI agents from accessing services.",
+      "forces": [
+        "technology"
+      ],
+      "created": "2026-10-07",
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "item_id": "fe89f2d659",
+          "section": "tech",
+          "title": "The next hurdle for AI agents: getting websites to let them in",
+          "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+          "source": "TechCrunch",
+          "note": "This story shows websites are adding defenses to block AI agents because deliberate anti-bot measures are getting in the way of personal agents.",
+          "mechanism": "This story shows websites are adding defenses to block AI agents because deliberate anti-bot measures are getting in the way of personal agents.",
+          "event": "website-blocks-ai-agents"
+        }
+      ]
+    },
+    {
+      "id": "c_eu_enlargement_geopolitical",
+      "title": "EU enlargement is becoming geopolitical",
+      "nickname": "EU expansion",
+      "plain": "The EU is pushing enlargement because of security competition.",
+      "claim": "The EU is advancing enlargement as a geopolitical response to rivalry.",
+      "forces": [
+        "geopolitics",
+        "regulation"
+      ],
+      "created": "2026-10-07",
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "item_id": "a7266f8582",
+          "section": "politics_world",
+          "title": "‘Geopolitical imperative’: Brussels unveils new EU enlargement strategy",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZm5PZTNRUnJUYTFvOTlnY3pvWjQ3bHVUY0NkMlNTS2tLZnZCa3pvcm42UzZVM2E0T0sxVk1uX0VqUWJsQWNtZjBJRGt4Uzd0MDFIanlBMkR5cVhVZkdvWmxCV29xeEVZWXpnbGtUMzdZalZXQklkN0dLRllHVmFRYk9RcExDS21hbFJJLWV6NTRPUWxibGRFRHB3YjI2cFhBNGlkc3dnZ2tJUQ?oc=5",
+          "source": "TVP World",
+          "note": "This story shows the EU is advancing enlargement as a geopolitical response because Brussels unveiled a new enlargement strategy.",
+          "mechanism": "This story shows the EU is advancing enlargement as a geopolitical response because Brussels unveiled a new enlargement strategy.",
+          "event": "eu-enlargement-strategy"
+        }
+      ]
+    },
+    {
+      "id": "c_arctic_strategic_competition",
+      "title": "The Arctic is becoming a strategic arena",
+      "nickname": "Arctic contest",
+      "plain": "Major players are competing more over the Arctic.",
+      "claim": "Governments are treating the Arctic as a strategic competition arena.",
+      "forces": [
+        "geopolitics"
+      ],
+      "created": "2026-10-07",
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "item_id": "dda05867bb",
+          "section": "politics_world",
+          "title": "Arctic power play: Reykjavík gathers the world’s key players",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX3RCWTNnRGdqWXVidnBoYkJmcDRRb0xIM0NCMFBnaGJ2MG92UWdHRnVIMnFXYzUzQW1EMXlKMHdzSmtnNUZybEx1aTR4OHYtZXRQSmt4RzctNTdhOFdoZnlPSkd2YlZfY0ZET0RpVFEyMjFhOGhXemo4eVJRQ21LcEpLNnJaTE1kclBJREdLbHRtWUVqOTltZzFR?oc=5",
+          "source": "High North News",
+          "note": "This story shows governments are treating the Arctic as a strategic competition arena because Reykjavík gathered key players around Arctic power politics.",
+          "mechanism": "This story shows governments are treating the Arctic as a strategic competition arena because Reykjavík gathered key players around Arctic power politics.",
+          "event": "arctic-power-play"
+        }
+      ]
+    },
+    {
+      "id": "c_sahel_gulf_realignment",
+      "title": "Sahel ties are shifting under Gulf influence",
+      "nickname": "Sahel shift",
+      "plain": "Gulf patrons are reshaping Sahel alignments.",
+      "claim": "Sahel relationships are shifting as Gulf patronage changes.",
+      "forces": [
+        "geopolitics"
+      ],
+      "created": "2026-10-07",
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "item_id": "ce6833a857",
+          "section": "politics_world",
+          "title": "The Algiers-Abu Dhabi Rupture: Redefining the Geopolitical Chessboard of the Sahel",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWnQtZDR2UW9NaE5YRmZfNUhFS0ZWdG9SSDFhZDZMV04yM0xpWWpXSlRFWGhUbThxbTVpZ290SkxxUXl3S04tQklsMEdBN183b2NCUEhZVF9FLUNOT1RvSi1zaU40OE0zVDhOVUh6dG15LVpnZzM2QlhXRlNyY3pQOG5IaXVuWVZ3Umstd19QcmtLa050d0x4d3pDSUFRM0o1clV6d3JidjhkMk42SFRJZzJidjh0dHJMTEtn?oc=5",
+          "source": "African Arguments",
+          "note": "This story shows Sahel relationships are shifting as Gulf patronage changes because the article describes an Algiers-Abu Dhabi rupture reshaping the regional chessboard.",
+          "mechanism": "This story shows Sahel relationships are shifting as Gulf patronage changes because the article describes an Algiers-Abu Dhabi rupture reshaping the regional chessboard.",
+          "event": "sahel-gulf-rupture"
+        }
+      ]
+    },
+    {
+      "id": "c_ai_cloud_india_partnerships",
+      "title": "AI cloud enters India",
+      "nickname": "India AI cloud",
+      "plain": "AI cloud firms are building capacity in India.",
+      "claim": "AI cloud providers are entering India through local data-center partnerships.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-08",
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "item_id": "4cdab75238",
+          "section": "tech",
+          "title": "CoreWeave Enters India, Partners AdaniConneX For 240 MW Data Centre Capacity",
+          "url": "https://inc42.com/buzz/coreweave-enters-india-partners-adaniconnex-for-240-mw-data-centre-capacity/",
+          "source": "Inc42",
+          "note": "This story shows AI cloud providers are entering India through local data-center partnerships because CoreWeave announced 240 MW of capacity with AdaniConneX.",
+          "mechanism": "This story shows AI cloud providers are entering India through local data-center partnerships because CoreWeave announced 240 MW of capacity with AdaniConneX.",
+          "event": "coreweave-india-data-center-expansion"
+        }
+      ]
+    },
+    {
+      "id": "c_indian_late_stage_caution",
+      "title": "India late-stage funding caution",
+      "nickname": "Late-stage chill",
+      "plain": "Late-stage capital is cooling in India.",
+      "claim": "Indian late-stage startup investors are becoming more selective.",
+      "forces": [
+        "capital"
+      ],
+      "created": "2026-10-08",
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "item_id": "2d0a6a2e37",
+          "section": "tech",
+          "title": "Late Stage Funding Dips, Swish Takes On Zomato & More",
+          "url": "https://inc42.com/buzz/late-stage-funding-dips-swish-takes-on-zomato-more/",
+          "source": "Inc42",
+          "note": "This story shows Indian late-stage startup investors are becoming more selective because the report says late-stage VCs turned risk averse in Q3.",
+          "mechanism": "This story shows Indian late-stage startup investors are becoming more selective because the report says late-stage VCs turned risk averse in Q3.",
+          "event": "india-late-stage-funding-selectivity"
+        }
+      ]
+    },
+    {
+      "id": "c_ai_pcs_nvidia",
+      "title": "AI PCs move to Nvidia chips",
+      "nickname": "Nvidia PCs",
+      "plain": "Laptops are shifting to AI-capable Nvidia chips.",
+      "claim": "PC makers are retooling laptops around AI-capable Nvidia chips.",
+      "forces": [
+        "technology"
+      ],
+      "created": "2026-10-08",
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "item_id": "54da693e6c",
+          "section": "tech",
+          "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+          "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+          "source": "TechCrunch",
+          "note": "This story shows PC makers are retooling laptops around AI-capable Nvidia chips because Microsoft unveiled Surface Laptop Ultra models built to run AI models and agents on Nvidia chips.",
+          "mechanism": "This story shows PC makers are retooling laptops around AI-capable Nvidia chips because Microsoft unveiled Surface Laptop Ultra models built to run AI models and agents on Nvidia chips.",
+          "event": "microsoft-ai-pcs-nvidia"
+        }
+      ]
+    },
+    {
+      "id": "c_ai_assistant_device_spread",
+      "title": "AI assistants spread across devices",
+      "nickname": "Assistant spread",
+      "plain": "AI assistants are expanding across devices.",
+      "claim": "Big tech AI assistants are spreading from phones to tablets and other devices.",
+      "forces": [
+        "technology"
+      ],
+      "created": "2026-10-08",
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "item_id": "36bf85cb54",
+          "section": "tech",
+          "title": "Meta’s Muse launches on iPad just a month after its mobile debut",
+          "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+          "source": "TechCrunch",
+          "note": "This story shows big tech AI assistants are spreading from phones to tablets and other devices because Meta brought Muse to iPad a month after its mobile debut.",
+          "mechanism": "This story shows big tech AI assistants are spreading from phones to tablets and other devices because Meta brought Muse to iPad a month after its mobile debut.",
+          "event": "meta-muse-ipad-expansion"
+        }
+      ]
+    },
+    {
+      "id": "c_semiconductor_consolidation",
+      "title": "Chip asset consolidation wave",
+      "nickname": "Chip deals",
+      "plain": "Semiconductor firms are being acquired more often.",
+      "claim": "Chipmakers are consolidating strategic semiconductor assets through acquisitions.",
+      "forces": [
+        "technology",
+        "capital"
+      ],
+      "created": "2026-10-08",
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "item_id": "890f496b2a",
+          "section": "tech",
+          "title": "Infineon Completes Acquisition of C2i Semiconductors",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQllvcVBzeEpWYjBBTi05bTRLQ1BiSkZsSVFGM1B1eGs5U3pfaGNJa09yLTZyVmhOZTZQMEFkdE1saTR2UTVUbmU3YlljOG9fOTc5VFk2OURMWVkwSWYwN2cyTi1nR1hLdXdDZkg1al9kdE9EWlJfNkZlV0pMQnRnSVp0LXlvSkVZX3RUN2xjTEVxRU5MU25ETXMwcmhVZ0VzT2c?oc=5",
+          "source": "Ink World Magazine",
+          "note": "This story shows chipmakers are consolidating strategic semiconductor assets through acquisitions because Infineon completed its purchase of C2i Semiconductors.",
+          "mechanism": "This story shows chipmakers are consolidating strategic semiconductor assets through acquisitions because Infineon completed its purchase of C2i Semiconductors.",
+          "event": "infineon-c2i-acquisition"
+        }
+      ]
+    },
+    {
+      "id": "c_chip_supply_chain_financing",
+      "title": "Chip supply financing push",
+      "nickname": "Chip security",
+      "plain": "Governments are funding chip supply chains.",
+      "claim": "Governments are financing semiconductor supply chains for national security.",
+      "forces": [
+        "capital",
+        "geopolitics"
+      ],
+      "created": "2026-10-08",
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "item_id": "ba9525537c",
+          "section": "tech",
+          "title": "Department of War dishes out $1.5 billion loan commitment to boost semiconductor supply chain — Wolfspeed to focus on national security applications as part of 30-year agreement",
+          "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQcVlvUEJaRDJBY3dPYUtMcDA4bFlDSVFtY0cyaE5iLVdKYkdXUk96WFVvdzBBQ3hEYjhGeDdkTGswWTdrYmFsYmFFd0t2WVhhOWNVTDk1Z0tKTHRzVndzam9zWDh0QU83Mk1OS05kNFJlVGR1eWJLZm14M3NtN0dvZjlDaGdmcFgxVW42VnM0QUk5aEU4b2txa2o0cGNLblhIalpyeURSek96NjYydENxbE5kb2dqT3ZxMUxZWFA5YXpjZTdpaDgxTGE3UXJCWDZZOVgzV3ZLY0JtaXphZVhkT3BVanNQR2VoVUNsZllIZGF1NFVTV2FhQ1JleElHb2J5Z3FnaVY1OFZ0ZUlJcWM2aHk0RkIwbURLRW9INnJlY1FtNzJGU3R3WTIwUlJGaHNUSzV4VUtkYnI5ZVo0RE9WYTBJU3hXR0hsRUV6SzBmSG1DSjhQSFE?oc=5",
+          "source": "Tom's Hardware",
+          "note": "This story shows governments are financing semiconductor supply chains for national security because the Department of War committed a $1.5 billion loan to Wolfspeed for national-security applications.",
+          "mechanism": "This story shows governments are financing semiconductor supply chains for national security because the Department of War committed a $1.5 billion loan to Wolfspeed for national-security applications.",
+          "event": "wolfspeed-defense-loan"
+        }
+      ]
+    },
+    {
+      "id": "c_india_ai_rulemaking",
+      "title": "India AI rulemaking begins",
+      "nickname": "AI consultation",
+      "plain": "India is drafting AI rules.",
+      "claim": "India's government is beginning formal AI rulemaking.",
+      "forces": [
+        "regulation",
+        "technology"
+      ],
+      "created": "2026-10-08",
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "item_id": "6616702f97",
+          "section": "politics_india",
+          "title": "‘Time has come for AI regulation’, says Vaishnaw; government to release consultation paper",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQeHpnaEQxY2RCSUNTcHB3TlU1VVZpaTMwMGtvVl9SUnE5Vkh1RkFmd1o0dEhCUEdEYjhQRkN4Q016YnVjOVlEOXNscy0zTnZuZ3hqeXhPMU5uMUNKcFltNXc0RDY0b2dqamJJSGFVVGZtM3JPV1AySlIzOHRRODFKclFXUTR1dHdtdVZRWmEyM1F6TUoweW9NVDZQSkpISk91OGJmUFBTYWhaTlBnd3Y0d3NjVENrVTR6alJKRGw4aXNzU0J3RG01Q1FZaXVVallEMkpoVWEzSjRKWkhiUlVPT2dadDN6UWU2U0V4WFgzUDY1ZDlJcjZhWnJRbGJDTkxNNjBWLVJDMV8tRTRu0gGTAkFVX3lxTE1UV0J0NkhtUGRlZGRhNjd0RlA3LVRwbmM1ZkVtbnNJQTlkVlA0SUlyNUNVem15TXFieXIybng0dGx6R1QyS3pVemxITmdrT0tLS2h4WFduN05ZZWwtTGFrZWNILWpfcjBVOHN6YnB6WEl2SVFJOHFkN2tSM1hsRWdxZEVaYnBxbkdVcmJKUEhCekRDSlRfemE1c3MyWHM1TTlENnFSQ1pSTS0wcUhtTGIwUU1LbEhVQXVYSm1TYWJBdjV2LWZXZ1VBS1hZb2MwX3N3ZDgyb1BSX3RNTzJIM2xPME0zdml4ZjRLXzA5QUs4VXh5ajNSNGlyYjRaRlJySmdENi10d2UzWi1IVzBfOUVlanlF?oc=5",
+          "source": "The Indian Express",
+          "note": "This story shows India's government is beginning formal AI rulemaking because ministers said a consultation paper on AI regulation will be released, with deepfakes and safety in focus.",
+          "mechanism": "This story shows India's government is beginning formal AI rulemaking because ministers said a consultation paper on AI regulation will be released, with deepfakes and safety in focus.",
+          "event": "india-ai-regulation-consultation"
+        },
+        {
+          "date": "2026-10-08",
+          "item_id": "7a1a456477",
+          "section": "politics_india",
+          "title": "India steps up AI regulation push with consultation paper likely next month. Deepfakes, safety in focus",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRmtoQzltUFhpSlZfMjd2R0I3Wk1qSGg3SlhVd2RmQ29UYUdaMzVKeHJHcXAwYl9aMFFiUnhyNkZzX0Z3NEg5S0Mtc1ZkUk9uMnBSR2pNbkxEdjNNdDdha2tTbm9sUWUyUFpDbVp2alVqd1lJZmljS3R4Q0gyeHdMN242SVNQRGd0SUNHVjdUTFc5LWxUaW5JZGw3bElTdVJ1RzlTRDJvT0FNNmljNzlZT1F6QmJlTWVEekZiUEtockpRT3Z3aGJGNWFVYWstWWpfbmUxTFdZdER0ZXY1aDk1bNIB5gFBVV95cUxQMGRRTnRPVURfMV84enhvdHZ4LVdHLTFjbmJIN1ExVk5TR1BudjVZdmFfY1h2bjM1TTJYeFdfZ0l1dk11a3V5OXJBSkdlQU5qTElPWS1WdVpMZUtidXN1cE5sdXBSWmZ2QzJBRm5CQ19aaGNYS1NDS1AtRWh6OFlJV1JhbVQ4Zl9QOU1NdzFXci1IVUhMSHVsYWhNSWx3d3RDNGE1cnRTZFRUNHR2TjAzWDIxbGdkMDFKQ1NpU2Y5NzdMQnlVWE1QSFBla2Y0NnhjRS1FTENoMEVoODgtajZ1UTVRclhPdw?oc=5",
+          "source": "ThePrint",
+          "note": "This story shows India's government is beginning formal AI rulemaking because the report says an AI consultation paper is likely next month with deepfakes and safety in focus.",
+          "mechanism": "This story shows India's government is beginning formal AI rulemaking because the report says an AI consultation paper is likely next month with deepfakes and safety in focus.",
+          "event": "india-ai-regulation-consultation"
+        }
+      ]
+    },
+    {
+      "id": "c_india_us_military_ties",
+      "title": "India-US military ties deepen",
+      "nickname": "US ties",
+      "plain": "India is deepening military ties with the US.",
+      "claim": "India is deepening military ties with the US.",
+      "forces": [
+        "geopolitics"
+      ],
+      "created": "2026-10-08",
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "item_id": "4a292ad4dd",
+          "section": "politics_india",
+          "title": "India aims to anchor military ties with US as Indo-Pacific ‘resident power’",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaTN1Y1NDMXRlUVRaS3pWN2drbGhFTEctVzg3Z0NVdHNmblY0QUdXcjRTSExqSHczVHJXTEhBbG9KbFc5RFBsaHFXTTF0SmpocmhSVnY3Z0hjcWNJV0p1LXVzUmljYVVKXzdwWVliWE5ZZl9YZmhsS05DSDhYc1ZZX0UyNU1pc3JSUVB3dUwwT2F2X0tPMkN5R2JsczZhUjg5aTVyYS1FU3ZBVmVsVnpweEVGc3hBSTBLdEHSAboBQVVfeXFMUEQwR3VpZHB2OC1IWVVnR21nWEd6aElqb01xdnZFcy1tTTRnRFVUbmlaZUlFcHpYcllIMGp2Q29IQTZQTWNjV0c2Mm9MQURpQnJ4WGF1TURsc1FUQ2F4ckFQQlQ4Nmx6VW1GZGxNMHpsQnJZZm4zYmhhdmpVREtwRzVhMGpic3UwemJ6QTdpUlBYemtleGNDZTdwQWpkZWJNcGZJNENZZGk2RndkTVEzUnRKT2RlQl9CczZ3?oc=5",
+          "source": "South China Morning Post",
+          "note": "This story shows India is deepening military ties with the US because it says India aims to anchor military ties with the US as an Indo-Pacific resident power.",
+          "mechanism": "This story shows India is deepening military ties with the US because it says India aims to anchor military ties with the US as an Indo-Pacific resident power.",
+          "event": "india-us-military-ties"
+        }
+      ]
+    }
+  ],
+  "today": {
+    "attached": [
+      {
+        "item_id": "92be971aec",
+        "thread_id": "t_ai_core_mega_rounds",
+        "note": "This story shows core AI startups are drawing unusually large funding rounds because Nous Research hit a $1.5 billion valuation and raised a $90 million Series B."
+      },
+      {
+        "item_id": "522645ad7c",
+        "thread_id": "t_india_rate_hike_tightening",
+        "note": "This story shows India's central bank is tightening monetary policy because it will conduct a Rs 1.5 lakh crore 10-day VRRR auction to absorb surplus liquidity."
+      }
+    ],
+    "new_threads": [],
+    "new_candidates": [
+      "c_ai_cloud_india_partnerships",
+      "c_indian_late_stage_caution",
+      "c_ai_pcs_nvidia",
+      "c_ai_assistant_device_spread",
+      "c_semiconductor_consolidation",
+      "c_chip_supply_chain_financing",
+      "c_india_ai_rulemaking",
+      "c_india_us_military_ties"
+    ],
+    "promoted": [
+      "t_india_rate_hike_tightening"
+    ],
+    "merges": [],
+    "distinct": [],
+    "splits": [],
+    "cross_link": null,
+    "events": {
+      "4cdab75238": "coreweave-india-data-center-expansion",
+      "92be971aec": "hermes-open-source-ai-round",
+      "2e4fc38250": "vesta-mortgage-agent-round",
+      "4b75921a70": "mecka-ai-robot-data-round",
+      "cc597e63eb": "endeavor-catalyst-global-fund",
+      "2d0a6a2e37": "india-late-stage-funding-selectivity",
+      "7d8e2c7a08": "upi-mdr-delay-market-slump",
+      "54da693e6c": "microsoft-ai-pcs-nvidia",
+      "36bf85cb54": "meta-muse-ipad-expansion",
+      "890f496b2a": "infineon-c2i-acquisition",
+      "ba9525537c": "wolfspeed-defense-loan",
+      "e477203a0f": "india-gst-easing",
+      "6616702f97": "india-ai-regulation-consultation",
+      "7a1a456477": "india-ai-regulation-consultation",
+      "4a292ad4dd": "india-us-military-ties",
+      "5971441141": "asia-fortress-economies",
+      "db9abfe53e": "arctic-power-play",
+      "377662dfb4": "osfi-systemic-risk-warning",
+      "2ec4c308ae": "india-rupee-record-lows",
+      "522645ad7c": "india-vrrr-liquidity-absorption",
+      "d7a5c2a7aa": "golden-state-valkyries-revenue"
+    },
+    "verify": {
+      "checked": 13,
+      "dropped": 2,
+      "indirect": 0,
+      "capped": 0
+    },
+    "status_changes": {
+      "t_india_rate_hike_tightening": [
+        null,
+        "new"
+      ]
+    },
+    "attach_rate": 0.09,
+    "taught": 1
+  }
+}

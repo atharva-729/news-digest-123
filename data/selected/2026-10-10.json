@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-10",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "45bdde719f",
+        "reason": "Broad funding snapshot: signals that Indian startup capital is still flowing, but more selectively, which is useful evidence of the market’s current risk appetite."
+      },
+      {
+        "id": "4c53a42826",
+        "reason": "A concrete Indian consumer startup round showing capital still favors brands with offline scale-up potential, not just pure software.",
+        "funding": {
+          "company": "Nat Habit",
+          "amount": "₹142 Cr",
+          "sector": "D2C personal care",
+          "country": "India"
+        }
+      },
+      {
+        "id": "798bff3824",
+        "reason": "Evidence that climate/cleantech funding in India is being pulled by electric mobility, pointing to where capital is concentrating."
+      },
+      {
+        "id": "06fc72e164",
+        "reason": "Shows the public-market re-rating of Indian new-age tech stocks, a signal of renewed investor appetite after a weak stretch."
+      },
+      {
+        "id": "5dbcbb714a",
+        "reason": "A record revenue print from TSMC is direct evidence that AI and advanced chips are still driving semiconductor demand."
+      },
+      {
+        "id": "683781a81c",
+        "reason": "A major foundry deal indicates continued consolidation and capacity jockeying in the semiconductor supply chain."
+      },
+      {
+        "id": "1985eb58df",
+        "reason": "Shows the AI data-center buildout is deepening US dependence on foreign chip supply, a strategic industrial shift."
+      },
+      {
+        "id": "89979b0260",
+        "reason": "Cloudflare buying Deno is evidence of platform companies using M&A to tighten control over developer tooling and edge computing."
+      },
+      {
+        "id": "b0e83be735",
+        "reason": "A fast, high valuation for a new AI model maker shows how aggressively capital is pricing perceived technical differentiation in AI."
+      },
+      {
+        "id": "6cd6f5cc67",
+        "reason": "Anthropic pulling live-internet access from internal evals shows frontier AI safety and reliability problems are becoming operational constraints."
+      },
+      {
+        "id": "b7a54aafb8",
+        "reason": "Planned SEBI guidance is evidence that regulators are moving from debate to rulemaking around AI use in markets."
+      },
+      {
+        "id": "5f86ccec57",
+        "reason": "Big Tech leaders publicly calling for an AI 'emergency brake' is evidence that frontier-model risk is entering mainstream corporate governance."
+      },
+      {
+        "id": "62e8dd612a",
+        "reason": "Musk’s attack on Ambani over Starlink delays shows how satellite internet is now colliding with domestic political and telecom power structures."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "10c8a9f343",
+        "reason": "Evidence of a broader shift toward tighter state control of online speech and platform moderation in India."
+      },
+      {
+        "id": "03abf83860",
+        "reason": "Signals the government’s move to secure strategic supply chains, reflecting the geopolitics of critical minerals."
+      },
+      {
+        "id": "12986106de",
+        "reason": "A concrete marker of the youth-protest wave testing the BJP’s political dominance and the state’s response."
+      },
+      {
+        "id": "8143114dbe",
+        "reason": "Evidence that anti-SIR/election-administration protests are spreading beyond Delhi, suggesting wider electoral distrust."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "c15fa5bd97",
+        "reason": "A concrete cross-country measure of the rearmament trend and the geopolitical pressures driving state spending."
+      },
+      {
+        "id": "d478b5645d",
+        "reason": "Shows how the Horn of Africa is becoming a flashpoint where regional conflict, sea lanes and great-power rivalry intersect."
+      },
+      {
+        "id": "bd5ce05983",
+        "reason": "Evidence that the Ukraine war continues to reshape assumptions about power, deterrence and geopolitical risk."
+      }
+    ],
+    "markets": [
+      {
+        "id": "d17dda2bad",
+        "reason": "Clear evidence of a broader rupee-defense campaign: RBI is using dollar liquidity and tighter FX rules to slow currency pressure, not just reacting to one day’s move."
+      },
+      {
+        "id": "b5cd37baa3",
+        "reason": "A concrete regulatory tightening in forex derivatives, showing the central bank is leaning harder on capital-market plumbing to curb speculative pressure on the rupee."
+      }
+    ],
+    "sports": [
+      {
+        "id": "9b9c74c820",
+        "reason": "Evidence of the booming economics of college football, with ESPN paying for exclusive CFP rights as playoff expansion deepens the sport’s media value."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [
+    "20c7f9661f"
+  ],
+  "funding": {
+    "total": 1,
+    "india": 1,
+    "world": 0,
+    "unknown": 0
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-24",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "f699a3e5cd",
+        "reason": "A major AI lab changing how it trains models is evidence of the next phase of frontier-model safety, data access, and compute strategy."
+      },
+      {
+        "id": "7525d50343",
+        "reason": "SK Hynix pausing a chip-unit IPO shows valuation caution returning to AI-linked semiconductor markets after the run-up."
+      },
+      {
+        "id": "d8a41a2044",
+        "reason": "The scale of semiconductor investment in India is evidence that chip manufacturing has become a state-backed industrial priority, not just a policy slogan."
+      },
+      {
+        "id": "f28932eda5",
+        "reason": "Rising chip prices testing India's electronics manufacturing boom points to supply-chain pressure moving through the hardware stack."
+      },
+      {
+        "id": "b147ed595f",
+        "reason": "More than Rs 5,800 crore of semiconductor and tech proposals in Madhya Pradesh shows how Indian states are competing for manufacturing capacity."
+      },
+      {
+        "id": "205f191345",
+        "reason": "The push for domestic supply chains via coal gasification and rare-earth corridors reflects the geopolitics of industrial self-reliance."
+      },
+      {
+        "id": "e0a51f312c",
+        "reason": "Weekly Indian startup funding totals are direct evidence of where capital is still flowing in the ecosystem and how broad the slowdown or resilience is."
+      },
+      {
+        "id": "2c601ec96a",
+        "reason": "CureBay raising nearly Rs 100 crore is evidence that rural healthtech remains fundable in India, with capital chasing distribution-heavy care models.",
+        "funding": {
+          "company": "CureBay",
+          "amount": "Rs 100 crore",
+          "sector": "healthtech",
+          "country": "India"
+        }
+      },
+      {
+        "id": "0010775662",
+        "reason": "Firstwork's $15 million Series A shows continued investor appetite for workflow software, especially YC-backed B2B startups.",
+        "funding": {
+          "company": "Firstwork",
+          "amount": "$15 million",
+          "sector": "B2B SaaS",
+          "country": "US"
+        }
+      },
+      {
+        "id": "79dcf1112f",
+        "reason": "Nigeria leading Africa startup funding is evidence of capital concentration shifting toward a few regional hubs rather than spreading evenly across the continent."
+      },
+      {
+        "id": "f257c372b3",
+        "reason": "super.money's revenue tripling while losses widen is evidence that UPI and consumer-finance startups are still scaling fast even as profitability lags."
+      },
+      {
+        "id": "9af51b2dd9",
+        "reason": "Myntra slipping further into the red captures the pressure on Indian ecommerce economics despite scale and brand strength."
+      },
+      {
+        "id": "b6d016110c",
+        "reason": "Financing demand shifting toward AI and semiconductors is a clean signal that capital markets are reweighting toward infrastructure-heavy tech bets."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "9bef78ecd3",
+        "reason": "Signals a real policy shift: the Centre is moving toward an AI law and formal governance framework, evidence of regulation catching up with technology."
+      },
+      {
+        "id": "748768d78d",
+        "reason": "Points to a broader institutional weakening of Parliament—fewer deliberations, rushed lawmaking, and weaker oversight—rather than a single controversy."
+      },
+      {
+        "id": "fc251bcfcc",
+        "reason": "Shows the continuing privatization/disinvestment agenda in public-sector banking, evidence of the state reshaping its role in finance."
+      },
+      {
+        "id": "4bb2efd44b",
+        "reason": "A concrete step in the digitalization of agriculture at national scale, indicating the state’s push to formalize farmer data and delivery systems."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "eb536752d7",
+        "reason": "Shows how small European states are quietly adapting to Taliban rule through practical diplomacy, a sign of normalized engagement with hard geopolitical realities."
+      },
+      {
+        "id": "388eb776ca",
+        "reason": "Evidence of Nordic-Baltic security tightening around Russia, as Finland weighs reducing Moscow’s presence in a strategically sensitive area."
+      },
+      {
+        "id": "9683c8164b",
+        "reason": "Signals possible policy reversal on Russia sanctions, a major indicator of shifting U.S. leverage and war-related bargaining."
+      }
+    ],
+    "markets": [
+      {
+        "id": "a1874c4896",
+        "reason": "A rate hike plus hawkish stance is direct evidence of inflation pressure forcing tighter Indian monetary policy."
+      },
+      {
+        "id": "190ade9105",
+        "reason": "Persistent foreign selling in Indian equities points to a broader capital outflow and risk-off regime, not a one-day move."
+      }
+    ],
+    "sports": [
+      {
+        "id": "d53286450b",
+        "reason": "A title-race result in a major European league is evidence of the persistent competitive and commercial concentration at the top of football."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 2,
+    "india": 1,
+    "world": 1,
+    "unknown": 0
+  }
+}

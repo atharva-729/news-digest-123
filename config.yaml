@@ -22,15 +22,16 @@ section_descriptions:
 
 model:
   # Any OpenAI-compatible chat-completions endpoint. Its base URL comes from FOUNDRY_BASE_URL (.env / secrets),
-  # so it isn't published. gpt-5-mini with minimal reasoning: cheap and good enough for picking and tagging.
+  # so it isn't published. Default reasoning "none" (gpt-5.4-mini rejects "minimal"); steps raise it as needed.
   project: l1l2l3          # appended to the token as "Bearer <token>:<project>"
-  name: gpt-5-mini
-  fallbacks: [gpt-5.4-nano, gpt-4.1-mini]
-  params: {reasoning_effort: minimal}   # GPT-5 models ignore temperature
+  name: gpt-5.4-mini      # every step (user, 2026-10-30)
+  fallbacks: [gpt-5-mini, gpt-4.1-mini]
+  params: {reasoning_effort: none}   # GPT-5 models ignore temperature
   max_retries: 4          # per model, with exponential backoff
   # USD per million tokens, for the cost column in data/llm_usage.jsonl. List prices, checked 2026-10-28
   # from memory of OpenAI's pricing page; verify before relying on them. Unknown models log usd: null.
   prices:
+    gpt-5.4-mini: {input: 0.75, cached_input: 0.075, output: 4.50}   # input confirmed by user; output assumed
     gpt-5-mini:   {input: 0.25, cached_input: 0.025, output: 2.00}
     gpt-5-nano:   {input: 0.05, cached_input: 0.005, output: 0.40}
     gpt-4.1-mini: {input: 0.40, cached_input: 0.10,  output: 1.60}

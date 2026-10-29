@@ -8,11 +8,13 @@ the last 5 entries.**
 - **Built:** Phases 0–6, explained editions (college-student level), teaching cards, "Remember?", and the
   fixes.md pattern-quality pass (events, direct-only evidence + verify, merges/splits, real statuses,
   developing stories, falsifiable predictions, checked quiz). Runs locally; `--push` publishes to Pages.
-- **Not pushed:** the fixes.md rebuild of 27–29 Oct is committed locally only. User reviews it first.
-- **Open after fixes.md:** thread attach rate is 0.00–0.08 (target 0.4–0.6). Precision is good; recall is
-  low because 3 days of history leave most ideas as single-event candidates (24 on 29 Oct). Re-measure
-  after ~7 real days with `python -m digest.quality`; if still < 0.3, revisit (see open questions).
-- **Next:** run `python run.py daily` each morning; user decides when to `--push`.
+- **History backfilled** 6–26 Oct (`digest/backfill.py`: Google News day windows + paged Inc42/TechCrunch/
+  Entrackr feeds; select + threads only, no edition pages). Now 11 active patterns with 2–5 events each
+  (chip capital, IPO route, embodied AI, Nvidia detour, rate turn, roll checks…), real status mix.
+- **Not pushed:** user shows the team next day, then makes the repo private. User pushes.
+- **Still open:** attach rate 0.00–0.20/day (target 0.4–0.6): the verify pass and the model stay cautious.
+  29 Oct has 0 links (proposals were plans/rumours or went to new candidates).
+- **Next:** run `python run.py daily` each morning.
 
 ## How to run
 - `python run.py daily` = ingest (+7-day lookback) → select → read → threads (+verify, teach) → connect →
@@ -26,9 +28,10 @@ the last 5 entries.**
   `python -m digest.usage`: LLM calls and the verify drop rate (~14 calls, ~$0.09/day; see LLM_USAGE.md).
 
 ## Decisions made (and why)
-- LLM: gateway via local `.env` only (repo is public). gpt-5-mini for select/connect/verify and threads
-  (threads at **medium**: low skipped matching stories to candidates); gpt-5.4-mini for teach + writing.
-  gpt-5.4-mini for threads was tried: too few proposals, no patterns formed.
+- LLM: gateway via local `.env` only. **All steps on gpt-5.4-mini** (user, 2026-10-30; $0.75/M in). It rejects
+  reasoning "minimal": default is "none"; threads medium, verify/writing low. A fallback model that refuses
+  a reasoning setting is retried without it. ~$0.20/day. Foundry caches identical requests: a rerun only
+  changes anything if the prompt changes.
 - Patterns (fixes.md): every story gets an `event` key (one story = one key across updates); a thread needs
   ≥2 distinct events; only `direct` links, then a keep/drop verify pass; ≤4 new clues per thread per day;
   `claim_ok` rejects steady states ("X is funding Y"), lists ("A, B and C"), generic words, bracket tags.
@@ -51,10 +54,11 @@ the last 5 entries.**
 - Repo is public; user may make it private (Pages on a private repo needs a paid plan).
 
 ## Log (last 5)
-- 2026-10-29: User found v1 confusing. Feasibility check: ~70% of stories readable in full.
 - 2026-10-29: Built v2: read phase (robots-aware), plain explanations, teaching cards, Remember?.
 - 2026-10-29: Raised level to college student; politics neutrality + fact-check; start page with credit.
 - 2026-10-30: fixes.md Phases 1–6: quality report, events, verify, merges/splits, statuses, developing
   stories, falsifiable calls, checked quiz. Several calibration rounds on claim rules and models.
 - 2026-10-30: Phase 7 rebuild of 27–29 Oct: 2 solid patterns (voter rolls, Middle East oil), no
   catch-alls or look-alikes, attach rate 0.00–0.08. Committed locally, not pushed.
+- 2026-10-30: Switched every step to gpt-5.4-mini; backfilled 21 days of history; rebuilt 27–29 Oct.
+  11 patterns, statuses meaningful. Spent $3.74. Threads/verify prompts: "an instance counts" rule.

@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-23",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "d3796b6ba3",
+        "reason": "A huge AI-chip funding round shows capital concentration in the compute layer powering the model boom.",
+        "funding": {
+          "company": "Tenstorrent",
+          "amount": "$1.5 billion",
+          "sector": "AI chips",
+          "country": "Canada"
+        }
+      },
+      {
+        "id": "14c5868e79",
+        "reason": "DeepSeek’s reported $15 billion raise signals how intensifying model competition is now being funded at unprecedented scale.",
+        "funding": {
+          "company": "DeepSeek",
+          "amount": "$15 billion",
+          "sector": "AI",
+          "country": "China"
+        }
+      },
+      {
+        "id": "b80a87f073",
+        "reason": "Robot-data startups attracting major venture money is evidence that AI training infrastructure is becoming a standalone market.",
+        "funding": {
+          "company": "Mecka AI",
+          "amount": "$60M",
+          "sector": "robot data",
+          "country": "Pakistan"
+        }
+      },
+      {
+        "id": "b5c4323f75",
+        "reason": "This large Indian fintech loan-round shows continued capital flow into lending infrastructure and private credit in emerging markets.",
+        "funding": {
+          "company": "Vegafin",
+          "amount": "$106m",
+          "sector": "fintech / lending platform",
+          "country": "India"
+        }
+      },
+      {
+        "id": "93410a9c65",
+        "reason": "European climate-tech funding remains active, with public money and private capital backing circular-economy startups.",
+        "funding": {
+          "company": "Zerow",
+          "amount": "one million euros",
+          "sector": "climate tech",
+          "country": "Italy"
+        }
+      },
+      {
+        "id": "d751487570",
+        "reason": "Zetwerk’s weak debut is evidence that public markets are still repricing manufacturing-tech growth stories after the IPO hype cycle."
+      },
+      {
+        "id": "6892fad2fa",
+        "reason": "The sharp post-earnings drop in Swiggy highlights how the market is punishing growth stories that still lack clean profitability."
+      },
+      {
+        "id": "33f606e41e",
+        "reason": "CoinDCX’s wallet-loss disclosure is a reminder that crypto infrastructure risk remains operational, not just market-driven."
+      },
+      {
+        "id": "8bfd3376dd",
+        "reason": "Ultraviolette’s new e-bike launch, following fresh funding, points to continued capital and product momentum in India’s EV manufacturing push."
+      },
+      {
+        "id": "7b88453591",
+        "reason": "Profits rising at a dronetech IPO candidate show that India’s hardware startups are being judged more on earnings than just growth."
+      },
+      {
+        "id": "e5264f7ce0",
+        "reason": "Infineon and NVIDIA teaming up on GaN for AI data centers shows the supply chain adapting to AI’s power-density demands."
+      },
+      {
+        "id": "c714a3fdc9",
+        "reason": "An AI-found flaw taking government websites offline is evidence that automated security research is now surfacing real state-level vulnerabilities."
+      },
+      {
+        "id": "d26ae9b2d9",
+        "reason": "Microsoft pushing AI diagnostics into medicine shows the race to turn foundation models into high-stakes enterprise products."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "b8bae634de",
+        "reason": "A major policy change on offshore oil exploration and risk-sharing, showing the state’s push to attract capital into domestic energy security."
+      },
+      {
+        "id": "b23e75b805",
+        "reason": "Labour survey revisions to better capture gig and household work signal how India is adapting official data to a changing workforce."
+      },
+      {
+        "id": "009a9eaec2",
+        "reason": "Mission Karmayogi’s shift from rules to roles points to a broader civil-service reform drive toward outcome-based governance."
+      },
+      {
+        "id": "4ac95e28e4",
+        "reason": "A 10-week government bond losing streak is evidence of fiscal and rate pressures shaping India’s borrowing costs."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "fa500f4a2a",
+        "reason": "Evidence that energy is being treated as a strategic geopolitical lever, not just a commodity market issue."
+      },
+      {
+        "id": "373825ae51",
+        "reason": "Signals military rearmament near NATO, pointing to a broader hardening of European security competition."
+      },
+      {
+        "id": "223814a458",
+        "reason": "Shows the Black Sea war theater still driving wider great-power geopolitics and negotiation dynamics."
+      }
+    ],
+    "markets": [
+      {
+        "id": "61c1e53057",
+        "reason": "Shows how major central banks are still debating the next leg of the rates cycle, a key macro force for assets and risk appetite."
+      },
+      {
+        "id": "f5dfae6fb7",
+        "reason": "Physical oil prices easing despite geopolitical risk is evidence of how supply flows and trade routes are still steering the commodity complex."
+      }
+    ],
+    "sports": [
+      {
+        "id": "5c855ba26b",
+        "reason": "A major individual honor for Messi, showing how elite football stars now operate as global cultural institutions as much as athletes."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 5,
+    "india": 1,
+    "world": 4,
+    "unknown": 0
+  }
+}

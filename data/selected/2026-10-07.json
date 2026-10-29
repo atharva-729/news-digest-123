@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-07",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "43f8aab039",
+        "reason": "A huge pre-IPO raise for an AI compute provider shows how capital is still pouring into the picks-and-shovels layer of the AI boom.",
+        "funding": {
+          "company": "Lambda",
+          "amount": "$4B",
+          "sector": "AI computing",
+          "country": "US"
+        }
+      },
+      {
+        "id": "cd42fa9100",
+        "reason": "A large funding round for an open-source AI assistant signals continued investor appetite for foundational AI software, not just consumer chatbots.",
+        "funding": {
+          "company": "Hermes",
+          "amount": "$90 million",
+          "sector": "open-source AI assistant",
+          "country": ""
+        }
+      },
+      {
+        "id": "02c666ab53",
+        "reason": "Quantum hardware funding is a reminder that frontier compute bets are broadening beyond AI software into long-horizon infrastructure plays.",
+        "funding": {
+          "company": "Quanfluence",
+          "amount": "$10 Mn",
+          "sector": "quantum computing",
+          "country": "India"
+        }
+      },
+      {
+        "id": "15bda6fe54",
+        "reason": "Wealthtech funding points to ongoing fintech infrastructure expansion as investors back software that manages rising personal capital flows.",
+        "funding": {
+          "company": "Zomint",
+          "amount": "₹36 Cr",
+          "sector": "wealthtech",
+          "country": "India"
+        }
+      },
+      {
+        "id": "50825819e7",
+        "reason": "This startup round shows money continuing to flow into AI-enabled workforce upskilling for engineering colleges, linking AI adoption to education infrastructure.",
+        "funding": {
+          "company": "byteXL",
+          "amount": "$9 Mn",
+          "sector": "B2B edtech",
+          "country": "India"
+        }
+      },
+      {
+        "id": "0c8bff331a",
+        "reason": "Funding for cardiac diagnostics software reflects the broader trend of capital chasing AI-adjacent healthcare tools with clear clinical workflow use cases.",
+        "funding": {
+          "company": "Sunfox Technologies",
+          "amount": "$7 Mn",
+          "sector": "medtech",
+          "country": "India"
+        }
+      },
+      {
+        "id": "b2e9a7888a",
+        "reason": "A PE firm selling down Shadowfax underscores how late-stage investors are recycling capital and rebalancing exposure in India’s logistics-tech market."
+      },
+      {
+        "id": "71c79362f3",
+        "reason": "Apple’s reported smart-home push shows big tech expanding device ecosystems to defend platform control beyond phones and computers."
+      },
+      {
+        "id": "e14aac76ad",
+        "reason": "The emphasis on evals in a multi-model world is evidence that AI procurement is shifting from hype to measurement, governance and model selection."
+      },
+      {
+        "id": "b42348fc48",
+        "reason": "OpenAI’s agent issues highlight the emerging operational and legal risks that come with deploying autonomous AI systems at scale."
+      },
+      {
+        "id": "fe89f2d659",
+        "reason": "Website anti-bot defenses show the next bottleneck for consumer AI agents is access, not capability, as platforms try to control machine traffic."
+      },
+      {
+        "id": "348bfea36c",
+        "reason": "Reuters’ Singapore forum report captures a wider market mood shift: AI remains huge, but investors are increasingly focused on bubbles and existential risk."
+      },
+      {
+        "id": "25eba0ca22",
+        "reason": "China’s open-model traction points to a deeper competitive shift: value capture in AI is moving from model access to distribution and ecosystem control."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "57db49ae72",
+        "reason": "Evidence of the Election Commission becoming a central battleground in opposition-government conflict, reflecting institutional trust under strain."
+      },
+      {
+        "id": "76ab28cab7",
+        "reason": "Signals a larger fight over voter rolls and franchise access, pointing to polarization around electoral integrity and disenfranchisement claims."
+      },
+      {
+        "id": "47fcab6877",
+        "reason": "Shows the state’s regulatory leverage over satellite internet and the broader contest over how fast-strategic tech gets cleared in India."
+      },
+      {
+        "id": "8967d8d838",
+        "reason": "Captures the macro policy tension between RBI tightening and government borrowing costs, a key shift in India’s monetary-fiscal environment."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "a7266f8582",
+        "reason": "A concrete EU enlargement move showing how Europe is responding to great-power rivalry with institutional expansion."
+      },
+      {
+        "id": "dda05867bb",
+        "reason": "An Arctic gathering of major players is evidence of the region’s growing strategic importance as climate change opens new geopolitical competition."
+      },
+      {
+        "id": "ce6833a857",
+        "reason": "A regional rupture tied to external patrons shows the Sahel’s power struggle being reshaped by Gulf and African geopolitical competition."
+      }
+    ],
+    "markets": [
+      {
+        "id": "84768df0fc",
+        "reason": "Direct evidence that India’s inflation-fighting cycle has turned, which affects rates, bond yields, banks and the rupee."
+      },
+      {
+        "id": "4c0b3ec53d",
+        "reason": "Shows the RBI’s tightening is draining surplus liquidity, a deeper shift in monetary conditions beyond the headline hike."
+      }
+    ],
+    "sports": [
+      {
+        "id": "a3bf319239",
+        "reason": "A major international result with a record-equalling milestone for Kane, evidence of the continuing value of star power and landmark caps in national-team football."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 6,
+    "india": 4,
+    "world": 1,
+    "unknown": 1
+  }
+}

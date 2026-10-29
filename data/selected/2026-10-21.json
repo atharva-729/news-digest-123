@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-21",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "9fb137a55f",
+        "reason": "Evidence that AI infrastructure and developer tooling are still concentrating capital into “picks-and-shovels” winners, with code-testing becoming a large, venture-scale category.",
+        "funding": {
+          "company": "Blacksmith",
+          "amount": "$66M",
+          "sector": "code testing",
+          "country": "United States"
+        }
+      },
+      {
+        "id": "014ae2220f",
+        "reason": "Shows Indian startup capital continuing to flow into applied AI, especially hiring and workflow automation rather than frontier models.",
+        "funding": {
+          "company": "Hunar.AI",
+          "amount": "$4.3M",
+          "sector": "AI",
+          "country": "India"
+        }
+      },
+      {
+        "id": "fd410052f6",
+        "reason": "Another sign of investor appetite for on-device AI, a practical segment that benefits from cheaper inference and privacy-sensitive use cases.",
+        "funding": {
+          "company": "TraceWeave",
+          "amount": "$2.3M",
+          "sector": "on-device AI",
+          "country": "South Korea"
+        }
+      },
+      {
+        "id": "aabd26b38a",
+        "reason": "Evidence that AI agents are moving into commercial travel infrastructure, not just consumer chatbots, with European capital backing enterprise automation.",
+        "funding": {
+          "company": "YGO",
+          "amount": "€8 million",
+          "sector": "AI agents",
+          "country": "Germany"
+        }
+      },
+      {
+        "id": "2e553dc455",
+        "reason": "Signals the strategic fight over the AI compute stack, as cloud giants try to reduce dependence on Nvidia and reshape developer tooling around their own chips."
+      },
+      {
+        "id": "dd8747983c",
+        "reason": "Shows the economics of frontier AI becoming harder to sustain: compute scarcity and ballooning infrastructure spend are now central to the model."
+      },
+      {
+        "id": "0e9ae3eb35",
+        "reason": "Evidence that AI assistants are being embedded across everyday hardware, with cars becoming a new interface layer for personalized AI."
+      },
+      {
+        "id": "29f521aaac",
+        "reason": "Illustrates the widening use of AI inside consumer-tech companies, where adjacent businesses are launching their own proprietary AI platforms."
+      },
+      {
+        "id": "476b6848ea",
+        "reason": "Shows platform bundling power in big tech, as Google pushes distribution of a companion product through Android TV by default."
+      },
+      {
+        "id": "4e839948c5",
+        "reason": "Evidence that AI is increasingly tied to earnings and valuation narratives, with profitability being explained by AI-driven business performance."
+      },
+      {
+        "id": "092d911388",
+        "reason": "A concrete sign of semiconductor supply-chain expansion in Asia, with TSMC extending advanced-node manufacturing capacity into Japan."
+      },
+      {
+        "id": "149c54651d",
+        "reason": "Shows the physical cost of AI and chip manufacturing growth: power demand is hitting records in Taiwan, underscoring how energy is now part of semiconductor scaling."
+      },
+      {
+        "id": "3acba33e87",
+        "reason": "Evidence that semiconductors remain a geopolitical industrial-policy battleground, with foreign capital still pouring into Vietnam’s chip ecosystem."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "38eff2eb0f",
+        "reason": "Signals a major shift in electoral administration and enfranchisement, with large-scale voter-roll deletions affecting democratic participation."
+      },
+      {
+        "id": "6e335572b7",
+        "reason": "Shows how India’s political system absorbs street unrest, pointing to the state’s evolving capacity to dampen protest pressure."
+      },
+      {
+        "id": "bba5ad66cd",
+        "reason": "Evidence of a policy push to monetize farmland through agrivoltaics, linking agriculture, energy transition and farmer income strategy."
+      },
+      {
+        "id": "e9785fc7bb",
+        "reason": "Points to a broader land-use and energy transition trend as solar expands onto farmland rather than only dedicated power sites."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "50b744cd54",
+        "reason": "Concrete evidence of major-power competition in Central Asia turning into economic deals, showing geopolitics is being translated into investment and influence."
+      },
+      {
+        "id": "4aeca76508",
+        "reason": "Signals the EU is treating the Arctic as a strategic infrastructure and security theater, evidence of the widening contest over polar routes and resources."
+      },
+      {
+        "id": "3681143211",
+        "reason": "Connects AI, geopolitical fragmentation, and financing costs, pointing to a broader shift in how power politics is reshaping capital markets."
+      }
+    ],
+    "markets": [
+      {
+        "id": "afdeb0d93d",
+        "reason": "Strong bid demand in RBI liquidity operations signals ongoing stress in banking-system funding and the central bank’s active management of short-term rates."
+      },
+      {
+        "id": "038441d86c",
+        "reason": "India’s surging crude import bill is concrete evidence that higher oil prices are feeding straight into the external-account and macro-policy pressure channel."
+      }
+    ],
+    "sports": [
+      {
+        "id": "68934d63a2",
+        "reason": "A regulator asserting power over a top club signals the growing force of financial rules and governance over elite football ownership."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 4,
+    "india": 1,
+    "world": 3,
+    "unknown": 0
+  }
+}
