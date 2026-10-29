@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-20",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "25c38f880d",
+        "reason": "A major capital raise at a Nvidia challenger shows investor willingness to back alternative AI chip supply chains, not just software models.",
+        "funding": {
+          "company": "Tenstorrent",
+          "amount": "$1.5 billion",
+          "sector": "AI chips",
+          "country": "US"
+        }
+      },
+      {
+        "id": "8a1ba0c934",
+        "reason": "Amazon’s push to steer developers off Nvidia and onto its own stack is evidence of the platform war shifting into the tooling layer for AI inference and training."
+      },
+      {
+        "id": "c86664b601",
+        "reason": "Another giant compute deal for Anthropic shows how frontier AI is becoming a capital-intensive infrastructure business, with cloud and compute capacity as the bottleneck."
+      },
+      {
+        "id": "0e19bec78e",
+        "reason": "Microsoft framing AI agents as insider threats signals a new enterprise security category forming around autonomous software behavior."
+      },
+      {
+        "id": "141841bfba",
+        "reason": "Attacks on an AI coding tool show that agentic developer workflows are creating fresh security and billing risks alongside productivity gains."
+      },
+      {
+        "id": "5e7a356e7e",
+        "reason": "Fast adoption of Meta’s AI assistant points to distribution, bundling and product placement becoming as important as raw model quality."
+      },
+      {
+        "id": "db1b0b3b1c",
+        "reason": "A $3 billion valuation for ASI is another data point that private markets still price AI infrastructure and model plays at premium levels.",
+        "funding": {
+          "company": "ASI",
+          "amount": "$3 billion",
+          "sector": "AI",
+          "country": "US"
+        }
+      },
+      {
+        "id": "1ef5dd457f",
+        "reason": "Tolan’s new round shows continued financing for consumer AI companions, evidence that investors still believe in retention-driven AI apps beyond chatbots.",
+        "funding": {
+          "company": "Tolan",
+          "amount": "$30 million",
+          "sector": "AI companion app",
+          "country": "US"
+        }
+      },
+      {
+        "id": "f0c5f33980",
+        "reason": "Apple India’s profit jump is evidence of the company’s deepening monetization in one of the world’s most important hardware markets."
+      },
+      {
+        "id": "c125f65b47",
+        "reason": "A hardware security layer for satcom operators shows governments moving to harden critical telecom infrastructure as connectivity becomes geopolitically sensitive."
+      },
+      {
+        "id": "9ec7c1c3cb",
+        "reason": "TSMC’s expanded Japan plan underscores the global semiconductor reshoring race and the strategic competition to localize advanced chip capacity."
+      },
+      {
+        "id": "41a420c248",
+        "reason": "BASF’s new Taiwan fab points to continued investment in the semiconductor manufacturing ecosystem that supports advanced chips."
+      },
+      {
+        "id": "17487438b7",
+        "reason": "The roundup includes multiple capital-market signals around Indian tech and healthcare, useful as evidence of how public-market money is rotating through the startup economy."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "67febf1ade",
+        "reason": "Evidence of the state directing scarce AI compute subsidies toward a few commercial model builders, showing industrial policy shaping India’s AI stack."
+      },
+      {
+        "id": "cfe117d67e",
+        "reason": "A review of the 2019 mineral policy signals shifting resource priorities and a broader rethink of India’s strategic industrial policy."
+      },
+      {
+        "id": "e0a14ec91d",
+        "reason": "Opening census work to private individuals points to a larger push to outsource state data collection and modernize governance through non-state capacity."
+      },
+      {
+        "id": "ff379b43ab",
+        "reason": "A first private player getting regulator approval in Haryana shows the continuing privatization and contested liberalization of core infrastructure."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "150b5838d0",
+        "reason": "Concrete EU Arctic strategy signals the region is becoming a frontline for security policy, infrastructure investment and great-power competition."
+      },
+      {
+        "id": "75978f579d",
+        "reason": "Another strong indicator that Arctic geopolitics is shifting from climate issue to strategic competition among major powers."
+      },
+      {
+        "id": "272320cbb4",
+        "reason": "Shows how China’s influence is shaping Russia’s fuel trade, evidence of deeper supply-chain and sanctions-era realignment."
+      }
+    ],
+    "markets": [
+      {
+        "id": "3c4787406e",
+        "reason": "Concrete RBI liquidity injection is evidence of the central bank leaning against tight money as festive-season funding stress builds."
+      },
+      {
+        "id": "3ec340b896",
+        "reason": "Tighter scrutiny of large overseas investments shows capital controls being used as part of India’s broader rupee-defence playbook."
+      }
+    ],
+    "sports": [
+      {
+        "id": "81c478131e",
+        "reason": "A concrete sign that sports teams are increasingly being treated as financial assets, with ownership structures evolving toward marketable spin-offs."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 3,
+    "india": 0,
+    "world": 3,
+    "unknown": 0
+  }
+}

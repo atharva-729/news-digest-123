@@ -1,55 +1,106 @@
 {
   "date": "2026-10-28",
-  "subject": "L1·L2·L3 weekly 28 Oct: India’s voter-roll rules got tighter",
-  "lead": "India’s voter-roll rules got tighter",
+  "subject": "L1·L2·L3 weekly 28 Oct: Capital pours into AI and chips",
+  "lead": "Capital pours into AI and chips",
   "tldr": [
     {
-      "text": "India’s voter-roll tightening became clearer, with new declaration requirements and bigger deletions.",
-      "highlight": "new declaration requirements"
+      "text": "Biggest move: chip and AI funding kept concentrating into larger rounds.",
+      "highlight": "chip and AI funding"
     },
     {
-      "text": "Karnataka’s final rolls shrank by nearly 1 crore after SIR deletions.",
-      "highlight": "nearly 1 crore"
+      "text": "India’s semiconductor buildout heated up, with more money and more state support.",
+      "highlight": "semiconductor buildout heated up"
     },
     {
-      "text": "A Supreme Court fight is now over how strict registration can be.",
-      "highlight": "Supreme Court fight"
+      "text": "RBI tightened again, while voter-roll checks and AI-in-workflows both advanced.",
+      "highlight": "RBI tightened again"
     }
   ],
   "writer": {
-    "headline": "India’s voter-roll rules got tighter",
+    "headline": "Capital pours into AI and chips",
     "tldr": [
       {
-        "text": "India’s voter-roll tightening became clearer, with new declaration requirements and bigger deletions.",
-        "highlight": "new declaration requirements"
+        "text": "Biggest move: chip and AI funding kept concentrating into larger rounds.",
+        "highlight": "chip and AI funding"
       },
       {
-        "text": "Karnataka’s final rolls shrank by nearly 1 crore after SIR deletions.",
-        "highlight": "nearly 1 crore"
+        "text": "India’s semiconductor buildout heated up, with more money and more state support.",
+        "highlight": "semiconductor buildout heated up"
       },
       {
-        "text": "A Supreme Court fight is now over how strict registration can be.",
-        "highlight": "Supreme Court fight"
+        "text": "RBI tightened again, while voter-roll checks and AI-in-workflows both advanced.",
+        "highlight": "RBI tightened again"
       }
     ],
     "intro": {
-      "text": "The biggest move was in India voter-roll tightening: the state’s registration process got more document-heavy, while deletions kept pulling rolls down. The Supreme Court is now part of the fight over SIR and Form 6.",
-      "highlight": "more document-heavy"
+      "text": "The week’s biggest shift was capital concentrating harder around AI and semiconductors. India’s chip thread heated up on bigger investments and fresh industrial backing, while compute and embodied-AI funding kept building. Regulation also moved: the RBI tightened again, and India’s voter-roll checks got stricter.",
+      "highlight": "capital concentrating harder"
     },
     "threads": [
       {
-        "thread_id": "t_india_voter_rolls_tightening",
-        "line": "India’s voter-roll tightening advanced this week as the ECI added an extra declaration to Form 6, Karnataka’s final rolls shrank by nearly 1 crore after SIR deletions, and the Supreme Court became the venue for the dispute."
+        "thread_id": "t_india_semiconductor_capital_boom",
+        "line": "India’s chip-capital thread heated up as investments crossed ₹1.64 lakh crore, state proposals topped ₹5,800 crore in Madhya Pradesh, and fresh support reached fabs, ports, and new engineering centres."
+      },
+      {
+        "thread_id": "t_ai_compute_capital_surge",
+        "line": "AI compute financing kept building as Tenstorrent closed a $1.5 billion Series E and Deepseek reportedly raised $15 billion, reinforcing a market already dominated by the biggest AI rounds."
+      },
+      {
+        "thread_id": "t_india_voter_roll_checks",
+        "line": "India’s voter-roll thread was born as the Election Commission added a new declaration to Form 6 and Karnataka’s final rolls shrank by nearly 1 crore after SIR deletions."
+      },
+      {
+        "thread_id": "t_regional_chip_buildout",
+        "line": "Regional chip capacity kept expanding as big tech funded substrate plants in Korea and Japan, Infineon advanced a 300mm GaN plant, and India-linked fab plans and port links moved forward."
+      },
+      {
+        "thread_id": "t_indian_hardware_ipo",
+        "line": "The IPO route stayed active: Zetwerk’s listing traded below issue price, while Garuda Aerospace stayed IPO-bound with stronger FY26 profit and WeWork India posted solid Q2 growth."
+      },
+      {
+        "thread_id": "t_india_rate_hike_tightening",
+        "line": "India’s rate-turn thread stayed active after the RBI raised the repo rate by 25 bps and shifted to calibrated tightening, with inflation and a weak rupee still keeping hikes in play."
+      },
+      {
+        "thread_id": "t_embodied_ai_hardware_funding",
+        "line": "Embodied AI was born this week as investors backed autonomous systems, autonomous excavators, and physical AI vision hardware, from Paar Autonomy to Bedrock Robotics and Nova Spectral AI."
+      },
+      {
+        "thread_id": "t_ai_in_production_workflows",
+        "line": "AI in production workflows heated up as Anthropic launched Claude Duet to act inside connected apps and Guidewire bought Hyperexponential to put agents into underwriting and pricing."
+      },
+      {
+        "thread_id": "t_state_bank_divestment",
+        "line": "The bank selloff thread stayed active as the Centre’s rules for Indian Overseas Bank privatisation came into focus, alongside RBI restrictions on Puducherry Co-operative Urban Bank."
+      },
+      {
+        "thread_id": "t_ai_assistant_device_spread",
+        "line": "Assistant spread cooled this week; the only new evidence was broader funding for assistant-like business software, not a clear device shift."
+      },
+      {
+        "thread_id": "t_nvidia_stack_shift",
+        "line": "Nvidia detour stayed in motion as cloud and chip players kept pushing alternative AI infrastructure and partnerships, but the week’s evidence did not add a clean new break."
+      },
+      {
+        "thread_id": "t_frontier_ai_safety_scrutiny",
+        "line": "Safety scrutiny went dormant after a week with no new evidence, even as nearby AI labs kept filing, warning, and changing model policies."
+      },
+      {
+        "thread_id": "t_ai_strategic_race",
+        "line": "The AI-and-chips-as-strategic-assets thread went dormant this week after its earlier geopolitical momentum faded from the week’s fresh reporting."
       }
     ],
     "calls": [
       {
         "index": 0,
-        "verdict": "too_early",
-        "note": "No post-2026-10-27 official election commission or court filing in the week items clearly announced a new tighter voter-registration requirement.",
-        "item_ids": []
+        "verdict": "right",
+        "note": "After 2026-10-27, at least two disclosed rounds closed for autonomous-machine startups: Bedrock Robotics and Nova Spectral AI.",
+        "item_ids": [
+          "5383be2c86",
+          "6012261abf"
+        ]
       }
     ],
-    "watch": "Watch whether the Election Commission or courts turn the extra Form 6 declaration into a formal, durable rule. Also watch for fresh state-by-state roll revisions that show whether deletions are still spreading."
+    "watch": "Watch whether embodied-AI funding keeps widening beyond a few headline rounds. Also watch if the chip-capital thread turns from funding and state support into actual factory announcements and equipment orders."
   }
 }

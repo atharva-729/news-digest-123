@@ -82,6 +82,12 @@ def _call(messages, tag="untagged", model=None, **extra):
             except Exception as e:  # 429/5xx from the API, empty or truncated output, stray script
                 last_err = e
                 status = getattr(getattr(e, "response", None), "status_code", None)
+                if status == 400 and "reasoning" in e.response.text.lower() and "reasoning_effort" in body:
+                    # Reasoning levels differ by model ("none" vs "minimal"; none at all on gpt-4.1). A fallback
+                    # model that refuses ours runs without the setting rather than failing.
+                    body = {k: v for k, v in body.items() if k != "reasoning_effort"}
+                    log.warning("%s rejected the reasoning setting; retrying without it", model)
+                    continue
                 if status in (400, 401, 403, 404):
                     log.warning("%s rejected the request (%s): %s", model, status, e.response.text[:200])
                     break  # bad model name or auth: retrying won't help

@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-08",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "4cdab75238",
+        "reason": "Evidence that AI infrastructure demand is pulling cloud capacity and data-center buildout into India, with a major U.S. provider entering via local partnerships."
+      },
+      {
+        "id": "92be971aec",
+        "reason": "Shows private markets still rewarding frontier AI infrastructure and agent platforms with very large valuations and late-stage capital.",
+        "funding": {
+          "company": "Nous Research",
+          "amount": "$90 million",
+          "sector": "AI agents",
+          "country": "US"
+        }
+      },
+      {
+        "id": "2e4fc38250",
+        "reason": "Evidence that lenders are becoming a key customer segment for AI agents, not just general-purpose enterprise software.",
+        "funding": {
+          "company": "Vesta",
+          "amount": "$30M",
+          "sector": "AI-native fintech software",
+          "country": "US"
+        }
+      },
+      {
+        "id": "4b75921a70",
+        "reason": "Shows money flowing into the data layer needed for robotics, a sign that embodied AI is becoming an investable category.",
+        "funding": {
+          "company": "Mecka AI",
+          "amount": "$60M",
+          "sector": "robotics data",
+          "country": "US"
+        }
+      },
+      {
+        "id": "cc597e63eb",
+        "reason": "Evidence that capital is deliberately shifting beyond Silicon Valley, reinforcing the globalization of startup funding.",
+        "funding": {
+          "company": "Endeavor Catalyst",
+          "amount": "$320M",
+          "sector": "venture capital",
+          "country": "US"
+        }
+      },
+      {
+        "id": "2d0a6a2e37",
+        "reason": "A broad signal that Indian startup funding is stabilizing but becoming more selective, especially at later stages."
+      },
+      {
+        "id": "7d8e2c7a08",
+        "reason": "Shows how policy around UPI fees is directly moving Indian fintech and payments stocks, tying regulation to market repricing."
+      },
+      {
+        "id": "54da693e6c",
+        "reason": "Evidence that PC makers are retooling around AI-capable hardware, with Nvidia chips moving from servers into consumer devices."
+      },
+      {
+        "id": "36bf85cb54",
+        "reason": "Shows big-tech product expansion in AI assistants, suggesting rapid normalization of agent interfaces across devices."
+      },
+      {
+        "id": "24991b2a0a",
+        "reason": "Evidence that AI safety and usage rules are becoming product policy, not just external regulation."
+      },
+      {
+        "id": "890f496b2a",
+        "reason": "Shows ongoing consolidation in semiconductors, as strategic chip assets are still being bought up rather than built from scratch."
+      },
+      {
+        "id": "ba9525537c",
+        "reason": "Evidence that governments are using industrial policy and financing to shore up semiconductor supply chains for national security reasons."
+      },
+      {
+        "id": "bc0c253a08",
+        "reason": "Signals continued progress toward stacked AI chips, where materials and packaging advances matter as much as software."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "e477203a0f",
+        "reason": "GST easing signals a broader shift toward lowering compliance friction and softening India’s tax regime to support consumption and business activity."
+      },
+      {
+        "id": "6616702f97",
+        "reason": "The planned AI regulation consultation is evidence of the state moving from discussion to rulemaking on frontier tech, especially safety and deepfakes."
+      },
+      {
+        "id": "7a1a456477",
+        "reason": "A parallel AI consultation push underscores the same larger pattern: India is beginning to build a formal regulatory framework for AI."
+      },
+      {
+        "id": "4a292ad4dd",
+        "reason": "This reflects India’s effort to deepen US military alignment as it positions itself as a central Indo-Pacific power."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "5971441141",
+        "reason": "Signals a broader Asian shift toward economic resilience and policy insulation as states respond to great-power rivalry."
+      },
+      {
+        "id": "db9abfe53e",
+        "reason": "Evidence that Arctic security is becoming a more central theater of geopolitical competition, alongside climate and shipping interests."
+      },
+      {
+        "id": "377662dfb4",
+        "reason": "Shows regulators treating geopolitics as a systemic financial risk, not just a foreign-policy headline."
+      }
+    ],
+    "markets": [
+      {
+        "id": "2ec4c308ae",
+        "reason": "Shows the rupee under renewed pressure and the RBI being forced into repeated intervention, evidence of a broader FX-defense problem rather than a one-off move."
+      },
+      {
+        "id": "522645ad7c",
+        "reason": "The RBI’s large VRRR operation signals a continuing liquidity-absorption campaign, pointing to a tighter monetary stance beyond the headline rate decision."
+      }
+    ],
+    "sports": [
+      {
+        "id": "d7a5c2a7aa",
+        "reason": "Evidence of women’s sports crossing into major-league economics, with a team becoming the first in the category to top $100m in annual revenue."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 4,
+    "india": 0,
+    "world": 4,
+    "unknown": 0
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-14",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "eb03ad62bb",
+        "reason": "Signals a bigger state-backed push to channel public capital into India’s deeptech and startup ecosystem through selected AIFs."
+      },
+      {
+        "id": "38f732b055",
+        "reason": "Evidence that lenders and insurers are an active funding target for agentic AI, with capital flowing into workflow automation rather than generic chatbots.",
+        "funding": {
+          "company": "RevRag.AI",
+          "amount": "$2.5 Mn",
+          "sector": "AI",
+          "country": "India"
+        }
+      },
+      {
+        "id": "0495f51e9a",
+        "reason": "Shows continued investor appetite for AI-native consumer tech, especially gaming studios using AI to scale content production.",
+        "funding": {
+          "company": "Spill Games",
+          "amount": "$10.5 Mn",
+          "sector": "AI-led mobile gaming",
+          "country": "India"
+        }
+      },
+      {
+        "id": "4410061275",
+        "reason": "Highlights funding for circular commerce and recommerce, a category benefiting from consumer value-seeking and marketplace expansion.",
+        "funding": {
+          "company": "Circle",
+          "amount": "₹25 Cr",
+          "sector": "marketplace / recommerce",
+          "country": "India"
+        }
+      },
+      {
+        "id": "4add4e3114",
+        "reason": "A fresh funding round for AI compliance infrastructure shows money flowing into the governance layer around regulated enterprise AI adoption.",
+        "funding": {
+          "company": "Readily",
+          "amount": "$11M",
+          "sector": "AI regulatory compliance platform",
+          "country": "United States"
+        }
+      },
+      {
+        "id": "0cbadf4a06",
+        "reason": "Marks the continued race among big tech firms to ship flagship AI models for developers and enterprise customers."
+      },
+      {
+        "id": "a3f125cdc9",
+        "reason": "Evidence of Apple adapting its AI rollout to China’s regulatory and market realities, showing geopolitics shaping product launch strategy."
+      },
+      {
+        "id": "70093601d1",
+        "reason": "Shows how AI hiring and talent poaching are becoming legal and corporate battlegrounds, especially among frontier-model firms and big tech."
+      },
+      {
+        "id": "96f2aead78",
+        "reason": "A reminder that AI talent and sensitive model work are now valuable enough to trigger espionage-style security concerns."
+      },
+      {
+        "id": "725675a299",
+        "reason": "Captures market-wide repricing of AI beneficiaries when investors worry about the durability of AI spending and funding."
+      },
+      {
+        "id": "0f7bb8c0ff",
+        "reason": "Strong earnings from a tech brokerage underscore the continued retail/investment-tech boom and the monetization of India’s market participation."
+      },
+      {
+        "id": "eb8ebf9326",
+        "reason": "Indicates AI is moving from hype into administrative productivity, with scientists trying to automate the unglamorous paperwork layer."
+      },
+      {
+        "id": "eeb7b63b8d",
+        "reason": "Evidence of manufacturing AI moving deeper into semiconductor and battery production, where defect detection directly affects yield and margins."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "c010375505",
+        "reason": "Major state exit from a bank signals a continued push toward privatization and asset monetization in public-sector finance."
+      },
+      {
+        "id": "00aa39c50a",
+        "reason": "Worker resistance to the IDBI stake sale shows the political and labour backlash to bank privatization."
+      },
+      {
+        "id": "21b101bf23",
+        "reason": "A Centre-versus-court dispute over IPS deputation reflects the ongoing tension between executive control and judicial limits in policing."
+      },
+      {
+        "id": "36bb58a1af",
+        "reason": "A step-by-step look at protest policing captures the larger tightening of state security and crowd-control apparatus around dissent."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "8ed8f7d138",
+        "reason": "A market signal of Europe’s rearmament cycle, showing geopolitics is already being priced into capital and industrial policy."
+      },
+      {
+        "id": "8f99eb9e70",
+        "reason": "Evidence that India is trying to turn energy leverage into diplomacy, a sign of middle-power states brokering around the Ukraine war."
+      },
+      {
+        "id": "620072d0d8",
+        "reason": "Shows EU enlargement is still constrained by both domestic reform and great-power geopolitics, not just technical accession criteria."
+      }
+    ],
+    "markets": [
+      {
+        "id": "748a43a37c",
+        "reason": "RBI signaling more FX intervention is evidence of a deeper shift toward active currency management as a policy tool to stabilize capital flows and imported inflation."
+      },
+      {
+        "id": "1cb259df56",
+        "reason": "A special dollar window for state-run oil firms shows how central banks and governments are prioritizing strategic import financing when energy prices and the rupee come under strain."
+      }
+    ],
+    "sports": [
+      {
+        "id": "8140b26331",
+        "reason": "A concrete rights purchase showing how streaming platforms are deepening their push into live sports as a global growth business."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 4,
+    "india": 3,
+    "world": 1,
+    "unknown": 0
+  }
+}

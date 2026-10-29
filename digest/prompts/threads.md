@@ -29,6 +29,9 @@ Your job:
        **not** count. Set `thread_id` to the id exactly as given.
      - `new`: the item is direct evidence for a pattern we don't track yet. Set `thread_id` to the `key` of a
        thread you define in `new_threads`.
+     Check every story against **every** existing thread and candidate, not only those that share its topic
+     words: a story is evidence when it is an instance of the claim, even if it's worded differently (a firm
+     buying chips from a non-Nvidia supplier is an instance of "developers moving away from Nvidia").
      - `none`: one-off news that doesn't show a recurring shift. There's no quota either way: link a story
        when it plainly shows a recurring shift, leave it `none` when it doesn't.
    - For `attach` and `new`: `mechanism` is one sentence, "This story shows <claim> because <specific fact

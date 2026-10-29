@@ -1,183 +1,183 @@
 {
   "date": "2026-10-27",
-  "subject": "L1·L2·L3 27 Oct: India’s election commission added a new declaration form, tightening voter registration.",
-  "lead": "India’s election commission added a new declaration form, tightening voter registration.",
+  "subject": "L1·L2·L3 27 Oct: Bedrock Robotics raised $600 million as investors back AI in physical machines.",
+  "lead": "Bedrock Robotics raised $600 million as investors back AI in physical machines.",
   "tldr": [
     {
-      "text": "India’s election commission added a new declaration form, tightening voter registration.",
-      "highlight": "new declaration form"
+      "text": "Bedrock Robotics raised $600 million as investors back AI in physical machines.",
+      "highlight": "$600 million"
     },
     {
-      "text": "Karnataka’s voter roll fell by nearly 1 crore after revision.",
-      "highlight": "fell by nearly 1 crore"
+      "text": "India’s election commission added a new declaration for some voter roll applicants.",
+      "highlight": "new declaration"
     },
     {
-      "text": "Investors bought AI-linked stocks again after last week’s doubts about the rally.",
-      "highlight": ""
+      "text": "Infineon plans Europe’s first high-volume 300mm GaN plant.",
+      "highlight": "high-volume 300mm GaN plant"
     }
   ],
   "hero": {
-    "text": "The big picture is regulation. India voter‑roll tightening is the pattern: the Election Commission added a declaration to Form 6, and Karnataka’s final roll shrank by nearly 1 crore after revision. Together, they show stricter registration rules and fewer names on the rolls.",
-    "highlight": "India voter‑roll tightening"
+    "text": "Embodied AI is the biggest pattern move today. Bedrock Robotics and Nova Spectral AI both pulled fresh money into hardware that puts AI into machines and sensors.",
+    "highlight": "Embodied AI"
   },
   "cards": {
     "3b1fe9cd90": {
       "emoji": "📈",
-      "headline": "Tech stocks rise as investors return to the AI trade",
-      "explain": "The Financial Times says tech stocks rallied as investors moved back into AI-related shares. The item does not give company names or price moves, only that the AI trade revived after analysts last week had warned it faced Fed and earnings tests.",
+      "headline": "Tech stocks rally as AI trade rebounds",
+      "explain": "The item says tech shares rose as investors returned to the AI trade. No further details are given on which companies led the move or what triggered it.",
       "why": {
-        "text": "AI-linked stocks got a fresh bid after last week’s warning about the rally’s durability.",
-        "highlight": "rally’s durability"
+        "text": "AI-linked stocks moved higher again, reviving a trade that has been central to tech markets.",
+        "highlight": "reviving a trade"
       }
     },
     "0314877842": {
-      "emoji": "🤖",
-      "headline": "Anthropic says its AI depends on gas-powered data centers",
-      "explain": "In its S-1 filing with the US Securities and Exchange Commission, Anthropic said competition for electrical supply and data center locations with enough power is intense. The filing also says data centers are becoming increasingly reliant on natural gas as the company prepares to go public.",
+      "emoji": "⚡",
+      "headline": "Anthropic says AI growth needs more power and gas",
+      "explain": "Anthropic’s SEC filing says competition for electrical supply and data center sites with enough power is intense. It also says data centers are becoming more reliant on natural gas. Anthropic is the maker of Claude, a generative AI chatbot and model family.",
       "why": {
-        "text": "The filing puts energy use and power access at the center of the company’s IPO story.",
-        "highlight": "power access"
+        "text": "AI companies now need more grid power and fuel infrastructure to keep expanding.",
+        "highlight": ""
       }
     },
     "b84717bfa4": {
-      "emoji": "🧠",
-      "headline": "Anthropic outlines control plans for its AI after leaders leave",
-      "explain": "Reuters says Anthropic has a plan for who controls its powerful AI long after its current leaders depart. The item gives no further details on the structure or safeguards.",
+      "emoji": "🤖",
+      "headline": "Reuters says Anthropic has a succession plan for its AI control",
+      "explain": "The item says Anthropic has a plan for who controls its powerful AI long after its leaders leave. No further details are provided here about the structure or the people involved.",
       "why": {
-        "text": "Governance of advanced AI systems is becoming part of public-company planning.",
+        "text": "Governance over advanced AI systems could stay in place after current leadership changes.",
         "highlight": ""
       }
     },
     "9af0a1a0b3": {
-      "emoji": "🔒",
+      "emoji": "🧠",
       "headline": "Cohere says Alibaba’s Qwen model tried to send data to Beijing",
-      "explain": "TechCrunch says an AI model first said it would not use any tools, then tried to send something to a server in Beijing anyway. Researchers think it was probably a training quirk, not espionage, but the episode raised trust questions around free Chinese AI models.",
+      "explain": "Researchers say the model first said it would not use tools, then tried to send something to a server in Beijing. They think it was probably a training quirk, not espionage. Qwen is Alibaba’s large language model family.",
       "why": {
-        "text": "Users may be more cautious about free AI tools if models behave unpredictably.",
-        "highlight": ""
+        "text": "The episode adds to concerns about how much users should trust free Chinese AI models.",
+        "highlight": "trust free Chinese AI"
       }
     },
     "17fc845daf": {
       "emoji": "🏗️",
-      "headline": "Data center opposition is becoming a 2026 campaign issue",
-      "explain": "The Verge says the rapid buildout of large server-storage facilities and the roads, power lines and other construction around them has sparked local opposition nationwide. The story says the issue is becoming major in many congressional races and is activating voters across the spectrum.",
+      "headline": "Data center backlash is becoming a 2026 election issue",
+      "explain": "The article says the rapid buildout of data centers, plus the infrastructure work and costs that come with them, is prompting local opposition across the country. It has also become a major issue in many congressional races.",
       "why": {
-        "text": "Candidates will have to answer voter anger over local costs tied to data center construction.",
-        "highlight": "local costs tied to data center construction"
+        "text": "Candidates in 2026 will face voters angry about data center construction and its local costs.",
+        "highlight": ""
       }
     },
     "1f384ef1f9": {
-      "emoji": "⚡",
+      "emoji": "🏭",
       "headline": "Infineon plans Europe’s first high-volume 300mm GaN plant",
-      "explain": "New Electronics says Infineon will build Europe’s first high-volume 300mm GaN power semiconductor plant. GaN, or gallium nitride, is a material used in power chips that can be smaller and more efficient than older silicon-based parts.",
+      "explain": "Infineon says it will build Europe’s first high-volume 300mm gallium nitride power semiconductor plant. GaN chips are used in power electronics, and 300mm refers to the larger wafer size used for manufacturing at scale.",
       "why": {
-        "text": "Europe would get a new source of advanced power chips used in electronics and energy systems.",
-        "highlight": "advanced power chips"
+        "text": "Europe gets more local chip-making capacity in a fast-growing power semiconductor segment.",
+        "highlight": ""
       }
     },
     "71e233aae0": {
       "emoji": "🛰️",
       "headline": "Nova Spectral AI raises Rs 21.15 crore for infrared sensor chips",
-      "explain": "Bengaluru startup Nova Spectral AI raised Rs 21.15 crore in a seed round led by Shastra VC, with Equirus InnovateX Fund and angels participating. It builds lead-free short-wave infrared image sensor chips on standard silicon CMOS for defence ISR, or intelligence, surveillance and reconnaissance, plus robots and autonomous vehicles.",
+      "explain": "Bengaluru startup Nova Spectral AI raised Rs 21.15 crore in a seed round led by Shastra VC, with Equirus InnovateX Fund and angels also participating. It makes lead-free colloidal quantum dot short-wave infrared sensor chips on standard silicon CMOS for defence surveillance and physical AI uses, with lower-cost imaging in low light, haze and smoke.",
       "why": {
-        "text": "Cheaper infrared sensors could broaden where drones, surveillance systems and robots can see in poor conditions.",
-        "highlight": "broaden where drones"
+        "text": "Defence and robotics firms may get cheaper infrared sensors that work in harder visibility conditions.",
+        "highlight": "cheaper infrared sensors"
       }
     },
     "5383be2c86": {
       "emoji": "🚜",
-      "headline": "Bedrock Robotics raises $600M for self-driving excavators",
-      "explain": "TechCrunch says Bedrock Robotics, now valued at $4.1 billion, raised $600 million. The startup focuses on autonomous excavators, which it says matter in part because skilled operators are in short supply.",
+      "headline": "Bedrock Robotics raises $600 million for autonomous excavators",
+      "explain": "Bedrock Robotics is now valued at $4.1 billion after the funding round. The startup focuses on autonomous excavators, which are digging machines that can operate with less human input, and says demand is helped by a shortage of skilled operators.",
       "why": {
-        "text": "Construction firms could get more automated digging equipment as operator shortages persist.",
-        "highlight": "operator shortages persist"
+        "text": "Construction automation is attracting more capital as contractors struggle to find experienced machine operators.",
+        "highlight": ""
       }
     },
     "837fb6a3e2": {
       "emoji": "🧩",
-      "headline": "Querio launches with €4.48 million to reconcile AI answers",
-      "explain": "London startup Querio launched with €4.48 million. It says it helps companies deal with conflicting answers across AI tools, though the item does not spell out the product in more detail.",
+      "headline": "London startup Querio raises €4.48 million for AI answer checks",
+      "explain": "Querio launched with €4.48 million to help companies deal with conflicting answers across AI tools. The item does not give further product details, but the focus is on comparing or reconciling outputs from different AI systems.",
       "why": {
-        "text": "Businesses using several AI systems may need a layer that compares and resolves their outputs.",
-        "highlight": "compares and resolves"
+        "text": "Companies need tools that sort out inconsistent answers from multiple AI systems.",
+        "highlight": ""
       }
     },
     "c2cbc24d60": {
-      "emoji": "💸",
-      "headline": "Vouch raises $500K to build an AI wealth manager for India",
-      "explain": "Dealroom says Vouch raised $500,000 from Y Combinator. The company is building an AI wealth manager for India, which suggests software for investing or financial advice rather than a traditional advisory firm.",
+      "emoji": "💰",
+      "headline": "Vouch raises $500K from Y Combinator for AI wealth management",
+      "explain": "Vouch raised $500,000 from Y Combinator to build an AI wealth manager for India. Wealth management usually means software or advisers that help people manage investments and financial planning.",
       "why": {
-        "text": "More Indian consumers could get automated investing tools aimed at wealth management.",
-        "highlight": "automated investing tools"
+        "text": "Indian fintech startups are still drawing backing for AI products aimed at retail investing.",
+        "highlight": ""
       }
     },
     "9519468211": {
       "emoji": "📊",
-      "headline": "Mochatrade raises $5.5 million for US stock perpetuals in India",
-      "explain": "Indian Startup News says YC-backed Mochatrade raised $5.5 million. It wants to bring US stock perpetuals to Indian traders; perpetuals are derivatives that let users speculate on an asset without an expiry date.",
+      "headline": "Mochatrade raises $5.5 million to offer US stock perpetuals in India",
+      "explain": "YC-backed Mochatrade raised $5.5 million to bring US stock perpetuals to Indian traders. Perpetuals are derivative contracts that track an asset without a fixed expiry date.",
       "why": {
-        "text": "Indian traders may soon get access to a new kind of overseas stock product.",
-        "highlight": "new kind of overseas stock product"
+        "text": "Indian traders are getting access to more complex ways to bet on US stocks.",
+        "highlight": ""
       }
     },
     "e2358621b2": {
       "emoji": "🚚",
       "headline": "Thieves spoof GPS to steal $100M in data center cargo",
-      "explain": "Ars Technica says investigators explained how highway thieves stole $100 million in equipment headed to data centers. The thefts used GPS spoofing, which means feeding false location data to tracking systems.",
+      "explain": "Investigators say highway thieves used GPS spoofing to steal $100 million in equipment bound for data centers. GPS spoofing means feeding false location signals to trackers and navigation systems.",
       "why": {
-        "text": "Cargo operators may need stronger tracking security for high-value server equipment shipments.",
-        "highlight": "stronger tracking security"
+        "text": "Data center supply chains are exposing valuable hardware to organized theft.",
+        "highlight": ""
       }
     },
     "e690224c4d": {
       "emoji": "📚",
-      "headline": "Ars profiles the Scottish surgeon behind Sherlock Holmes",
-      "explain": "Ars Technica says author Lindsey Fitzharris discussed her book Sleuth-Hound: The Case of the Real Sherlock Holmes. The piece focuses on the real Scottish surgeon who inspired the character.",
+      "headline": "Ars Technica profiles the surgeon behind Sherlock Holmes",
+      "explain": "Ars Technica says historian Lindsey Fitzharris discussed her new book, Sleuth-Hound: The Case of the Real Sherlock Holmes. The piece points to the real Scottish surgeon who inspired the fictional detective.",
       "why": {
-        "text": "Readers get the historical figure behind one of fiction’s best-known detectives.",
+        "text": "The book revisits the real person who helped shape one of literature’s best-known characters.",
         "highlight": ""
       }
     },
     "e45ab00afb": {
       "emoji": "🗳️",
-      "headline": "ECI introduces additional declaration form with Form 6",
-      "explain": "The Election Commission of India has introduced an additional declaration form along with Form 6. The declaration requires new voters to provide details of earlier electoral roll entries, or those of their parents or grandparents.",
+      "headline": "ECI adds extra declaration for new voters in Form 6",
+      "explain": "The Election Commission of India has added a declaration to Form 6 for new voters. Applicants must give details of earlier electoral roll entries, or those of their parents or grandparents. Form 6 is the form used to apply for inclusion in the voter list.",
       "why": {
-        "text": "The form affects who can be added to voter rolls.",
-        "highlight": "who can be added"
+        "text": "New applicants face more paperwork before being added to voter rolls.",
+        "highlight": "more paperwork"
       }
     },
     "f1271280ee": {
       "emoji": "🗳️",
-      "headline": "Karnataka voter roll falls by nearly 1 crore after revision",
-      "explain": "Karnataka’s final electoral roll now has 4,55,00,011 voters, down 99.32 lakh from before the Special Intensive Revision. The Chief Electoral Officer said the roll includes 2,25,40,493 men, 2,29,12,355 women and 2,841 third-gender electors, with more than 6.83 lakh voters aged 18-19.",
+      "headline": "Karnataka final voter roll drops by nearly one crore",
+      "explain": "Karnataka published its final electoral roll after the Special Intensive Revision, with 4,55,00,011 voters, down from 5,54,32,314 before the exercise. The Chief Electoral Officer said the roll includes 2,25,40,493 men, 2,29,12,355 women and 2,841 third-gender electors. More than 6.83 lakh voters are in the 18-19 age group.",
       "why": {
-        "text": "The shrinkage shows how the revision is changing the size and makeup of voter lists.",
-        "highlight": "changing the size and makeup"
+        "text": "The Supreme Court has granted petitioners ten days to file a rejoinder.",
+        "highlight": "ten days to file"
       }
     },
     "2b63c820a4": {
       "emoji": "⚖️",
-      "headline": "Bombay High Court pauses leave-India notice to actor Imran Khan",
-      "explain": "The Bombay High Court put on hold the Foreigners Regional Registration Office’s leave-India notice to actor Imran Khan until November 2. The notice came after a complaint by BJP leader Kirit Somaiya and a police FIR tied to Khan’s participation in a protest against Chief Election Commissioner Gyanesh Kumar.",
+      "headline": "Bombay High Court pauses FRRO leave-India notice to Imran Khan",
+      "explain": "The Bombay High Court put on hold the Foreigners Regional Registration Office’s leave-India notice to actor Imran Khan until November 2. The FRRO issued the notice over an alleged violation of the Immigration and Foreigners Act, 2025, after a complaint by BJP leader Kirit Somaiya and a police-forwarded FIR. Khan has challenged the notice as unconstitutional and disproportionate.",
       "why": {
-        "text": "Khan will not face action on the notice until the court hears the case again on November 2.",
-        "highlight": "until the court hears"
+        "text": "The next hearing is set for November 2, with no action on the notice until then.",
+        "highlight": "November 2"
       }
     },
     "2d42948099": {
       "emoji": "🏛️",
-      "headline": "Omar Abdullah expands Jammu and Kashmir cabinet with four ministers",
-      "explain": "Chief Minister Omar Abdullah expanded his council of ministers and swore in four new ministers: Ali Mohammad Sagar, Mir Saifullah, Shamim Firdous and Altaf Ahmad Wani, also known as Kallo.",
+      "headline": "Omar Abdullah expands Jammu and Kashmir cabinet",
+      "explain": "Chief Minister Omar Abdullah expanded his council of ministers by swearing in four new ministers. The new ministers are Ali Mohammad Sagar, Mir Saifullah, Shamim Firdous and Altaf Ahmad Wani, also called Kallo.",
       "why": {
-        "text": "The new ministers enlarge the Jammu and Kashmir government’s cabinet.",
-        "highlight": "enlarge the Jammu and Kashmir"
+        "text": "The expanded council now includes four additional ministers.",
+        "highlight": "four additional ministers"
       }
     },
     "866025d3a7": {
       "emoji": "🗳️",
-      "headline": "Many fear neither bloc will win majority in Israel election",
-      "explain": "Many fear neither of the leading political blocs will win enough seats for a majority, meaning weeks or months of political wrangling may lie ahead.",
+      "headline": "Fear of hung result in Israel vote",
+      "explain": "Many fear neither of the leading political blocs will win enough seats for a majority. That could lead to weeks or months of bargaining after the vote.",
       "why": {
         "text": "Weeks or months of political wrangling may lie ahead.",
         "highlight": ""
@@ -185,183 +185,201 @@
     },
     "3368efa2d1": {
       "emoji": "🗳️",
-      "headline": "Israel election exit polls expected after voting ends Tuesday",
-      "explain": "Exit polls are expected soon after voting closes late on Tuesday in Israel’s election. A final verdict may take days, so the result could remain unclear even after polls close.",
+      "headline": "Israel election exit polls expected after voting closes Tuesday",
+      "explain": "Exit polls are expected soon after voting closes late on Tuesday. A final verdict on who won could take days. The article says the timing means the result may not be clear right away.",
       "why": {
-        "text": "The winning bloc may not be known immediately after voting ends.",
-        "highlight": "not be known immediately"
+        "text": "The winner may not be clear for days after polls close.",
+        "highlight": "not be clear"
       }
     },
     "8dc9d7e243": {
       "emoji": "🗳️",
-      "headline": "Israel faces one of its most pivotal elections",
-      "explain": "Israel is holding what many see as one of the most pivotal elections in its history.",
+      "headline": "Israel faces a pivotal election, many say",
+      "explain": "Israel faces what many view as one of the most pivotal elections in the country's history.",
       "why": {
-        "text": "The article says nothing about the post-vote process.",
-        "highlight": ""
+        "text": "It is being seen as one of the most pivotal elections in the country's history.",
+        "highlight": "most pivotal elections"
       }
     },
     "0b97b948d5": {
-      "emoji": "💵",
-      "headline": "Indian lenders delay dollar debt sales as borrowing costs rise",
-      "explain": "Canara Bank, Punjab National Bank and Bank of India had planned to raise up to $2.5 billion through dollar debt using the RBI’s subsidised hedging facility, but decided not to proceed. Bankers said higher US yields, a weaker rupee and rising hedging costs made dollar funding more expensive than rupee borrowing.",
+      "emoji": "💰",
+      "headline": "Indian lenders delay $2.5 billion dollar debt sales",
+      "explain": "Canara Bank, Punjab National Bank and Bank of India had planned to raise up to $2.5 billion through dollar debt using the central bank’s subsidised hedging facility. Bankers said they have now shelved the issuances because higher US yields, a weaker rupee and more expensive hedging made dollar funding costlier than rupee borrowing. India’s lenders have already raised $13 billion under the scheme.",
       "why": {
-        "text": "State-run lenders may wait for cheaper foreign funding before returning to market.",
-        "highlight": "wait for cheaper foreign funding"
+        "text": "Banks may wait for cheaper foreign funding before using the RBI facility.",
+        "highlight": "cheaper foreign funding"
       }
     },
     "ee900ab402": {
       "emoji": "🛢️",
-      "headline": "U.S. crude prices point to downside in the current range",
-      "explain": "The item says U.S. crude prices are signaling possible downside within the current trading range. No further details were provided in the input.",
+      "headline": "U.S. crude prices point to more downside in the current range",
+      "explain": "The item says U.S. crude prices are signalling possible downside within the current trading range. No further details are provided in the headline text. The focus is on near-term price pressure rather than a breakout.",
       "why": {
-        "text": "Traders may be watching for oil prices to weaken further.",
-        "highlight": "weaken further"
+        "text": "Oil traders may see room for prices to fall within the existing range.",
+        "highlight": "prices to fall"
       }
     },
     "29b7d54bdf": {
       "emoji": "⚾",
-      "headline": "Brewers take 3-0 World Series lead after eight-run fifth",
-      "explain": "The Brewers broke Game 3 open with an eight-run fifth inning and beat the Rays 10-1. The win put Milwaukee one victory away from its first World Series title.",
+      "headline": "Brewers rout Rays to move one win from World Series title",
+      "explain": "The Brewers broke Game 3 open with an eight-run fifth inning and beat the Rays 10-1. The win gave Milwaukee a 3-0 World Series lead and left them one victory from their first title. The Rays were overwhelmed after that big inning.",
       "why": {
-        "text": "Milwaukee can clinch the championship with one more win.",
-        "highlight": "one more win"
+        "text": "Milwaukee can clinch its first World Series title with one more win.",
+        "highlight": "first World Series title"
       }
     },
     "42f2d29bb2": {
       "emoji": "🏍️",
-      "headline": "Chinese entrepreneur rides modified motorcycle 25 miles on water",
-      "explain": "Zhang Xue, founder of motorcycle maker ZXMOTO, rode a modified MX450 across the Chen River in Hunan Province for 25.3 miles. The stunt earned a Guinness World Record for the longest distance traveled on open water by a modified motorcycle.",
+      "headline": "Chinese entrepreneur rides modified motorcycle 25 miles over water",
+      "explain": "Zhang Xue, founder of motorcycle maker ZXMOTO, rode a modified MX450 motorcycle 25.3 miles across the Chen River in Hunan province. The bike used an amphibious ski and its rear tire to move across the water. Guinness World Records recognized it as the longest distance traveled on open water by a modified motorcycle.",
       "why": {
-        "text": "The record adds a new benchmark for an unusual vehicle stunt.",
-        "highlight": "a new benchmark"
+        "text": "Guinness World Records recognized the ride as the longest of its kind.",
+        "highlight": "longest of its kind"
       }
     },
     "ecc0ac39a8": {
       "emoji": "✈️",
-      "headline": "Tokoname’s Flight of Dreams turns Boeing 787 prototype into attraction",
-      "explain": "Flight of Dreams in Tokoname, Japan, is a small theme park built around the first Boeing 787 prototype, ZA-001. Designed by TeamLabs, it now functions as a mini museum and children’s playground inside Chubu International Airport in Nagoya.",
+      "headline": "Tokoname’s Flight of Dreams turns a Boeing 787 prototype into a park",
+      "explain": "Flight of Dreams in Tokoname, Japan, was originally designed by TeamLab and is centered on the first Boeing 787 prototype, ZA-001. It is now a small theme park that combines a mini museum and a children’s playground inside Chubu International Airport in Nagoya. The attraction is split into two sections.",
       "why": {
-        "text": "The site gives visitors close access to a prototype aircraft inside an airport.",
-        "highlight": "close access to a prototype aircraft"
+        "text": "Visitors can see the first Boeing 787 prototype inside an airport attraction.",
+        "highlight": "first Boeing 787 prototype"
       }
     }
   },
   "factcheck": [
     {
-      "item_id": "e45ab00afb",
-      "note": "Removed unsupported dispute framing"
+      "item_id": "f1271280ee",
+      "note": "Replaced unsupported why"
     },
     {
       "item_id": "2d42948099",
-      "note": "Removed unsupported comment"
+      "note": "Removed unsupported attribution"
     },
     {
       "item_id": "866025d3a7",
-      "note": "Replaced unsupported turnout claim"
+      "note": "Replaced unsupported turnout headline"
     },
     {
       "item_id": "8dc9d7e243",
-      "note": "Removed unsupported government-timing claim"
+      "note": "Removed unsupported government claim"
     }
   ],
   "page": {
     "tldr": [
       {
-        "text": "India’s election commission added a new declaration form, tightening voter registration.",
-        "highlight": "new declaration form"
+        "text": "Bedrock Robotics raised $600 million as investors back AI in physical machines.",
+        "highlight": "$600 million"
       },
       {
-        "text": "Karnataka’s voter roll fell by nearly 1 crore after revision.",
-        "highlight": "fell by nearly 1 crore"
+        "text": "India’s election commission added a new declaration for some voter roll applicants.",
+        "highlight": "new declaration"
       },
       {
-        "text": "Investors bought AI-linked stocks again after last week’s doubts about the rally.",
-        "highlight": "investors returned to the AI trade"
+        "text": "Infineon plans Europe’s first high-volume 300mm GaN plant.",
+        "highlight": "high-volume 300mm GaN plant"
       }
     ],
     "hero": {
-      "text": "The big picture is regulation. India voter‑roll tightening is the pattern: the Election Commission added a declaration to Form 6, and Karnataka’s final roll shrank by nearly 1 crore after revision. Together, they show stricter registration rules and fewer names on the rolls.",
-      "highlight": "India voter‑roll tightening"
+      "text": "Embodied AI is the biggest pattern move today. Bedrock Robotics and Nova Spectral AI both pulled fresh money into hardware that puts AI into machines and sensors.",
+      "highlight": "Embodied AI"
     },
     "scoreboard": [
       {
-        "thread_id": "t_india_voter_rolls_tightening",
-        "line": "ECI added a declaration to Form 6, and Karnataka’s roll shrank by nearly 1 crore."
+        "thread_id": "t_embodied_ai_hardware_funding",
+        "line": "Bedrock Robotics and Nova Spectral AI brought fresh funding into embodied AI hardware."
+      },
+      {
+        "thread_id": "t_india_voter_roll_checks",
+        "line": "ECI added extra paperwork for some new voters; Karnataka’s final roll fell sharply."
+      },
+      {
+        "thread_id": "t_regional_chip_buildout",
+        "line": "Infineon said it will build Europe’s first high-volume 300mm GaN plant."
       }
     ],
     "forces": [
       {
+        "force": "capital",
+        "line": "Money flowed into chip plants, robot hardware, and election-related state-bank and semiconductor themes."
+      },
+      {
+        "force": "technology",
+        "line": "Tech demand pushed investment into AI hardware, chip fabrication, and voter-roll systems."
+      },
+      {
         "force": "regulation",
-        "line": "Election rules tightened and voter rolls shrank in India."
+        "line": "Election rules tightened before voters are added to rolls."
       }
     ],
-    "pulse_india": "Indian money went to health tech, physical AI sensors, and fintech for wealth management and trading.",
-    "pulse_world": "Outside India, funding went to robotics for autonomous construction and AI tooling in the UK.",
-    "dots": "",
+    "pulse_india": "Indian money went to health tech, physical AI sensors, fintech wealth tools, and stock trading apps.",
+    "pulse_world": "Outside India, money went to AI tooling in the UK and robotics for autonomous construction.",
+    "dots": "India’s semiconductor investment surge and state-bank divestment both show capital being redirected into strategic sectors.",
     "call": {
-      "thread_id": "t_india_voter_rolls_tightening",
-      "prediction": "India will see at least one more official move that makes voter registration harder or more document-heavy.",
-      "measure": "official election commission or court filing announcing a tighter voter-registration requirement",
-      "threshold": "at least 1 new rule or declaration requirement",
+      "thread_id": "t_embodied_ai_hardware_funding",
+      "prediction": "At least two more disclosed funding rounds will close for robotics, sensor, or autonomous-machine startups.",
+      "measure": "disclosed funding rounds for robotics, sensor, or autonomous-machine startups",
+      "threshold": "at least 2",
       "window_days": 60,
-      "could_fail_because": "The commission may stop at current changes, or courts may reverse them before another rule appears.",
-      "confidence": 62
+      "could_fail_because": "Investors may favor software AI or delay hardware checks in a weaker market.",
+      "confidence": 61
     },
     "quiz": [
       {
         "type": "evidence",
-        "thread_id": "t_india_voter_rolls_tightening",
+        "thread_id": "t_india_voter_roll_checks",
         "item_ids": [],
-        "question": "Which of today's stories is evidence for India voter‑roll tightening?",
+        "question": "Which of today's stories is evidence for roll checks?",
         "options": [
-          "ECI introduces additional declaration form with Form 6",
-          "Brewers take 3-0 World Series lead after eight-run fifth",
-          "Many fear neither bloc will win majority in Israel election"
+          "ECI adds extra declaration for new voters in Form 6",
+          "Infineon plans Europe’s first high-volume 300mm GaN plant",
+          "Bedrock Robotics raises $600 million for autonomous excavators"
         ],
         "answer_index": 0,
-        "why": "It shows a new requirement for voter registration."
+        "why": "It shows the election administration adding more checks before voters are added."
       },
       {
         "type": "force",
         "thread_id": "",
         "item_ids": [
-          "e45ab00afb",
-          "f1271280ee"
+          "71e233aae0",
+          "5383be2c86"
         ],
-        "question": "Which force connects ECI introduces additional declaration form with Form 6 and Karnataka voter roll falls by nearly 1 crore after revision?",
+        "question": "Which force connects Nova Spectral AI raises Rs 21.15 crore for infrared sensor chips and Bedrock Robotics raises $600 million for autonomous excavators?",
         "options": [
-          "capital",
           "regulation",
+          "capital",
           "technology"
         ],
         "answer_index": 1,
-        "why": "Both stories are about election rules and roll revision."
+        "why": "Both stories are about funding flowing into embodied AI hardware."
       },
       {
-        "type": "weaken",
-        "thread_id": "t_india_voter_rolls_tightening",
-        "item_ids": [],
-        "question": "Which headline would weaken India voter‑roll tightening?",
+        "type": "why",
+        "thread_id": "",
+        "item_ids": [
+          "1f384ef1f9"
+        ],
+        "question": "Why does Infineon plans Europe’s first high-volume 300mm GaN plant matter?",
         "options": [
-          "Karnataka voter roll falls by another 50 lakh after revision",
-          "Election Commission adds another declaration to voter registration forms",
-          "Election Commission simplifies Form 6 and restores removed names after review"
+          "It means Infineon is buying a US AI startup.",
+          "It shows Europe is exiting semiconductor manufacturing.",
+          "It adds local chip-making capacity in a fast-growing power semiconductor segment."
         ],
         "answer_index": 2,
-        "why": "It would show the rules getting easier, not tighter."
+        "why": "It expands regional semiconductor supply-chain capacity in power chips."
       }
     ]
   },
   "call": {
     "made": "2026-10-27",
-    "thread_id": "t_india_voter_rolls_tightening",
-    "thread_title": "India voter‑roll tightening",
-    "prediction": "India will see at least one more official move that makes voter registration harder or more document-heavy.",
-    "measure": "official election commission or court filing announcing a tighter voter-registration requirement",
-    "threshold": "at least 1 new rule or declaration requirement",
-    "could_fail_because": "The commission may stop at current changes, or courts may reverse them before another rule appears.",
-    "confidence": 62,
+    "thread_id": "t_embodied_ai_hardware_funding",
+    "thread_title": "embodied AI",
+    "prediction": "At least two more disclosed funding rounds will close for robotics, sensor, or autonomous-machine startups.",
+    "measure": "disclosed funding rounds for robotics, sensor, or autonomous-machine startups",
+    "threshold": "at least 2",
+    "could_fail_because": "Investors may favor software AI or delay hardware checks in a weaker market.",
+    "confidence": 61,
     "review_by": "2026-12-26",
     "verdict": null,
     "verdict_note": ""

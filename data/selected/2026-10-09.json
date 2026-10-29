@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-09",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "cdda8f2fbb",
+        "reason": "Evidence that the AI boom is now constrained by compute scarcity, with capital and infrastructure becoming the bottleneck for Silicon Valley."
+      },
+      {
+        "id": "6fc4f9f3bb",
+        "reason": "Another sign that frontier AI systems are still producing safety and alignment incidents, keeping governance and reliability central to the sector."
+      },
+      {
+        "id": "301544ff1a",
+        "reason": "Shows the growing tension between rapid AI development and internal safety culture, a sign of organizational strain inside leading labs."
+      },
+      {
+        "id": "87a71cef3d",
+        "reason": "Anthropic tightening model-use rules is evidence that AI companies are moving from capability races toward stricter usage governance."
+      },
+      {
+        "id": "0020be0921",
+        "reason": "Illustrates how AI agents are moving into mainstream developer workflows, turning foundation models into distribution infrastructure for software teams."
+      },
+      {
+        "id": "0d2beb9b62",
+        "reason": "Signals continued investment in AI chip design talent and tooling, a reminder that semiconductors remain the physical layer of the AI boom."
+      },
+      {
+        "id": "50f008620d",
+        "reason": "China’s push to curb AI-related investment bubbles shows regulators are trying to slow speculative capital flows while managing AI risk."
+      },
+      {
+        "id": "6e49d889b7",
+        "reason": "A state-directed jobs initiative tied to AI is evidence that governments are now shaping labor markets around the technology’s adoption."
+      },
+      {
+        "id": "1df42aad32",
+        "reason": "A financing round for digital lending shows capital still flowing to fintech infrastructure, especially credit platforms serving MSMEs.",
+        "funding": {
+          "company": "NeoGrowth",
+          "amount": "₹85 Cr",
+          "sector": "digital lending",
+          "country": "India"
+        }
+      },
+      {
+        "id": "0d5d9d3069",
+        "reason": "The fresh raise for an omnichannel menswear brand is evidence that consumer retail remains fundable when paired with clear offline expansion plans.",
+        "funding": {
+          "company": "KISAH",
+          "amount": "₹35.9 Cr",
+          "sector": "consumer retail",
+          "country": "India"
+        }
+      },
+      {
+        "id": "d2d3c99216",
+        "reason": "The surge in Indian AI startup funding shows investor capital is concentrating around AI as the dominant narrative in the startup market."
+      },
+      {
+        "id": "2c0a00b9b8",
+        "reason": "VinFast’s showroom rollout is evidence of the broader push to localize EV distribution in India, where manufacturing and retail networks matter as much as products."
+      },
+      {
+        "id": "89bbe3ea03",
+        "reason": "The satcom and FEMA angle shows India’s technology market is being shaped by regulation and geopolitical competition over communications infrastructure."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "88c6b72323",
+        "reason": "Evidence of the broader fight over voter-roll revision and electoral legitimacy, a structural contest over how India’s democracy is administered."
+      },
+      {
+        "id": "a245579376",
+        "reason": "Shows the opposition coordinating a formal challenge to the Election Commission, evidence of escalating institutional confrontation over electoral rules."
+      },
+      {
+        "id": "c3fbf11080",
+        "reason": "A concrete sign of India’s telecom policy opening to satellite internet and the capital-heavy battle between global entrants and domestic incumbents."
+      },
+      {
+        "id": "5d3785b6d9",
+        "reason": "Signals the state’s effort to manage strategic sectors through licensing and competition policy, not just ad hoc decisions."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "5039ffb21a",
+        "reason": "A stalled transport corridor is evidence of the wider great-power contest over Eurasian trade routes and regional leverage."
+      },
+      {
+        "id": "c0aed46e5c",
+        "reason": "New Tomahawk-related acquisition plans show the ongoing militarization of alliances and Indo-Pacific deterrence upgrades."
+      },
+      {
+        "id": "54d891b811",
+        "reason": "This points to persistent US influence operations and geopolitical competition in Latin American electoral politics."
+      }
+    ],
+    "markets": [
+      {
+        "id": "8709f90d84",
+        "reason": "Shows India using capital controls to defend the rupee, evidence of a broader strain from dollar strength and outflow pressure."
+      },
+      {
+        "id": "117a37542e",
+        "reason": "A concrete RBI liquidity-tightening step that signals the central bank is prioritizing inflation and currency defense over easy money."
+      }
+    ],
+    "sports": [
+      {
+        "id": "e89b3c5981",
+        "reason": "Evidence of a broader college-sports shift: NIL compliance and enforcement are becoming a major governance battleground, not just a recruiting issue."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 2,
+    "india": 2,
+    "world": 0,
+    "unknown": 0
+  }
+}

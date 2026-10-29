@@ -1,0 +1,284 @@
+== 2026-10-20
+attach rate     2/23 = 0.09
+active threads  9  (status: active 2, building 4, cooling 2, new 1)
+thread                             status    clues events today
+Rate turn                          cooling       5      4     0
+EC protest                         cooling       4      2     0
+chip capital                       building      4      2     0
+IPO route                          active        4      4     0
+Agent oversight                    active        4      2     0
+Assistant spread                   building      2      2     0
+Safety scrutiny                    building      2      2     0
+tech race                          building      2      2     0
+Fab buildout                       new           2      2     2
+look-alike pairs (claim similarity, shared force): 7
+   56  chip capital  <>  Fab buildout
+   56  tech race  <>  Fab buildout
+   54  Assistant spread  <>  tech race
+   52  Agent oversight  <>  tech race
+   50  Rate turn  <>  chip capital
+   49  Assistant spread  <>  Safety scrutiny
+   48  Safety scrutiny  <>  tech race
+verify pass     6/14 proposed attachments dropped
+
+== 2026-10-21
+attach rate     3/23 = 0.13
+active threads  10  (status: active 2, building 4, cooling 2, new 2)
+thread                             status    clues events today
+Rate turn                          cooling       5      4     0
+EC protest                         cooling       4      2     0
+chip capital                       building      4      2     0
+IPO route                          active        4      4     0
+Agent oversight                    active        4      2     0
+Assistant spread                   building      3      3     1
+Fab buildout                       new           3      2     1
+Safety scrutiny                    building      2      2     0
+tech race                          building      2      2     0
+Nvidia detour                      new           2      2     1
+look-alike pairs (claim similarity, shared force): 9
+   56  chip capital  <>  Fab buildout
+   56  tech race  <>  Fab buildout
+   54  Assistant spread  <>  tech race
+   52  Agent oversight  <>  tech race
+   50  Rate turn  <>  chip capital
+   49  IPO route  <>  Nvidia detour
+   49  Assistant spread  <>  Safety scrutiny
+   49  Assistant spread  <>  Nvidia detour
+   48  Safety scrutiny  <>  tech race
+verify pass     6/11 proposed attachments dropped
+
+== 2026-10-22
+attach rate     2/23 = 0.09
+active threads  11  (status: active 1, building 4, cooling 4, new 2)
+thread                             status    clues events today
+Rate turn                          cooling       5      4     0
+EC protest                         cooling       4      2     0
+chip capital                       building      4      2     0
+IPO route                          cooling       4      4     0
+Agent oversight                    active        4      2     0
+Fab buildout                       new           4      3     1
+Assistant spread                   cooling       3      3     0
+Safety scrutiny                    building      2      2     0
+tech race                          building      2      2     0
+Nvidia detour                      new           2      2     0
+AI in prod                         building      2      2     1
+look-alike pairs (claim similarity, shared force): 9
+   56  chip capital  <>  Fab buildout
+   56  tech race  <>  Fab buildout
+   54  Assistant spread  <>  tech race
+   52  Agent oversight  <>  tech race
+   50  Rate turn  <>  chip capital
+   49  IPO route  <>  Nvidia detour
+   49  Assistant spread  <>  Safety scrutiny
+   49  Assistant spread  <>  Nvidia detour
+   48  Safety scrutiny  <>  tech race
+verify pass     3/8 proposed attachments dropped
+
+== 2026-10-23
+attach rate     4/23 = 0.17
+active threads  11  (status: active 2, building 3, cooling 3, new 3)
+thread                             status    clues events today
+IPO route                          active        6      5     2
+Rate turn                          cooling       5      4     0
+chip capital                       building      4      2     0
+Agent oversight                    cooling       4      2     0
+Fab buildout                       new           4      3     0
+Assistant spread                   active        3      3     0
+Compute cash                       new           3      2     2
+Safety scrutiny                    cooling       2      2     0
+tech race                          building      2      2     0
+Nvidia detour                      new           2      2     0
+AI in prod                         building      2      2     0
+look-alike pairs (claim similarity, shared force): 11
+   56  chip capital  <>  Fab buildout
+   56  tech race  <>  Fab buildout
+   54  Assistant spread  <>  tech race
+   52  Assistant spread  <>  Compute cash
+   52  Agent oversight  <>  tech race
+   51  Fab buildout  <>  Compute cash
+   50  Rate turn  <>  chip capital
+   49  IPO route  <>  Nvidia detour
+   49  Assistant spread  <>  Safety scrutiny
+   49  Assistant spread  <>  Nvidia detour
+   48  Safety scrutiny  <>  tech race
+verify pass     2/8 proposed attachments dropped
+
+== 2026-10-24
+attach rate     4/23 = 0.17
+active threads  12  (status: active 2, building 4, cooling 3, new 3)
+thread                             status    clues events today
+Rate turn                          cooling       6      4     1
+chip capital                       building      6      3     2
+IPO route                          active        6      5     0
+Agent oversight                    cooling       4      2     0
+Fab buildout                       new           4      3     0
+Assistant spread                   active        3      3     0
+Compute cash                       new           3      2     0
+bank selloff                       building      3      2     1
+Safety scrutiny                    cooling       2      2     0
+tech race                          building      2      2     0
+Nvidia detour                      new           2      2     0
+AI in prod                         building      2      2     0
+look-alike pairs (claim similarity, shared force): 13
+   56  chip capital  <>  Fab buildout
+   56  IPO route  <>  bank selloff
+   56  tech race  <>  Fab buildout
+   54  Assistant spread  <>  tech race
+   52  Assistant spread  <>  Compute cash
+   52  Agent oversight  <>  tech race
+   51  Fab buildout  <>  Compute cash
+   50  Rate turn  <>  chip capital
+   49  Rate turn  <>  bank selloff
+   49  IPO route  <>  Nvidia detour
+   49  Assistant spread  <>  Safety scrutiny
+   49  Assistant spread  <>  Nvidia detour
+   48  Safety scrutiny  <>  tech race
+verify pass     1/9 proposed attachments dropped
+
+== 2026-10-25
+attach rate     0/23 = 0.00
+active threads  12  (status: active 3, building 2, cooling 4, new 3)
+thread                             status    clues events today
+Rate turn                          cooling       6      4     0
+chip capital                       active        6      3     0
+IPO route                          active        6      5     0
+Agent oversight                    cooling       4      2     0
+Fab buildout                       new           4      3     0
+Assistant spread                   active        3      3     0
+Compute cash                       new           3      2     0
+bank selloff                       building      3      2     0
+Safety scrutiny                    cooling       2      2     0
+tech race                          cooling       2      2     0
+Nvidia detour                      new           2      2     0
+AI in prod                         building      2      2     0
+look-alike pairs (claim similarity, shared force): 13
+   56  chip capital  <>  Fab buildout
+   56  IPO route  <>  bank selloff
+   56  tech race  <>  Fab buildout
+   54  Assistant spread  <>  tech race
+   52  Assistant spread  <>  Compute cash
+   52  Agent oversight  <>  tech race
+   51  Fab buildout  <>  Compute cash
+   50  Rate turn  <>  chip capital
+   49  Rate turn  <>  bank selloff
+   49  IPO route  <>  Nvidia detour
+   49  Assistant spread  <>  Safety scrutiny
+   49  Assistant spread  <>  Nvidia detour
+   48  Safety scrutiny  <>  tech race
+verify pass     4/10 proposed attachments dropped
+
+== 2026-10-26
+attach rate     0/23 = 0.00
+active threads  9  (status: active 4, building 1, cooling 1, new 3)
+thread                             status    clues events today
+Rate turn                          cooling       6      4     0
+chip capital                       active        6      3     0
+IPO route                          active        6      5     0
+Fab buildout                       new           4      3     0
+Assistant spread                   active        3      3     0
+Compute cash                       new           3      2     0
+bank selloff                       building      3      2     0
+Nvidia detour                      new           2      2     0
+AI in prod                         active        2      2     0
+look-alike pairs (claim similarity, shared force): 8
+   56  chip capital  <>  Fab buildout
+   56  IPO route  <>  bank selloff
+   52  Assistant spread  <>  Compute cash
+   51  Fab buildout  <>  Compute cash
+   50  Rate turn  <>  chip capital
+   49  Rate turn  <>  bank selloff
+   49  IPO route  <>  Nvidia detour
+   49  Assistant spread  <>  Nvidia detour
+verify pass     1/4 proposed attachments dropped
+
+== 2026-10-27
+attach rate     5/25 = 0.20
+active threads  11  (status: active 4, building 4, cooling 1, new 2)
+thread                             status    clues events today
+Rate turn                          cooling       9      4     0
+chip capital                       active        9      3     0
+IPO route                          active        8      5     0
+Fab buildout                       building      5      4     1
+Compute cash                       building      5      2     0
+bank selloff                       building      5      2     0
+roll checks                        new           5      2     2
+Assistant spread                   active        4      3     0
+Nvidia detour                      building      2      2     0
+AI in prod                         active        2      2     0
+embodied AI                        new           2      2     2
+look-alike pairs (claim similarity, shared force): 12
+   57  IPO route  <>  embodied AI
+   56  chip capital  <>  Fab buildout
+   56  IPO route  <>  bank selloff
+   52  Assistant spread  <>  Compute cash
+   51  chip capital  <>  embodied AI
+   51  Fab buildout  <>  Compute cash
+   51  bank selloff  <>  embodied AI
+   50  Rate turn  <>  chip capital
+   49  Rate turn  <>  bank selloff
+   49  IPO route  <>  Nvidia detour
+   49  Assistant spread  <>  Nvidia detour
+   49  Compute cash  <>  embodied AI
+verify pass     3/10 proposed attachments dropped
+
+== 2026-10-28
+attach rate     2/25 = 0.08
+active threads  11  (status: active 3, building 3, cooling 1, heating 2, new 2)
+thread                             status    clues events today
+chip capital                       heating      13      4     1
+Rate turn                          active       10      4     0
+IPO route                          active        8      5     0
+Fab buildout                       building      8      4     0
+Compute cash                       building      8      2     0
+roll checks                        new           7      2     0
+bank selloff                       active        5      2     0
+Assistant spread                   cooling       4      3     0
+AI in prod                         heating       3      3     1
+embodied AI                        new           3      2     0
+Nvidia detour                      building      2      2     0
+look-alike pairs (claim similarity, shared force): 12
+   57  IPO route  <>  embodied AI
+   56  chip capital  <>  Fab buildout
+   56  IPO route  <>  bank selloff
+   52  Assistant spread  <>  Compute cash
+   51  chip capital  <>  embodied AI
+   51  Fab buildout  <>  Compute cash
+   51  bank selloff  <>  embodied AI
+   50  Rate turn  <>  chip capital
+   49  Rate turn  <>  bank selloff
+   49  IPO route  <>  Nvidia detour
+   49  Assistant spread  <>  Nvidia detour
+   49  Compute cash  <>  embodied AI
+verify pass     0/6 proposed attachments dropped
+
+== 2026-10-29
+attach rate     0/25 = 0.00
+active threads  11  (status: active 4, building 3, cooling 1, heating 1, new 2)
+thread                             status    clues events today
+chip capital                       heating      14      4     0
+Rate turn                          active       10      4     0
+Fab buildout                       building      9      4     0
+Compute cash                       building      9      2     0
+IPO route                          active        8      5     0
+roll checks                        new           8      2     0
+bank selloff                       active        7      2     0
+Assistant spread                   cooling       6      3     0
+AI in prod                         active        3      3     0
+embodied AI                        new           3      2     0
+Nvidia detour                      building      2      2     0
+look-alike pairs (claim similarity, shared force): 12
+   57  IPO route  <>  embodied AI
+   56  chip capital  <>  Fab buildout
+   56  IPO route  <>  bank selloff
+   52  Assistant spread  <>  Compute cash
+   51  chip capital  <>  embodied AI
+   51  Fab buildout  <>  Compute cash
+   51  bank selloff  <>  embodied AI
+   50  Rate turn  <>  chip capital
+   49  Rate turn  <>  bank selloff
+   49  IPO route  <>  Nvidia detour
+   49  Assistant spread  <>  Nvidia detour
+   49  Compute cash  <>  embodied AI
+verify pass     4/5 proposed attachments dropped
+
+predictions per thread: embodied AI 1, chip capital 1, Nvidia detour 1

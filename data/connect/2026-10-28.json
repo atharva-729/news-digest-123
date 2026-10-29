@@ -2,32 +2,63 @@
   "date": "2026-10-28",
   "backstory": [
     {
-      "thread_id": "t_india_voter_rolls_tightening",
-      "item_id": "fd3b5ea546"
+      "thread_id": "t_india_rate_hike_tightening",
+      "item_id": "63309e8cff"
     },
     {
-      "thread_id": "t_india_voter_rolls_tightening",
+      "thread_id": "t_india_semiconductor_capital_boom",
+      "item_id": "af9dbaeb14"
+    },
+    {
+      "thread_id": "t_india_semiconductor_capital_boom",
+      "item_id": "be9728c52d"
+    },
+    {
+      "thread_id": "t_india_semiconductor_capital_boom",
+      "item_id": "51e8ab1050"
+    },
+    {
+      "thread_id": "t_regional_chip_buildout",
+      "item_id": "be9728c52d"
+    },
+    {
+      "thread_id": "t_regional_chip_buildout",
+      "item_id": "af9dbaeb14"
+    },
+    {
+      "thread_id": "t_regional_chip_buildout",
+      "item_id": "67cbb67f95"
+    },
+    {
+      "thread_id": "t_ai_compute_capital_surge",
+      "item_id": "24d8ec5077"
+    },
+    {
+      "thread_id": "t_ai_compute_capital_surge",
+      "item_id": "e46031f0ad"
+    },
+    {
+      "thread_id": "t_ai_compute_capital_surge",
+      "item_id": "b1fb97205c"
+    },
+    {
+      "thread_id": "t_embodied_ai_hardware_funding",
+      "item_id": "07ff690a2f"
+    },
+    {
+      "thread_id": "t_india_voter_roll_checks",
       "item_id": "2d88de66f0"
+    },
+    {
+      "thread_id": "t_india_voter_roll_checks",
+      "item_id": "28a65f3ef8"
     }
   ],
   "throwbacks": [
     {
-      "item_id": "e8bf52f236",
-      "kind": "sequel",
-      "line": "Last week said govt mulled easing FDI rules via PN2; today govt plans further easing for investments linked to China and neighbours.",
-      "past": {
-        "id": "f1b65e2710",
-        "date": "2026-10-27",
-        "title": "Govt Mulls Easing FDI Rules for Border Nations via PN2",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOVQxYWt5UkZZWmk4ZVZ1d3pvcjd3aTBZaTFlNENHT0NCaWd3YXduOWlwRmJLLWxHV3BNMTdOdWVOUEJjcmJTWldMdjFhTmNlWVctZnUwWU05OUVKbS1NX3BzbDVmWFZ4c0hieXBEclpmSHNjanExbTdKR3N6UExEdmxYdEZMS0pmQ1I1Q3RxeGZPeTE0NHNReVNxa3JnUTlBc0Y4S01UY0xTVzlBaTlB0gGvAUFVX3lxTE85VDFha3lSRllaaThlVnV3em9yN3dpMFlpMWU0Q0dPQ0JpZ3dhd245aXBGYkstbEdXcE0xN051ZU5QQmNyYlNaV0x2MWFOY2VZVy1mdTBZTTk5RUptLU1fcHNsNWZYVnhzSGJ5cERyWmZIc2NqcTFtN0pHc3pQTER2bFh0RkxLSmZDUjVDdHF4Zk95MTQ0c1F5U3FrcmdROUFzRjhLTVRjTFNXOUFpOUE?oc=5",
-        "source": "Rediff",
-        "section": "politics_india"
-      }
-    },
-    {
       "item_id": "9daa2cd43f",
       "kind": "sequel",
-      "line": "Last week reported Anthropic warned of AI 'catastrophic risks' before IPO; today its IPO filing lists blackmail, sentience and extinction scenarios.",
+      "line": "Anthropic warned of catastrophic risks before its IPO; today it says its AI could blackmail people and end humanity.",
       "past": {
         "id": "d15b083193",
         "date": "2026-10-26",
@@ -38,15 +69,28 @@
       }
     },
     {
-      "item_id": "6012261abf",
-      "kind": "cause",
-      "line": "Last week reported Tata‑ASML partnership to support a 300mm fab in Dholera; today Nova Spectral raised ₹21.2Cr to build infrared sensor chips.",
+      "item_id": "40066215b8",
+      "kind": "sequel",
+      "line": "Anthropic warned of catastrophic risks before its IPO; today it lays out how Wall Street could complicate that plan.",
       "past": {
-        "id": "be9728c52d",
-        "date": "2026-10-24",
-        "title": "Tata ASML partnership to support 300 mm semiconductor fab in Dholera, Gujarat",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOEpGYlQxdnBDeXJwMHBtTUVnZk5aVUlsZVl6MjhWMjJZc185bmNZdF9leFVMdW15N0djZW1uMHlITzZDQnFsWEtPRzltR3FKRVJiVWJtd21vM3ozbzU1U0lfdk9pOVE1aXpRWnhUbGp1SG80cHE2Ti1FMDRDd2s1TXF0NFFVUHROS0N6WVpXVDVqOFZySW9JQTJJS2tlUUFYYjhlVWphMUFsc2FXb0xvRWctaHRkZURwSnl5eQ?oc=5",
-        "source": "Goodreturns",
+        "id": "d15b083193",
+        "date": "2026-10-26",
+        "title": "Anthropic warns of AI's 'catastrophic risks' ahead of major IPO",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpRThpZzljUDVhR2FLUnEzald0ZTRNU09RTDIyazJvSDVmazJ4NGtleVFjY0dXRFNBX0gzQkZzTFNBQ1N5cEdxbG1jeU1DMXpYRGNTUS1kSHhiNHM?oc=5",
+        "source": "BBC",
+        "section": "tech"
+      }
+    },
+    {
+      "item_id": "3dc181e1cd",
+      "kind": "sequel",
+      "line": "Garuda Aerospace's revenue and profit jumped last week; today Jio Platforms lists at a 21% premium.",
+      "past": {
+        "id": "386c83896b",
+        "date": "2026-10-23",
+        "title": "Garuda Aerospace’s FY26 revenue jumps 67% to Rs 206 Cr; profit rise 42%",
+        "url": "https://entrackr.com/fintrackr/garuda-aerospaces-fy26-revenue-jumps-67-to-rs-206-cr-profit-rise-42-12741246",
+        "source": "Entrackr",
         "section": "tech"
       }
     }

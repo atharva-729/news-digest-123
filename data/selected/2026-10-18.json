@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-18",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "9aa50961a0",
+        "reason": "Major chipmakers are still pouring capital into US fabrication, evidence that semiconductor supply-chain localization remains a strategic priority."
+      },
+      {
+        "id": "823574338f",
+        "reason": "Shows the breadth and scale of Indian startup financing, with semiconductor services leading the pack and capital flowing across sectors.",
+        "funding": {
+          "company": "Tessolve Semiconductor",
+          "amount": "$328 million",
+          "sector": "semiconductor services",
+          "country": "India"
+        }
+      },
+      {
+        "id": "3abb340ae3",
+        "reason": "A fresh AI funding round with Tether participation signals continued investor appetite for AI startups and crypto-linked capital.",
+        "funding": {
+          "company": "AIsa",
+          "amount": "over $9M",
+          "sector": "AI",
+          "country": ""
+        }
+      },
+      {
+        "id": "0e3d6f8efe",
+        "reason": "Highlights a real-world security risk from autonomous tools, showing how AI agents are starting to affect enterprise systems and regulation."
+      },
+      {
+        "id": "6435f67122",
+        "reason": "A switching decision between model providers is evidence of competition shifting on cost, quality and vendor lock-in in the AI infrastructure stack."
+      },
+      {
+        "id": "d4d8a21bd9",
+        "reason": "Meta’s terms change reflects the broader fight over web scraping and training data, a key policy front in the AI economy."
+      },
+      {
+        "id": "64d0ec3589",
+        "reason": "Investor unease about AI companies’ debt loads points to a second-order financial risk emerging from the boom in AI spending."
+      },
+      {
+        "id": "370b5ab1f7",
+        "reason": "Strong profit growth at TSMC is evidence that advanced chip demand is still translating into real earnings power, not just hype."
+      },
+      {
+        "id": "bd92513737",
+        "reason": "A potential Tesla-linked foundry partnership shows how AI-era chip demand is reshaping strategic manufacturing relationships."
+      },
+      {
+        "id": "fca610d8b7",
+        "reason": "India’s semiconductor policy debate underscores how countries are trying to turn late entry into an AI-era manufacturing advantage."
+      },
+      {
+        "id": "32f28cf993",
+        "reason": "India’s satcom queue captures the collision of telecom regulation, scarce spectrum and big-tech-style capital in next-gen connectivity."
+      },
+      {
+        "id": "218f77bb95",
+        "reason": "Disney absorbing Character.AI talent suggests big tech is buying capability through people and assets rather than just standalone products."
+      },
+      {
+        "id": "0dabc6c10b",
+        "reason": "Anthropic’s workforce changing shape is evidence that AI companies are maturing from frontier labs into more managerial, process-heavy organizations."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "4fa8697aea",
+        "reason": "Concrete price-control action in healthcare shows the state using regulation to pressure drug costs and the pharmaceutical market."
+      },
+      {
+        "id": "973701a45f",
+        "reason": "IDBI sale debates signal the continuing push to privatize state assets and shift public-sector finance into private hands."
+      },
+      {
+        "id": "ecc18c7edd",
+        "reason": "The emphasis on policy credibility for FDI points to a broader investment-climate problem: capital now depends as much on stability as growth."
+      },
+      {
+        "id": "36b27fff4d",
+        "reason": "A civil-services loyalty/compliance debate is evidence of deeper stress on institutional autonomy under modern Indian politics."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "729a54f3fa",
+        "reason": "Shows how tensions around the Strait of Hormuz are turning a chokepoint into a broader shipping-cost and supply-chain risk."
+      },
+      {
+        "id": "af441f1e9e",
+        "reason": "Evidence that regional unrest inside Iran is becoming part of the wider geopolitical pressure on the Gulf and energy security."
+      },
+      {
+        "id": "b0c14936b9",
+        "reason": "France’s unrest matters as a sign of domestic instability constraining European power and leadership at a sensitive geopolitical moment."
+      }
+    ],
+    "markets": [
+      {
+        "id": "9b7fe5cea6",
+        "reason": "Rupee pressure is being driven by oil and foreign flows, a clear macro-market linkage that signals broader currency and bond stress."
+      },
+      {
+        "id": "33413cda0a",
+        "reason": "Gold reserve reshuffling by central banks points to a durable shift in reserve management amid geopolitical uncertainty."
+      }
+    ],
+    "sports": [
+      {
+        "id": "8752682c5b",
+        "reason": "A postseason pennant chase is the clearest evidence of the high-stakes, winner-take-all economics that still drive global pro sports interest."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 2,
+    "india": 1,
+    "world": 0,
+    "unknown": 1
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-26",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "17944c853d",
+        "reason": "Signals Indian founders are moving back into deeptech capital formation, with AI and semiconductors attracting dedicated VC money again.",
+        "funding": {
+          "company": "Unacademy cofounders",
+          "amount": "₹700 Cr",
+          "sector": "AI, deeptech",
+          "country": "India"
+        }
+      },
+      {
+        "id": "e4ecf93329",
+        "reason": "Shows global health-tech is still a live funding category, with fresh seed capital flowing into AI-enabled healthcare infrastructure.",
+        "funding": {
+          "company": "BioStack",
+          "amount": "$9.5 Mn",
+          "sector": "healthcare technology",
+          "country": "unknown"
+        }
+      },
+      {
+        "id": "720e006be3",
+        "reason": "Evidence that Indian consumer-gaming startups can still raise large growth rounds, especially when paired with AI-enabled product expansion.",
+        "funding": {
+          "company": "Matiks",
+          "amount": "$10 Mn",
+          "sector": "social gaming",
+          "country": "India"
+        }
+      },
+      {
+        "id": "c96323585f",
+        "reason": "Another Indian startup funding signal, showing capital is also reaching travel/experiences marketplaces beyond the hottest AI categories.",
+        "funding": {
+          "company": "Bucketlistt",
+          "amount": "Rs 7.6 crore",
+          "sector": "travel marketplace",
+          "country": "India"
+        }
+      },
+      {
+        "id": "761896af1d",
+        "reason": "A strategic corporate investment in an AI commerce platform shows big capital is betting on AI applications for shopping and retail."
+      },
+      {
+        "id": "bf7f18e041",
+        "reason": "Evidence that generative video is moving from demos to productized output, even if quality remains far below human-made media."
+      },
+      {
+        "id": "7ca6b100a3",
+        "reason": "Anthropic’s filing marks the next phase of the AI boom: frontier-model companies moving from private hype to public-market scrutiny."
+      },
+      {
+        "id": "8ee34db73e",
+        "reason": "Microsoft’s buyouts show the big-tech cost discipline cycle continuing as AI spending rises and companies trim headcount elsewhere."
+      },
+      {
+        "id": "4c1ce39718",
+        "reason": "Apple’s iPad refresh reflects the ongoing hardware race to differentiate devices through display tech and faster chips."
+      },
+      {
+        "id": "1c3b0b4b3f",
+        "reason": "A concrete cross-border semiconductor partnership shows how Indian engineering firms are being pulled into the global chip supply chain."
+      },
+      {
+        "id": "105cb9eeea",
+        "reason": "Vietnam’s delayed chip-plant timeline is evidence that semiconductor manufacturing ambitions remain constrained by equipment access and execution risk."
+      },
+      {
+        "id": "54e580e598",
+        "reason": "Ather turning profitable is a sign that Indian hardware and EV companies are being pushed toward efficiency and operating leverage."
+      },
+      {
+        "id": "af53df8daf",
+        "reason": "Paytm’s earnings turnaround shows the market’s continued re-rating of Indian tech-enabled finance businesses toward profitability."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "9dd48b8d39",
+        "reason": "Concrete policy change on ethanol vehicles, evidence of the state pushing energy transition through regulation and standards."
+      },
+      {
+        "id": "813ccfca42",
+        "reason": "A large defence procurement clears, signaling sustained rearmament and rising state spending on security capabilities."
+      },
+      {
+        "id": "c83ce237df",
+        "reason": "News publishers challenging the privacy law points to the tightening contest between media, regulation and state power."
+      },
+      {
+        "id": "0692fc209c",
+        "reason": "Judicial warning on election commissioners' appointment reflects the broader struggle over institutional independence and electoral governance."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "3d776f2d4e",
+        "reason": "Gold reserve storage is evidence of a deeper scramble by states to harden financial sovereignty amid geopolitical fragmentation."
+      },
+      {
+        "id": "13c61717ac",
+        "reason": "A forecast that geopolitics and shipping disruption are top 2027 risks points to the growing centrality of supply-chain security in global power competition."
+      },
+      {
+        "id": "82915a5d6e",
+        "reason": "Solar radiation management reflects how climate intervention is becoming a geopolitical governance issue, not just a scientific one."
+      }
+    ],
+    "markets": [
+      {
+        "id": "dc14b417e4",
+        "reason": "Signals the Fed’s pause-and-possible-restart posture, evidence of a broader global tightening cycle recalibrating to sticky inflation."
+      },
+      {
+        "id": "bd9e716ef6",
+        "reason": "Shows the BoJ moving closer to rate hikes as inflation normalizes, a structural shift away from ultra-loose Japanese policy."
+      }
+    ],
+    "sports": [
+      {
+        "id": "8bb4accf24",
+        "reason": "A marquee global result in a rivalry match, evidence that elite football’s biggest stages still concentrate attention, money, and status."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 4,
+    "india": 3,
+    "world": 1,
+    "unknown": 0
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-13",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "8b02f833f2",
+        "reason": "A fresh India-region funding round in consumer health tech, showing capital still backing offline-to-online consumer businesses with cross-border expansion plans.",
+        "funding": {
+          "company": "MakeO",
+          "amount": "₹90 Cr",
+          "sector": "health tech",
+          "country": "India"
+        }
+      },
+      {
+        "id": "8c73afb943",
+        "reason": "Another sizeable Indian startup raise, evidence that capital is still flowing into education and hybrid campus-linked models despite tighter markets.",
+        "funding": {
+          "company": "Mesa School of Business",
+          "amount": "₹110 Cr",
+          "sector": "edtech",
+          "country": "India"
+        }
+      },
+      {
+        "id": "ac8e0e090c",
+        "reason": "A seed round tied to copper demand from AI data centers and EVs, showing how the AI buildout is pulling capital into industrial bottlenecks upstream.",
+        "funding": {
+          "company": "Giraffe Bio",
+          "amount": "$6.4 million",
+          "sector": "climate tech",
+          "country": "US"
+        }
+      },
+      {
+        "id": "650fdd5c68",
+        "reason": "A large secondary sale by a strategic backer signals early investors are taking liquidity as Indian logistics platforms mature and public-market routes stay active."
+      },
+      {
+        "id": "771e5168f9",
+        "reason": "A policy delay on UPI merchant fees shows regulators are still shaping the economics of India’s digital payments stack."
+      },
+      {
+        "id": "6e220ff82a",
+        "reason": "Enterprise AI is forcing companies to rebuild data infrastructure, evidence that the real bottleneck is shifting from models to data foundations."
+      },
+      {
+        "id": "0701316e54",
+        "reason": "Warnings that AI systems could spread across home devices point to the next wave of AI risk shifting from chatbots to agentic software in consumer environments."
+      },
+      {
+        "id": "b1f4f9b630",
+        "reason": "Apple’s push into smart-home hardware shows big tech is still trying to own the home interface layer, not just phones and PCs."
+      },
+      {
+        "id": "1e8cc563ed",
+        "reason": "The broader Apple smart-home lineup underscores the race to build a connected-home platform around a central hub."
+      },
+      {
+        "id": "dab63a9f7a",
+        "reason": "Adding Siri AI to Apple TV shows consumer hardware is increasingly being repositioned as an AI surface, not just a media box."
+      },
+      {
+        "id": "87d3ec715e",
+        "reason": "AI-designed chips that humans can’t fully interpret are evidence that machine-assisted chip design is moving from experiment to practical advantage."
+      },
+      {
+        "id": "80be4ab73e",
+        "reason": "Comments from Tata leadership on semiconductors and an Assam plant reflect India’s long-term industrial push to build domestic chip capacity."
+      },
+      {
+        "id": "ba7bc636d2",
+        "reason": "A national-level semiconductor message from India highlights the state-backed effort to position the country inside global chip supply chains."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "7a6ab9d7f5",
+        "reason": "Evidence of a broader legitimacy crisis around electoral rolls and voter registration, not just a single protest."
+      },
+      {
+        "id": "c743623607",
+        "reason": "Shows the opposition trying to turn 'vote chori' into a sustained nationwide campaign, a sign of coordinated anti-incumbency politics."
+      },
+      {
+        "id": "ea4709b97d",
+        "reason": "A concrete sign of INDIA bloc consolidation around the election commission issue, pointing to deeper institutional conflict."
+      },
+      {
+        "id": "2b2357c85d",
+        "reason": "Captures the larger pattern of youth-led mobilization challenging Modi’s political dominance."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "cabff466cf",
+        "reason": "Evidence of the growing fight over satellite connectivity as a tool of state power and geopolitical control."
+      },
+      {
+        "id": "34e05838b2",
+        "reason": "Shows how civilian infrastructure is becoming a recurring target in broader interstate and proxy conflicts."
+      },
+      {
+        "id": "2f95037035",
+        "reason": "Signals hardening NATO-Russia military planning and the deepening fragmentation of European security."
+      }
+    ],
+    "markets": [
+      {
+        "id": "ce30880080",
+        "reason": "This is the clearest evidence of a broader policy shift: the RBI is tightening rupee derivatives and reserve rules to defend the currency, showing how FX stress is spilling into financial conditions."
+      },
+      {
+        "id": "a1a5031154",
+        "reason": "Falling forex reserves quantify the RBI’s shrinking firepower, a deeper signal that currency defense is being constrained by balance-sheet limits."
+      }
+    ],
+    "sports": [
+      {
+        "id": "0dd04090d7",
+        "reason": "A landmark geography shift for Formula 1: the sport is reopening Africa via a long-term Rwanda deal, evidence of where elite motorsport is expanding for future money and political reach."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [
+    "947ad6f2b8",
+    "bdac75e628"
+  ],
+  "funding": {
+    "total": 3,
+    "india": 2,
+    "world": 1,
+    "unknown": 0
+  }
+}

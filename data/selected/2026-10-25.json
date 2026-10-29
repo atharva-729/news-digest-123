@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-25",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "d9c272f2f3",
+        "reason": "Signals a broader market reset for India’s new-age internet stocks as growth expectations and profitability get repriced."
+      },
+      {
+        "id": "f34934d036",
+        "reason": "Evidence of the post-IPO reality check at Flipkart: investor pressure, employee incentives and quick-commerce spending are colliding."
+      },
+      {
+        "id": "0abdb6bc2d",
+        "reason": "Points to a large India capex cycle increasingly shaped by AI, chips and defence rather than only traditional industrial investment."
+      },
+      {
+        "id": "6286988ab0",
+        "reason": "Shows frontier AI development is becoming a security and operational risk, not just a model-training race."
+      },
+      {
+        "id": "7255cac6c2",
+        "reason": "Captures a shift in AI economics: money moving from semiconductor infrastructure toward software layers."
+      },
+      {
+        "id": "ad14edfe70",
+        "reason": "Another sign that cyber defense is attracting serious capital as AI turns security tooling into a high-growth market.",
+        "funding": {
+          "company": "Mave",
+          "amount": "$34 Million",
+          "sector": "agentic SecOps",
+          "country": "Israel"
+        }
+      },
+      {
+        "id": "5b3342b092",
+        "reason": "Highlights continued funding for AI hardware and companion devices, showing investors still back differentiated consumer AI form factors.",
+        "funding": {
+          "company": "Nirva",
+          "amount": "$25M",
+          "sector": "AI wearable",
+          "country": ""
+        }
+      },
+      {
+        "id": "1055076323",
+        "reason": "Shows venture money is still flowing into robotics infrastructure, especially force-sensing systems that could power automation.",
+        "funding": {
+          "company": "Enact Intelligence",
+          "amount": "$30M",
+          "sector": "robotics",
+          "country": ""
+        }
+      },
+      {
+        "id": "e491c0f9b6",
+        "reason": "A meaningful India health-tech round that underscores investor interest in AI-enabled clinic and care-delivery models.",
+        "funding": {
+          "company": "Clinics On Cloud",
+          "amount": "₹120 Crore",
+          "sector": "health tech",
+          "country": "India"
+        }
+      },
+      {
+        "id": "2da41ddd1c",
+        "reason": "Evidence that Indian conglomerates are treating semiconductors as a strategic capability, not just a manufacturing adjaceny."
+      },
+      {
+        "id": "25bf088ce0",
+        "reason": "Shows Southeast Asian governments are trying to move up the semiconductor value chain as a policy priority."
+      },
+      {
+        "id": "5f4f6ef0df",
+        "reason": "The Bengaluru summit item reflects how AI, robotics and semiconductors are converging into one industrial policy agenda."
+      },
+      {
+        "id": "de0c22657e",
+        "reason": "Evidence that AI is being institutionalized in education through curriculum changes and public-sector adoption."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "1da7929470",
+        "reason": "Signals a broader India-US trade impasse where tariffs and domestic politics are slowing a strategic economic deal."
+      },
+      {
+        "id": "7d04229cbc",
+        "reason": "Rising bond yields point to a higher-cost fiscal environment and growing pressure on government borrowing."
+      },
+      {
+        "id": "b74fad6312",
+        "reason": "Shows courts and governments normalizing targeted welfare support for low-income students, reflecting the politics of social spending."
+      },
+      {
+        "id": "8aef554e23",
+        "reason": "Confirms the same EWS school-uniform subsidy policy is holding up legally, underscoring state-backed redistribution to poor students."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "7ccfad3939",
+        "reason": "Evidence of Africa’s growing exposure to great-power competition and the push by African leaders to resist becoming proxy terrain."
+      },
+      {
+        "id": "3cbe13e38e",
+        "reason": "Shows how geopolitical rivalry and budget tightening are now directly reshaping scientific capacity in the Arctic, a strategic region."
+      },
+      {
+        "id": "29c6fd132a",
+        "reason": "Points to the geopolitics of AI infrastructure and industrial concentration, where capital and grid limits are becoming strategic bottlenecks."
+      }
+    ],
+    "markets": [
+      {
+        "id": "1fcc81ed42",
+        "reason": "Foreign outflows tied to elevated crude show how oil shocks are still driving global risk-off flows from Indian equities."
+      },
+      {
+        "id": "1deb3376dd",
+        "reason": "The RBI reiterating it does not target a rupee level is evidence of a wider central-bank pattern: managed flexibility, not hard pegs."
+      }
+    ],
+    "sports": [
+      {
+        "id": "f7a87f6ecc",
+        "reason": "A classic result with broader signal value: elite-club power still centers on superstar talent and the financial arms race among Europe’s biggest sides."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 4,
+    "india": 1,
+    "world": 1,
+    "unknown": 2
+  }
+}

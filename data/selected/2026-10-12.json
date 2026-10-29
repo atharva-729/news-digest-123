@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-12",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "af6a660a76",
+        "reason": "Shows India’s cleantech cycle turning into a funding boom, evidence that capital is still chasing energy-transition infrastructure."
+      },
+      {
+        "id": "25660c40c2",
+        "reason": "A large semiconductor-capability round signals continued capital concentration in the hardware stack, especially testing and engineering services.",
+        "funding": {
+          "company": "Tessolve Semiconductor",
+          "amount": "$75 Mn",
+          "sector": "semiconductor capabilities",
+          "country": "India"
+        }
+      },
+      {
+        "id": "6196f30116",
+        "reason": "Big D2C funding for retail expansion is evidence that growth capital is still available for consumer tech brands with scale plans.",
+        "funding": {
+          "company": "Boldfit",
+          "amount": "₹400 Cr",
+          "sector": "D2C fitness and sportswear",
+          "country": "India"
+        }
+      },
+      {
+        "id": "7d4e278f0b",
+        "reason": "Another signal that Apple is still trying to crack smart home hardware, a category where platform companies are pushing deeper into the home."
+      },
+      {
+        "id": "051ddf4193",
+        "reason": "Samsung’s multibillion-dollar semiconductor spend shows the ongoing geographic reallocation of chip manufacturing capacity toward Asia."
+      },
+      {
+        "id": "9c75f82ad9",
+        "reason": "Zetwerk’s IPO underscores how manufacturing platforms are maturing into public-market stories, not just startup narratives."
+      },
+      {
+        "id": "5aefe6d08a",
+        "reason": "The Aakash settlement reflects the continuing unwind of the BYJU’S empire and the broader reset in India’s edtech capital structure."
+      },
+      {
+        "id": "36347ea06c",
+        "reason": "A fresh AI-app raise shows investor appetite for ambient, always-on AI products that depend on gathering more user context.",
+        "funding": {
+          "company": "AI app that listens to you in the background",
+          "amount": "$26M",
+          "sector": "AI app",
+          "country": ""
+        }
+      },
+      {
+        "id": "735d5ad2f5",
+        "reason": "Ultrahuman’s UAE rollout shows consumer health hardware moving toward regulated bio-data products and international validation partnerships."
+      },
+      {
+        "id": "cce9b2629e",
+        "reason": "Epic’s push for more AI in game development is evidence of generative AI spreading from tools into production workflows at major platforms."
+      },
+      {
+        "id": "15b0c80885",
+        "reason": "The Kospi sell-off shows how the AI boom is now affecting semiconductors as a financial-market theme, not just an industrial one."
+      },
+      {
+        "id": "4ceb3bf077",
+        "reason": "A Taiwan Semiconductor headline is inherently important because TSMC sits at the center of the global chip supply chain and AI compute buildout."
+      },
+      {
+        "id": "0fe63b6171",
+        "reason": "A major platform CEO forecasting scientific breakthroughs from AI is evidence of elite expectations hardening around AI’s near-term impact."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "16957ad615",
+        "reason": "Evidence of a broader backlash against voter-roll cleanups and the politicization of election administration."
+      },
+      {
+        "id": "016a145ada",
+        "reason": "Shows the institutional/legal battle over how hard it is to remove the Election Commission chief, a sign of pressure on democratic referees."
+      },
+      {
+        "id": "8a932e84b3",
+        "reason": "A concrete government move to reshape protest geography in Delhi, indicating tighter control over public dissent."
+      },
+      {
+        "id": "7342b24c06",
+        "reason": "Points to the next phase of India’s digital-state project: making government data interoperable beyond Aadhaar and UPI."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "15a45b70df",
+        "reason": "Evidence of how great-power competition is reshaping EU security policy and military engagement in Africa."
+      },
+      {
+        "id": "0d42234c22",
+        "reason": "Shows domestic U.S. electoral politics directly constraining geopolitical strategy, a recurring force in American foreign policy."
+      },
+      {
+        "id": "09ded804a4",
+        "reason": "Signals the broader BRICS/non-Western alignment trend as countries hedge for leverage in a shifting world order."
+      }
+    ],
+    "markets": [
+      {
+        "id": "ec6cf2f4b5",
+        "reason": "The RBI widening forex reserve requirements and tightening NDF rules is clear evidence of a deeper shift toward active currency defence and tighter capital-market plumbing."
+      },
+      {
+        "id": "1a8cfd2f97",
+        "reason": "Rising inflation above the RBI target shows the macro pressure that is forcing tighter policy and complicating growth versus price-stability tradeoffs."
+      }
+    ],
+    "sports": [
+      {
+        "id": "89ec3f51a1",
+        "reason": "A first Singapore GP win for Verstappen is evidence of the continuing competitive shift at the top of Formula 1, where small margins and strategic execution decide championship-level results."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 3,
+    "india": 2,
+    "world": 0,
+    "unknown": 1
+  }
+}

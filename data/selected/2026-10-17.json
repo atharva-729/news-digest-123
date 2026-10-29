@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-17",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "f36e19ea82",
+        "reason": "Indian startup funding remains active and broad-based, showing capital still flowing into new-age tech despite a choppy market.",
+        "funding": {
+          "company": "Boldfit to Origin and other Indian startups",
+          "amount": "$236.2M",
+          "sector": "startup funding",
+          "country": "India"
+        }
+      },
+      {
+        "id": "f9a66bf332",
+        "reason": "Urban Company’s proposed fundraise is evidence that late-stage Indian tech is still tapping public and private capital for expansion and balance-sheet strength.",
+        "funding": {
+          "company": "Urban Company",
+          "amount": "₹2,500 Cr",
+          "sector": "home services / tech-enabled services",
+          "country": "India"
+        }
+      },
+      {
+        "id": "341505ca27",
+        "reason": "Ekart’s sharp loss reduction signals improving economics in India’s logistics infrastructure as e-commerce operators push toward profitability."
+      },
+      {
+        "id": "6e75275aaa",
+        "reason": "Movements in listed new-age tech stocks show investors are still repricing India’s internet economy company by company rather than as a single trade."
+      },
+      {
+        "id": "f8311eba52",
+        "reason": "Ixigo’s profit swing is another data point in the broader normalization of Indian consumer internet businesses toward earnings durability."
+      },
+      {
+        "id": "5799ec3b68",
+        "reason": "Cleartrip’s widening loss highlights how travel platforms are still fighting for scale economics even as revenue grows."
+      },
+      {
+        "id": "0917a1563d",
+        "reason": "Websites closing off access to AI agents is evidence that the web is entering a new control phase as publishers defend traffic and data from automated browsing."
+      },
+      {
+        "id": "c7f05ca5d9",
+        "reason": "The emerging AI cost stack is becoming more complex, with verification and governance expenses threatening to blunt headline savings."
+      },
+      {
+        "id": "af51c30e82",
+        "reason": "Policy interest in AI’s GDP impact shows governments and frontier labs are now framing AI as a macroeconomic productivity force, not just a product story."
+      },
+      {
+        "id": "93cf35fa23",
+        "reason": "The race for industrial AI underscores a deeper geopolitical scramble to control the next layer of industrial software and automation."
+      },
+      {
+        "id": "0c04324679",
+        "reason": "CERT-In warning about autonomous intrusions suggests cyber defense is being reshaped by AI-enabled attack methods, not just better tools."
+      },
+      {
+        "id": "515d7755de",
+        "reason": "A finance minister’s confidence in semiconductors points to the sector’s continued strategic importance and resilience in the global supply chain."
+      },
+      {
+        "id": "6cb60f2af9",
+        "reason": "Tamil Nadu tying chip incentives to local hiring and sourcing shows industrial policy moving toward domestic capability-building, not just headline subsidies."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "f777adb980",
+        "reason": "Evidence of India’s opening to satellite internet, where telecom licensing and infrastructure readiness are now central policy battlegrounds."
+      },
+      {
+        "id": "32bf86c75a",
+        "reason": "Shows India using currency-swap support as regional financial statecraft, reinforcing its role as a monetary backstop in the neighborhood."
+      },
+      {
+        "id": "c810775c7a",
+        "reason": "Signals a broader shift in how the state manages bank ownership and disinvestment, especially around strategic public-sector assets."
+      },
+      {
+        "id": "8242412fbf",
+        "reason": "Evidence of the impact of climate and monsoon volatility on industrial policy and the government’s ethanol-fuel strategy."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "51e27c3832",
+        "reason": "A concrete policy move on Russia sanctions, showing how great-power conflict is being translated into formal economic leverage."
+      },
+      {
+        "id": "143fe7c7f1",
+        "reason": "Satellite infrastructure and telecom control are becoming strategic geopolitical assets, not just commercial ones."
+      },
+      {
+        "id": "16150d1c59",
+        "reason": "Oil pricing reacting to Middle East tensions is evidence of geopolitics directly reshaping energy markets."
+      }
+    ],
+    "markets": [
+      {
+        "id": "a472168a99",
+        "reason": "Evidence that defending the rupee is becoming a costly, reserve-consuming policy tradeoff, not just a one-day FX move."
+      },
+      {
+        "id": "d1b0af0279",
+        "reason": "Shows the deeper macro problem of rising U.S. debt-service costs, reinforcing the higher-rate regime and fiscal strain."
+      }
+    ],
+    "sports": [
+      {
+        "id": "5b14e1aac3",
+        "reason": "A clear Premier League result with a standout individual performance, reflecting the continuing global premium on elite European club football."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 2,
+    "india": 2,
+    "world": 0,
+    "unknown": 0
+  }
+}

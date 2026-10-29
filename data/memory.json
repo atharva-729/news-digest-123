@@ -1,21 +1,90 @@
 {
   "threads": {
-    "t_india_voter_rolls_tightening": {
+    "t_ai_core_mega_rounds": {
+      "next": "2026-11-01",
+      "step": 1
+    },
+    "t_india_rate_hike_tightening": {
       "next": "2026-10-31",
       "step": 1
     },
-    "t_oil_supply_shocks_mid_east": {
+    "t_india_opposition_ec_protests": {
+      "next": "2026-10-30",
+      "step": 1
+    },
+    "t_india_ai_rulemaking": {
+      "next": "2026-10-09",
+      "step": 0
+    },
+    "t_india_semiconductor_capital_boom": {
+      "next": "2026-10-12",
+      "step": 0
+    },
+    "t_indian_hardware_ipo": {
+      "next": "2026-10-31",
+      "step": 1
+    },
+    "t_ai_assistant_device_spread": {
       "next": "2026-11-01",
       "step": 1
+    },
+    "t_ai_agent_oversight": {
+      "next": "2026-10-30",
+      "step": 1
+    },
+    "t_ai_compute_scarcity": {
+      "next": "2026-10-09",
+      "step": 0
+    },
+    "t_frontier_ai_safety_scrutiny": {
+      "next": "2026-10-10",
+      "step": 0
+    },
+    "t_ai_strategic_race": {
+      "next": "2026-10-12",
+      "step": 0
+    },
+    "t_regional_chip_buildout": {
+      "next": "2026-10-21",
+      "step": 0
+    },
+    "t_nvidia_stack_shift": {
+      "next": "2026-10-21",
+      "step": 0
+    },
+    "t_ai_in_production_workflows": {
+      "next": "2026-10-13",
+      "step": 0
+    },
+    "t_ai_compute_capital_surge": {
+      "next": "2026-10-21",
+      "step": 0
+    },
+    "t_state_bank_divestment": {
+      "next": "2026-10-15",
+      "step": 0
+    },
+    "t_embodied_ai_hardware_funding": {
+      "next": "2026-10-28",
+      "step": 0
+    },
+    "t_india_voter_roll_checks": {
+      "next": "2026-10-28",
+      "step": 0
     }
   },
   "days": {
-    "2026-10-27": [],
+    "2026-10-27": [
+      "t_ai_agent_oversight",
+      "t_india_opposition_ec_protests"
+    ],
     "2026-10-28": [
-      "t_india_voter_rolls_tightening"
+      "t_india_rate_hike_tightening",
+      "t_indian_hardware_ipo"
     ],
     "2026-10-29": [
-      "t_oil_supply_shocks_mid_east"
+      "t_ai_core_mega_rounds",
+      "t_ai_assistant_device_spread"
     ]
   }
 }

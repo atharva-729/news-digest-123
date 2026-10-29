@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-22",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "7029da4abf",
+        "reason": "A mega-round for legal AI shows capital is still concentrating in frontier software, even at late-stage valuations.",
+        "funding": {
+          "company": "Legora",
+          "amount": "$550M",
+          "sector": "legal AI",
+          "country": ""
+        }
+      },
+      {
+        "id": "9f0d661d7a",
+        "reason": "Indian healthtech is still attracting large growth capital, with AI-enabled care and rural delivery as the pitch.",
+        "funding": {
+          "company": "CureBay",
+          "amount": "₹100 Cr",
+          "sector": "healthtech",
+          "country": "India"
+        }
+      },
+      {
+        "id": "556ad6b44d",
+        "reason": "Voice and agentic AI for enterprise workflows remains a clear funding theme, especially in sectors with repetitive customer operations.",
+        "funding": {
+          "company": "Karta AI",
+          "amount": "$3 Mn",
+          "sector": "agentic AI",
+          "country": "India"
+        }
+      },
+      {
+        "id": "f52afc5328",
+        "reason": "Another sizeable AI round underscores how investors are backing automation layers that can be sold into enterprise workflows.",
+        "funding": {
+          "company": "AuxoAI",
+          "amount": "$20.7 Mn",
+          "sector": "AI automation",
+          "country": ""
+        }
+      },
+      {
+        "id": "9d0d28a5bc",
+        "reason": "Defense-adjacent AI hardware like drones is drawing meaningful European funding, signaling demand beyond pure software.",
+        "funding": {
+          "company": "Beyond Vision",
+          "amount": "€28 million",
+          "sector": "AI drones",
+          "country": "Portugal"
+        }
+      },
+      {
+        "id": "d777d785a3",
+        "reason": "AI systems that build or improve coding models themselves are an early sign of recursive automation becoming a product category."
+      },
+      {
+        "id": "4472664e90",
+        "reason": "Big retailers are positioning for an agentic commerce future, where AI assistants become the customer interface."
+      },
+      {
+        "id": "29c16e423f",
+        "reason": "GM's compute-heavy EV platform shows traditional automakers racing to re-architect vehicles around software and AI."
+      },
+      {
+        "id": "c4ee3f30ee",
+        "reason": "Tesla’s falling profit alongside accelerated robot and autonomy spending is evidence of the capital intensity of the AI/robotics bet."
+      },
+      {
+        "id": "3bda06c47e",
+        "reason": "Anthropic’s proactive agent launch is evidence that the frontier AI race is shifting from chat to action-taking systems."
+      },
+      {
+        "id": "bfdd6ea20b",
+        "reason": "Critical PHP flaws affecting a large share of the web highlight how security risk scales with the software stack itself."
+      },
+      {
+        "id": "5ec447e33d",
+        "reason": "A cluster of fresh vulnerabilities across common tools shows cybersecurity pressure rising alongside AI-assisted discovery of bugs."
+      },
+      {
+        "id": "a1f3bb904c",
+        "reason": "Big tech’s scramble for advanced substrates points to a broader semiconductor supply-chain bottleneck behind the AI buildout."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "cf8fbbf166",
+        "reason": "Signals a regulatory shift toward controlled experimentation in telecom, showing how India is trying to govern emerging technologies while encouraging innovation."
+      },
+      {
+        "id": "dd61f7fd85",
+        "reason": "Evidence of energy supply diversification and deeper India-US trade ties, which reflects a broader rebalancing of import dependence."
+      },
+      {
+        "id": "875399f954",
+        "reason": "Large public land acquisition for expressways shows the state still driving infrastructure-led growth through aggressive capital spending."
+      },
+      {
+        "id": "f50134eafb",
+        "reason": "Shows a policy reset in ethanol that redistributes gains and losses across feedstocks, evidence of how biofuel rules are reshaping agricultural markets."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "ab010b5be4",
+        "reason": "Concrete sign of EU cohesion under strain as a member state reopens Moscow ties, reflecting Europe’s wider fragmentation over Russia policy."
+      },
+      {
+        "id": "a73ed6668e",
+        "reason": "Shows how security disputes and trade are jointly reshaping major bilateral relationships, turning geopolitics into a trade-policy reset."
+      },
+      {
+        "id": "e28a7005f5",
+        "reason": "Evidence that Arctic infrastructure and undersea cables are becoming strategic assets, driven by great-power competition and security concerns."
+      }
+    ],
+    "markets": [
+      {
+        "id": "94b5908fb8",
+        "reason": "A specific oil-price spike tied to Middle East tensions is evidence of geopolitics still transmitting directly into commodity markets and inflation risks."
+      },
+      {
+        "id": "63c34ca612",
+        "reason": "A large-scale rupee defense story signals the ongoing pattern of reserve management and FX intervention shaping India's macro stability."
+      }
+    ],
+    "sports": [
+      {
+        "id": "aa0a2c2f0c",
+        "reason": "Major broadcast hiring signals how media networks keep paying for recognizable NFL voices, showing the continued monetization of football coverage."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [
+    "81712608f6"
+  ],
+  "funding": {
+    "total": 5,
+    "india": 2,
+    "world": 1,
+    "unknown": 2
+  }
+}

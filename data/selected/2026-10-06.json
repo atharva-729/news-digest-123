@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-06",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "e5f487e9bb",
+        "reason": "A fresh Series B in smart kitchen hardware shows capital still flowing into consumer manufacturing, especially companies trying to scale production rather than just demand.",
+        "funding": {
+          "company": "Beyond Appliances",
+          "amount": "₹110 Cr",
+          "sector": "smart kitchen",
+          "country": "India"
+        }
+      },
+      {
+        "id": "264a175055",
+        "reason": "A hot valuation reset in AI chips is evidence of how much money and strategic value investors now assign to compute infrastructure."
+      },
+      {
+        "id": "c0424634a6",
+        "reason": "OpenAI’s agents drawing scrutiny from Wikimedia is evidence that autonomous AI systems are creating new governance and platform-risk concerns, not just better productivity tools."
+      },
+      {
+        "id": "8dc6e37ab1",
+        "reason": "Watermarking ChatGPT output in the EU shows regulation is already forcing product changes in frontier AI distribution."
+      },
+      {
+        "id": "68c547b79e",
+        "reason": "Group-chat AI use is evidence that consumer AI is moving from solo assistants toward collaborative, social workflows embedded in messaging."
+      },
+      {
+        "id": "668fcb6077",
+        "reason": "A new open-weight model pitched at lower compute cost signals the push toward cheaper, more deployable enterprise AI infrastructure."
+      },
+      {
+        "id": "68a4d383f3",
+        "reason": "Research on how AI hardware has evolved is evidence of the rapid specialization of compute, a core trend behind the current AI buildout."
+      },
+      {
+        "id": "f50de17f21",
+        "reason": "Factory’s new backing after a public investor spat is evidence that capital continues to chase agentic AI startups despite noisy scrutiny and skepticism."
+      },
+      {
+        "id": "ba64d559f6",
+        "reason": "An Indian dronetech startup filing for an IPO shows deepening public-market ambition in hardware plus skill-tech businesses."
+      },
+      {
+        "id": "06ea274336",
+        "reason": "A $200M fusion round is evidence that long-horizon energy-tech bets are still attracting large pools of patient capital.",
+        "funding": {
+          "company": "Type One Energy",
+          "amount": "$200M",
+          "sector": "fusion energy",
+          "country": "United States"
+        }
+      },
+      {
+        "id": "62ca59eab1",
+        "reason": "RentoMojo’s mixed Q1 results are evidence that Indian consumer-tech businesses are being judged increasingly on profitability, not just growth."
+      },
+      {
+        "id": "d223682da0",
+        "reason": "Meesho’s share move after a broker call shows how public-market sentiment still hinges on perceived growth durability in Indian tech platforms."
+      },
+      {
+        "id": "1289e615f9",
+        "reason": "Honasa’s stock jump on guidance underscores that listed consumer-tech names are increasingly re-rated on execution and outlook rather than pure narrative."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "ad5d18ea74",
+        "reason": "Evidence of escalating confrontation between the opposition and election authorities, a sign of deepening institutional stress in Indian democracy."
+      },
+      {
+        "id": "466d9f2fd3",
+        "reason": "Shows industrial policy being constrained by trade and inflation pressures, not just by lobbying for protectionism."
+      },
+      {
+        "id": "859b1b2894",
+        "reason": "Signals a state-led push to centralize and modernize logistics planning, part of India’s infrastructure governance overhaul."
+      },
+      {
+        "id": "70a6c4dbbe",
+        "reason": "Evidence of the long-running language-and-federalism fault line shaping state politics and education policy."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "717cd43551",
+        "reason": "Evidence that geopolitical rivalry is reshaping reserve management, with central banks continuing to diversify into gold."
+      },
+      {
+        "id": "f23215e86a",
+        "reason": "A concrete sign that regional alliances are under strain, showing shifting balance-of-power dynamics in the Caucasus."
+      },
+      {
+        "id": "d6c26ea002",
+        "reason": "Shows how firms are rerouting capital and operations in response to geopolitical de-risking, especially toward Singapore."
+      }
+    ],
+    "markets": [
+      {
+        "id": "bb99f5fee7",
+        "reason": "A first RBI hike in nearly four years is evidence of the global shift from easy money to inflation-fighting normalization."
+      },
+      {
+        "id": "04b39a38ed",
+        "reason": "A weak rupee amid capital outflows shows India’s currency is being pressured by tighter global financial conditions and external funding stress."
+      }
+    ],
+    "sports": [
+      {
+        "id": "ff94846cff",
+        "reason": "A major global motorsport result with title implications and weather-chaos context, evidence of F1’s continuing premium-status spectacle and commercial reach."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 2,
+    "india": 1,
+    "world": 1,
+    "unknown": 0
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-19",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "5940a7fc19",
+        "reason": "Signals that India’s largest telecom-to-tech platform is moving toward a landmark listing, a sign of capital formation at the top of the digital economy."
+      },
+      {
+        "id": "220745077c",
+        "reason": "Shows consumer retail brands still drawing major growth capital in India, with funding flowing into offline expansion and category buildout.",
+        "funding": {
+          "company": "The Pant Project",
+          "amount": "₹109 Cr",
+          "sector": "menswear",
+          "country": "India"
+        }
+      },
+      {
+        "id": "00f6e5a5ac",
+        "reason": "Evidence that urban services and marketplace businesses are still seeking large follow-on capital, pointing to renewed private-market financing for scale."
+      },
+      {
+        "id": "b197630bb0",
+        "reason": "A major Indian broker entering US stock investing reflects the globalization of retail finance infrastructure and demand from Indian investors."
+      },
+      {
+        "id": "c2cbff7ab5",
+        "reason": "Strong quarterly profit and a stock pop show the market rewarding travel-tech platforms with improving economics, not just growth storylines."
+      },
+      {
+        "id": "06b57ff385",
+        "reason": "The combination of a widening loss and a board-approved fundraise is evidence of how public-market volatility is still financing expansion for Indian tech startups.",
+        "funding": {
+          "company": "Urban Company",
+          "amount": "₹2,500 Cr",
+          "sector": "home services / marketplace",
+          "country": "India"
+        }
+      },
+      {
+        "id": "2bfca0a3bb",
+        "reason": "Large new capital for a hospital network underscores investor appetite for asset-heavy healthtech models that can reshape care delivery in India.",
+        "funding": {
+          "company": "Even Healthcare",
+          "amount": "$50 Mn",
+          "sector": "health tech",
+          "country": "India"
+        }
+      },
+      {
+        "id": "54a1c3efa5",
+        "reason": "A regulator pushing Meta on recommendation algorithms shows the growing policy pressure on platform ranking systems, not just content moderation."
+      },
+      {
+        "id": "efeb3746fd",
+        "reason": "Anthropic setting aside equity for a public benefit fund signals a new phase of AI company governance and distribution of AI-era wealth."
+      },
+      {
+        "id": "c33a66b4df",
+        "reason": "Nvidia pushing open models for enterprise and on-device use shows the chip leader moving up the stack into the AI software platform layer."
+      },
+      {
+        "id": "4da50f7099",
+        "reason": "Rising AI-linked debt at hyperscalers is evidence that the AI buildout is increasingly being financed off balance sheet and through credit markets."
+      },
+      {
+        "id": "6e6e321174",
+        "reason": "A UAE-based AI and data startup expanding into Silicon Valley points to the globalization of frontier AI startups and cross-border competition for talent and customers."
+      },
+      {
+        "id": "6be1c7946e",
+        "reason": "India’s semiconductor push with multiple state projects and large investment commitments is evidence of a longer-term industrial policy shift into chipmaking."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "0cdd2f04cd",
+        "reason": "Evidence of the government moving from light-touch moderation to active oversight of platform algorithms, a bigger shift in online speech regulation."
+      },
+      {
+        "id": "2fabce590d",
+        "reason": "Shows foreign political money and influence operations entering India’s information ecosystem, pointing to the growing role of digital manipulation in elections."
+      },
+      {
+        "id": "847da430a1",
+        "reason": "A sign of India’s data-center buildout colliding with power constraints, part of the wider infrastructure and energy demand surge from AI and cloud computing."
+      },
+      {
+        "id": "876a6cb503",
+        "reason": "Concrete state-level industrial policy to attract large investment and jobs, evidence of the competition among Indian states for private capital and GCCs."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "d48b92792e",
+        "reason": "Concrete diplomacy in Central Asia, showing how Washington is competing for influence in a key geopolitical buffer zone."
+      },
+      {
+        "id": "b92fc9e8a6",
+        "reason": "Evidence that persistent geopolitical risk is reshaping capital allocation in the Gulf, pushing money toward lower-risk private assets."
+      },
+      {
+        "id": "f9fd5f93a9",
+        "reason": "A clear sign that debt and IMF assumptions are becoming a geopolitical battleground between the U.S. and multilateral institutions."
+      }
+    ],
+    "markets": [
+      {
+        "id": "f6469ae589",
+        "reason": "RBI’s large liquidity infusion is direct evidence of a broader central-bank shift toward managing funding stress as rupee and bond-market pressure build."
+      },
+      {
+        "id": "4c3d58152d",
+        "reason": "Tighter scrutiny of overseas investment shows policymakers responding to capital outflows and a weaker rupee, a sign of growing balance-of-payments stress."
+      }
+    ],
+    "sports": [
+      {
+        "id": "1723236675",
+        "reason": "A marquee global star being sanctioned by his federation is evidence of how player governance and discipline increasingly shape the sport beyond the field."
+      }
+    ],
+    "fun": []
+  },
+  "moved_to_tech": [
+    "00b8e8c47e"
+  ],
+  "funding": {
+    "total": 3,
+    "india": 3,
+    "world": 0,
+    "unknown": 0
+  }
+}

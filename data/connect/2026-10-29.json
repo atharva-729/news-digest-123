@@ -2,38 +2,50 @@
   "date": "2026-10-29",
   "backstory": [
     {
-      "thread_id": "t_india_voter_rolls_tightening",
-      "item_id": "fd3b5ea546"
+      "thread_id": "t_india_semiconductor_capital_boom",
+      "item_id": "eebf040a3c"
     },
     {
-      "thread_id": "t_india_voter_rolls_tightening",
-      "item_id": "c92044eaee"
+      "thread_id": "t_ai_assistant_device_spread",
+      "item_id": "937e85e44c"
     },
     {
-      "thread_id": "t_india_voter_rolls_tightening",
+      "thread_id": "t_ai_assistant_device_spread",
+      "item_id": "ad0f25104f"
+    },
+    {
+      "thread_id": "t_regional_chip_buildout",
+      "item_id": "eebf040a3c"
+    },
+    {
+      "thread_id": "t_ai_compute_capital_surge",
+      "item_id": "ce925cab7b"
+    },
+    {
+      "thread_id": "t_state_bank_divestment",
+      "item_id": "5801728fed"
+    },
+    {
+      "thread_id": "t_state_bank_divestment",
+      "item_id": "4d61320170"
+    },
+    {
+      "thread_id": "t_india_voter_roll_checks",
       "item_id": "ba9b5845f1"
-    },
-    {
-      "thread_id": "t_oil_supply_shocks_mid_east",
-      "item_id": "27b8301f84"
-    },
-    {
-      "thread_id": "t_oil_supply_shocks_mid_east",
-      "item_id": "d53385706d"
     }
   ],
   "throwbacks": [
     {
-      "item_id": "77fb78cc35",
+      "item_id": "0ebb7cec19",
       "kind": "cause",
-      "line": "Last week a strike hit a Saudi refinery and pushed crude sharply higher; today the World Bank projects commodity prices to surge 23% in 2026 because of the Middle East war.",
+      "line": "The US funded power semiconductors last week; today it loans $5 billion to nuclear plants for data centers.",
       "past": {
-        "id": "f912b976d0",
-        "date": "2026-10-28",
-        "title": "Crude oil prices surge after strike on Saudi refinery",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSER4VnVRZGpxTldSMEh5THo3b3FDVTV0ZDdhZjdLb2o0UUFhOUlnc3FRMGc4WWhqNlllUlBIT25tbjNNY2pxb3k3U0VUdm5zdFVRc0R4ejdxU1VTYjR3a0cwQzg2cEVtNnFTUjkyZFJRU2x0MzhqSWt2R2xFcWpibXEzclpqTW8?oc=5",
-        "source": "Telangana Today",
-        "section": "markets"
+        "id": "41eee0cf45",
+        "date": "2026-10-22",
+        "title": "US to award $389 million in R&D funds for power semiconductors, critical materials",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeHQ5cE1SRTVJQVJTRFl1bFhjWDR2ZUZ1elVOY2QwWDEtZzhBNVFfbk5NcC1UUG0tNFp5SGpMa1UyeG1mbXJtSzVmZnd5RGpWTlhQZnRPZks5SHZSUWIwSGhRRlJ3T3FpZkpNaFdSUmlObHdvWGlGREh0NTk2YWozaU8zWFVXRjRpdFNaSlVmQ0lwT0JNb3VIbkRoQnZHRzJrTGV1bWQtNlpXU1lsQ3o4amxCVmtQbW8?oc=5",
+        "source": "Reuters",
+        "section": "tech"
       }
     }
   ]
