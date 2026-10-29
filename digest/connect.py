@@ -74,7 +74,7 @@ def run(cfg, date):
         added.append({"thread_id": t["id"], "item_id": it["id"]})
     for t in snap["threads"]:
         t["sections"] = list(dict.fromkeys(e["section"] for e in t["evidence"]))
-        t["status"] = compute_status(t, date, cfg["threads"]["dormant_after_days"])
+        t["status"] = compute_status(t, date, cfg["threads"])
     snap["today"]["backstory"] = added
 
     # "Same pattern" links only count if both stories really are clues for one thread: today's story is

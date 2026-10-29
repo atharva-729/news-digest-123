@@ -1,0 +1,26 @@
+== 2026-10-27
+attach rate     2/25 = 0.08
+active threads  1  (status: new 1)
+thread                             status    clues events today
+India voter‑roll tightening        new           4      2     2
+look-alike pairs (claim similarity, shared force): 0
+verify pass     4/13 proposed attachments dropped
+
+== 2026-10-28
+attach rate     0/25 = 0.00
+active threads  1  (status: new 1)
+thread                             status    clues events today
+India voter‑roll tightening        new           4      2     0
+look-alike pairs (claim similarity, shared force): 0
+verify pass     9/19 proposed attachments dropped
+
+== 2026-10-29
+attach rate     1/25 = 0.04
+active threads  2  (status: new 2)
+thread                             status    clues events today
+India voter‑roll tightening        new           5      2     0
+Middle East oil shocks             new           4      2     1
+look-alike pairs (claim similarity, shared force): 0
+verify pass     9/20 proposed attachments dropped
+
+predictions per thread: India voter‑roll tightening 1, Middle East oil shocks 1

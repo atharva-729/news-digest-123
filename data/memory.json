@@ -1,43 +1,21 @@
 {
   "threads": {
-    "t_ai_power_siting_limits": {
-      "next": "2026-10-31",
-      "step": 1
-    },
-    "t_industrial_hardware_capital": {
-      "next": "2026-10-28",
-      "step": 0
-    },
-    "t_ai_trust_and_governance": {
-      "next": "2026-11-01",
-      "step": 1
-    },
-    "t_india_voter_rolls_and_documentation": {
-      "next": "2026-11-01",
-      "step": 1
-    },
-    "t_israel_election_fragmentation": {
-      "next": "2026-10-28",
-      "step": 0
-    },
-    "t_ai_trade_capital_rotation": {
+    "t_india_voter_rolls_tightening": {
       "next": "2026-10-31",
       "step": 1
     },
     "t_oil_supply_shocks_mid_east": {
-      "next": "2026-10-29",
-      "step": 0
+      "next": "2026-11-01",
+      "step": 1
     }
   },
   "days": {
+    "2026-10-27": [],
     "2026-10-28": [
-      "t_ai_power_siting_limits",
-      "t_ai_trade_capital_rotation"
+      "t_india_voter_rolls_tightening"
     ],
     "2026-10-29": [
-      "t_ai_trust_and_governance",
-      "t_india_voter_rolls_and_documentation"
-    ],
-    "2026-10-27": []
+      "t_oil_supply_shocks_mid_east"
+    ]
   }
 }

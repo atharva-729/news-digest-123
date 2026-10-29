@@ -4,7 +4,7 @@
 {% block body_class %}daily{% endblock %}
 
 {% macro status_chip(status) -%}
-<span class="chip st-{{ status }}">{{ {"new": "🆕 New", "heating": "🔥 Heating up", "cooling": "🧊 Cooling", "active": "▶ Steady", "dormant": "💤 Quiet"}[status] }}</span>
+<span class="chip st-{{ status }}">{{ {"new": "🆕 New", "building": "🧱 Building", "heating": "🔥 Heating up", "cooling": "🧊 Cooling", "active": "▶ Steady", "dormant": "💤 Quiet"}[status] }}</span>
 {%- endmacro %}
 
 {% macro force_chip(f) -%}
@@ -87,6 +87,18 @@
           <p class="hero-text">{{ hero|hl }}</p>
           <button class="hero-cta" type="button" data-tab-link="means">See the patterns →</button>
         </section>
+
+        {% if developing %}
+        <section class="developing">
+          <h2 class="label">Developing stories <span class="muted">one event, many updates (not a pattern)</span></h2>
+          {% for d in developing %}
+          <div class="dev">
+            <p class="dev-title">{{ d.label }} <span class="muted small">{{ d.articles|length }} updates</span></p>
+            <ul class="clues">{% for a in d.articles %}<li>{% if a.today %}<b>Today:</b> <a href="#i-{{ a.item_id }}" data-tab-link="feed" data-scroll="i-{{ a.item_id }}">{{ a.title }}</a>{% else %}<span class="muted small">{{ a.date|short_date }}</span> <a href="{{ a.url }}">{{ a.title }}</a>{% endif %}</li>{% endfor %}</ul>
+          </div>
+          {% endfor %}
+        </section>
+        {% endif %}
 
         <nav class="filters" aria-label="Filter by section">
           <button class="filter is-on" type="button" data-filter="all">All</button>
@@ -174,7 +186,7 @@
       <div class="threads">
         {% for t in l2 %}
         <article class="thread st-{{ t.status }}" id="{{ t.id }}" data-forces="{{ t.forces|join(' ') }}">
-          <div class="thread-top">{{ status_chip(t.status) }}<span class="muted small">seen {{ t.total }} time{{ "" if t.total == 1 else "s" }} since {{ t.since }}{% if t.today %} · <b>+{{ t.today }} today</b>{% endif %}</span></div>
+          <div class="thread-top">{{ status_chip(t.status) }}<span class="muted small">{{ t.events }} different event{{ "" if t.events == 1 else "s" }} since {{ t.since }}{% if t.today %} · <b>+{{ t.today }} today</b>{% endif %}</span></div>
           <h3 class="thread-name">{{ t.name }}</h3>
           <dl class="teach">
             <dt>In one line</dt><dd>{{ t.one_line }}</dd>
@@ -271,7 +283,9 @@
     <section class="call">
       <h2 class="label">🎯 Today's prediction</h2>
       <p class="call-text">{{ call.prediction }}</p>
-      <p class="muted small">Pattern: <button class="pattern-link" type="button" data-goto="{{ call.thread_id }}">{{ call.thread_title }}</button> · we check on {{ call.review_by|short_date }}</p>
+      {% if call.measure %}<p class="small"><b>How we'll check:</b> {{ call.measure }}. <b>Right if:</b> {{ call.threshold }}.<br>
+        <b>Could be wrong because:</b> {{ call.could_fail_because }}</p>{% endif %}
+      <p class="muted small">Pattern: <button class="pattern-link" type="button" data-goto="{{ call.thread_id }}">{{ call.thread_title }}</button>{% if call.confidence %} · our odds: {{ call.confidence }}%{% endif %} · we check on {{ call.review_by|short_date }}</p>
     </section>
     {% endif %}
 

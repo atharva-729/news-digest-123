@@ -8,6 +8,7 @@ and links, so the model never produces a link. The day's prediction goes to data
 import json
 import logging
 import random
+import re
 import shutil
 from collections import Counter
 from datetime import date as Date, timedelta
@@ -17,6 +18,7 @@ from markupsafe import Markup, escape
 
 from digest import articles, llm
 from digest.common import DATA, ROOT, load_prompt, read_json, write_json
+from digest.threads import SNAPSHOTS, event_of
 
 log = logging.getLogger(__name__)
 
@@ -49,12 +51,19 @@ SCHEMA = {
         "pulse_world": {"type": "string"},
         "dots": {"type": "string"},
         "call": {"type": "object", "properties": {
-            "thread_id": {"type": "string"}, "prediction": {"type": "string"}, "check_in_days": {"type": "integer"}}},
+            "thread_id": {"type": "string"}, "prediction": {"type": "string"}, "measure": {"type": "string"},
+            "threshold": {"type": "string"}, "window_days": {"type": "integer"},
+            "could_fail_because": {"type": "string"}, "confidence": {"type": "integer"}}},
         "quiz": {"type": "array", "items": {"type": "object", "properties": {
+            "type": {"type": "string", "enum": ["evidence", "force", "weaken", "why"]},
+            "thread_id": {"type": "string"}, "item_ids": {"type": "array", "items": {"type": "string"}},
             "question": {"type": "string"}, "options": {"type": "array", "items": {"type": "string"}},
             "answer_index": {"type": "integer"}, "why": {"type": "string"}}}},
     },
 }
+CALL_SCHEMA = {"type": "object", "properties": {"call": SCHEMA["properties"]["call"]}}
+NAMED_EVENT = re.compile(r"\d|(?<=\s)[A-Z][A-Za-z]+")  # a number, or a capitalised name after the first word
+MEDIA_MEASURE = re.compile(r"\b(stor(y|ies)|coverage|articles?|headlines?|mentions?|reports? (naming|citing|about))\b", re.I)
 
 
 def highlight(text, phrase):
@@ -99,16 +108,37 @@ def load_day(date):
     return sel, {it["id"]: it for it in day["items"]}, snap, conn
 
 
-def thread_moves(snap):
-    """New, heating and cooling threads today, in that order."""
-    today, threads = snap["today"], {t["id"]: t for t in snap["threads"]}
-    attached = {a["thread_id"] for a in today["attached"]}
-    new = today["new_threads"] + today["promoted"]
-    moves = [(tid, "new") for tid in new]
-    moves += [(tid, "heating") for tid, t in threads.items()
-              if t["status"] == "heating" and tid not in new and tid in attached]
-    moves += [(tid, "cooling") for tid, (_, now) in today["status_changes"].items() if now == "cooling"]
-    return [(threads[tid], kind) for tid, kind in moves if tid in threads]
+def thread_moves(snap, limit=3):
+    """The patterns that got the most direct evidence today (at most `limit`), with their real status."""
+    threads = {t["id"]: t for t in snap["threads"]}
+    counts = Counter(a["thread_id"] for a in snap["today"]["attached"] if a["thread_id"] in threads)
+    return [(threads[tid], threads[tid]["status"]) for tid, _ in counts.most_common(limit)]
+
+
+def developing(cfg, date, snap, items, cards):
+    """Developing stories: one event with several articles (today and the last few days) that isn't evidence
+    for any pattern. Shown as a group of updates, not as a pattern. Built in code from the event keys."""
+    dcfg = cfg.get("developing", {})
+    groups = {}
+    for i, ev in snap["today"].get("events", {}).items():
+        if i in items:
+            groups.setdefault(ev, []).append({"date": date, "item_id": i, "today": True, "url": items[i]["url"],
+                                              "title": cards[i]["headline"] if i in cards else items[i]["title"]})
+    for n in range(1, dcfg.get("lookback_days", 7) + 1):
+        d = (Date.fromisoformat(date) - timedelta(days=n)).isoformat()
+        past, day = read_json(SNAPSHOTS / f"{d}.json"), read_json(DATA / "items" / f"{d}.json")
+        if not past or not day:
+            continue
+        titles = {it["id"]: it for it in day["items"]}
+        for i, ev in past["today"].get("events", {}).items():
+            if ev in groups and i in titles:
+                groups[ev].append({"date": d, "item_id": i, "today": False, "url": titles[i]["url"], "title": titles[i]["title"]})
+    in_patterns = {event_of(e) for t in snap["threads"] if t["status"] != "dormant" for e in t["evidence"]}
+    out = []
+    for ev, arts in groups.items():
+        if len(arts) >= dcfg.get("min_articles", 3) and ev not in in_patterns:
+            out.append({"event": ev, "label": ev.replace("-", " ").capitalize(), "articles": arts})
+    return sorted(out, key=lambda d: -len(d["articles"]))
 
 
 def name(t):
@@ -210,10 +240,12 @@ def factcheck(cfg, cards, rows, ids):
 def remember(date, threads):
     """Up to two "Remember?" questions about patterns seen on earlier days, spaced 1, 3, 7, 14, 30 days apart.
 
-    Built in code from the threads' teaching cards: the right answer is the pattern's own card and the wrong
-    ones are other patterns' cards, so nothing here can be made up. Reruns of a date reuse its picks.
+    Built in code from stored evidence and teaching cards, so nothing can be made up. Two kinds, alternating:
+    "which of these past stories was evidence for <pattern>?" (wrong options are other patterns' stories) and
+    "<past story> was evidence of which pattern?" (options are pattern one-liners). Nicknames are only labels,
+    never what's tested. Reruns of a date reuse its picks.
     """
-    taught = {t["id"]: t for t in threads if t.get("teach") and not t.get("merged_into")}
+    taught = {t["id"]: t for t in threads if t.get("teach") and not t.get("merged_into") and not t.get("split_into")}
     mem = read_json(DATA / "memory.json", {"threads": {}, "days": {}})
     if date in mem["days"]:
         picks = [i for i in mem["days"][date] if i in taught]
@@ -231,27 +263,35 @@ def remember(date, threads):
         mem["days"][date] = picks
         write_json(DATA / "memory.json", mem)
 
+    past = lambda t: [e for e in t["evidence"] if e["date"] < date]
     rng, questions = random.Random(f"remember-{date}"), []
     for k, tid in enumerate(picks):
-        others = [x for x in taught if x != tid]
-        if len(others) < 2:
-            break
-        t, wrong = taught[tid], [taught[x] for x in rng.sample(others, 2)]
+        t = taught[tid]
+        others = [taught[x] for x in taught if x != tid]
+        if len(others) < 2 or not past(t):
+            continue
+        clue = rng.choice(past(t))
         if k % 2 == 0:
-            q, right, opts = f"Which pattern is this? “{t['teach']['one_line']}”", name(t), [name(w) for w in wrong]
+            pool = [e["title"] for o in others for e in past(o) if e["title"] != clue["title"]]
+            if len(pool) < 2:
+                continue
+            q = f"Which of these stories was evidence for “{t['teach']['one_line']}” ({name(t)})?"
+            right, opts = clue["title"], rng.sample(pool, 2)
         else:
-            q, right, opts = f"What does “{name(t)}” mean?", t["teach"]["one_line"], [w["teach"]["one_line"] for w in wrong]
+            q = f"“{clue['title']}” ({short_date(clue['date'])}) was evidence of which pattern?"
+            right, opts = t["teach"]["one_line"], [o["teach"]["one_line"] for o in rng.sample(others, 2)]
         slot = rng.randrange(3)
         opts.insert(slot, right)
         questions.append({"question": q, "options": opts, "answer_index": slot,
-                          "why": f"{name(t)}: {t['teach']['one_line']} Remember it as: {t['teach']['remember']}",
+                          "why": f"{name(t)}: {t['teach']['one_line']} Clue: {clue.get('mechanism') or clue['note']} "
+                                 f"Remember it as: {t['teach']['remember']}",
                           "since": short_date(t["created"])})
     return questions
 
 
 # ---------------------------------------------------------------- page
 
-def edition_input(date, sel, cards, rows, snap, conn, moves):
+def edition_input(cfg, date, sel, cards, rows, snap, conn, moves):
     threads = {t["id"]: t for t in snap["threads"]}
     attached = {a["item_id"]: a["thread_id"] for a in snap["today"]["attached"]}
     forces_today = {}
@@ -261,32 +301,111 @@ def edition_input(date, sel, cards, rows, snap, conn, moves):
     link = snap["today"]["cross_link"]
     return {
         "stories": [{"id": i, "section": r["section"], "headline": cards[i]["headline"] if i in cards else r["original_title"],
-                     "why": cards[i]["why"]["text"] if i in cards else "", "pattern": r["pattern"] and r["pattern"]["name"]}
+                     "why": cards[i]["why"]["text"] if i in cards else "", "pattern_id": attached.get(i),
+                     "pattern": r["pattern"] and r["pattern"]["name"]}
                     for i, r in rows.items()],
+        "call_candidates": [{"id": t["id"], "name": name(t), "idea": one_line(t), "claim": t["claim"], "status": t["status"],
+                             "recent_clues": [e.get("mechanism") or e["note"] for e in t["evidence"][-4:]]}
+                            for t in call_candidates(cfg, date, threads)],
+        "forces": cfg["threads"]["forces"],
         "thread_moves": [{"id": t["id"], "move": kind, "name": name(t), "idea": one_line(t), "forces": t["forces"],
                           "stories_today": [cards[e["item_id"]]["headline"] if e["item_id"] in cards else e["title"]
                                             for e in t["evidence"] if e["date"] == date]} for t, kind in moves],
         "forces_today": forces_today,
-        "open_threads": [{"id": t["id"], "name": name(t), "idea": one_line(t)}
-                         for t in snap["threads"] if t["status"] != "dormant"],
         "cross_link": link and {"a": name(threads[link["thread_a"]]), "b": name(threads[link["thread_b"]]),
                                 "force": link["force"], "sentence": link["sentence"]},
         "funding": [p["funding"] for p in sel["sections"].get("tech", []) if "funding" in p],
     }
 
 
+def call_candidates(cfg, date, threads):
+    """Threads a prediction may be about: active, no call in the cooldown window. Young threads without a
+    call yet come first, so predictions spread across patterns."""
+    cooldown = cfg.get("calls", {}).get("cooldown_days", 7)
+    calls = [c for c in read_json(DATA / "calls.json", []) if c["made"] != date]
+    recent = {c["thread_id"] for c in calls if 0 < days_between_iso(c["made"], date) <= cooldown}
+    called = {c["thread_id"] for c in calls}
+    ok = [t for t in threads.values() if t["status"] != "dormant" and t["id"] not in recent]
+    return sorted(ok, key=lambda t: (t["id"] in called, t["status"] not in ("new", "building")))
+
+
+def days_between_iso(a, b):
+    return (Date.fromisoformat(b) - Date.fromisoformat(a)).days
+
+
+def call_problems(cfg, call, allowed):
+    """Why a prediction can't be published, or [] if it's fine. It must be checkable and able to fail."""
+    ccfg = cfg.get("calls", {})
+    problems = []
+    if call["thread_id"] not in allowed:
+        problems.append("thread_id must be one of call_candidates (active, not predicted on in the last week)")
+    if not all(call[k].strip() for k in ("prediction", "measure", "threshold", "could_fail_because")):
+        problems.append("prediction, measure, threshold and could_fail_because are all required")
+    if not NAMED_EVENT.search(" " + call["threshold"].strip()):
+        problems.append("threshold needs a number or a named event, not 'more' or 'another'")
+    if MEDIA_MEASURE.search(call["measure"]):
+        problems.append("measure must be a real-world outcome (a deal, price, vote, rule, filing), not how much news "
+                        "there is about it: counting stories or coverage can't fail")
+    if not ccfg.get("min_confidence", 20) <= call["confidence"] <= ccfg.get("max_confidence", 80):
+        problems.append(f"confidence must be {ccfg.get('min_confidence', 20)}-{ccfg.get('max_confidence', 80)}")
+    return problems
+
+
+def make_call(cfg, date, call, threads, data):
+    """Validate the writer's prediction; on rejection ask once more with the reasons; else skip the day."""
+    allowed = {t["id"] for t in call_candidates(cfg, date, threads)}
+    problems = call_problems(cfg, call, allowed)
+    if problems:
+        log.warning("call rejected (%s); asking once more", "; ".join(problems))
+        wcfg = cfg.get("writing", {})
+        prompt = (load_prompt("call").replace("{{style}}", load_prompt("style"))
+                  .replace("{{problems}}", "\n".join(f"- {p}" for p in problems))
+                  .replace("{{previous}}", json.dumps(call, ensure_ascii=False))
+                  .replace("{{input}}", json.dumps({"call_candidates": data["call_candidates"]}, ensure_ascii=False, indent=1)))
+        call = llm.generate_json(prompt, CALL_SCHEMA, tag="write:call", model=wcfg.get("model"), **wcfg.get("params", {}))["call"]
+        problems = call_problems(cfg, call, allowed)
+        if problems:
+            log.warning("call rejected again (%s); no prediction today", "; ".join(problems))
+            return None
+    return record_call(date, call, threads)
+
+
 def record_call(date, call, threads):
     """Append today's prediction to data/calls.json (replacing any earlier one from the same date)."""
-    t = threads.get(call["thread_id"])
-    if not t or not call["prediction"].strip():
-        log.warning("no valid call today (thread %r)", call["thread_id"])
-        return None
-    days = min(max(call["check_in_days"], 30), 120)
+    t = threads[call["thread_id"]]
+    days = min(max(call["window_days"], 30), 120)
     entry = {"made": date, "thread_id": t["id"], "thread_title": name(t), "prediction": call["prediction"].strip(),
+             "measure": call["measure"].strip(), "threshold": call["threshold"].strip(),
+             "could_fail_because": call["could_fail_because"].strip(), "confidence": call["confidence"],
              "review_by": (Date.fromisoformat(date) + timedelta(days=days)).isoformat(), "verdict": None, "verdict_note": ""}
     calls = [c for c in read_json(DATA / "calls.json", []) if c["made"] != date]
     write_json(DATA / "calls.json", calls + [entry])
     return entry
+
+
+def quiz_ok(q, cards, attached, threads, forces):
+    """Code checks for the quiz types we can verify: evidence questions must use today's real headlines with
+    the right one attached to the pattern; force questions must offer forces and the answer must be a force
+    behind both stories' patterns."""
+    if len(q["options"]) > 3 and 0 <= q["answer_index"] < len(q["options"]):  # sometimes 4 options: keep the answer
+        right = q["options"][q["answer_index"]]
+        q["options"] = [right] + [o for o in q["options"] if o != right][:2]
+        q["answer_index"] = 0  # shuffle_answers spreads it out again
+    opts = [o.strip() for o in q["options"]]
+    if len(opts) != 3 or len(set(opts)) != 3 or not 0 <= q["answer_index"] <= 2:
+        return False
+    if q["type"] == "evidence":
+        by_headline = {c["headline"]: i for i, c in cards.items()}
+        ids = [by_headline.get(o) for o in opts]
+        if None in ids or q["thread_id"] not in threads:
+            return False
+        return all((attached.get(i) == q["thread_id"]) == (n == q["answer_index"]) for n, i in enumerate(ids))
+    if q["type"] == "force":
+        if any(o.lower() not in forces for o in opts) or len(q["item_ids"]) < 2:
+            return False
+        behind = [set(threads[attached[i]]["forces"]) if attached.get(i) in threads else set() for i in q["item_ids"]]
+        return opts[q["answer_index"]].lower() in set.intersection(*behind)
+    return True
 
 
 def timeline(t, date, days=14):
@@ -296,14 +415,15 @@ def timeline(t, date, days=14):
             ((end - timedelta(days=k)).isoformat() for k in range(days - 1, -1, -1))]
 
 
-def thread_view(t, date, kind=None, line="", cards=None):
+def thread_view(t, date, line="", cards=None):
     cards = cards or {}
     ev = sorted(t["evidence"], key=lambda e: e["date"], reverse=True)
     today = [{**e, "headline": cards[e["item_id"]]["headline"] if e["item_id"] in cards else e["title"]}
              for e in ev if e["date"] == date]
     return {
         "id": t["id"], "name": name(t), "title": t["title"], "claim": t["claim"], "teach": t.get("teach") or {},
-        "one_line": one_line(t), "forces": t["forces"], "status": "new" if kind == "new" else t["status"], "line": line,
+        "one_line": one_line(t), "forces": t["forces"], "status": t["status"], "line": line,
+        "events": t.get("distinct_events") or len({event_of(e) for e in t["evidence"] if not e.get("added_on")}),
         "today": len(today), "total": len(t["evidence"]), "since": short_date(min(e["date"] for e in t["evidence"])),
         "timeline": timeline(t, date), "today_items": today,
         "earlier": [e for e in ev if e["date"] != date][:3],
@@ -340,7 +460,7 @@ def run(cfg, date):
     checked_changes = factcheck(cfg, cards, rows, political)
 
     wcfg = cfg.get("writing", {})
-    data = edition_input(date, sel, cards, rows, snap, conn, moves)
+    data = edition_input(cfg, date, sel, cards, rows, snap, conn, moves)
     prompt = (load_prompt("write").replace("{{style}}", load_prompt("style")).replace("{{date}}", date)
               .replace("{{input}}", json.dumps(data, ensure_ascii=False, indent=1)))
     out = llm.generate_json(prompt, SCHEMA, tag="write:page", model=wcfg.get("model"), **wcfg.get("params", {}))
@@ -350,8 +470,11 @@ def run(cfg, date):
     force_lines = {x["force"].strip().lower(): x["line"].strip() for x in out["forces"]}
     attached = {a["item_id"]: a["thread_id"] for a in snap["today"]["attached"]}
     throw = {x["item_id"]: x for x in conn["throwbacks"]}
-    call = record_call(date, out["call"], threads)
-    quiz = shuffle_answers([q for q in out["quiz"] if len(q["options"]) == 3 and 0 <= q["answer_index"] <= 2][:3], date)
+    call = make_call(cfg, date, out["call"], threads, data)
+    good = [q for q in out["quiz"] if quiz_ok(q, cards, attached, threads, set(cfg["threads"]["forces"]))]
+    if len(good) < len(out["quiz"]):
+        log.warning("dropped %d quiz questions that failed the checks", len(out["quiz"]) - len(good))
+    quiz = shuffle_answers(good[:3], date)
 
     def card(section, p):
         it, c, m = items[p["id"]], cards.get(p["id"]), meta.get(p["id"], {})
@@ -371,7 +494,7 @@ def run(cfg, date):
     active = [t for t in snap["threads"] if t["status"] != "dormant"]
     active.sort(key=lambda t: t["last_seen"], reverse=True)
     active.sort(key=lambda t: -sum(e["date"] == date for e in t["evidence"]))  # most evidence today first
-    l2 = [thread_view(t, date, move_kind.get(t["id"]), lines.get(t["id"], ""), cards) for t in active]
+    l2 = [thread_view(t, date, lines.get(t["id"], ""), cards) for t in active]
     forces = []
     for f in cfg["threads"]["forces"]:
         ts = [t for t in l2 if f in t["forces"]]
@@ -390,8 +513,9 @@ def run(cfg, date):
         "pretty_date": Date.fromisoformat(date).strftime("%d %B %Y").lstrip("0"),
         "tldr": [checked(x) for x in out["tldr"][:3]],
         "hero": checked(out["hero"]),
-        "moves": [{"thread": thread_view(t, date, kind, cards=cards), "kind": kind, "line": lines.get(t["id"], "")}
+        "moves": [{"thread": thread_view(t, date, cards=cards), "kind": kind, "line": lines.get(t["id"], "")}
                   for t, kind in moves],
+        "developing": developing(cfg, date, snap, items, cards),
         "sections": sections,
         "pulse": {"india": out["pulse_india"].strip(), "world": out["pulse_world"].strip()},
         "l1_linked": l1_linked, "l1_oneoffs": l1_oneoffs, "l2": l2, "forces": forces,

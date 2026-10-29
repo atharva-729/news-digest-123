@@ -1,249 +1,249 @@
 {
   "date": "2026-10-28",
-  "subject": "L1·L2·L3 28 Oct: Simplismart and Nova Spectral AI raised money for AI hardware and inference infrastructure.",
-  "lead": "Simplismart and Nova Spectral AI raised money for AI hardware and inference infrastructure.",
+  "subject": "L1·L2·L3 28 Oct: Simplismart raised $14 million to expand its AI inference infrastructure.",
+  "lead": "Simplismart raised $14 million to expand its AI inference infrastructure.",
   "tldr": [
     {
-      "text": "Simplismart and Nova Spectral AI raised money for AI hardware and inference infrastructure.",
-      "highlight": "raised money"
+      "text": "Simplismart raised $14 million to expand its AI inference infrastructure.",
+      "highlight": "$14 million"
     },
     {
-      "text": "Anthropic’s IPO filing and researcher criticism put AI governance under sharper scrutiny.",
-      "highlight": "IPO filing"
+      "text": "Anthropic’s IPO filing lists blackmail, sentience and extinction risks.",
+      "highlight": "IPO filing lists"
     },
     {
-      "text": "Oil prices rose after a Saudi refinery strike, and Malaysia producer inflation jumped to 12%.",
-      "highlight": "producer inflation"
+      "text": "India may ease FDI rules for China-linked investments.",
+      "highlight": ""
     }
   ],
   "hero": {
-    "text": "Heavy‑AI Cash is heating up: capital is flowing toward physical AI hardware and power semiconductor infrastructure. Today’s moves came from Simplismart, Nova Spectral AI, and Apple’s M6 refresh, which keep attention on chips, sensors, and inference infrastructure.",
-    "highlight": "capital is flowing"
+    "text": "Capital is still flowing into AI infrastructure, enterprise AI tools, and adjacent hardware. Today's funding rounds for Simplismart, Nova Spectral AI, QwikBuild, Live2.ai, Cent, and dubdub pushed that pattern forward.",
+    "highlight": "Capital is still flowing"
   },
   "cards": {
     "2e1cf5b0a8": {
       "emoji": "🤖",
       "headline": "Simplismart raises $14 million for AI inference infrastructure",
-      "explain": "Simplismart raised $14 million in a Series B led by Dallas Venture Capital, with NVIDIA, Accel, Shastra VC and Micromax participating. The Bengaluru startup builds software that helps enterprises deploy and run AI models, and helps cloud providers sell GPU capacity as managed AI services. It says its annualised revenue run rate grew 14x in six months.",
+      "explain": "The startup raised $14 million in a Series B led by Dallas Venture Capital, with NVIDIA, Accel, Shastra VC and Micromax participating. Simplismart builds software that helps enterprises deploy and run AI models efficiently, and also helps cloud providers turn GPU capacity into AI services. It says its annualized revenue run rate has grown 14x in six months.",
       "why": {
-        "text": "More capital should help it expand beyond India as demand rises for cheaper, faster AI inference.",
-        "highlight": "expand beyond India"
+        "text": "More capital should help it expand across North America and other markets as demand grows for cheaper AI model execution.",
+        "highlight": "expand across North America"
       }
     },
     "2df56fbd08": {
-      "emoji": "🧠",
-      "headline": "Researchers push back on OpenAI’s handling of new breakthroughs",
-      "explain": "OpenAI announced new results in mathematics, computer science and physics, plus what it said is a changing approach to sharing its findings. Researchers who spoke to The Verge said they are increasingly tired of the company’s behavior. The item is about tensions over how OpenAI communicates research, not just the research itself.",
+      "emoji": "🧪",
+      "headline": "OpenAI says it has breakthroughs as researchers grow more frustrated",
+      "explain": "OpenAI said on Monday that it had breakthroughs in mathematics, computer science and physics, and described an evolving way of sharing findings. The Verge says researchers it spoke to are getting tired of the company's behavior. The item says the last few months have been turbulent for OpenAI.",
       "why": {
-        "text": "OpenAI’s public messaging around major breakthroughs is drawing sharper scrutiny from researchers.",
-        "highlight": "drawing sharper scrutiny"
+        "text": "The dispute adds pressure on how OpenAI shares research as it pushes ahead with new claims.",
+        "highlight": "shares research"
       }
     },
     "9daa2cd43f": {
-      "emoji": "🧠",
-      "headline": "Anthropic’s IPO filing lists extreme AI risks",
-      "explain": "Anthropic’s 93-page risk section includes a set of potential failures, including blackmail, sentience and even ending humanity. The filing is part of the company’s move toward an IPO. It shows how unusually blunt the company is being about what could go wrong with more capable AI systems.",
+      "emoji": "⚠️",
+      "headline": "Anthropic’s IPO filing lists blackmail, sentience and extinction risks",
+      "explain": "Ars Technica says Anthropic’s 93-page risk section lays out seven possible AI nightmare scenarios. The list includes fears that its AI could blackmail people, become sentient, or contribute to human extinction. The item frames these as disclosures in the company’s IPO paperwork.",
       "why": {
-        "text": "Prospective investors get a detailed list of risks before Anthropic goes public.",
-        "highlight": "list of risks"
+        "text": "Potential investors now have a public risk list before Anthropic goes to market.",
+        "highlight": "public risk list"
       }
     },
     "40066215b8": {
-      "emoji": "🧠",
-      "headline": "Anthropic seeks public funding without changing its safety mission",
-      "explain": "Anthropic wants to raise money in the public markets while saying it still prioritizes AI safety and benefits to humanity. The Verge says the company faces a tension between those goals and shareholder pressure for returns. The piece focuses on how an IPO could complicate its stated mission.",
+      "emoji": "📈",
+      "headline": "Anthropic outlines how it wants to go public without changing its mission",
+      "explain": "The Verge says Anthropic is preparing for an IPO while saying it does not want to compromise its core mission of developing AI safely and for humanity's benefit. The article says the company is trying to balance public-market funding with greater model risks and shareholder pressure. No further details are given in the item.",
       "why": {
-        "text": "The company’s IPO will test whether it can keep its safety-first stance under public-market pressure.",
-        "highlight": "under public-market pressure"
+        "text": "The challenge is how a public Anthropic will answer shareholders while keeping its safety-first stance.",
+        "highlight": "answer shareholders"
       }
     },
     "3dc181e1cd": {
-      "emoji": "📈",
-      "headline": "Jio Platforms lists at a 21% premium in market debut",
-      "explain": "Reliance Industries-backed Jio Platforms listed at Rs 1,358 on the NSE, about 21% above its Rs 1,119 issue price. That values it at around Rs 12.5 lakh crore, making it India’s second-largest listed company by market value. The IPO drew strong demand, especially from qualified institutional buyers.",
+      "emoji": "💹",
+      "headline": "Jio Platforms lists 21% above issue price in stock market debut",
+      "explain": "Reliance Industries-backed Jio Platforms listed at Rs 1,358 a share, about 21% above its Rs 1,119 issue price. That values the company at about Rs 12.5 lakh crore, making it India's second-largest listed company by market value. The IPO had drawn strong demand from institutional and retail investors.",
       "why": {
-        "text": "The listing gives Jio Platforms a much higher market value and a large pool of capital to use for debt repayment.",
-        "highlight": "market value and a large pool"
+        "text": "The listing gives Jio Platforms a market value near Rs 12.5 lakh crore and lets the company use IPO funds to repay debt.",
+        "highlight": "repay debt"
       }
     },
     "6012261abf": {
-      "emoji": "🧪",
-      "headline": "Nova Spectral AI raises ₹21.2 crore for infrared sensor chips",
-      "explain": "Bengaluru-based Nova Spectral AI raised ₹21.2 crore in a seed round led by Shastra VC. The startup is building indigenous infrared sensor chips, which are used in hardware that detects heat and other infrared signals. The funding fits a broader push into physical AI and semiconductor infrastructure.",
+      "emoji": "🔬",
+      "headline": "Nova Spectral AI raises ₹21.2 crore to build infrared sensor chips",
+      "explain": "Bengaluru-based Nova Spectral AI raised ₹21.2 crore in a seed round led by Shastra VC. The startup is working on indigenous infrared sensor chips, according to the headline. No other details were included in the item.",
       "why": {
-        "text": "The money should help the company develop locally made sensor chips for hardware applications.",
-        "highlight": "develop locally made sensor chips"
+        "text": "The funding supports domestic chip development in a hardware segment India is still trying to build.",
+        "highlight": "domestic chip development"
       }
     },
     "ad1ab93357": {
-      "emoji": "🤖",
+      "emoji": "💻",
       "headline": "QwikBuild raises $2.3 million for its enterprise AI platform",
-      "explain": "Bengaluru-based QwikBuild raised $2.3 million in a pre-seed round led by a Japanese investor. The startup says it is building an enterprise AI platform, but the item does not give more product detail. It is an early-stage funding round for a business software company in India.",
+      "explain": "Bengaluru-based QwikBuild raised $2.3 million, or about ₹22 crore, in a pre-seed round led by a Japanese investor. The company builds an enterprise AI platform, according to the item. The article excerpt does not add more specifics about the product.",
       "why": {
-        "text": "The round gives the startup more runway to build and sell its enterprise AI product.",
-        "highlight": "more runway"
+        "text": "The new money gives the early-stage startup runway to expand its enterprise AI product.",
+        "highlight": "expand its enterprise AI product"
       }
     },
     "828cce77bc": {
       "emoji": "📣",
-      "headline": "Live2.ai raises Rs 130 crore for AI marketing software",
-      "explain": "Live2.ai raised Rs 130 crore in a pre-Series B round led by IvyCap Ventures, with a secondary component for early shareholders. The Bengaluru startup sells AI software for social intelligence and commerce activation: it tracks brand conversations, manages social publishing and compliance, and turns content into shoppable posts. It says it works with more than 200 brands and gets 90% of revenue from outside India.",
+      "headline": "Live2.ai raises Rs 130 crore to expand its AI marketing platform",
+      "explain": "Live2.ai raised Rs 130 crore in a pre-Series B round led by IvyCap Ventures, with some secondary liquidity for early shareholders. The company says it is an AI-based social intelligence and commerce activation platform that helps brands track online conversations, manage campaigns, handle compliance and turn content into shoppable experiences. It works with brands including Schwarzkopf, Salonory, Titan Brands and Shiseido.",
       "why": {
-        "text": "The funding should help it expand its sales to enterprise and global consumer brands.",
-        "highlight": "expand its sales"
+        "text": "The funding should help it scale with enterprise and global consumer brands outside India.",
+        "highlight": "scale with enterprise"
       }
     },
     "537da26ca9": {
       "emoji": "🏥",
       "headline": "Cent raises $15 million and buys AI radiology platform Medsee",
-      "explain": "Cent, the preventive healthcare startup founded by Practo co-founder Shashank ND, raised $15 million in a Series A led by Blume Ventures and South Park Commons. It also acquired Medsee, an AI radiology platform. Cent uses imaging, biomarkers and AI for early disease detection, and says about 10,000 people have been screened through its protocol.",
+      "explain": "Cent, the preventive healthcare startup founded by Practo co-founder Shashank ND, raised $15 million in a Series A led by Blume Ventures and South Park Commons. It also acquired Medsee, an AI radiology platform. Cent uses imaging, biomarkers and AI for early disease detection, and says about 10,000 people have used its screening protocol so far.",
       "why": {
-        "text": "Cent can expand its screening business and AI tools as it tries to detect disease earlier.",
-        "highlight": "detect disease earlier"
+        "text": "The cash and acquisition should help Cent push its screening model and clinical research across its own centers.",
+        "highlight": "clinical research"
       }
     },
     "cef7e29668": {
       "emoji": "🎮",
-      "headline": "dubdub raises $1.3 million for trivia and puzzle app",
-      "explain": "dubdub raised $1.3 million in a seed round co-led by 3one4 Capital, Antler and Stellaris Venture Partners. The app uses swipe-based trivia, mini games and puzzles, with questions across topics like cricket, Bollywood and pop culture. It says it has crossed 20,000 downloads and is hiring to add more interactive formats.",
+      "headline": "dubdub raises seed funding for its swipe-based trivia app",
+      "explain": "dubdub raised $1.3 million in seed funding from 3one4 Capital, Antler and Stellaris Venture Partners. The app mixes trivia, puzzle games and short interactive challenges, with more than 20 categories and AI-based personalization. The company says it has crossed 20,000 downloads and has strong early retention.",
       "why": {
-        "text": "The funding should help it grow beyond early downloads and build a larger casual gaming audience.",
-        "highlight": "build a larger casual gaming audience"
+        "text": "The money should help the app add formats and grow beyond early traction.",
+        "highlight": "add formats"
       }
     },
     "31f30cc340": {
-      "emoji": "🔧",
+      "emoji": "🏢",
       "headline": "Guidewire buys Hyperexponential for $1.7 billion in cash",
-      "explain": "Guidewire is buying Hyperexponential for $1.7 billion in cash, with the deal expected to close next year. The companies say the goal is to bring AI agents into underwriting, analysis and pricing work alongside humans. Hyperexponential appears to be the software target in the deal.",
+      "explain": "Guidewire is buying Hyperexponential for $1.7 billion in cash, with the deal expected to close next year. The article says the aim is to bring AI agents alongside humans for underwriting, analysis and pricing decisions. No other deal terms are given in the item.",
       "why": {
-        "text": "The acquisition would put Guidewire’s insurance software closer to AI-assisted pricing and underwriting.",
-        "highlight": "AI-assisted pricing and underwriting"
+        "text": "The deal would combine Guidewire’s insurance software with Hyperexponential’s pricing tools if it closes next year.",
+        "highlight": "if it closes next year"
       }
     },
     "9d02bbba00": {
       "emoji": "🛡️",
       "headline": "Critical UEFI firmware flaw affects most servers",
-      "explain": "A critical flaw in EDK2, a widely used UEFI firmware codebase, lets attackers execute code early in the boot process. Because UEFI runs before the operating system, bugs there can affect system startup and security. The report says the flaw affects most servers on the planet.",
+      "explain": "Ars Technica says a critical flaw in EDK2, a common UEFI firmware codebase, can let attackers execute code early in the boot process. The item says the bug affects most servers on the planet. No vendor names or patch details are included here.",
       "why": {
-        "text": "Server operators may need urgent patches to prevent low-level compromise.",
-        "highlight": "urgent patches"
+        "text": "Servers using the affected firmware may be vulnerable before the operating system even starts.",
+        "highlight": "before the operating system"
       }
     },
     "8b7f3fa5f2": {
-      "emoji": "💻",
-      "headline": "Apple refreshes the iMac and entry MacBook Pro with M6",
-      "explain": "Apple updated the iMac and entry-level MacBook Pro with its M6 chip. It also says the N1 chip adds Wi-Fi 7 and Bluetooth 6. The item is a hardware refresh rather than a major new product line.",
+      "emoji": "🍎",
+      "headline": "Apple updates the iMac and entry-level MacBook Pro with M6",
+      "explain": "Apple refreshed the iMac and the entry-level MacBook Pro with its M6 chip. The update also adds the N1 chip, which brings Wi‑Fi 7 and Bluetooth 6. The item does not give pricing or release details.",
       "why": {
-        "text": "Buyers get newer chips and wireless support in Apple’s mainstream desktop and laptop lineup.",
-        "highlight": "newer chips and wireless support"
+        "text": "The new chips bring faster wireless support to Apple's lower-end desktop and laptop lines.",
+        "highlight": "faster wireless support"
       }
     },
     "e8bf52f236": {
       "emoji": "🏛️",
       "headline": "Government plans easier FDI rules for China-linked investments",
-      "explain": "India’s government is planning further easing of foreign direct investment rules for investments linked to China and neighbouring countries. The headline gives the policy direction, but not the specific sectors or limits involved.",
+      "explain": "The government is planning further easing of foreign direct investment rules for investments linked to China and neighboring countries. The move would loosen the approval process for some cross-border investments from those places.",
       "why": {
-        "text": "Foreign investors from sensitive neighbours may face fewer approval hurdles if the new rules are adopted.",
-        "highlight": "fewer approval hurdles"
+        "text": "Could make it easier for companies with China ties to invest in India.",
+        "highlight": "easier for companies"
       }
     },
     "3caec08195": {
       "emoji": "⚖️",
-      "headline": "Indian media groups challenge new data privacy rules in court",
-      "explain": "Several Indian media groups have gone to the Supreme Court over new data privacy rules. The headline identifies the challengers and the forum, but not which provisions they want struck down.",
+      "headline": "India media groups challenge new data privacy rules in court",
+      "explain": "Media groups in India have gone to the top court over new data privacy rules. The case challenges how the rules apply to news organizations and their data use.",
       "why": {
-        "text": "The court could decide how the new privacy rules apply to news organisations.",
-        "highlight": "apply to news organisations"
+        "text": "The court case could reshape how newsrooms handle reader data.",
+        "highlight": "how newsrooms handle"
       }
     },
     "aab807de9c": {
-      "emoji": "⚕️",
-      "headline": "Supreme Court urges national rules for compulsory rural doctor service",
-      "explain": "India’s Supreme Court is pushing for a national framework on compulsory rural service for doctors. That refers to rules that require medical graduates or licensed doctors to work in rural areas for a set period.",
+      "emoji": "🏥",
+      "headline": "Supreme Court seeks national rules on compulsory rural doctor service",
+      "explain": "India's Supreme Court has pushed for a national framework on compulsory rural service for doctors. Such rules usually require medical graduates or doctors to work in rural areas for a set period.",
       "why": {
-        "text": "Doctors and state governments could soon follow a common rule instead of different state-by-state systems.",
-        "highlight": "common rule"
+        "text": "A national framework could standardize rural posting requirements across states.",
+        "highlight": "national framework"
       }
     },
     "2e5aa956a5": {
       "emoji": "🗳️",
-      "headline": "Counting underway in Uttar Pradesh centres",
-      "explain": "Counting is underway in Lucknow, Varanasi, Agra, Meerut, Jhansi, Bareilly and Gorakhpur.",
+      "headline": "Counting underway in several Uttar Pradesh constituencies",
+      "explain": "Counting is under way in Lucknow, Varanasi, Agra, Meerut, Jhansi, Bareilly and Gorakhpur.",
       "why": {
-        "text": "More results are still pending from six counting centres.",
-        "highlight": "More results are still pending"
+        "text": "More results are still being counted.",
+        "highlight": "More results are"
       }
     },
     "2498ec0432": {
-      "emoji": "🌍",
-      "headline": "Truce planned for Oleshky residents",
+      "emoji": "🕊️",
+      "headline": "Russia and Ukraine say no breaches in Oleshky truce",
       "explain": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported.",
       "why": {
-        "text": "Stranded residents of Oleshky remain covered by the truce.",
-        "highlight": "remain covered by the truce"
+        "text": "The truce remains in place for residents of Oleshky.",
+        "highlight": "truce remains in place"
       }
     },
     "d4d3a1208f": {
       "emoji": "🗳️",
-      "headline": "Turnout among Palestinian citizens of Israel reaches around 80 percent",
+      "headline": "Palestinian citizen turnout in Israel election hits around 80 percent",
       "explain": "Record-breaking voter turnout among Palestinian citizens of Israel hits around 80 percent, early indications show.",
       "why": {
-        "text": "Record-breaking voter turnout among Palestinian citizens of Israel hits around 80 percent.",
-        "highlight": "around 80 percent"
+        "text": "Early indications show turnout around 80 percent.",
+        "highlight": "turnout around 80 percent"
       }
     },
     "925ef920e0": {
-      "emoji": "🌐",
-      "headline": "Foreign ministers form security committee on Syria strikes",
-      "explain": "Foreign ministers formed a security committee to share intelligence and follow up on the impact of Jordan's strikes on Syria.",
+      "emoji": "🌍",
+      "headline": "Foreign ministers form security committee after Syria strikes",
+      "explain": "Foreign ministers form security committee to share intelligence and follow up on impact of Jordan's strikes on Syria.",
       "why": {
-        "text": "The security committee will share intelligence and follow up on the impact of Jordan's strikes on Syria.",
-        "highlight": "share intelligence and follow up"
+        "text": "The committee will coordinate intelligence and review the strikes' impact.",
+        "highlight": "coordinate intelligence and review"
       }
     },
     "f912b976d0": {
       "emoji": "🛢️",
-      "headline": "Crude oil prices rise after strike on Saudi refinery",
-      "explain": "Crude prices moved higher after a strike on a Saudi refinery. The item links the move to another Middle East oil supply shock, which can affect importing economies.",
+      "headline": "Crude oil prices jump after strike on Saudi refinery",
+      "explain": "Crude oil prices surged after a strike on a Saudi refinery. The headline points to market concern over possible supply disruption.",
       "why": {
-        "text": "Fuel costs and inflation pressures can rise in countries that import oil.",
-        "highlight": "inflation pressures"
+        "text": "Oil market moves can feed into fuel and inflation costs.",
+        "highlight": "fuel and inflation costs"
       }
     },
     "ef1705e918": {
       "emoji": "📈",
-      "headline": "Malaysia producer inflation speeds up to 12% as oil rises",
-      "explain": "Malaysia’s producer inflation has accelerated to 12% as oil prices surge. Producer inflation measures what companies pay for inputs before those costs reach consumers.",
+      "headline": "Malaysia's producer inflation rises to 12% as oil prices surge",
+      "explain": "Malaysia's producer inflation accelerated to 12% as oil prices surged. Producer inflation tracks the prices businesses pay for inputs before goods reach consumers.",
       "why": {
-        "text": "Higher input costs can feed through to prices for businesses and households.",
-        "highlight": "feed through to prices"
+        "text": "Higher producer costs can eventually filter into consumer prices.",
+        "highlight": "filter into consumer prices"
       }
     },
     "bfbff74eb2": {
       "emoji": "⚽",
-      "headline": "League Two Fleetwood knocks Arsenal out of the Carabao Cup",
-      "explain": "Fleetwood drew 1-1 with Arsenal and won 5-3 on penalties in the Carabao Cup. Fleetwood is a League Two club, while Arsenal are the Premier League champions in the headline.",
+      "headline": "Fleetwood knocks Arsenal out of the Carabao Cup on penalties",
+      "explain": "League Two side Fleetwood drew 1-1 with Arsenal and won 5-3 on penalties. Arsenal are the Premier League champions, and the Carabao Cup is England's domestic knockout cup competition.",
       "why": {
-        "text": "Arsenal exit the cup after a penalty shootout loss to a lower-division side.",
-        "highlight": "penalty shootout loss"
+        "text": "Arsenal are out of the competition after a lower-league upset.",
+        "highlight": "out of the competition"
       }
     },
     "3eb9e99c48": {
       "emoji": "🐟",
-      "headline": "Scientists count millions of eels at a deep-sea mountain off Tasmania",
-      "explain": "Researchers studying Patience Seamount south of Tasmania say basketwork eels gather there in huge numbers, likely to reproduce. A team led by CSIRO marine scientist Ben Scoulding estimates the peak aggregation could reach 2.8 million eels, weighing more than 3,500 metric tons.",
+      "headline": "Scientists count 2.8 million eels around a Tasmania seamount",
+      "explain": "Researchers led by CSIRO marine scientist Ben Scoulding estimated that up to 2.8 million basketwork eels gather around Patience Seamount off southeast Australia. The eels appear to assemble there for reproduction, and the mountain is south of Tasmania in the Huon Marine Park.",
       "why": {
-        "text": "The survey puts a rare deep-sea fish gathering at a scale scientists had not measured before.",
-        "highlight": "rare deep-sea fish gathering"
+        "text": "The study puts a hard number on one of the deep sea's biggest fish gatherings.",
+        "highlight": "puts a hard number"
       }
     },
     "a211bcef86": {
-      "emoji": "🚀",
+      "emoji": "🛰️",
       "headline": "Mystery metal object in Minnesota may be a rocket part",
-      "explain": "A shiny, bowl-shaped object about 11 feet wide was found in a Minnesota cornfield and taken to a secure location. Federal officials are investigating, and experts quoted in the story think it may be debris from a Chinese LandSpace Zhuque-2E rocket.",
+      "explain": "A farmer found an 11-foot-wide bowl-shaped metal object in a Minnesota cornfield, and federal officials took it to a secure location. Experts suspect it may be an upper stage from a LandSpace Zhuque-2E rocket, which launched satellites for a Chinese broadband constellation.",
       "why": {
-        "text": "Authorities are still trying to confirm the object’s origin and whether more debris exists.",
-        "highlight": "confirm the object’s origin"
+        "text": "Investigators are trying to confirm whether the debris came from a rocket launch.",
+        "highlight": "confirm whether the debris"
       }
     }
   },
@@ -254,110 +254,97 @@
     },
     {
       "item_id": "2498ec0432",
-      "note": "Removed unsupported ceasefire extension claim"
+      "note": "Removed unsupported ceasefire extension and air strike claims"
     },
     {
       "item_id": "d4d3a1208f",
-      "note": "Removed unsupported seat and coalition claims"
+      "note": "Removed unsupported seat projection"
     },
     {
       "item_id": "925ef920e0",
-      "note": "Removed unsupported border reopening and investigation claims"
+      "note": "Removed unsupported border reopening and deadly strikes claim"
     }
   ],
   "page": {
     "tldr": [
       {
-        "text": "Simplismart and Nova Spectral AI raised money for AI hardware and inference infrastructure.",
-        "highlight": "raised money"
+        "text": "Simplismart raised $14 million to expand its AI inference infrastructure.",
+        "highlight": "$14 million"
       },
       {
-        "text": "Anthropic’s IPO filing and researcher criticism put AI governance under sharper scrutiny.",
-        "highlight": "IPO filing"
+        "text": "Anthropic’s IPO filing lists blackmail, sentience and extinction risks.",
+        "highlight": "IPO filing lists"
       },
       {
-        "text": "Oil prices rose after a Saudi refinery strike, and Malaysia producer inflation jumped to 12%.",
-        "highlight": "producer inflation"
+        "text": "India may ease FDI rules for China-linked investments.",
+        "highlight": "easier FDI rules"
       }
     ],
     "hero": {
-      "text": "Heavy‑AI Cash is heating up: capital is flowing toward physical AI hardware and power semiconductor infrastructure. Today’s moves came from Simplismart, Nova Spectral AI, and Apple’s M6 refresh, which keep attention on chips, sensors, and inference infrastructure.",
-      "highlight": "capital is flowing"
+      "text": "Capital is still flowing into AI infrastructure, enterprise AI tools, and adjacent hardware. Today's funding rounds for Simplismart, Nova Spectral AI, QwikBuild, Live2.ai, Cent, and dubdub pushed that pattern forward.",
+      "highlight": "Capital is still flowing"
     },
-    "scoreboard": [
-      {
-        "thread_id": "t_oil_supply_shocks_mid_east",
-        "line": "Oil strike lifted crude and pushed Malaysia producer inflation to 12%."
-      },
-      {
-        "thread_id": "t_industrial_hardware_capital",
-        "line": "Simplismart, Nova Spectral AI, and Apple all pointed money toward AI hardware."
-      },
-      {
-        "thread_id": "t_ai_trust_and_governance",
-        "line": "Researchers challenged OpenAI, while Anthropic filed IPO risks and safety disclosures."
-      },
-      {
-        "thread_id": "t_israel_election_fragmentation",
-        "line": "Around 80 percent turnout among Palestinian citizens of Israel kept results fragmented."
-      }
-    ],
-    "forces": [
-      {
-        "force": "geopolitics",
-        "line": "Election turnout, oil shocks, and AI governance all moved this force today."
-      },
-      {
-        "force": "capital",
-        "line": "Money flowed into AI hardware, while oil-linked inflation pressure touched markets."
-      },
-      {
-        "force": "technology",
-        "line": "Funding continued to favor AI inference, chips, and sensor hardware."
-      },
-      {
-        "force": "regulation",
-        "line": "Anthropic’s IPO disclosures and OpenAI scrutiny kept AI oversight in focus."
-      }
-    ],
-    "pulse_india": "Indian funding went to AI infrastructure, infrared sensor chips, an enterprise AI platform, AI marketing software, healthtech, and gaming.",
-    "pulse_world": "Outside India, Simplismart raised $14 million for AI inference infrastructure.",
-    "dots": "Oil-driven inflation can push investors away from consumer plays and toward hardware AI, linking Refinery Shock to Heavy‑AI Cash through capital flows.",
+    "scoreboard": [],
+    "forces": [],
+    "pulse_india": "In India, funding went to AI infrastructure, sensor chips, enterprise software, AI marketing tools, preventive health, and a consumer trivia app.",
+    "pulse_world": "Outside India, Simplismart raised money for AI inference infrastructure, the hardware that runs AI models cheaply and quickly.",
+    "dots": "",
     "call": {
-      "thread_id": "t_ai_trust_and_governance",
-      "prediction": "If this pattern is real, expect more AI companies to publish formal risk disclosures or governance structures within about 3 months.",
-      "check_in_days": 90
+      "thread_id": "",
+      "prediction": "",
+      "measure": "",
+      "threshold": "",
+      "window_days": 0,
+      "could_fail_because": "",
+      "confidence": 0
     },
     "quiz": [
       {
-        "question": "Why does Anthropic’s IPO filing matter in today’s digest?",
+        "type": "why",
+        "thread_id": "",
+        "item_ids": [
+          "2e1cf5b0a8"
+        ],
+        "question": "Why does Simplismart raises $14 million for AI inference infrastructure matter?",
         "options": [
-          "It shows public-market scrutiny is forcing detailed AI risk disclosure.",
-          "It means investors are leaving AI stocks entirely.",
-          "It confirms Anthropic has stopped working on safety."
+          "It adds money to a company building systems that run AI models efficiently.",
+          "It confirms a merger with a major cloud provider has been signed.",
+          "It shows the company is shutting down its AI infrastructure business."
         ],
         "answer_index": 0,
-        "why": "The filing lists extreme AI risks before going public."
+        "why": "It should help Simplismart expand its AI inference infrastructure business."
       },
       {
-        "question": "What does Heavy‑AI Cash describe?",
+        "type": "why",
+        "thread_id": "",
+        "item_ids": [
+          "9daa2cd43f"
+        ],
+        "question": "Why does Anthropic’s IPO filing lists blackmail, sentience and extinction risks matter?",
         "options": [
-          "A drop in consumer spending on AI apps.",
-          "Money flowing to AI hardware, sensors, and infrastructure.",
-          "Government rules forcing all AI firms to merge."
+          "It means regulators have already rejected the filing.",
+          "It gives investors a public look at the risks Anthropic says matter before an IPO.",
+          "It proves Anthropic plans to abandon its safety work after listing."
         ],
         "answer_index": 1,
-        "why": "Today’s funding went to inference infrastructure and sensor chips."
+        "why": "Potential investors now have a public risk list before Anthropic goes to market."
+      },
+      {
+        "type": "why",
+        "thread_id": "",
+        "item_ids": [
+          "e8bf52f236"
+        ],
+        "question": "Why does Government plans easier FDI rules for China-linked investments matter?",
+        "options": [
+          "It ends all foreign direct investment from China-linked firms.",
+          "It forces Indian companies to move manufacturing out of China.",
+          "It could make it easier for companies with China ties to invest in India."
+        ],
+        "answer_index": 2,
+        "why": "Could make it easier for companies with China ties to invest in India."
       }
     ]
   },
-  "call": {
-    "made": "2026-10-28",
-    "thread_id": "t_ai_trust_and_governance",
-    "thread_title": "AI Governance Board",
-    "prediction": "If this pattern is real, expect more AI companies to publish formal risk disclosures or governance structures within about 3 months.",
-    "review_by": "2027-01-26",
-    "verdict": null,
-    "verdict_note": ""
-  }
+  "call": null
 }

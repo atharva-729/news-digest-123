@@ -2,76 +2,32 @@
   "date": "2026-10-28",
   "backstory": [
     {
-      "thread_id": "t_ai_power_siting_limits",
-      "item_id": "e2358621b2"
+      "thread_id": "t_india_voter_rolls_tightening",
+      "item_id": "fd3b5ea546"
     },
     {
-      "thread_id": "t_ai_power_siting_limits",
-      "item_id": "27497ce345"
-    },
-    {
-      "thread_id": "t_industrial_hardware_capital",
-      "item_id": "b51bad1ca2"
-    },
-    {
-      "thread_id": "t_industrial_hardware_capital",
-      "item_id": "f32f97457c"
-    },
-    {
-      "thread_id": "t_industrial_hardware_capital",
-      "item_id": "bfaa65444a"
-    },
-    {
-      "thread_id": "t_ai_trust_and_governance",
-      "item_id": "8a93bec2dc"
-    },
-    {
-      "thread_id": "t_india_voter_rolls_and_documentation",
+      "thread_id": "t_india_voter_rolls_tightening",
       "item_id": "2d88de66f0"
-    },
-    {
-      "thread_id": "t_israel_election_fragmentation",
-      "item_id": "7e757c20a5"
-    },
-    {
-      "thread_id": "t_ai_trade_capital_rotation",
-      "item_id": "b40df6e71c"
-    },
-    {
-      "thread_id": "t_ai_trade_capital_rotation",
-      "item_id": "b1fb97205c"
-    },
-    {
-      "thread_id": "t_oil_supply_shocks_mid_east",
-      "item_id": "10dc9f9d16"
-    },
-    {
-      "thread_id": "t_oil_supply_shocks_mid_east",
-      "item_id": "d53385706d"
-    },
-    {
-      "thread_id": "t_oil_supply_shocks_mid_east",
-      "item_id": "43343be81f"
     }
   ],
   "throwbacks": [
     {
-      "item_id": "2e1cf5b0a8",
-      "kind": "same_pattern",
-      "line": "Last week noted an underappreciated Nvidia‑backed AI company growing revenue 123%; today Simplismart raised $14M with NVIDIA participating.",
+      "item_id": "e8bf52f236",
+      "kind": "sequel",
+      "line": "Last week said govt mulled easing FDI rules via PN2; today govt plans further easing for investments linked to China and neighbours.",
       "past": {
-        "id": "3250bd6b16",
-        "date": "2026-10-23",
-        "title": "Not Intel. Not CoreWeave. This Underappreciated Nvidia-Backed Company Is Growing Artificial Intelligence (AI) Revenue by 123%. Here's Why It's a Buy Today for $8.",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcG9BQ0x2T2hkMERBYUQ5dm5NcE9aUEFFY2VEd2hZQnZONVlJSHJNYWQ1alZpdDNxMHlwa2ZScjUtNXZZOEJCYTRYdEZNRExTTkE1Q2V4ZHdCejVfLWRpTHJsRkptdlhLV1pOOG9VOVZkaVlSY29lckVVWVBGMmVtZHFibzNqZUVTcThXZm0yd1VKX2cwLVNsemVWZ0Y3X2U0MUVIV0Jrbw?oc=5",
-        "source": "Yahoo Finance",
-        "section": "tech"
+        "id": "f1b65e2710",
+        "date": "2026-10-27",
+        "title": "Govt Mulls Easing FDI Rules for Border Nations via PN2",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOVQxYWt5UkZZWmk4ZVZ1d3pvcjd3aTBZaTFlNENHT0NCaWd3YXduOWlwRmJLLWxHV3BNMTdOdWVOUEJjcmJTWldMdjFhTmNlWVctZnUwWU05OUVKbS1NX3BzbDVmWFZ4c0hieXBEclpmSHNjanExbTdKR3N6UExEdmxYdEZMS0pmQ1I1Q3RxeGZPeTE0NHNReVNxa3JnUTlBc0Y4S01UY0xTVzlBaTlB0gGvAUFVX3lxTE85VDFha3lSRllaaThlVnV3em9yN3dpMFlpMWU0Q0dPQ0JpZ3dhd245aXBGYkstbEdXcE0xN051ZU5QQmNyYlNaV0x2MWFOY2VZVy1mdTBZTTk5RUptLU1fcHNsNWZYVnhzSGJ5cERyWmZIc2NqcTFtN0pHc3pQTER2bFh0RkxLSmZDUjVDdHF4Zk95MTQ0c1F5U3FrcmdROUFzRjhLTVRjTFNXOUFpOUE?oc=5",
+        "source": "Rediff",
+        "section": "politics_india"
       }
     },
     {
       "item_id": "9daa2cd43f",
       "kind": "sequel",
-      "line": "Last week Anthropic warned of 'catastrophic risks' ahead of its IPO; today its filing lists risks including blackmail and sentience.",
+      "line": "Last week reported Anthropic warned of AI 'catastrophic risks' before IPO; today its IPO filing lists blackmail, sentience and extinction scenarios.",
       "past": {
         "id": "d15b083193",
         "date": "2026-10-26",
@@ -82,41 +38,15 @@
       }
     },
     {
-      "item_id": "f912b976d0",
-      "kind": "same_pattern",
-      "line": "Last week reported Brent hit six‑month highs after Houthi‑Saudi attacks; today a strike on a Saudi refinery again sent crude higher.",
-      "past": {
-        "id": "10dc9f9d16",
-        "date": "2026-10-23",
-        "title": "Boiling Hot: Brent Crude Oil Tops $117 To Hit Six-Month High On Houthi-Saudi Attacks",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPc21WZzFROVg5bG9wdVFRSjBvUDVJcDZ4SmlLT24xc2NGdS00YTktV1RFTWZDNERRdkl4Sm85alJncVBLR0tkQUdNUXpaVF9lZGdlT3Q2MEJDUkpHdENybjZVa0NaN0FGZkYwVlF3VmJtdHgwdHhObWxWdzFudVhyRDdNQ2c4bGV4X2pFa3R5Q2x0c0VFRVFvYzE1eG56OW8wcHdGMnZNdjR0UHVfZXFfcHJNNjhDbzZPSFFjczhMOWFPeXZ20gHMAUFVX3lxTE1SUVVGRVczSkpzTFdXejctUHptSS1WeXVtVkc3b05wd0RoOTBYRGNkRm1zSzNyQi1hY3FPTlFuTk1BeWowMzdoaVQ4SHI2ZFZxclhINFR3emdmRGpiTU84VGVSTEkwbzN4VmlGSXJtYXBxZUhyR3B1T043anQzOXc2OFo1MmthY0NBVlc5WmtfaEg5WndTSUViU2UtOHJrUnFId2xEQjlJeDZ0bm9QeTJQXzVwMXRnLUF2UjRPc01nUUZmZnBGbTB3SnZRSw?oc=5",
-        "source": "NDTV Profit",
-        "section": "markets"
-      }
-    },
-    {
       "item_id": "6012261abf",
-      "kind": "same_pattern",
-      "line": "Last week the US announced $389M for power‑semiconductor R&D; today Nova Spectral raised ₹21.2 Cr to build indigenous infrared sensor chips.",
+      "kind": "cause",
+      "line": "Last week reported Tata‑ASML partnership to support a 300mm fab in Dholera; today Nova Spectral raised ₹21.2Cr to build infrared sensor chips.",
       "past": {
-        "id": "41eee0cf45",
-        "date": "2026-10-22",
-        "title": "US to award $389 million in R&D funds for power semiconductors, critical materials",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeHQ5cE1SRTVJQVJTRFl1bFhjWDR2ZUZ1elVOY2QwWDEtZzhBNVFfbk5NcC1UUG0tNFp5SGpMa1UyeG1mbXJtSzVmZnd5RGpWTlhQZnRPZks5SHZSUWIwSGhRRlJ3T3FpZkpNaFdSUmlObHdvWGlGREh0NTk2YWozaU8zWFVXRjRpdFNaSlVmQ0lwT0JNb3VIbkRoQnZHRzJrTGV1bWQtNlpXU1lsQ3o4amxCVmtQbW8?oc=5",
-        "source": "Reuters",
-        "section": "tech"
-      }
-    },
-    {
-      "item_id": "8b7f3fa5f2",
-      "kind": "same_pattern",
-      "line": "Last week reported a new 14‑inch MacBook Pro with M6; today Apple refreshed the iMac and entry MacBook Pro with the M6 chip.",
-      "past": {
-        "id": "e135aa91bd",
-        "date": "2026-10-27",
-        "title": "New 14‑inch MacBook Pro with M6",
-        "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-        "source": "Hacker News",
+        "id": "be9728c52d",
+        "date": "2026-10-24",
+        "title": "Tata ASML partnership to support 300 mm semiconductor fab in Dholera, Gujarat",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOEpGYlQxdnBDeXJwMHBtTUVnZk5aVUlsZVl6MjhWMjJZc185bmNZdF9leFVMdW15N0djZW1uMHlITzZDQnFsWEtPRzltR3FKRVJiVWJtd21vM3ozbzU1U0lfdk9pOVE1aXpRWnhUbGp1SG80cHE2Ti1FMDRDd2s1TXF0NFFVUHROS0N6WVpXVDVqOFZySW9JQTJJS2tlUUFYYjhlVWphMUFsc2FXb0xvRWctaHRkZURwSnl5eQ?oc=5",
+        "source": "Goodreturns",
         "section": "tech"
       }
     }

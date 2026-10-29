@@ -35,6 +35,17 @@ model:
     gpt-5-nano:   {input: 0.05, cached_input: 0.005, output: 0.40}
     gpt-4.1-mini: {input: 0.40, cached_input: 0.10,  output: 1.60}
 
+# Predictions ("calls"): must be checkable and able to fail.
+calls:
+  cooldown_days: 7          # no second call on a thread within this many days
+  min_confidence: 20
+  max_confidence: 80
+
+# Developing stories: one event with several articles that isn't evidence for any pattern.
+developing:
+  min_articles: 3
+  lookback_days: 7
+
 writing:
   # The one step where voice matters; everything else stays on the cheap default model.
   model: gpt-5.4-mini
@@ -77,8 +88,17 @@ threads:
   forces: [technology, capital, geopolitics, regulation, demographics]   # fixed L3 list
   dormant_after_days: 10
   max_active_threads: 15
-  min_evidence_for_new_thread: 2
-  params: {reasoning_effort: low}   # minimal reasoning rarely grouped items into threads
+  min_events_for_new_thread: 2      # distinct events, not articles: ten reports of one election are one event
+  max_new_evidence_per_day: 4       # per thread; keeps one busy day from turning a thread into a catch-all
+  overlap_similarity: 48            # claim token_set_ratio that flags a look-alike pair (plus a shared force).
+                                    # Calibrated 2026-10-29: real overlaps score ~48-51 because wording differs;
+                                    # the model then decides merge vs distinct, so false alarms are cheap.
+  split_min_events: 10              # a thread with this many events in 14 days is offered a split
+  heating_ratio: 1.5                # events this week vs the thread's average week
+  cooling_ratio: 0.5
+  min_history_days: 14              # younger threads are "new" (< 7 days) or "building"
+  verify_params: {reasoning_effort: low}   # minimal let 'firmware bug -> data-centre slowdown' through
+  params: {reasoning_effort: medium}   # matching ~25 stories to ~20 candidates is the hardest judgement; low skipped merges
 
 # Feeds per section. `gn:` entries are Google News RSS searches (query string only);
 # they are expanded with hl/gl/ceid from google_news below. `when:1d` keeps them fresh.

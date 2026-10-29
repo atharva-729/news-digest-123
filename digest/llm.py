@@ -43,6 +43,13 @@ def _log_usage(tag, model, usage, seconds):
         f.write(json.dumps(row) + "\n")
 
 
+def log_note(tag, **fields):
+    """A non-call row in data/llm_usage.jsonl, e.g. how many proposals a verify pass dropped."""
+    row = {"ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "run_date": today_ist(), "tag": tag, "kind": "note", **fields}
+    with open(DATA / "llm_usage.jsonl", "a", encoding="utf-8") as f:
+        f.write(json.dumps(row) + "\n")
+
+
 def _call(messages, tag="untagged", model=None, **extra):
     """Try `model` (if a step overrides it), then the configured model and each fallback, with backoff on each."""
     cfg = load_config()["model"]
