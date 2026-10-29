@@ -35,8 +35,13 @@
     {% if c.limited %}<span class="limited" title="{{ c.limited_reason or 'only the headline was available' }}">Limited info</span>{% endif %}
   </div>
   <h3 class="headline"><span aria-hidden="true">{{ c.emoji }}</span> {{ c.headline }}</h3>
+  {% if c.limited %}
+  <p class="explain muted">{% if c.limited_reason == "google news link" %}This story came via Google News, which only gives the headline.{% elif c.limited_reason == "publisher blocks AI readers" %}{{ c.source }} doesn't allow AI readers to open its articles, so only its headline is used here.{% else %}Only the headline was available for this story.{% endif %}
+    Rather than guess, there's no explanation; the original link has the full story.</p>
+  {% else %}
   {% if c.explain %}<p class="explain">{{ c.explain }}</p>{% endif %}
   {% if c.why %}<p class="why-line"><b>Why it matters:</b> {{ c.why|hl }}</p>{% endif %}
+  {% endif %}
   {% if c.funding %}
   <p class="meta-line">💰 {{ [c.funding.company, c.funding.amount, c.funding.sector, c.funding.country] | select | join(" · ") }}</p>
   {% endif %}
@@ -66,6 +71,8 @@
       <p class="mast-date">{{ day }}, {{ pretty_date }}</p>
       <h1 class="mast-title">Today's news, <mark>explained simply.</mark></h1>
       <p class="muted">{{ stats.stories }} stories · about {{ minutes }} min · {{ stats.today_threads }} patterns moved today</p>
+      <p class="explainer"><b>New here?</b> <span class="lv lv1">L1</span> what happened · <span class="lv lv2">L2</span> the pattern it's part of ·
+        <span class="lv lv3">L3</span> the force behind it. <a href="index.html#how">How it works</a> · idea by <a href="{{ credit.url }}">{{ credit.name }}</a></p>
     </header>
 
     <section class="tldr">

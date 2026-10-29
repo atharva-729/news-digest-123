@@ -77,10 +77,17 @@ def run(cfg, date):
         t["status"] = compute_status(t, date, cfg["threads"]["dormant_after_days"])
     snap["today"]["backstory"] = added
 
+    # "Same pattern" links only count if both stories really are clues for one thread: today's story is
+    # attached to it and last week's is in its evidence. Otherwise "both about AI" passes as a connection.
+    attached = {a["item_id"]: a["thread_id"] for a in snap["today"]["attached"]}
+    clue_ids = {t["id"]: {e["item_id"] for e in t["evidence"]} for t in snap["threads"]}
     throwbacks, used = [], set()
     for x in result["throwbacks"]:
         if x["item_id"] not in today or x["past_id"] not in past or x["item_id"] in used or not x["line"].strip():
             log.warning("dropping throwback %s <- %s", x["item_id"], x["past_id"])
+            continue
+        if x["kind"] == "same_pattern" and x["past_id"] not in clue_ids.get(attached.get(x["item_id"]), set()):
+            log.info("dropping weak same-pattern link: %s", x["line"])
             continue
         used.add(x["item_id"])
         p = past[x["past_id"]]

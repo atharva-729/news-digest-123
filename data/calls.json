@@ -1,27 +1,27 @@
 [
   {
     "made": "2026-10-27",
-    "thread_id": "t_ai_energy_constraints",
-    "thread_title": "The Power Limit",
-    "prediction": "If this pattern is real, expect more large AI projects to choose cheaper power or face local pushback within about 3 months.",
+    "thread_id": "t_ai_power_siting_limits",
+    "thread_title": "Power & Siting Crunch",
+    "prediction": "If this pattern is real, expect more AI projects to cite power or site delays within about 90 days.",
     "review_by": "2027-01-25",
     "verdict": null,
     "verdict_note": ""
   },
   {
     "made": "2026-10-28",
-    "thread_id": "t_ai_governance_institutionalization",
-    "thread_title": "Governance Guardrails",
-    "prediction": "If this pattern is real, expect more AI labs to publish risk controls or safety disclosures within about 4 months.",
-    "review_by": "2027-02-25",
+    "thread_id": "t_ai_trust_and_governance",
+    "thread_title": "AI Governance Board",
+    "prediction": "If this pattern is real, expect more AI companies to publish formal risk disclosures or governance structures within about 3 months.",
+    "review_by": "2027-01-26",
     "verdict": null,
     "verdict_note": ""
   },
   {
     "made": "2026-10-29",
-    "thread_id": "t_ai_energy_constraints",
-    "thread_title": "The Power Limit",
-    "prediction": "If this pattern is real, expect more government-backed power deals for data centers within about 3 months.",
+    "thread_id": "t_ai_power_siting_limits",
+    "thread_title": "Power & Siting Crunch",
+    "prediction": "If this pattern is real, expect another large power-supply deal for AI data centers within about 90 days.",
     "review_by": "2027-01-27",
     "verdict": null,
     "verdict_note": ""

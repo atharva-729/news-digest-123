@@ -183,7 +183,9 @@ def apply(cfg, date, items, state, result):
         if a["action"] == "none" or i not in items or i in seen or not note:
             continue
         seen.add(i)
-        if tid in defs:  # the model sometimes labels a new-thread key as "attach"
+        if tid not in defs and tid not in threads and tid not in cands and tid[2:] in defs and tid[:2] in ("t_", "c_"):
+            tid = tid[2:]  # the model sometimes writes a new thread's key with our "t_" id prefix
+        if tid in defs:  # it also sometimes labels a new-thread key as "attach"
             defs[tid]["items"].append((i, note))
         elif tid in threads and not threads[tid].get("merged_into"):
             threads[tid]["evidence"].append(evidence(date, items[i], note))

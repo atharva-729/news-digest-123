@@ -30,7 +30,8 @@ def build_index(cfg):
         editions.append({"file": p.name, "date": d, "weekly": weekly, "lead": meta.get("lead", ""),
                          "day": Date.fromisoformat(d).strftime("%d %b").lstrip("0")})
     editions.sort(key=lambda e: (e["date"], not e["weekly"]), reverse=True)  # same day: the daily first
-    render("index.html.j2", SITE / "index.html", editions=editions, credit=cfg["credit"])
+    latest = next((e for e in editions if not e["weekly"]), None)
+    render("index.html.j2", SITE / "index.html", editions=editions, latest=latest, credit=cfg["credit"])
     return len(editions)
 
 

@@ -1,72 +1,72 @@
 {
   "date": "2026-10-28",
-  "subject": "L1·L2·L3 weekly 28 Oct: AI Money, Guardrails, and Power Limits",
-  "lead": "AI Money, Guardrails, and Power Limits",
+  "subject": "L1·L2·L3 weekly 28 Oct: AI money meets power, governance, and siting",
+  "lead": "AI money meets power, governance, and siting",
   "tldr": [
     {
-      "text": "AI funding stayed hot, while bigger firms bought more AI tools.",
-      "highlight": "AI funding stayed hot"
+      "text": "Heavy-AI Cash kept heating as capital moved into chips and hardware.",
+      "highlight": "capital moved into chips and hardware"
     },
     {
-      "text": "Governments and courts tightened AI and voter-roll rules.",
-      "highlight": "tightened AI and voter-roll rules"
+      "text": "AI Governance Board grew as firms formalized risk controls and trust checks.",
+      "highlight": "formalized risk controls"
     },
     {
-      "text": "Power limits and oil shocks kept pressure on costs.",
-      "highlight": "Power limits"
+      "text": "Power & Siting Crunch sharpened as data-centre locations and electricity tightened.",
+      "highlight": "data-centre locations and electricity"
     }
   ],
   "writer": {
-    "headline": "AI Money, Guardrails, and Power Limits",
+    "headline": "AI money meets power, governance, and siting",
     "tldr": [
       {
-        "text": "AI funding stayed hot, while bigger firms bought more AI tools.",
-        "highlight": "AI funding stayed hot"
+        "text": "Heavy-AI Cash kept heating as capital moved into chips and hardware.",
+        "highlight": "capital moved into chips and hardware"
       },
       {
-        "text": "Governments and courts tightened AI and voter-roll rules.",
-        "highlight": "tightened AI and voter-roll rules"
+        "text": "AI Governance Board grew as firms formalized risk controls and trust checks.",
+        "highlight": "formalized risk controls"
       },
       {
-        "text": "Power limits and oil shocks kept pressure on costs.",
-        "highlight": "Power limits"
+        "text": "Power & Siting Crunch sharpened as data-centre locations and electricity tightened.",
+        "highlight": "data-centre locations and electricity"
       }
     ],
     "intro": {
-      "text": "The biggest shift was in AI Money Shift: money kept rushing into AI, from startups to big acquisitions. Governance Guardrails and The Power Limit also heated up, as trust, rules, and electricity became harder to ignore.",
-      "highlight": "money kept rushing into AI"
+      "text": "The biggest move was Heavy-AI Cash: money kept flowing into power semis, custom silicon, and physical AI hardware. AI Governance Board also heated up as firms wrote down risk and governance limits, while Power & Siting Crunch sharpened around electricity and data-centre locations.",
+      "highlight": "Heavy-AI Cash"
     },
     "threads": [
       {
-        "thread_id": "t_ai_capital_rotation",
-        "line": "AI Money Shift heated up because investors kept backing AI startups and big buyers kept spending on AI capabilities."
+        "thread_id": "t_industrial_hardware_capital",
+        "line": "Heavy-AI Cash heated up as funding and industrial capex kept shifting toward power semiconductors, custom silicon, and physical AI hardware, from GaN plants to autonomous excavators and sensor chips."
       },
       {
-        "thread_id": "t_ai_governance_institutionalization",
-        "line": "Governance Guardrails heated up as AI labs and institutions added stricter controls, disclosures, and policy framing."
+        "thread_id": "t_ai_trust_and_governance",
+        "line": "AI Governance Board heated up as Anthropic formalized extreme-risk language in its S-1 and long-term governance plan, while other labs and researchers argued over trust, sourcing, and openness."
       },
       {
-        "thread_id": "t_ai_energy_constraints",
-        "line": "The Power Limit heated up because AI needs more electricity, while supply and siting pressures made expansion harder."
+        "thread_id": "t_ai_trade_capital_rotation",
+        "line": "AI Trade stayed hot as capital rotated back toward tech and AI-linked assets, with broad tech gains and fresh funding for AI-finance and trading products."
       },
       {
-        "thread_id": "t_israel_political_fragmentation",
-        "line": "Fragmented Israel stayed hot as the vote looked split, which points to longer coalition talks."
+        "thread_id": "t_india_voter_rolls_and_documentation",
+        "line": "Roll Tightening advanced as the Election Commission added a declaration to Form 6 and Karnataka’s final rolls showed a sharp drop after SIR deletions."
       },
       {
-        "thread_id": "t_oil_supply_shocks_driving_em_inflation",
-        "line": "Refinery Shock heated up because fresh oil supply scares kept pushing prices up and feeding inflation worries."
+        "thread_id": "t_oil_supply_shocks_mid_east",
+        "line": "Refinery Shock heated up as Middle East attacks and Saudi tensions pushed crude higher and fed through to producer inflation in Malaysia."
       },
       {
-        "thread_id": "t_india_regulatory_pushback",
-        "line": "Regulation vs Press heated up as courts, media, and industry pushed back on new rules."
+        "thread_id": "t_israel_election_fragmentation",
+        "line": "Slow Math moved as turnout stayed high, exit polls delayed the verdict, and Arab-party gains pointed to a more fragmented coalition picture."
       },
       {
-        "thread_id": "t_india_voter_roll_tightening",
-        "line": "Roll Trim heated up because voter-roll deletions and new paperwork drew wider public resistance."
+        "thread_id": "t_ai_power_siting_limits",
+        "line": "Power & Siting Crunch heated up as Anthropic said competition for electricity and data-centre sites is intense, while community backlash and cargo theft added more friction."
       }
     ],
     "calls": [],
-    "watch": "Watch whether AI spending keeps broadening beyond startups into infrastructure and regulated industries. Also watch whether power and oil costs start slowing that expansion, and whether India’s rule changes trigger more legal pushback."
+    "watch": "Watch whether the Heavy-AI Cash and Power & Siting Crunch threads keep converging: more chip fabs, power gear, and data-centre buildouts would confirm that AI expansion is increasingly limited by physical infrastructure. Also watch whether AI Governance Board turns into stricter filing language or real operational constraints."
   }
 }

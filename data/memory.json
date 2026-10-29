@@ -1,51 +1,43 @@
 {
   "threads": {
-    "t_ai_capital_rotation": {
+    "t_ai_power_siting_limits": {
       "next": "2026-10-31",
       "step": 1
     },
-    "t_ai_energy_constraints": {
-      "next": "2026-10-31",
-      "step": 1
-    },
-    "t_ai_governance_institutionalization": {
-      "next": "2026-11-01",
-      "step": 1
-    },
-    "t_india_voter_roll_tightening": {
-      "next": "2026-11-01",
-      "step": 1
-    },
-    "t_israel_political_fragmentation": {
+    "t_industrial_hardware_capital": {
       "next": "2026-10-28",
       "step": 0
     },
-    "t_india_regulatory_pushback": {
-      "next": "2026-10-29",
+    "t_ai_trust_and_governance": {
+      "next": "2026-11-01",
+      "step": 1
+    },
+    "t_india_voter_rolls_and_documentation": {
+      "next": "2026-11-01",
+      "step": 1
+    },
+    "t_israel_election_fragmentation": {
+      "next": "2026-10-28",
       "step": 0
     },
-    "t_oil_supply_shocks_driving_em_inflation": {
-      "next": "2026-10-29",
-      "step": 0
+    "t_ai_trade_capital_rotation": {
+      "next": "2026-10-31",
+      "step": 1
     },
-    "t_bigtech_custom_silicon": {
-      "next": "2026-10-29",
-      "step": 0
-    },
-    "t_bjp_institutional_consolidation": {
+    "t_oil_supply_shocks_mid_east": {
       "next": "2026-10-29",
       "step": 0
     }
   },
   "days": {
-    "2026-10-27": [],
     "2026-10-28": [
-      "t_ai_capital_rotation",
-      "t_ai_energy_constraints"
+      "t_ai_power_siting_limits",
+      "t_ai_trade_capital_rotation"
     ],
     "2026-10-29": [
-      "t_ai_governance_institutionalization",
-      "t_india_voter_roll_tightening"
-    ]
+      "t_ai_trust_and_governance",
+      "t_india_voter_rolls_and_documentation"
+    ],
+    "2026-10-27": []
   }
 }

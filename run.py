@@ -87,6 +87,7 @@ def main():
         out = write.run(cfg, args.date)
         print(f"[write] {out['takes']}/{out['items']} cards ({out['limited']} limited), {out['moves']} pattern moves, "
               f"{out['remember']} remember questions, ~{out['minutes']} min read")
+        print(f"  fact-check: {out['factcheck_changes']} of {out['factchecked']} political/world cards corrected")
         print(f"  call: {out['call']['prediction'] if out['call'] else 'none'}")
         print(f"  {out['path']}")
 
