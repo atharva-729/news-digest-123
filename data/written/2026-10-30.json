@@ -1,0 +1,379 @@
+{
+  "date": "2026-10-30",
+  "subject": "L1·L2·L3 30 Oct: South Korea’s FuriosaAI raised $620 million to make AI chips.",
+  "lead": "South Korea’s FuriosaAI raised $620 million to make AI chips.",
+  "tldr": [
+    {
+      "text": "South Korea’s FuriosaAI raised $620 million to make AI chips.",
+      "highlight": "FuriosaAI raised $620 million"
+    },
+    {
+      "text": "Tensrai raised Rs 3.4 crore to sell physical AI software to work sites.",
+      "highlight": "physical AI software"
+    },
+    {
+      "text": "Israel’s election was inconclusive, with Netanyahu’s bloc leading but no majority.",
+      "highlight": "election was inconclusive"
+    }
+  ],
+  "hero": {
+    "text": "Compute cash is still the biggest pattern today: AI chip and model companies are raising larger rounds to secure compute capacity. FuriosaAI’s $620 million raise and Tensrai’s funding both pushed it forward.",
+    "highlight": "AI chip and model companies"
+  },
+  "cards": {
+    "5ca32abcc5": {
+      "emoji": "🧠",
+      "headline": "South Korea’s FuriosaAI raises $620 million for AI chips",
+      "explain": "FuriosaAI raised $620 million in a Series D round at a $2.9 billion valuation, according to the headline. The company makes AI chips, which are the processors used to run and train AI systems.",
+      "why": {
+        "text": "More capital for AI chipmakers is helping them build supply ahead of rising demand for compute.",
+        "highlight": "More capital for AI chipmakers"
+      }
+    },
+    "109a183807": {
+      "emoji": "🐱",
+      "headline": "Smylo is in talks to raise ₹30 crore for cat food",
+      "explain": "D2C cat food startup Smylo is reportedly in advanced talks to raise about ₹30 crore, mostly as equity with some debt. Founded in 2024 by former Titan Capital executives Abhishek Agrawal and Kartikeya Gupta, it sells wet food, dry food and broths for kittens and adult cats through its site, marketplaces and quick commerce platforms.",
+      "why": {
+        "text": "Fresh funding could help Smylo add products, build a factory and push deeper into India’s pet food market.",
+        "highlight": "Fresh funding could help Smylo"
+      }
+    },
+    "2aa777c1a5": {
+      "emoji": "🏭",
+      "headline": "Venttup raises $3 million to scale industrial manufacturing tech",
+      "explain": "Venttup raised $3 million in a pre-Series A round led by Rainmatter and Unicorn India Ventures. The Kerala Startup Mission incubated company builds manufacturing-as-a-service for precision components and subassemblies, serving sectors like energy, data centres, mobility, defence, aerospace and space.",
+      "why": {
+        "text": "The new money supports more prototyping and manufacturing capacity for industrial customers that need precision parts.",
+        "highlight": "supports more prototyping and manufacturing capacity"
+      }
+    },
+    "56cfe99450": {
+      "emoji": "🤖",
+      "headline": "Coratia Technologies raises Rs 18 crore for underwater robots",
+      "explain": "Coratia Technologies raised Rs 18 crore in a bridge round led by MGF Kavachh. The Odisha startup builds underwater robotic systems and says the money will help it execute a Rs 66 crore Indian Navy contract under iDEX, while expanding R&D and manufacturing.",
+      "why": {
+        "text": "The funding helps Coratia deliver a Navy contract and widen use of its underwater robots beyond defence.",
+        "highlight": "deliver a Navy contract"
+      }
+    },
+    "49002047d7": {
+      "emoji": "🤖",
+      "headline": "Tensrai raises Rs 3.4 crore for physical AI software",
+      "explain": "Hyderabad-based Tensrai raised Rs 3.4 crore in a pre-seed round from India Accelerator, Finvolve, Hyderabad Angels and others. It is building a retrofittable autonomy platform that lets industrial and commercial machines do tasks on their own, including material handling and cleaning.",
+      "why": {
+        "text": "The round gives Tensrai runway to sell autonomy tools to factories, warehouses and other work sites.",
+        "highlight": "sell autonomy tools"
+      }
+    },
+    "a7b10c87a8": {
+      "emoji": "📈",
+      "headline": "Pine Labs says Q2 profit rose 6.5 times",
+      "explain": "Pine Labs reported Q2 net profit of Rs 38.6 crore, up 6.5 times from a year earlier, with revenue rising 24% to Rs 806 crore. The fintech company processes payments and said growth came from online payments, cross-border payments, SMBs and government segments.",
+      "why": {
+        "text": "Its results show faster profit growth even as the company expands into more payment categories and countries.",
+        "highlight": "faster profit growth"
+      }
+    },
+    "dfeee0c427": {
+      "emoji": "🚚",
+      "headline": "Shadowfax reports 5x quarterly profit and 57% revenue growth",
+      "explain": "Shadowfax, which provides logistics and last-mile delivery services to e-commerce platforms and businesses, reported Q2 FY27 profit of Rs 68 crore, up five-fold year on year. Revenue from operations rose 56.6% to Rs 1,538 crore.",
+      "why": {
+        "text": "Strong earnings at a delivery company show how volume growth and cost control are reshaping logistics margins.",
+        "highlight": "delivery company show how"
+      }
+    },
+    "b394caaea4": {
+      "emoji": "🔍",
+      "headline": "Google says AI search earns less as Alphabet shares fall",
+      "explain": "Alphabet reported Q3 revenue of almost $128 billion and net income of more than $26 billion, but its shares fell sharply after the update. The company also said AI search makes less money than organic search, even as it plans to spend more on AI next year.",
+      "why": {
+        "text": "Lower monetization from AI search could pressure how Google funds its next wave of AI spending.",
+        "highlight": "Lower monetization from AI search"
+      }
+    },
+    "e4b7312242": {
+      "emoji": "🌐",
+      "headline": "Reddit says Google’s AI Mode is cutting search referrals",
+      "explain": "Reddit CEO Steve Huffman said Google’s AI-powered search features do not drive traffic to Reddit. He said search referrals in October dropped by more than 1 million on average per week, as AI Mode and AI Overviews change how people search.",
+      "why": {
+        "text": "Falling referrals could make Reddit more dependent on direct users and other sources of traffic.",
+        "highlight": "Falling referrals could make"
+      }
+    },
+    "a5dcc06a1c": {
+      "emoji": "💻",
+      "headline": "Intel says demand for its cheapest laptop chips exceeds supply",
+      "explain": "Intel says demand for its budget Wildcat Lake chips is outstripping supply, and CFO David Zinsner said they are sold out. The chips are showing up in lower-cost Windows laptops as PC makers try to manage higher component costs.",
+      "why": {
+        "text": "Short supply for entry-level chips can affect pricing and availability in the cheapest laptop segment.",
+        "highlight": "Short supply for entry-level chips"
+      }
+    },
+    "ffcfea0a6a": {
+      "emoji": "🏗️",
+      "headline": "Avendus says India can gain from a $3 trillion AI buildout",
+      "explain": "Avendus Capital says India’s new-age manufacturing sector could benefit from a $3 trillion global AI infrastructure investment cycle. It points to defence, aerospace, space tech, robotics, semiconductors, energy transition and advanced materials as the main areas where Indian firms could grow.",
+      "why": {
+        "text": "The report argues that demand for chips, space tech and clean-energy hardware could create a large manufacturing opportunity in India.",
+        "highlight": "create a large manufacturing opportunity"
+      }
+    },
+    "f4c3d10b29": {
+      "emoji": "🛡️",
+      "headline": "IG Defence and Oman’s MSA Global explore drone production",
+      "explain": "India’s IG Defence and Oman’s MSA Global signed an MoU to explore co-developing and locally making drone and counter-drone systems for Oman and the GCC. The agreement is exploratory only, and the company says it covers three systems: KAL, BAJ and JWALA.",
+      "why": {
+        "text": "If the talks advance, the companies could set up regional production for drones and counter-drone systems.",
+        "highlight": "regional production for drones"
+      }
+    },
+    "8a86a20d92": {
+      "emoji": "📰",
+      "headline": "Two youths die in Idukki motorcycle crash; Modi begins Gujarat visit",
+      "explain": "Two youths from Alady and Merikulam died around 1.20 am after their speeding motorcycle hit a concrete roadside post at Parappu Junction near Upputhara in Idukki. Police have registered a case; the bodies will be handed over after postmortem. Separately, Prime Minister Narendra Modi begins a two-day Gujarat visit to launch projects worth Rs 14,000 crore, release the PM-KISAN instalment and open new transport and infrastructure works.",
+      "why": {
+        "text": "The bodies will be handed over after postmortem, and Modi’s Gujarat visit will include project inaugurations and events.",
+        "highlight": "bodies will be handed"
+      }
+    },
+    "a86a1787af": {
+      "emoji": "🏘️",
+      "headline": "Delhi may extend protection for illegal constructions again",
+      "explain": "Delhi’s local bodies have started recommending another three-year extension of the Delhi Laws (Special Provisions) Act, officials said. The law protects illegal construction in unauthorised colonies built before June 2014 from punitive action, and the current extension expires in December 2026. The move comes as only 136 applications have been filed and 22 approved under the PM-JAY regularisation scheme for 1,511 unauthorised colonies.",
+      "why": {
+        "text": "Parliament may again extend the law before December 2026, keeping lakhs of buildings shielded from demolition and sealing action.",
+        "highlight": "before December 2026"
+      }
+    },
+    "49c8b6514a": {
+      "emoji": "🧑‍💼",
+      "headline": "No article text provided",
+      "explain": "No article text was provided, so the card cannot be fact-checked against a source here.",
+      "why": {
+        "text": "No article text was provided.",
+        "highlight": "No article text"
+      }
+    },
+    "e6d2748ac9": {
+      "emoji": "🎓",
+      "headline": "CBSE drops three planned Class 9 curriculum components",
+      "explain": "CBSE said Individuals in Society and the CT and AI modules will not be part of the Class 9 curriculum in 2026-27, and Environmental Education will be excluded when the same batch reaches Class 10 in 2027-28. The board has changed its Class 9 and 10 scheme repeatedly since April, including the rollout of its three-language policy. NCERT’s CT and AI module covers machine learning, misinformation, data privacy and responsible AI use.",
+      "why": {
+        "text": "Schools and students now have the revised schedule for the 2026-27 and 2027-28 academic years.",
+        "highlight": "revised schedule"
+      }
+    },
+    "5e78cac6ef": {
+      "emoji": "🇮🇱",
+      "headline": "Israel election ends in deadlock as Netanyahu’s bloc leads",
+      "explain": "Israel’s final election results go to President Isaac Herzog on November 4, and the new Knesset is due to be sworn in on November 10. Netanyahu’s bloc won 53 of 120 seats, Gadi Eisenkot’s opposition bloc won 48, and Arab-led parties won 19. Herzog will ask one candidate to try forming a government, which needs 61 seats.",
+      "why": {
+        "text": "If no coalition forms after several attempts, Israel could head to another election early next year.",
+        "highlight": "another election early next year"
+      }
+    },
+    "9d91aec7c6": {
+      "emoji": "🇮🇱",
+      "headline": "Israel faces coalition talks after Netanyahu and Eisenkot fall short",
+      "explain": "Final results gave Netanyahu’s bloc 53 seats, Eisenkot’s opposition bloc 48, and Arab parties 19 in the 120-seat Knesset. The piece lays out four ways a government could form: a Netanyahu-led coalition, an Eisenkot-led coalition with Arab support, a national unity government, or fresh elections. No bloc reached the 61-seat majority needed to govern alone.",
+      "why": {
+        "text": "Negotiations now decide whether Israel gets a coalition government or another round of voting.",
+        "highlight": "another round of voting"
+      }
+    },
+    "0ad85e6ed3": {
+      "emoji": "⚔️",
+      "headline": "Ukraine pauses strikes on Russian oil refineries after U.S. pressure",
+      "explain": "Ukraine’s military has temporarily halted strikes on Russian oil refineries, people familiar with the operations said, after weeks of pressure from President Trump. The pause began in mid-October and may last until after the U.S. midterm elections, though it could extend into November. Kyiv has not publicly announced the pause, and Zelensky said Ukraine is still free to hit refineries again.",
+      "why": {
+        "text": "The pause is expected to last until after the U.S. midterm elections.",
+        "highlight": "until after the U.S."
+      }
+    },
+    "b39cbc01db": {
+      "emoji": "💴",
+      "headline": "Yen holds gains after Bank of Japan keeps rates unchanged",
+      "explain": "The yen rose about 0.24% to 157.34 per dollar after the Bank of Japan voted 8-1 to keep rates steady, as expected. The central bank also said Japan’s price trend has reached 2% for the first time. Traders are watching Governor Kazuo Ueda’s press conference, while Japanese stocks and Nikkei futures were under pressure.",
+      "why": {
+        "text": "The BOJ’s steady policy and 2% inflation reading may keep markets focused on when Japan shifts rates further.",
+        "highlight": "when Japan shifts rates"
+      }
+    },
+    "a98eaa8b03": {
+      "emoji": "🛢️",
+      "headline": "Oil prices rise after Houthi attacks on Saudi Arabia",
+      "explain": "The headline says oil prices climbed because of supply concerns after Houthi attacks on Saudi Arabia. No further details are available here.",
+      "why": {
+        "text": "More attacks raise fears of tighter crude supply.",
+        "highlight": "tighter crude supply"
+      }
+    },
+    "cde0f9676a": {
+      "emoji": "🎾",
+      "headline": "Alexander Zverev reaches world No. 1 for first time",
+      "explain": "Zverev beat Tallon Griekspoor 6-4, 7-5 at the Vienna Open to secure the world No. 1 ranking in next week’s ATP standings. The 29-year-old German had already locked up the year-end top spot, but Jannik Sinner’s injury-driven absence opened the door for him to take over sooner. Zverev has won the French Open and US Open this year.",
+      "why": {
+        "text": "He becomes only the 30th man to reach No. 1 since ATP rankings began in 1973.",
+        "highlight": "only the 30th man"
+      }
+    },
+    "8c45b6a372": {
+      "emoji": "🦖",
+      "headline": "Rare Nanotyrannus skeleton sells for $47.3 million at Sotheby’s",
+      "explain": "Sotheby’s sold the most complete Nanotyrannus skeleton, nicknamed Jodi, for $47.3 million after a 12-minute bidding battle. The roughly 67-million-year-old fossil was found in Montana in 2019 and is one of only three mostly complete Nanotyrannus skeletons known. Scientists have only recently argued that Nanotyrannus is its own genus, separate from T. rex.",
+      "why": {
+        "text": "The sale pushes dinosaur fossils deeper into the high-end collector market and out of reach for many museums.",
+        "highlight": "out of reach for many museums"
+      }
+    },
+    "4e605d7487": {
+      "emoji": "🌊",
+      "headline": "Researchers identify first known fully marine amphibian",
+      "explain": "Scientists say two near-complete fossils from southwestern China show a new species, Gerrothorax maritimus, that lived entirely in the sea about 237 million years ago. The armored amphibian had a flat body and features that may have kept salt water from dehydrating it. The fossils were found in deep-sea sediments in Guizhou Province alongside an ancient marine reptile.",
+      "why": {
+        "text": "The find changes what scientists thought amphibians could survive and may help conservation research on salt tolerance.",
+        "highlight": "salt tolerance"
+      }
+    },
+    "cfed78c7b3": {
+      "emoji": "🤖",
+      "headline": "Trump calls foreign-made factory robots a national security threat",
+      "explain": "President Donald Trump issued a proclamation on October 28 saying imports of foreign-made industrial robots pose a national security threat. He ordered new US negotiations with trading partners and left open future tariffs on robot imports. The order could affect manufacturers that use these machines, including General Motors, Ford, Tesla, Boeing and Lockheed Martin.",
+      "why": {
+        "text": "Manufacturers that rely on imported robots could face new trade talks or tariffs on equipment they use in production.",
+        "highlight": ""
+      }
+    }
+  },
+  "factcheck": [
+    {
+      "item_id": "8a86a20d92",
+      "note": "Removed speculative stakes; made why factual"
+    },
+    {
+      "item_id": "49c8b6514a",
+      "note": "Article missing; removed unsupported claim"
+    },
+    {
+      "item_id": "e6d2748ac9",
+      "note": "Replaced interpretive why with factual timing"
+    },
+    {
+      "item_id": "0ad85e6ed3",
+      "note": "Removed unsupported interpretation from why"
+    }
+  ],
+  "page": {
+    "tldr": [
+      {
+        "text": "South Korea’s FuriosaAI raised $620 million to make AI chips.",
+        "highlight": "FuriosaAI raised $620 million"
+      },
+      {
+        "text": "Tensrai raised Rs 3.4 crore to sell physical AI software to work sites.",
+        "highlight": "physical AI software"
+      },
+      {
+        "text": "Israel’s election was inconclusive, with Netanyahu’s bloc leading but no majority.",
+        "highlight": "election was inconclusive"
+      }
+    ],
+    "hero": {
+      "text": "Compute cash is still the biggest pattern today: AI chip and model companies are raising larger rounds to secure compute capacity. FuriosaAI’s $620 million raise and Tensrai’s funding both pushed it forward.",
+      "highlight": "AI chip and model companies"
+    },
+    "scoreboard": [
+      {
+        "thread_id": "t_ai_compute_capital_surge",
+        "line": "FuriosaAI’s $620 million raise pushed AI chip funding higher."
+      },
+      {
+        "thread_id": "t_embodied_ai_hardware_funding",
+        "line": "Tensrai’s Rs 3.4 crore round added to funding for physical AI tools."
+      }
+    ],
+    "forces": [
+      {
+        "force": "capital",
+        "line": "Money flowed into AI chips and physical AI startups through fresh funding rounds."
+      },
+      {
+        "force": "technology",
+        "line": "The funding backed chip design and software for machines that act in the physical world."
+      }
+    ],
+    "pulse_india": "India funding went to D2C pet food, industrial tech, deep-tech robotics, and physical AI software.",
+    "pulse_world": "Outside India, funding went to AI chips in South Korea.",
+    "dots": "India’s state-bank divestment and the AI compute funding surge both show capital moving toward privately owned, high-growth bets.",
+    "call": {
+      "thread_id": "t_regional_chip_buildout",
+      "prediction": "Regional hubs will see more public semiconductor supply-chain expansion announcements.",
+      "measure": "number of public announcements of semiconductor plant, packaging, or supply-chain capacity in regional hubs",
+      "threshold": "at least 2",
+      "window_days": 60,
+      "could_fail_because": "Governments or firms may delay projects, or announcements may come outside the targeted regional hubs.",
+      "confidence": 58
+    },
+    "quiz": [
+      {
+        "type": "evidence",
+        "thread_id": "t_ai_compute_capital_surge",
+        "item_ids": [],
+        "question": "Which of today's stories is evidence for Compute cash?",
+        "options": [
+          "Israel election ends in deadlock as Netanyahu’s bloc leads",
+          "Tensrai raises Rs 3.4 crore for physical AI software",
+          "South Korea’s FuriosaAI raises $620 million for AI chips"
+        ],
+        "answer_index": 2,
+        "why": "It is a large AI chip funding round, exactly the pattern's evidence."
+      },
+      {
+        "type": "force",
+        "thread_id": "",
+        "item_ids": [
+          "5ca32abcc5",
+          "49002047d7"
+        ],
+        "question": "Which force connects South Korea’s FuriosaAI raises $620 million for AI chips and Tensrai raises Rs 3.4 crore for physical AI software?",
+        "options": [
+          "demographics",
+          "capital",
+          "geopolitics"
+        ],
+        "answer_index": 1,
+        "why": "Both stories are venture funding rounds."
+      },
+      {
+        "type": "why",
+        "thread_id": "",
+        "item_ids": [
+          "5ca32abcc5"
+        ],
+        "question": "Why does South Korea’s FuriosaAI raises $620 million for AI chips matter?",
+        "options": [
+          "It shows investors are funding more AI chip capacity ahead of rising compute demand.",
+          "It shows AI chips are becoming cheaper for laptop makers right away.",
+          "It shows the company is shifting from consumer apps into payments."
+        ],
+        "answer_index": 0,
+        "why": "The story says more capital helps build supply for rising compute demand."
+      }
+    ]
+  },
+  "call": {
+    "made": "2026-10-30",
+    "thread_id": "t_regional_chip_buildout",
+    "thread_title": "Fab buildout",
+    "prediction": "Regional hubs will see more public semiconductor supply-chain expansion announcements.",
+    "measure": "number of public announcements of semiconductor plant, packaging, or supply-chain capacity in regional hubs",
+    "threshold": "at least 2",
+    "could_fail_because": "Governments or firms may delay projects, or announcements may come outside the targeted regional hubs.",
+    "confidence": 58,
+    "review_by": "2026-12-29",
+    "verdict": null,
+    "verdict_note": ""
+  }
+}

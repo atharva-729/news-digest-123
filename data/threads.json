@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "threads": [
     {
       "id": "t_ai_core_mega_rounds",
@@ -597,7 +597,7 @@
         "tech"
       ],
       "distinct_events": 5,
-      "status": "active",
+      "status": "cooling",
       "teach": {
         "one_line": "Indian hardware-linked startups are moving toward public listings.",
         "like": "Like graduating from rental car to owning the fleet.",
@@ -1111,6 +1111,16 @@
           "event": "anthropic-claude-duet"
         },
         {
+          "date": "2026-10-24",
+          "item_id": "4a535eced6",
+          "section": "tech",
+          "title": "Here are the top AI agents that can live in your text messages",
+          "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "source": "TechCrunch",
+          "note": "A roundup highlighted AI agents that can live in text messages.",
+          "added_on": "2026-10-30"
+        },
+        {
           "date": "2026-10-28",
           "item_id": "31f30cc340",
           "section": "tech",
@@ -1120,6 +1130,16 @@
           "note": "This story shows major platforms are pushing AI deeper into production workflows because Guidewire bought Hyperexponential to bring AI agents into underwriting and pricing.",
           "mechanism": "This story shows major platforms are pushing AI deeper into production workflows because Guidewire bought Hyperexponential to bring AI agents into underwriting and pricing.",
           "event": "guidewire-hyperexponential-acquisition"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "0bbaf2b44d",
+          "section": "tech",
+          "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore | Amazon Web Services",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRldyOHdWSmREakNkdGgwUmZLMkhWdEt1NlpPWGZmaS1JVEhNeUV0UExEUktoaTk1Q091Rmh3VjlNMnI5a0V1RmFGUmJMTmZIUi1kVTZrQ1hZZmdYcVpfNzFKUXB5SzdjbUVyWUtRZ0V6dVMtZG54MGpJSllnWnF6dXVSc2ctUnpPU25aS1pHbGhGVVU2THFmWVpXTXUwWWZORGx2cU9Qa0VSUQ?oc=5",
+          "source": "Amazon Web Services (AWS)",
+          "note": "AWS introduced an agentic AI platform on Bedrock AgentCore.",
+          "added_on": "2026-10-30"
         }
       ],
       "last_seen": "2026-10-28",
@@ -1239,13 +1259,24 @@
           "source": "qz.com",
           "note": "Last week’s roundup highlighted 10 large funding deals, showing capital was already concentrating in bigger AI rounds.",
           "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-30",
+          "item_id": "5ca32abcc5",
+          "section": "tech",
+          "title": "FuriosaAI raises $620 mn in Series D at $2.9 bn valuation to scale AI chips",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pYmhQdGpLbXZHdzNoREZ5Q19Fb3h5c3JfVTQwOEsydW1BZUw1SDVGU3FOQ0Vmd3I3eC1PbVUtOTlleEIxdjVERFFkUTd3c2ZKX3ZTZWZTZktfY1JWUUJZRGc0TUtkX1h6TlFWMmdR?oc=5",
+          "source": "Beinsure",
+          "note": "This story shows AI chip and model firms are raising bigger capital deals because FuriosaAI raised $620 million in Series D to scale AI chips.",
+          "mechanism": "This story shows AI chip and model firms are raising bigger capital deals because FuriosaAI raised $620 million in Series D to scale AI chips.",
+          "event": "furiosaai-series-d"
         }
       ],
-      "last_seen": "2026-10-23",
+      "last_seen": "2026-10-30",
       "sections": [
         "tech"
       ],
-      "distinct_events": 2,
+      "distinct_events": 3,
       "status": "building",
       "teach": {
         "one_line": "AI chip and model firms are raising larger capital rounds to secure compute capacity.",
@@ -1397,13 +1428,44 @@
           "note": "This story shows venture capital is moving into embodied AI hardware startups because Nova Spectral AI raised Rs 21.15 crore to build physical AI vision products.",
           "mechanism": "This story shows venture capital is moving into embodied AI hardware startups because Nova Spectral AI raised Rs 21.15 crore to build physical AI vision products.",
           "event": "nova-spectral-ai-seed"
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "4dcfcc0d19",
+          "section": "tech",
+          "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+          "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+          "source": "TechCrunch",
+          "note": "Ex-Palantir execs launched Dream with $17 million to build AI world models for construction.",
+          "added_on": "2026-10-30"
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "307f9bebe9",
+          "section": "tech",
+          "title": "These Researchers Used Artificial Intelligence to Design an ‘Animal Robot’ That Has Never Existed",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZzh2YS1JVW14REcxUXl5TVFXc29Qdkc5Y01UZnFpMHBDa1ZuVDRyWTRnel9ZRXVHMU9PTDMxQUhoa3hMa1JpYTZrWGlNWXVXbW1tS2pWa09FTmxSTGFBajF1ck9CeWxuZElLdlVUY2FraFh6VWdXTWZDc2dHbk5xZ1BIY2VNSlJ1MkZiZk9TY0NuenVqVVJvSnV4ZDZmQW8xY2l0YnUwb2thWVpsSHFZQmQ2RktvYjA?oc=5",
+          "source": "Robohub",
+          "note": "Researchers used AI to design an 'animal robot' that has never existed.",
+          "added_on": "2026-10-30"
+        },
+        {
+          "date": "2026-10-30",
+          "item_id": "49002047d7",
+          "section": "tech",
+          "title": "Physical AI startup Tensrai raises Rs 3.4 Cr in pre-seed round",
+          "url": "https://entrackr.com/snippets/physical-ai-startup-tensrai-raises-rs-34-cr-in-pre-seed-round-12764908",
+          "source": "Entrackr",
+          "note": "This story shows venture capital is moving into embodied AI hardware startups because Tensrai raised pre-seed money to accelerate its Physical AI technology.",
+          "mechanism": "This story shows venture capital is moving into embodied AI hardware startups because Tensrai raised pre-seed money to accelerate its Physical AI technology.",
+          "event": "tensrai-pre-seed"
         }
       ],
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-30",
       "sections": [
         "tech"
       ],
-      "distinct_events": 2,
+      "distinct_events": 3,
       "status": "new",
       "teach": {
         "one_line": "Venture capital is shifting toward startups that put AI into physical machines and devices.",
@@ -1504,6 +1566,16 @@
           "note": "This story shows India's election administration is tightening voter-roll checks because Karnataka's final rolls shrank by nearly 1 crore after SIR deletions.",
           "mechanism": "This story shows India's election administration is tightening voter-roll checks because Karnataka's final rolls shrank by nearly 1 crore after SIR deletions.",
           "event": "karnataka-voter-roll-shrink"
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "28ea64b57c",
+          "section": "politics_india",
+          "title": "Day after Supreme Court nudge: Deadline extended for final SIR rolls, filing claims in 6 states",
+          "url": "https://indianexpress.com/article/india/election-commission-final-sir-voter-rolls-filing-claims-objections-delhi-maharashtra-andhra-pradesh-telangana-haryana-nagaland-deadline-extended-10942562/",
+          "source": "Indian Express",
+          "note": "The deadline for final SIR rolls and filing claims was extended in six states.",
+          "added_on": "2026-10-30"
         }
       ],
       "last_seen": "2026-10-27",
@@ -1521,80 +1593,6 @@
     }
   ],
   "candidates": [
-    {
-      "id": "c_india_mineral_policy_reset",
-      "title": "India is resetting mineral policy",
-      "nickname": "Mineral reset",
-      "plain": "India is revising mineral rules for new priorities.",
-      "claim": "India is revising mineral policy around strategic sector priorities.",
-      "forces": [
-        "regulation",
-        "capital"
-      ],
-      "created": "2026-10-20",
-      "evidence": [
-        {
-          "date": "2026-10-20",
-          "item_id": "cfe117d67e",
-          "section": "politics_india",
-          "title": "Government to review 2019 mineral policy amid new sector priorities",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQ09xUmhBckhBd1VHdlRuNGx3MVlrTXFETjFNZFRTVXByZkM4MlhYUVNhMUJkSFlqbmNQT2c5Q2FTLUxBRDFCVXZzdkNiSGhoaVp5eVJFUHF4ejNCZjF6Q2w0ZUtFRGQ4R1pUeHpPa1AzUVBfLWt4NUdSTHpUQnRaZF9GZTVLWlVUYVJmNUZDZHRIQS1FRWpVRV9yY2V3OGNDdFppc1ZDTUI5c3BiVzlEckxoMWFydDNvdnRhcjRubE5WdW83ajRGcU9kcDFueU9nb0NIb1NGOU3SAd4BQVVfeXFMTWFWZW5aa25abWRCd09ocDBMVHNSWjVjNzM1aGFjbWdlSmZnZktUSGFqOUZBaFlIaHg3ckpmdkM0b2sxc2RZQTQyZjVRc1I1ZDRwZ2sxZ1Q3MEZJZFNtYUI3S3kwcVdaSm93b19HdWZTd2pQQ0RkdVplaVB2RVNfNDNaSDU0V2lscjd6Q3B1eGpXcjB0cnl1LWVEYVdsZWh2TVktMmUxX0Z1U0JLM18tWkVYYnpXVkJmbHBReEU1TXhCQXpjX0hGaWx0UWpMNGZadTJMcFVacHhIank1VGVB?oc=5",
-          "source": "The Economic Times",
-          "note": "This story shows India is revising mineral policy around strategic sector priorities because the government will review the 2019 mineral policy amid new sector priorities.",
-          "mechanism": "This story shows India is revising mineral policy around strategic sector priorities because the government will review the 2019 mineral policy amid new sector priorities.",
-          "event": "india-mineral-policy-review"
-        }
-      ]
-    },
-    {
-      "id": "c_india_census_outsourcing",
-      "title": "India is outsourcing census work",
-      "nickname": "Private census",
-      "plain": "India is opening census work to private individuals.",
-      "claim": "India is outsourcing census data collection to private individuals.",
-      "forces": [
-        "regulation"
-      ],
-      "created": "2026-10-20",
-      "evidence": [
-        {
-          "date": "2026-10-20",
-          "item_id": "e0a14ec91d",
-          "section": "politics_india",
-          "title": "Who will collect India’s data? Modi-led government opens census to private individuals",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQa0Z0S3RsVXZIUmpjN0hSM3lCdE13dkxISUNTLVdRWGdIOWFXdi1XOXljUFJnZG0zaFJYdjV2d3prY0N5TTQ2bmhuUEdQU3VOaUtMYnh6aXRQSjBVZHlXektZMzdYTGM5QVk1clF0c2txcHd0WVJjQXJKNVcxZDgyTVhXY2dVeldpcE10X0VYRnFOaThYYlJVcnNFZGhoUTF2TkJIdlVzLVZIZDhCWHc?oc=5",
-          "source": "SabrangIndia",
-          "note": "This story shows India is outsourcing census data collection to private individuals because the Modi-led government is opening census work to private people.",
-          "mechanism": "This story shows India is outsourcing census data collection to private individuals because the Modi-led government is opening census work to private people.",
-          "event": "india-census-private-outsourcing"
-        }
-      ]
-    },
-    {
-      "id": "c_india_power_private_entry",
-      "title": "India is opening power markets",
-      "nickname": "Private power",
-      "plain": "Power regulators are letting private players in.",
-      "claim": "State regulators are opening power distribution to private entrants.",
-      "forces": [
-        "regulation",
-        "capital"
-      ],
-      "created": "2026-10-20",
-      "evidence": [
-        {
-          "date": "2026-10-20",
-          "item_id": "ff379b43ab",
-          "section": "politics_india",
-          "title": "First private player gets Haryana power regulator nod, faces government opposition",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMWR6SWpuUjJvNDhKS1o2M2lQTTZpU2dTZGVvUDhUZ0VxTGhKVE9HV3Jxek9zTU9vbncxLUlhVm5DVjBwYUNFWXlxUk1kZ0kydEFWVmRSX1d2TjJhXzc0NjF1TW1tRmxZMl9MY2hxV0xUSkdnTS1PemF4WUZOQThQNmlTQ25QaHJMNFZNWHlxYWRLSGRwOVJobTNBTExuQWNsYU9mVlpCaEVUd9IBsAFBVV95cUxPMndsaGRPN3loVEVhYzdMTXF6bFdCc3ZrS09UWFBXVTNXSFFBdUhIUGNONGJodXlEMWpsck9rLTVpMFIxWHpQamdRUHJkTnJnMktWM0FwZmtrcF91VThJQ2NjTDYtcDJsRkhndl9fYndMVGFBWlUwcFhwM25TcXJjb1dmSS03Q3pSWGYtQ0dqVVJWQTBibmY1WkM2bnllbHV6MFAxODJYeU5wTTFkY0JwdQ?oc=5",
-          "source": "The Indian Express",
-          "note": "This story shows state regulators are opening power distribution to private entrants because Haryana’s regulator approved the first private player despite government opposition.",
-          "mechanism": "This story shows state regulators are opening power distribution to private entrants because Haryana’s regulator approved the first private player despite government opposition.",
-          "event": "haryana-private-power-regulator-nod"
-        }
-      ]
-    },
     {
       "id": "c_india_voter_roll_purge",
       "title": "Voter roll purge",

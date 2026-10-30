@@ -13,8 +13,8 @@
       "step": 1
     },
     "t_india_ai_rulemaking": {
-      "next": "2026-10-09",
-      "step": 0
+      "next": "2026-11-02",
+      "step": 1
     },
     "t_india_semiconductor_capital_boom": {
       "next": "2026-10-12",
@@ -33,8 +33,8 @@
       "step": 1
     },
     "t_ai_compute_scarcity": {
-      "next": "2026-10-09",
-      "step": 0
+      "next": "2026-11-02",
+      "step": 1
     },
     "t_frontier_ai_safety_scrutiny": {
       "next": "2026-10-10",
@@ -85,6 +85,10 @@
     "2026-10-29": [
       "t_ai_core_mega_rounds",
       "t_ai_assistant_device_spread"
+    ],
+    "2026-10-30": [
+      "t_ai_compute_scarcity",
+      "t_india_ai_rulemaking"
     ]
   }
 }
