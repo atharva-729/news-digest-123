@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-30",
+  "backstory": [
+    {
+      "thread_id": "t_embodied_ai_hardware_funding",
+      "item_id": "4dcfcc0d19"
+    },
+    {
+      "thread_id": "t_embodied_ai_hardware_funding",
+      "item_id": "307f9bebe9"
+    },
+    {
+      "thread_id": "t_india_voter_roll_checks",
+      "item_id": "28ea64b57c"
+    },
+    {
+      "thread_id": "t_ai_in_production_workflows",
+      "item_id": "0bbaf2b44d"
+    },
+    {
+      "thread_id": "t_ai_in_production_workflows",
+      "item_id": "4a535eced6"
+    }
+  ],
+  "throwbacks": [
+    {
+      "item_id": "49002047d7",
+      "kind": "same_pattern",
+      "line": "Last week self-driving excavators drew $600 million in funding; today Tensrai raises pre-seed money for physical AI hardware.",
+      "past": {
+        "id": "5383be2c86",
+        "date": "2026-10-26",
+        "title": "This startup’s self-driving excavators help dig up $600M in new funding",
+        "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+        "source": "TechCrunch",
+        "section": "tech"
+      }
+    },
+    {
+      "item_id": "a7b10c87a8",
+      "kind": "sequel",
+      "line": "Last week WeWork India reported revenue up 34% and profit tripled; today Pine Labs says profit rose 6.5 times.",
+      "past": {
+        "id": "9ed94bfa5b",
+        "date": "2026-10-26",
+        "title": "WeWork India’s Q2 FY27 revenue rises 34% to Rs 768 Cr, profit jumps over 3X",
+        "url": "https://entrackr.com/fintrackr/wework-indias-q2-fy27-revenue-rises-34-to-rs-768-cr-profit-jumps-over-3x-12755184",
+        "source": "Entrackr",
+        "section": "tech"
+      }
+    }
+  ]
+}

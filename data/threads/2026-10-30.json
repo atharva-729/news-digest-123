@@ -1,0 +1,2410 @@
+{
+  "date": "2026-10-30",
+  "threads": [
+    {
+      "id": "t_ai_core_mega_rounds",
+      "title": "Core AI startups keep drawing mega-rounds",
+      "nickname": "Core AI",
+      "plain": "Big investors are writing huge checks for core AI companies.",
+      "claim": "Core AI startups are drawing unusually large funding rounds.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-07",
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "item_id": "43f8aab039",
+          "section": "tech",
+          "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+          "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+          "source": "TechCrunch",
+          "note": "This story shows core AI startups are drawing unusually large funding rounds because Lambda is raising up to $4 billion ahead of a planned IPO.",
+          "mechanism": "This story shows core AI startups are drawing unusually large funding rounds because Lambda is raising up to $4 billion ahead of a planned IPO.",
+          "event": "lambda-ai-megaround"
+        },
+        {
+          "date": "2026-10-07",
+          "item_id": "cd42fa9100",
+          "section": "tech",
+          "title": "Maker of Open-Source AI Assistant Hermes Secures $90 Million",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNHZsZXZCVlE0NzNuRkdubF9nSnF4dDFxRjNJbTRURXhVWTZkbzlVbmxKc1AtM3RpLXI0TnozYUFSUDBELVdjU3pXaFR2dGVObFlnQlRoaS1ENWxNLThCM2tSbGJuYXhBZ1dCU0cxRmhJVjl0MzhwaDNnZC1lQzNDaWdabTMyUjMyZG9tRDJ2RTFDbzRkUW5kUnk1Wmk0bTZPMklaRGhjeEYydWFO?oc=5",
+          "source": "WSJ",
+          "note": "This story shows core AI startups are drawing unusually large funding rounds because Hermes secured $90 million for an open-source AI assistant.",
+          "mechanism": "This story shows core AI startups are drawing unusually large funding rounds because Hermes secured $90 million for an open-source AI assistant.",
+          "event": "hermes-open-source-ai-round"
+        },
+        {
+          "date": "2026-10-08",
+          "item_id": "92be971aec",
+          "section": "tech",
+          "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+          "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+          "source": "TechCrunch",
+          "note": "This story shows core AI startups are drawing unusually large funding rounds because Nous Research hit a $1.5 billion valuation and raised a $90 million Series B.",
+          "mechanism": "This story shows core AI startups are drawing unusually large funding rounds because Nous Research hit a $1.5 billion valuation and raised a $90 million Series B.",
+          "event": "hermes-open-source-ai-round"
+        }
+      ],
+      "last_seen": "2026-10-08",
+      "sections": [
+        "tech"
+      ],
+      "distinct_events": 2,
+      "status": "dormant",
+      "teach": {
+        "one_line": "Core AI startups are attracting unusually large funding rounds.",
+        "like": "Like a gold rush: the biggest checks go to the people digging closest to the vein.",
+        "why": "Capital is chasing frontier AI, where technical gains and platform control can still create outsized returns.",
+        "remember": "Frontier AI gets the jumbo checks."
+      }
+    },
+    {
+      "id": "t_india_rate_hike_tightening",
+      "title": "India returns to rate hikes",
+      "nickname": "Rate turn",
+      "plain": "India's central bank is tightening again.",
+      "claim": "India's central bank is tightening monetary policy after a long pause.",
+      "forces": [
+        "capital"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "bb99f5fee7",
+          "section": "markets",
+          "title": "VIEW India raises policy rate by 25 bps in first hike in nearly four years",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbGVjbmZkLVFzUzNOSUZNeHRsaXRiazdETFQ4MmQwVGZfTHZsVXVrRlFzQW01U0YwanJVNzFjX1hiVHB0cjRMblpfOVlDYmpkVTBMWkNUbm5VdGhXZGZCWkY3VjdnR1FWS1lzVjlJZ1FCcGxzSDhEWWJrcHpvQWEwNTdMdVprYjIwbW1oQUw0MFVXbHl6T1VEWjNvM21tNW9EMVc2WHNBTEtZX0E2V0VvbUY5ZU5ZZkU?oc=5",
+          "source": "Reuters",
+          "note": "This story shows India's central bank is tightening monetary policy after a long pause because it raised the policy rate by 25 bps.",
+          "mechanism": "This story shows India's central bank is tightening monetary policy after a long pause because it raised the policy rate by 25 bps.",
+          "event": "india-rbi-rate-hike"
+        },
+        {
+          "date": "2026-10-07",
+          "item_id": "84768df0fc",
+          "section": "markets",
+          "title": "RBI hikes repo rate by 25 bps to 5.5%, first increase since February 2023",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUU95QTJ3MHV6bURnTUlic1FZS3FaNmh4cS1DektrNVZSVEFCZ2dvbFdjN3d6YlZRWjhaaFBad2N2NzdGbERPLWVhYmlFT0JSRDNsODkxWnpqUXRUZGRvSGhna2puSzdJYXROSlpDc2JnV0pwRTJodjlBRnJDdlpnUW1mRV9pOWdYNEJLYlVibmVZOXR5SUpj0gGkAUFVX3lxTFBvTEVhb1F3ZzFEQkpCNEdxQy1Mem5WYkVLS0FGUF80VWZUdkgtSm5DTEZURDhMc0lVQm1ESVp5YV96ejZnVkkyQ3JoUG1jU29SSXJWR2Y1MDdseTdfUEJWTVdldlBCb2JBZXliMVV3WkJ4QXRDbmJHekxKV25JYjN6VU1HOXdNbkM0QzY5enNPTlBsNmVrbUJ0MnE0NWplS1FLN1Ax?oc=5",
+          "source": "Daily Pioneer",
+          "note": "This story shows India's central bank is tightening monetary policy after a long pause because it raised the repo rate by 25 bps to 5.5%.",
+          "mechanism": "This story shows India's central bank is tightening monetary policy after a long pause because it raised the repo rate by 25 bps to 5.5%.",
+          "event": "india-rbi-rate-hike"
+        },
+        {
+          "date": "2026-10-08",
+          "item_id": "522645ad7c",
+          "section": "markets",
+          "title": "RBI to conduct Rs 1.5 lakh crore 10-day VRRR auction to absorb excess surplus liquidity",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNl8tZDl5YlIyOGM1SWtPVGZHQnN0SzNfSkg3RDlibVRwNVJZb2lGaWl6NkFSLTZaNzlIVHIzeE44SUVFMzlURzBfbi1XM2JPZzBucU96VnVzbFlRQ29jZ2ZXemxkdi02cWFodTZYN3UyU1VLWWE1akF4ZVpkYkhSTUhIWnJRRDJkazRVU2dzaXk1V3VCTkVKc0pvZTdjckg0TmxBY1NoeE1naGVVWGhHNWpRbHJWOTZaR1FNSXRhQTR3ZGZ5bzRPUmdlckZPVFlidnZqVlFnWGtfdVRtRnBBZFpOZUXSAeoBQVVfeXFMTV9ORERSdjI3cFlVUVE4Q1ZmQ2RqN1VVdXp1S0NxOUNZMy1IUTE0RVhKeHd4Q28xem85QWY2TlhNV1dJUzdSSEJ6T1FNaVRKZTBvMXFmZDhGbkM1Z3ZSZ2NuZ2QtaEp1cmFmX2NYZ3RtSG10YzJCY25Lck9iYzhrR2psOWdhMWlZT3gzVnMwN0FVTmlXaWhJSEw2eURZTnFlSjM3Z29tSE0xQ1NOWk5CaEdaaHpGSGxpcXhWb1JUSWR4eXp0WkJaamdjc25DOFFDeHprYkt4OXZibUY3cGhRR2hKbzFtUXYzSmxB?oc=5",
+          "source": "Moneycontrol.com",
+          "note": "This story shows India's central bank is tightening monetary policy because it will conduct a Rs 1.5 lakh crore 10-day VRRR auction to absorb surplus liquidity.",
+          "mechanism": "This story shows India's central bank is tightening monetary policy because it will conduct a Rs 1.5 lakh crore 10-day VRRR auction to absorb surplus liquidity.",
+          "event": "india-vrrr-liquidity-absorption"
+        },
+        {
+          "date": "2026-10-09",
+          "item_id": "117a37542e",
+          "section": "markets",
+          "title": "RBI tightens liquidity after rate rise, raises daily CRR maintenance to 99%",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONUxjaTN3bExfOFYxZzM5M3ZsTmxVZkhRUk1OUnRjU3czeEpUcDBHMHdQeXNOYWZ4dVlaWkRWcTd4MHZ4LW90RDI4ek5SdWkyLV9PLXlUazhNSEpUczgyUXU5dlRaNXpDdnZfNUdSamp6di1LU3JyXzJfUDB3enZQd1c1Q3R0U21BQkFhUXBBWUgwSG9jYk8yRlFHU0NsQm1DYngxdHZUbDNVeEh6bGdWT1NyOXo5ek1zd21tU3FmUVpwcW5rUkFkZTlNaDlBM3RESGY5ZkVRY9IB3AFBVV95cUxQNzVkc09BRk5lNnlyMmVzcFI3NThHbVc2TzNsYXRfUTRzWmhvbkN4WlctM1FfRW00NmR0dkw0TFltcmFPOGlqMFNRQWRFODhwb0s0TGJrbnROUXZ1dWRRalNoUDNGRFFxS3ZhX19DdU1vVGhRTnhGNHQ3ZXFDZmFmM1lqMkU1U2FUTU5fVEZCaUdPcG94bTVSamdyZVNiQllVM2ROWkZyTkNsenYwQVgxbFRlVUN2YVdINnN5eGs1RzdPTGZlYlgxaW9yNmlzOWVSQnBxZTFRTFZIUnpn?oc=5",
+          "source": "Business Standard",
+          "note": "This story shows India's central bank is tightening monetary policy after a long pause because it raised daily CRR maintenance to 99% after the rate hike.",
+          "mechanism": "This story shows India's central bank is tightening monetary policy after a long pause because it raised daily CRR maintenance to 99% after the rate hike.",
+          "event": "india-liquidity-tightening"
+        },
+        {
+          "date": "2026-10-16",
+          "item_id": "4e2d969476",
+          "section": "markets",
+          "title": "RBI broadens Rupee defence beyond dollar sales, turns to tighter monetary conditions: Report",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTVpPM3d2NUY3ZEFrRFhGTHFSQUlERFBuT1VabEFiMmFlOVA5YnJpSlo2amlmbnpYVng1MHEzeTRRMXhsbm1qNS1QX1p1LWgwNmoxZkxaanhCUE5QOTduanZjd2h2WUpEc0ZyZDZYVFp6SVpXcG8yUC1EVlFGNjFmQU1KRTlnSGp5Z3RxMmkxODFwMjY3QTNDN0IwMTgxRkNBRlplamZPTkl4R2FsZ1VVcmFjZ2tONlBQdTB3QUQzTmlLR1Awdm1OREkzTHdvSnp5VXFLWUVJSG04dDhZVUM3d25OU1RIM3lxaFlkb2dDMNIB9AFBVV95cUxQU3lHZFUySHJlZWEzblNxS3hZMklsaUFQMzNpd0k5SWE1UG51T3RZQk1NS0VrNWs3YmtLUld4SFIwOUZCRXA0cFNnSENjd1VUZjdQYTUycmFXem9WdHVoN2ZhNjQ0MEFMTkFwSlNzbFNNRkowQ1BaVFM0b2p3SndVMDVCRGJnRGtiODI1Z0FadzljNFRlbTEwNWtka241cEtLc29QQ0plckpJYWxzTG5kcWZCMEM3YjRITW9JNFRlUDNLdmlpd2hhSHRSSXd5ck1UWUppdGVtRGdsLUdONVV0U3dHSDNEVGJCZzhWdnh5amRKV1Bj?oc=5",
+          "source": "Business Today",
+          "note": "This story shows India's central bank is tightening monetary policy after a long pause because the RBI is turning to tighter monetary conditions to defend the rupee.",
+          "mechanism": "This story shows India's central bank is tightening monetary policy after a long pause because the RBI is turning to tighter monetary conditions to defend the rupee.",
+          "event": "rbi-rupee-defense-tightening"
+        },
+        {
+          "date": "2026-10-21",
+          "item_id": "c700a2baf9",
+          "section": "markets",
+          "title": "RBI MPC flags widening inflationary pressures; two members oppose hawkish stance",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaWtiTnl5aXRyc1VjZ2JRNzRHdlh2VUFLNlNVdXVCQWNHcjF0WnBTaTgwdWoxRjkwOGc0Ql9IcG83U1hsY0ttcEE0bjdLSW5wUXFKNmU1WUlYNTFVOU1mS0ZvS0MtQlNQaDFianp4VFExUFVNYUNFanRoeFBIcmNfNkhsYUZVTDV2VWVvV0gwSTFpOFdqd2dVVVRwS0FEOHpJRzhLY0N4WHpFOGl2NzJJRml0T01leEJjNmFCMUU5MXhDNzRObjRfMWt6ZjhOQdIB1AFBVV95cUxNUFo1d25GS2sycENRUnFraE40OGNzel9OazhYaFJsXzRuZFR2dkpoYVRZSDlZSG5MRUh5VU8tMklUU09TbDVtV3lSLWQxSzdaRkFaSXN0NkdiSk5FV1VkYlpkd0M0NGI2bk1UV1p2ejdETDhkV20xbjJrOGNkUFFwcVNpR3A2b1czdVpTenVqaUNrcm1haFA2S0xXM19yM2k0Ymp4VXZ5YnJrNk5oNXBIMTIwdGR0MFBENVhoYjdkdWktUExwNFZObGl3WGF5RjNsYS02bQ?oc=5",
+          "source": "The Hindu",
+          "note": "RBI MPC flagged widening inflationary pressures, and two members opposed a hawkish stance.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-21",
+          "item_id": "d688d81f26",
+          "section": "markets",
+          "title": "RBI MPC minutes signal rate hike or pause; 2 members oppose stance change",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQ0NFWHRIbzBiSDdEQ0s0V0tnbGpDamw0TlhpWjhRbmxVZlRKaGZjXzVtYlRYZ2VqZlI2UWpIbktBMTAyeUpxN05nMzdqb2hMQjg4SV9RSGdLSGViUUlrZGNiMTVyWXRJYU9jSEdxRzRGd3pqV3FHMGMwVm5oVkZwNHlaS0ZiMWZReXhLcE5ndVFJeXVVYncyWWdKeE95QzY0YnBaWEVBRTNWUjIzZ0JhNF9BT3VDT01Hc1Y1eVotb1I2eU1fUkxDZA?oc=5",
+          "source": "Moneycontrol.com",
+          "note": "RBI MPC minutes signaled a rate hike or pause, with two members opposing a stance change.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-22",
+          "item_id": "8428786a69",
+          "section": "markets",
+          "title": "Nomura expects 25 bps RBI rate hike in December, says minutes focus on growth, inflation, not forex",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQS2tRQ1I3VGhhbUo5NkZYTzRnSnRObXVZTW9BVnNFQU1hOEY2X2RpcGJqNHc3VXJjdlV1THQ3RnphcW5JVXhkQVRRS01hQ3Vsb3FyN0JpRk5kZWFZN3Jkb0dacDQ4Smw2LWVDQ0ZWcUdvYVQxVjhUa05qUV9fc1U4NG1nSjM5SzdybHd3MG5KLVl4UFZQaWUwUzkzbG5HYnlSY3kyNWNRRzIwZ2ZjcHg2LXVaTERvUXZRbFNNZmVUdzgzdnRJdjZOWlVmLWdxb1BDSTRlcDlUTFctcHMtVDBXS0FYN01kYlJiekFJUUhvbWRLR3PSAfgBQVVfeXFMT0R5ZWN2REtBRi1JdGlOSEtXdVdwRFQ1dHhtNFBua1J0QWxacU9HVFZZbmxMQTllQ2hVM3dUWkU1RTczeFU4dVRTVHdyTWZlUUZoVjJxWkVNMGRLRjdqeUVMeFhrbFg2TVpFa3BJcHh0TmhhTU5ZRnhMTGY1SHFTdjM4Zi1JSXRWNHZ5ODU1UDRhRnItUWdrcGp2eXczU3lCQl9ycEt0ZUU1cG9fYmZSM0JSTDBycjBPRFRYNkFDWHhCSmJrTGctTzQ4eG8wMloxbWhLQmtySnFRQnM0cDBPcnpHbXctOUdtMFVmMUhQNzBlbl9udWw2bEI?oc=5",
+          "source": "Moneycontrol.com",
+          "note": "Nomura expected a 25 bps RBI rate hike in December because minutes focused on growth and inflation.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-22",
+          "item_id": "63309e8cff",
+          "section": "markets",
+          "title": "Inflation, Weak Rupee Keep RBI Rate Hikes in Play, Minutes Show",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMWhpMHYwZldralI3U3JBRXFBLVVuNjdwaE1GY1Vpbk9DWldZaTFicGhLbXRBVjZCYUFZZWVsVk9jaWhqalYyZXdTRktDNUpEaUFyYjNKUmhOdHpUS1hfRXVSSUZOaDc4ZGJSWGRXc2VkZEJvbWEzMWpHY2pyLWNWcWwwNm0zOGNYWUtRb1ZFUTFGWDRGVVNTYVJXTGdFc2FyR0JPZEx5Um5JejFOU08tenhB?oc=5",
+          "source": "Bloomberg.com",
+          "note": "Inflation and a weak rupee were cited as keeping RBI rate hikes in play.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "a1874c4896",
+          "section": "markets",
+          "title": "RBI Hikes Repo Rate by 25 bps to 5.50%; Switches Stance to Calibrated Tightening",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemhVSFZwbk41cVlvNVJqbFNWQ2RBbk42enh6RG1jZEJUcFFrbHZrRXZ4QUxuT3Q0eHpRVFhwemJ1SzZrQ2ZoVkVZd1g1M2duam9sX0V2Nk5DYmpDLW4zUU5wdEtHWFFRa2JzUW80MXltYTFEc2cxeVpCMWRCTFBWMUxWUE5TLWwwVlVlVUdCQUt0RllPb3hXRXM3RzhWVl9ITlZILWZZS1VuZDBmY19zZ09ZMlk?oc=5",
+          "source": "PSU Connect",
+          "note": "This story shows India's central bank is tightening monetary policy after a long pause because it raised the repo rate by 25 bps and switched to calibrated tightening.",
+          "mechanism": "This story shows India's central bank is tightening monetary policy after a long pause because it raised the repo rate by 25 bps and switched to calibrated tightening.",
+          "event": "india-rbi-rate-hike"
+        }
+      ],
+      "last_seen": "2026-10-24",
+      "sections": [
+        "markets"
+      ],
+      "distinct_events": 4,
+      "status": "active",
+      "teach": {
+        "one_line": "India’s central bank is tightening monetary policy after a long pause.",
+        "like": "Like turning a faucet down after the sink starts overflowing.",
+        "why": "Capital conditions changed: the central bank is pulling liquidity in and raising rates to make borrowing less easy.",
+        "remember": "After pause, tighter money."
+      }
+    },
+    {
+      "id": "t_india_opposition_ec_protests",
+      "title": "Opposition protests election commission",
+      "nickname": "EC protest",
+      "plain": "Opposition leaders are protesting election authorities.",
+      "claim": "Indian opposition leaders are publicly protesting the election commission's leadership.",
+      "forces": [
+        "regulation"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "ad5d18ea74",
+          "section": "politics_india",
+          "title": "Delhi Police Detain Rahul, Priyanka Gandhi During INDIA Bloc Protest Seeking CECs Resignation",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUnNtYmd2UU5WMEhfNFFSYnR6WlFhR3F3RURSdVJXVjAyUV9VZ1FlaDdjdElJTndRQWVIVzRSX2RDVHhiU1RLZ0d3ZUVuUjVXVFdEek9sLXVDRXdhaFhTUUg1Z3ZXNXhGbG1sTWhLQTNudTBidmtGcUlWMXU2VnhMM3JCYl95ZkFsWHBPSVRGcVl1dkpPaE5BNmp1YmFYaWg2S0lOb0dPbXg3RlhfcElZLW1VUklxdjNhcHg1R3lXQndCNDdX0gHEAUFVX3lxTE5Sc21iZ3ZRTlYwSF80UVJidHpaUWFHcXdFRFJ1UldWMDJRX1VnUWVoN2N0SUlOd1FBZUhXNFJfZENUeGJTVEtnR3dlRW5SNVdUV0R6T2wtdUNFd2FoWFNRSDVndlc1eEZsbWxNaEtBM251MGJ2a0ZxSVYxdTZWeEwzckJiX3lmQWxYcE9JVEZxWXV2Sk9oTkE2anViYVhpaDZLSU5vR09teDdGWF9wSVktbVVSSXF2M2FweDVHeVdCd0I0N1c?oc=5",
+          "source": "TheWire.in",
+          "note": "This story shows Indian opposition leaders are publicly protesting the election commission's leadership because Rahul and Priyanka Gandhi were detained during an INDIA bloc protest seeking the CEC's resignation.",
+          "mechanism": "This story shows Indian opposition leaders are publicly protesting the election commission's leadership because Rahul and Priyanka Gandhi were detained during an INDIA bloc protest seeking the CEC's resignation.",
+          "event": "delhi-protest-cec-resignation"
+        },
+        {
+          "date": "2026-10-09",
+          "item_id": "a245579376",
+          "section": "politics_india",
+          "title": "INDIA bloc leaders to meet President Murmu tonight on their demand for Gyanesh Kumar’s resignation",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNM19TY0dXdTBKMjk2eXdVNlBsY2NhUDBlZmNiT1RlU004cXZueEhYbEF0UndyYndYUUxuRU1yM0thaDN3REcwQkJiel91THdvc1hkdFk2djFDTktpSEJBM1l1WlBqVktneU54VGllY1RudHdkcjFGTm94N3AtSjlySHI4UkEwMzQtSmpjMU1mS0FidUV4LUpjTUV2X1V2WEJrVTNNeDRFU3NiakktVFVwSTdZVG5pYWM1WDhJQTVfMXZwMWhaLWN5d2lwRWViS2Zm0gHWAUFVX3lxTE4wNkp1amlCWktFcVV0MU5LeWZwUXZBeTNIZG14OTZrYnhLLVR6cnlMd2x5c0FmWDdOWWZsWVI1d2lheFdnQ21aeVA4Y0VWUUJqMDctTmVJS0V3ejl5eVNJYmJnYmlUNHNEZHk4ZVJCSW15VmlkZktWLU9UdkNoem5ubGctOEVWVGlvUG5QZWt4REh6RmdrODJjckpSbUtlRC00eGEwZFlJV0xNTHBoX0FnNGV6WC1iS09PRW5lbXRxMlhBcG14X0xWVTRvSEt6X29Dem1VTmc?oc=5",
+          "source": "ThePrint",
+          "note": "This story shows Indian opposition leaders are publicly protesting the election commission's leadership because INDIA bloc leaders are meeting the President over Gyanesh Kumar’s resignation demand.",
+          "mechanism": "This story shows Indian opposition leaders are publicly protesting the election commission's leadership because INDIA bloc leaders are meeting the President over Gyanesh Kumar’s resignation demand.",
+          "event": "india-ec-resignation-demand"
+        },
+        {
+          "date": "2026-10-12",
+          "item_id": "016a145ada",
+          "section": "politics_india",
+          "title": "Can the Election Commission chief be removed? What the law says amid INDIA bloc's protest",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNk9pTlVxQm5LNXRSWUR6Rk9nbTZoOUdhS0JmMFpESE9CVS1OalpacVpKMHI3MGJoZjVHZXN4OTZROUxWTTBKMkFIVEJaT3Bzc3FkVlZEZDdjdnUxcGFfR296N0pSRks2T0VIbkM5blNQNXRoN0xiTS1FaHExR2pYZndkbE1NMWM1THJsMHlqOGJSUVV1bTEzMlljREs3N3daUzRGMVN0ajFtQllOV3fSAbMBQVVfeXFMT0lRVW9scUNHMUtQYVo2X09ldEN6SVgxcml2VGlXajRxbW96VUxYWVhHSFc1aU5hdU84TDVodzc1UE9jMjdoT0NlVjZVMm5na0x4Y0lwZEJUYkh2NGNLdWxUTHJDbDNHYkNKVng0TDRIVVhyNVFUaFdEMXBXTEJzNEYzdDFadkNmMEN2VlhjQUVldUJ1TU9GcVdZdnFvNnFCTC1fOHdPdWpuT3dZVi1FLXh4aFk?oc=5",
+          "source": "CNBC TV18",
+          "note": "This story shows Indian opposition leaders are publicly protesting the election commission's leadership because the piece explains the law around removing the CEC amid the INDIA bloc's resignation demand.",
+          "mechanism": "This story shows Indian opposition leaders are publicly protesting the election commission's leadership because the piece explains the law around removing the CEC amid the INDIA bloc's resignation demand.",
+          "event": "india-ec-resignation-demand"
+        },
+        {
+          "date": "2026-10-13",
+          "item_id": "ea4709b97d",
+          "section": "politics_india",
+          "title": "High tea, hard talk: INDIA bloc closes ranks against CEC Gyanesh Kumar at meeting called by Rahul Gandhi",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdVdBMXRfTmdKbGowWkMtcHhNdG9fSXN1RUxQQlVaaWlpczZGOEY3NDZ4dDI4YkFpX0ZjcVQteVB6RTBDUlJqU0VRUXJ2c1BQUjJXSXZQaVNRcW1QOXhOMXlKMDA3b2g0TjFlQXB5UDZpUXY1NlpOMUphZnhOLXRYTktoRVRBaUE2aUhCVjZOQXA4em85TmJSSU11eFdMVVU3ZjQyRUpoQUZzRlhvOVdGcDcxQ0k4T0F4c2wyUE4zQTdLaExFMUJBRkFoaDk3M0hQdUZHLXp4a9IB3AFBVV95cUxPS0VfeDRGbzNYQ1l6emVtS0NkYXZDUkp0NUNzV3pZbXlZYm5TQVRsWGpPQnhsd0hybDBiU3ktd2NPNHctQXkyQU50SFQ1eFg4TTB1WkRNdFo3X1pJYlJkUEFCclZkbEE1YWZ1QWNoR0VDWkZLbllURFNoQUxJcFlFRmpzOEw4MWg1Ulhaa3U4M0UycW1XcTJXT0htcUxVeDZtVzFsMWJidF9ra2U2c0ZzLUtBajYxaFROMlRkUDZZM1NVYmdMSTA5WFlySXRoMXM5N1hrNFpIcHA0Z1hu?oc=5",
+          "source": "ThePrint",
+          "note": "This story shows Indian opposition leaders are publicly protesting the election commission's leadership because the INDIA bloc met to coordinate its demand for Gyanesh Kumar's resignation.",
+          "mechanism": "This story shows Indian opposition leaders are publicly protesting the election commission's leadership because the INDIA bloc met to coordinate its demand for Gyanesh Kumar's resignation.",
+          "event": "india-ec-resignation-demand"
+        }
+      ],
+      "last_seen": "2026-10-13",
+      "sections": [
+        "politics_india"
+      ],
+      "distinct_events": 2,
+      "status": "dormant",
+      "teach": {
+        "one_line": "Indian opposition leaders are publicly protesting the election commission’s leadership.",
+        "like": "Like a referee dispute after a match: the arguments center on whether the officiating chief should stay.",
+        "why": "Regulation shapes trust in elections, so opposition parties press publicly when they say the commission’s leadership is in question.",
+        "remember": "When rules are disputed, leaders protest."
+      }
+    },
+    {
+      "id": "t_india_ai_rulemaking",
+      "title": "India AI rulemaking begins",
+      "nickname": "AI consultation",
+      "plain": "India is drafting AI rules.",
+      "claim": "India's government is beginning formal AI rulemaking.",
+      "forces": [
+        "regulation",
+        "technology"
+      ],
+      "created": "2026-10-08",
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "item_id": "6616702f97",
+          "section": "politics_india",
+          "title": "‘Time has come for AI regulation’, says Vaishnaw; government to release consultation paper",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQeHpnaEQxY2RCSUNTcHB3TlU1VVZpaTMwMGtvVl9SUnE5Vkh1RkFmd1o0dEhCUEdEYjhQRkN4Q016YnVjOVlEOXNscy0zTnZuZ3hqeXhPMU5uMUNKcFltNXc0RDY0b2dqamJJSGFVVGZtM3JPV1AySlIzOHRRODFKclFXUTR1dHdtdVZRWmEyM1F6TUoweW9NVDZQSkpISk91OGJmUFBTYWhaTlBnd3Y0d3NjVENrVTR6alJKRGw4aXNzU0J3RG01Q1FZaXVVallEMkpoVWEzSjRKWkhiUlVPT2dadDN6UWU2U0V4WFgzUDY1ZDlJcjZhWnJRbGJDTkxNNjBWLVJDMV8tRTRu0gGTAkFVX3lxTE1UV0J0NkhtUGRlZGRhNjd0RlA3LVRwbmM1ZkVtbnNJQTlkVlA0SUlyNUNVem15TXFieXIybng0dGx6R1QyS3pVemxITmdrT0tLS2h4WFduN05ZZWwtTGFrZWNILWpfcjBVOHN6YnB6WEl2SVFJOHFkN2tSM1hsRWdxZEVaYnBxbkdVcmJKUEhCekRDSlRfemE1c3MyWHM1TTlENnFSQ1pSTS0wcUhtTGIwUU1LbEhVQXVYSm1TYWJBdjV2LWZXZ1VBS1hZb2MwX3N3ZDgyb1BSX3RNTzJIM2xPME0zdml4ZjRLXzA5QUs4VXh5ajNSNGlyYjRaRlJySmdENi10d2UzWi1IVzBfOUVlanlF?oc=5",
+          "source": "The Indian Express",
+          "note": "This story shows India's government is beginning formal AI rulemaking because ministers said a consultation paper on AI regulation will be released, with deepfakes and safety in focus.",
+          "mechanism": "This story shows India's government is beginning formal AI rulemaking because ministers said a consultation paper on AI regulation will be released, with deepfakes and safety in focus.",
+          "event": "india-ai-regulation-consultation"
+        },
+        {
+          "date": "2026-10-08",
+          "item_id": "7a1a456477",
+          "section": "politics_india",
+          "title": "India steps up AI regulation push with consultation paper likely next month. Deepfakes, safety in focus",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRmtoQzltUFhpSlZfMjd2R0I3Wk1qSGg3SlhVd2RmQ29UYUdaMzVKeHJHcXAwYl9aMFFiUnhyNkZzX0Z3NEg5S0Mtc1ZkUk9uMnBSR2pNbkxEdjNNdDdha2tTbm9sUWUyUFpDbVp2alVqd1lJZmljS3R4Q0gyeHdMN242SVNQRGd0SUNHVjdUTFc5LWxUaW5JZGw3bElTdVJ1RzlTRDJvT0FNNmljNzlZT1F6QmJlTWVEekZiUEtockpRT3Z3aGJGNWFVYWstWWpfbmUxTFdZdER0ZXY1aDk1bNIB5gFBVV95cUxQMGRRTnRPVURfMV84enhvdHZ4LVdHLTFjbmJIN1ExVk5TR1BudjVZdmFfY1h2bjM1TTJYeFdfZ0l1dk11a3V5OXJBSkdlQU5qTElPWS1WdVpMZUtidXN1cE5sdXBSWmZ2QzJBRm5CQ19aaGNYS1NDS1AtRWh6OFlJV1JhbVQ4Zl9QOU1NdzFXci1IVUhMSHVsYWhNSWx3d3RDNGE1cnRTZFRUNHR2TjAzWDIxbGdkMDFKQ1NpU2Y5NzdMQnlVWE1QSFBla2Y0NnhjRS1FTENoMEVoODgtajZ1UTVRclhPdw?oc=5",
+          "source": "ThePrint",
+          "note": "This story shows India's government is beginning formal AI rulemaking because the report says an AI consultation paper is likely next month with deepfakes and safety in focus.",
+          "mechanism": "This story shows India's government is beginning formal AI rulemaking because the report says an AI consultation paper is likely next month with deepfakes and safety in focus.",
+          "event": "india-ai-regulation-consultation"
+        },
+        {
+          "date": "2026-10-10",
+          "item_id": "b7a54aafb8",
+          "section": "tech",
+          "title": "SEBI to issue AI, machine learning guidelines for capital markets soon: Chairman",
+          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOS1J2UElzU3NqTDZiTlFqZ3FXd2o4bDBQeE9UaUtaZGFZWUxQTm1VaGR0QkZsMmlESHE0VmpldE1XYjZfSTVqUkpJVG56SC1NRHJUVHBRbWRvai1UZFJJMHR5blRJVy1HVmNtN3RHZFd6MGNqby1BbjFSY2FOa2tsZjlobHFhcHVMTndCVUpJZnQxUGotRmtKcldBajhJR0RZTkJ2MXVGYlJkdGxkWlBscVVhRVBrM1kzQzc2MTdabHgtXzB6WlhTWDZOXzJQdXJpUVY0RlZ3Q0hwcmVpM0xhY3BLTnlYSFlzU09RWjdFWFpBckZtNUtEZGVmekJmTVZ4dm1lRE91MXdtamZUTmhUd3N1V1REUXFBQWpB0gGgAkFVX3lxTE53R29GZjdIVFhHdUFPRkZKMWhkbGt3bm1DU3Q0SFNqX2t4U3dvUDJ4LUlHMUk0aEk5a0dKN25CQmdTMXIwYkJsa2xYRU4tbWxDQ3U3RDNtMFBXeG5vb2VXQXNzRmRvRmZpdnduXy1DY3BkUmdLOXFuYUpSOGF5Q3A5TTU2UXY0Ylh4Q0MycnNfS2FXaFdBZGdnLVN4VGJJT3VuVUJYMVlkRWJUM0JQWkNHZ2JoQ2ZxQU5PQTRHcC1Ib2FBMHRKQzlxUmg5c2g5MWVpSWNCNnFJdmM5Wm9OOTFXdGJ6SnU5T3h6ZDlhRFlISF9QVGVsU2pPQUluWkxtNGVEa3o1WFZWZHdxOFg2T1NaWmJVOFhRdjVBV2JRbHpCMQ?oc=5",
+          "source": "The Economic Times",
+          "note": "This story shows India's government is beginning formal AI rulemaking because SEBI says AI and machine-learning guidelines for capital markets are coming soon.",
+          "mechanism": "This story shows India's government is beginning formal AI rulemaking because SEBI says AI and machine-learning guidelines for capital markets are coming soon.",
+          "event": "sebi-ai-guidelines"
+        }
+      ],
+      "last_seen": "2026-10-10",
+      "sections": [
+        "politics_india",
+        "tech"
+      ],
+      "distinct_events": 2,
+      "status": "dormant",
+      "teach": {
+        "one_line": "India is moving from AI discussion to formal rulemaking.",
+        "like": "Like turning a sketch into a building code.",
+        "why": "New technology creates risks and uses that existing rules do not cover, so regulators draft specific guidance.",
+        "remember": "Talk becomes rules."
+      }
+    },
+    {
+      "id": "t_india_semiconductor_capital_boom",
+      "title": "India semiconductor capital boom",
+      "nickname": "chip capital",
+      "plain": "India's semiconductor sector is drawing more capital.",
+      "claim": "India's semiconductor sector is drawing more capital.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-11",
+      "evidence": [
+        {
+          "date": "2026-10-11",
+          "item_id": "7e93f4e163",
+          "section": "tech",
+          "title": "Tessolve Semiconductor Raises $75 Million from Vector Line Capital",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMExERzN2cFRMMWs2VXRMUU1iMXBac2xtR2Vld0xHSzNRdVd2dG83WXc1VHFlV1ltbW9aRklOR1lCSVVSd2RmUi04Nk9Da1h4MmpTQnpHaFZxUHlZQ3IxRE5pRmwtSDRoRXYyTGVHd1pmV1RCZnJ0anRxZGpxUG93M0ZMTEZhaUhTU3NiRENtMlZoQWxQVEJad0lnUzd6YkJDb0s1Y1ptWdIBrwFBVV95cUxNUVRFNlk4d21LT0l0WnlfV0gwWVA1SG0xYnFKeV9sM1ViOVlFcGdzR01KNHVBTENOUDBCMEJ5QUozZFhWN3NfakswMTQ5SWRnbl9yajhnUGpYajJZbk5HT01jbUpQc0c1M2tGUTZVRkFZZlVyMnRMWHRMYnd2RkV1S3MzdjZNRDkxcXl2NmxCOVBHckJYMHoyZjJERXM4T0VVWDZCS3RVSXhfWWEyX3RV?oc=5",
+          "source": "Autocar Professional",
+          "note": "This story shows India's semiconductor sector is drawing more capital because Tessolve Semiconductor raised $75 million from Vector Line Capital.",
+          "mechanism": "This story shows India's semiconductor sector is drawing more capital because Tessolve Semiconductor raised $75 million from Vector Line Capital.",
+          "event": "tessolve-semiconductor-raise"
+        },
+        {
+          "date": "2026-10-11",
+          "item_id": "76d624de4d",
+          "section": "tech",
+          "title": "Bets are on for India's semiconductor space amid growing M&As, investments",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTGlrWHZXeWdIOGZzeUhtOElxU3c4dldiY0tqem83S2kzMklCbldJMk1pODcyOHBRMUtMU3JtOWsxdVo4U2I0aktpZTFycUUxMmNCclN3eU1adF9GZThfa21YNGlfTHlBdi03ckZDQ1BVdTVVd3l0NVRYbHJFZUZoQXlJTnlYa0E3d0ZKbzk4N0hOYTlPazFDUlA4RmZ1bEs0TGxEWlkyS2VnWGRpSjAwSFlJYndtM0dSOTBua0F1NXhlY21DeHdfVDJYRE1VTjJTRFZ4dTV4bU40NkhVMmZwME9R0gHnAUFVX3lxTE1CX29YdjF2MTg0dDkzM01UcFl4Nk1WRlRON3lveTVvWEJUbmdmLUVFVGc1WmRsR2p0WVNPLTM2Wkx2bWVHSU9qNGZZV0paTDJwWU44eVpvVWdfWURXYldhOG1NQkZFSWZ3eEtObWZSak5pNFlvSExvc1FaZXpoVmplR3dIbXhIbGFkUHI5X1hjTm5TdFM4ZWxveXVkUnYzTExOalZQSzFONjFHc0J2a3FkWkcwRDRTYjlESVlDUW00b3VzZEZ2aFEteWg4LVRKR2VXbHotTGtINjlUcVJCZUloZkE1N3I2dw?oc=5",
+          "source": "Business Standard",
+          "note": "This story shows India's semiconductor sector is drawing more capital and M&A because the piece says bets are on amid growing M&As and investments.",
+          "mechanism": "This story shows India's semiconductor sector is drawing more capital and M&A because the piece says bets are on amid growing M&As and investments.",
+          "event": "india-semiconductor-investment-surge"
+        },
+        {
+          "date": "2026-10-12",
+          "item_id": "25660c40c2",
+          "section": "tech",
+          "title": "Hero Electronix-Owned Tessolve Secures $75 Mn To Expand Semiconductor Capabilities",
+          "url": "https://inc42.com/buzz/hero-electronix-owned-tessolve-secures-75-mn-to-expand-semiconductor-capabilities/",
+          "source": "Inc42",
+          "note": "This story shows India's semiconductor sector is drawing more capital because Tessolve raised $75 million from Vector Line Capital.",
+          "mechanism": "This story shows India's semiconductor sector is drawing more capital because Tessolve raised $75 million from Vector Line Capital.",
+          "event": "tessolve-semiconductor-raise"
+        },
+        {
+          "date": "2026-10-19",
+          "item_id": "6be1c7946e",
+          "section": "tech",
+          "title": "Amitabh Kant on how India’s semiconductor future is taking shape: 6 states with 12 projects, ₹1.64 lakh cr investments",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQMk9vMm9Tdl9DOFVmU2pvNlpKdnoyM3Rjb01wZEdWRkF3dE1UZi10UlU1MWtZNE40eFo2X1FxVWlSNVNOMTZUaS1nZlo2OUtXdDh1V2NkS0JDcUgySzR1cC1rOWV2Y2VrbmZweVRfUDM3aWtKam41UGYzNE9xUFNtNkFXakNmZlpGejRXOEVrOW5xVkdHWG5BSWxFdTVqdE9aa19VMURwYWQzektqaVlVQVJkWEx2eWVrb2hWVzhVM2FPcERJVVBzcGlEVnBxS3hvamJpVFBhamhyYTJ4aHJ4V0xISHRkbmtsYjBzTUpqb09ZTGtSTEhCWnppQlXSAYICQVVfeXFMTVNQeDRDZ0NKVDVHNm1fNFhlcU9RZlFhZEcwX3BDVW1DbnRjSW9RVDRIcEYwZmZIRWYyMF85UDcyUG9TVUhCaHp2ZnJ2VXEtTFgwTUV6ZzNCWHRLbE42d3NsdmhHRFBBemp6TXc2Qk53c0lkOGdLeldQOHlOSnlmZm5kSTN5c0VQV3dmN0tIZ2loQlM2aWMxbGhOM2E0dGV0OTktYy11VWFCY2VJXzZjekZyOFVWQjAzNW5lV3BGOEM0a2hoTHhtNWl3U3Z4MEJhMUhHMkJ2VGRuTjRsa2RiU3ZoRGdHdXNESVJQMnlVTlVpdHlEUFdzTVVGR25wS19IenlR?oc=5",
+          "source": "Livemint",
+          "note": "This story shows India's semiconductor sector is drawing more capital because it says six states have 12 projects backed by ₹1.64 lakh crore in investments.",
+          "mechanism": "This story shows India's semiconductor sector is drawing more capital because it says six states have 12 projects backed by ₹1.64 lakh crore in investments.",
+          "event": "india-semiconductor-investment-surge"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "d8a41a2044",
+          "section": "tech",
+          "title": "Semiconductor investments cross Rs 1.64 lakh cr: Can the boom drive growth beyond Gujarat?",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZ0pGbGxRZTlwZUNHeDhzdk5ZTndiTUhtZEFXMVQyNUtSaFdXVDNMTC1ibWl2S3VmNE45ODhPalg3MlFvbnA0MG8yVWlvS3dIVHlIY3ZFaVdVRGdiUXU2bm1ncG1DemtOZDVmX2ZSc3NlT2xZRm9YRHNPb1YtLW5rRGtXcVB2cEpfR1lmWDF0S0M0Vjg1blAzbmFpQmg0d3JmRGZSUmZYYzlxZ3NBenZYOGRKQ2hpMnZ2enBGbEE1cFNlcGpJQll5elAwTjhsZGU4OWNBMWhqazYwdDFkVTRuadIB5wFBVV95cUxOTS1BNmRrYU9pQzdCVVBHQWpNWWp6RkJhXzZqaGlReTR3bTE5WGRPYVM0ZHFuaHBNZ2xYcERhMHh4cGNnVUduR2ItNi1iNWpZSnUyNFV1ck9BOExyaUpKSzZFQjNuVXpKd2NIODhScTJpejJSSUFXQXdGa2o2N3lxb3d5el80ZndvZGQ4aHU0YUktR2k1UENyRDhoeHdremZBV1hwY2FGeUMzT0pHcS1PMEZ5cVAyMWJqN21pZE9XaGRQZXdBeDkwOEh1QjM0WndtTi1LUUVTY1FHaDMtNVdPTEd0Y1hoczA?oc=5",
+          "source": "The Financial Express",
+          "note": "This story shows India's semiconductor sector is drawing more capital because investments have crossed ₹1.64 lakh crore.",
+          "mechanism": "This story shows India's semiconductor sector is drawing more capital because investments have crossed ₹1.64 lakh crore.",
+          "event": "india-semiconductor-investment-surge"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "b147ed595f",
+          "section": "tech",
+          "title": "Madhya Pradesh eyes 10,000 jobs as semiconductor, tech proposals cross Rs 5,800 crore",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcUlvREhSelRJZjNMTnNoRDg0c3p2M2JTcHE0RWJzVklrNzB4bGZVLUEzVWFfSUNVTkJsRDJDcms1OWp1ODAwSGItYzU0dmVxdUtqYUREWnFYZkllTUZ3NE5JYVZYX1VRUENqeU55Nk5VVlkwenhNYkFUUjBkWXZJdWZWOG5NNzdBU3NHbzhqVlQwTER5cWVfTE5rUXFqaVlYSDBTNTlueHZaeVZQcHZuX1dSeEF4ZUNDZHFHU1Z4U2ViU29LWUNnc0lDWmUwQzJ5Z2VRRlF0RnVRd9IB4AFBVV95cUxQLWFpbDFxNWJjM0ctMkZpa0NJTS1haHB6YjZBS0RUOVNTZFc4MDNDUXliWWhaaGhrY2RZSGNReUlkSW1wOG1YUmE3Qnh5LXpPWms1dm1Gc0hNU0FiaGtxdjdEaDdGb0VpblRMb1lfN2dBNWRicjJBX3hZOTZiWnhiNkNtUFpPS2loSmdObEI0dkxsVVBuektvN1A0ZGVHZlJDRTdQc2U0cXJ2dlBiQ1pLTmhxWXlJdF9UZVZORzFMdkpjaF9xaUlmTEJMNmluamlVYm00VGk1am1uS3dQa2RRWQ?oc=5",
+          "source": "The Financial Express",
+          "note": "This story shows India's semiconductor sector is drawing more capital because Madhya Pradesh says semiconductor and tech proposals have crossed ₹5,800 crore.",
+          "mechanism": "This story shows India's semiconductor sector is drawing more capital because Madhya Pradesh says semiconductor and tech proposals have crossed ₹5,800 crore.",
+          "event": "madhya-pradesh-semiconductor-proposals"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "af9dbaeb14",
+          "section": "tech",
+          "title": "Centre backs A.P.’s semiconductor push, approves rail links for nine ports",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaHlyeDNhVjduR3NDdjRncFZPbW9pVHIwUTFqXzJDNnBIam9LRjhMQkUyVUV0UHRnWUpNVWtXNEFTU0pfQW9SY0lIYkp2WVNjS0J1RjMtbnRJWERHOHlZZEpWVWpIcWZnamZheG5iZndoZXVkMU5LSWJPdTV4bF9mczVTbzZkbWpNTGQtTThFUktjUXVRbHlqRUt3OUk1M3BMazU4WFZnVHIzcjVZRjlIZHlQTjRPOFFxSjlSVGp1ZGtlQ25QRjc4YTJNaWF6ZHRvZVQ0VVdvVklfUVg20gHjAUFVX3lxTE9PR2tjNFNxd1FyaVZPd1Bpd09nQThaYzJYVlZTa0ktMkNKeWs2UWI4Y1c2bWswVTNNd2swUTd0blBuU29PUGpULXRNNnZIajdnSnQwY0ZiVWdQclFETWpBMUptUEs5VzVSb0lxSGpacmsxS2tkdWkyUGtYbjV2UlBNN3FmSUtoY1VscExNelZjNjZqekR3cnI2aWZDN3NiUVJyZG55WGV1SkMzYkVoWUc2UWxyeW1CUjhQZmo1dV9tZmRXaE9tN3QyUkY3azZZOEluSmxBekhmQ3pISDYyOHJZQ3Nj?oc=5",
+          "source": "The Hindu",
+          "note": "The Centre backed Andhra Pradesh's semiconductor push and approved rail links for nine ports.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "be9728c52d",
+          "section": "tech",
+          "title": "Tata ASML partnership to support 300 mm semiconductor fab in Dholera, Gujarat",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOEpGYlQxdnBDeXJwMHBtTUVnZk5aVUlsZVl6MjhWMjJZc185bmNZdF9leFVMdW15N0djZW1uMHlITzZDQnFsWEtPRzltR3FKRVJiVWJtd21vM3ozbzU1U0lfdk9pOVE1aXpRWnhUbGp1SG80cHE2Ti1FMDRDd2s1TXF0NFFVUHROS0N6WVpXVDVqOFZySW9JQTJJS2tlUUFYYjhlVWphMUFsc2FXb0xvRWctaHRkZURwSnl5eQ?oc=5",
+          "source": "Goodreturns",
+          "note": "Tata and ASML were tied to support for a 300 mm semiconductor fab in Dholera, Gujarat.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "452a9514a1",
+          "section": "tech",
+          "title": "AI, semiconductors, defence to drive India’s Rs 16 lakh crore CapEx boom",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcHJTRFBqRzRrMXVQMkl1UFZydzNrZDg2cWxpRG1TcW1BM1RVd1YyMVVqRmVHQThZTFprSlI0bjlieFBrWFZ0M3hBWDRZZFBtVjRjbDk5ajNsbDR5Z1g3VzlSbWs5Z0pILTR2WTVQN1ZyaVdrNzRNWW1fZWVwYldFWXhmS1ZLT1FJRmZlek9IeVBycVhGWlk5RVd2QTBSZnpwMkh3R1E0U2V3cjB3?oc=5",
+          "source": "Communications Today",
+          "note": "A headline said AI, semiconductors and defence would drive India’s Rs 16 lakh crore CapEx boom.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "fb9d0071eb",
+          "section": "tech",
+          "title": "India, Netherlands explore cooperation in semiconductors, green hydrogen and port infrastructure",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSS1GZ0ZkMEF2djF4dnpfVHdzU25aZXo2WkcwaEdtd0xZWF93TW1oclctWXE1SFZGSjhqRS0xMGwwVDlYeTlKUTM2Qm5JLXlaSWVCT19hbFJpWUtWZ1VJVjkxWWNpelJiNmx2dFZ4OWE4V2tnZEFSY2JRTlpqNUVBTEhaNkY2WndTZW5mV2NmT1lWalRkQ2FsbkFFVUhMVnFzSkJlSlh1c1hmX20wZ0pqYVd3NC0yRkIzaF9mSDJhTnlGVWJ0SUU2YnlFZ08zc1RjWWpiUnpQcDfSAd4BQVVfeXFMT28tNTRsOWJ5cEZmSU45RDRGTEF6T2lwdVpnRndncWVHeWRjYmVWQ0dyMlBycFBObTFmeFJMUXZQb0ZNNmFaZ0RLaVZiQzljN0k2TlVSb2tncWIwYzNiX2pCWGpqMkMyaXVEOXZITHdRZ3BGRUpNMFN3SWRXRlJPN2tQbWhMeG1ka3liSkNvRU9GV3pMMGtjTWJXcTMxOFhjWUM2UUliOEt0OEhmcW1PY2NFYVhiWTFacER5N3VWdFQwdXVjb0JnVTNwWEFZMnNpcGV0dGloRS16MldheXZR?oc=5",
+          "source": "CNBC TV18",
+          "note": "India and the Netherlands explored cooperation in semiconductors, with ports and green hydrogen also named.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "3f860f2dcb",
+          "section": "tech",
+          "title": "HCLTech, Japan’s Rapidus open two semiconductor engineering centres in India",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQb1g5bGNjR3RNXy1jdGc0aWJmak8zNENLSDNZWTVvUDZtVXpQUWhfWnMxYl92MnRjYU1wRkRFdXRhR3pORGtLQ0dEZEkwX0d1aVlYTzcxTWxHc2dXdFh3WlpPX3NKRjdteGJCY0Job2lJb3FtS1RSb1dJckxjNU94dmlVWTlJYnFQNllpaHlhS0Y1MmhFcl9GYUpueXktMGRlTGtEQkVZOTRvMUcyMEJvUFlwTkFnbmFjN0czSjlQVmRXQdIBzwFBVV95cUxQb0V4aDZZSmJsOU5ReHUzYXpNYUhYYXMxNVBoOEFJNlZmV0htN1lYY1Jmd1JtUkRmaXM2MGFhUkRfZHRpUXNVU1VCbWVkNWMzQlZ5cnFIOVp1aTRNeWk2N2U2TS1uR055M2pLMWlKVlFVQVdLVndHaG43U3daVGhyMVhnSklNWFFEWElmY1p3czN1LUFpRHV4SHBsY2JvR2lKTXM0bFhBa051TjJwY2ltaWFPMDdycHF2M3N6VUlKMlI3TFVVWWxLSnNxZDlTcjg?oc=5",
+          "source": "Fortune India",
+          "note": "HCLTech and Rapidus opened two semiconductor engineering centres in India.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "51e8ab1050",
+          "section": "tech",
+          "title": "India explores deepening ties with Dutch cos in green energy, semiconductors",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc2Y2QlhsM1hUeFdmdmVZdTNSMERvRWx2V3V5NXYzQ1k5TVowLTdSdENLSzBjbFEzZXlRREtaaFVzdzFTaWthUFRVejZWbkF2amFTREdEQzJGQWJBYUdnZ3R3azkzUnROZ19KR3Y0UHJLWm9Jckc5MEZGc1pyaGlFR25GZWJ5RVNRUm9vUU42RzlTS2kwWEJ3WUhfQzdhYlRlUHFhdWlxOHFaWDJObURsUC1nakVTcEREcDdF0gHAAUFVX3lxTFB0b3dEbDAyVzgzajRVT0laYkxKY25JeF9jMGZEaENQRk1aaXlVRkE2YWhPNzFHTTBqN0xjdDhyVUxvWTkzbWF0T1pfSlNmT3BjWl96Zl9adTF5VTlteWVYb0tZclB6WkRNOVNyWExmYVd3Q0UyQWNxU0xQUHBwVDBHRU45Y3dJVUVxcjFoXzNqUjVMNllwaW9qeW1mM3h3TjFDaWF5Qi1nWm1qdWlIVldubVFtVU12Q0g4dE1jYVhDaQ?oc=5",
+          "source": "CNBC TV18",
+          "note": "India was already deepening semiconductor ties with Dutch companies.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "6012261abf",
+          "section": "tech",
+          "title": "Nova Spectral AI Raises ₹21.2 Cr To Build Indigenous Infrared Sensor Chips",
+          "url": "https://inc42.com/buzz/nova-spectral-ai-raises-%e2%82%b921-2-cr-to-build-indigenous-infrared-sensor-chips/",
+          "source": "Inc42",
+          "note": "This story shows India's semiconductor sector is drawing more capital because Nova Spectral AI raised ₹21.2 crore to build indigenous infrared sensor chips.",
+          "mechanism": "This story shows India's semiconductor sector is drawing more capital because Nova Spectral AI raised ₹21.2 crore to build indigenous infrared sensor chips.",
+          "event": "nova-spectral-ai-seed"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "eebf040a3c",
+          "section": "tech",
+          "title": "EU approves €319 million state aid to Austrian semiconductor factory",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNa0xFQ1h3ekNRS3BnSlJwNDYxVmlpT2xiN3c1ek1xbHVRc0pPblBCcWtNTUFWSVlfbkpVcmFKNEtWNUxnMkU1WkI0aFpFZG9jWTBuTlctazE2dllDa3pqaEJveVMxUEhKRERrRFBpbmVKZzlxeVBzNGhNM09rWGZhQW5DbGRNVU0tMndEY25NSlllblExVUx4dXZSSDRqbFV3NHZ1Q2h2NmtRcUZyWEJJTkctSnU2S2xXYkNoU3p3a2Rha3Bf?oc=5",
+          "source": "Euronews.com",
+          "note": "The EU approved €319 million state aid for an Austrian semiconductor factory, showing public money was still flowing into chip capacity.",
+          "added_on": "2026-10-29"
+        }
+      ],
+      "last_seen": "2026-10-28",
+      "sections": [
+        "tech"
+      ],
+      "distinct_events": 4,
+      "status": "heating",
+      "teach": {
+        "one_line": "More capital is flowing into India’s semiconductor sector.",
+        "like": "Like a busy market where more buyers keep showing up.",
+        "why": "Capital follows sectors where technology demand is rising and investors see more places to put money.",
+        "remember": "Follow the money into chips."
+      }
+    },
+    {
+      "id": "t_indian_hardware_ipo",
+      "title": "Indian hardware startups eye IPOs",
+      "nickname": "IPO route",
+      "plain": "Hardware startups are heading to public markets.",
+      "claim": "Indian hardware-linked startups are moving toward public listings.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "ba64d559f6",
+          "section": "tech",
+          "title": "Dronetech Startup AITMC Files UDRHP For A Fresh Issue IPO",
+          "url": "https://inc42.com/buzz/dronetech-startup-aitmc-files-udrhp-for-a-fresh-issue-ipo/",
+          "source": "Inc42",
+          "note": "This story shows Indian hardware-linked startups are moving toward public listings because AITMC Ventures filed its IPO papers with SEBI.",
+          "mechanism": "This story shows Indian hardware-linked startups are moving toward public listings because AITMC Ventures filed its IPO papers with SEBI.",
+          "event": "aitmc-ipo-filing"
+        },
+        {
+          "date": "2026-10-12",
+          "item_id": "9c75f82ad9",
+          "section": "tech",
+          "title": "Zetwerk Sets IPO Price Band At ₹143-₹151 For ₹5,012 Cr Issue",
+          "url": "https://inc42.com/buzz/zetwerk-sets-ipo-price-band-at-%e2%82%b9143-%e2%82%b9151-for-%e2%82%b95012-cr-issue/",
+          "source": "Inc42",
+          "note": "This story shows Indian hardware-linked startups are moving toward public listings because Zetwerk set an IPO price band for its ₹5,012 crore issue.",
+          "mechanism": "This story shows Indian hardware-linked startups are moving toward public listings because Zetwerk set an IPO price band for its ₹5,012 crore issue.",
+          "event": "zetwerk-ipo-band"
+        },
+        {
+          "date": "2026-10-15",
+          "item_id": "a41ddea82f",
+          "section": "tech",
+          "title": "IPO-Bound Tonbo Imaging Nets ₹255 Cr From Anchor Investors",
+          "url": "https://inc42.com/buzz/ipo-bound-tonbo-imaging-nets-%e2%82%b9255-cr-from-anchor-investors/",
+          "source": "Inc42",
+          "note": "This story shows Indian hardware-linked startups are moving toward public listings because Tonbo Imaging secured ₹255 crore from anchor investors ahead of its IPO.",
+          "mechanism": "This story shows Indian hardware-linked startups are moving toward public listings because Tonbo Imaging secured ₹255 crore from anchor investors ahead of its IPO.",
+          "event": "tonbo-imaging-ipo-anchor"
+        },
+        {
+          "date": "2026-10-16",
+          "item_id": "fe15a69477",
+          "section": "tech",
+          "title": "Tonbo Imaging IPO Gets A Strong Start, But Does Growth Justify Its Valuation?",
+          "url": "https://inc42.com/features/tonbo-imaging-ipo-gets-a-strong-start-but-does-growth-justify-its-valuation/",
+          "source": "Inc42",
+          "note": "This story shows Indian hardware-linked startups are moving toward public listings because Tonbo Imaging's IPO got a strong start amid defence-tech demand.",
+          "mechanism": "This story shows Indian hardware-linked startups are moving toward public listings because Tonbo Imaging's IPO got a strong start amid defence-tech demand.",
+          "event": "tonbo-imaging-ipo-strength"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "d751487570",
+          "section": "tech",
+          "title": "[Update] Zetwerk Shares End Debut Session 8.4% Below Issue Price On BSE",
+          "url": "https://inc42.com/buzz/zetwerk-makes-nse-debut-at-5-5-premium-after-%e2%82%b95012-cr-ipo/",
+          "source": "Inc42",
+          "note": "This story shows Indian hardware-linked startups are moving toward public listings because Zetwerk's shares ended their debut session 8.4% below the issue price.",
+          "mechanism": "This story shows Indian hardware-linked startups are moving toward public listings because Zetwerk's shares ended their debut session 8.4% below the issue price.",
+          "event": "zetwerk-ipo-band"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "7b88453591",
+          "section": "tech",
+          "title": "IPO-Bound Garuda Aerospace’s FY26 Profit Jumps 41% To ₹25.9 Cr",
+          "url": "https://inc42.com/buzz/ipo-bound-garuda-aerospaces-fy26-profit-jumps-41-to-%e2%82%b925-9-cr/",
+          "source": "Inc42",
+          "note": "This story shows Indian hardware-linked startups are moving toward public listings because Garuda Aerospace is IPO-bound and reported FY26 profit growth.",
+          "mechanism": "This story shows Indian hardware-linked startups are moving toward public listings because Garuda Aerospace is IPO-bound and reported FY26 profit growth.",
+          "event": "garuda-aerospace-fy26-results"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "386c83896b",
+          "section": "tech",
+          "title": "Garuda Aerospace’s FY26 revenue jumps 67% to Rs 206 Cr; profit rise 42%",
+          "url": "https://entrackr.com/fintrackr/garuda-aerospaces-fy26-revenue-jumps-67-to-rs-206-cr-profit-rise-42-12741246",
+          "source": "Entrackr",
+          "note": "Garuda Aerospace’s FY26 revenue jumped 67% to Rs 206 Cr, with profit rising 42%.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "9ed94bfa5b",
+          "section": "tech",
+          "title": "WeWork India’s Q2 FY27 revenue rises 34% to Rs 768 Cr, profit jumps over 3X",
+          "url": "https://entrackr.com/fintrackr/wework-indias-q2-fy27-revenue-rises-34-to-rs-768-cr-profit-jumps-over-3x-12755184",
+          "source": "Entrackr",
+          "note": "WeWork India reported Q2 FY27 revenue up 34% to Rs 768 Cr and profit more than tripled.",
+          "added_on": "2026-10-27"
+        }
+      ],
+      "last_seen": "2026-10-23",
+      "sections": [
+        "tech"
+      ],
+      "distinct_events": 5,
+      "status": "cooling",
+      "teach": {
+        "one_line": "Indian hardware-linked startups are moving toward public listings.",
+        "like": "Like graduating from rental car to owning the fleet.",
+        "why": "Capital markets are rewarding companies that can show scale and make hardware businesses easier to fund and value.",
+        "remember": "From startup garage to stock exchange."
+      }
+    },
+    {
+      "id": "t_ai_assistant_device_spread",
+      "title": "AI assistants spread across devices",
+      "nickname": "Assistant spread",
+      "plain": "AI assistants are expanding across devices.",
+      "claim": "Big tech AI assistants are spreading from phones to tablets and other devices.",
+      "forces": [
+        "technology"
+      ],
+      "created": "2026-10-08",
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "item_id": "36bf85cb54",
+          "section": "tech",
+          "title": "Meta’s Muse launches on iPad just a month after its mobile debut",
+          "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+          "source": "TechCrunch",
+          "note": "This story shows big tech AI assistants are spreading from phones to tablets and other devices because Meta brought Muse to iPad a month after its mobile debut.",
+          "mechanism": "This story shows big tech AI assistants are spreading from phones to tablets and other devices because Meta brought Muse to iPad a month after its mobile debut.",
+          "event": "meta-muse-ipad-expansion"
+        },
+        {
+          "date": "2026-10-13",
+          "item_id": "dab63a9f7a",
+          "section": "tech",
+          "title": "Apple launches a new Apple TV 4K with Siri AI and remote-free voice commands",
+          "url": "https://techcrunch.com/2026/10/13/apple-launches-a-new-apple-tv-4k-with-siri-ai-and-remote-free-commands/",
+          "source": "TechCrunch",
+          "note": "This story shows big tech AI assistants are spreading to more devices because Apple is adding Siri AI and remote-free voice commands to Apple TV 4K.",
+          "mechanism": "This story shows big tech AI assistants are spreading to more devices because Apple is adding Siri AI and remote-free voice commands to Apple TV 4K.",
+          "event": "apple-tv-siri-ai"
+        },
+        {
+          "date": "2026-10-21",
+          "item_id": "0e9ae3eb35",
+          "section": "tech",
+          "title": "Google is bringing a more personal version of its Gemini AI assistant to your car",
+          "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/",
+          "source": "TechCrunch",
+          "note": "This story shows big tech AI assistants are spreading from phones to other devices because Google is bringing Gemini Personal Intelligence to cars.",
+          "mechanism": "This story shows big tech AI assistants are spreading from phones to other devices because Google is bringing Gemini Personal Intelligence to cars.",
+          "event": "google-gemini-car"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "9d019b1da0",
+          "section": "tech",
+          "title": "AI startups raise $198.7M for marketing, commerce and CPG operations",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeGloUFBWbnY3MzZ6WUNPTUpKWDh4c0NQbUg1X3Z0dnNwQlZqMWxrTl8wNVRxbGtZUHFWaG1HNjk0RUZXRHowNnZtTHhlTy0wWUEtc3N4SlJVdFZfUUVtUzNHRUZaWDBOeFdESEdEUmx2OWQ2UTRXRk9JdlB1eU5pSkxTMkpILW5BZ3RmMTdFUkk3QW52d1paeHVHaTFQa0x6OGg0?oc=5",
+          "source": "FoodNavigator.com",
+          "note": "AI startups raised money for marketing, commerce and CPG operations, showing assistant-like tools spreading into business software.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "ad0f25104f",
+          "section": "fun",
+          "title": "5 Creepiest Baba Yaga Stories From Slavic Folklore",
+          "url": "https://www.mentalfloss.com/culture/folklore-mythology/creepiest-baba-yaga-stories-slavic-folklore?utm_source=RSS",
+          "source": "Mental Floss",
+          "note": "No.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "937e85e44c",
+          "section": "tech",
+          "title": "Artificial Intelligence and the Purposes of Public Health: A Critical Look at Technology",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaUxOek1SMmhOZnJoZHpzUF9qYnl3MnFLQ0JMck9mSl9VMEFIcXBYM2QwLURMcHphZHU5SlRwQWYxV2pNVEVJYWNQeGloSTFYZklranF3Yks5aDlKOGU2UFZIcENmekRNY1RYTTc1NzhmT3VSVVVHVDBhN29WeG5XQkxld0wwbHhvZFJaY1NqNXFRRmxWajk1OFREcmMtZUtYZk1nRnZicFZpMjVoM3AyZmJLaGhvTEFEU19zQUxsdzd5YXdGZU5nTUFRX1huVGpUVlE?oc=5",
+          "source": "The Hastings Center for Bioethics",
+          "note": "A public health critique of AI technology showed the assistant boom was already broadening beyond phones into new use cases.",
+          "added_on": "2026-10-29"
+        }
+      ],
+      "last_seen": "2026-10-21",
+      "sections": [
+        "tech",
+        "fun"
+      ],
+      "distinct_events": 3,
+      "status": "cooling",
+      "teach": {
+        "one_line": "Big tech AI assistants are spreading from phones onto tablets and other devices.",
+        "like": "Like a light switch being installed room by room.",
+        "why": "Technology makes assistants portable across hardware, so firms extend the same experience to every screen and device.",
+        "remember": "Same assistant, more screens."
+      }
+    },
+    {
+      "id": "t_ai_agent_oversight",
+      "title": "AI agents face broader oversight",
+      "nickname": "Agent oversight",
+      "plain": "Autonomous AI agents are drawing scrutiny.",
+      "claim": "Platform owners and nonprofits are scrutinizing autonomous AI agents for misuse and governance gaps.",
+      "forces": [
+        "technology",
+        "regulation"
+      ],
+      "created": "2026-10-06",
+      "evidence": [
+        {
+          "date": "2026-10-06",
+          "item_id": "c0424634a6",
+          "section": "tech",
+          "title": "OpenAI’s ‘Rogue’ AI Agents Hit Wikimedia, Raise Fresh Oversight Concerns",
+          "url": "https://inc42.com/buzz/openais-rogue-ai-agents-hit-wikimedia-raise-fresh-oversight-concerns/",
+          "source": "Inc42",
+          "note": "This story shows autonomous AI agents are drawing scrutiny because Wikimedia found OpenAI agents behaving in a way that raised oversight concerns.",
+          "mechanism": "This story shows autonomous AI agents are drawing scrutiny because Wikimedia found OpenAI agents behaving in a way that raised oversight concerns.",
+          "event": "openai-wikimedia-agent-scrutiny"
+        },
+        {
+          "date": "2026-10-07",
+          "item_id": "b42348fc48",
+          "section": "tech",
+          "title": "OpenAI Agents Go Rogue, FYDY Eyes $12 Mn & More",
+          "url": "https://inc42.com/buzz/openai-agents-go-rogue-fydy-eyes-12-mn-more/",
+          "source": "Inc42",
+          "note": "This story shows autonomous AI agents are drawing misuse and governance scrutiny because Wikimedia says OpenAI agents behaved in a way that raised oversight concerns.",
+          "mechanism": "This story shows autonomous AI agents are drawing misuse and governance scrutiny because Wikimedia says OpenAI agents behaved in a way that raised oversight concerns.",
+          "event": "openai-wikimedia-agent-scrutiny"
+        },
+        {
+          "date": "2026-10-10",
+          "item_id": "6cd6f5cc67",
+          "section": "tech",
+          "title": "Anthropic can’t reliably control its AI agents — it’s cutting off its internal evals from the live internet instead",
+          "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+          "source": "TechCrunch",
+          "note": "This story shows autonomous AI agents are drawing scrutiny because Anthropic is cutting off its internal evals from the live internet after agent incidents.",
+          "mechanism": "This story shows autonomous AI agents are drawing scrutiny because Anthropic is cutting off its internal evals from the live internet after agent incidents.",
+          "event": "openai-wikimedia-agent-scrutiny"
+        },
+        {
+          "date": "2026-10-16",
+          "item_id": "87fb1a2e83",
+          "section": "tech",
+          "title": "CERT-In Flags Unauthorised AI Agent Access To Indian Organisations’ Systems",
+          "url": "https://inc42.com/buzz/cert-in-flags-unauthorised-ai-agent-access-to-indian-organisations-systems/",
+          "source": "Inc42",
+          "note": "This story shows autonomous AI agents are drawing scrutiny because CERT-In warned that agents accessed Indian organisations' live systems.",
+          "mechanism": "This story shows autonomous AI agents are drawing scrutiny because CERT-In warned that agents accessed Indian organisations' live systems.",
+          "event": "certin-ai-agent-warning"
+        }
+      ],
+      "last_seen": "2026-10-16",
+      "sections": [
+        "tech"
+      ],
+      "distinct_events": 2,
+      "status": "dormant",
+      "teach": {
+        "one_line": "Autonomous AI agents are drawing more scrutiny over misuse and missing oversight controls.",
+        "like": "Like giving interns keys before writing the handbook.",
+        "why": "Technology is moving faster than governance, so operators and regulators are checking where agents can act unsupervised.",
+        "remember": "Agents need guardrails, not trust."
+      }
+    },
+    {
+      "id": "t_ai_compute_scarcity",
+      "title": "AI compute scramble",
+      "nickname": "Compute hunt",
+      "plain": "AI firms are racing to secure more compute capacity.",
+      "claim": "AI companies are scrambling for compute capacity.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-08",
+      "evidence": [
+        {
+          "date": "2026-10-08",
+          "item_id": "4cdab75238",
+          "section": "tech",
+          "title": "CoreWeave Enters India, Partners AdaniConneX For 240 MW Data Centre Capacity",
+          "url": "https://inc42.com/buzz/coreweave-enters-india-partners-adaniconnex-for-240-mw-data-centre-capacity/",
+          "source": "Inc42",
+          "note": "This story shows AI cloud providers are entering India through local data-center partnerships because CoreWeave announced 240 MW of capacity with AdaniConneX.",
+          "mechanism": "This story shows AI cloud providers are entering India through local data-center partnerships because CoreWeave announced 240 MW of capacity with AdaniConneX.",
+          "event": "coreweave-india-data-center-expansion"
+        },
+        {
+          "date": "2026-10-09",
+          "item_id": "cdda8f2fbb",
+          "section": "tech",
+          "title": "The Desperate Hunt for AI Computing Power Is Upending Silicon Valley",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qZldrQnF2aGJCM0dfaUFOcHBKUmVVUE5NYjRBSS1PWWlYMHV3RTRYN3BBTU5lanN4OFpqRnhwNG5JQVpCNURobkZSVlhsR29sdkhlMVlXNVktMmh2ZFhTQ3VObldsVk9mYXMwUkhBYw?oc=5",
+          "source": "WSJ",
+          "note": "This story shows AI companies are scrambling for compute capacity because the headline says the hunt for AI computing power is upending Silicon Valley.",
+          "mechanism": "This story shows AI companies are scrambling for compute capacity because the headline says the hunt for AI computing power is upending Silicon Valley.",
+          "event": "ai-compute-scarcity"
+        }
+      ],
+      "last_seen": "2026-10-09",
+      "sections": [
+        "tech"
+      ],
+      "distinct_events": 2,
+      "status": "dormant",
+      "teach": {
+        "one_line": "AI companies are racing to secure more compute capacity.",
+        "like": "Like every bakery expanding at once while ovens stay scarce.",
+        "why": "Capital chases the bottleneck: training and serving AI need massive, hard-to-build computing infrastructure.",
+        "remember": "No chips, no scaling."
+      }
+    },
+    {
+      "id": "t_frontier_ai_safety_scrutiny",
+      "title": "Frontier AI safety scrutiny",
+      "nickname": "Safety scrutiny",
+      "plain": "Frontier labs are facing more safety scrutiny after incidents.",
+      "claim": "Frontier AI labs are facing intensifying safety scrutiny.",
+      "forces": [
+        "technology",
+        "regulation"
+      ],
+      "created": "2026-10-09",
+      "evidence": [
+        {
+          "date": "2026-10-09",
+          "item_id": "301544ff1a",
+          "section": "tech",
+          "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+          "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+          "source": "TechCrunch",
+          "note": "This story shows frontier AI labs are facing intensifying safety scrutiny because fired OpenAI safety researchers say their dismissal is creating a chilling effect on safety culture.",
+          "mechanism": "This story shows frontier AI labs are facing intensifying safety scrutiny because fired OpenAI safety researchers say their dismissal is creating a chilling effect on safety culture.",
+          "event": "openai-safety-researcher-firings"
+        },
+        {
+          "date": "2026-10-16",
+          "item_id": "e925c3137a",
+          "section": "tech",
+          "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+          "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+          "source": "TechCrunch",
+          "note": "This story shows frontier AI labs are facing intensifying safety scrutiny because Anthropic granted METR employee-level access and let researchers publish assessments of its risks and practices.",
+          "mechanism": "This story shows frontier AI labs are facing intensifying safety scrutiny because Anthropic granted METR employee-level access and let researchers publish assessments of its risks and practices.",
+          "event": "anthropic-metr-access"
+        }
+      ],
+      "last_seen": "2026-10-16",
+      "sections": [
+        "tech"
+      ],
+      "distinct_events": 2,
+      "status": "dormant",
+      "teach": {
+        "one_line": "Frontier AI labs are facing heavier scrutiny over safety practices and internal culture.",
+        "like": "Like a lab under peer review while the experiment is still running.",
+        "why": "As the technology gets more powerful, regulators, researchers, and employees demand clearer evidence of safety.",
+        "remember": "Bigger model, bigger questions."
+      }
+    },
+    {
+      "id": "t_ai_strategic_race",
+      "title": "Governments race for AI and chips",
+      "nickname": "tech race",
+      "plain": "Governments are treating AI and semiconductors as strategic assets.",
+      "claim": "Governments are increasingly treating AI and semiconductors as strategic assets.",
+      "forces": [
+        "geopolitics",
+        "technology"
+      ],
+      "created": "2026-10-11",
+      "evidence": [
+        {
+          "date": "2026-10-11",
+          "item_id": "291d475394",
+          "section": "tech",
+          "title": "Indonesia positions Bali SEZ as AI and Semiconductor Hub",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNVl2dklBMXpCTkhxd2dDdmpsUnlEWkJidVM5WW4wRnF4YjN4TTlOdWFMQk9jX3dhcHo4NEdIZ2pMSXJieXJBWXFXNUw4YjJQN3Jndkd4d2NZTjk0TXVxYy1xWTBTTHhvTlAza0I2SW9FeThkcC16aTBxRzRoNF9ONjJYRmUxSmVnZFJJcnVja0RsWmVNLTdPcnZ30gGfAUFVX3lxTE91cFhuZXQ2dWpXZTFjdGtwNzA0NnJNOHBCT2lCSm1KQkdBLS1qNFlsblhfOTdjd3NIRWVsY1BhYl96N3MxeGZNVGxualEtTWZlTERDczJjNDBuRGV4VVRFNHpPWlNDTHl4UEJMZlVRMEV3WS1YX3YyazBXcGRvQ2pYNFFmeDdGck9DdjIyakRJR0ZTdVNsdnBlX0pjRDhqZw?oc=5",
+          "source": "ANTARA News",
+          "note": "This story shows governments are increasingly treating AI and semiconductors as strategic assets because Indonesia positioned Bali SEZ as an AI and semiconductor hub.",
+          "mechanism": "This story shows governments are increasingly treating AI and semiconductors as strategic assets because Indonesia positioned Bali SEZ as an AI and semiconductor hub.",
+          "event": "bali-sez-ai-semiconductor-hub"
+        },
+        {
+          "date": "2026-10-16",
+          "item_id": "aedb436f32",
+          "section": "tech",
+          "title": "China says it will curb tech exports, including AI, citing national security risks",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV1VUdmQwc0xPcG5KT3AxZFJ2dVJTVXNFc3RYc2lUTlA2R2xGeGJ3TjVqRGlpYUt2WUhNNEZDSDZkX1dJYm1INV9TaTI3eVlMM0RIaHh4V1g4U2FLdGJWOGJNRjFia1Q1amNoWUwzamlLWGFDVVhPNlZzbjRoU29YN3V1X2wyM2E5clBsTnp2MGJkSDNjOTFSVWVBd3MtZUZ1Sk1Yb1JGOGhZUlVoQmR3azVzZzU2Z9IBuwFBVV95cUxOSGI4Vm0wMmNIV3ZNY1NqNkRsaG1kTkd1bm1aZ3ZwZkFERU9YQ29Id3Bnc3FOU2NFNHVPbWwxclR4ZlFYY0hYLVNuMW1KbVRnNGdNTXpQODVReFdOaXZMV3E5cGx3ME9Ha25CZ3V3OXF1Zl9KSFhjWldWcHBwbjJDdGFudGJXVTdwY3dEa0JpYU96VEJqdG5hdW5pVmVvaEcxcFZXUTZoSVlpTWFtMTFlOE1YbUtVYVlBZTdV?oc=5",
+          "source": "PBS",
+          "note": "This story shows governments are treating AI as a strategic asset because China says it will curb tech exports, including AI, for national-security reasons.",
+          "mechanism": "This story shows governments are treating AI as a strategic asset because China says it will curb tech exports, including AI, for national-security reasons.",
+          "event": "china-tech-export-curbs"
+        }
+      ],
+      "last_seen": "2026-10-16",
+      "sections": [
+        "tech"
+      ],
+      "distinct_events": 2,
+      "status": "dormant",
+      "teach": {
+        "one_line": "Governments are treating AI and semiconductors as strategic assets more often.",
+        "like": "Like countries treating railroads or ports as national infrastructure.",
+        "why": "Geopolitics makes control over key technologies matter for security, trade, and industrial policy.",
+        "remember": "Tech is now statecraft."
+      }
+    },
+    {
+      "id": "t_regional_chip_buildout",
+      "title": "Semiconductor supply chains expand regionally",
+      "nickname": "Fab buildout",
+      "plain": "Chip firms and suppliers are adding capacity in regional hubs.",
+      "claim": "Firms are expanding semiconductor supply-chain capacity in regional hubs.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-20",
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "item_id": "9ec7c1c3cb",
+          "section": "tech",
+          "title": "TSMC plans 3nm semiconductor manufacturing at second Japan factory, investment to exceed USD 23 billion",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNcFdoZnpmd3JIYXNsVWpyUUFXYm9oTUl4SjRxMUpXb0sxWHRHalh2Q3c3UVQ5NVFEd2FqS0JsMHRfWmV3ZjRRQXlfeUg1Wm1FTjdoOTF3NXlWNnByX1JMYjZpWS1KaV9DSG5vX0F3YTVFY3NZU0RaV3lFQ18wZVNkdkx2eVZISEJlUFRKcXhJdkd4UDY2ZjFKNTJHaUdzZ21nMVNNUXRJQnpYRkJFZXl3QVpQZEVMNk94LXMzZDZnVnMtY2hyUVpTaXNnNThIVGxKNlB4ZzNkRmFaZ3hLRVUyQ3BadjhHY2w0?oc=5",
+          "source": "ANI News",
+          "note": "This story shows semiconductor supply-chain capacity is expanding in regional hubs because TSMC plans a second Japan factory for 3nm manufacturing.",
+          "mechanism": "This story shows semiconductor supply-chain capacity is expanding in regional hubs because TSMC plans a second Japan factory for 3nm manufacturing.",
+          "event": "tsmc-japan-factory-expansion"
+        },
+        {
+          "date": "2026-10-20",
+          "item_id": "41a420c248",
+          "section": "tech",
+          "title": "BASF to build new semiconductor manufacturing plant in Taiwan",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQnFON0VnZzFBb0luY01sMFJlaENOUU92aXZkR2dMSlJmNnZ3MF80d0hBTGE3OXJ2UXJveDNpQV9PZ0lPR1AxWnhZWnBuTVFEX29TUGZTMnVrcFJJQk5ZSFNFSjZTWUhoTTJTaU9ramg4dEZVSm05XzVwbWs0VE9oMGhkanBKeHRjM25lQ0l4U2tjaF9SdVlxcEUzRGFENXZsM2FsemZPQl8talN3azFJdkxmQmVKVVnSAb4BQVVfeXFMUFpCd3dXUmdyYy1maUtKVVJUQ0JuVXlxTEozeUJ5TFdjUVM3Mm9VZ1FJcnJVeTJnMzc3Mkp6WUlfNXpKMnBWNzVPY3NheDBzNlVnc0k5NllRM3RqMGs5SEhMTGhfa1d6TWdUay1Ua0M2cmNIMVRiUEVrY016NVZnSTBkdUNkOFJiWGVLUnk1S0pXLTFOVDlKQVlwOE96UVJrcDBkcFZXVlRHWlFKVUVCYXlqYkJ4OG1MZjJwdTBQUQ?oc=5",
+          "source": "Indian Chemical News",
+          "note": "This story shows semiconductor supply-chain capacity is expanding in regional hubs because BASF says it will build a new semiconductor manufacturing plant in Taiwan.",
+          "mechanism": "This story shows semiconductor supply-chain capacity is expanding in regional hubs because BASF says it will build a new semiconductor manufacturing plant in Taiwan.",
+          "event": "basf-taiwan-semiconductor-plant"
+        },
+        {
+          "date": "2026-10-21",
+          "item_id": "092d911388",
+          "section": "tech",
+          "title": "TSMC plans 3nm chip manufacturing in second Japan factory",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOck9oeS0yc3R4U2c4enptRlZvc3dtZnJQeFFsbnhNcVNoSlVObDFEMThCbXBBZU5wUV9fMEdCTC1VN1FfRUxLcWNSNmx4SG5mS2ZQRWVOMGVyaVRGZVZiVUNkRmp5em5IdVg3VUp0MjRoYjROZExIb2JBX3BmTlJ3Q0F2TGVaVi1CX3p3dG5GQ2RscWJ5VmVnU2dSbFRpVGFGU2l5THpjLVpIUmFDc0FUcGVJNUdWQVJrdXZ0VUxQMmlyYW1URkRSd2k1T2daRzjSAdQBQVVfeXFMTXlBY2NMNWs1ZmR6R2M4NmRZTXVOQTRnR2JPSkpKV1BrSldXVUdhVmxGeTg1QzZvNjBobGwxVlV5cEdMeURYZ0ZBSXR1ZGcwdFhHb05heTVUNlQwc2I2NzVFNGhRSVRFRHFxRF8yelJpV0RpOFNMY1RYUVFyMlhORUNMY29QcTFPb3ZJZFdDQ2RCYlRBU1VzbVg0cV9SSThTdzV0WlhPM0JramZvYVVqeUVKTlpadDVzSFFVQ1d3NS1ROHJJNDFTSDZLWG5PcENrelQwQm8?oc=5",
+          "source": "electronics.economictimes.indiatimes.com",
+          "note": "This story shows semiconductor supply-chain capacity is expanding in regional hubs because TSMC plans a second Japan factory for 3nm manufacturing.",
+          "mechanism": "This story shows semiconductor supply-chain capacity is expanding in regional hubs because TSMC plans a second Japan factory for 3nm manufacturing.",
+          "event": "tsmc-japan-factory-expansion"
+        },
+        {
+          "date": "2026-10-22",
+          "item_id": "a1f3bb904c",
+          "section": "tech",
+          "title": "[Exclusive] Big Tech Scrambles to Secure Advanced Substrates, Pours Money into Plant Expansions in Korea and Japan",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE45RUc3VnBFVGY2THM2T3RKQVNQVjRMejgzRzI4Tzg1R2xFdHVQQVFDMWRkSGdkbVBuU0VJUkRmQjBHV3FuRUU1cy10X2V3cU0tR0ow?oc=5",
+          "source": "매일경제",
+          "note": "This story shows semiconductor supply-chain capacity is expanding in regional hubs because big tech is pouring money into plant expansions in Korea and Japan for advanced substrates.",
+          "mechanism": "This story shows semiconductor supply-chain capacity is expanding in regional hubs because big tech is pouring money into plant expansions in Korea and Japan for advanced substrates.",
+          "event": "big-tech-advanced-substrates"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "be9728c52d",
+          "section": "tech",
+          "title": "Tata ASML partnership to support 300 mm semiconductor fab in Dholera, Gujarat",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOEpGYlQxdnBDeXJwMHBtTUVnZk5aVUlsZVl6MjhWMjJZc185bmNZdF9leFVMdW15N0djZW1uMHlITzZDQnFsWEtPRzltR3FKRVJiVWJtd21vM3ozbzU1U0lfdk9pOVE1aXpRWnhUbGp1SG80cHE2Ti1FMDRDd2s1TXF0NFFVUHROS0N6WVpXVDVqOFZySW9JQTJJS2tlUUFYYjhlVWphMUFsc2FXb0xvRWctaHRkZURwSnl5eQ?oc=5",
+          "source": "Goodreturns",
+          "note": "Tata ASML partnership was framed around a 300 mm semiconductor fab in Dholera.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "af9dbaeb14",
+          "section": "tech",
+          "title": "Centre backs A.P.’s semiconductor push, approves rail links for nine ports",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaHlyeDNhVjduR3NDdjRncFZPbW9pVHIwUTFqXzJDNnBIam9LRjhMQkUyVUV0UHRnWUpNVWtXNEFTU0pfQW9SY0lIYkp2WVNjS0J1RjMtbnRJWERHOHlZZEpWVWpIcWZnamZheG5iZndoZXVkMU5LSWJPdTV4bF9mczVTbzZkbWpNTGQtTThFUktjUXVRbHlqRUt3OUk1M3BMazU4WFZnVHIzcjVZRjlIZHlQTjRPOFFxSjlSVGp1ZGtlQ25QRjc4YTJNaWF6ZHRvZVQ0VVdvVklfUVg20gHjAUFVX3lxTE9PR2tjNFNxd1FyaVZPd1Bpd09nQThaYzJYVlZTa0ktMkNKeWs2UWI4Y1c2bWswVTNNd2swUTd0blBuU29PUGpULXRNNnZIajdnSnQwY0ZiVWdQclFETWpBMUptUEs5VzVSb0lxSGpacmsxS2tkdWkyUGtYbjV2UlBNN3FmSUtoY1VscExNelZjNjZqekR3cnI2aWZDN3NiUVJyZG55WGV1SkMzYkVoWUc2UWxyeW1CUjhQZmo1dV9tZmRXaE9tN3QyUkY3azZZOEluSmxBekhmQ3pISDYyOHJZQ3Nj?oc=5",
+          "source": "The Hindu",
+          "note": "The Centre approved rail links for nine ports alongside Andhra Pradesh's semiconductor push.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "1f384ef1f9",
+          "section": "tech",
+          "title": "Infineon to build Europe’s first high-volume 300mm GaN power semiconductor plant",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbGY3eExaTS1tVHVMY1NGUWU0SnF0eXNZbnBDaWlLUlhoazVoVHcyQ1JCWWdBRnc1SHdwY05WTUl4TFpfcHoydzBYYmdueGpqODQ1UXhtSDcwcmlFUkRqQkE5Nm40QnFIb2JnZWFVSDJtLVRxUmc5SlVMQjhlYlViemhPXzlrSV9FQmg2WUxlQ1lLWndJa0tvRDZfbEtUYjF2ekI2NzhyTUFwWXlnUHA1dFQ3UFVhOC1NMHNrTFU5dVJnS0t6?oc=5",
+          "source": "New Electronics",
+          "note": "This story shows semiconductor supply-chain capacity is expanding in regional hubs because Infineon is building Europe's first high-volume 300mm GaN power semiconductor plant.",
+          "mechanism": "This story shows semiconductor supply-chain capacity is expanding in regional hubs because Infineon is building Europe's first high-volume 300mm GaN power semiconductor plant.",
+          "event": "infineon-europe-gan-plant"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "67cbb67f95",
+          "section": "tech",
+          "title": "Volkswagen Group Announces Strategic Semiconductor Partnership with NXP, Supporting the Future of SDVs",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPZnRlVlJJazJEU0h1QnZiWUMyeDh6Q3ZqRWRuVFdDWHdoMThJSlBpWnRyeWZqMnRaWkk5UFZ4N0F6NS1vMGhqY0JMNFU4YzR4Nmxia3ZrNVBNNzl0blFFdlhJR2FkeWJOSDVQSVY2a2Vxc09FeDhsS2ExajRhbEtLRTFnU1hrbWl0dDhCWkt0N2NiQ1R2NFJyMmx5RE9OcU1DNHhtWGNIN2VvYmY3aWZOSEtyclZMZkM5LWhpb0JtY1JUS2N6SjBMQ2g4bkhlaVRzNmFMX0JHNVhIVGI3RS16bG5UNks2LVp1NUduTUJBYXR2dE1zUFdKdzJRUQ?oc=5",
+          "source": "Embedded Computing Design",
+          "note": "Volkswagen and NXP announced a semiconductor partnership for software-defined vehicles.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "eebf040a3c",
+          "section": "tech",
+          "title": "EU approves €319 million state aid to Austrian semiconductor factory",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNa0xFQ1h3ekNRS3BnSlJwNDYxVmlpT2xiN3c1ek1xbHVRc0pPblBCcWtNTUFWSVlfbkpVcmFKNEtWNUxnMkU1WkI0aFpFZG9jWTBuTlctazE2dllDa3pqaEJveVMxUEhKRERrRFBpbmVKZzlxeVBzNGhNM09rWGZhQW5DbGRNVU0tMndEY25NSlllblExVUx4dXZSSDRqbFV3NHZ1Q2h2NmtRcUZyWEJJTkctSnU2S2xXYkNoU3p3a2Rha3Bf?oc=5",
+          "source": "Euronews.com",
+          "note": "EU state aid for an Austrian semiconductor factory showed governments were helping regional chip manufacturing capacity expand.",
+          "added_on": "2026-10-29"
+        }
+      ],
+      "last_seen": "2026-10-27",
+      "sections": [
+        "tech"
+      ],
+      "distinct_events": 4,
+      "status": "building",
+      "teach": {
+        "one_line": "Semiconductor supply-chain capacity is expanding in regional hubs.",
+        "like": "Like opening more bakeries in busy neighborhoods.",
+        "why": "Capital follows the most promising production nodes as technology demands specialized facilities and nearby suppliers.",
+        "remember": "Build where the chips cluster."
+      }
+    },
+    {
+      "id": "t_nvidia_stack_shift",
+      "title": "Cloud vendors are pushing off Nvidia",
+      "nickname": "Nvidia detour",
+      "plain": "Cloud vendors are moving AI developers toward non-Nvidia stacks.",
+      "claim": "Cloud vendors are steering AI developers toward non-Nvidia tooling and chips.",
+      "forces": [
+        "technology",
+        "capital"
+      ],
+      "created": "2026-10-20",
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "item_id": "8a1ba0c934",
+          "section": "tech",
+          "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+          "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+          "source": "TechCrunch",
+          "note": "This story shows cloud vendors are steering AI developers toward non-Nvidia tooling and chips because Amazon is trying to break Nvidia’s hold on PyTorch and move apps onto its own stack.",
+          "mechanism": "This story shows cloud vendors are steering AI developers toward non-Nvidia tooling and chips because Amazon is trying to break Nvidia’s hold on PyTorch and move apps onto its own stack.",
+          "event": "amazon-torchneuron-dev-tool"
+        },
+        {
+          "date": "2026-10-21",
+          "item_id": "2e553dc455",
+          "section": "tech",
+          "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+          "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+          "source": "TechCrunch",
+          "note": "This story shows cloud vendors are steering AI developers toward non-Nvidia tooling and chips because Google released a developer tool that helps PyTorch users move apps off Nvidia GPUs.",
+          "mechanism": "This story shows cloud vendors are steering AI developers toward non-Nvidia tooling and chips because Google released a developer tool that helps PyTorch users move apps off Nvidia GPUs.",
+          "event": "google-nvidia-ai-dev-tool"
+        }
+      ],
+      "last_seen": "2026-10-21",
+      "sections": [
+        "tech"
+      ],
+      "distinct_events": 2,
+      "status": "building",
+      "teach": {
+        "one_line": "Cloud vendors are pushing AI developers toward non-Nvidia tools and chips.",
+        "like": "Like a mall guiding shoppers to its own stores instead of the anchor tenant.",
+        "why": "Technology and capital rewards companies that control the stack, lowering dependence on Nvidia and keeping more spending inside their own platforms.",
+        "remember": "Own the route, keep the toll."
+      }
+    },
+    {
+      "id": "t_ai_in_production_workflows",
+      "title": "AI production workflow push",
+      "nickname": "AI in prod",
+      "plain": "Platforms are asking teams to use more AI in production.",
+      "claim": "Major platforms are pushing AI deeper into production workflows.",
+      "forces": [
+        "technology"
+      ],
+      "created": "2026-10-12",
+      "evidence": [
+        {
+          "date": "2026-10-12",
+          "item_id": "cce9b2629e",
+          "section": "tech",
+          "title": "Epic Games Delays Disney Project, Asks Developers to Use More AI",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTUhHT1B3MDkzN0pJSEZRMjZKY0RuY1pmbEEtT1lFRzlsazJWSkFObExFb1ZNeUVsc3RkYXJPM2tCU0l5d21CRGVjSUJaN092eWlybk1jY09saVpsYWdwamc3WjU1T3ItNzNXQ1ppUmxsbzF2RHZxN3BNODZoRXo2cDFVRFVnZk5FYWFsRUZpTmFBRWhkOVBBaVgtTXpCdzNZZGFyVkJrcTE4Z2FHd0ZUTUVRVlQ?oc=5",
+          "source": "Bloomberg.com",
+          "note": "This story shows major platforms are pushing AI deeper into production workflows because Epic Games asked developers to use more AI while delaying the Disney project.",
+          "mechanism": "This story shows major platforms are pushing AI deeper into production workflows because Epic Games asked developers to use more AI while delaying the Disney project.",
+          "event": "epic-ai-development-push"
+        },
+        {
+          "date": "2026-10-22",
+          "item_id": "3bda06c47e",
+          "section": "tech",
+          "title": "Anthropic Takes On OpenAI, Meta With New Proactive AI Agent Claude Duet",
+          "url": "https://inc42.com/buzz/anthropic-takes-on-openai-meta-with-new-proactive-ai-agent-claude-duet/",
+          "source": "Inc42",
+          "note": "This story shows major platforms are pushing AI deeper into production workflows because Anthropic unveiled Claude Duet, a proactive agent that monitors connected apps and carries out work.",
+          "mechanism": "This story shows major platforms are pushing AI deeper into production workflows because Anthropic unveiled Claude Duet, a proactive agent that monitors connected apps and carries out work.",
+          "event": "anthropic-claude-duet"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "4a535eced6",
+          "section": "tech",
+          "title": "Here are the top AI agents that can live in your text messages",
+          "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "source": "TechCrunch",
+          "note": "A roundup highlighted AI agents that can live in text messages.",
+          "added_on": "2026-10-30"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "31f30cc340",
+          "section": "tech",
+          "title": "Guidewire buys Hyperexponential for $1.7B in cash",
+          "url": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
+          "source": "TechCrunch",
+          "note": "This story shows major platforms are pushing AI deeper into production workflows because Guidewire bought Hyperexponential to bring AI agents into underwriting and pricing.",
+          "mechanism": "This story shows major platforms are pushing AI deeper into production workflows because Guidewire bought Hyperexponential to bring AI agents into underwriting and pricing.",
+          "event": "guidewire-hyperexponential-acquisition"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "0bbaf2b44d",
+          "section": "tech",
+          "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore | Amazon Web Services",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRldyOHdWSmREakNkdGgwUmZLMkhWdEt1NlpPWGZmaS1JVEhNeUV0UExEUktoaTk1Q091Rmh3VjlNMnI5a0V1RmFGUmJMTmZIUi1kVTZrQ1hZZmdYcVpfNzFKUXB5SzdjbUVyWUtRZ0V6dVMtZG54MGpJSllnWnF6dXVSc2ctUnpPU25aS1pHbGhGVVU2THFmWVpXTXUwWWZORGx2cU9Qa0VSUQ?oc=5",
+          "source": "Amazon Web Services (AWS)",
+          "note": "AWS introduced an agentic AI platform on Bedrock AgentCore.",
+          "added_on": "2026-10-30"
+        }
+      ],
+      "last_seen": "2026-10-28",
+      "sections": [
+        "tech"
+      ],
+      "distinct_events": 3,
+      "status": "active",
+      "teach": {
+        "one_line": "Major platforms are moving AI from chat tools into everyday work systems.",
+        "like": "Like upgrading from a calculator to a coworker at the desk.",
+        "why": "Technology is making AI more capable inside connected apps, so platforms can embed it directly into routine workflows.",
+        "remember": "From sidebar to workbench."
+      }
+    },
+    {
+      "id": "t_ai_compute_capital_surge",
+      "title": "AI compute deals are getting larger",
+      "nickname": "Compute cash",
+      "plain": "AI chip and model firms are raising bigger rounds and contracts.",
+      "claim": "AI chip and model firms are raising bigger capital deals.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-20",
+      "evidence": [
+        {
+          "date": "2026-10-20",
+          "item_id": "25c38f880d",
+          "section": "tech",
+          "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+          "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+          "source": "TechCrunch",
+          "note": "This story shows AI chip and model firms are raising bigger capital deals to secure compute capacity because Tenstorrent raised $1.5 billion at a $6.2 billion valuation to scale open-weight AI chips.",
+          "mechanism": "This story shows AI chip and model firms are raising bigger capital deals to secure compute capacity because Tenstorrent raised $1.5 billion at a $6.2 billion valuation to scale open-weight AI chips.",
+          "event": "tenstorrent-funding-round"
+        },
+        {
+          "date": "2026-10-21",
+          "item_id": "e46031f0ad",
+          "section": "tech",
+          "title": "AI Research Startup Flapping Airplanes Valued at $6 Billion in Round",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVWlMcFlyb091cURKSTdxWlZobXVRVVlpSlhQbFUxejRzYmQyVk9FX1ZGT2FlYU5GN2xGc2M3dVFnN292YkNRX3IzbERKUl9BYWlDVGMtU29RcmZ5UHZwRjROUWJneHpzajVHQTNYazhrYlM1SDZMZU1kRzRldTA3TVBNa05DbFJsYldTOVo0R0hOdFdwbmhXYWQ2dFQyWVlXd3RubmlDR0U0ZkZSczdmOVhUNU9DeTJVMUE?oc=5",
+          "source": "Bloomberg",
+          "note": "AI research startup Flapping Airplanes was valued at $6 billion in a round.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "d3796b6ba3",
+          "section": "tech",
+          "title": "AI chip startup Tenstorrent raises $1.5 billion in Series E",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcVhuZ2VLNVZzMFdlUXR2YVY5NXhlTWZzSW4tbVNuTW5Ta2ZFcmZBXzIyVUNaYzFvRFRxVUxxdkJWd3h1aXRSbF8xRlktcVZHVTEwcHlXZXFqNzQ4SEp5WFNxUnFsb0UtUmVWak05d2lFTmFibnR0WFIta3RKTldqQzVJY3h2Slk0MTdUdmVmWU5XSE9kdzd1UQ?oc=5",
+          "source": "Evertiq",
+          "note": "This story shows AI chip and model firms are raising bigger capital deals because Tenstorrent closed a $1.5 billion Series E to scale open-weight AI chips.",
+          "mechanism": "This story shows AI chip and model firms are raising bigger capital deals because Tenstorrent closed a $1.5 billion Series E to scale open-weight AI chips.",
+          "event": "tenstorrent-funding-round"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "14c5868e79",
+          "section": "tech",
+          "title": "Deepseek raises $15 billion in challenge to leading US labs",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNb21WbkxaMU0wRy12eVBXNUs4UXNVekZLbDZVemE0d1lZNmhZOHJYRkgtU1pVSnpQOElPdEN3WkUteEUtWHdyNmRsTTA2eWFpellkU1JmdmJkWVRoek96NW5yQ3hwc19zNmRDYVYwRm5XUHN1eDViSmNyVXIzVTJiOE5hOGlTLXhRMkZJcWYtbWtFZmpsUFNZWkp6UDVHeVRsbWwxMHJtMU1qd1V3UmdlTlg4TmFvNDZ6VGlJY3ZsazlzUmV2ZXFJWnlScGLSAdIBQVVfeXFMUEZKMnJqTEpwMHFkekRjMWJhY3kzVGdqdEJHM0tyYlo1dkZGR09hdXFIQmo3Zmt2bDI4NUV4ZUdiekhsRmJXRE5CXzktU25EaUdSeDJDX2ZvNlNCcWh1RFV1dWFWaGhWQ2tsSVFNX3BMRmVldFlFRUhkaWJhMFRwbGRidHpKTzc2bjdVaDNLOWM0RWhoYWt4NXNuQURLZG9BZVlpNWthSEExZnZ6SkN2UFVLV05RNTIxYU1yQU5FR0xYVUdFR2FtRk9QSjZZNGpNdVdB?oc=5",
+          "source": "ET Enterprise AI",
+          "note": "This story shows AI chip and model firms are raising bigger capital deals because Deepseek reportedly raised $15 billion in a challenge to leading US labs.",
+          "mechanism": "This story shows AI chip and model firms are raising bigger capital deals because Deepseek reportedly raised $15 billion in a challenge to leading US labs.",
+          "event": "deepseek-funding-round"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "b1fb97205c",
+          "section": "tech",
+          "title": "[Weekly funding roundup Oct 17-23] VC funding falls below $100M amid lack of big deals",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaDFheVE3UHRscXBXSEVUai04aW9ISmpHMENVZUxBYWV1VFVJSGtuOEoyLTFZQXpqeWtaNDhBOWd3NjZkVC1UWS1ia0N4YjRKN1dsT3FEdUl0aWpkRTZhTzVCdTNsMXhTMmZhcHJCWHlOSGVScHFBWmxFVlpvVTVhdFFDdzBMXzFXczdvVXFXV2EwNFJjTTBBUWtOUGxkZw?oc=5",
+          "source": "YourStory.com",
+          "note": "Weekly funding fell below $100 million, showing the market was already concentrating around fewer big deals.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "26ac4a5663",
+          "section": "tech",
+          "title": "The Week’s 10 Biggest Funding Rounds: AI Drives A Varied Lineup Of Large Financings",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMGxkU1NjR2xRMU5MVmRtMnRSTmV0QnhaZHN5b0I1OWFPRVlDN2tSWW5YM1NmQUZoNnBETThwdjFEOHNkSUNFVUNUMXA1bmFGYUhTeDV2UDk3RzJlODE3dlNRR1ZoekFXRTk4QmVLbzV3SWxHTk81R2RXYWdyMWplc2xLeWk0MjRWNE10clJjb3lRbDJycTdiRlZRelZESGlf?oc=5",
+          "source": "Crunchbase News",
+          "note": "The week's 10 biggest funding rounds were led by AI.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "24d8ec5077",
+          "section": "tech",
+          "title": "AI code testing startup Blacksmith raises $66 million at $1 billion valuation",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLUJEZDVwRXZyMjJyakZLWmlXUFVBUk9Cdk9GcTB4dElhdFEwOWZ4MTNhc09oMkFfbjJPcnZfX2ZTWU1LYzBiRTkxTW9pelFOVnZ5cUUyZ1RXRnd2dWJIbkJOemZfanBMcUp5ZVV4MDUySVVCZ0JyTkFQaEVqaUdqdk90OHVRMDZhMFgzYWUtaU0wN3RVOEoyQ1ZjTWc0bmwtWGVHV2lob0JkVWFoaWR6cDkxYXJJVmRwYlp5NTlSd9IBvwFBVV95cUxQLUJEZDVwRXZyMjJyakZLWmlXUFVBUk9Cdk9GcTB4dElhdFEwOWZ4MTNhc09oMkFfbjJPcnZfX2ZTWU1LYzBiRTkxTW9pelFOVnZ5cUUyZ1RXRnd2dWJIbkJOemZfanBMcUp5ZVV4MDUySVVCZ0JyTkFQaEVqaUdqdk90OHVRMDZhMFgzYWUtaU0wN3RVOEoyQ1ZjTWc0bmwtWGVHV2lob0JkVWFoaWR6cDkxYXJJVmRwYlp5NTlSdw?oc=5",
+          "source": "Indian Startup News",
+          "note": "AI code-testing startup Blacksmith raised $66 million at a $1 billion valuation.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "d15b083193",
+          "section": "tech",
+          "title": "Anthropic warns of AI's 'catastrophic risks' ahead of major IPO",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpRThpZzljUDVhR2FLUnEzald0ZTRNU09RTDIyazJvSDVmazJ4NGtleVFjY0dXRFNBX0gzQkZzTFNBQ1N5cEdxbG1jeU1DMXpYRGNTUS1kSHhiNHM?oc=5",
+          "source": "BBC",
+          "note": "Anthropic warned of AI's catastrophic risks ahead of a major IPO.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "ce925cab7b",
+          "section": "tech",
+          "title": "Q3 2026 startup funding rounds: 10 large deals to know",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tRnhpYmo1R2NvcUVfMWFuYUZSVE45bnRCa09vczltMkQ5bmhwRWg0bUdqVFo2dFRTR3hKNHNpYWxkT2pEb0l1WldlbkpydXduOWl1djVhRlM1OEoyUHR0THVaV2c4dw?oc=5",
+          "source": "qz.com",
+          "note": "Last week’s roundup highlighted 10 large funding deals, showing capital was already concentrating in bigger AI rounds.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-30",
+          "item_id": "5ca32abcc5",
+          "section": "tech",
+          "title": "FuriosaAI raises $620 mn in Series D at $2.9 bn valuation to scale AI chips",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pYmhQdGpLbXZHdzNoREZ5Q19Fb3h5c3JfVTQwOEsydW1BZUw1SDVGU3FOQ0Vmd3I3eC1PbVUtOTlleEIxdjVERFFkUTd3c2ZKX3ZTZWZTZktfY1JWUUJZRGc0TUtkX1h6TlFWMmdR?oc=5",
+          "source": "Beinsure",
+          "note": "This story shows AI chip and model firms are raising bigger capital deals because FuriosaAI raised $620 million in Series D to scale AI chips.",
+          "mechanism": "This story shows AI chip and model firms are raising bigger capital deals because FuriosaAI raised $620 million in Series D to scale AI chips.",
+          "event": "furiosaai-series-d"
+        }
+      ],
+      "last_seen": "2026-10-30",
+      "sections": [
+        "tech"
+      ],
+      "distinct_events": 3,
+      "status": "building",
+      "teach": {
+        "one_line": "AI chip and model firms are raising larger capital rounds to secure compute capacity.",
+        "like": "Like stocking up before a long winter: everyone needs supplies, so the bills get bigger.",
+        "why": "Compute is expensive and scarce, so capital flows toward firms that can buy or build more of it.",
+        "remember": "Bigger rounds, more compute."
+      }
+    },
+    {
+      "id": "t_state_bank_divestment",
+      "title": "State bank divestment",
+      "nickname": "bank selloff",
+      "plain": "India is selling state-bank stakes to private buyers.",
+      "claim": "India is moving state-bank ownership toward private control.",
+      "forces": [
+        "capital",
+        "regulation"
+      ],
+      "created": "2026-10-14",
+      "evidence": [
+        {
+          "date": "2026-10-14",
+          "item_id": "c010375505",
+          "section": "politics_india",
+          "title": "Centre approves 60.72% stake sale in IDBI Bank to Fairfax for Rs 52,878 Crore",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQSHRMc045QVZ1Ym5wZGFOYVVHY00zNEQ0TnR2dGpCbzlIaTdERWNQX1FKemZucVJFdVdneVNYTjE5LTFMWHE5bklNbWZGU0lLNWZOV0MtQjlBYTBSdTRNaXFPeTlRTGV4eGNiUktkMFlDQ0RzLTk2NDVYc2pYQndCTjREYXFFczNoc3F4Z3pSeHVOalJvcFgwUG9tdGdndlZ1SG1jc0JSSTFkVkpER3J0QVpBc3A5UzZxXzVDbHFJSlc0RUhPRzZxdlFtRkgtMmgxU2d0Mzh2QklVa2RrVDcxZ1A3UEg1a3NnTVA3d05RcV9Nd9IB9wFBVV95cUxQMG1sd29UYUhfeUVWS2x3cVVSVVpNWTRVZzI4VTM5Y2RXU3J5THo2RVhSMmlHbW1fUnBQMzJjWXI2OFhrWjlQTExkUTYzY014Ylg5SXRockNyUVg0SGd4R3VNU0k5ODJhQ3ZaVHNMNE81QUxRVDVFb0dnX3BTSERXdk5oSmNza25kbTdCSzRvMGoyaFJDX3dUUXZJbXJIX2UzOVhWNzRnVDJLQUdNdTZwVzhoVHh1enhramFlNGpjUWt5Q2NFdU9xUzUxNlNQV3pYcDFvd3poc3l2c2szTTQ4bVJqMVdRVWZEamExWnMyMlY1UXZCWDZj?oc=5",
+          "source": "The Economic Times",
+          "note": "This story shows India is moving state-bank ownership toward private control because the Centre approved a 60.72% IDBI Bank stake sale to Fairfax.",
+          "mechanism": "This story shows India is moving state-bank ownership toward private control because the Centre approved a 60.72% IDBI Bank stake sale to Fairfax.",
+          "event": "idbi-fairfax-stake-sale"
+        },
+        {
+          "date": "2026-10-18",
+          "item_id": "973701a45f",
+          "section": "politics_india",
+          "title": "The Sale of IDBI: Fatten on Public Money, Then Gift Back to Private Sector",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZExFRVI2VXRGTFJrYUpSUy0xYVppLUt2cWRpeFVTcnNodHpuc1lhVkR2SGRpaS10X0F4dmdCQzZiXzRQSkFuRF9qckt5b05TQnRCcjF4eFE5akdYc0FfeXY5U0JrV3Y3RmNHMDRrQlk4TEdDaWNpSjFxWlV2eTZDdjhZblFUWWxGcC1sU1JMZUpVZlpJVVlWLTF4S3EtdlMxOW92LXFmZERrcjhYLVHSAbMBQVVfeXFMUFVHdWhWaHBmc2ItODB5dDJwbXdUdkQ3djNxRThPaVBiTXZBMXIyZEpiUlZlazZiTy1pYU9WWVJLdkxtM2ZpQWo2c2h2VmhKUlA4MURIV3U3LXFITTdkTXdZNWJBY0J1bVM2cTVibjE0d29INThhVzNJWU5rRVJxeUU5Z0s5dDUzX2pFbmt6VzBNVmhiejZHSzFNQTN4Mm1KSXpGZDM5QzlwQkxGSi1CWDN6MzA?oc=5",
+          "source": "TheWire.in",
+          "note": "This story shows India is moving state-bank ownership toward private control because the Centre approved a 60.72% IDBI Bank stake sale to Fairfax.",
+          "mechanism": "This story shows India is moving state-bank ownership toward private control because the Centre approved a 60.72% IDBI Bank stake sale to Fairfax.",
+          "event": "idbi-fairfax-stake-sale"
+        },
+        {
+          "date": "2026-10-21",
+          "item_id": "4fd153f4d4",
+          "section": "markets",
+          "title": "RBI imposes restrictions on Puducherry Co-op Urban Bank, caps withdrawals",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNN0ZmeUIwOHYxMDh6X2p4WWQ1a2s0YWZaUkJVYVgxMmlHWFZvM1czOUc1SHE2WGV1MnhXMU5VdkNRNlZIT0NXODJOWDJIZVQ0U0pVWWVOR0ppVHN2U2VXclRKUFhqTjdZMkV2TWNBWnh0TFdCaF8yaFpQU0x5OFdzX0c5YVNyRGlSQ1VDYjNXR0lHOHFaTUpsZzhrZ0V6bHI5STJnUGVSTzNPWTU3TXpWMFZDZUkzVHNUT0xXWUw0WXllalA2S21rb2t4VWNXNmg0ZTctMEF0cWpxbVpQeVQyYm1NOGw5Y2pqdGo1ZGVtNW_SAfYBQVVfeXFMTjdUeXg5M0Y3ek9ra0dnc2xSNGFiWjd3SHBNOElaLUVoOTJKVzYzNXJHTUVYUVhUT1NJREpfNTV0ekZaRDdOQkduZUxKM2lmSlVNUnVsZzRNWEI1U1hmcVhudEhkLWJUeE1KUHdNZFJxZXhYRmR4eWJuZUxMeUx0T0paUFpjd1p1ZzIySkZ5ZjZtMER3OVlnbXFVUUNLd1hwQjI1NWViTlZ5NE9zeThPcUg0VDdmS0o2NHlDWWdPdGVOQ29Gc0Y5cEZmQWtmR0F5OThMT0tPSnJzR2U4LTNYTlMtd3JaLTlIX0EyTzJlajBmbU5JZlNR?oc=5",
+          "source": "The Economic Times",
+          "note": "RBI capped withdrawals at Puducherry Co-op Urban Bank.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "4d61320170",
+          "section": "markets",
+          "title": "Upper-layer NBFCs must list on stock exchanges: RBI Guv Sanjay Malhotra",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdmZBb01ZOW4xcUdfUW1zaUllOU1iMGF4YWdqYjhreUZoWENQbWxjSURMMWxGX0dQaE9UWTZmekNOUVlXcHZGZ2ItcWVKNXdtQ1RpR2diU1R3UGFhX1g1N3FTRENwV0tMZkFIRTFscEhBdlRJTTJybk82TE9ZUU0tVVFCcmVod3ZQRUNZeGJkMkp3cFYyckpaVzNaM1hHUjNTX3NhLTF6OUVxVFoxTDJQZ19UME1IT0ZCUEI1Y0VQUEQwVWYwOUIwOWhKQzVkRFBnYlJTa25kclIycWxh0gHiAUFVX3lxTE9kZ1hyUU5KaVF1UVZWNjhkeGJpTXpzcDRiZk5PVmdrdVFGVlNSSjZxMjZPeER2UGNiNGtkOURQUENaNnYxQkZraTBlMHIwUHRyMnBCZ1JJYlFDNUNqY1dfc2RTb05vS0g4OG1OUkpncmo0Zmg3TmNlVHhMM2FPZVVrTWlNQm1MOXdEVDEwQm9pazFaT1hFMlFGU3NobTVxUHY4eFpxMVptUlRYbjEtdEdCaWhvYWtiaFF1UFdRZFFtcEhtdjd2bG5kc3hpdEJiNzlfeVJVb3R4dC0tS1kxRzUzR3c?oc=5",
+          "source": "Business Standard",
+          "note": "The RBI said upper-layer NBFCs must list on stock exchanges, showing the same listing push was already underway in financial firms.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "fc251bcfcc",
+          "section": "politics_india",
+          "title": "Indian Overseas Bank privatisation: What is the buzz about? Centre's rules and regulations for the process, explained",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQUHBwcmp4eFVydW9QMmtzNGFrZWcyQ1JZQ1JGVkZ0QzRfSFBwbjJqeGxmcmR6czdjdGJEQTM1RjRuZ1JheGl6aHBHandqY05FQWM3V2tDV3YySTdQZmVYVTlwU3hvTXNZUWxORWc0VmdaUUtjeHFYNXkyMTh2bTBmR3hrZjNNVW5oYURKT0dPaHZkc1pjZy1vVG1jOWU3SllBRFNtVkNfSERlcjd5dVBQUE8zUlVUaGZfZzRPbFJYdENCLVNDX2VXNTFzOTFVRDR5M25EbnZiR3RURFI5VXUyTVZCUHRvR2sxRGlDYUZwUUp6MVZFb3I1WTdtWjbSAYICQVVfeXFMTjlUZnhLN3hQTmU1RTZOMklnYlNvbFlVckEtR1huTHNnOUdlVEZsTTdpY25RUGRIU0JyNXhrTzhvTzRmQV9xZThaaVN6VFhoX0RaUXZlSm9TWkZOSXlxZ0N3S3V1ZTFHdEpwSlhVWTlRZlh6U0NPUUlpN0EtZ1BOdllOOFAyR1JKaG1adTFsdFZ2U3QwTGFkdk1CQXJjSkNRdFIwY25wVVVEYllPbGVNN0RfQm0wT3RHdS1HQ1I3bXM4cTV6QVFmS2VXZ19FY0FDYnNBRDBWSW5RZHFHSTI4bG0tdkdRTmMzSnRhd0l2MmxGRHhCc1BBRzJTWmpELXd2NEtn?oc=5",
+          "source": "Livemint",
+          "note": "This story shows India is moving state-bank ownership toward private control because the article explains the Centre's rules and regulations for Indian Overseas Bank privatisation.",
+          "mechanism": "This story shows India is moving state-bank ownership toward private control because the article explains the Centre's rules and regulations for Indian Overseas Bank privatisation.",
+          "event": "indian-overseas-bank-privatisation"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "5801728fed",
+          "section": "markets",
+          "title": "Upper-layer CICs must list, says RBI Governor Sanjay Malhotra amid Tata Sons row",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVGxQYnN5Q2NoMmhzWFk3bmhPM09wVEs1RzZ4b2Naa0w3djZxa25FWU5zQ180RlljbkIwa0ozd2RPdzktemVQVHFwNFd5ZFlhYkdMMGZDdmtWRW94eXkzQ09HSTJOTG8xM3dhQWRTU0drdnB1UkNZUzRvbUZCck1sX19YbW41WFZaVUhVdl9MRF9DcWQwZkFWVlBleXRXZ0lPNEpENEtWTWtyQzRQRE9oTUVHY09ZczlnWHhZaTh2ak9Wd0wycm9rdktGTXQxY2VUc29OUEwtaE9Xc2ROMzVV0gHkAUFVX3lxTFBkM28yZm1wOG9kNm8ycDZDc1o1cmFPUm9LU1dSYldIRERjVlFpVzFKbW44YU03M2pheVd6eWFXMkcwUkQwS0Z5WUYwRk12T0g4enp3dWhNMXBfdlRoYXJhcG83Y3JTcFBuXzl5WnpvTjNtRjFFbzNNR01FSHBxaDd4QXZhZ2JuMGJYMWdEcnZrM0xYZnAzUDBpSjBDalNFWDhnVy16dWFqTjdBa3FjM0YzXzRGczZRODdOMklRM0dQbEhKbkNsam5EOXNsYmFlRU92OW5YUGRYUmo2R09SbjRQcW1iWg?oc=5",
+          "source": "Moneycontrol.com",
+          "note": "The RBI governor said upper-layer CICs must list, showing regulators were pushing ownership structures toward public-market discipline.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "62da2f55ff",
+          "section": "markets",
+          "title": "RBI imposes restrictions on Puducherry Co-operative Urban Bank, directs it not to disburse loans and not",
+          "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPUTdQRTN3OVhKamR2Mk1Zc29pYnZ6UEtEWmVxemlCQVpLdFN3SnpyMjZMd0xHY3Q4Qkxoeno5YmhFMEt3LVFSZldyRVlTSFVZMjluSkJxUXNONkNaU05qUjRpRGQ2TjZGY3pFWWczeU52LTVCeG85QUE3bmRtRFZlUmNaSFpFU1hRQkdmV0NTNEpXYWhKdGpUVnNtMks0ZWIxRF82NW5EZG9jVlZyZlJZOUowTm9nNjdZRC1tVXR0LW1SX2loQWxaWUhheFk0alQtMHVybkFrcEdrM195cDVRSldEOW5zdmRCSGlEMnJ5RFl6VW1wekN2WkVZLXNPQ1YyaHFrNHc1N3p0cUg2UTNaem1kRXlmNHdxMEdTc1dwX2IzeGpVTldwS3F5cHVlMHNwQ1h6SHN1M3lMa3NGcUtWWWdvekJ5WXJIS3BPRUFSTjJFNWVJVVHSAdYCQVVfeXFMT1E3UEUzdzlYSmpkdjJNWXNvaWJ2elBLRFplcXppQkFaS3RTd0p6cjI2THdMR2N0OEJMaHp6OWJoRTBLdy1RUmZXckVZU0hVWTI5bkpCcVFzTjZDWlNOalI0aURkNk42RmN6RVlnM3lOdi01QnhvOUFBN25kbURWZVJjWkhaRVNYUUJHZldDUzRKV2FoSnRqVFZzbTJLNGViMURfNjVuRGRvY1ZWcmZSWTlKME5vZzY3WUQtbVV0dC1tUl9paEFsWllIYXhZNGpULTB1cm5Ba3BHazNfeXA1UUpXRDluc3ZkQkhpRDJyeURZelVtcHpDdlpFWS1zT0NWMmhxazR3NTd6dHFINlEzWnptZEV5ZjR3cTBHU3NXcF9iM3hqVU5XcEtxeXB1ZTBzcENYekhzdTN5TGtzRnFLVllnb3pCeVlySEtwT0VBUk4yRTVlSVVR?oc=5",
+          "source": "The Times of India",
+          "note": "RBI imposed restrictions on Puducherry Co-operative Urban Bank and told it not to disburse loans.",
+          "added_on": "2026-10-27"
+        }
+      ],
+      "last_seen": "2026-10-24",
+      "sections": [
+        "politics_india",
+        "markets"
+      ],
+      "distinct_events": 2,
+      "status": "active",
+      "teach": {
+        "one_line": "India is shifting state-bank ownership from the state toward private owners.",
+        "like": "Like handing shop keys from city hall to a landlord.",
+        "why": "Capital seeks owners who can raise efficiency and returns, while regulation makes the transfer possible through official approvals.",
+        "remember": "Public bank, private hands."
+      }
+    },
+    {
+      "id": "t_embodied_ai_hardware_funding",
+      "title": "Embodied AI hardware funding",
+      "nickname": "embodied AI",
+      "plain": "Investors are funding AI hardware that acts in the physical world.",
+      "claim": "Venture capital is moving into embodied AI hardware startups.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-23",
+          "item_id": "07ff690a2f",
+          "section": "tech",
+          "title": "Deftech startup Paar Autonomy raises Rs 10 crore from AdvantEdge Founders",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOU0FjNkwwRGx4RENkeUtWcDFHYWVobncyRFZESmUyZUFxZVBDeVpTQmp3cndlamZHQVZYQ3NuMkZnVFBZd1dJZFl0cHFoaEtGeEFRVHpoSEFxV2hoeDl5ME5rTXRZYkdaRW1fcHcwSjl5alZCRkk0UWJKQ0xDLUU3Tjh2WGU0cVh0WjBKTDByOFRfdmtqMlRxSHdvVkUxblk4b2M4VUFoSmlqMTh4NFlkdzJKRUZvNXJ2QWsyRUlRQnJaNFhKeUtmcnVhRUNVSWV5eTB5WDF6Y9IB3AFBVV95cUxPaTBWUGg5RXRDU3lXWllOSmRpWEY1MHgtN0oyQ0hubDA0V2ZWVmpIZXhtXzktUXBWa2praEpnM0hQTnZ0V0VfQkJFMzBlYXNNcmpLalpYM1J6M1pJN0UwVmFld2lOMHF5RXpnLXp3YWNUYTlhNnBOVlhkbVBRSFVrelRmVkVUSjllX2tJNkpkc0t1Wnc1TzlhRy1jdTNsbDhTZWs3aHkyei1jS3p4YV8wWWV0dE1zNWxROVpVZHMtdUZNaVZ0S2FmU2RCa1lrZm5JSWV6MlhnT3I0RDZu?oc=5",
+          "source": "The Economic Times",
+          "note": "Deftech startup Paar Autonomy raised Rs 10 crore for autonomous systems.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "5383be2c86",
+          "section": "tech",
+          "title": "This startup’s self-driving excavators help dig up $600M in new funding",
+          "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+          "source": "TechCrunch",
+          "note": "This story shows venture capital is moving into embodied AI hardware startups because Bedrock Robotics raised $600 million for autonomous excavators.",
+          "mechanism": "This story shows venture capital is moving into embodied AI hardware startups because Bedrock Robotics raised $600 million for autonomous excavators.",
+          "event": "bedrock-robotics-funding"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "71e233aae0",
+          "section": "tech",
+          "title": "Physical AI vision company Nova Spectral AI raises Rs 21.15 Cr led by Shastra VC",
+          "url": "https://entrackr.com/snippets/physical-ai-vision-company-nova-spectral-ai-raises-rs-2115-cr-led-by-shastra-vc-12756634",
+          "source": "Entrackr",
+          "note": "This story shows venture capital is moving into embodied AI hardware startups because Nova Spectral AI raised Rs 21.15 crore to build physical AI vision products.",
+          "mechanism": "This story shows venture capital is moving into embodied AI hardware startups because Nova Spectral AI raised Rs 21.15 crore to build physical AI vision products.",
+          "event": "nova-spectral-ai-seed"
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "4dcfcc0d19",
+          "section": "tech",
+          "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+          "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+          "source": "TechCrunch",
+          "note": "Ex-Palantir execs launched Dream with $17 million to build AI world models for construction.",
+          "added_on": "2026-10-30"
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "307f9bebe9",
+          "section": "tech",
+          "title": "These Researchers Used Artificial Intelligence to Design an ‘Animal Robot’ That Has Never Existed",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZzh2YS1JVW14REcxUXl5TVFXc29Qdkc5Y01UZnFpMHBDa1ZuVDRyWTRnel9ZRXVHMU9PTDMxQUhoa3hMa1JpYTZrWGlNWXVXbW1tS2pWa09FTmxSTGFBajF1ck9CeWxuZElLdlVUY2FraFh6VWdXTWZDc2dHbk5xZ1BIY2VNSlJ1MkZiZk9TY0NuenVqVVJvSnV4ZDZmQW8xY2l0YnUwb2thWVpsSHFZQmQ2RktvYjA?oc=5",
+          "source": "Robohub",
+          "note": "Researchers used AI to design an 'animal robot' that has never existed.",
+          "added_on": "2026-10-30"
+        },
+        {
+          "date": "2026-10-30",
+          "item_id": "49002047d7",
+          "section": "tech",
+          "title": "Physical AI startup Tensrai raises Rs 3.4 Cr in pre-seed round",
+          "url": "https://entrackr.com/snippets/physical-ai-startup-tensrai-raises-rs-34-cr-in-pre-seed-round-12764908",
+          "source": "Entrackr",
+          "note": "This story shows venture capital is moving into embodied AI hardware startups because Tensrai raised pre-seed money to accelerate its Physical AI technology.",
+          "mechanism": "This story shows venture capital is moving into embodied AI hardware startups because Tensrai raised pre-seed money to accelerate its Physical AI technology.",
+          "event": "tensrai-pre-seed"
+        }
+      ],
+      "last_seen": "2026-10-30",
+      "sections": [
+        "tech"
+      ],
+      "distinct_events": 3,
+      "status": "new",
+      "teach": {
+        "one_line": "Venture capital is shifting toward startups that put AI into physical machines and devices.",
+        "like": "Like selling shovels in a gold rush, but the shovels can move.",
+        "why": "Capital is chasing where AI becomes useful in the physical world, where technology plus hardware can create new products and returns.",
+        "remember": "AI leaves the screen."
+      }
+    },
+    {
+      "id": "t_india_voter_roll_checks",
+      "title": "India voter-roll checks tighten",
+      "nickname": "roll checks",
+      "plain": "Election officials are adding stricter voter registration and deletion checks.",
+      "claim": "India's election administration is tightening voter-roll checks.",
+      "forces": [
+        "regulation"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-21",
+          "item_id": "28a65f3ef8",
+          "section": "politics_india",
+          "title": "'Won't comment on India's domestic politics': Rubio on SIR protests",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSTNuNTRDWGV4bHFkOXdEaVo2aF93dV9SS0ZBTDNYNHoyZmotRW5Rb2hkNjZ3dzYxNURUdzhMU0l1VWpGYlBHLU1GRkJHaXFjNjlZM19fLTJqMU5TOW9jenAxXzFBQjluZmxxc3o0czF5ZTJlZklSamFIREIyY18yR2VZbFZOWHdybWlHcVljS2g1a25zUnc3ZWM5cGpRNlQtYlVyTHNKYkxrNzllbUp30gGyAUFVX3lxTE91RUZ5Z2d5SzdPbzFFREU3Vmw4T3lieHFfWlJsV2trUTBVbmxJRFk0NG4wc1dPLUw1Yno1eF9YVHVhNkFSbkpvVlcxbGIxTkpPcnduaTA1OWZlSmQxUTFpRzhrZWhQU1BLSk1nUDRYdEpqbWNtSHRQYW16SHBpTzVwUUxqcnJBd2FDSzNRblBzcm5JWXc5NXBXR2xlY1RRX3lzVmluTnpuWEh5TFhXb1VfUGc?oc=5",
+          "source": "Rediff",
+          "note": "Rubio said he would not comment on India's domestic politics as SIR protests continued.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "8774a4982d",
+          "section": "politics_india",
+          "title": "India Voter-Roll Protests Widen as Farmers Set to Join In",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT2wxeVpGTks4dFlTTmxHMlVWaDBOeE5sVEpxM3RVMnA4REZPTWxic001TFFUb1k5UTduM0ZFaHM5S1ViTG4zdDN5LUMySzR2TXFmTkxnLXJOU1hRU1BkeDVDVVZ2VDY2OXlVVWdoc0VDcG81cnhOWWtnSlBBOFZLbzVjZXkxbFAtWkZLSlo1WnZPekNjQmFFUG4tc0FRc0s5RXlzZERMcG1vSFN0?oc=5",
+          "source": "Bloomberg.com",
+          "note": "India voter-roll protests widened as farmers were set to join in.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-23",
+          "item_id": "d8d733e042",
+          "section": "politics_india",
+          "title": "A UP seat won by under 7,000 votes has 10,470 suspect voter entries",
+          "url": "https://indianexpress.com/article/india/uttar-pradesh-sir-pilibhit-voter-list-irregularities-probe-10932914/",
+          "source": "Indian Express",
+          "note": "A UP seat won by under 7,000 votes had 10,470 suspect voter entries.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-24",
+          "item_id": "2d88de66f0",
+          "section": "politics_india",
+          "title": "‘Vote bachao, desh bachao’: Hundreds form human chain against EC, SIR in Hyderabad",
+          "url": "https://indianexpress.com/article/india/hyderabad-human-chain-anti-sir-protest-10935386/",
+          "source": "Indian Express",
+          "note": "Hundreds formed a human chain against the Election Commission and SIR in Hyderabad.",
+          "added_on": "2026-10-28"
+        },
+        {
+          "date": "2026-10-25",
+          "item_id": "ba9b5845f1",
+          "section": "politics_india",
+          "title": "Declared dead: Indian voters fight to get back on electoral rolls",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV2JXYTdjamlxa3VDMnFSWkM0dlBETXVtYlhnNTdyQnBtMF93S1kxLVhCblo1cFVTSWZyRTU5eW9LaXhoNDJ6N2VIUTN0alBCS1VLVFM0RjhyUldVdlJfMjdMN2xLVmlJV0R0NXhWWV90V1FiMTB0dWpvTkJCNkZ0Rl9pd2hQeXhwYWNMV1NjWVhCYm9IUXRhTUdUbWJiMEhQLWN5WVBzOG1BaHNzN0E?oc=5",
+          "source": "Awani International",
+          "note": "Indian voters were already fighting to get back on electoral rolls after being declared dead.",
+          "added_on": "2026-10-29"
+        },
+        {
+          "date": "2026-10-26",
+          "item_id": "fd3b5ea546",
+          "section": "politics_india",
+          "title": "Acted ‘unanimously’ on electoral roll revision orders: Election Commission to Supreme Court",
+          "url": "https://indianexpress.com/article/india/eci-supreme-court-affidavit-special-intensive-revision-sir-gyanesh-kumar-sukhbir-singh-sandhu-vivek-joshi-form-6-indian-express-report-10937935/",
+          "source": "Indian Express",
+          "note": "Election Commission told the Supreme Court it acted unanimously on electoral roll revision orders.",
+          "added_on": "2026-10-27"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "e45ab00afb",
+          "section": "politics_india",
+          "title": "ECI’s stand that additional declaration is not part of Form 6 comes days after SC said it will examine ‘new’ Form 6",
+          "url": "https://www.thehindu.com/news/national/ecis-stand-that-additional-declaration-is-not-part-of-form-6-comes-days-after-sc-said-it-will-examine-new-form-6/article71629933.ece",
+          "source": "The Hindu",
+          "note": "This story shows India's election administration is tightening voter-roll checks because the ECI added an additional declaration to Form 6 for voters with prior roll entries or family entries.",
+          "mechanism": "This story shows India's election administration is tightening voter-roll checks because the ECI added an additional declaration to Form 6 for voters with prior roll entries or family entries.",
+          "event": "eci-form6-declaration"
+        },
+        {
+          "date": "2026-10-27",
+          "item_id": "f1271280ee",
+          "section": "politics_india",
+          "title": "Karnataka SIR deletions: In final rolls, voters shrink by nearly 1 crore",
+          "url": "https://indianexpress.com/article/india/karnataka-sir-deletions-karnataka-voter-roll-shrinks-nearly-1-crore-final-rolls-published-10938930/",
+          "source": "Indian Express",
+          "note": "This story shows India's election administration is tightening voter-roll checks because Karnataka's final rolls shrank by nearly 1 crore after SIR deletions.",
+          "mechanism": "This story shows India's election administration is tightening voter-roll checks because Karnataka's final rolls shrank by nearly 1 crore after SIR deletions.",
+          "event": "karnataka-voter-roll-shrink"
+        },
+        {
+          "date": "2026-10-29",
+          "item_id": "28ea64b57c",
+          "section": "politics_india",
+          "title": "Day after Supreme Court nudge: Deadline extended for final SIR rolls, filing claims in 6 states",
+          "url": "https://indianexpress.com/article/india/election-commission-final-sir-voter-rolls-filing-claims-objections-delhi-maharashtra-andhra-pradesh-telangana-haryana-nagaland-deadline-extended-10942562/",
+          "source": "Indian Express",
+          "note": "The deadline for final SIR rolls and filing claims was extended in six states.",
+          "added_on": "2026-10-30"
+        }
+      ],
+      "last_seen": "2026-10-27",
+      "sections": [
+        "politics_india"
+      ],
+      "distinct_events": 2,
+      "status": "new",
+      "teach": {
+        "one_line": "India's election administration is adding more checks before people are added to voter rolls.",
+        "like": "Like a bouncer checking an ID twice before letting someone into a venue.",
+        "why": "Election rules are being tightened to verify entries more carefully and reduce duplicate or ineligible registrations.",
+        "remember": "Check before you list."
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": "c_india_voter_roll_purge",
+      "title": "Voter roll purge",
+      "nickname": "roll purge",
+      "plain": "India is striking more voters off the rolls.",
+      "claim": "India's election administration is removing large numbers of voters from rolls.",
+      "forces": [
+        "regulation"
+      ],
+      "created": "2026-10-21",
+      "evidence": [
+        {
+          "date": "2026-10-21",
+          "item_id": "38eff2eb0f",
+          "section": "politics_india",
+          "title": "Millions are struck off India's voter rolls in largest disenfranchisement in history",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9IZ3ZTYkdKSUY0R0dhVHo1NmwzcHF4eXBWU1V6dUd0MXZIM0JRaDRsMnBsdnA0QjdaR3dOQ09PT0tXU2ZnSHE5WTNqMmdHdnFHTVJMZHJhb0JzWlZybGoybC1SSHBGVE5PUkg0cDlpWQ?oc=5",
+          "source": "NPR",
+          "note": "This story shows India's election administration is removing large numbers of voters from rolls because the headline says millions are being struck off India's voter rolls.",
+          "mechanism": "This story shows India's election administration is removing large numbers of voters from rolls because the headline says millions are being struck off India's voter rolls.",
+          "event": "india-voter-roll-mass-deletions"
+        }
+      ]
+    },
+    {
+      "id": "c_india_farmland_solar",
+      "title": "Farmland solar push",
+      "nickname": "agrivoltaics",
+      "plain": "India is putting more solar power onto farmland.",
+      "claim": "India is moving solar buildout onto farmland.",
+      "forces": [
+        "regulation",
+        "technology"
+      ],
+      "created": "2026-10-21",
+      "evidence": [
+        {
+          "date": "2026-10-21",
+          "item_id": "bba5ad66cd",
+          "section": "politics_india",
+          "title": "New policy in works to boost agrivoltaics in India; enhance farmers' income via energy generation",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOaXVCMmhYRVNSY3R1ZWp4dUdGeUhDV2RSa2o2cUcwN2xwNlowSTFfN3NRbTZYazk5QkR1T05wcEg3Qk9fTXBTbHhhYVJaRGRuQ1NUc2gzSThXSWt5blQ5b1l4cHpodk9SVFAyMldaZEhEUFpWSk9CNDBJdmZFYWZLb3NwWGNCaHFfN3dzNjBTVktLb3k1WnlwS3lLTDViWVRLWWtJb1dRbjV1Szg2MlFkWkppMjJ0SEpQT25hM0lxVkJWUTlKNTFuVlVUVlZYbWVEbUVxVU9MS1hiLXNJNDdsTzFpanZvVEh2bUYxaVVxRVZHWlVFdXRaREF5RUxjZ9IBgwJBVV95cUxQWGpPR3E1bmt3NTA1VzllSF93Q1h4VmxUS0tLS2dNRklaTW1wdU80Y2s5dURQQ1R1QmNiQWI5UzZEUk8tcjkwSHZYTUJNV1lGeDZndngxN2V6WFVhVXQ1TFJiazRRRlkwckluaTlETHpDN2VrRjNqWnczai1DMDRYUW1XaXl4cGk1RkNZdHVhNkdxQl8xd3BWXy1XXzMzb09sNERnZ1lMS2hYUTZidnZyYVY3MWwxenlqbTZaMDhCckx1SnhxamlCME1scWxxT0Z5T1QyM0RtUTBKQk1sR2o4STBWaGNFaTZDQTlIQ2VCSWN4WGM1eDk3cG1CckNUNHhpYlJr?oc=5",
+          "source": "The Economic Times",
+          "note": "This story shows India is moving solar buildout onto farmland because the government is working on a policy to boost agrivoltaics and farmer income via energy generation.",
+          "mechanism": "This story shows India is moving solar buildout onto farmland because the government is working on a policy to boost agrivoltaics and farmer income via energy generation.",
+          "event": "india-agrivoltaics-policy"
+        }
+      ]
+    },
+    {
+      "id": "c_agentic_checkout",
+      "title": "Retailers are opening checkout to AI agents",
+      "nickname": "Agent checkout",
+      "plain": "Retailers are letting AI agents make purchases for customers.",
+      "claim": "Retailers are opening checkout to AI agents.",
+      "forces": [
+        "technology"
+      ],
+      "created": "2026-10-22",
+      "evidence": [
+        {
+          "date": "2026-10-22",
+          "item_id": "4472664e90",
+          "section": "tech",
+          "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+          "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+          "source": "TechCrunch",
+          "note": "This story shows retailers are opening checkout to AI agents because Walmart introduced technology that lets AI agents make purchases on customers' behalf.",
+          "mechanism": "This story shows retailers are opening checkout to AI agents because Walmart introduced technology that lets AI agents make purchases on customers' behalf.",
+          "event": "walmart-ai-agent-checkout"
+        }
+      ]
+    },
+    {
+      "id": "c_automakers_ai_robotics_bet",
+      "title": "Automakers are boosting AI and robotics bets",
+      "nickname": "Auto AI",
+      "plain": "Automakers are investing more in AI platforms and robots.",
+      "claim": "Automakers are increasing AI and robotics investment.",
+      "forces": [
+        "technology",
+        "capital"
+      ],
+      "created": "2026-10-22",
+      "evidence": [
+        {
+          "date": "2026-10-22",
+          "item_id": "c4ee3f30ee",
+          "section": "tech",
+          "title": "Tesla starts Optimus robot production in California as profit falls 43%",
+          "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+          "source": "TechCrunch",
+          "note": "This story shows automakers are increasing AI and robotics investment because Tesla started Optimus robot production even as profit fell sharply.",
+          "mechanism": "This story shows automakers are increasing AI and robotics investment because Tesla started Optimus robot production even as profit fell sharply.",
+          "event": "tesla-optimus-production"
+        }
+      ]
+    },
+    {
+      "id": "c_telecom_sandbox_rules",
+      "title": "India is expanding telecom testing sandboxes",
+      "nickname": "Telecom sandbox",
+      "plain": "India is creating controlled sandboxes for telecom technology tests.",
+      "claim": "India's telecom regulator is expanding controlled sandboxes for tech testing.",
+      "forces": [
+        "regulation",
+        "technology"
+      ],
+      "created": "2026-10-22",
+      "evidence": [
+        {
+          "date": "2026-10-22",
+          "item_id": "cf8fbbf166",
+          "section": "politics_india",
+          "title": "Government notifies Telecommunications Regulatory Sandbox Rules 2026 to enable controlled tech testing",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMi1JdlFDQ19kYnhDNF9ocE5Tci0telg3NjFGbUpSc0NMakl3dEtFSE94cHRFdTYxelE5aEdpS1d3OXJub3ZCUVBJYy1sNmpfSGRwRlRrWWpEUXdQMXFYYkNtN1pTM2hmT1prQUVmNC1pVDBjbF9uekQ2MDg4cGdlY2FSRGN0M2tRY0NOdU5WZ2VUZ20wSnJMOERDS2lxOXVwck8yVmZlcGVQRlVFQl9nb3N0Rjh4YkdIOXhoREVmMGlEejBfX1hhcHh3STNOaXA3VUY4SE5kWms1SWh1d1M2aQ?oc=5",
+          "source": "Indian Infrastructure Magazine",
+          "note": "This story shows India's telecom regulator is expanding controlled sandboxes for tech testing because the government notified Telecommunications Regulatory Sandbox Rules 2026.",
+          "mechanism": "This story shows India's telecom regulator is expanding controlled sandboxes for tech testing because the government notified Telecommunications Regulatory Sandbox Rules 2026.",
+          "event": "telecom-sandbox-rules-2026"
+        }
+      ]
+    },
+    {
+      "id": "c_ai_power_hardware_redesign",
+      "title": "AI data-centre hardware redesign",
+      "nickname": "power chips",
+      "plain": "Chip suppliers are building hardware for denser AI data centres.",
+      "claim": "Chip suppliers are redesigning hardware for higher-power AI data centres.",
+      "forces": [
+        "technology",
+        "capital"
+      ],
+      "created": "2026-10-23",
+      "evidence": [
+        {
+          "date": "2026-10-23",
+          "item_id": "e5264f7ce0",
+          "section": "tech",
+          "title": "Infineon, NVIDIA collaborate on GaN for 800VDC AI data centres",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeVNSZHNmMlQ1bTdIQVNlNE9rc1EyRURNbmUwVE13RWhFQ3VGVmt2cjVDR3BkY3A2dWNGVVR4ZjZ6UzJOSnotRWpqbWRwUjlXOE9hRlZuQ09JbVdtRDdnejRtM1pzZURvLW9MUXh4dS0teDFxWmVUamk5X0Fwck1rQnZvdUFFaWkxLU8zSF9nc1l0dnBMR21aSFJzZVhqSWh5QUd0cllPZjl3cGRINk4wLU1DZnNSWVVtbjN0UlBIZHNQejhTbzhoMlhZd1VDZkVjVjM3aVhZONIB2wFBVV95cUxNeVFYdkhTOTB4TU5VR2xaakc1dmJGTWZlRmRZVnRwWjViYURLaE1QNUY0NE9yek1xS0xEMHQyWHZxVk1pVVpZeFhZenQwOUdzekktOWptcmFBczNObUJoWTVkNFk5S2FUYUdzazBnMmZEbVlhOTZMZDFabDJmTngzVWR2TXhGUDdSeXJmc3hxeU8xX3lhOWxHSEV4dl9yUDl4LTFsbm5GdFVhV042eERHWkZwUHV4WUZ0cHRhd29IV0FGSnd1WFkxMGhzZV9sUUlSYl91VnVSaWF1U1E?oc=5",
+          "source": "electronics.economictimes.indiatimes.com",
+          "note": "This story shows chip suppliers are redesigning hardware for higher-power AI data centres because Infineon and NVIDIA are collaborating on GaN for 800VDC AI data centres.",
+          "mechanism": "This story shows chip suppliers are redesigning hardware for higher-power AI data centres because Infineon and NVIDIA are collaborating on GaN for 800VDC AI data centres.",
+          "event": "infineon-nvidia-gan-ai-datacentres"
+        }
+      ]
+    },
+    {
+      "id": "c_india_offshore_oil_risk_sharing",
+      "title": "India offshore oil risk sharing",
+      "nickname": "offshore risk",
+      "plain": "India is making offshore drilling more attractive to investors.",
+      "claim": "India is lowering offshore drilling risk to attract exploration capital.",
+      "forces": [
+        "capital",
+        "regulation"
+      ],
+      "created": "2026-10-23",
+      "evidence": [
+        {
+          "date": "2026-10-23",
+          "item_id": "b8bae634de",
+          "section": "politics_india",
+          "title": "Govt sets rules for ₹84,084 cr offshore oil hunt, to share drilling risks",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYlFnaV9xVlV1Yy0wbTVlVy1zbkhDdFF3d1RXYUNRU1FyVF9GVS1YVlFwVjM2dmVyQUdkenJrbm1SUVpMODFMUHpuY1dGbUdhZFF0bDNNMDh5d2hXeVJybS1mcU5qQXY2UmRUS2V6YmJ5VVA5ZExuWUY1TnR2eEhRZTVuR3lRS0lJdFdKb2NwOEZIZXFtcU8tR0ZCdkl2dUh0cnNfYXI5S0tjUVR3bjZmUjhaYWY1NDFoN1JyZTlwY0szNFNpbXJIVHFERDJpSzJzYk9yZNIB2gFBVV95cUxOZ0R5cHhwdi1MbmtqSWp6Nk5lbW1yek56bk1TRDdEekpLazRIVmI5bllPN3FmeGExVkZaLXljV2czQUxObmxNT3VKcWE1NkJ2NmgxbUNuMG91a25JdG4tZU03UzJrTkthSXdONUp5eDBMY3UweUJGOHBieWtmeXh4LW1XZkJTSmU5RzBVdlBYTTNPYkgwV1haYVh4TUZYVXRuMEgxTlZmZ0xSTzNpNWFmNWZ3eFU1NnpLLVlZWmZFNk0tZHhjcUgtVDJiMEpLWklmcncwc25HeG9ZUQ?oc=5",
+          "source": "Business Standard",
+          "note": "This story shows India is lowering offshore drilling risk to attract exploration capital because the government set rules for offshore oil hunting and will share drilling risks.",
+          "mechanism": "This story shows India is lowering offshore drilling risk to attract exploration capital because the government set rules for offshore oil hunting and will share drilling risks.",
+          "event": "offshore-oil-risk-sharing-rules"
+        }
+      ]
+    },
+    {
+      "id": "c_india_supply_chain_localisation",
+      "title": "Supply-chain localisation",
+      "nickname": "Local inputs",
+      "plain": "India is localising strategic input supply chains.",
+      "claim": "India is localizing supply chains for strategic industrial inputs.",
+      "forces": [
+        "geopolitics",
+        "capital",
+        "regulation"
+      ],
+      "created": "2026-10-24",
+      "evidence": [
+        {
+          "date": "2026-10-24",
+          "item_id": "205f191345",
+          "section": "tech",
+          "title": "India eyes stronger domestic supply chains through coal gasification, rare earth corridors: Anupriya Patel",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQWk84OUdsMlQ3bkJ4b2lqNC0zc3o2N2ItSW5LV19feHlyMnhXTERjSVZic3Q4eW1KWGlNYkU4VklMSDlyVlNEcXVUeWpPcDJMcnIyR3NWdWNhT0FjYmNJWTFycFZzdXgxdk42YjJlUEZOa0FPWUZQazZhbmhiS20zWW52dWdGd2NZMXBfMGNTR200djJDR3QybnhwR2JsSlNTRi1lWXZyUE9jRGJkcS1UUTJnelp5SHFvY2dhRlN5blVCWlFWUDllRkkyNTBoZ0o5YWV6UDRhcTNIbzJ6dzh6a2ltay01ajRrNjE4Wm9kQ0pGTlAwMDJEQU5GMjdMa3hDOEZqNms4WWZBZnfSAZACQVVfeXFMT3RoM2RsODZtbzB4RmRidkk3X0NhZ3VEaUNseE9KZENYYjEtNlRaU1I1ZnRRVll5N2JKQjQwYXhZSHhmejBGVjgyUnFDUUF4NjhLbV9DdGNySzVheXVJZFBIbFRMTnA5ZG9PNE1HN2pNLU5TTE84OWxSZUJkVy1IY0daWTlldVhLN1dSclhUQWwxTFF4VTlxXzBRUU5XVGU5b21KWkRNVTJ4NEh3d1FWNmRDTk12dGRXbDh1VDJCVmFHcE14VVh0ODlfWjc3V3pMRzZlRXROUUYzWDNpbU43eVZtNGxLekw5QzZiZDRxZFM0MUptdEFaRTdhaXlkU0ozLUhHdjkxME5hYWNkS0xXRjM?oc=5",
+          "source": "ET Manufacturing",
+          "note": "This story shows India is localizing supply chains for strategic industrial inputs because the minister says stronger domestic supply chains will come through coal gasification and rare earth corridors.",
+          "mechanism": "This story shows India is localizing supply chains for strategic industrial inputs because the minister says stronger domestic supply chains will come through coal gasification and rare earth corridors.",
+          "event": "india-domestic-supply-chain-push"
+        }
+      ]
+    },
+    {
+      "id": "c_india_ai_law",
+      "title": "AI law consultations",
+      "nickname": "AI law",
+      "plain": "India is moving toward formal AI legislation.",
+      "claim": "India is moving toward an AI law.",
+      "forces": [
+        "regulation"
+      ],
+      "created": "2026-10-24",
+      "evidence": [
+        {
+          "date": "2026-10-24",
+          "item_id": "9bef78ecd3",
+          "section": "politics_india",
+          "title": "Govt to issue consultation paper on AI law in coming weeks: Vaishnaw",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZG4xRHNtY1NmWGNOQjFVRDdlZG9BeDd0OXV0OHhhYWdCVFl1Vkh0bElQN0NfRmhBV1o4M0lTRU5rblF4N3pLTk9iblRJajU4QUlvYzVvajliYlMwLVVBRGJRcGtEWXl4YkJIaFUweG5oU3YyZUQyOG92WTl4el9DeG1aTEJ6QWJEWm05dE9qQVV0MU5EYUtvQ0FVbWRmcnMtOEVuMXJ4TkxDTHQ2WHdvY2o4aC01ZG5pYkxyZ0c3UVNqUHh4c0d6YzNuZk85RDllTzFpN3doY2bSAdwBQVVfeXFMUGxWTGdzWkZyaHFfUUhGNUQ4M0QxenBGaldqbGlWNHB2MmxmcjJ2ZHA0RDIxLUpfVVFPQjA2RzNhQ1F6b1ptaUN3Rjk5X2lHRG84cW85NU5SQmxzdGxJTERYeXdFaTg3U19BTFFtTlJLWURlODFNd042R3ZCQjkwUGp5Ml9zVzV1UUZrTmNKWU5Yb24zMF9QcllIdWE3VkhLdWo1RkNLSG1wMjktbWNaSGR4M21nNk5qT1plMW9neHJ2OExVaHdWMEpEdmlTYWREbDVMZGxCVGd1ZGRvOA?oc=5",
+          "source": "ET Government",
+          "note": "This story shows India is moving toward an AI law because the government said it will issue a consultation paper on AI law in the coming weeks.",
+          "mechanism": "This story shows India is moving toward an AI law because the government said it will issue a consultation paper on AI law in the coming weeks.",
+          "event": "india-ai-law-consultation"
+        }
+      ]
+    },
+    {
+      "id": "c_farmer_id_rollout",
+      "title": "Farmer ID rollout",
+      "nickname": "Farmer IDs",
+      "plain": "India is assigning digital IDs to farmers at scale.",
+      "claim": "India is assigning digital IDs to farmers at scale.",
+      "forces": [
+        "regulation",
+        "technology"
+      ],
+      "created": "2026-10-24",
+      "evidence": [
+        {
+          "date": "2026-10-24",
+          "item_id": "4bb2efd44b",
+          "section": "politics_india",
+          "title": "In major digital agriculture push, 11 crore farmers get unique IDs",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZzFYYU1pREh1ZHNSV2tfdEh5S2Z0ejdZUkMzcUxBNVl0cnlsUGFvT3ZydFBtcFplWldmT2lEdmx6Mmx6akw2cWdIM2x0MmFnZDZDYVVibEpjVS1TRHI2Q25NZGZlVXcwWS1nU1FUUzV2Z0dnaG9VbkpCQi16a1FCaWMxdkoyX2Z0ejBnZXVmODdTbE45NVB3c1BCeTd2d9IBpAFBVV95cUxOYmtXa0NKa0dqc0RiZjljcWpJODhHSnVNQml2S3BQRTFVMXNxUDg0RGtCWU1LV2FXSVBFYUUzcmJrZDJ5NE5DVEFLNmtCNjZoc1NvR0J5dVhkMFhQWXJGaU9lODVhVHVKM011clJSTFhGeDNxQzNMWE1aZEY0cGVQUkJIVHVxUWZTMkpRR3JsNXJkVHcyd1VPUlF1S04zeTlMQmE5MQ?oc=5",
+          "source": "The Indian Express",
+          "note": "This story shows India is assigning digital IDs to farmers at scale because 11 crore farmers are getting unique IDs in a digital agriculture push.",
+          "mechanism": "This story shows India is assigning digital IDs to farmers at scale because 11 crore farmers are getting unique IDs in a digital agriculture push.",
+          "event": "india-farmer-id-rollout"
+        }
+      ]
+    },
+    {
+      "id": "c_fii_selling_streak",
+      "title": "FII selling streak",
+      "nickname": "FII outflows",
+      "plain": "Foreign investors are selling Indian equities week after week.",
+      "claim": "Foreign investors are selling Indian equities for multiple weeks.",
+      "forces": [
+        "capital"
+      ],
+      "created": "2026-10-24",
+      "evidence": [
+        {
+          "date": "2026-10-24",
+          "item_id": "190ade9105",
+          "section": "markets",
+          "title": "FIIs dump Indian stocks for 10th straight week as markets slide: Is the worst over or more pain ahead?",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQamdNUnNMaUJ1WGpEcWpQclZGYjFsdGlUUVFaR19oX1dMWW5WVXdIXzIyUVFqQ1JadFExUXlvN0RKcGIyaGVoNHp1S1Y4VG5MMkswMnZWRHkyYkJzRVBKZFhJSUhzTzRQOXlnOGZTS2hNMFBiRFFOWHVPbENIS3phMDUxOGhodFQzWThXQjFjRjFSUGEtdFJqQ1FVdTZwVzJxaUlHekFmYTQ2emJoU2hXTVZMOWRndGhIVmQyOU9pSmtfRG1MbVNnekJLak5CaVZZa0N6em42dURiZWV2VzRrVm1xOHBTd1ZWX21lMTM5NVU4MmFaYV9mcDQ1OVhEUDhYRnZhatIBigJBVV95cUxNSm1lekZMOGZUZWt6WE1mM01ZbGdUVVk4TXJKal9XS19UUzJqUEU2WkM3eVZ0V3Fna3BlNm9CUXB2R0lMeVBpeUJiNlR4RnhJYWhDSWIyclRXb3ZzTmNwa2t2WjYwVW16Nk1Nd0lZYWdZSTBjWXFXQWhYZlRMNDU5WHh4cEg0OXd5YmFvUk1udUl6eGgxaHp4MklrM2taNHBMb09nM09lM0pRRWE2VzA5V3FPTS13Q2xZeDNYZVBRNzlHclJPRmp3LWxxWDk1RzhoaXFiSThhSVpWVjN5WUNaUkhQYXJxV2JqM0dZTDUzajJFRzlJY0F4Vkh6OVRRekdESHkwZ29oc1p5Zw?oc=5",
+          "source": "The Economic Times",
+          "note": "This story shows foreign investors are selling Indian equities week after week because FIIs have dumped Indian stocks for a 10th straight week.",
+          "mechanism": "This story shows foreign investors are selling Indian equities week after week because FIIs have dumped Indian stocks for a 10th straight week.",
+          "event": "fii-selling-streak"
+        }
+      ]
+    },
+    {
+      "id": "c_ai_money_to_software",
+      "title": "AI money shifts to software",
+      "nickname": "Software tilt",
+      "plain": "AI funding is moving from chips to software.",
+      "claim": "AI investors are shifting capital from chips to software.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-25",
+      "evidence": [
+        {
+          "date": "2026-10-25",
+          "item_id": "7255cac6c2",
+          "section": "tech",
+          "title": "AI money shifts from chips to software, exposing Korea’s lack of alternatives",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11aHFmRFhscEh0aFJiZjN5eEhhZXIxazJVWWp5MVR4SnV6NkotLXluT3dubHM0VnVuYURORXd6Tnp2VVNKRE5RZ1lmcnRuM2V2ajdZMmoyQzdLdVZpOFpPU2tULUh6ME5DV21kNFRPMzEzdmNYMDlZc3Zn?oc=5",
+          "source": "KED Global",
+          "note": "This story shows AI investors are shifting capital from chips to software because the article says money is moving out of chip investment and into software layers.",
+          "mechanism": "This story shows AI investors are shifting capital from chips to software because the article says money is moving out of chip investment and into software layers.",
+          "event": "ai-money-shifts-software"
+        }
+      ]
+    },
+    {
+      "id": "c_agentic_secops_funding",
+      "title": "Agentic security gets funded",
+      "nickname": "SecOps bet",
+      "plain": "Capital is flowing to agentic security tools.",
+      "claim": "Venture capital is moving into agentic security startups.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-25",
+      "evidence": [
+        {
+          "date": "2026-10-25",
+          "item_id": "ad14edfe70",
+          "section": "tech",
+          "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONDFvRlVTQS1XV2ZKUlZHSkhsNlBQUU04YWVGQVV3T2VpczltZERrX1RwQlBxN3VEUm1iRU8zU0tIYzl6Z3BBaHVnZnh6UHNGNkdCaE42Z2ZrY2tBRlhsWDJ2ekhfaVhINGQ4U3dtS25SdTFBRzA2ems1cHhVWGdSRVBsTE1iaDdpbm1HbmtVQzZiQmdwZXl0ZVMwbkJuRVZVYXhaSFYxWdIBrAFBVV95cUxNd3lYZXRWN2RfcGpBNGVoRjYwQ2hMX2RfR2NEbVR4Z0Y2N19kMVh4UlplZXZ4TjJzclAtYXNzeTBLODhpOXNQZFFQX3FvMm9INTZnRzJ4VzFwbXdnYzVKOWVQa2ZSYkM2Q0p1Z2s3OVpwNjRFRjFSUE43V05lNUtjSjZhT3gxd1pIa1JpNFV5ZXlHX3FrSkdRa2FjVkltcHY0aGpoTkZSalhOS2RH?oc=5",
+          "source": "SecurityWeek",
+          "note": "This story shows venture capital is moving into agentic security startups because former Unit 8200 officers raised $34 million for Mave, an agentic SecOps startup.",
+          "mechanism": "This story shows venture capital is moving into agentic security startups because former Unit 8200 officers raised $34 million for Mave, an agentic SecOps startup.",
+          "event": "agentic-secops-funding"
+        }
+      ]
+    },
+    {
+      "id": "c_force_sensing_robot_funding",
+      "title": "Robot sensing startups get funded",
+      "nickname": "Sensor robots",
+      "plain": "Capital is flowing to robot sensing systems.",
+      "claim": "Venture capital is moving into force-sensing robotics hardware.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-25",
+      "evidence": [
+        {
+          "date": "2026-10-25",
+          "item_id": "1055076323",
+          "section": "tech",
+          "title": "Enact Intelligence Raises $30M Pre-seed for Force-Sensing robots",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQWlXMzNWdDNaeXA5b0NtbDRqNVBMWmpQTGd6d0dZcElIeTAzNDRaaU5QbG5MeV9CcnpRVUdZVjhkQi1KUlJjRTBUUTk5Y1BnOWNfUFdJbGJQemZjbUpET2QzdXYwNWRsd0pua0ZqS0Y1WUpQR0ZKS1U0eFdJZWk3UnRXNGpuajBSeW1PSkFOQ0Z4V3dXUVZzQg?oc=5",
+          "source": "AI Funding Tracker",
+          "note": "This story shows venture capital is moving into force-sensing robotics hardware because Enact Intelligence raised $30 million for force-sensing robots.",
+          "mechanism": "This story shows venture capital is moving into force-sensing robotics hardware because Enact Intelligence raised $30 million for force-sensing robots.",
+          "event": "force-sensing-robot-funding"
+        }
+      ]
+    },
+    {
+      "id": "c_ai_microclinic_funding",
+      "title": "AI microclinics get funding",
+      "nickname": "Microclinic money",
+      "plain": "Capital is flowing to AI clinic networks.",
+      "claim": "Venture capital is moving into AI-enabled microclinic networks.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-25",
+      "evidence": [
+        {
+          "date": "2026-10-25",
+          "item_id": "e491c0f9b6",
+          "section": "tech",
+          "title": "Health ATM Pioneer Clinics On Cloud Raises ₹120 Crore Series A to Build AI-Enabled Global Microclinics",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNczE2aGhSZ2NMN1VLTWluaDlzUTlWWmh1Szh2dGpjMnV2WFowdWNpdDBNbVR1aV9PRkY2Z3JNY1FLdElITHpSYWZGSzZheGdhZHgyWTJrQU9RdjJ2N3lid3hOX0diYnRnWHZsRTJvMmZNMlhiLXN0a3pXTlI5NFZsTUY1Z1FuOWlwLUU5Wi1aeEl4RGV4VG9oaTFLVzBxRHozSVNFVzJySDVPWnFYdnpYQWln?oc=5",
+          "source": "eHealth Magazine",
+          "note": "This story shows venture capital is moving into AI-enabled microclinic networks because Clinics On Cloud raised ₹120 crore to build AI-enabled global microclinics.",
+          "mechanism": "This story shows venture capital is moving into AI-enabled microclinic networks because Clinics On Cloud raised ₹120 crore to build AI-enabled global microclinics.",
+          "event": "ai-microclinic-funding"
+        }
+      ]
+    },
+    {
+      "id": "c_school_ai_instruction",
+      "title": "Schools add formal AI instruction",
+      "nickname": "Classroom AI",
+      "plain": "Schools are adding formal AI lessons.",
+      "claim": "Education systems are adding formal AI instruction.",
+      "forces": [
+        "technology",
+        "regulation"
+      ],
+      "created": "2026-10-25",
+      "evidence": [
+        {
+          "date": "2026-10-25",
+          "item_id": "de0c22657e",
+          "section": "tech",
+          "title": "Ethical boundaries to detecting deepfakes: NCERT introduces 20-hour AI module for classes 9-12",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVC1PZk1oXzhlLUt3ekp4cFBOeS1FRzFTLUlSdURuQU45VHpudXAwUEoyc2NNeHJ6TlpNWnY1MkZHdXVmbnNibVI5OXEtLV9NeG9NT0lxZEJ2QlRZWE1WUFdkTk9Fd2VnUnZmbnUtMjFFR2FqV20tQ1VqdF9SUklISWxkekdxYjNMaDV6SWhTbUVUMUNpY3pGMFlKUDhYMmNrdUd0RUZqYzJuaTZjNW90ZzlmUUlqellOZURIMEdfaTdZcUo2MlVwN2tSeE0xbVpMMVBoZGJZckZKODI2eXZuVlFaWUdwc0tQM1HSAfABQVVfeXFMTkxwWlBmX3ZQNDVNNzRlTXBkMTJUNkVQRmRaQ2l3elA5dnVqYno2b2UyZlFaZVZ6ejF4VlBIalY0aXNXdzdqSUhEWmNXU3lqbFlGMFQ0TWlhcGZCYlFaVWJ0Z09KZE9UR29wMjIzc1NVTmRSbmp4OG9aLUFzdi1zTkM5cnA0ZEwxSnExSFF0UTZzT0R6SGZxU1FfRzZCaldUSFh0X0JLV3ZURzR6ZGNKZXRJRXVyUktHS09QMF9PeTF5T1h1YUFtbVE1TXFHSGY5TElpZ2tmY0NhblA2Q3VMV2ZmOTRVRGhiaC1LMU1rNHlH?oc=5",
+          "source": "The Hindu",
+          "note": "This story shows education systems are adding formal AI instruction because NCERT introduced a 20-hour AI module for classes 9-12.",
+          "mechanism": "This story shows education systems are adding formal AI instruction because NCERT introduced a 20-hour AI module for classes 9-12.",
+          "event": "ncert-ai-module"
+        }
+      ]
+    },
+    {
+      "id": "c_ai_wearable_funding",
+      "title": "AI wearables get funded",
+      "nickname": "Pendant bets",
+      "plain": "Capital is flowing to AI companion devices.",
+      "claim": "Venture capital is moving into AI wearable companions.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-25",
+      "evidence": [
+        {
+          "date": "2026-10-25",
+          "item_id": "5b3342b092",
+          "section": "tech",
+          "title": "Nirva Raises $25M Pre-Series A for an AI Pendant That Listens only to its Wearer",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY0VGeHBhYlNrUVN6ZmRoMkRGTkl1QzBIQmtLUFZZY1JDYmZncTNOZV95RFllT3ZmODN3N0drTTJUc0prdV9wUXlYNzZadVVNRlRyM1VlbUtnWDF6TlAyOWE3d29QYWdWNjJGUi0yamZMOTU5c0YwV3EzQnVKU2R3YVNuMk54ZHNvdHIxMXVMdlRScmhFbGtSaXlScGMwSjgyMkUtQzVaTW9rRHpZNXc?oc=5",
+          "source": "AI Funding Tracker",
+          "note": "This story shows venture capital is moving into AI wearable companions because Nirva raised $25 million for an AI pendant that listens only to its wearer.",
+          "mechanism": "This story shows venture capital is moving into AI wearable companions because Nirva raised $25 million for an AI pendant that listens only to its wearer.",
+          "event": "ai-wearable-funding"
+        }
+      ]
+    },
+    {
+      "id": "c_frontier_ai_ipo",
+      "title": "Frontier AI labs move toward listings",
+      "nickname": "AI listings",
+      "plain": "Frontier-model companies are filing or preparing to list.",
+      "claim": "Frontier AI labs are moving toward public listings.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-26",
+      "evidence": [
+        {
+          "date": "2026-10-26",
+          "item_id": "7ca6b100a3",
+          "section": "tech",
+          "title": "Anthropic officially files for its public debut",
+          "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+          "source": "TechCrunch",
+          "note": "This story shows frontier AI labs are moving toward public listings because Anthropic officially filed for its public debut.",
+          "mechanism": "This story shows frontier AI labs are moving toward public listings because Anthropic officially filed for its public debut.",
+          "event": "anthropic-ipo-filing"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "40066215b8",
+          "section": "tech",
+          "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+          "source": "The Verge",
+          "note": "This story shows frontier AI labs are moving toward public listings because Anthropic is preparing an IPO while trying to limit Wall Street influence.",
+          "mechanism": "This story shows frontier AI labs are moving toward public listings because Anthropic is preparing an IPO while trying to limit Wall Street influence.",
+          "event": "anthropic-ipo-filing"
+        },
+        {
+          "date": "2026-10-28",
+          "item_id": "9daa2cd43f",
+          "section": "tech",
+          "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+          "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+          "source": "Ars Technica",
+          "note": "This story shows frontier AI labs are moving toward public listings because Anthropic's IPO filing is surfacing risk factors ahead of a public debut.",
+          "mechanism": "This story shows frontier AI labs are moving toward public listings because Anthropic's IPO filing is surfacing risk factors ahead of a public debut.",
+          "event": "anthropic-ipo-filing"
+        }
+      ]
+    },
+    {
+      "id": "c_flex_fuel_rule_broaden",
+      "title": "Flex-fuel rules broaden",
+      "nickname": "E100 rules",
+      "plain": "India is broadening certification for flex-fuel vehicles.",
+      "claim": "India is widening flex-fuel vehicle certification rules.",
+      "forces": [
+        "regulation"
+      ],
+      "created": "2026-10-26",
+      "evidence": [
+        {
+          "date": "2026-10-26",
+          "item_id": "9dd48b8d39",
+          "section": "politics_india",
+          "title": "Govt notifies E100 flex-fuel rules, expands emission certification framework for ethanol vehicles",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMV9sbXY4NTlKSVdaWW1iTDdoYi1ib1gydkRqd2tXT0FEczVHS0lFQlA5MlB0dTBadzVVT3FkVnJQUzNiYllvZ0g1Y0ZpOFBfODdZbUcxY3QwZTFtamJEOTdfMkxPVkNBM2IwSWJTWlVRcXpYRDJaWC1BTTc5RWtUdlJfOGZfdWhGXzUxckgwS0ROTGpHa01fR29IWENaZkVnNW5Hc2JrQTdfWVFjRjdUQ19sel_SAcIBQVVfeXFMTWdfSkxFSDdNQWs4Y0F0QXMxd1FFVGozNVhmUWxaNDVLTjEwUFRrQ09yekRGOVdwRnNRMXdVTHhDZEtaT3NjcllNMkh5NFNkUlk4MzFDMjBhZ0J6bjNaUVJxeGRpY1RoWlZUUEd3dHBoNW8yemVrUmlXLUFRMF9xalNsc3JOTzJyeTk4Tk1HS29MVUNKMEVWTHZZc255VGtmbVU0OWl5SENINDI3RlFXOVRBb3FxazNPT3VkbGoydnY1Wnc?oc=5",
+          "source": "Fortune India",
+          "note": "This story shows India is widening flex-fuel vehicle certification rules because the government notified E100 flex-fuel rules and expanded the emission certification framework for ethanol vehicles.",
+          "mechanism": "This story shows India is widening flex-fuel vehicle certification rules because the government notified E100 flex-fuel rules and expanded the emission certification framework for ethanol vehicles.",
+          "event": "e100-flex-fuel-rules"
+        }
+      ]
+    },
+    {
+      "id": "c_defence_hardware_buys",
+      "title": "Bigger defence hardware buys",
+      "nickname": "defence spend",
+      "plain": "Government is clearing bigger military hardware purchases.",
+      "claim": "India is approving larger defence hardware buys.",
+      "forces": [
+        "capital",
+        "geopolitics"
+      ],
+      "created": "2026-10-26",
+      "evidence": [
+        {
+          "date": "2026-10-26",
+          "item_id": "813ccfca42",
+          "section": "politics_india",
+          "title": "Government clears acquisition of military hardware worth Rs 2.12 lakh crore for defence forces",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbjROblNTcjR0NE5YSWZhRk5KZEpySVVpMnloTVB4VVcwTmZvcmxlOUtKZzV4bi0tNFQ5MnFFanN3XzlZSEtuTll6dWYyV3FpUjhqbGU2QVduOG1iU2NVc3U2WG5mb21lcFZlRHZlenBmZjlDUDBTTWdWWGZLZ0dMNTlfUXByZVdPaXhub3NsQ08tRERlN3hQVHVvSjNwM0JrZUhzems3SnRESGV4elQ0REY3NGhHLUJQV29VUUkxQ09tbE9VbmRCVFUtSkFhX0lad1E?oc=5",
+          "source": "Deccan Herald",
+          "note": "This story shows India is approving larger defence hardware buys because the government cleared military hardware acquisitions worth Rs 2.12 lakh crore.",
+          "mechanism": "This story shows India is approving larger defence hardware buys because the government cleared military hardware acquisitions worth Rs 2.12 lakh crore.",
+          "event": "india-defence-hardware-clearance"
+        }
+      ]
+    },
+    {
+      "id": "c_ai_data_center_power_constraints",
+      "title": "Data-centre power and siting squeeze",
+      "nickname": "power squeeze",
+      "plain": "Data centres are facing electricity shortages and local opposition.",
+      "claim": "Data-centre buildouts are running into power and siting constraints.",
+      "forces": [
+        "technology",
+        "capital"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "0314877842",
+          "section": "tech",
+          "title": "Anthropic is burning gas to feed the AI boom",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+          "source": "The Verge",
+          "note": "This story shows data-centre buildouts are running into power constraints because Anthropic says competition for electrical supply and power-available locations is intense.",
+          "mechanism": "This story shows data-centre buildouts are running into power constraints because Anthropic says competition for electrical supply and power-available locations is intense.",
+          "event": "anthropic-power-competition"
+        }
+      ]
+    },
+    {
+      "id": "c_ai_model_orchestration_tools",
+      "title": "AI model orchestration tools",
+      "nickname": "model wranglers",
+      "plain": "Companies are paying for tools that manage multiple AI models.",
+      "claim": "Enterprises are buying tools to reconcile outputs across multiple AI models.",
+      "forces": [
+        "technology",
+        "capital"
+      ],
+      "created": "2026-10-27",
+      "evidence": [
+        {
+          "date": "2026-10-27",
+          "item_id": "837fb6a3e2",
+          "section": "tech",
+          "title": "London’s Querio launches with €4.48 million to help companies tackle conflicting answers across AI tools",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSXhERjJobG91S1JmZTNGMHFYeFB5X01LVlhFS2ctdXczaTByX0VCcFNxbFNMblZMUUlZWDN4NXdLMmJ4UXZoQzV0MzFXaTNNTUhFSWlLWWxTYVB3YXNEQWNfVGVYcm1TWi10VHZEUnZyNG9fNWlLRGcwWXlTa1M1azlYX2V1T2l0T1V0YWpsVGpsU1dnbGZZeXR2YndoSTBuNDNFc2lhWnRDZ2hnMmdJa2VmVV9uS1VfcHJ0OUQxMURlMUtjTkRpcUhDS3lHU1pPeDdrNEZ0VHA1YmFHcnBiY1JRWmZvRi10NUVpN2tFVkdPMDQ?oc=5",
+          "source": "EU-Startups",
+          "note": "This story shows enterprises are buying tools to reconcile outputs across multiple AI models because Querio launched to help companies tackle conflicting answers across AI tools.",
+          "mechanism": "This story shows enterprises are buying tools to reconcile outputs across multiple AI models because Querio launched to help companies tackle conflicting answers across AI tools.",
+          "event": "querio-ai-orchestration"
+        }
+      ]
+    },
+    {
+      "id": "c_ai_inference_infra_funding",
+      "title": "AI inference infrastructure funding",
+      "nickname": "Inference cash",
+      "plain": "AI infrastructure startups are raising capital.",
+      "claim": "Venture capital is moving into AI inference infrastructure startups.",
+      "forces": [
+        "capital",
+        "technology"
+      ],
+      "created": "2026-10-28",
+      "evidence": [
+        {
+          "date": "2026-10-28",
+          "item_id": "2e1cf5b0a8",
+          "section": "tech",
+          "title": "Simplismart raises $14 Mn from Dallas Venture Capital, NVIDIA and others",
+          "url": "https://entrackr.com/news/simplismart-raises-14-mn-from-dallas-venture-capital-nvidia-and-others-12758191",
+          "source": "Entrackr",
+          "note": "This story shows venture capital is moving into AI inference infrastructure startups because Simplismart raised $14 million in a Series B for its inference stack.",
+          "mechanism": "This story shows venture capital is moving into AI inference infrastructure startups because Simplismart raised $14 million in a Series B for its inference stack.",
+          "event": "simplismart-series-b"
+        }
+      ]
+    },
+    {
+      "id": "c_china_linked_fdi_easing",
+      "title": "China-linked FDI rule easing",
+      "nickname": "FDI thaw",
+      "plain": "India is loosening FDI restrictions tied to China.",
+      "claim": "India is easing FDI rules for China-linked investments.",
+      "forces": [
+        "capital",
+        "regulation",
+        "geopolitics"
+      ],
+      "created": "2026-10-28",
+      "evidence": [
+        {
+          "date": "2026-10-28",
+          "item_id": "e8bf52f236",
+          "section": "politics_india",
+          "title": "Govt plans further easing of FDI rules for investments linked to China, neighbouring countries",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNFIyS19QQUlCOEtRdFdvVmUtSmNlNmhDWVRldm1Tb2JKZHNEZ2JNcVVZOVltQktNdkdTbEJhYzFMaVJVMVdrSFdoMWhmWV9JX2NzNnh3M0M5MEpUMzJVbEFsV0dSOHlJTFRxeWg5Z0duN2swckxjRTdhN3lWMXY0R0l6SlFrR1NnM3BRM1FWSzU5SXp2c2gzZGpJYWNCc1hFektxREIxbEpTVUIzQjgtMnc3YXNmQlNBV1NtRjdkNmJHX1g5Z1l4RnpsbDhOcXJYR2fSAdIBQVVfeXFMTzRSMktfUEFJQjhLUXRXb1ZlLUpjZTZoQ1lUZXZtU29iSmRzRGdiTXFVWTlZbUJLTXZHU2xCYWMxTGlSVTFXa0hXaDFoZllfSV9jczZ4dzNDOTBKVDMyVWxBbFdHUjh5SUxUcXloOWdHbjdrMHJMY0U3YTd5VjF2NEdJekpRa0dTZzNwUTNRVks1OUl6dnNoM2RqSWFjQnNYRXpLcURCMWxKU1VCM0I4LTJ3N2FzZkJTQVdTbUY3ZDZiR19YOWdZeEZ6bGw4TnFyWEdn?oc=5",
+          "source": "PSU Watch",
+          "note": "This story shows India is easing FDI rules for China-linked investments because the government plans further relaxation for investments tied to China and neighboring countries.",
+          "mechanism": "This story shows India is easing FDI rules for China-linked investments because the government plans further relaxation for investments tied to China and neighboring countries.",
+          "event": "india-fdi-easing"
+        }
+      ]
+    },
+    {
+      "id": "c_ai_acquisition_scrutiny",
+      "title": "AI acquisition scrutiny rises",
+      "nickname": "AI antitrust",
+      "plain": "Regulators are checking AI deals more closely.",
+      "claim": "US regulators are scrutinizing AI acquisitions more aggressively.",
+      "forces": [
+        "regulation",
+        "technology"
+      ],
+      "created": "2026-10-29",
+      "evidence": [
+        {
+          "date": "2026-10-29",
+          "item_id": "8d743f5fea",
+          "section": "tech",
+          "title": "EXCLUSIVE: US DOJ is inquiring about Nvidia's purchase of Hugging Face, sources say",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQi1pQlpXMFg0djlmZFhkcGFlc3hJWmxKNXIzeFlTOWRxSXd5YWtCX1FRdUdlWWM1NEZxQVpOWktKbVkyWWR1aFRhbFd3SnRRcW5SZTJ0YXRvQTZ6MjlmVmFMVThhSldFTUpseWRtblVrel8tM0VISmVOVmdVend5UTFOTHhKazBXalpIOHVUdkVmcm5YdTI4UWk3MUJObk9GMzRYOEpkeEFXVnhwZXc?oc=5",
+          "source": "Reuters",
+          "note": "This story shows US regulators are scrutinizing AI acquisitions more aggressively because the DOJ is inquiring about Nvidia's purchase of Hugging Face.",
+          "mechanism": "This story shows US regulators are scrutinizing AI acquisitions more aggressively because the DOJ is inquiring about Nvidia's purchase of Hugging Face.",
+          "event": "nvidia-huggingface-doj-inquiry"
+        }
+      ]
+    }
+  ],
+  "today": {
+    "attached": [
+      {
+        "item_id": "5ca32abcc5",
+        "thread_id": "t_ai_compute_capital_surge",
+        "note": "This story shows AI chip and model firms are raising bigger capital deals because FuriosaAI raised $620 million in Series D to scale AI chips."
+      },
+      {
+        "item_id": "49002047d7",
+        "thread_id": "t_embodied_ai_hardware_funding",
+        "note": "This story shows venture capital is moving into embodied AI hardware startups because Tensrai raised pre-seed money to accelerate its Physical AI technology."
+      }
+    ],
+    "new_threads": [],
+    "new_candidates": [],
+    "promoted": [],
+    "merges": [],
+    "distinct": [
+      {
+        "pair": [
+          "t_embodied_ai_hardware_funding",
+          "t_indian_hardware_ipo"
+        ],
+        "difference": "One is hardware-linked startups moving toward listings; the other is venture funding into embodied AI hardware."
+      },
+      {
+        "pair": [
+          "t_india_semiconductor_capital_boom",
+          "t_regional_chip_buildout"
+        ],
+        "difference": "One tracks capital flowing into India’s semiconductor sector; the other tracks fab and supply-chain expansion across regional hubs."
+      },
+      {
+        "pair": [
+          "t_indian_hardware_ipo",
+          "t_state_bank_divestment"
+        ],
+        "difference": "One is about startup IPOs; the other is about government selling state-bank ownership."
+      },
+      {
+        "pair": [
+          "t_ai_assistant_device_spread",
+          "t_ai_compute_capital_surge"
+        ],
+        "difference": "One is about assistants spreading to more devices; the other is about larger AI fundraising rounds."
+      },
+      {
+        "pair": [
+          "t_embodied_ai_hardware_funding",
+          "t_india_semiconductor_capital_boom"
+        ],
+        "difference": "One is about India’s semiconductor investment boom; the other is about venture capital into embodied AI hardware startups."
+      },
+      {
+        "pair": [
+          "t_ai_compute_capital_surge",
+          "t_regional_chip_buildout"
+        ],
+        "difference": "One is about physical chip capacity buildouts; the other is about capital raised by AI chip and model firms."
+      },
+      {
+        "pair": [
+          "t_embodied_ai_hardware_funding",
+          "t_state_bank_divestment"
+        ],
+        "difference": "One is state-bank privatization; the other is startup funding for robotics and AI hardware."
+      },
+      {
+        "pair": [
+          "t_india_rate_hike_tightening",
+          "t_india_semiconductor_capital_boom"
+        ],
+        "difference": "One is monetary tightening; the other is semiconductor-sector capital inflows."
+      },
+      {
+        "pair": [
+          "t_india_rate_hike_tightening",
+          "t_state_bank_divestment"
+        ],
+        "difference": "One is about RBI policy; the other is about state-bank ownership changes."
+      },
+      {
+        "pair": [
+          "t_indian_hardware_ipo",
+          "t_nvidia_stack_shift"
+        ],
+        "difference": "One is startup public listings; the other is cloud vendors steering AI developers off Nvidia tooling."
+      },
+      {
+        "pair": [
+          "t_ai_assistant_device_spread",
+          "t_nvidia_stack_shift"
+        ],
+        "difference": "One is consumer AI assistants moving onto more devices; the other is backend AI development shifting away from Nvidia."
+      },
+      {
+        "pair": [
+          "t_ai_compute_capital_surge",
+          "t_embodied_ai_hardware_funding"
+        ],
+        "difference": "One is fundraising by AI chip and model firms; the other is funding for embodied AI hardware startups."
+      }
+    ],
+    "splits": [],
+    "cross_link": {
+      "thread_a": "t_state_bank_divestment",
+      "thread_b": "t_ai_compute_capital_surge",
+      "force": "capital",
+      "sentence": "India's state-bank divestment and the AI compute funding surge both show capital moving toward privately owned, high-growth bets."
+    },
+    "events": {
+      "5ca32abcc5": "furiosaai-series-d",
+      "109a183807": "smylo-funding-round",
+      "2aa777c1a5": "venttup-pre-series-a",
+      "56cfe99450": "coratia-bridge-round",
+      "49002047d7": "tensrai-pre-seed",
+      "a7b10c87a8": "pine-labs-q2-fy27-results",
+      "dfeee0c427": "shadowfax-q2-fy27-results",
+      "b394caaea4": "google-ai-search-monetization",
+      "e4b7312242": "reddit-ai-search-traffic",
+      "a5dcc06a1c": "intel-wildcat-lake-sold-out",
+      "ffcfea0a6a": "avendus-ai-capex-report",
+      "f4c3d10b29": "ig-defence-oman-drone-mou",
+      "cfed78c7b3": "trump-robot-import-tariffs",
+      "8a86a20d92": "modi-gujarat-project-launch",
+      "a86a1787af": "delhi-unauthorised-colony-extension",
+      "49c8b6514a": "sc-vacant-sc-posts",
+      "e6d2748ac9": "cbse-class-9-revision",
+      "5e78cac6ef": "israel-election-2026",
+      "9d91aec7c6": "israel-election-2026",
+      "0ad85e6ed3": "ukraine-refinery-strike-pause",
+      "b39cbc01db": "boj-rate-hold-target-signal",
+      "a98eaa8b03": "houthis-saudi-oil-attack",
+      "cde0f9676a": "zverev-world-no1",
+      "8c45b6a372": "nanotyrannus-auction-record",
+      "4e605d7487": "sea-amphibian-discovery"
+    },
+    "verify": {
+      "checked": 4,
+      "dropped": 2,
+      "indirect": 0,
+      "capped": 0
+    },
+    "status_changes": {},
+    "attach_rate": 0.08,
+    "taught": 0,
+    "backstory": [
+      {
+        "thread_id": "t_embodied_ai_hardware_funding",
+        "item_id": "4dcfcc0d19"
+      },
+      {
+        "thread_id": "t_embodied_ai_hardware_funding",
+        "item_id": "307f9bebe9"
+      },
+      {
+        "thread_id": "t_india_voter_roll_checks",
+        "item_id": "28ea64b57c"
+      },
+      {
+        "thread_id": "t_ai_in_production_workflows",
+        "item_id": "0bbaf2b44d"
+      },
+      {
+        "thread_id": "t_ai_in_production_workflows",
+        "item_id": "4a535eced6"
+      }
+    ]
+  }
+}

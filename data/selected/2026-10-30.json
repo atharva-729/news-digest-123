@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-30",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "5ca32abcc5",
+        "reason": "A huge AI-chips round signals capital is still flooding the compute layer, despite market worries about valuations.",
+        "funding": {
+          "company": "FuriosaAI",
+          "amount": "$620 mn",
+          "sector": "AI chips",
+          "country": "South Korea"
+        }
+      },
+      {
+        "id": "109a183807",
+        "reason": "Another consumer startup raising fresh capital shows funding remains selective but active in India’s D2C niches.",
+        "funding": {
+          "company": "Smylo",
+          "amount": "₹30 Cr",
+          "sector": "D2C pet food",
+          "country": "India"
+        }
+      },
+      {
+        "id": "2aa777c1a5",
+        "reason": "A pre-Series A for industrial tech shows money moving into automation and manufacturing-adjacent startups, not just software.",
+        "funding": {
+          "company": "Venttup",
+          "amount": "$3 Mn",
+          "sector": "industrial tech",
+          "country": "India"
+        }
+      },
+      {
+        "id": "56cfe99450",
+        "reason": "Deep-tech underwater robotics funding is evidence that strategic hardware and defense-related startup capital is still finding its way into India.",
+        "funding": {
+          "company": "Coratia Technologies",
+          "amount": "Rs 18 Cr",
+          "sector": "deep-tech robotics",
+          "country": "India"
+        }
+      },
+      {
+        "id": "49002047d7",
+        "reason": "Physical AI funding shows investors are backing embodied systems, a sign that AI capital is broadening beyond chatbots and software tools.",
+        "funding": {
+          "company": "Tensrai",
+          "amount": "Rs 3.4 Cr",
+          "sector": "physical AI",
+          "country": "India"
+        }
+      },
+      {
+        "id": "a7b10c87a8",
+        "reason": "Pine Labs’ profit surge is evidence that fintech and payments platforms are maturing into stronger earnings businesses."
+      },
+      {
+        "id": "dfeee0c427",
+        "reason": "Shadowfax’s sharp profit jump points to logistics platforms gaining operating leverage as India’s delivery economy scales."
+      },
+      {
+        "id": "b394caaea4",
+        "reason": "Google’s AI-search monetization problem is evidence that the AI shift is forcing major platforms to rework their ad economics."
+      },
+      {
+        "id": "e4b7312242",
+        "reason": "Reddit saying Google’s AI Mode doesn’t drive traffic highlights the broader tension between AI answers and publisher traffic."
+      },
+      {
+        "id": "a5dcc06a1c",
+        "reason": "Intel selling out its affordable laptop chips signals demand recovery at the low end of the PC semiconductor market."
+      },
+      {
+        "id": "ffcfea0a6a",
+        "reason": "Avendus linking India’s manufacturing upside to the AI investment cycle is evidence that industrial policy is being reframed around AI-led capex."
+      },
+      {
+        "id": "f4c3d10b29",
+        "reason": "The drone-systems MoU shows defense manufacturing is increasingly a cross-border industrial partnership story, not just a procurement one."
+      },
+      {
+        "id": "cfed78c7b3",
+        "reason": "Treating robot imports as a security issue is evidence that automation is moving into the geopolitics and trade-policy arena."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "8a86a20d92",
+        "reason": "Direct evidence of state spending priorities and election-style infrastructure push through a large PM project launch."
+      },
+      {
+        "id": "a86a1787af",
+        "reason": "Shows how Delhi keeps extending regularisation protections for illegal constructions, reflecting the politics of urban property and vote-bank accommodation."
+      },
+      {
+        "id": "49c8b6514a",
+        "reason": "Signals the tightening politics of reservation and affirmative action administration, with formal limits on de-reserving SC vacancies."
+      },
+      {
+        "id": "e6d2748ac9",
+        "reason": "Repeated revisions to CBSE Class 9 rules show instability in education policy and the Centre’s evolving control over curriculum design."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "5e78cac6ef",
+        "reason": "Israel’s deadlocked result is evidence of a broader fragmentation of coalition politics and Netanyahu’s weakening grip on power."
+      },
+      {
+        "id": "9d91aec7c6",
+        "reason": "The seat math and Arab-party surge point to a durable shift in Israel’s governing blocs and coalition bargaining."
+      },
+      {
+        "id": "0ad85e6ed3",
+        "reason": "Kyiv pausing refinery strikes under U.S. pressure shows how wartime tactics are being shaped by alliance politics and energy leverage."
+      }
+    ],
+    "markets": [
+      {
+        "id": "b39cbc01db",
+        "reason": "BOJ holding rates while signaling inflation has reached target is evidence of a broader shift toward policy normalization in Japan, with implications for yen and global liquidity."
+      },
+      {
+        "id": "a98eaa8b03",
+        "reason": "Rising oil on supply concerns from Houthi attacks points to geopolitics still driving a structural energy-risk premium into global commodities and inflation."
+      }
+    ],
+    "sports": [
+      {
+        "id": "cde0f9676a",
+        "reason": "World No. 1 change is a concrete ranking milestone that reflects the sport’s ongoing shift in power at the top of men’s tennis."
+      }
+    ],
+    "fun": [
+      {
+        "id": "8c45b6a372",
+        "reason": "Evidence of how deep-pocketed collectors and fossil markets are driving dinosaur specimens into the luxury-auction economy."
+      },
+      {
+        "id": "4e605d7487",
+        "reason": "A genuinely delightful scientific oddity: a newly discovered amphibian that lived entirely at sea, expanding what we know about vertebrate evolution."
+      }
+    ]
+  },
+  "moved_to_tech": [
+    "6588d35a12",
+    "5eeecd404f",
+    "e979f1302b",
+    "12eeef2d50",
+    "295ed9b5a0",
+    "788f21d2a9",
+    "e28320a763"
+  ],
+  "funding": {
+    "total": 5,
+    "india": 4,
+    "world": 1,
+    "unknown": 0
+  }
+}

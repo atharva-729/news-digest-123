@@ -38,5 +38,18 @@
     "review_by": "2026-12-28",
     "verdict": null,
     "verdict_note": ""
+  },
+  {
+    "made": "2026-10-30",
+    "thread_id": "t_regional_chip_buildout",
+    "thread_title": "Fab buildout",
+    "prediction": "Regional hubs will see more public semiconductor supply-chain expansion announcements.",
+    "measure": "number of public announcements of semiconductor plant, packaging, or supply-chain capacity in regional hubs",
+    "threshold": "at least 2",
+    "could_fail_because": "Governments or firms may delay projects, or announcements may come outside the targeted regional hubs.",
+    "confidence": 58,
+    "review_by": "2026-12-29",
+    "verdict": null,
+    "verdict_note": ""
   }
 ]
