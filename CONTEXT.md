@@ -11,15 +11,18 @@ the last 5 entries.**
 - **History backfilled** 6–26 Oct (`digest/backfill.py`: Google News day windows + paged Inc42/TechCrunch/
   Entrackr feeds; select + threads only, no edition pages). Now 11 active patterns with 2–5 events each
   (chip capital, IPO route, embodied AI, Nvidia detour, rate turn, roll checks…), real status mix.
-- **Pushed** 2026-10-29 (913e34f); Pages serves it. User shows the team next day, then makes the repo private.
-- **Still open:** attach rate 0.00–0.20/day (target 0.4–0.6): the verify pass and the model stay cautious.
-  29 Oct has 0 links (proposals were plans/rumours or went to new candidates).
-- **Next:** run `python run.py daily` each morning.
+- **Live on Pages** with editions 27 Oct–2 Nov (31 Oct and 1 Nov caught up on 2 Nov). Team has seen it;
+  user may make the repo private.
+- **Still open:** attach rate 0.04–0.16/day (target 0.4–0.6): the verify pass and the model stay cautious.
+  9 active patterns, ~28 candidates. About half the cards are "limited" (Google News links aren't read).
+- **Next:** run `python run.py daily --push` each morning until automation is set up.
 
 ## How to run
 - `python run.py daily` = ingest (+7-day lookback) → select → read → threads (+verify, teach) → connect →
   write → deliver. `python run.py weekly` = write → deliver. `--from/--until PHASE`, `--dates A:B` (date
   range, e.g. `--dates 2026-10-27:2026-10-29 --from threads` to rebuild), `--no-send`, `-v`, `--push`.
+  A missed day: `--dates A:B` with past dates ingests via `backfill.catch_up` (feeds + older pages + dated
+  Google News, 24 h up to 06:00 IST), then runs every phase as usual. Run past days before today.
 - Output: `data/items/`, `data/context/`, `data/selected/`, `data/read/`, `data/threads/DATE.json`
   (`today.events`, `today.verify`, `today.attach_rate`), `data/connect/`, `data/written/`, `data/calls.json`,
   `data/memory.json`, `data/llm_usage.jsonl`, `data/quality/` (baseline.txt, after.txt), `docs/`.
@@ -54,7 +57,6 @@ the last 5 entries.**
 - Repo is public; user may make it private (Pages on a private repo needs a paid plan).
 
 ## Log (last 5)
-- 2026-10-29: Raised level to college student; politics neutrality + fact-check; start page with credit.
 - 2026-10-30: fixes.md Phases 1–6: quality report, events, verify, merges/splits, statuses, developing
   stories, falsifiable calls, checked quiz. Several calibration rounds on claim rules and models.
 - 2026-10-30: Phase 7 rebuild of 27–29 Oct: 2 solid patterns (voter rolls, Middle East oil), no
@@ -62,3 +64,4 @@ the last 5 entries.**
 - 2026-10-30: Switched every step to gpt-5.4-mini; backfilled 21 days of history; rebuilt 27–29 Oct.
   11 patterns, statuses meaningful. Spent $3.74. Threads/verify prompts: "an instance counts" rule.
 - 2026-10-29: Pushed both commits to origin/main so GitHub Pages shows the rebuilt site for the demo.
+- 2026-11-02: Added catch-up ingest for missed days; built 31 Oct, 1 Nov and 2 Nov ($0.54), pushed.

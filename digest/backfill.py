@@ -19,7 +19,7 @@ import httpx
 
 from digest import articles, select, threads
 from digest.common import DATA, IST, load_config, write_json
-from digest.ingest import USER_AGENT, dedupe, normalise
+from digest.ingest import USER_AGENT, collect, dedupe, normalise, save
 
 log = logging.getLogger(__name__)
 
@@ -86,6 +86,32 @@ def fetch(cfg, start, end):
         if d in by_day:
             by_day[d].append(n)
     return by_day
+
+
+def catch_up(cfg, date):
+    """Ingest for a missed edition (run.py daily --date PAST): the 24 hours up to 06:00 IST that day, from
+    every publisher feed that still carries it, older pages of the pageable ones, and Google News limited to
+    those dates (the usual when:1d searches would return today's news instead)."""
+    icfg = cfg["ingest"]
+    end = datetime.fromisoformat(date).replace(hour=6, tzinfo=IST)
+    start = end - timedelta(hours=icfg["daily_window_hours"])
+    in_window = lambda n: start.isoformat() <= n["published_at"] < end.isoformat()
+    per_feed = icfg["max_items_per_feed"]
+    raw, feed_stats = collect(cfg, False, start, end, per_feed)
+    days = sorted({start.astimezone(IST).date().isoformat(), date})
+    jobs = [(s, f, d) for s, feeds in cfg["feeds"].items() for f in feeds if "gn" in f for d in days]
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        found = list(pool.map(lambda j: (j[1]["name"], google_news_day(cfg, *j)), jobs))
+    by_feed = {}
+    for name, batch in found:
+        by_feed.setdefault(name, []).extend(n for n in batch if in_window(n))
+    for s, feeds in cfg["feeds"].items():
+        for f in feeds:
+            if f["name"] in PAGEABLE:
+                by_feed.setdefault(f["name"], []).extend(n for n in paged_feed(s, f, days[0]) if in_window(n))
+    for batch in by_feed.values():  # newest per_feed per feed, like a normal run
+        raw += sorted(batch, key=lambda n: n["published_at"], reverse=True)[:per_feed]
+    return save(cfg, date, raw, feed_stats, "catch-up")
 
 
 def save_day(cfg, day, raw):

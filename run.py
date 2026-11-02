@@ -5,7 +5,7 @@ import sys
 from collections import Counter
 from datetime import date as date_cls, timedelta
 
-from digest import articles, connect, deliver, ingest, select, threads, weekly as weekly_edition, write
+from digest import articles, backfill, connect, deliver, ingest, select, threads, weekly as weekly_edition, write
 from digest.common import load_config, today_ist
 
 PHASES = ["ingest", "select", "read", "threads", "connect", "write", "deliver"]
@@ -60,7 +60,8 @@ def run_day(cfg, date, todo, weekly, args):
         print(f"  {out['path']}")
 
     if "ingest" in todo:
-        out = ingest.run(cfg, date, weekly)
+        # A missed day can't use the live 24-hour window; fetch that day's window from archives instead.
+        out = backfill.catch_up(cfg, date) if date < today_ist() and not weekly else ingest.run(cfg, date, weekly)
         failed = [f["feed"] for f in out["feeds"] if f["error"]]
         print(f"[ingest] {len(out['items'])} items after dedupe ({out['raw_count']} before)")
         for section, n in out["counts"].items():

@@ -147,7 +147,14 @@ def run(cfg, date, weekly=False):
     window = timedelta(days=icfg["weekly_window_days"]) if weekly else timedelta(hours=icfg["daily_window_hours"])
     now = datetime.now(timezone.utc)
     raw, feed_stats = collect(cfg, weekly, now - window, now + timedelta(hours=1), icfg["max_items_per_feed"])
+    return save(cfg, date, raw, feed_stats, "weekly" if weekly else "daily")
 
+
+def save(cfg, date, raw, feed_stats, mode):
+    """Dedupe, mark what we can explain, cache feed text and write data/items/DATE.json (plus last week's
+    context for a daily). Shared by a normal run and a catch-up run for a missed day."""
+    icfg = cfg["ingest"]
+    now = datetime.now(timezone.utc)
     items = dedupe(raw, icfg["dedupe_title_similarity"])
     texts = {it["id"]: it.pop("_text", "") for it in items}
     # Check each publisher's rules once (in parallel), then mark which items we can explain properly.
@@ -161,7 +168,7 @@ def run(cfg, date, weekly=False):
     counts = Counter(it["section"] for it in items)
     out = {
         "date": date,
-        "mode": "weekly" if weekly else "daily",
+        "mode": mode,
         "generated_at": now.isoformat(),
         "counts": {s: counts.get(s, 0) for s in cfg["section_mix"]},
         "raw_count": len(raw),
@@ -169,7 +176,7 @@ def run(cfg, date, weekly=False):
         "items": items,
     }
     write_json(DATA / "items" / f"{date}.json", out)
-    if not weekly:
+    if mode != "weekly":
         run_lookback(cfg, date, {it["id"] for it in items})
     return out
 
