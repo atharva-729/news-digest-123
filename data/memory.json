@@ -17,8 +17,8 @@
       "step": 1
     },
     "t_india_semiconductor_capital_boom": {
-      "next": "2026-10-12",
-      "step": 0
+      "next": "2026-11-04",
+      "step": 1
     },
     "t_indian_hardware_ipo": {
       "next": "2026-10-31",
@@ -37,12 +37,12 @@
       "step": 1
     },
     "t_frontier_ai_safety_scrutiny": {
-      "next": "2026-10-10",
-      "step": 0
+      "next": "2026-11-03",
+      "step": 1
     },
     "t_ai_strategic_race": {
-      "next": "2026-10-12",
-      "step": 0
+      "next": "2026-11-03",
+      "step": 1
     },
     "t_regional_chip_buildout": {
       "next": "2026-10-21",
@@ -53,16 +53,16 @@
       "step": 0
     },
     "t_ai_in_production_workflows": {
-      "next": "2026-10-13",
-      "step": 0
+      "next": "2026-11-04",
+      "step": 1
     },
     "t_ai_compute_capital_surge": {
-      "next": "2026-10-21",
-      "step": 0
+      "next": "2026-11-05",
+      "step": 1
     },
     "t_state_bank_divestment": {
-      "next": "2026-10-15",
-      "step": 0
+      "next": "2026-11-05",
+      "step": 1
     },
     "t_embodied_ai_hardware_funding": {
       "next": "2026-10-28",
@@ -70,6 +70,10 @@
     },
     "t_india_voter_roll_checks": {
       "next": "2026-10-28",
+      "step": 0
+    },
+    "t_india_factory_capacity_buildout": {
+      "next": "2026-11-03",
       "step": 0
     }
   },
@@ -89,6 +93,18 @@
     "2026-10-30": [
       "t_ai_compute_scarcity",
       "t_india_ai_rulemaking"
+    ],
+    "2026-10-31": [
+      "t_frontier_ai_safety_scrutiny",
+      "t_ai_strategic_race"
+    ],
+    "2026-11-01": [
+      "t_india_semiconductor_capital_boom",
+      "t_ai_in_production_workflows"
+    ],
+    "2026-11-02": [
+      "t_state_bank_divestment",
+      "t_ai_compute_capital_surge"
     ]
   }
 }

@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-01",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "92f26d5717",
+        "reason": "Major policy signal that India is still treating semiconductors as strategic industrial infrastructure, not just a tech niche."
+      },
+      {
+        "id": "a013cabb8e",
+        "reason": "A large manufacturing capex commitment shows the semiconductor buildout is now a capital-allocation story, not just R&D talk."
+      },
+      {
+        "id": "8e192178e6",
+        "reason": "Record AI-memory results from Samsung are evidence that the market’s near-term semiconductor winners are being shaped by HBM and AI demand."
+      },
+      {
+        "id": "2224935748",
+        "reason": "Broad US tech-market weakness centered on semis shows how AI and chip expectations now move the whole sector’s risk appetite."
+      },
+      {
+        "id": "ede8f92814",
+        "reason": "Jio Platforms’ post-listing numbers show India’s digital infrastructure players are scaling through user growth and monetization, not just subscriber adds."
+      },
+      {
+        "id": "f6f52fb950",
+        "reason": "New-age Indian tech stocks moving on earnings is evidence that public markets are now repricing startup maturity and profitability more than growth alone."
+      },
+      {
+        "id": "18e2b05a8e",
+        "reason": "A fresh manufacturing round in India shows capital is still flowing into supply-chain and industrial tech plays, not only software.",
+        "funding": {
+          "company": "CapGrid",
+          "amount": "₹50 Cr",
+          "sector": "B2B manufacturing",
+          "country": "India"
+        }
+      },
+      {
+        "id": "699a557696",
+        "reason": "Quick-commerce and B2B infrastructure funding suggests investors are still backing operational software tied to distribution efficiency and unit economics.",
+        "funding": {
+          "company": "Zorit",
+          "amount": "Rs 27 Cr",
+          "sector": "B2B quick commerce",
+          "country": "India"
+        }
+      },
+      {
+        "id": "efae7082d7",
+        "reason": "A small cross-border startup round shows early-stage capital is still available for emerging-market founders outside the biggest hubs.",
+        "funding": {
+          "company": "Delever",
+          "amount": "US$380,000",
+          "sector": "fintech",
+          "country": "Uzbekistan"
+        }
+      },
+      {
+        "id": "45d5c01e0e",
+        "reason": "Doctor-led adoption funding is evidence that vertical SaaS is maturing when users themselves become the financing base.",
+        "funding": {
+          "company": "Docterz",
+          "amount": "₹5 cr",
+          "sector": "health tech",
+          "country": "India"
+        }
+      },
+      {
+        "id": "6432c7d21b",
+        "reason": "AI-for-compute funding points to the next wave of AI infrastructure: tools that help design the chips and systems running models.",
+        "funding": {
+          "company": "Phinity Labs",
+          "amount": "$5.2 million",
+          "sector": "AI infrastructure",
+          "country": "India"
+        }
+      },
+      {
+        "id": "4e1e4393d7",
+        "reason": "A very large seed round for engineering superintelligence signals how aggressively capital is chasing AI automation infrastructure.",
+        "funding": {
+          "company": "Dulo",
+          "amount": "$130 Million",
+          "sector": "AI",
+          "country": "US"
+        }
+      },
+      {
+        "id": "a7393ac399",
+        "reason": "Government data-sharing rules for AI training show regulation is becoming a core enabler of model development, not just a constraint."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "69c67636cd",
+        "reason": "State governments moving on anti-NEET cases signals the persistence of the national education-admissions conflict and its political cost."
+      },
+      {
+        "id": "8494eda940",
+        "reason": "Post-election defections to the BJP show how coalition management and local patronage remain central to India’s political power shifts."
+      },
+      {
+        "id": "bb8d76ba2b",
+        "reason": "A small LPG and aviation fuel price hike is evidence of the broader energy-pricing pass-through that keeps hitting households and transport costs."
+      },
+      {
+        "id": "6025bee53f",
+        "reason": "A suspension over a bribe remark is a concrete sign of how corruption and bureaucratic conduct remain a live governance issue."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "050f471c94",
+        "reason": "Evidence of the escalating Iran-Israel-US confrontation and how deterrence rhetoric is hardening into wider regional escalation."
+      },
+      {
+        "id": "a02fb19324",
+        "reason": "Shows a broad crackdown on migration and legal status under Trump, a policy shift with geopolitical spillovers for allies and labor flows."
+      },
+      {
+        "id": "67f0fccaf8",
+        "reason": "Signals intensifying conflict over election administration and federal pressure on institutions, a key trend in US democratic governance with international resonance."
+      }
+    ],
+    "markets": [
+      {
+        "id": "245b5fb2dd",
+        "reason": "Weak rupee and RBI intervention point to persistent pressure on India’s external balance and reserve management, not just a one-day currency move."
+      },
+      {
+        "id": "2d94fb0c44",
+        "reason": "The BOJ moving closer to a December hike shows the long unwind of ultra-easy Japanese policy as inflation finally forces normalization."
+      }
+    ],
+    "sports": [
+      {
+        "id": "93ed782763",
+        "reason": "College sports governance reform is evidence of a broader shift in the money-and-power structure of U.S. sports, not just a single result."
+      }
+    ],
+    "fun": [
+      {
+        "id": "7f6a8e3e99",
+        "reason": "A small early trial hints that reframing pain as meaningful can change mental-health treatment, evidence of the growing use of psychology-informed interventions."
+      },
+      {
+        "id": "73dc0817d9",
+        "reason": "A climate-model result showing human warming has overridden a natural glaciation cycle is a vivid piece of evidence for the scale of anthropogenic climate forcing."
+      }
+    ]
+  },
+  "moved_to_tech": [],
+  "funding": {
+    "total": 6,
+    "india": 4,
+    "world": 2,
+    "unknown": 0
+  }
+}

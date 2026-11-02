@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-31",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "a56e749c6c",
+        "reason": "India is moving from ad hoc AI adoption to an official data-governance framework for model training, signaling how regulation will shape the next phase of AI growth."
+      },
+      {
+        "id": "a97d093c22",
+        "reason": "Foxconn’s talk of a new OpenAI tie-up is evidence that hardware supply chains are repositioning around AI demand, not just consumer devices."
+      },
+      {
+        "id": "ef4c1375c4",
+        "reason": "Boom’s pivot from supersonic aviation toward AI data-center power shows capital chasing the infrastructure layer behind AI, even at the expense of earlier moonshots."
+      },
+      {
+        "id": "93351cbb4c",
+        "reason": "A backdoored AI coding extension underscores the security risks created by fast-moving developer-tool ecosystems and the trust premium around AI software distribution."
+      },
+      {
+        "id": "8f65b6637c",
+        "reason": "Low real-world use of AI agents for commerce suggests the gap between AI hype and consumer behavior remains wide, especially in transactional workflows."
+      },
+      {
+        "id": "c6b2d3ea79",
+        "reason": "Nvidia potentially cosigning AI data-center financing shows the chip boom is spilling into credit markets, with vendors increasingly helping fund the infrastructure their products require."
+      },
+      {
+        "id": "a977761811",
+        "reason": "Intel’s stock slump reflects the market’s growing view that AI is redistributing value across the semiconductor stack, not lifting all chipmakers equally."
+      },
+      {
+        "id": "8be8c87326",
+        "reason": "Tata Sons’ fresh capital infusion into Tata Electronics is evidence of sustained domestic investment into India’s semiconductor and iPhone manufacturing ambitions."
+      },
+      {
+        "id": "5c549bafc4",
+        "reason": "India reopening applications for semiconductor fabs shows the state is still trying to build a local chip manufacturing base through policy and incentives."
+      },
+      {
+        "id": "65173da87d",
+        "reason": "Odisha’s multi-project semiconductor push is another sign that Indian states are competing to capture the next wave of fab and supply-chain investment."
+      },
+      {
+        "id": "0a9198cb1a",
+        "reason": "A pre-seed raise for a Bengaluru consumer brand is evidence that early-stage capital is still flowing into India’s D2C and lifestyle-products segment.",
+        "funding": {
+          "company": "Qiroko",
+          "amount": "Rs 1.5 Cr",
+          "sector": "fashion accessories",
+          "country": "India"
+        }
+      },
+      {
+        "id": "9759c79194",
+        "reason": "upliance.ai’s planned round shows investors are funding AI-enabled consumer appliances and expansion, not just software-native AI startups.",
+        "funding": {
+          "company": "upliance.ai",
+          "amount": "$3 Mn to $4 Mn",
+          "sector": "D2C home appliance",
+          "country": "India"
+        }
+      },
+      {
+        "id": "10a668a175",
+        "reason": "Seed funding for Obsero indicates money is flowing into tooling that helps verify and monitor AI outputs, a growing category around trust and provenance in AI.",
+        "funding": {
+          "company": "Obsero",
+          "amount": "seed funding",
+          "sector": "AI tooling",
+          "country": "UK"
+        }
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "aba0a86b54",
+        "reason": "Evidence of a structural push to reform India’s banking sector, with the state explicitly setting competitiveness as a policy objective."
+      },
+      {
+        "id": "b892dec6fc",
+        "reason": "Shows the continuing institutional debate over electoral administration and the cost implications of staggered polling, a sign of pressure to redesign election logistics."
+      },
+      {
+        "id": "7935e24bcc",
+        "reason": "A concrete example of the growth-vs-environment tradeoff in Indian policy, where infrastructure/pollution control collides with local resistance."
+      },
+      {
+        "id": "58a6f72817",
+        "reason": "Evidence that state governments are tightening labour and public-employment rules in response to youth unrest, reflecting a broader post-protest governance shift."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "6806c3c47c",
+        "reason": "Evidence of how Bangladesh’s post-Hasina transition is being shaped by elite back-channel politics and the search for a new governing center."
+      },
+      {
+        "id": "84b76e18e2",
+        "reason": "Shows Israel’s fragmented election outcome and the persistence of coalition deadlock as a structural feature of its politics."
+      },
+      {
+        "id": "5145202027",
+        "reason": "Captures how economic pressure, healthcare and immigration continue to drive US election politics, reflecting broader voter realignment."
+      }
+    ],
+    "markets": [
+      {
+        "id": "23873157ce",
+        "reason": "Big Oil’s war-driven refining windfall is evidence of a durable geopolitics-and-supply-tightness regime lifting commodity-linked profits."
+      },
+      {
+        "id": "7cdaa657e1",
+        "reason": "BOJ reaffirming its 2% inflation target signals a deeper shift toward policy normalization and the end of ultra-easy money in Japan."
+      }
+    ],
+    "sports": [
+      {
+        "id": "5d3349eec6",
+        "reason": "Evidence of the continuing financialization of elite sports franchises, with major investors and media executives pricing NBA ownership stakes at very high levels."
+      }
+    ],
+    "fun": [
+      {
+        "id": "530e4dd1d7",
+        "reason": "A delightfully absurd record that shows how attention-economy stunts and niche world-record culture keep getting weirder."
+      },
+      {
+        "id": "4c0c8c982c",
+        "reason": "A fun robotics curiosity that reflects the rapid spread of playful embodied-AI demos from labs into public spectacle."
+      }
+    ]
+  },
+  "moved_to_tech": [
+    "aa37b29e2b",
+    "d1722e6319",
+    "870d44354e",
+    "5f17ac2cb2",
+    "df92939345",
+    "286c2456cf",
+    "a97d093c22"
+  ],
+  "funding": {
+    "total": 3,
+    "india": 2,
+    "world": 1,
+    "unknown": 0
+  }
+}

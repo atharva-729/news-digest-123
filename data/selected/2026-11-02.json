@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-02",
+  "budgets": {
+    "tech": 13,
+    "politics_india": 4,
+    "politics_world": 3,
+    "markets": 2,
+    "sports": 1,
+    "fun": 2
+  },
+  "sections": {
+    "tech": [
+      {
+        "id": "6436e82727",
+        "reason": "FuriosaAI’s huge raise shows capital is still flooding into frontier AI chip challengers despite Nvidia’s dominance.",
+        "funding": {
+          "company": "FuriosaAI",
+          "amount": "US$620 million",
+          "sector": "AI chips",
+          "country": "South Korea"
+        }
+      },
+      {
+        "id": "a53dbfbd01",
+        "reason": "A $100 million Series A+ for robot-training data is evidence that AI infrastructure and data tooling remain a hot funding lane.",
+        "funding": {
+          "company": "GenRobot AI",
+          "amount": "$100 million",
+          "sector": "AI data / robotics",
+          "country": "China"
+        }
+      },
+      {
+        "id": "e4edb60d81",
+        "reason": "This pre-Series B round shows continued investor appetite for industrial digitization and supply-chain software in India.",
+        "funding": {
+          "company": "CapGrid",
+          "amount": "Rs 50 Cr",
+          "sector": "B2B SaaS / manufacturing tech",
+          "country": "India"
+        }
+      },
+      {
+        "id": "41029af9d3",
+        "reason": "A small but clear developer-tools round is evidence that startup capital is still backing the software layer around AI and engineering workflows.",
+        "funding": {
+          "company": "Manicule",
+          "amount": "$1.3 M",
+          "sector": "developer tools",
+          "country": "India"
+        }
+      },
+      {
+        "id": "796871985d",
+        "reason": "Defense-tech funding points to rising spending on dual-use sensing and autonomy as geopolitical risk drives procurement.",
+        "funding": {
+          "company": "Gallium Defense",
+          "amount": "€7.1M",
+          "sector": "defense tech",
+          "country": "France"
+        }
+      },
+      {
+        "id": "8deb0d2090",
+        "reason": "Apple earnings alongside AI-rout stress show how markets are re-pricing the payback period for big-tech capex."
+      },
+      {
+        "id": "633d3e74e4",
+        "reason": "Foxconn’s reported OpenAI partnership is evidence of the hardware supply chain moving deeper into AI infrastructure."
+      },
+      {
+        "id": "b315b0ad7f",
+        "reason": "An Anthropic IPO narrative signals the market is debating whether AI valuations can be sustained at public-market scale."
+      },
+      {
+        "id": "ce8efd07a2",
+        "reason": "South Korea’s planned spending jump shows national industrial policy is now directly targeting AI and semiconductors."
+      },
+      {
+        "id": "de5d2f010b",
+        "reason": "Samsung’s chip-packaging focus underscores the race to control advanced semiconductor bottlenecks beyond leading-edge logic."
+      },
+      {
+        "id": "63c8d18951",
+        "reason": "Tata Sons putting more capital into Tata Electronics is evidence of India’s push to build domestic semiconductor capacity."
+      },
+      {
+        "id": "cffaca47dc",
+        "reason": "EKA Mobility’s manufacturing expansion shows EV makers are still scaling real factory capacity, not just announcing plans."
+      },
+      {
+        "id": "b2556f3e0c",
+        "reason": "A new Hyderabad factory highlights the localization of electronics manufacturing and brand-led capacity buildout in India."
+      }
+    ],
+    "politics_india": [
+      {
+        "id": "31edd4ffb2",
+        "reason": "Evidence of central control over Jammu & Kashmir’s bureaucracy, showing how the L-G remains a key power center in administrative postings."
+      },
+      {
+        "id": "4419e8e75d",
+        "reason": "Shows a broader transparency gap in India’s senior civil service, with property disclosures not fully revealing assets as required."
+      },
+      {
+        "id": "11b45fdac4",
+        "reason": "Illustrates the recurring tradeoff in India’s infrastructure push: megaprojects advancing alongside tribal displacement and environmental costs."
+      },
+      {
+        "id": "de4eca55c6",
+        "reason": "Signals deeper enforcement pressure on big media and business groups, reflecting the expanding use of anti-money-laundering probes in corporate politics."
+      }
+    ],
+    "politics_world": [
+      {
+        "id": "63b1f01e5d",
+        "reason": "Cyberattacks on Ukraine and Russia’s emergency alert apps show digital infrastructure is becoming a battlefield in interstate conflict."
+      },
+      {
+        "id": "3e5e87441d",
+        "reason": "Visa revocations under Trump point to a broader hardening of US migration and student/worker policy toward foreign nationals."
+      },
+      {
+        "id": "a913d03b19",
+        "reason": "Conditions for an alternative Israeli government evidence the fragility of Netanyahu’s coalition era and the shifting parliamentary balance."
+      }
+    ],
+    "markets": [
+      {
+        "id": "d469b2bf1a",
+        "reason": "Goldman’s higher oil forecasts point to a broader re-pricing of energy risk from geopolitics and potential supply disruption, not just a one-day move."
+      },
+      {
+        "id": "a297b0bc78",
+        "reason": "RBI liquidity absorption of ₹1.38 lakh crore is evidence of tighter domestic money-market conditions and the central bank’s active sterilization stance."
+      }
+    ],
+    "sports": [
+      {
+        "id": "eb1c81de1b",
+        "reason": "Historic F1 title breakthrough: evidence of the sport’s youth pipeline and the continuing rise of elite talent emerging earlier than ever."
+      }
+    ],
+    "fun": [
+      {
+        "id": "662027d2f3",
+        "reason": "A quirky but substantive glimpse into early Solar System chemistry, evidence of how planetary formation was shaped by temperature and material abundance."
+      },
+      {
+        "id": "939d9d980b",
+        "reason": "A genuinely odd brain fact about aphantasia and dreaming, evidence of how internal imagery can differ sharply between waking and sleep states."
+      }
+    ]
+  },
+  "moved_to_tech": [
+    "8deb0d2090",
+    "d866f88e62",
+    "7e4beb6cf8"
+  ],
+  "funding": {
+    "total": 5,
+    "india": 2,
+    "world": 3,
+    "unknown": 0
+  }
+}

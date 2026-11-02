@@ -1,0 +1,389 @@
+{
+  "date": "2026-11-02",
+  "subject": "L1·L2·L3 2 Nov: South Korea’s FuriosaAI raised $620 million, signaling intense funding needs for AI chips.",
+  "lead": "South Korea’s FuriosaAI raised $620 million, signaling intense funding needs for AI chips.",
+  "tldr": [
+    {
+      "text": "South Korea’s FuriosaAI raised $620 million, signaling intense funding needs for AI chips.",
+      "highlight": "$620 million"
+    },
+    {
+      "text": "Tata Sons put ₹1,100 crore into Tata Electronics, adding to India’s chip funding.",
+      "highlight": "₹1,100 crore"
+    },
+    {
+      "text": "EKA Mobility and Mivi opened new plants, expanding India’s hardware manufacturing capacity.",
+      "highlight": "new plants"
+    }
+  ],
+  "hero": {
+    "text": "The big pattern today is factory buildout: Indian hardware firms are adding domestic manufacturing capacity. EKA Mobility opened six plants, and Mivi opened a ₹200 crore facility. Tata Sons also added ₹1,100 crore to Tata Electronics, keeping chip capital flowing.",
+    "highlight": "factory buildout"
+  },
+  "cards": {
+    "6436e82727": {
+      "emoji": "💸",
+      "headline": "South Korea’s FuriosaAI raises $620 million for AI chips",
+      "explain": "FuriosaAI, a South Korean company that makes AI chips, raised US$620 million and quadrupled its valuation. The round comes as investors keep funding firms that want to supply the computing hardware behind AI systems.",
+      "why": {
+        "text": "The larger round shows how much capital AI chip makers need to compete for scarce compute capacity.",
+        "highlight": "compute capacity"
+      }
+    },
+    "a53dbfbd01": {
+      "emoji": "🤖",
+      "headline": "GenRobot AI raises $100 million for robot-training data",
+      "explain": "GenRobot AI, a China-based startup in AI data and robotics, raised $100 million in Series A+ funding. It works on data used to train robots, which is a separate niche from building the robots themselves.",
+      "why": {
+        "text": "More money is flowing into the infrastructure needed to train robots, not just the robots themselves.",
+        "highlight": "train robots"
+      }
+    },
+    "e4edb60d81": {
+      "emoji": "🏭",
+      "headline": "CapGrid raises Rs 50 crore at Rs 430 crore valuation",
+      "explain": "CapGrid raised Rs 50 crore in a pre-Series B round at a Rs 430 crore valuation. The company sits in B2B SaaS and manufacturing tech, meaning software sold to businesses that manage industrial operations.",
+      "why": {
+        "text": "The deal adds more capital to Indian software tools aimed at manufacturing businesses.",
+        "highlight": "capital to Indian software"
+      }
+    },
+    "41029af9d3": {
+      "emoji": "🧰",
+      "headline": "Y Combinator co-leads $1.3 million investment in Manicule",
+      "explain": "Manicule, an India-based developer tools startup, raised $1.3 million in a round co-led by Y Combinator. Developer relations tools help companies manage and grow the software developers who use their products.",
+      "why": {
+        "text": "The backing gives a small developer-tools startup credibility and cash to grow.",
+        "highlight": "credibility and cash"
+      }
+    },
+    "796871985d": {
+      "emoji": "🛡️",
+      "headline": "Gallium Defense raises €7.1 million for cheaper drone radar",
+      "explain": "French defense-tech startup Gallium Defense raised €7.1 million to develop lower-cost radar for detecting drones. The company is focused on making drone detection cheaper, which matters for military and security buyers.",
+      "why": {
+        "text": "Cheaper drone-detection systems could broaden who can afford this kind of defense equipment.",
+        "highlight": "broaden who can afford"
+      }
+    },
+    "8deb0d2090": {
+      "emoji": "📉",
+      "headline": "Wall Street faces earnings, election and jobs tests after AI selloff",
+      "explain": "Markets were hit last week after weak results from Alphabet, Amazon and Intel sharpened doubts about the AI spending boom. The report says investors now face a busy stretch of Apple, AMD and Palantir earnings, the US midterm elections, and next Friday’s October jobs report.",
+      "why": {
+        "text": "Those events will shape whether investors keep questioning AI spending and tech valuations.",
+        "highlight": "AI spending and tech valuations"
+      }
+    },
+    "633d3e74e4": {
+      "emoji": "🏭",
+      "headline": "Foxconn says it is working on a new OpenAI partnership",
+      "explain": "Foxconn, the electronics manufacturing giant, said it is working on a new partnership with OpenAI. The company also said the AI industry is not in a bubble, according to the report.",
+      "why": {
+        "text": "A closer tie-up would deepen Foxconn’s exposure to AI hardware demand.",
+        "highlight": "AI hardware demand"
+      }
+    },
+    "b315b0ad7f": {
+      "emoji": "🧠",
+      "headline": "Bloomberg examines the hype around Anthropic’s IPO prospects",
+      "explain": "Bloomberg’s piece focuses on Anthropic, the AI model company, and the market enthusiasm around a possible IPO. The headline frames Silicon Valley AI bets as driven by hype, hope and hubris.",
+      "why": {
+        "text": "The debate matters because public-market appetite for AI startups could shape future listings.",
+        "highlight": "public-market appetite"
+      }
+    },
+    "ce8efd07a2": {
+      "emoji": "🇰🇷",
+      "headline": "South Korea plans to double AI and chip spending in 2027",
+      "explain": "South Korea plans to double spending on AI and chips in 2027, according to The Japan Times. The move points to continued state support for semiconductor and AI investment.",
+      "why": {
+        "text": "More government money could strengthen South Korea’s position in chips and AI infrastructure.",
+        "highlight": "strengthen South Korea’s position"
+      }
+    },
+    "de5d2f010b": {
+      "emoji": "🧩",
+      "headline": "Samsung chief visits Japanese unit to discuss chip packaging",
+      "explain": "Samsung’s chief visited a Japanese unit and discussed chip packaging, a process that connects and protects semiconductor chips inside finished products. The report does not give more details about the visit.",
+      "why": {
+        "text": "Advanced packaging is a key part of making higher-performance chips.",
+        "highlight": "higher-performance chips"
+      }
+    },
+    "63c8d18951": {
+      "emoji": "🏭",
+      "headline": "Tata Sons puts ₹1,100 crore into Tata Electronics",
+      "explain": "Tata Sons has infused ₹1,100 crore into Tata Electronics, according to the report. Tata Electronics is part of the Tata group’s push into semiconductors and related manufacturing.",
+      "why": {
+        "text": "The cash adds to the flow of capital into India’s semiconductor sector.",
+        "highlight": "capital into India’s semiconductor"
+      }
+    },
+    "31edd4ffb2": {
+      "emoji": "🏛️",
+      "headline": "J&K orders new postings for six senior IAS officers",
+      "explain": "Jammu and Kashmir Lt Governor Manoj Sinha shifted and reassigned six senior IAS officers a day before Sajjan Singh Yadav, a 1995-batch AGMUT cadre officer, takes over as Chief Secretary. The reshuffle moves officers across departments such as revenue, home, health and Jal Shakti, the water resources department.",
+      "why": {
+        "text": "The postings come a day before Sajjan Singh Yadav takes charge as chief secretary.",
+        "highlight": "a day before Sajjan"
+      }
+    },
+    "4419e8e75d": {
+      "emoji": "📄",
+      "headline": "Top bureaucrats omit property details in mandatory asset filings",
+      "explain": "The Indian Express reviewed 102 of 131 Secretary-level officials’ latest immovable-asset declarations posted on public portals. Of 244 self-acquired properties declared, 115 did not list area or dimensions and 115 did not give current value. Ten officials declared no self-acquired property.",
+      "why": {
+        "text": "Missing details weaken the disclosure system meant to deter corruption and keep senior officials accountable.",
+        "highlight": "deter corruption"
+      }
+    },
+    "11b45fdac4": {
+      "emoji": "🌳",
+      "headline": "Villagers protest Torrent Power forest clearance for pumped-storage plant",
+      "explain": "Nearly 1,100 trees were cut on Saidongar hill near Mumbai before the work was stopped after protests. Torrent Power is building a 3,000-MW pumped-storage hydropower plant there for Rs 13,505 crore, using 377 hectares and more than 32,000 trees. About 150 tribal families in six hamlets say the forest is their source of fuel, food and medicine.",
+      "why": {
+        "text": "The project needs 377 hectares and more than 32,000 trees.",
+        "highlight": "377 hectares and"
+      }
+    },
+    "de4eca55c6": {
+      "emoji": "⚖️",
+      "headline": "ED opens money laundering probe into Zee founder Subhash Chandra",
+      "explain": "The Enforcement Directorate has started a money laundering probe into Essel Group chairperson and Zee founder Subhash Chandra. The case is linked to loans from LIC Housing Finance to two group companies that allegedly caused a Rs 1,322 crore loss to the public sector lender. Chandra had given personal guarantees for the borrowings.",
+      "why": {
+        "text": "The probe concerns loans to two group companies and an alleged loss of Rs 1,322 crore.",
+        "highlight": "alleged loss of Rs"
+      }
+    },
+    "63b1f01e5d": {
+      "emoji": "🌐",
+      "headline": "Russia and Ukraine report cyberattacks on emergency alert apps",
+      "explain": "Ukraine said its air raid alert system was hacked and briefly showed false chemical, radiation and nuclear warnings on phones and loudspeakers. Russia’s emergency ministry said its mobile app was hit by a massive cyberattack that spread fake alerts, while officials said the main public warning systems kept working. Ukraine’s digital ministry later said the nationwide alert system was normal.",
+      "why": {
+        "text": "The main public warning systems kept working.",
+        "highlight": "main public warning"
+      }
+    },
+    "3e5e87441d": {
+      "emoji": "🛂",
+      "headline": "US says it revoked more than 300,000 visas under Trump",
+      "explain": "The State Department said it has revoked more than 300,000 visas, calling it the highest total in American history. It said most cancellations were tied to criminal activity, public safety concerns, immigration violations, fraud or misrepresentation. More than 4,000 revocations were for birth tourism, including over 700 held by Chinese nationals.",
+      "why": {
+        "text": "The State Department did not release a country-wise breakdown of the revocations.",
+        "highlight": "country-wise breakdown"
+      }
+    },
+    "a913d03b19": {
+      "emoji": "🇮🇱",
+      "headline": "Gadi Eisenkot sets conditions for joining a new Israeli government",
+      "explain": "Gadi Eisenkot, chairman of the Yashar party, said he wants to use a parliamentary majority against Benjamin Netanyahu to form a broad coalition after the October 27 election. He said any coalition must back a state inquiry, universal service, repeal judicial overhaul laws, and treat Hamas as a terrorist group whose military and governing power in Gaza must be dismantled. He also said the Knesset, not the outgoing government, holds the confidence vote.",
+      "why": {
+        "text": "Any lawmaker who accepts those principles could join a government.",
+        "highlight": "could join a government"
+      }
+    },
+    "d469b2bf1a": {
+      "emoji": "🛢️",
+      "headline": "Goldman Sachs raises oil forecasts and warns Brent could hit $140",
+      "explain": "Goldman Sachs lifted its December Brent forecast to $105 a barrel and its WTI forecast to $94. It also raised its 2027 averages, and said Brent could reach $140 in an upside case if Gulf output stays 3.5 million barrels a day below its 2025 average. The bank cited higher geopolitical risk from Middle East and Russia-Ukraine tensions.",
+      "why": {
+        "text": "Higher price forecasts point to more expensive energy if supply disruptions deepen.",
+        "highlight": "supply disruptions"
+      }
+    },
+    "a297b0bc78": {
+      "emoji": "💧",
+      "headline": "RBI report shows net liquidity absorption of ₹1.38 lakh crore",
+      "explain": "The RBI’s money market operations report showed net liquidity absorption of ₹1.38 lakh crore on October 30. In earlier market updates, the central bank’s intervention had reduced reserves by $1.27 billion last week.",
+      "why": {
+        "text": "Tighter liquidity can affect short-term funding costs in money markets.",
+        "highlight": "Tighter liquidity"
+      }
+    },
+    "eb1c81de1b": {
+      "emoji": "🏎️",
+      "headline": "Mercedes driver Kimi Antonelli becomes youngest Formula 1 champion",
+      "explain": "Kimi Antonelli, 20, finished third at the Mexico City Grand Prix but sealed the Formula 1 title with four races left. He became the youngest champion in F1 history and the first Italian champion since Alberto Ascari in 1953. Max Verstappen won the race, while the event was red-flagged after Valtteri Bottas crashed.",
+      "why": {
+        "text": "Mercedes and Antonelli have already locked up the title before the season’s final four races.",
+        "highlight": "locked up the title"
+      }
+    },
+    "662027d2f3": {
+      "emoji": "🔭",
+      "headline": "Study says early Solar System favored rocky chondrules over icy dust",
+      "explain": "A Nature Astronomy study used iron meteorites to reconstruct what the earliest solid bodies in the Solar System were made of. The researchers say the first million years were dominated by chondrules, tiny heat-formed rock fragments, not icy matrix material rich in water and organics. They estimate early outer Solar System bodies were 83 percent to 92 percent chondrules.",
+      "why": {
+        "text": "The findings change how scientists think planets and moons assembled from the start.",
+        "highlight": "planets and moons"
+      }
+    },
+    "939d9d980b": {
+      "emoji": "🧠",
+      "headline": "Study finds some people with aphantasia dream in images anyway",
+      "explain": "A Scientific Reports study examined how 205 people’s waking imagination matched their dreams, including 84 with visual aphantasia, the inability to picture things on demand. Nearly half of the aphantasia group said they always had visual experiences in dreams, while others said they never did. The links between waking and dreaming were stronger for sounds and inner speech than for images.",
+      "why": {
+        "text": "Some people can lose visual imagery while awake yet still have it during sleep.",
+        "highlight": "visual imagery"
+      }
+    },
+    "cffaca47dc": {
+      "emoji": "🏭",
+      "headline": "EKA Mobility opens six plants to make more electric vehicles",
+      "explain": "EKA Mobility opened six manufacturing facilities in Maharashtra and Madhya Pradesh to scale electric buses, trucks and smaller commercial vehicles. The plants in Pune and Pithampur are part of an 11-facility network across 120 acres, with annual capacity for more than 40,000 EVs and over Rs 3,500 crore invested. The company said it has an order book of more than 11,000 buses.",
+      "why": {
+        "text": "More domestic factory capacity could help supply India’s electric-bus rollout and support the company’s large order book.",
+        "highlight": "supply India’s electric-bus rollout"
+      }
+    },
+    "b2556f3e0c": {
+      "emoji": "🏭",
+      "headline": "Mivi opens a ₹200 crore manufacturing facility in Hyderabad",
+      "explain": "Mivi inaugurated a new manufacturing facility in Hyderabad with an investment of ₹200 crore. The company is expanding its production footprint, according to the headline.",
+      "why": {
+        "text": "The new plant adds local manufacturing capacity for Mivi’s products.",
+        "highlight": "local manufacturing capacity"
+      }
+    }
+  },
+  "factcheck": [
+    {
+      "item_id": "31edd4ffb2",
+      "note": "Removed interpretive wording from why."
+    },
+    {
+      "item_id": "11b45fdac4",
+      "note": "Replaced speculative consequence with a factual stake."
+    },
+    {
+      "item_id": "de4eca55c6",
+      "note": "Removed speculative wording from why."
+    },
+    {
+      "item_id": "63b1f01e5d",
+      "note": "Removed unsupported causal claim from why."
+    },
+    {
+      "item_id": "3e5e87441d",
+      "note": "Replaced unsupported implication about Indian nationals."
+    },
+    {
+      "item_id": "a913d03b19",
+      "note": "Removed loaded wording and kept the article’s condition."
+    }
+  ],
+  "page": {
+    "tldr": [
+      {
+        "text": "South Korea’s FuriosaAI raised $620 million, signaling intense funding needs for AI chips.",
+        "highlight": "$620 million"
+      },
+      {
+        "text": "Tata Sons put ₹1,100 crore into Tata Electronics, adding to India’s chip funding.",
+        "highlight": "₹1,100 crore"
+      },
+      {
+        "text": "EKA Mobility and Mivi opened new plants, expanding India’s hardware manufacturing capacity.",
+        "highlight": "new plants"
+      }
+    ],
+    "hero": {
+      "text": "The big pattern today is factory buildout: Indian hardware firms are adding domestic manufacturing capacity. EKA Mobility opened six plants, and Mivi opened a ₹200 crore facility. Tata Sons also added ₹1,100 crore to Tata Electronics, keeping chip capital flowing.",
+      "highlight": "factory buildout"
+    },
+    "scoreboard": [
+      {
+        "thread_id": "t_india_factory_capacity_buildout",
+        "line": "New plants from EKA Mobility and Mivi expanded domestic manufacturing capacity."
+      },
+      {
+        "thread_id": "t_ai_compute_capital_surge",
+        "line": "FuriosaAI’s $620 million round showed bigger AI chip funding needs."
+      },
+      {
+        "thread_id": "t_india_semiconductor_capital_boom",
+        "line": "Tata Sons added ₹1,100 crore to Tata Electronics."
+      }
+    ],
+    "forces": [
+      {
+        "force": "capital",
+        "line": "Money kept flowing into factories, semiconductors, and AI chips."
+      },
+      {
+        "force": "technology",
+        "line": "Chipmaking, EV production, and industrial hardware all advanced on new funding."
+      }
+    ],
+    "pulse_india": "Indian money went to semiconductors, manufacturing software, developer tools, and EV plants.",
+    "pulse_world": "Outside India, funding went to AI chips, robot-training data, and defense tech.",
+    "dots": "Tighter liquidity and new factory openings both point to capital being steered into physical industrial capacity.",
+    "call": {
+      "thread_id": "t_india_factory_capacity_buildout",
+      "prediction": "Another Indian hardware company will announce a new domestic manufacturing facility.",
+      "measure": "announcement of a domestic manufacturing facility in India",
+      "threshold": "at least 1",
+      "window_days": 60,
+      "could_fail_because": "Firms may delay plant announcements or shift to outsourcing instead of opening new sites.",
+      "confidence": 58
+    },
+    "quiz": [
+      {
+        "type": "evidence",
+        "thread_id": "t_ai_compute_capital_surge",
+        "item_ids": [],
+        "question": "Which of today's stories is evidence for Compute cash?",
+        "options": [
+          "South Korea’s FuriosaAI raises $620 million for AI chips",
+          "Tata Sons puts ₹1,100 crore into Tata Electronics",
+          "Mivi opens a ₹200 crore manufacturing facility in Hyderabad"
+        ],
+        "answer_index": 0,
+        "why": "It is a large AI-chip funding round, exactly the pattern’s evidence."
+      },
+      {
+        "type": "force",
+        "thread_id": "",
+        "item_ids": [
+          "cffaca47dc",
+          "b2556f3e0c"
+        ],
+        "question": "Which force connects EKA Mobility opens six plants to make more electric vehicles and Mivi opens a ₹200 crore manufacturing facility in Hyderabad?",
+        "options": [
+          "regulation",
+          "capital",
+          "technology"
+        ],
+        "answer_index": 1,
+        "why": "Both stories are about money funding new plant capacity."
+      },
+      {
+        "type": "weaken",
+        "thread_id": "t_india_factory_capacity_buildout",
+        "item_ids": [],
+        "question": "Which headline would weaken factory buildout?",
+        "options": [
+          "Indian hardware firms open several new plants this month",
+          "Two startups raise money for domestic manufacturing facilities",
+          "A major hardware maker says it will outsource production instead of building factories"
+        ],
+        "answer_index": 2,
+        "why": "Outsourcing instead of building plants cuts against the capacity-buildout pattern."
+      }
+    ]
+  },
+  "call": {
+    "made": "2026-11-02",
+    "thread_id": "t_india_factory_capacity_buildout",
+    "thread_title": "factory buildout",
+    "prediction": "Another Indian hardware company will announce a new domestic manufacturing facility.",
+    "measure": "announcement of a domestic manufacturing facility in India",
+    "threshold": "at least 1",
+    "could_fail_because": "Firms may delay plant announcements or shift to outsourcing instead of opening new sites.",
+    "confidence": 58,
+    "review_by": "2027-01-01",
+    "verdict": null,
+    "verdict_note": ""
+  }
+}

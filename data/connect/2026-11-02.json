@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-02",
+  "backstory": [
+    {
+      "thread_id": "t_india_semiconductor_capital_boom",
+      "item_id": "cf55d512f9"
+    },
+    {
+      "thread_id": "t_india_semiconductor_capital_boom",
+      "item_id": "39e3a89a34"
+    },
+    {
+      "thread_id": "t_regional_chip_buildout",
+      "item_id": "fdff62fd33"
+    },
+    {
+      "thread_id": "t_ai_compute_capital_surge",
+      "item_id": "4093e80a98"
+    },
+    {
+      "thread_id": "t_ai_compute_capital_surge",
+      "item_id": "6432c7d21b"
+    },
+    {
+      "thread_id": "t_state_bank_divestment",
+      "item_id": "c17e6b7eaf"
+    },
+    {
+      "thread_id": "t_state_bank_divestment",
+      "item_id": "c7995ac323"
+    }
+  ],
+  "throwbacks": [
+    {
+      "item_id": "6436e82727",
+      "kind": "same_pattern",
+      "line": "Simplismart raised $14 million last week; today FuriosaAI raised $620 million in the same AI chip funding wave.",
+      "past": {
+        "id": "3e30951c53",
+        "date": "2026-10-27",
+        "title": "Bengaluru AI Startup Simplismart Raises $14 Mn in NVIDIA-Backed Round",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNzJTX05EeDlOMU4xcTVpcFZfZzVGV1hYNzdNZnozYWp4V3dtU0FDNGZMcGJZVmJDak1wVUZsakVOVVNRMUc3VmozbFppNFNIU3ZtaUp4czUyd2ZleTZuZm5OWG13ZW8tVTNJMXhQSnRsTXJnUEgyZlhES2hyTklSR0tkcmdoQTEzRzJRc2ZyQk9xRjdnV1c0cGdDUkUzVDk4YTE3WFlmbnhFZw?oc=5",
+        "source": "Analytics India Magazine",
+        "section": "tech"
+      }
+    },
+    {
+      "item_id": "63c8d18951",
+      "kind": "same_pattern",
+      "line": "Odisha lined up five semiconductor projects worth over $4 billion; today Tata Sons added ₹1,100 crore to Tata Electronics.",
+      "past": {
+        "id": "65173da87d",
+        "date": "2026-10-30",
+        "title": "Odisha eyes semiconductor push with five projects worth over $4 billion",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcDRVVTVWa2hYNHN0eGZ5UFgwNTVNT2lmcld3cXZYWFA1QXE2Wll5aHl3QnIzZ3RJRlNFWHVVS2FRYmZaRER2bThCSTFUMHVtMC1fZlZpcEo5WTZvUlNLdGx3X3Y3eDM3azlZVGRGYndIY1VwZnNlMnpQd2Nkc3c1SV9JakEwb281Q2ZIMHZaTl9KQVJ2R3FZcVFuTlk3OTVUWHBzVDhYQndPeGVodWlrNnFEbHd6SWdoTkE4bEFzanVqQlBUbWRHdE5mMGdId2d1Y0l3T1dzSkpQVExpZ3fSAeMBQVVfeXFMTjJKZDBFV2NtMjFZMzJzSzFVT002T196WTNMT2wyRUtWOWk2STYzNW92RjNyYnJfN1pNck5JMGl3cWVqXzdtTkF0MkNtMWRZSWNMNjdrWnhtSmNuZWhFSXlnR1ZUSENUQjU4anp6dVRYNDNZODlSVkIzYloweEFnNGc0V1B6MGtWVUZLSW1mQjN2N3c2RlNDZWZOOERiVGJzaDUycUlyeGtuaVhldXM2Y3RDSGhnbXMyMjliVG1zNVQ3MURiUVVSbjN2NS1kX3o1dl9QN01KS1FqSl95cWtMS1Jpb1E?oc=5",
+        "source": "Business Standard",
+        "section": "tech"
+      }
+    },
+    {
+      "item_id": "a297b0bc78",
+      "kind": "cause",
+      "line": "RBI intervention cut reserves by $1.27 billion last week; today its money market report showed ₹1.38 lakh crore absorbed on October 30.",
+      "past": {
+        "id": "d44f4310d0",
+        "date": "2026-10-30",
+        "title": "Forex Reserves Dip by $1.27 Billion, Experts Cite FCNR(B) Deployment & RBI Intervention",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd0duNUN0M2tkYUl6VTdlNE14bF9WTDNic0dnTG9KcTZCRTRlN1dJb0M5SUpkdzdORkFBaEo5WnFwLWJTOTF2UWdPSkMtV0NILURIVzRPaHdvenNFbUNXa2dPeHBJdU9sTzhRVk93ZWJoQmptMzdpNV8xZm9CVU9xaEJHU1V5UzZyUHJBNWVmS0Itbmx0VnhaNU56a3g2bU9VTGdhbW5MS0NnajBiS3FMOFN6dWphUdIBuAFBVV95cUxOUjEtR1V2Y19GV0k3MmRfNkpsZDRsdGd1aHludk9ZTkg4NUFNcFVUTDFrUEpmTm4tNXBJbm9xM3ZxTU5nblVjc1Y4d1JuZTdtelJKY2FsQ1FhQUUwZU1PTTZGMjAyYmZVNlVKZXFSU0syX3A4TEJZMU1IVGhOamxOQ2xFRW11bXQ0X1QwUEthbWJnWjRXOERTcE84ZnQ1aFBiX1JjVTFXbUx0OFJwT2x4SXJ5S1hpWmpm?oc=5",
+        "source": "Rediff",
+        "section": "markets"
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-31",
+  "backstory": [
+    {
+      "thread_id": "t_regional_chip_buildout",
+      "item_id": "91a79df7d9"
+    },
+    {
+      "thread_id": "t_regional_chip_buildout",
+      "item_id": "7082ec07c6"
+    },
+    {
+      "thread_id": "t_regional_chip_buildout",
+      "item_id": "bd7501a24f"
+    },
+    {
+      "thread_id": "t_ai_compute_capital_surge",
+      "item_id": "dfff284976"
+    },
+    {
+      "thread_id": "t_ai_compute_capital_surge",
+      "item_id": "3e30951c53"
+    },
+    {
+      "thread_id": "t_embodied_ai_hardware_funding",
+      "item_id": "31de0d56de"
+    },
+    {
+      "thread_id": "t_embodied_ai_hardware_funding",
+      "item_id": "4f7200c4b9"
+    },
+    {
+      "thread_id": "t_india_voter_roll_checks",
+      "item_id": "c637ef506c"
+    },
+    {
+      "thread_id": "t_india_voter_roll_checks",
+      "item_id": "dfb20da387"
+    }
+  ],
+  "throwbacks": [
+    {
+      "item_id": "c6b2d3ea79",
+      "kind": "cause",
+      "line": "Last week warned AI infrastructure faced grid constraints and delayed returns; today Nvidia is considering loan support for Nscale's data center.",
+      "past": {
+        "id": "29c6fd132a",
+        "date": "2026-10-25",
+        "title": "The $760 Billion AI Infrastructure Trap: Delayed Returns - Grid Constraints and the Emerging Geopolitics of Industrial Concentration",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbjlIS2poQkFEbTdEcFdNTE1fa3lpNEF6eTZWUS1qOWV3NVVmWFJIYmQ5M2JINFA1OFNhXzVqWXM1bnJFemd3VVJOYnlFNFdJVzVKRmdCYmZFME9OVXJqWWZESnR6REVPZy14UVNPUllnRGhVci1ITlRlTFRPbEtqVFFJNElIeHNqdVNyWWhsVk1JaEJDOFBGOW9VYlBOR1BaNWQxeTNjLU9mYVJlX0RsbTg3TVZMY3R2aHAzNVl1ektKbzg2NDdwN2RzSGFGcVFGR0l3eVJxb0xZZlRmTzRWVDE3YUlPeHFHT0dITktIWEc0RnFE?oc=5",
+        "source": "https://debuglies.com",
+        "section": "politics_world"
+      }
+    },
+    {
+      "item_id": "a977761811",
+      "kind": "sequel",
+      "line": "Last week Intel led semiconductor losses; today its stock crashes again and cuts the government's stake by $12 billion.",
+      "past": {
+        "id": "97e8313e40",
+        "date": "2026-10-30",
+        "title": "Trending Industry Today: Intel Leads Losses In Semiconductors Stocks",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdEZ6elJTZ3JqRzFsLUJaMExwdzBGWE9XVnNrSGxOaDBSYmJ6endyVXlVRm4yYlB1OHZTdVBLMjZLZ3BENmtZbGpIWFloaXNXc0tvT1pyVmNFUVlEYklQbkktRmtXTWp3VWdoeExFR2tzbE52aHZGWVBxS0RKMmVUWnhiOTBKUlRiZjRFNU1SMU0yMmFsT1hvU195V0JWb3JoQzJrVGwzMmxQWHM4S3g5RQ?oc=5",
+        "source": "Moomoo",
+        "section": "tech"
+      }
+    },
+    {
+      "item_id": "a56e749c6c",
+      "kind": "cause",
+      "line": "Last week India expanded government cloud and AI computing; today MeitY proposes a privacy-led framework to share data for AI training.",
+      "past": {
+        "id": "0fd4cafc75",
+        "date": "2026-10-29",
+        "title": "Government Cloud Reaches 2,330 Departments as India Expands Data Centres and AI Computing",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWUdmS0txZW5sdW1UTTAzdGlwcllId2xPd1RpWGZ4aV9SbmNha2xjMGpSem9GdWtJMHdaVU5XejlCVnRUX0RweHBEUnFvTVpmTFlRMmJvOVE2amx3aklwa192OG5rNEI3OVFLT3I2OE45QnJXN3BrR3lUYnRseDNzM2RjVWlzc0ZHOTJxeFRaNXVwMHgxVEt3ZzdrOEhYaE9nRzdXYnRyTHFJMXlsdWJidFpsVDZxYjA?oc=5",
+        "source": "The Policy Edge",
+        "section": "politics_india"
+      }
+    }
+  ]
+}

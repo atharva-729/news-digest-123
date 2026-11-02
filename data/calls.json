@@ -51,5 +51,44 @@
     "review_by": "2026-12-29",
     "verdict": null,
     "verdict_note": ""
+  },
+  {
+    "made": "2026-10-31",
+    "thread_id": "t_india_voter_roll_checks",
+    "thread_title": "roll checks",
+    "prediction": "India’s election administration will add or keep extra voter-roll checks in the next month.",
+    "measure": "ECI rule or form change on voter-roll entry checks",
+    "threshold": "at least 1 new or extended check",
+    "could_fail_because": "Election officials may leave the process unchanged or shift focus to court challenges instead.",
+    "confidence": 58,
+    "review_by": "2026-12-30",
+    "verdict": null,
+    "verdict_note": ""
+  },
+  {
+    "made": "2026-11-01",
+    "thread_id": "t_ai_compute_capital_surge",
+    "thread_title": "Compute cash",
+    "prediction": "AI chip and model firms will keep raising unusually large funding rounds.",
+    "measure": "number of AI chip or model funding deals above $100 million",
+    "threshold": "at least 3",
+    "could_fail_because": "Big rounds could slow if investors rotate away from frontier AI or valuations reset.",
+    "confidence": 63,
+    "review_by": "2026-12-31",
+    "verdict": null,
+    "verdict_note": ""
+  },
+  {
+    "made": "2026-11-02",
+    "thread_id": "t_india_factory_capacity_buildout",
+    "thread_title": "factory buildout",
+    "prediction": "Another Indian hardware company will announce a new domestic manufacturing facility.",
+    "measure": "announcement of a domestic manufacturing facility in India",
+    "threshold": "at least 1",
+    "could_fail_because": "Firms may delay plant announcements or shift to outsourcing instead of opening new sites.",
+    "confidence": 58,
+    "review_by": "2027-01-01",
+    "verdict": null,
+    "verdict_note": ""
   }
 ]

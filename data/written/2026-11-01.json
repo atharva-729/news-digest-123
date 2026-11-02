@@ -1,0 +1,383 @@
+{
+  "date": "2026-11-01",
+  "subject": "L1·L2·L3 1 Nov: Cabinet approves Semicon 2.0, adding another big pool of capital to India’s chip sector.",
+  "lead": "Cabinet approves Semicon 2.0, adding another big pool of capital to India’s chip sector.",
+  "tldr": [
+    {
+      "text": "Cabinet approves Semicon 2.0, adding another big pool of capital to India’s chip sector.",
+      "highlight": "Semicon 2.0"
+    },
+    {
+      "text": "Infineon pledged 1.1 billion euros for chips in Villach, expanding European manufacturing capacity.",
+      "highlight": "1.1 billion euros"
+    },
+    {
+      "text": "CapGrid, Zorit, Docterz, Phinity Labs and Dulo all raised new startup funding.",
+      "highlight": "raised new startup funding"
+    }
+  ],
+  "hero": {
+    "text": "The big picture is chip capital: more money is flowing into semiconductor capacity and supply chains. Today’s pushes came from India’s Semicon 2.0 plan and Infineon’s 1.1 billion euro commitment in Villach.",
+    "highlight": "chip capital"
+  },
+  "cards": {
+    "92f26d5717": {
+      "emoji": "💾",
+      "headline": "Cabinet approves Semicon 2.0 to expand India’s chip sector",
+      "explain": "The Cabinet cleared Rs 1.27 lakh crore Semicon 2.0, according to DD News. The plan is meant to strengthen India’s semiconductor ecosystem. Last week, Odisha pitched five chip projects worth over $4 billion, and this approval follows that push for more domestic chip investment.",
+      "why": {
+        "text": "Adds another large pool of capital to India’s chip buildout.",
+        "highlight": "chip buildout"
+      }
+    },
+    "a013cabb8e": {
+      "emoji": "💾",
+      "headline": "Infineon pledges 1.1 billion euros for chips in Villach",
+      "explain": "Infineon said it will invest 1.1 billion euros in Villach, Austria, for semiconductors. Infineon is a major chipmaker that supplies components for cars, industrial gear and other electronics. The move fits a broader push to add regional manufacturing capacity.",
+      "why": {
+        "text": "Expands European chip capacity in a key manufacturing hub.",
+        "highlight": "European chip capacity"
+      }
+    },
+    "8e192178e6": {
+      "emoji": "💾",
+      "headline": "Samsung reports a record quarter on HBM4 and AI memory",
+      "explain": "Samsung posted a record quarter, with its semiconductor business helped by HBM4 and AI memory. HBM, or high-bandwidth memory, is the fast memory used alongside AI chips. The result points to continued strength in memory demand tied to AI systems.",
+      "why": {
+        "text": "Shows AI-linked memory demand is still lifting chip results.",
+        "highlight": "AI-linked memory demand"
+      }
+    },
+    "2224935748": {
+      "emoji": "📉",
+      "headline": "US stocks close mixed as semiconductors fall and Apple hits $5 trillion",
+      "explain": "The Dow rose 500 points, while the Philadelphia Semiconductor Index fell more than 4%. Memory and optical-communication stocks also extended losses, software stocks rebounded, and Apple crossed a $5 trillion market cap. SanDisk fell below $1,100 a share, according to the report.",
+      "why": {
+        "text": "Shows investors rotated away from chips even as big tech stayed strong.",
+        "highlight": "rotated away from chips"
+      }
+    },
+    "ede8f92814": {
+      "emoji": "📶",
+      "headline": "Jio Platforms posts first results after listing, with profit up 13.7%",
+      "explain": "Jio Platforms reported consolidated net profit of Rs 8,389 crore for the September 2026 quarter, up 13.7% year on year. Revenue rose 11.4% to Rs 40,475 crore, helped by subscriber gains, higher ARPU, and growth in digital services. It was the company’s first quarterly update after its listing, and Akash Ambani led the investor call.",
+      "why": {
+        "text": "Gives investors their first post-listing read on Jio’s growth and margins.",
+        "highlight": "first post-listing read"
+      }
+    },
+    "f6f52fb950": {
+      "emoji": "📈",
+      "headline": "Ather, Zetwerk and other new-age tech stocks move sharply this week",
+      "explain": "Among 69 listed new-age tech stocks tracked by Inc42, 40 gained and 29 fell this week. Ather Energy led gains after its first quarterly profit, while Zetwerk and Tonbo Imaging also rose. The group’s combined market value increased 5.7% to $160.94 billion.",
+      "why": {
+        "text": "Shows earnings are still driving big swings across Indian startup stocks.",
+        "highlight": "earnings are still driving"
+      }
+    },
+    "18e2b05a8e": {
+      "emoji": "🏭",
+      "headline": "CapGrid raises Rs 50 crore to expand manufacturing into drones and data centres",
+      "explain": "Delhi NCR-based CapGrid raised Rs 50 crore in a pre-Series B round at a Rs 430 crore valuation. It is a B2B manufacturing startup that coordinates component design, production and delivery for OEMs and Tier I suppliers through third-party factories. The company plans to use part of the money for higher-end precision components and new sectors.",
+      "why": {
+        "text": "Funds CapGrid’s push from sourcing parts into more complex manufacturing.",
+        "highlight": "push from sourcing parts"
+      }
+    },
+    "699a557696": {
+      "emoji": "🏪",
+      "headline": "B2B quick commerce startup Zorit raises Rs 27 crore",
+      "explain": "Zorit, a B2B quick commerce startup, raised Rs 27 crore, according to Indian Retailer. It says the company reported Rs 120 crore in annualised sales. Quick commerce here means fast delivery for business customers rather than consumers.",
+      "why": {
+        "text": "Adds fresh funding to a business-to-business delivery player.",
+        "highlight": "fresh funding"
+      }
+    },
+    "efae7082d7": {
+      "emoji": "💸",
+      "headline": "Uzbek fintech startup Delever raises $380,000",
+      "explain": "Uzbek startup Delever raised $380,000 in an investment round, according to UzDaily.uz. The company is in fintech, which means software and services for financial transactions. The report does not give more detail on the round.",
+      "why": {
+        "text": "Adds early funding to Uzbekistan’s startup scene.",
+        "highlight": "early funding"
+      }
+    },
+    "45d5c01e0e": {
+      "emoji": "🩺",
+      "headline": "Docterz raises Rs 5 crore from doctors who use its platform",
+      "explain": "Docterz raised Rs 5 crore, with nearly 60% coming from users of its clinic software platform. The company is a health-tech startup selling software for clinics. The funding mix suggests some of its own customers are now backers.",
+      "why": {
+        "text": "Shows customer-backed funding can help software startups raise capital.",
+        "highlight": "customer-backed funding"
+      }
+    },
+    "6432c7d21b": {
+      "emoji": "🤖",
+      "headline": "Phinity Labs raises $5.2 million for AI systems that design compute",
+      "explain": "Phinity Labs, led by Sonya Jin and Aadi Nashikkar, raised $5.2 million in 2026. The startup is building tools that let AI agents design compute, meaning software that helps plan how computing resources are allocated. The report does not give more details on investors.",
+      "why": {
+        "text": "Targets the infrastructure layer behind how AI systems are built and run.",
+        "highlight": "infrastructure layer"
+      }
+    },
+    "4e1e4393d7": {
+      "emoji": "🤖",
+      "headline": "Dulo raises $130 million seed round for engineering superintelligence",
+      "explain": "Dulo raised $130 million in seed funding, a very large early-stage round. The startup says it is building engineering superintelligence, a term for AI systems aimed at advanced engineering work. The report does not provide more detail on the product or investors.",
+      "why": {
+        "text": "Shows huge early checks are still going into frontier AI startups.",
+        "highlight": "huge early checks"
+      }
+    },
+    "a7393ac399": {
+      "emoji": "📄",
+      "headline": "MeitY releases DEPA handbook for trusted data sharing in AI training",
+      "explain": "India’s Ministry of Electronics and Information Technology released a handbook on Data Empowerment and Protection Architecture, or DEPA, for AI training. The framework is meant to let institutions share data while keeping control through contracts, secure computing environments and privacy safeguards. IT Secretary S Krishnan unveiled it in Bengaluru with support from the iSPIRT Foundation.",
+      "why": {
+        "text": "Gives India a formal framework for sharing data used to train AI systems.",
+        "highlight": "formal framework"
+      }
+    },
+    "69c67636cd": {
+      "emoji": "🗳️",
+      "headline": "Tamil Nadu withdraws 65 cases against anti-NEET protesters",
+      "explain": "The Tamil Nadu government ordered withdrawal of 65 criminal cases against about 1,800 people who joined protests against NEET, the nationwide medical entrance exam run by the National Testing Agency. The protests took place between May 10 and July 31, demanding that the exam be scrapped. Chief Minister C Joseph Vijay’s government also backs moving education to the State List and using Class 12 marks for medical admissions.",
+      "why": {
+        "text": "The move ends 65 criminal cases against about 1,800 people.",
+        "highlight": "65 criminal cases"
+      }
+    },
+    "8494eda940": {
+      "emoji": "🏛️",
+      "headline": "Two Bihar Independents who won MLC polls join the BJP",
+      "explain": "Bansi Dhar Brajwasi and Rahul Raj, who won the Tirhut graduates’ and Saran teachers’ seats as Independents, joined the BJP in Patna. Rahul Raj had earlier rebelled from the BJP and beat JD(U) candidate Anand Pushkar; Brajwasi defeated JD(U)’s Abhishek Jha by 9,147 votes. The BJP said the two have given support to the NDA, while the RJD called the switch illegal.",
+      "why": {
+        "text": "The switch could raise the BJP’s strength in the Bihar legislative council from 26.",
+        "highlight": "BJP’s strength"
+      }
+    },
+    "bb8d76ba2b": {
+      "emoji": "⛽",
+      "headline": "Commercial LPG prices rise by Rs 10 ahead of Diwali",
+      "explain": "State-owned oil companies raised the price of a 19-kg commercial LPG cylinder by Rs 10, taking the Delhi rate to Rs 2,820 from November 1. The increase raises costs for hotels and restaurants; domestic LPG prices stay unchanged. Oil companies also raised aviation turbine fuel, or ATF, the jet fuel airlines buy, by Rs 1.37 per litre.",
+      "why": {
+        "text": "Restaurants and airlines face higher fuel bills, while households see no change in domestic LPG.",
+        "highlight": "higher fuel bills"
+      }
+    },
+    "6025bee53f": {
+      "emoji": "⚖️",
+      "headline": "Madhya Pradesh suspends engineer over bribery remarks",
+      "explain": "The Madhya Pradesh government suspended Panna-based Water Resources Department executive engineer C B Ahirwar after his comments about accepting money offered “willingly” went viral. The suspension came after Lokayukta police caught two department employees allegedly taking Rs 45,000 from a contractor linked to a pending bill. The order said Ahirwar’s conduct was unbecoming of a government servant and violated state service rules.",
+      "why": {
+        "text": "The suspension follows a bribery probe and puts the engineer under departmental action.",
+        "highlight": "follows a bribery probe"
+      }
+    },
+    "050f471c94": {
+      "emoji": "🌍",
+      "headline": "Iran’s Mojtaba Khamenei warns US and Israel of immediate response",
+      "explain": "Iran’s Supreme Leader Mojtaba Khamenei said Iranian forces should respond immediately to any enemy threat, “without geographic limits”. He said Iran would decide when and how any renewed conflict ends and ordered the military target list updated to include US and Israeli assets. The warning comes as regional leaders urge restraint and diplomatic efforts continue.",
+      "why": {
+        "text": "Regional leaders called for restraint and a diplomatic solution at a security forum in Bahrain.",
+        "highlight": "diplomatic solution"
+      }
+    },
+    "a02fb19324": {
+      "emoji": "🛂",
+      "headline": "US says Trump administration has revoked more than 300,000 visas",
+      "explain": "The State Department said most of the more than 300,000 visa revocations involved people no longer eligible to stay in the US because of criminal activity, public safety concerns, immigration violations or fraud. It did not break the total down by visa type or nationality. The figure is up from more than 175,000 revocations reported in August.",
+      "why": {
+        "text": "The administration is tightening visa screening and enforcing immigration laws.",
+        "highlight": "tightening visa screening"
+      }
+    },
+    "67f0fccaf8": {
+      "emoji": "⚖️",
+      "headline": "Letters demand election officials set aside ballots of possible non-citizen voters",
+      "explain": "Election officials received letters demanding that they set aside the ballots of possible non-citizen voters.",
+      "why": {
+        "text": "Election officials received letters demanding they set aside ballots of possible non-citizen voters.",
+        "highlight": "set aside ballots"
+      }
+    },
+    "245b5fb2dd": {
+      "emoji": "💱",
+      "headline": "Rupee pressure raises RBI dollar defence risks to reserves",
+      "explain": "The article says the rupee is falling as the RBI defends it with dollars, and that forex reserves fell $1.27 billion because of intervention. It frames the issue as a trade-off between supporting the currency and preserving reserves.",
+      "why": {
+        "text": "More intervention can slow rupee weakness but also drains foreign exchange reserves.",
+        "highlight": "drains foreign exchange reserves"
+      }
+    },
+    "2d94fb0c44": {
+      "emoji": "🇯🇵",
+      "headline": "Bank of Japan says inflation has hit 2%, keeping December hike in view",
+      "explain": "The Bank of Japan said inflation has hit 2% for the first time in 14.5 years, according to the headline and summary. The report says that keeps a December rate hike in play as policy focus shifts toward containing inflation. The piece frames this as a major change in the central bank’s stance.",
+      "why": {
+        "text": "A December rate increase looks more likely if the Bank of Japan keeps inflation above target.",
+        "highlight": "December rate increase"
+      }
+    },
+    "93ed782763": {
+      "emoji": "🏈",
+      "headline": "Senate takes first step to overhaul college sports system",
+      "explain": "The Senate has taken an initial step toward changing how college sports is governed, according to the headline. The article itself is not provided, so the specific changes are not available here.",
+      "why": {
+        "text": "The process moves the college sports overhaul forward in Congress.",
+        "highlight": "college sports overhaul"
+      }
+    },
+    "7f6a8e3e99": {
+      "emoji": "🧠",
+      "headline": "Therapy that reframes breakup pain shows early promise for depression",
+      "explain": "Researchers in Romania tested a two-day group therapy called cognitive evolutionary therapy, which tries to reduce self-blame by linking breakup pain and other distress to human needs for closeness and safety. In a trial of 61 adults with depressive symptoms, people in therapy improved more than a waiting list group after one week. The benefit was smaller and no longer statistically significant at three months.",
+      "why": {
+        "text": "A brief group treatment may help depressive symptoms quickly, but the effect still needs larger confirmation.",
+        "highlight": "larger confirmation"
+      }
+    },
+    "73dc0817d9": {
+      "emoji": "🧊",
+      "headline": "Study says human warming may have interrupted a new ice age",
+      "explain": "A study in Science suggests the next ice age may have started about 2,000 years ago, then been cut short by human-driven climate change. The work focuses on the Laurentide Ice Sheet and the Barnes Ice Cap in Canada, using beryllium-10 in rocks and carbon-14 in dead vegetation to reconstruct ice history. The researchers say recent summer warming reversed the cap’s growth.",
+      "why": {
+        "text": "Human warming may have altered the long natural cycle that would have pushed Earth toward another glaciation.",
+        "highlight": "altered the long natural cycle"
+      }
+    }
+  },
+  "factcheck": [
+    {
+      "item_id": "69c67636cd",
+      "note": "Removed unsupported interpretation from why."
+    },
+    {
+      "item_id": "8494eda940",
+      "note": "Replaced speculation with article-supported consequence."
+    },
+    {
+      "item_id": "050f471c94",
+      "note": "Removed unsupported risk claim from why."
+    },
+    {
+      "item_id": "a02fb19324",
+      "note": "Removed unsupported forecast about risk to visa holders."
+    },
+    {
+      "item_id": "67f0fccaf8",
+      "note": "Removed unsupported judge and Trump administration wording."
+    }
+  ],
+  "page": {
+    "tldr": [
+      {
+        "text": "Cabinet approves Semicon 2.0, adding another big pool of capital to India’s chip sector.",
+        "highlight": "Semicon 2.0"
+      },
+      {
+        "text": "Infineon pledged 1.1 billion euros for chips in Villach, expanding European manufacturing capacity.",
+        "highlight": "1.1 billion euros"
+      },
+      {
+        "text": "CapGrid, Zorit, Docterz, Phinity Labs and Dulo all raised new startup funding.",
+        "highlight": "raised new startup funding"
+      }
+    ],
+    "hero": {
+      "text": "The big picture is chip capital: more money is flowing into semiconductor capacity and supply chains. Today’s pushes came from India’s Semicon 2.0 plan and Infineon’s 1.1 billion euro commitment in Villach.",
+      "highlight": "chip capital"
+    },
+    "scoreboard": [
+      {
+        "thread_id": "t_india_semiconductor_capital_boom",
+        "line": "Cabinet approves Semicon 2.0 to expand India’s chip sector lifted chip capital."
+      },
+      {
+        "thread_id": "t_regional_chip_buildout",
+        "line": "Infineon pledges 1.1 billion euros for chips in Villach pushed Fab buildout forward."
+      }
+    ],
+    "forces": [
+      {
+        "force": "capital",
+        "line": "Capital backed both semiconductor threads today, with new public and corporate money."
+      },
+      {
+        "force": "technology",
+        "line": "Technology demand kept both chip patterns moving, from policy support to manufacturing spend."
+      }
+    ],
+    "pulse_india": "India money went to B2B manufacturing, B2B quick commerce, health tech, and AI infrastructure.",
+    "pulse_world": "Outside India, money went to Uzbek fintech and US AI startups.",
+    "dots": "India’s rate-tightening backdrop and its semiconductor capex push both show capital being steered into strategic industry even as financing stays tighter.",
+    "call": {
+      "thread_id": "t_ai_compute_capital_surge",
+      "prediction": "AI chip and model firms will keep raising unusually large funding rounds.",
+      "measure": "number of AI chip or model funding deals above $100 million",
+      "threshold": "at least 3",
+      "window_days": 60,
+      "could_fail_because": "Big rounds could slow if investors rotate away from frontier AI or valuations reset.",
+      "confidence": 63
+    },
+    "quiz": [
+      {
+        "type": "evidence",
+        "thread_id": "t_india_semiconductor_capital_boom",
+        "item_ids": [],
+        "question": "Which of today's stories is evidence for chip capital?",
+        "options": [
+          "Samsung reports a record quarter on HBM4 and AI memory",
+          "Cabinet approves Semicon 2.0 to expand India’s chip sector",
+          "US stocks close mixed as semiconductors fall and Apple hits $5 trillion"
+        ],
+        "answer_index": 1,
+        "why": "It adds government-backed capital to India’s chip sector."
+      },
+      {
+        "type": "force",
+        "thread_id": "",
+        "item_ids": [
+          "92f26d5717",
+          "a013cabb8e"
+        ],
+        "question": "Which force connects Cabinet approves Semicon 2.0 to expand India’s chip sector and Infineon pledges 1.1 billion euros for chips in Villach?",
+        "options": [
+          "capital",
+          "technology",
+          "regulation"
+        ],
+        "answer_index": 0,
+        "why": "Both stories are about money flowing into chip capacity."
+      },
+      {
+        "type": "why",
+        "thread_id": "",
+        "item_ids": [
+          "18e2b05a8e"
+        ],
+        "question": "Why does CapGrid raises Rs 50 crore to expand manufacturing into drones and data centres matter?",
+        "options": [
+          "It shows Indian policy is raising chip import taxes.",
+          "It shows consumer demand for drones is collapsing.",
+          "It shows a company moving from parts sourcing into more complex manufacturing."
+        ],
+        "answer_index": 2,
+        "why": "The round funds CapGrid’s move into more complex manufacturing."
+      }
+    ]
+  },
+  "call": {
+    "made": "2026-11-01",
+    "thread_id": "t_ai_compute_capital_surge",
+    "thread_title": "Compute cash",
+    "prediction": "AI chip and model firms will keep raising unusually large funding rounds.",
+    "measure": "number of AI chip or model funding deals above $100 million",
+    "threshold": "at least 3",
+    "could_fail_because": "Big rounds could slow if investors rotate away from frontier AI or valuations reset.",
+    "confidence": 63,
+    "review_by": "2026-12-31",
+    "verdict": null,
+    "verdict_note": ""
+  }
+}

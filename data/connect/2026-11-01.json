@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-01",
+  "backstory": [
+    {
+      "thread_id": "t_india_semiconductor_capital_boom",
+      "item_id": "65173da87d"
+    },
+    {
+      "thread_id": "t_india_semiconductor_capital_boom",
+      "item_id": "91a79df7d9"
+    },
+    {
+      "thread_id": "t_regional_chip_buildout",
+      "item_id": "65173da87d"
+    },
+    {
+      "thread_id": "t_ai_in_production_workflows",
+      "item_id": "eb9f9398b5"
+    },
+    {
+      "thread_id": "t_ai_in_production_workflows",
+      "item_id": "65633792d3"
+    },
+    {
+      "thread_id": "t_ai_compute_capital_surge",
+      "item_id": "05765e97c7"
+    },
+    {
+      "thread_id": "t_ai_compute_capital_surge",
+      "item_id": "73bc5e9ebc"
+    },
+    {
+      "thread_id": "t_embodied_ai_hardware_funding",
+      "item_id": "373169dcaa"
+    }
+  ],
+  "throwbacks": [
+    {
+      "item_id": "92f26d5717",
+      "kind": "same_pattern",
+      "line": "Odisha pitched five chip projects worth over $4 billion; today Cabinet approved Rs 1.27 lakh crore Semicon 2.0.",
+      "past": {
+        "id": "65173da87d",
+        "date": "2026-10-30",
+        "title": "Odisha eyes semiconductor push with five projects worth over $4 billion",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcDRVVTVWa2hYNHN0eGZ5UFgwNTVNT2lmcld3cXZYWFA1QXE2Wll5aHl3QnIzZ3RJRlNFWHVVS2FRYmZaRER2bThCSTFUMHVtMC1fZlZpcEo5WTZvUlNLdGx3X3Y3eDM3azlZVGRGYndIY1VwZnNlMnpQd2Nkc3c1SV9JakEwb281Q2ZIMHZaTl9KQVJ2R3FZcVFuTlk3OTVUWHBzVDhYQndPeGVodWlrNnFEbHd6SWdoTkE4bEFzanVqQlBUbWRHdE5mMGdId2d1Y0l3T1dzSkpQVExpZ3fSAeMBQVVfeXFMTjJKZDBFV2NtMjFZMzJzSzFVT002T196WTNMT2wyRUtWOWk2STYzNW92RjNyYnJfN1pNck5JMGl3cWVqXzdtTkF0MkNtMWRZSWNMNjdrWnhtSmNuZWhFSXlnR1ZUSENUQjU4anp6dVRYNDNZODlSVkIzYloweEFnNGc0V1B6MGtWVUZLSW1mQjN2N3c2RlNDZWZOOERiVGJzaDUycUlyeGtuaVhldXM2Y3RDSGhnbXMyMjliVG1zNVQ3MURiUVVSbjN2NS1kX3o1dl9QN01KS1FqSl95cWtMS1Jpb1E?oc=5",
+        "source": "Business Standard",
+        "section": "tech"
+      }
+    },
+    {
+      "item_id": "a013cabb8e",
+      "kind": "same_pattern",
+      "line": "Komori said it was strengthening semiconductor manufacturing; today Infineon committed 1.1 billion euros in Villach.",
+      "past": {
+        "id": "91a79df7d9",
+        "date": "2026-10-28",
+        "title": "Komori Strengthens Business Foundation in Semiconductor Manufacturing Sector",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zT1kxWHNuNnVkejZJZlAxNDZycEpsTmZYekVINTc0dklZcVQycGZNOS1vT0FSYnR6dndpTWt0ZlYzODQ5cHV6Q3JqYVBtaW1POU9iRFJfTk5XelR0NDM0ZVNWdVNQVkV1LTJDSmRIUlBzallBTkoydmVxTQ?oc=5",
+        "source": "The Cannata Report -",
+        "section": "tech"
+      }
+    },
+    {
+      "item_id": "ede8f92814",
+      "kind": "sequel",
+      "line": "Last week markets rallied on Jio Platforms IPO frenzy; today Jio reported first post-listing results and higher ARPU.",
+      "past": {
+        "id": "286c2456cf",
+        "date": "2026-10-30",
+        "title": "Markets hit 6-month high in Oct on IT rally, Jio Platforms IPO frenzy",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdXZHZEdOTVJWWHBOLXZXb2NuTDlvY1RUMk5Ld2ozdTZ5UnRubVkyTk11YlQ2WkVZMmhncnBsQ0prdHlQbHUtQjlDMlNlVGdwSmVyMFdjWWNqc3lLalpvek9Bd2d5MnFHZTJRM0p5TlMwdmRicFVmMzcwb2NYZkpFRXM5czY3S2hMSnhyb2lMX2hQeFZ3ODNZckk3Nkk0MlM4d2s1U1hBVGxhOVdHYS1oamhGMFVCYWtuUm95WjM1M2N4MG92M3lhcXBJYjVlM0920gHWAUFVX3lxTE03MVNYWWtyQjllRDNNR2VtWHZrNVl3aHYyTnBWeS1tc1Y4Z2pzRWU2c0EyNUprd3ZVM0tEalJnUi15SUVsYm5kNzNOZzloRlZ5Mld6NWwzNVhObUR5WC1GUnFZTmdoWjlTY2M3M3J0YXhDR1hfbXFMM3UtRVZVcWtad1RxaWlEY0FWVFRLTVdXZlduWkNzN3lVMTU3akYyZUlUUmduVEZHU2NROGg1TFBLYlkycVY1M01iSG1qR3ZOaWZMR2ZDdlBFdWNETWVfU19jNTY2TWc?oc=5",
+        "source": "Business Standard",
+        "section": "markets"
+      }
+    },
+    {
+      "item_id": "245b5fb2dd",
+      "kind": "cause",
+      "line": "Forex reserves fell $1.27 billion on RBI intervention; today the rupee is falling as the bank defends it with dollars.",
+      "past": {
+        "id": "d44f4310d0",
+        "date": "2026-10-30",
+        "title": "Forex Reserves Dip by $1.27 Billion, Experts Cite FCNR(B) Deployment & RBI Intervention",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd0duNUN0M2tkYUl6VTdlNE14bF9WTDNic0dnTG9KcTZCRTRlN1dJb0M5SUpkdzdORkFBaEo5WnFwLWJTOTF2UWdPSkMtV0NILURIVzRPaHdvenNFbUNXa2dPeHBJdU9sTzhRVk93ZWJoQmptMzdpNV8xZm9CVU9xaEJHU1V5UzZyUHJBNWVmS0Itbmx0VnhaNU56a3g2bU9VTGdhbW5MS0NnajBiS3FMOFN6dWphUdIBuAFBVV95cUxOUjEtR1V2Y19GV0k3MmRfNkpsZDRsdGd1aHludk9ZTkg4NUFNcFVUTDFrUEpmTm4tNXBJbm9xM3ZxTU5nblVjc1Y4d1JuZTdtelJKY2FsQ1FhQUUwZU1PTTZGMjAyYmZVNlVKZXFSU0syX3A4TEJZMU1IVGhOamxOQ2xFRW11bXQ0X1QwUEthbWJnWjRXOERTcE84ZnQ1aFBiX1JjVTFXbUx0OFJwT2x4SXJ5S1hpWmpm?oc=5",
+        "source": "Rediff",
+        "section": "markets"
+      }
+    },
+    {
+      "item_id": "2d94fb0c44",
+      "kind": "sequel",
+      "line": "Last week the BoJ said 2% inflation strengthened hike odds; today it says inflation has hit 2% and a December hike is likely.",
+      "past": {
+        "id": "1a8472f8dd",
+        "date": "2026-10-30",
+        "title": "Bank of Japan Signals 2% Inflation Target Achieved, Strengthening Case for Further Rate Hikes",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcW13MGdyNG92aFpPMGxKVGk0T3hfRFVIMnRNVDlBLXVITExxd29HSDE2STAyMmRlQWdNRWFtQWZOTjBFWDVncWRRMUdYaElLWjdhZzQyNlBkekhZZkJjeUxCNXZFNjdzMkQ1eGNYdllxQ0FzZUZMZHQxRGNRdkYxM29ZbjQ0RUlaZGdYNUpnSDRQcld5bS1RbnpxOEl2SjB5OEpKNVRnVERpM3pxcEtrV3R0MWE0STQ?oc=5",
+        "source": "Tekedia",
+        "section": "markets"
+      }
+    }
+  ]
+}
